@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack","multiply": 1.1 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.1 }
+	],
+	"auraName": "Military Knowledge",
+	"auraDescription": "All melee units +10% damage.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

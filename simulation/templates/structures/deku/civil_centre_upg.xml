@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Attack>
+    <Ranged>
+      <AttackName>Deku Nut</AttackName>
+      <Damage>
+        <Crush>5</Crush>
+      </Damage>
+      <MaxRange>90</MaxRange>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Projectile>
+        <Speed>100</Speed>
+        <Spread>1.5</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="0"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <wood>500</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square depth="150.0" width="41.0"/>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_huge</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <History>A Large Encampment set up by Deku Scrubs, serving as a base of operations in this region. Its presence likely indicates that the Scrubs plan to build a foothold in this region.</History>
+    <Icon>structures/deku/dek_encampment.dds</Icon>
+    <SpecificName>Large Encampment</SpecificName>
+  </Identity>
+  <Loot>
+    <wood>200</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Obstructions>
+      <Back depth="8" width="8" x="-15" z="-42"/>
+      <Front depth="8" width="8" x="15" z="-42"/>
+      <Left depth="8" width="8" x="15" z="-72"/>
+      <Right depth="8" width="8" x="-15" z="-72"/>
+      <Center depth="16" width="18" x="0" z="-56"/>
+      <BackA depth="8" width="8" x="-15" z="-4"/>
+      <FrontA depth="8" width="8" x="15" z="-4"/>
+      <LeftA depth="16" width="16" x="12" z="-34"/>
+      <RightA depth="16" width="16" x="-12" z="-34"/>
+      <CenterA depth="6" width="6" x="0" z="-15"/>
+      <BackB depth="8" width="8" x="-15" z="32"/>
+      <FrontB depth="8" width="8" x="15" z="32"/>
+      <LeftB depth="8" width="8" x="15" z="3"/>
+      <RightB depth="8" width="8" x="-15" z="3"/>
+    </Obstructions>
+    <Static disable=""/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/deku/complete_civ_center_deku.xml</constructed>
+      <select>interface/select/building/deku/sel_civ_center_deku.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>13.8</X>
+        <Y>10.6</Y>
+        <Z>31.25</Z>
+      </Archer1>
+      <Archer2>
+        <X>-13.8</X>
+        <Y>10.6</Y>
+        <Z>31.25</Z>
+      </Archer2>
+      <Archer3>
+        <X>13.8</X>
+        <Y>10.6</Y>
+        <Z>3</Z>
+      </Archer3>
+      <Archer4>
+        <X>-13.8</X>
+        <Y>10.6</Y>
+        <Z>3</Z>
+      </Archer4>
+      <Archer5>
+        <X>14.5</X>
+        <Y>13</Y>
+        <Z>-41</Z>
+      </Archer5>
+      <Archer6>
+        <X>-14.5</X>
+        <Y>13</Y>
+        <Z>-41</Z>
+      </Archer6>
+      <Archer7>
+        <X>14.5</X>
+        <Y>13</Y>
+        <Z>-70.5</Z>
+      </Archer7>
+      <Archer8>
+        <X>-14.5</X>
+        <Y>13</Y>
+        <Z>-70.5</Z>
+      </Archer8>
+    </TurretPoints>
+  </TurretHolder>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/deku/infantry_spearman_b
+      units/deku/deku_swordling_b
+      units/deku/infantry_archer_b
+      units/deku/deku_hero_dekubutler
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/deku/civic_centre.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

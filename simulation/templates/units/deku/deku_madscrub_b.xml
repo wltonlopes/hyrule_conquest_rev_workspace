@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Deku Nuts</AttackName>
+      <Damage>
+        <Crush>8</Crush>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>50</MaxRange>
+      <MinRange>10.0</MinRange>
+      <PrepareTime>1000</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.0</Spread>
+      </Projectile>
+      <RepeatTime>1200</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>200</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.075</EjectHealth>
+    <List datatype="tokens">BabaCanRide</List>
+    <LoadingRange>6</LoadingRange>
+    <Max>1</Max>
+  </GarrisonHolder>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>2.6</Y>
+        <Z>-0.15</Z>
+      </Archer1>
+    </TurretPoints>
+  </TurretHolder>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Mad Scrub</SpecificName>
+    <History>A very angry scrub, Mad Scrubs are tasked with defending the Royal Deku Family. Shooting out Deku Nuts much faster and harder than Scrublings, Mad Scrubs are feared by the other Deku for their tendency to start a fight at any slight, real or percived. It is rumored that Mad Scrubs are the result of Mad Scrub, a disease that is so rare it's existence has not been proved.</History>
+    <Tooltip>Tiny Missile unit that spots out Deku Nuts at their targets.</Tooltip>
+    <Icon>units/deku/dek_madscrub.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>5.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/natural/dekuscrub_spit.xml</attack_ranged>
+      <build>resource/construction/con_wood.xml</build>
+      <death>voice/deku/scrubA/scrubA_death.xml</death>
+      <order_attack>voice/deku/scrubA/scrubA_attack.xml</order_attack>
+      <order_build>voice/deku/scrubA/scrubA_repair.xml</order_build>
+      <order_garrison>voice/deku/scrubA/scrubA_garrison.xml</order_garrison>
+      <order_gather>voice/deku/scrubA/scrubA_gather.xml</order_gather>
+      <order_repair>voice/deku/scrubA/scrubA_repair.xml</order_repair>
+      <order_walk>voice/deku/scrubA/scrubA_walk.xml</order_walk>
+      <run>actor/movement/dekuscrub/scrub_hopA.xml</run>
+      <select>voice/deku/scrubA/scrubA_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/dekuscrub/scrub_hopA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.5384</RunMultiplier>
+    <WalkSpeed>15.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/deku/deku_madscrub_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <AIProxy/>
+  <Cost disable=""/>
+  <Decay disable=""/>
+  <Footprint>
+    <Circle radius="1"/>
+    <Height>1</Height>
+  </Footprint>
+  <Guard/>
+  <Health disable=""/>
+  <Identity>
+    <Civ>gaia</Civ>
+    <Classes datatype="tokens">Geology -Unit -Organic -ConquestCritical</Classes>
+    <GenericName>Geology</GenericName>
+    <Phenotype disable=""/>
+    <Undeletable>true</Undeletable>
+  </Identity>
+  <Looter/>
+  <Minimap disable=""/>
+  <Obstruction>
+    <Unit/>
+    <Active>true</Active>
+    <BlockMovement>true</BlockMovement>
+    <BlockPathfinding>false</BlockPathfinding>
+    <BlockFoundation>true</BlockFoundation>
+    <BlockConstruction>true</BlockConstruction>
+    <DisableBlockMovement>false</DisableBlockMovement>
+    <DisableBlockPathfinding>false</DisableBlockPathfinding>
+    <DeleteUponConstruction>false</DeleteUponConstruction>
+  </Obstruction>
+  <OverlayRenderer/>
+  <Ownership/>
+  <Position>
+    <Altitude>0</Altitude>
+    <Anchor>pitch</Anchor>
+    <Floating>false</Floating>
+    <FloatDepth>0.0</FloatDepth>
+    <TurnRate>14</TurnRate>
+  </Position>
+  <RangeOverlayManager/>
+  <RangeOverlayRenderer/>
+  <Resistance disable=""/>
+  <Selectable disable=""/>
+  <Sound disable=""/>
+  <StatusBars disable=""/>
+  <StatusEffectsReceiver/>
+  <TreasureCollector disable=""/>
+  <UnitAI disable=""/>
+  <UnitMotion disable=""/>
+  <Visibility>
+    <RetainInFog>false</RetainInFog>
+    <AlwaysVisible>false</AlwaysVisible>
+    <Corpse>false</Corpse>
+    <Preview>false</Preview>
+  </Visibility>
+  <Vision disable=""/>
+  <VisionSharing disable=""/>
+  <VisualActor>
+    <SilhouetteDisplay>true</SilhouetteDisplay>
+    <SilhouetteOccluder>false</SilhouetteOccluder>
+    <VisibleInAtlasOnly>false</VisibleInAtlasOnly>
+  </VisualActor>
+</Entity>

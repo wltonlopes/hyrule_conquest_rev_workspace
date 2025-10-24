@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_auxiliary">
+  <Attack>
+    <Ranged>
+      <AttackName>Beehives</AttackName>
+      <Damage>
+        <Pierce>10.0</Pierce>
+      </Damage>
+      <MaxRange>45.0</MaxRange>
+      <MinRange>15.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1700</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/beehive_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.3</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>50.5</Speed>
+        <Spread>1.8</Spread>
+      </Projectile>
+      <RepeatTime>2100</RepeatTime>
+      <SpawnEntityOnImpact>
+        <OwnerID>0</OwnerID>
+        <SpawnNumberMax>1</SpawnNumberMax>
+        <SpawnNumberMin>1</SpawnNumberMin>
+        <SpawnOnHit>
+          <Chance>100</Chance>
+          <SpawnAtTarget>true</SpawnAtTarget>
+        </SpawnOnHit>
+        <SpawnOnImpact>
+          <Chance>100</Chance>
+        </SpawnOnImpact>
+        <Template>gaia/fauna_beeswarm</Template>
+      </SpawnEntityOnImpact>
+      <Splash>
+        <Damage>
+          <Pierce>10.0</Pierce>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>8</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Auras datatype="tokens">
+    units/beekeeper_honey_1
+  units/beekeeper_honey_2
+  </Auras>
+
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>210</Max>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">Medium Class80 Beekeeper CanGarrison</Classes>
+    <GenericName>Beekeeper</GenericName>
+    <History>Honey is a very profitable industry in Ordona, which during the spring seems to be a hotbed of activity for Hyrule's bees. Beekeepers are able to garrison within an Apiary to generate Food (and later Rupees) for Ordona Province. They can also carry sealed gourds full of angry bees, which they toss into a crowd of attacking enemies.</History>
+    <Icon>units/ordona/ord_beekeeper.dds</Icon>
+    <Lang>ordona</Lang>
+    <Rank>Basic</Rank>
+    <SelectionGroupName>units/ordona/ordona_shepherd_b</SelectionGroupName>
+    <Tooltip>Support unit that tosses Beehives at enemies, summoning swarms of the insects to attack.</Tooltip>
+    <VisibleClasses datatype="tokens">Support</VisibleClasses>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>25.0</Crush>
+        <Hack>5.0</Hack>
+        <Pierce>5.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/natural/beehive_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/beehive_throw.xml</attack_ranged>
+      <death>voice/ordona/beekeeper/beekeeper_death.xml</death>
+      <order_attack>voice/ordona/beekeeper/beekeeper_attack.xml</order_attack>
+      <order_garrison>voice/ordona/beekeeper/beekeeper_garrison.xml</order_garrison>
+      <order_gather>voice/ordona/beekeeper/beekeeper_gather.xml</order_gather>
+      <order_repair>voice/ordona/beekeeper/beekeeper_repair.xml</order_repair>
+      <order_walk>voice/ordona/beekeeper/beekeeper_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/ordona/beekeeper/beekeeper_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/ordona/ordona_beekeeper_b.xml</Actor>
+  </VisualActor>
+</Entity>
+

@@ -1,0 +1,41 @@
+<Entity parent="template_structure_resource_field">
+  <Cost>
+    <BuildTime>45</BuildTime>
+    <Resources>
+      
+      
+      
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">Field</Classes>
+    <GenericName>Field</GenericName>
+    <History>A vast majority of the gentle plains across Ordona Province were covered in rich and fertile farmland. The lowest members of Ordonian society labored over these lands to feed their families and pay tribute to their local Fief Lords. Pumpkins were perhaps Ordona's most famous crop, though many things were grown in their homeland.</History>
+    <Icon>structures/ordona/ord_field.dds</Icon>
+    <Tooltip>Grows Food that can be harvested by Worker units.</Tooltip>
+    <VisibleClasses datatype="tokens">Economic</VisibleClasses>
+  </Identity>
+  <ResourceTrickle>
+    <Interval>2000</Interval>
+    <Rates>
+      
+      
+      
+      <metal>3.0</metal>
+    </Rates>
+  </ResourceTrickle>
+  <TerritoryInfluence>
+    <Radius>35</Radius>
+    <Root>false</Root>
+    <Weight>10000</Weight>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_field_pumpkin.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

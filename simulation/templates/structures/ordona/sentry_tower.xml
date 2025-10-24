@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense">
+  <BuildRestrictions>
+    <Category>DefenseTower</Category>
+    <Distance>
+      <FromClass>DefenseTower</FromClass>
+      <MinDistance>60</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>15.0</Height>
+    <Square depth="10.0" width="10.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">Medium Small LargeGarrison</List>
+  </GarrisonHolder>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>rubble/debris_ordona_tiny</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">Hawksentry RangerWatches LiteDefenseTower</Classes>
+    <GenericName>Border Post</GenericName>
+    <History>Border Posts dot the western and eastern borders of the Province, watching and warning of all incoming threats to the nation.</History>
+    <Icon>structures/ordona/ord_borderpost.dds</Icon>
+    <Tooltip>Small Tower that can detect Camouflaged and Stealthed units.</Tooltip>
+    <VisibleClasses datatype="tokens">Tower</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="7.5" width="7.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <StatusBars>
+    <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>19.0</HeightOffset>
+  </StatusBars>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_hawk_b2
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>2</X>
+        <Y>16.2</Y>
+        <Z>0</Z>
+      </Archer1>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_towerA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldI.xml</FoundationActor>
+  </VisualActor>
+</Entity>

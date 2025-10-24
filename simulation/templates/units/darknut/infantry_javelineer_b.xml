@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Attack>
+    <Ranged>
+      <AttackName>Javelin</AttackName>
+      <Damage>
+        <Pierce>15</Pierce>
+      </Damage>
+      <MaxRange>70</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>800</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>1200</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>25</wood>
+      <stone>0</stone>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <Civ>darknut</Civ>
+    <History>Ranged combat was expressly forbidden to any warrior who joined the Legion. Luckily, the civilian run garrisons and armies had no such taboo against attacking enemies from a distance. Peltast men and women were trained in lobbing javelins from incredible distances, serving as a powerful skirmisher.</History>
+    <SelectionGroupName>units/darknut/infantry_javelineer_b</SelectionGroupName>
+    <SpecificName>Peltast</SpecificName>
+    <Tooltip>Missile unit that tosses Javelins at enemies from a distance.</Tooltip>
+    <Icon>units/darknut/dar_peltast.dds</Icon>
+  </Identity>
+  <Promotion>
+    <RequiredXp>500</RequiredXp>
+    <Entity>units/darknut/infantry_javelineer_a</Entity>
+  </Promotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>7.5</Hack>
+        <Pierce>5.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/javelin_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/javelin_toss.xml</attack_ranged>
+      <death>voice/darknut/unarmored/unarmored_death.xml</death>
+      <order_attack>voice/darknut/unarmored/unarmored_attack.xml</order_attack>
+      <order_garrison>voice/darknut/unarmored/unarmored_garrison.xml</order_garrison>
+      <order_gather>voice/darknut/unarmored/unarmored_gather.xml</order_gather>
+      <order_repair>voice/darknut/unarmored/unarmored_repair.xml</order_repair>
+      <order_walk>voice/darknut/unarmored/unarmored_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/darknut/unarmored/unarmored_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>6.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/darknut/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_stone">
+  <Attack replace="">
+    <Ranged>
+      <AttackName>Deku Seeds</AttackName>
+      <Damage>
+        <Crush>3.5</Crush>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>90</MaxRange>
+      <MinRange>10.0</MinRange>
+      <PrepareTime>1200</PrepareTime>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>5</DefaultArrowCount>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+  </BuildingAI>
+  <Footprint>
+    <Square width="20.0" depth="20.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>75</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_small</SpawnEntityOnDeath>
+  </Health>
+  <GarrisonHolder disable=""/>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Watch Tower</SpecificName>
+    <History>A small tower manned by Slingshotters, scores of these posts are often placed around the edge of a grove, giving them a means of defending themselves from outsiders.</History>
+    <Icon>structures/kokiri/kok_watchtower.dds</Icon>
+    <Tooltip>Defensive Tower manned by Slingshotters.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="15.0" depth="15.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      tower_watch
+      -tower_crenellations
+      -tower_range
+      -tower_murderholes
+      tower_health
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/slingshot.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>19.0</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>-1.5</X>
+        <Y>12.7</Y>
+        <Z>2</Z>
+      </Archer1>
+      <Archer2>
+        <X>1.7</X>
+        <Y>12.7</Y>
+        <Z>2</Z>
+      </Archer2>
+      <Archer3>
+        <X>-2.8</X>
+        <Y>12.7</Y>
+        <Z>-1</Z>
+      </Archer3>
+      <Archer4>
+        <X>-1.7</X>
+        <Y>12.7</Y>
+        <Z>-3</Z>
+      </Archer4>
+      <Archer5>
+        <X>0.5</X>
+        <Y>12.7</Y>
+        <Z>-3</Z>
+      </Archer5>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/kokiri/watchtower.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+</Entity>

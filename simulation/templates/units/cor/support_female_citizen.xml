@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>25</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.075</EjectHealth>
+    <List datatype="tokens">BabaCanRide</List>
+    <LoadingRange>6</LoadingRange>
+    <Max>1</Max>
+  </GarrisonHolder>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>2.6</Y>
+        <Z>-0.15</Z>
+      </Archer1>
+    </TurretPoints>
+  </TurretHolder>
+  <Health>
+    <Max>25</Max>
+  </Health>
+  <Identity>
+    <Civ>cor</Civ>
+    <SpecificName>Peon</SpecificName>
+    <GenericName>Corrupted Worker</GenericName>
+    <History>Completely mindless individuals, Peons are essentially slaves, and are treated as such. Those Corrupted with any intelligance at all use them to build structures and harvest reources, while the rest abuse and sometimes kill these workers, just for fun.</History>
+    <Icon>units/deku/dek_underling.dds</Icon>
+    <Tooltip>Worker unit: can gather all resources and construct buildings for the Corrupted Scrubs.</Tooltip>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/weapon/sword.xml</attack>
+      <build>resource/construction/con_wood.xml</build>
+      <death>voice/deku/underling/underling_death.xml</death>
+      <order_attack>voice/deku/underling/underling_attack.xml</order_attack>
+      <order_build>voice/deku/underling/underling_repair.xml</order_build>
+      <order_garrison>voice/deku/underling/underling_garrison.xml</order_garrison>
+      <order_gather>voice/deku/underling/underling_gather.xml</order_gather>
+      <order_repair>voice/deku/underling/underling_repair.xml</order_repair>
+      <order_walk>voice/deku/underling/underling_walk.xml</order_walk>
+      <run>actor/movement/dekuscrub/scrub_hopA.xml</run>
+      <select>voice/deku/underling/underling_select.xml</select>
+      <trained>interface/alarm/alarm_create_worker.xml</trained>
+      <walk>actor/movement/dekuscrub/scrub_hopA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/cor/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

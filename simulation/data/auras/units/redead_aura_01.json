@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 15,
+	"affects": ["Organic"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Attack/Melee/RepeatTime", "multiply": 20 },
+		{ "value": "Attack/Range/RepeatTime", "multiply": 20 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.01 }
+	],
+	"auraName": "Chilling Scream",
+	"auraDescription": "(-99% Movement and -Attack Speed - All Organic targets)",
+	"overlayIcon": "art/textures/ui/session/auras/redead_aura_01.dds"
+}

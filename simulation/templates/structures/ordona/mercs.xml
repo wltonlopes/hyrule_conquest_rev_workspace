@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civilian">
+  <BuildRestrictions>
+    <Category>Barracks</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <metal>400</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="20.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>rubble/debris_ordona_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <AIBuild>
+      <MaxCopies>1</MaxCopies>
+      <MinPop>60</MinPop>
+    </AIBuild>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">Town OrdTavern</Classes>
+    <GenericName>Tavern</GenericName>
+    <History>Allows Ordona Province to hire Mercenary units.</History>
+    <Icon>structures/ordona/ord_tavern.dds</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Ordonians brewed quite a few strong brands of ale and mead and were famous throughout Hyrule for it. Many travellers would pass through the Province just to sample and partake at the parties that unfolded at these jovial (and often drunken) halls.</Tooltip>
+    <VisibleClasses datatype="tokens">Barracks</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="35.0" width="35.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <ResourceTrickle>
+    <Interval>2000</Interval>
+    <Rates>
+      <metal>0.0</metal>
+    </Rates>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_mercs.xml</constructed>
+      <select>interface/select/building/sel_mercs.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+    units/ordona/{civ}_drunkard_b
+    units/ordona/{civ}_theresistance_b
+      units/merc_forestthief_b
+    units/merc_pikku_b
+    units/merc_mago_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_tavernA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>

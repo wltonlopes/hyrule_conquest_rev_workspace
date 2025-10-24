@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_elephant_melee">
+  <Attack replace="">
+    <Ranged>
+      <AttackName>Horn</AttackName>
+      <Damage>
+        <Crush>90.0</Crush>
+      </Damage>
+      <MaxRange>12.0</MaxRange>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>1700</RepeatTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <Splash>
+        <Damage>
+          <Crush>90.0</Crush>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>6</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>60</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>800</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="12.0" />
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>840</Max>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <GenericName>Siege Creature</GenericName>
+    <SpecificName>Giant Orhat Beetle</SpecificName>
+    <History>When allowed to grow well into adulthood, the Orhat beetles reach a towering size and develop a thick and hardy exoskeleton. While such an adult is impossible to domesticate in the wild, Deku Scrubs who raised them since youth have no trouble riding and directing these giant insects in battle. Giant Orhats are used as living battering rams and they can be upgraded with a carrying platform on their backs to ferry Deku Scrubs around.</History>
+    <Tooltip>Giant Siege Creature that rips apart targets with its huge horn.</Tooltip>
+    <Icon>units/deku/dek_orhatgiant.dds</Icon>
+    <VisibleClasses datatype="tokens">Siege Creature Beetle -Elephant</VisibleClasses>
+  </Identity>
+  <Upgrade>
+    <Centurion>
+      <Entity>units/deku/deku_orhatgiant_upg</Entity>
+      <Tooltip>Add a platform to this beetle.</Tooltip>
+      <Cost>
+        <wood>50</wood>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>12</Time>
+    </Centurion>
+  </Upgrade>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>50.0</Crush>
+        <Hack>18.0</Hack>
+        <Pierce>50.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/natural/orhatgiant_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/natural/orhatgiant_swing.xml</attack_ranged>
+      <death>voice/deku/orhat_giant/orhat_giant_death.xml</death>
+      <order_attack>voice/deku/orhat_giant/orhat_giant_attack.xml</order_attack>
+      <order_garrison>voice/deku/orhat_giant/orhat_giant_garrison.xml</order_garrison>
+      <order_gather>voice/deku/orhat_giant/orhat_giant_gather.xml</order_gather>
+      <order_repair>voice/deku/orhat_giant/orhat_giant_repair.xml</order_repair>
+      <order_walk>voice/deku/orhat_giant/orhat_giant_walk.xml</order_walk>
+      <run>actor/movement/orhat/orhatgiant_walk.xml</run>
+      <select>voice/deku/orhat_giant/orhat_giant_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <walk>actor/movement/orhat/orhatgiant_walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>huge</PassabilityClass>
+    <RunMultiplier>1.8461</RunMultiplier>
+    <WalkSpeed>6.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/deku/deku_orhatgiant_b.xml</Actor>
+  </VisualActor>
+</Entity>

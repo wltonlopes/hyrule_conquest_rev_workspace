@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Kokiri Wall</SpecificName>
+    <History>The wooden Kokiri walls were durable enough and served them well keeping out invaders.</History>
+    <Icon>structures/kokiri/kok_wall.dds</Icon>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/kokiri/wall_tower</Tower>
+      <Gate>structures/kokiri/wall_gate</Gate>
+      <WallLong>structures/kokiri/wall_long</WallLong>
+      <WallMedium>structures/kokiri/wall_medium</WallMedium>
+      <WallShort>structures/kokiri/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

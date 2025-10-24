@@ -1,0 +1,7 @@
+{
+  "name": "Hyrule Bot",
+  "description": "Hyrule Bot is a custom bot for the mod. It currently is simply more histrically balanced, but in the future will be custom to the mod.\n\nThe AI's resource gathering rate and trade gain depend on the difficulty level (Sandbox −58%, Very Easy −44%, Easy −25%, Medium ±0%, Hard +25%, Very Hard +56%). The easiest levels also have a slower research, training, and building rate. In addition, the Sandbox level does not expand nor attack.",
+  "moduleName" : "HYRULE",
+  "constructor": "HyruleBot",
+  "useShared": true
+}

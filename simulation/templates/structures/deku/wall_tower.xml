@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_tower">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>48</BuildTime>
+    <Resources>
+      <wood>8</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="12.5" depth="12.5"/>
+    <Height>18</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/debris_deku_tiny</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Encampment Wall Tower</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="9.5" depth="9.5"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>20</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/deku/wall_tower.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>9.5</Length>
+  </WallPiece>
+  <Upgrade>
+    <BuildingA>
+      <Cost>
+        <wood>100</wood>
+      </Cost>
+      <Entity>structures/deku/defense_tower</Entity>
+      <Time>45</Time>
+      <Tooltip>Upgrade this post to a tower and man with Scrublings.</Tooltip>
+      <Variant>upgrading_tower</Variant>
+    </BuildingA>  
+  </Upgrade>   
+</Entity>

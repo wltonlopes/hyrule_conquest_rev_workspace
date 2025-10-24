@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint>
+    <Square width="81.0" depth="81.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>8000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_wonderA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Wooded Temple</SpecificName>
+    <History>A large and ancient Temple in the Picorou Woods. The Scrubs claim to have built it in ages past, but despite their iconagraphy carved into it's stone the design has little resemblence to their civilization. The massive temple is home to many Orhat Beetle nests and the structure seems to have sunken into the ground since its construction.</History>
+    <Icon>structures/deku/dek_woodedtemple.dds</Icon>
+    <Tooltip>The Deku Scrub Wonder, allows you to summon Stagnox.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="80.0" depth="80.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/deku/deku_titan_stagnox
+    </Entities>
+  </Trainer>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/deku/complete_woodtemple.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/deku/sel_woodtemple.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <FoundationActor>structures/deku/deku_scaffoldD.xml</FoundationActor>
+    <Actor>structures/deku/wonder.xml</Actor>
+  </VisualActor>
+</Entity>

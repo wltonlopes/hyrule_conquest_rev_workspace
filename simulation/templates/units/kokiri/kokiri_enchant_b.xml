@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Forest Whirlwind</AttackName>
+      <Damage>
+        <Forest>10.0</Forest>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>50.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <ImpactActorName>particle/kokiri_enchant.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+        <Gravity>0.0</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>100.0</Speed>
+        <Spread>0.0</Spread>
+      </Projectile>
+      <Splash>
+        <Damage>
+          <Forest>10.0</Forest>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>20</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Heal>
+    <Range>50</Range>
+    <RangeOverlay>
+      <LineTexture>heal_overlay_range.png</LineTexture>
+      <LineTextureMask>heal_overlay_range_mask.png</LineTextureMask>
+      <LineThickness>0.35</LineThickness>
+    </RangeOverlay>
+    <Health>5</Health>
+    <Interval>2000</Interval>
+    <UnhealableClasses datatype="tokens"/>
+    <HealableClasses datatype="tokens">Human</HealableClasses>
+  </Heal>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Enchantress</SpecificName>
+    <GenericName>Mage</GenericName>
+    <History>With the large area covered by their spells, a group of enchantresses can lay waste to an army before they even get within striking range. Though primarily fighters, enchantresses will heal injured allies whenever they can.</History>
+    <Tooltip>Mage unit that deals Forest damage over a wide area. Can also heal units.</Tooltip>
+    <Icon>units/kokiri/kok_enchantress.dds</Icon>
+    <VisibleClasses datatype="tokens">Mage</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>4.0</Pierce>
+        <Forest>35.0</Forest>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x128/ellipse.png</MainTexture>
+        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/magic/greatfairy_fire.xml</attack_ranged>
+      <death>voice/kokiri/enchantress/enchantress_death.xml</death>
+      <order_attack>voice/kokiri/enchantress/enchantress_attack.xml</order_attack>
+      <order_garrison>voice/kokiri/enchantress/enchantress_garrison.xml</order_garrison>
+      <order_gather>voice/kokiri/enchantress/enchantress_gather.xml</order_gather>
+      <order_repair>voice/kokiri/enchantress/enchantress_repair.xml</order_repair>
+      <order_walk>voice/kokiri/enchantress/enchantress_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/kokiri/enchantress/enchantress_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>aggressive</DefaultStance>
+  </UnitAI>
+  <VisualActor>
+    <Actor>units/kokiri/kokiri_enchant_b.xml</Actor>
+  </VisualActor>
+</Entity>

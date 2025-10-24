@@ -1,0 +1,7 @@
+{
+	"Name": "navi",
+	"Data": {
+		"Action": "researchTechnology",
+		"DefaultParameter": ""
+	}
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>darknut</Civ>
+    <GenericName>Darknuts</GenericName>
+    <History>"The Darknut Leigon.",</History>
+    <Icon>emblems/emblem_darknut.dds</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+      special/formations/testudo
+      special/formations/phalanx
+      special/formations/anti_cavalry
+      special/formations/syntagma
+    </Formations>
+  </Player>
+</Entity>

@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Organic"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Vision/Range", "add": -200 }
+	],
+	"auraName": "Tune of the Lost Woods",
+	"auraDescription": "(Removes vision range of all enemy units within range)",
+	"overlayIcon": "art/textures/ui/session/auras/fado_sariasong.dds"
+}

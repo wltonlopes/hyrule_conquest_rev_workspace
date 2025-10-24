@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Sword</AttackName>
+      <Damage>
+        <Hack>8</Hack>
+        <Pierce>2.0</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+    </Melee>
+  </Attack>
+  <Footprint replace="">
+    <Circle radius="1.5"/>
+    <Height>4.0</Height>
+  </Footprint>
+  <Health>
+    <Max>60</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <VisibleClasses datatype="tokens">Undead</VisibleClasses>
+    <SpecificName>Staltroop</SpecificName>
+    <GenericName>Undead</GenericName>
+    <History>Scores of these infantry served as the primary warrior deployed by the Kingdom of Hyrule. Funded by the Royal family, these soldiers had basic combat training and were provided with standardized armor and weaponry. Now, they are undead monsters, forever in torment at their eternal existence.</History>
+    <Tooltip>Light unit armed with a sword and shield. Deals Hacking damage.</Tooltip>
+    <Icon>units/stalfos/sta_staltroop.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>12.0</Hack>
+        <Pierce>12.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/stalfos/undead_medium/undeadmed_death.xml</death>
+      <order_attack>voice/stalfos/undead_medium/undeadmed_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/undead_medium/undeadmed_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/undead_medium/undeadmed_gather.xml</order_gather>
+      <order_repair>voice/stalfos/undead_medium/undeadmed_repair.xml</order_repair>
+      <order_walk>voice/stalfos/undead_medium/undeadmed_walk.xml</order_walk>
+      <run>actor/movement/stalfos_med/stalfosmed_step.xml</run>
+      <select>voice/stalfos/undead_medium/undeadmed_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/stalfos_med/stalfosmed_step.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <RoamDistance>48.0</RoamDistance>
+    <FleeDistance>24.0</FleeDistance>
+    <RoamTimeMin>2000</RoamTimeMin>
+    <RoamTimeMax>40000</RoamTimeMax>
+    <FeedTimeMin>16000</FeedTimeMin>
+    <FeedTimeMax>30000</FeedTimeMax>
+    <Formations disable=""/>
+  </UnitAI>
+  <UnitMotion>
+    <RunMultiplier>1.5</RunMultiplier>
+    <WalkSpeed>4.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>85</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_staltroop_b.xml</Actor>
+  </VisualActor>
+</Entity>

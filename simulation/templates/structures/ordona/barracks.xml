@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>Barracks</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>60</BuildTime>
+    <Resources>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="25.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>rubble/debris_ordona_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <AIBuild>
+      <one>
+        <MinPop>0</MinPop>
+      </one>
+      <two>
+        <Nodes>7</Nodes>
+      </two>
+    </AIBuild>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">MilitiaBooth Village</Classes>
+    <GenericName>Militia Booth</GenericName>
+    <History>Milita Booths enlist and keep record of all manner of volunteers into the Ordonian Army, providing them with basic swords and armor should they have none of their own.</History>
+    <Icon>structures/ordona/ord_militiabooth.dds</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Tooltip>Trains many Ordonian units.</Tooltip>
+    <VisibleClasses datatype="tokens">Barracks</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="30.0" width="30.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+    units/ordona/{civ}_parcher_b
+    units/ordona/{civ}_militia_b
+    units/ordona/{civ}_sergeant_b
+    units/ordona/{civ}_fieflord_b
+	units/ordona/{civ}_ranger_b
+    units/ordona/{civ}_valiant_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_militiaboothA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

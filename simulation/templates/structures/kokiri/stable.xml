@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Footprint replace="">
+    <Circle radius="27.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_huge</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Forest Seclude</SpecificName>
+    <History>A lush Grove dedicated to preserving the forest and its native wildlife. Within these grounds the Kokiri summon and train all manner of beast.</History>
+    <Icon>structures/kokiri/kok_seclude.dds</Icon>
+    <Tooltip>Trains Creature and Cavalry units.</Tooltip>
+    <VisibleClasses datatype="tokens">Town -Village Stable Kennel</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town -phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -unlock_champion_cavalry
+      -nisean_horses
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/kokiri/kokiri_huntingfox
+      units/kokiri/kokiri_doetrotter
+      units/kokiri/kokiri_buckrider
+      units/kokiri/kokiri_stagchariot
+      units/kokiri/kokiri_wolfos_b
+      units/kokiri/kokiri_dekutree_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/kokiri/stable.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+</Entity>

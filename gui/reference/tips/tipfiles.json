@@ -1,0 +1,14 @@
+[
+  {
+    "textFile": "deku_civ.txt",
+    "imageFiles": [
+      "deku.png"
+    ]
+  },
+  {
+    "textFile": "creatures.txt",
+    "imageFiles": [
+      "creatures.png"
+    ]
+  }
+]

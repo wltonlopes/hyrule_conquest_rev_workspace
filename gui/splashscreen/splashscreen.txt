@@ -1,0 +1,11 @@
+
+[font="sans-bold-20"]  Thank you for installing Hyrule Conquest: Revival!
+[font="sans-16"]
+[imgleft="constructionIcon"]This mod (and the game that runs it) is still in development. Features are missing and it may contain bugs. Play at your own risk!
+
+[imgleft="iconLag"]The game can have performance problems, especially with large map, many AI players, and a great number of units.
+
+[imgleft="iconMap"]Hyrule Conquest: Revival is Free Software: you can participate in its development.
+If you want to help with art, sound, gameplay or programming, or want to contribute an idea, make sure to email me at Perzival12@proton.me.
+
+[font="sans-bold-12"] Hyrule Conquest: Revival V 0.2.1

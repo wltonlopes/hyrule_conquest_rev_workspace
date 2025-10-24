@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint replace="">
+    <Circle radius="14.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>darknut</Civ>
+    <History>Though Darknuts were large creatures, their living spaces and requirements were rather spartan and small. Little more than a bed and storage for personal items, many members of the Legion could live within the limited space of Darknut cities.</History>
+    <SpecificName>Domus</SpecificName>
+  </Identity>
+  <Health>
+    <Max>1500</Max>
+  </Health>
+  <Obstruction>
+    <Static depth="24.0" width="24.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>8</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -pop_house_01
+      -pop_house_02
+      -unlock_females_house
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/darknut/darknut_house.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Footprint>
+    <Height>12.0</Height>
+    <Square depth="41.0" width="41.0"/>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Nut Carvers</SpecificName>
+    <History>Deku Nuts are a great source of food for the Scrubs, though their hard shells often go to waste. Eventually, the Scrubs caught on, and they will now purposely grow extraordinaily large Deku Nuts in order to create a firm defensive shell that can cover their entire bodies.</History>
+    <Icon>structures/deku/dek_nutcarver.dds</Icon>
+    <Tooltip>Upgrades Deku Scrub armor and attack methods.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/deku/forge.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

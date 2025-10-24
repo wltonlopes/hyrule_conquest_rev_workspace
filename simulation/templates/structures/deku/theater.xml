@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_theater">
+  <Footprint>
+    <Square depth="41.0" width="41.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Stage</SpecificName>
+    <History>A little known fact to outsiders about Scrubs is their elaborate and musical stage plays. The Stage often serves as the heart of a Scrub community, and many Hornlings play and dance on the platform.</History>
+    <Icon>structures/deku/dek_stage.dds</Icon>
+    <Tooltip>Cultural building that increases the range of Territory that Civil Centers generate.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/deku/deku_hornling_b
+      units/deku/deku_hero_dekuprincess
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/deku/theater.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

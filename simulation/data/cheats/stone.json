@@ -1,0 +1,9 @@
+{
+	"Name": "goro",
+	"Data": {
+		"Action": "addresource",
+		"Type": "stone",
+		"DefaultParameter": 1000,
+		"isNumeric": true
+	}
+}

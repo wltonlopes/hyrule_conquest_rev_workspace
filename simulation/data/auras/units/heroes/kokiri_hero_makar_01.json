@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Korok"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.5 }
+	],
+	"auraName": "Leader of the Koroks",
+	"auraDescription": "All korok units 1/2 built time."
+}

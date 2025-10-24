@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Cost>
+    <Resources>
+      <wood>0</wood>
+      <stone>250</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="27.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_huge</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <History>A place of worship dedicated to Farore and other forgotten forest deities. All kinds of leaders often convene here to discuss matters, whether it be chiefs, priestesses, or even the Deku Trees.</History>
+    <SpecificName>Forest Shrine</SpecificName>
+    <Icon>structures/kokiri/kok_forestshrine.dds</Icon>
+    <Tooltip>Religious structure that trains various support units.</Tooltip>
+    <VisibleClasses datatype="tokens">-Town City</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_city</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="40" depth="40"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/kokiri/kokiri_grovewatch_b
+      units/kokiri/kokiri_emarcher_b
+      units/kokiri/kokiri_fiddler_b
+      units/kokiri/kokiri_enchant_b
+      units/kokiri/kokiri_idol_b
+      units/kokiri/kokiri_hero_fado_b
+      units/kokiri/kokiri_hero_saria
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/kokiri/temple.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+</Entity>

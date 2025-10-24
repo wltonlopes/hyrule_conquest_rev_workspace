@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/kokiri/kokiri_fiddler_b">
+  <Auras datatype="tokens">
+    units/kokiri_fiddler_02
+  </Auras>
+  <Identity>
+    <SpecificName>Storm Fiddler</SpecificName>
+  </Identity>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>units/kokiri/kokiri_fiddler_upgA.xml</Actor>
+  </VisualActor>
+</Entity>

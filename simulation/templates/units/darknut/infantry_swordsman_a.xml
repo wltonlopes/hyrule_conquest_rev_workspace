@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/darknut/infantry_swordsman_b">
+  <Attack>
+    <Melee>
+      <AttackName>Khopesh</AttackName>
+      <Damage>
+        <Hack>16.0</Hack>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>1100</PrepareTime>
+      <RepeatTime>1300</RepeatTime>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <Rank>Advanced</Rank>
+    <SpecificName>Mighty Gymnatai</SpecificName>
+  </Identity>
+  <Promotion>
+    <RequiredXp>500</RequiredXp>
+    <Entity>units/darknut/darknut_legionary_b</Entity>
+  </Promotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>7.5</Hack>
+        <Pierce>7.5</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <VisualActor>
+    <Actor>units/darknut/infantry_swordsman_a.xml</Actor>
+  </VisualActor>
+</Entity>

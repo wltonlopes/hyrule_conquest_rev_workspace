@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Organic"],
+	"modifications": [
+		{ "value": "Health/RegenRate", "add": 0.5 },
+		{ "value": "Health/IdleRegenRate", "add": 1 }
+	],
+	"auraName": "Saria's Song",
+	"auraDescription": "(Adds a regeneration rate to all units within range.)",
+  	"overlayIcon": "art/textures/ui/session/auras/fado_sariasong.dds"
+}

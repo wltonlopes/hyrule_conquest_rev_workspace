@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square depth="41.0" width="41.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>400</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Greenhouse</SpecificName>
+    <History>A large chamber built to trap the heat of the sun, a Deku Scrub Greenhouse was a very ideal environment for new Scrubling seeds to grow and sprout. Some of the strongest and smartest Scrubs came about from being grown in this nurturing environment.</History>
+    <Tooltip>House that trains several Deku Scrub units.</Tooltip>
+    <Icon>structures/deku/dek_greenhouse.dds</Icon>
+    <VisibleClasses datatype="tokens">City -Village</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_city -phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/deku/deku_bubbling_b
+      units/deku/deku_tiffer_b
+      units/deku/deku_thopter_b
+    </Entities>
+  </Trainer>
+  <Population>
+    <Bonus>5</Bonus>
+  </Population>
+  <VisualActor>
+    <Actor>structures/deku/houseB.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Footprint>
+    <Square width="41.0" depth="41"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Cleansing Basin</SpecificName>
+    <Icon>structures/deku/dek_basin.dds</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="40" depth="40"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/deku/temple.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Organic"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Attack/Melee/RepeatTime", "multiply": 4 },
+		{ "value": "Attack/Range/RepeatTime", "multiply": 4 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.25 }
+	],
+	"auraName": "Song of Quarter Time",
+	"auraDescription": "(Quarter movement speed and attack rate - All Enemy Organic targets)",
+	"overlayIcon": "art/textures/ui/session/auras/fiddler_music_1.dds"
+}

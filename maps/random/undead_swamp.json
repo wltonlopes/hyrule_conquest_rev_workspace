@@ -1,0 +1,10 @@
+{
+	"settings" : {
+		"Name" : "Undead Swamp",
+		"Script" : "undead_swamp.js",
+		"Description" : "A swamp with festering pools. The dead have risen from their grave here, and now are infecting any creatures who enter this area. Survive the wandering undead droves and a deadly sickness as you battle for control over this area.",
+		"Keywords": [],
+		"Preview" : "plague_swamp.png",
+		"CircularMap" : true
+	}
+}

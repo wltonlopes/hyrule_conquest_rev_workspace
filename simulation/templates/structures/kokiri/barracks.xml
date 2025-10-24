@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint replace="">
+    <Circle radius="27.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_huge</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <History>A simple grove dotted with combat dummies, Kokiri occasionally come here to spar with simple swords, sticks, and kitchen tools so as to be ready to defend their villages from predators.</History>
+    <SpecificName>Fighting Yard</SpecificName>
+    <Icon>structures/kokiri/kok_fightingyard.dds</Icon>
+    <Tooltip>Trains many Kokiri combat units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="40.0" depth="40.0"/>
+  </Obstruction>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/kokiri/infantry_spearman_b
+      units/kokiri/infantry_archer_b
+      units/kokiri/infantry_swordsman_b
+      units/kokiri/kokiri_explorer_b
+      units/kokiri/kokiri_logram_b
+      units/kokiri/kokiri_hero_fadola
+      units/kokiri/koiri_hero_fariso
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/kokiri/barracks.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+</Entity>

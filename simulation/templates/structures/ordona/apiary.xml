@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civilian">
+  <BuildRestrictions>
+    <Category>Field</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>45</BuildTime>
+    <Resources>
+      <metal>75</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="25.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>900</Max>
+    <SpawnEntityOnDeath>rubble/debris_ordona_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <AIBuild>
+      <one>
+        <MinPop>0</MinPop>
+      </one>
+      <two>
+        <Nodes>8</Nodes>
+      </two>
+    </AIBuild>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">Field Apiary</Classes>
+    <GenericName>Apiary</GenericName>
+    <History>Ordona Province seemed to be quite the hotspot for bees. More varieties could be found there than any other location in Hyrule, and the Ordonians took advantage in the way they know best: Food. Honey and other Bee products were part of daily life in the Province, and all the surplus was sold for a nice sum of Rupees.</History>
+    <Icon>structures/ordona/ord_apiary.dds</Icon>
+    <Tooltip>Trains Beekeepers and provides a steady flow of Rupees.</Tooltip>
+    <VisibleClasses datatype="tokens">Economic</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="30.0" width="30.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <ResourceTrickle>
+    <Interval>5000</Interval>
+    <Rates>
+      <metal>0.0</metal>
+    </Rates>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/ordona/complete_apiary.xml</constructed>
+      <select>interface/select/building/ordona/sel_apiary.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+    units/ordona/{civ}_beekeeper_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_apiaryA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

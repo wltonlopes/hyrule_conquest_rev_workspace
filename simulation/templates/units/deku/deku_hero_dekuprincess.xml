@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Auras datatype="tokens">
+    units/heroes/deku_hero_princess_01
+    units/heroes/deku_hero_princess_02
+  </Auras>
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Bubble</AttackName>
+      <Damage>
+        <Water>10.0</Water>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>70</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PrepareTime>800</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>4000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Water>10.0</Water>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>8</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>250</wood>
+      <stone>0</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <GenericName>Princess of the Deku Scrubs</GenericName>
+    <SpecificName>Kad-A-Kana</SpecificName>
+    <History>The only daughter of King Kud-Loh-Kan, Kad-A-Kana may not be the one sitting on the throne, but she is certainly the one calling the shots. Her father can not help but give in to her demands, and many of the Scrubs wonder just who exactly is in charge.</History>
+    <Tooltip>Missile Hero that attacks her enemies with an explosive bubble.</Tooltip>
+    <Icon>units/deku/dek_hero_dekuprincess.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>8.0</Hack>
+        <Pierce>12.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/natural/dekububble_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/natural/dekububble_shoot.xml</attack_ranged>
+      <death>voice/deku/dekuprincess/dekuprincess_death.xml</death>
+      <order_attack>voice/deku/dekuprincess/dekuprincess_attack.xml</order_attack>
+      <order_garrison>voice/deku/dekuprincess/dekuprincess_garrison.xml</order_garrison>
+      <order_gather>voice/deku/dekuprincess/dekuprincess_gather.xml</order_gather>
+      <order_repair>voice/deku/dekuprincess/dekuprincess_repair.xml</order_repair>
+      <order_walk>voice/deku/dekuprincess/dekuprincess_walk.xml</order_walk>
+      <run>actor/movement/dekuscrub/scrub_hopA.xml</run>
+      <select>voice/deku/dekuprincess/dekuprincess_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/movement/dekuscrub/scrub_hopA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/deku/deku_hero_princess.xml</Actor>
+  </VisualActor>
+</Entity>

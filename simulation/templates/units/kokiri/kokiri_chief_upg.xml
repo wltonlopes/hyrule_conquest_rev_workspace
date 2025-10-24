@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/kokiri_chief_aura
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Axe</AttackName>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
+      <Damage>
+        <Hack>230.0</Hack>
+        <Pierce>10</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1100</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>50</wood>
+      <stone>0</stone>
+      <metal>25</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>160</Max>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Kokiri Chieftan</SpecificName>
+    <History>Chiefs are the leaders of Kokiri villages and armies, bossing around other Kokiri and sending out orders from the Great Deku Tree. Chiefs carry around an axe and shield into battle and are capable of getting the troops under their command to run into a fight much faster.</History>
+    <Tooltip>Mounted Kokiri Commander unit armed with an axe, improves the speed of Kokiri infantry within its aura.</Tooltip>
+    <Icon>units/kokiri/kok_chief.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>6.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/kokiri/chief/chief_death.xml</death>
+      <order_attack>voice/kokiri/chief/chief_attack.xml</order_attack>
+      <order_garrison>voice/kokiri/chief/chief_garrison.xml</order_garrison>
+      <order_gather>voice/kokiri/chief/chief_gather.xml</order_gather>
+      <order_repair>voice/kokiri/chief/chief_repair.xml</order_repair>
+      <order_walk>voice/kokiri/chief/chief_walk.xml</order_walk>
+      <run>actor/movement/horse/horse_footsteps.xml</run>
+      <select>voice/kokiri/chief/chief_select.xml</select>
+      <trained>interface/alarm/alarm_create_cavalry.xml</trained>
+      <walk>actor/movement/horse/horse_footsteps.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.4054</RunMultiplier>
+    <WalkSpeed>18.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/kokiri/kokiri_chief_upg.xml</Actor>
+  </VisualActor>
+</Entity>

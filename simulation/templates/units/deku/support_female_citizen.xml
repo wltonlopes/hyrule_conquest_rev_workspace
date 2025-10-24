@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/deku/barracksB
+      structures/deku/houseB
+      structures/deku/stableB
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>25</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.075</EjectHealth>
+    <List datatype="tokens">BabaCanRide</List>
+    <LoadingRange>6</LoadingRange>
+    <Max>1</Max>
+  </GarrisonHolder>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>2.6</Y>
+        <Z>-0.15</Z>
+      </Archer1>
+    </TurretPoints>
+  </TurretHolder>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Underling</SpecificName>
+    <GenericName>Deku Worker</GenericName>
+    <History>Underlings are at the bottom of the Scrub hierarchy. Underlings work tirelessly to build and maintain the Scrub civilization, and are often bossed around by other Scrubs. They do not seem to mind much though, in fact Underlings that have no work to accomplish tend to become depressed and find ways to start trouble. Some Underlings will carry Scrublings on top of their shoulders to defend them while they work.</History>
+    <Icon>units/deku/dek_underling.dds</Icon>
+    <Tooltip>Worker unit: can gather all resources and construct buildings for the Deku Scrubs.</Tooltip>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/weapon/sword.xml</attack>
+      <build>resource/construction/con_wood.xml</build>
+      <death>voice/deku/underling/underling_death.xml</death>
+      <order_attack>voice/deku/underling/underling_attack.xml</order_attack>
+      <order_build>voice/deku/underling/underling_repair.xml</order_build>
+      <order_garrison>voice/deku/underling/underling_garrison.xml</order_garrison>
+      <order_gather>voice/deku/underling/underling_gather.xml</order_gather>
+      <order_repair>voice/deku/underling/underling_repair.xml</order_repair>
+      <order_walk>voice/deku/underling/underling_walk.xml</order_walk>
+      <run>actor/movement/dekuscrub/scrub_hopA.xml</run>
+      <select>voice/deku/underling/underling_select.xml</select>
+      <trained>interface/alarm/alarm_create_worker.xml</trained>
+      <walk>actor/movement/dekuscrub/scrub_hopA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/deku/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

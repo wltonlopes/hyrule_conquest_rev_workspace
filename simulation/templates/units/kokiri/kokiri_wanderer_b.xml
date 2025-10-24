@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Attack disable=""/>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>50</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>40</Max>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Korok Wanderer</SpecificName>
+    <History>Korok Wanderers venture from the forest in search of new fertile grounds to plant Deku Trees. They can spot just about anything, and can also fly long distances with little rest.</History>
+    <Tooltip>A Scout unit that can fly.</Tooltip>
+    <Icon>units/kokiri/kok_explorer.dds</Icon>
+    <VisibleClasses datatype="tokens">Korok</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Position>
+    <Altitude>20.0</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <TurnRate>3.5</TurnRate>
+  </Position>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>5.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/kokiri/korok/korok_death.xml</death>
+      <order_attack>voice/kokiri/korok/korok_attack.xml</order_attack>
+      <order_garrison>voice/kokiri/korok/korok_garrison.xml</order_garrison>
+      <order_gather>voice/kokiri/korok/korok_gather.xml</order_gather>
+      <order_repair>voice/kokiri/korok/korok_repair.xml</order_repair>
+      <order_walk>voice/kokiri/korok/korok_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/kokiri/korok/korok_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+    <RunMultiplier>1.1333</RunMultiplier>
+    <WalkSpeed>15.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/kokiri/kokiri_wanderer_b.xml</Actor>
+  </VisualActor>
+</Entity>

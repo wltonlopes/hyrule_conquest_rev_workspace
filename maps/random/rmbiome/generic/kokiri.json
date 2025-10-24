@@ -1,0 +1,88 @@
+{
+	"Description": {
+		"Title": "Kokiri Forest",
+		"Description": "Start in a lush forest, filled with massive trees. Several sentient plants fill this forest, as well many Kokiri."
+	},
+	"Environment": {
+		"SunColor": { "r": 0.923, "g": 1.023, "b": 0.714 },
+		"SunElevation": 0.8,
+		"SunRotation": -0.909,
+		"AmbientColor": { "r": 0.4, "g": 0.4, "b": 0.4 },
+		"Water": {
+			"WaterBody": {
+				"Color": { "r": 0.024, "g": 0.212, "b": 0.212 },
+				"Tint": { "r": 0.133, "g": 0.725, "b": 0.855 },
+				"Murkiness": 0.7,
+				"Waviness": 2
+			}
+		},
+		"Fog": {
+			"FogThickness": 0.30,
+			"FogFactor": 0.005
+		},
+		"Postproc": {
+			"PostprocEffect": "hdr",
+			"Brightness": 0,
+			"Saturation": 1,
+			"Contrast": 1,
+			"Bloom": 0.16
+		}
+	},
+	"Terrains": {
+		"mainTerrain": [
+			"temp_plants_bog",
+			"temp_plants_bog"
+		],
+		"forestFloor1": "temp_plants_bog",
+		"forestFloor2": "temp_plants_bog",
+		"cliff": [
+			"temp_mud_a",
+			"temp_mud_a"
+		],
+		"tier1Terrain": "temp_plants_bog",
+		"tier2Terrain": "temp_plants_bog",
+		"tier3Terrain": "temp_plants_bog",
+		"tier4Terrain": "temp_plants_bog",
+		"hill": [
+			"temp_mud_a",
+			"temp_plants_bog"
+		],
+		"dirt": [
+			"temp_mud_a",
+			"temp_plants_bog"
+		],
+		"road": "new_alpine_citytile",
+		"roadWild": "new_alpine_grass_dirt_a",
+		"shoreBlend": "temp_mud_a",
+		"shore": "temp_mud_a",
+		"water": "aegean_sand_02_wet"
+	},
+	"Gaia": {
+		"startingAnimal": "gaia/fauna_chicken",
+		"mainHuntableAnimal": "gaia/fauna_deer",
+		"fish": "gaia/fish/generic",
+		"secondaryHuntableAnimal": "gaia/deku_baba",
+		"stoneLarge": "gaia/rock/temperate_large",
+		"stoneSmall": "gaia/rock/alpine_small",
+		"metalLarge": "gaia/ore/temperate_large",
+		"metalSmall": "gaia/ore/alpine_small"
+	},
+	"Decoratives": {
+		"grass": "actor|props/flora/bush_medit_sm.xml",
+		"grassShort": "actor|props/flora/bush_medit_sm.xml",
+		"reeds": "actor|props/flora/reeds_pond_lush_b.xml",
+		"lillies": "actor|props/flora/water_lillies.xml",
+		"rockLarge": "actor|geology/stone_granite_large.xml",
+		"rockMedium": "actor|geology/stone_granite_med.xml",
+		"bushMedium": "actor|flora/bushes/medit_scrub_01.xml",
+		"bushSmall": "actor|flora/trees/lavender_bush_01.xml",
+		"tree": "actor|flora/forest/dekuforest_treesA.xml"
+	},
+	"ResourceCounts": {
+		"trees": {
+			"min": 1000,
+			"max": 1000,
+			"forestProbability": 5
+		}
+	}
+}

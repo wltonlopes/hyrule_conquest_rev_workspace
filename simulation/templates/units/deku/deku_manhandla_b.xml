@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Attack replace="">
+    <Ranged>
+      <AttackName>Fangs</AttackName>
+      <Damage>
+        <Crush>15.0</Crush>
+        <Pierce>15.0</Pierce>
+      </Damage>
+      <MaxRange>12.0</MaxRange>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/catapult_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.2</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>300.0</Speed>
+        <Spread>1.0</Spread>
+      </Projectile>
+      <Splash>
+        <Damage>
+          <Crush>15.0</Crush>
+          <Pierce>15.0</Pierce>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>15</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>50</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>500</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <IdleRegenRate>1</IdleRegenRate>
+    <Max>500</Max>
+    <RegenRate>0</RegenRate>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <GenericName>Creature</GenericName>
+    <SpecificName>Manhandla</SpecificName>
+    <History>A frighting horror found in the darkest depths of the Kokiri Forest, the Manhandla is a giant whirling engine of destruction when let loose unto the battlefield. The Manhandla is actually a symbiotic collection of multiple plants; a large flower-like creature provides locomotion while up to four smaller Baba-like serpents tear apart victims to feed to themselves and their ride.</History>
+    <Tooltip>Huge lumbering Creature unit that can attack many enemies around itself at once.</Tooltip>
+    <Icon>units/deku/dek_manhandla.dds</Icon>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>7.0</Hack>
+        <Pierce>10.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/natural/manhandla_bite.xml</attack_impact_ranged>
+      <attack_ranged>actor/movement/manhandla/manhandla_move.xml</attack_ranged>
+      <death>voice/deku/manhandla/manhandla_death.xml</death>
+      <order_attack>voice/deku/manhandla/manhandla_attack.xml</order_attack>
+      <order_garrison>voice/deku/manhandla/manhandla_garrison.xml</order_garrison>
+      <order_gather>voice/deku/manhandla/manhandla_gather.xml</order_gather>
+      <order_repair>voice/deku/manhandla/manhandla_repair.xml</order_repair>
+      <order_walk>voice/deku/manhandla/manhandla_walk.xml</order_walk>
+      <run>actor/movement/manhandla/manhandla_move.xml</run>
+      <select>voice/deku/manhandla/manhandla_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <walk>actor/movement/manhandla/manhandla_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <Turretable disable=""/>
+  <UnitMotion>
+    <PassabilityClass>huge</PassabilityClass>
+    <RunMultiplier>1.6666</RunMultiplier>
+    <WalkSpeed>7.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/deku/deku_manhandla_b.xml</Actor>
+  </VisualActor>
+</Entity>

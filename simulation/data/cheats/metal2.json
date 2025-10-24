@@ -1,0 +1,9 @@
+{
+	"Name": "zora's sapphire",
+	"Data": {
+		"Action": "addresource",
+		"Type": "metal",
+		"DefaultParameter": 5000,
+		"isNumeric": true
+	}
+}

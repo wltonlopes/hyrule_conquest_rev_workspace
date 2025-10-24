@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint replace="">
+    <Circle radius="27.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_huge</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Fairgrounds</SpecificName>
+    <History>Despite being one of the most reclusive people in Hyrule, the Kokiri were open to trade with outsiders. When one happened to wander into the grove, they would be hurried into the inn to sell shiny trinkets from outside the forest for excess stock.</History>
+    <Icon>structures/kokiri/kok_fairgrounds.dds</Icon>
+    <Tooltip>Allows the trading of resources on the market or with your allies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/kokiri/kokiri_hero_domiso
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/kokiri/market.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+</Entity>

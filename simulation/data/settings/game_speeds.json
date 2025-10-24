@@ -1,0 +1,52 @@
+{
+	"TranslatedKeys": ["Title"],
+	"Data":
+	[
+		{
+			"Speed": 0.10,
+			"Title": "King Zora XVI (0.1×)"
+		},
+		{
+			"Speed": 0.25,
+			"Title": "Like-Like (0.25×)"
+		},
+		{
+			"Speed": 0.50,
+			"Title": "Song of Half-Time (0.5×)"
+		},
+		{
+			"Speed": 0.75,
+			"Title": "ReDead (0.75×)"
+		},
+		{
+			"Speed": 1.0,
+			"Title": "Hyrulian Standard Time (1×)",
+			"Default": true
+		},
+		{
+			"Speed": 1.25,
+			"Title": "Epona (1.25×)"
+		},
+		{
+			"Speed": 1.5,
+			"Title": "Pegasus Boots (1.5×)"
+		},
+		{
+			"Speed": 2.0,
+			"Title": "Song of Double Time (2×)"
+		},
+		{
+			"Speed": 5.0,
+			"Title": "Bunny Hood (5×)"
+		},
+		{
+			"Speed": 7.0,
+			"Title": "Song of Time (7×)"
+		},
+		{
+			"Speed": 20.0,
+			"Title": "Time Warp",
+			"FastForward": true
+		}
+	]
+}

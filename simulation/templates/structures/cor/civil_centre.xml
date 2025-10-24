@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Attack>
+    <Ranged>
+      <AttackName>Deku Nut</AttackName>
+      <Damage>
+        <Crush>5</Crush>
+      </Damage>
+      <MaxRange>90</MaxRange>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Projectile>
+        <Speed>100</Speed>
+        <Spread>1.5</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="0"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>150</BuildTime>
+    <Resources>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>8.0</Height>
+    <Square depth="41.0" width="41.0"/>
+  </Footprint>
+  <Health>
+    <Max>1250</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>cor</Civ>
+    <History>A Small Encampment set up by Deku Scrubs, serving as a base of operations in this region. Its presence likely indicates that the Scrubs will expand into a city.</History>
+    <Tooltip>A smaller Civil Center that all Resources can be dropped off here.</Tooltip>
+    <SpecificName>Smalll Encampment</SpecificName>
+  </Identity>
+  <Loot>
+    <wood>200</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/deku/complete_civ_center_deku.xml</constructed>
+      <select>interface/select/building/deku/sel_civ_center_deku.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/cor/infantry_spearman_b
+      units/cor/infantry_archer_b
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>15</X>
+        <Y>13</Y>
+        <Z>-15</Z>
+      </Archer1>
+      <Archer2>
+        <X>-15</X>
+        <Y>13</Y>
+        <Z>-15</Z>
+      </Archer2>
+      <Archer3>
+        <X>15</X>
+        <Y>13</Y>
+        <Z>15</Z>
+      </Archer3>
+      <Archer4>
+        <X>-15</X>
+        <Y>13</Y>
+        <Z>15</Z>
+      </Archer4>
+    </TurretPoints>
+  </TurretHolder>
+  <Upgrade>
+    <Safehold>
+      <Entity>structures/deku/civil_centre_upg</Entity>
+      <Tooltip>Reinforce with more wood and upgrade to a full-size civil center.</Tooltip>
+      <Cost>
+        <wood>500</wood>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>120</Time>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+    </Safehold>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/cor/exp_camp.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

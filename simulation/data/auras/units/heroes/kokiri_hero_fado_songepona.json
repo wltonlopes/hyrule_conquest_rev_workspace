@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Animal"],
+	"affectedPlayers": ["Gaia"],
+	"modifications": [
+		{ "value": "UnitAI/DefaultStance", "set": "passive" }
+	],
+	"auraName": "Song of Epona",
+	"auraDescription": "(Default Stance: Passive - All Gaia Animal units)",
+	"overlayIcon": "art/textures/ui/session/auras/fiddler_music_1.dds"
+}

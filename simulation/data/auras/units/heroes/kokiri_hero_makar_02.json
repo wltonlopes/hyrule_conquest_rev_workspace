@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Korok"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 3 }
+	],
+	"auraName": "Defender of Koroks",
+	"auraDescription": "All korok units +3 resistance."
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civilian">
+  <BuildRestrictions>
+    <Category>House</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="25.0" width="25.0"/>
+  </Footprint>
+  <Health>
+    <Max>1600</Max>
+    <SpawnEntityOnDeath>rubble/debris_ordona_small</SpawnEntityOnDeath>
+    <SpawnOnInterval>
+      <one>
+        <Interval>10000</Interval>
+        <LinkedDestruction>true</LinkedDestruction>
+        <Max>1</Max>
+        <SpawnNumber>1</SpawnNumber>
+        <StartDelay>5000</StartDelay>
+        <Template>units/ordona/ordona_civilianA</Template>
+      </one>
+      <two>
+        <Interval>11000</Interval>
+        <LinkedDestruction>true</LinkedDestruction>
+        <Max>1</Max>
+        <SpawnNumber>1</SpawnNumber>
+        <StartDelay>10000</StartDelay>
+        <Template>units/ordona/ordona_civilianB</Template>
+      </two>
+    </SpawnOnInterval>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">Village</Classes>
+    <GenericName>Serf Stead</GenericName>
+    <History>Ordonian homes were simple and to the point, with enough room to house a couple and a half dozen children.</History>
+    <Icon>structures/ordona/ord_serfstead.dds</Icon>
+    <Tooltip>Housing that allows you to field larger armies.</Tooltip>
+    <VisibleClasses datatype="tokens">House</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="23.0" width="23.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>25</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_houseA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

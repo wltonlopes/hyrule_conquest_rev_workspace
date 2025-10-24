@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <wood>25</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="3.0"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>200</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_field</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Berry Bush</SpecificName>
+    <History>Though the Kokiri do eat meat and fish, their primary foods are berries and fruit. This bush can be planted anywhere, even in neutral territory, and can be harested for food.</History>
+    <Icon>structures/kokiri/kok_bush.dds</Icon>
+    <Tooltip>Harvest Berries for food. Max gatherers: 3.</Tooltip>
+  </Identity>
+  <Minimap>
+    <Color b="102" g="204" r="155"/>
+    <Type>food</Type>
+  </Minimap>
+  <Obstruction>
+    <BlockMovement>false</BlockMovement>
+    <BlockPathfinding>false</BlockPathfinding>
+    <Static depth="4.0" width="4.0"/>
+    <DeleteUponConstruction>true</DeleteUponConstruction>
+  </Obstruction>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>200</Max>
+    <Type>food.fruit</Type>
+    <MaxGatherers>3</MaxGatherers>
+    <Change>
+      <Regrowth>
+        <Value>1</Value>
+        <Interval>6000</Interval>
+      </Regrowth>
+    </Change>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/resource/sel_fruit.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/kokiri/bush.xml</Actor>
+    <FoundationActor disable=""/>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,13 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Organic"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Vision/Range", "add": -50 },
+		{ "value": "Health/RegenRate", "add": -0.5 }
+	],
+	"auraName": "Song of Storms",
+	"auraDescription": "(Severly lowers vision range and damages all units within range)",
+	"overlayIcon": "art/textures/ui/session/auras/fado_songofstorms.dds"
+}

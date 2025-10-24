@@ -1,0 +1,132 @@
+{
+	"Code": "kokiri",
+	"Culture": "kokiri",
+	"Music":
+	[
+		{"File": "kokiri_theme1.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient1.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient2.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient3.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient4.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient5.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient6.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient7.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient8.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient9.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient10.ogg", "Type": "peace"},
+		{"File": "kokiri_ambient11.ogg", "Type": "peace"},
+		{"File": "kokiri_battle1.ogg", "Type": "battle"},
+		{"File": "kokiri_battle2.ogg", "Type": "battle"},
+		{"File": "kokiri_battle3.ogg", "Type": "battle"},
+		{"File": "kokiri_battle4.ogg", "Type": "battle"},
+		{"File": "kokiri_victory1.ogg", "Type": "victory"}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Kokiri",
+			"Description": "The Kokiri are a group of Hylian children that long ago fled into the depths of the forest to escape the Wars of (triforce era). Soon, they found that they were immortal as long as they stayed in the forest, and attributed this to be the power of the Great Deku Tree, their patron diety. Now, as darkness enravels their forest, they must fight to take back what is theirs'.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Saria, Sage of the Forest",
+					"Class": "Infantry Archer",
+					"Armament": "Emerald Bow",
+					"Emblem": "",
+					"History": "Saria was one of the Hylians who fled the war and became a Kokiri. Little did she know that it washer destiny to defend the forest from evil, and after the Great Deku Tree's death, she awakened as the Forest Sage. Soon after, her leadership skills saw her crowned Queen of the Kokiri, a position she has taken reluctantly, longing for her younger days when she and her friends played silly games. Sometimes, she journeys to the Lost Woods, sending her ocarina songs echoing through it's twisting paths." 
+				},
+				{
+					"Name": "Mido, the Chief Kokiri",
+					"Class": "Cavalry Swordsman",
+					"Armament": "Antlers",
+					"Emblem": "",
+    					"History":"The Kokiri Chief and boss of the Kokiri Forest. Mido is stubborn and considered a bully by most of the other Kokiri, and very few of his brothers and sisters actually admire him. Most Kokiri simply tolerate him. Despite his mean personality he does genuinely care for the state of his people, and has an intense affection for Saria."
+				},
+				{
+					"Name": "Fado, the Sage of Winds",
+					"Class": "Support",
+					"Armament": "Fiddle",
+					"Emblem": "",
+					"History": "One of Saria's close friends and a famous musician, Fado is skilled with all manner of stringed intruments. He often organizes the many Kokiri festivals, but when danger looms over the forest he plays a tune to keep spirits high and troops in marching order."
+				},
+				{
+					"Name": "Titan: The Great Deku Tree",
+					"Class": "Titan",
+					"Armament": "Roots",
+					"Emblem": "",
+					"History": "The Great Deku Tree is the patron diety of the Kokiri. Tasked with guarding Kokiri Emerald, he has fulfilled his duty well over the years. Now, recent eents have caused him to uproot himself and prepare for war." 
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Partner Networks",
+			"History": "The Deku Scrubs have created a massive network of merchants and salesmen, and will share their secrets with their allies.",
+			"Description": "25% trade route bonus."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name": "Wonder: The Great Deku Tree's Grove",
+			"Class": "Wonder",
+			"Emblem": "",
+			"History": "The sacred grove of King Kasuto, the Great Deku Tree. This secluded shelter provides all that a Kokiri community needs, as well as houses the Great Deku Tree himself.",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Trains the Kokiri Titan."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/kokiri/civil_centre"
+		},
+		{
+			"Template": "units/kokiri/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/kokiri/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/kokiri/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/kokiri/kokiri_doetrotter",
+			"Count": 2
+		},
+		{
+			"Template": "units/kokiri/kokiri_chief_b"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/deku/wallset_stone"
+	],
+	"AINames":
+	[
+		"Saria Emeraldbow",
+		"Fado of the Winds",
+		"Mido, Chief Kokiri",
+		"The Great Deku Tree"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/kokiri/infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/kokiri/kokiri_doetrotter",
+		"skirmish/structures/default_house_10": "structures/kokiri/house"
+	},
+	"SelectableInGameSetup": true
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>kokiri</Civ>
+    <GenericName>Kokiri</GenericName>
+    <History>"The Kokiri are a group of Hylian children that long ago fled into the depths of the forest to escape the Wars of (triforce era). Soon, they found that they were immortal as long as they stayed in the forest, and attributed this to be the power of the Great Deku Tree, their patron diety. Now, as darkness enravels their forest, they must fight to take back what is theirs'.",</History>
+    <Icon>emblems/emblem_kokiri.dds</Icon>
+  </Identity>
+</Entity>

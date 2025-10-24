@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Attack>
+    <Ranged>
+      <AttackName>Deku Seeds</AttackName>
+      <Damage>
+        <Crush>3.5</Crush>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>55</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PrepareTime>1900</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>600</BuildTime>
+    <Resources>
+      <wood>1000</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Circle radius="14.0"/>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <History>While one may assume tribes of children to be quite unorganized, the Kokiri are no slouches when it comes to administration. Hollows across the forest serve as dedicated offices for Chiefs, to whom the Kokiri come each day for instructions.</History>
+    <SpecificName>Hollow</SpecificName>
+    <Icon>structures/kokiri/kok_safehold.dds</Icon>
+    <Tooltip>Center of a Kokiri Settlement.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>500</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="25.0" width="25.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/kokiri/complete_civ_center_kokiri.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/kokiri/sel_civ_center_kokiri.xml</select>
+      <upgraded>interface/complete/building/kokiri/complete_civ_center_kokiri.xml</upgraded>
+      <attack_ranged>attack/weapon/slingshot.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/kokiri/infantry_spearman_b
+      units/kokiri/infantry_archer_b
+      units/kokiri/kokiri_chief_b
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>9.25</Y>
+        <Z>6</Z>
+      </Archer1>
+      <Archer2>
+        <X>-4</X>
+        <Y>9.25</Y>
+        <Z>5</Z>
+      </Archer2>
+      <Archer3>
+        <X>4</X>
+        <Y>9.25</Y>
+        <Z>5</Z>
+      </Archer3>
+      <Archer4>
+        <X>-6.5</X>
+        <Y>9.25</Y>
+        <Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>6.5</X>
+        <Y>9.25</Y>
+        <Z>0</Z>
+      </Archer5>
+      <Archer6>
+        <X>-4.5</X>
+        <Y>9.25</Y>
+        <Z>-5.5</Z>
+      </Archer6>
+      <Archer7>
+        <X>-1</X>
+        <Y>9.25</Y>
+        <Z>-7.5</Z>
+      </Archer7>
+    </TurretPoints>
+  </TurretHolder>
+  <Upgrade>
+    <Bigger>
+      <Entity>structures/kokiri/civil_centre_upg</Entity>
+      <Tooltip>Upgrade to a bigger tree.</Tooltip>
+      <Cost>
+        <wood>500</wood>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>120</Time>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
+    </Bigger>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/kokiri/civic_centre.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

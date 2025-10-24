@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Kitchen Tools</AttackName>
+      <Damage>
+        <Crush>4.0</Crush>
+        <Hack>4.0</Hack>
+        <Pierce>2.0</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}/fortress
+      structures/kokiri/barracksB
+      structures/kokiri/barracksC
+      structures/kokiri/tree
+    </Entities>
+  </Builder>
+  <Cost>
+    <Population>2</Population>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>50</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="6.0" depth="3.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Minutemen</SpecificName>
+    <History>Trained in pairs, Minutemen are standard infantry, but trained to guard each-other's back.</History>
+    <Tooltip>Cheap Infantry Melee unit with extra health and damage.</Tooltip>
+    <Icon>units/kokiri/kok_minutemen.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>4.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/kokiri/minutemen/minutemen_death.xml</death>
+      <order_attack>voice/kokiri/minutemen/minutemen_attack.xml</order_attack>
+      <order_build>voice/kokiri/minutemen/minutemen_repair.xml</order_build>
+      <order_garrison>voice/kokiri/minutemen/minutemen_garrison.xml</order_garrison>
+      <order_gather>voice/kokiri/minutemen/minutemen_gather.xml</order_gather>
+      <order_repair>voice/kokiri/minutemen/minutemen_repair.xml</order_repair>
+      <order_walk>voice/kokiri/minutemen/minutemen_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/kokiri/minutemen/minutemen_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/kokiri/kokiri_minutemen_b.xml</Actor>
+  </VisualActor>
+</Entity>

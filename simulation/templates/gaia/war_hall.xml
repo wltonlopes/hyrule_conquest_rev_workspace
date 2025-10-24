@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint>
+    <Square width="30.0" depth="25.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>War Hall</SpecificName>
+    <VisibleClasses datatype="tokens">Merc</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static width="30.0" depth="25.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/war_hall.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

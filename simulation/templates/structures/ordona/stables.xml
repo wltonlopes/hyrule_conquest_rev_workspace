@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>Barracks</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>60</BuildTime>
+    <Resources>
+      <metal>400</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="28.0" width="28.0"/>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/debris_ordona_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <AIBuild>
+      <one>
+        <Nodes>3</Nodes>
+      </one>
+    </AIBuild>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">Town</Classes>
+    <GenericName>Goat Barn</GenericName>
+    <History>Ordonians were notable for devoting sizeable portions of their farmlands to the signature goats that roamed the southern plains. Shephards tend to flocks of the creatures, while Yeoman pick from the group their mounts into battle.</History>
+    <Icon>structures/ordona/ord_goatbarn.dds</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Trains many Ordonian cavalry units.</Tooltip>
+    <VisibleClasses datatype="tokens">Barracks</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="24.0" width="24.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_stables.xml</constructed>
+      <select>interface/select/building/sel_stables.xml</select>
+      <upgraded>interface/complete/building/complete_stables.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+		units/ordona/{civ}_hawk_b
+		units/ordona/{civ}_shepherd_b
+		units/ordona/{civ}_yeoman_b
+		units/ordona/{civ}_billybat_b
+		units/ordona/{civ}_horseman_b
+		units/ordona/{civ}_goatlord_b
+		units/ordona/{civ}_roughrider_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_goatbarnA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+</Entity>

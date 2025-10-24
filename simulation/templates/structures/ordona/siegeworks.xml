@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Category>Barracks</Category>
+  </BuildRestrictions>
+  <Cost>
+    <Resources>
+      <metal>600</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="32.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_ordona_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <AIBuild>
+      <one>
+        <Nodes>4</Nodes>
+      </one>
+    </AIBuild>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">City</Classes>
+    <GenericName>Carriage Barn</GenericName>
+    <History>Periodically Ordona Province would launch counter attacks against Moblins and Lizalfos, bringing the fight to their enemies’ villages and cities. Ordonians were more than happy to assemble their Catapults to help take down any fortifications halting their advance.</History>
+    <Icon>structures/ordona/ord_carriagebarn.dds</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Tooltip>Builds and trains various mechanical engines used by Ordona.</Tooltip>
+    <VisibleClasses datatype="tokens">Barracks</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="28.0" width="28.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_siegeworks.xml</constructed>
+      <select>interface/select/building/sel_siegeworks.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/ordona/{civ}_warwagon_b
+    units/ordona/{civ}_siegeram_b
+    units/ordona/{civ}_catapult_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_carriagebarnA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+</Entity>

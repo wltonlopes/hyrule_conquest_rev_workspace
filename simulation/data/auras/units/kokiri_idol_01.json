@@ -1,0 +1,19 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Health/IdleRegenRate", "add": 0.5 },
+		{ "value": "Health/RegenRate", "add": 0.5 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 5  },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 5  },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 5  },
+		{ "value": "Resistance/Entity/Damage/Forest", "add": 55  },
+		{ "value": "Resistance/Entity/Damage/Water", "add": 5  },
+		{ "value": "Resistance/Entity/Damage/Fire", "add": 5  },
+		{ "value": "Resistance/Entity/Damage/Poison", "add": 5  }
+	],
+	"auraName": "Farore's Love",
+	"auraDescription": "All units gain 0.5 health regeneration, +5 resistance to all damage types, and immunity to Forest damage.",
+	"overlayIcon": "art/textures/ui/session/auras/shrine_faithfarore_1.dds"
+}

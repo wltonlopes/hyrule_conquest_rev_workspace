@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/deku/deku_baba_b">
+  <Attack>
+    <Melee>
+      <AttackName>Fangs</AttackName>
+      <Damage>
+        <Pierce>4.0</Pierce>
+        <Poison>7.0</Poison>
+      </Damage> 
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Identity>
+    <SpecificName>Venomous Baba</SpecificName>
+    <History>Recently, the Deku Scrubs have discovered that they can cross-breed Babas with tropical plants, which coats the Babas' teeth in a venomous liquid.</History>
+    <Tooltip>Small immobile Creature unit that can be picked up by a wide variety of units to augment their abilities. This version deals poison damage.</Tooltip>
+  </Identity>
+  <Upgrade disable=""/>
+</Entity>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/grovewatch_aura
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Kokiri Sword</AttackName>
+      <Damage>
+        <Hack>6.0</Hack>
+        <Pierce>3.0</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1150</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>50</wood>
+      <stone>0</stone>
+      <metal>25</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Grove Watcher</SpecificName>
+    <History>A dedicated soldier wielding the iconic Kokiri Sword and Deku Shield. These warriors are trained from their creation to guard the Groves of the forest. Unlike most of their kind, their bravery is unmatched and they will fight to the death to protect the forest from invaders.</History>
+    <Tooltip>Fast Champion Melee unit armed with a sword and shield.</Tooltip>
+    <Icon>units/kokiri/kok_grovewatch.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>6.0</Hack>
+        <Pierce>8.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/kokiri/grovewatcher/grovewatcher_death.xml</death>
+      <order_attack>voice/kokiri/grovewatcher/grovewatcher_attack.xml</order_attack>
+      <order_garrison>voice/kokiri/grovewatcher/grovewatcher_garrison.xml</order_garrison>
+      <order_gather>voice/kokiri/grovewatcher/grovewatcher_gather.xml</order_gather>
+      <order_repair>voice/kokiri/grovewatcher/grovewatcher_repair.xml</order_repair>
+      <order_walk>voice/kokiri/grovewatcher/grovewatcher_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/kokiri/grovewatcher/grovewatcher_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.3636</RunMultiplier>
+    <WalkSpeed>11.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/kokiri/kokiri_grovewatch_b.xml</Actor>
+  </VisualActor>
+</Entity>

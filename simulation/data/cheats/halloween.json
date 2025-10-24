@@ -1,0 +1,11 @@
+{
+	"Name": "BOO!",
+	"Data": {
+		"Action": "createunits",
+		"DefaultParameter": 1,
+		"isNumeric": true,
+		"Templates": [
+			"units/sheikah/sheikah_titan_bongobongo"
+		]
+	}
+}

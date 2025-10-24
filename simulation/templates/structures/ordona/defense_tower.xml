@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defense">
+  <Attack>
+    <Ranged>
+      <AttackName>TBD.</AttackName>
+      <Damage>
+        <Pierce>12.0</Pierce>
+      </Damage>
+      <MaxRange>90.0</MaxRange>
+      <MinRange>10.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <BuildRestrictions>
+    <Category>DefenseTower</Category>
+    <Distance>
+      <FromClass>DefenseTower</FromClass>
+      <MinDistance>60</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <BuildingAI>
+    <DefaultArrowCount>8</DefaultArrowCount>
+    <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Resources>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>15.0</Height>
+    <Square depth="20.0" width="20.0"/>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>rubble/debris_ordona_small</SpawnEntityOnDeath>
+    <SpawnGarrison>
+      <LinkedDestruction>true</LinkedDestruction>
+      <SpawnNumber>3</SpawnNumber>
+      <Template>units/ordona/ordona_parcher_garrisoned</Template>
+    </SpawnGarrison>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">RangerWatches</Classes>
+    <GenericName>Ordona Guard Tower</GenericName>
+    <History>The Guard Towers of Ordona Province dotted their larger cities, protecting them from invading armies with shots from archers.</History>
+    <Icon>structures/ordona/ord_guardtower.dds</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>Defensive Tower that attacks enemies with arrows.</Tooltip>
+    <VisibleClasses datatype="tokens">Tower</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="15.5" width="15.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+      <constructed>interface/complete/building/complete_tower.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_tower.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>19.0</HeightOffset>
+  </StatusBars>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>-2</X>
+        <Y>16.4</Y>
+        <Z>-1.5</Z>
+      </Archer1>
+      <Archer2>
+        <X>-2</X>
+        <Y>16.4</Y>
+        <Z>2</Z>
+      </Archer2>
+      <Archer3>
+        <X>1.5</X>
+        <Y>16.4</Y>
+        <Z>-1.5</Z>
+      </Archer3>
+    </TurretPoints>
+  </TurretHolder>
+  <Visibility>
+    <CanSpotStealth>
+      <MaxRange>80</MaxRange>
+      <MinRange>0</MinRange>
+    </CanSpotStealth>
+  </Visibility>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_towerA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>
+

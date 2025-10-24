@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Footprint replace="">
+    <Circle radius="18.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Storehouse</SpecificName>
+    <History>A storehouse for resources.</History>
+    <Icon>structures/kokiri/kok_camp.dds</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/kokiri/koiri_hero_cariso
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/kokiri/storehouse.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

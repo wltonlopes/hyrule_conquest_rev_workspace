@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_tower">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>48</BuildTime>
+    <Resources>
+      <wood>8</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="12.5" depth="12.5"/>
+    <Height>18</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_tiny</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Kokiri Wall Tower</SpecificName>
+    <History>The wooden Kokiri walls were durable enough and served them well keeping out invaders.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="9.5" depth="9.5"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>20</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>18</Y>
+        <Z>0</Z>
+      </Archer1>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/kokiri/wall_tower.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>9.5</Length>
+  </WallPiece>
+  <Upgrade>
+    <BuildingA>
+      <Cost>
+        <wood>100</wood>
+      </Cost>
+      <Entity>structures/kokiri/defense_tower</Entity>
+      <Time>45</Time>
+      <Tooltip>Upgrade this post to a tower and man with Kokiri.</Tooltip>
+      <Variant>upgrading_tower</Variant>
+    </BuildingA>  
+  </Upgrade>   
+</Entity>

@@ -1,0 +1,12 @@
+{
+	"genericName": "Nature's Warning",
+	"autoResearch": true,
+	"description": "The Deku are so in-tune with nature that they can sense enemies from a much greater distance than most creatures.",
+	"tooltip": "All Units +30 vision range.",
+	"requirements": { "civ": "deku" },
+	"modifications": [
+		{ "value": "Vision/Range", "add": 40 }
+	],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

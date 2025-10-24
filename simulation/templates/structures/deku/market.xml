@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint>
+    <Square depth="41.0" width="41.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Deku Mart</SpecificName>
+    <History>A large collection of shops and stalls, commerce within the forest booms when the Scrubs manage to set up a Deku Mart. Countless Business Scrubs will buy and sell their wares, and trade with foreign powers brings all manner of trinkets and Rupees.</History>
+    <Icon>structures/deku/dek_dekumart.dds</Icon>
+    <Tooltip>Allows the trading of resources on the market or with your allies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/deku/market.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

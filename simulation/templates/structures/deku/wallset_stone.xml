@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>deku</Civ>
+    <Icon>structures/deku/dek_wall.dds</Icon>
+    <SpecificName>Encampment Wall</SpecificName>
+    <History>A makeshift wooden wall to keep the elements out of Deku territory.</History>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/deku/wall_tower</Tower>
+      <Gate>structures/deku/wall_gate</Gate>
+      <WallLong>structures/deku/wall_long</WallLong>
+      <WallMedium>structures/deku/wall_medium</WallMedium>
+      <WallShort>structures/deku/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

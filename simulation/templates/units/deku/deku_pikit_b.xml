@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder disable=""/>
+  <Attack replace="">
+    <Melee>
+      <AttackName>Spiked Tongue</AttackName>
+      <Damage>
+        <Pierce>12.0</Pierce>
+      </Damage>
+      <MaxRange>21.0</MaxRange>
+      <PrepareTime>1300</PrepareTime>
+      <RepeatTime>1400</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <GenericName>Creature</GenericName>
+    <SpecificName>Pickit</SpecificName>
+    <History>Pikits are one of several creatures that the Deku Scrubs commonly capture and use in their armies. While not intelligent by any stretch of the imagination, Pikits seemed to be able to understand the musical Scrub language and take basic orders from them. The Pikit's main attack is a long and flexible vine-like tongue that is coated with small but extremely sharp tips that can cut through armor.</History>
+    <Tooltip>Melee Creature unit who's spiked vine-like tongue can attack enemies from quite a distance.</Tooltip>
+    <Icon>units/deku/dek_pikit.dds</Icon>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>2.0</Hack>
+        <Pierce>3.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/pikit_stab.xml</attack_melee>
+      <death>voice/deku/pikit/pikit_death.xml</death>
+      <order_attack>voice/deku/pikit/pikit_attack.xml</order_attack>
+      <order_garrison>voice/deku/pikit/pikit_garrison.xml</order_garrison>
+      <order_gather>voice/deku/pikit/pikit_gather.xml</order_gather>
+      <order_repair>voice/deku/pikit/pikit_repair.xml</order_repair>
+      <order_walk>voice/deku/pikit/pikit_walk.xml</order_walk>
+      <run>actor/movement/dekuscrub/scrub_hopA.xml</run>
+      <select>voice/deku/pikit/pikit_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <walk>actor/movement/dekuscrub/scrub_hopA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/deku/deku_pikit_b.xml</Actor>
+  </VisualActor>
+</Entity>

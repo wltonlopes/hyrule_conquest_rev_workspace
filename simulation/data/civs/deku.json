@@ -1,0 +1,125 @@
+{
+	"Code": "deku",
+	"Culture": "deku",
+	"Music":
+	[
+		{"File": "deku_theme1.ogg", "Type": "peace"},
+		{"File": "deku_ambient1.ogg", "Type": "peace"},
+		{"File": "deku_ambient2.ogg", "Type": "peace"},
+		{"File": "deku_ambient3.ogg", "Type": "peace"},
+		{"File": "deku_ambient4.ogg", "Type": "peace"},
+		{"File": "deku_ambient5.ogg", "Type": "peace"},
+		{"File": "deku_ambient6.ogg", "Type": "peace"},
+		{"File": "deku_ambient7.ogg", "Type": "peace"},
+		{"File": "deku_ambient8.ogg", "Type": "peace"},
+		{"File": "deku_ambient9.ogg", "Type": "peace"},
+		{"File": "deku_ambient10.ogg", "Type": "peace"},
+		{"File": "deku_battle1.ogg", "Type": "battle"},
+		{"File": "deku_battle2.ogg", "Type": "battle"},
+		{"File": "deku_battle3.ogg", "Type": "battle"},
+		{"File": "deku_victory1.ogg", "Type": "victory"}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Deku Kingdom",
+			"Description": "The Deku Kingdom.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "King Kud-Loh-Kan",
+					"Class": "Infantry Spearman",
+					"Armament": "Deku Staff",
+					"Emblem": "",
+					"History": "Perhaps one of the most powerful rulers of the Deku Scrubs, King Kud-Loh-Kan is the first of his race to unite every single Scrub under one banner. His success does not rise from the people's favor however; King Kud-Loh-Kan rules like a tyrant and constantly threatenes his people with executions. Despite his angry demeanor, the King's motivations seem to be rooted in his love for his daughter, who he wishes to replace him on the throne after his passing."
+				},
+				{
+					"Name": "Princess Kad-A-Kana",
+					"Class": "Infantry Archer",
+					"Armament": "Bubble",
+					"Emblem": "",
+					"History": "The only daughter of King Kud-Loh-Kan, Kad-A-Kana may not be the one sitting on the, throne but she is certainly the one calling the shots. Her father can not help but give in to her demands, and many of the Scrubs wonder just who exactly is in charge. Princess Kad-A-Kana is noted for her long bouts of sadness, punctuated by violent bursts of anger."
+				},
+				{
+					"Name": "Butler Kuh-Do",
+					"Class": "Infantry Archer",
+					"Armament": "Deku Candle",
+					"Emblem": "",
+					"History": "A personal servant of King Kuh-Loh-Kan and manager of all things money, Butler Kuh-Do is quiet and out of the spotlight, but clearly has vast power over Scrub kind. His hands seem to be tied to the Scrubs' growing markets across Hyrule, and he maintains his own force of tax collectors and bullies to insure that the royal coffers... and his personal bank account... are flowing with Rupees."
+				},
+				{
+					"Name": "Titan: Stagnox, Armored Colossus",
+					"Class": "Titan",
+					"Armament": "Horns",
+					"Emblem": "",
+					"History": "This giant hulking Orhat Beetle has long lurked on the eastern forests of Hyrule. In some cases the Scrubs have been known to coerce this huge monster into fighting on their behalf. Stagnox may be slow, but his armor is some of the most impressive and durable in Hyrule. While the Stagnox has wings, his huge size makes his ability to fly very limited."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Partner Networks",
+			"History": "The Deku Scrubs have created a massive network of merchants and salesmen, and will share their secrets with their allies.",
+			"Description": "25% trade route bonus."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name": "Wonder: Wooded Temple",
+			"Class": "Wonder",
+			"Emblem": "",
+			"History": "A large and ancient Temple in the Picorou Woods. The Scrubs claim to have build it in ages past, but despite their iconagraphy carved into it's stone the design has little resemblence to their civilization. The massive temple is home to many Orhat Beetle nests and the structure seems to have sunken into the ground since its construction.",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Trains the Deku Titan."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/deku/civil_centre"
+		},
+		{
+			"Template": "units/deku/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/deku/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/deku/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/deku/deku_baba_b"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/deku/wallset_stone"
+	],
+	"AINames":
+	[
+		"King Kud-Loh-Kan",
+		"Princess Kad-A-Kana",
+		"Butler Kuh-Do"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/deku/infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/deku/infantry_swordsman_b",
+		"skirmish/structures/default_house_10": "structures/deku/house"
+	},
+	"SelectableInGameSetup": true
+}

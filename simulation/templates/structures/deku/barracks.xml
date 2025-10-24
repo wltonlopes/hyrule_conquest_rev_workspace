@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint>
+    <Square depth="41.0" width="41.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <History>Mustering Bases train Scrubs for battle, and within a short time a mob of thugs can be turned into neat rank and file soldiers.</History>
+    <SpecificName>Mustering Base</SpecificName>
+    <Icon>structures/deku/dek_musterbase.dds</Icon>
+    <Tooltip>Trains basic Deku Scrub units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="40.0" depth="40.0"/>
+  </Obstruction>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/deku/deku_madscrub_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/deku/barracks.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

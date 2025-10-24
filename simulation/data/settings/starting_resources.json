@@ -1,0 +1,32 @@
+{
+	"TranslatedKeys": ["Title"],
+	"TranslationContext": "startingResources",
+	"Data":
+	[
+		{
+			"Resources": 100,
+			"Title": "Green Rupee"
+		},
+		{
+			"Resources": 500,
+			"Title": "Blue Rupee",
+			"Default": true
+		},
+		{
+			"Resources": 1000,
+			"Title": "Yellow Rupee"
+		},
+		{
+			"Resources": 2000,
+			"Title": "Red Rupee"
+		},
+		{
+			"Resources": 5000,
+			"Title": "Purple Rupee"
+		},
+		{
+			"Resources": 50000,
+			"Title": "Silver Rupee"
+		}
+	]
+}

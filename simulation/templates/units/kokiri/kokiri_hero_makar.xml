@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/kokiri_hero_makar_01
+    units/heroes/kokiri_hero_makar_02
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Deku Stick</AttackName>
+      <Bonuses>
+        <BonusInfantryMelee>
+          <Classes>Infantry</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusInfantryMelee>
+        <BonusCavalryMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusCavalryMelee>
+      </Bonuses>
+      <Damage>
+        <Crush>30.0</Crush>
+        <Hack>20.0</Hack>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1300</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>1000</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="5.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1600</Max>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Makar</SpecificName>
+    <GenericName>Korok Sage</GenericName>
+    <History>Riding on the Sprout of the Great Deku Tree, Makar is a very young and wide eyed Korok who is eager to explore beyond the forest.</History>
+    <Tooltip>Quick and powerful mounted Hero that can counter other Cavalry.</Tooltip>
+    <Icon>units/kokiri/kok_hero_makar.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>7.0</Hack>
+        <Pierce>55.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/kokiri/makar/makar_death.xml</death>
+      <order_attack>voice/kokiri/makar/makar_attack.xml</order_attack>
+      <order_garrison>voice/kokiri/makar/makar_garrison.xml</order_garrison>
+      <order_gather>voice/kokiri/makar/makar_gather.xml</order_gather>
+      <order_repair>voice/kokiri/makar/makar_repair.xml</order_repair>
+      <order_walk>voice/kokiri/makar/makar_walk.xml</order_walk>
+      <run>actor/movement/boar/boar_footsteps.xml</run>
+      <select>voice/kokiri/makar/makar_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/movement/boar/boar_footsteps.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.5757</RunMultiplier>
+    <WalkSpeed>12.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/kokiri/kokiri_hero_makar.xml</Actor>
+  </VisualActor>
+</Entity>

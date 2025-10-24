@@ -1,0 +1,8 @@
+{
+	"Name": "mine!",
+	"Data": {
+		"Action": "convertunit",
+		"DefaultParameter": -1,
+		"isNumeric": true
+	}
+}

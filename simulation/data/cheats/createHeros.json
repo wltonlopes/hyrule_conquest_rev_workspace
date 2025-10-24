@@ -1,0 +1,13 @@
+{
+	"Name": "triforce heroes",
+	"Data": {
+		"Action": "createunits",
+		"DefaultParameter": 1,
+		"isNumeric": true,
+		"Templates": [
+			"units/deku/deku_hero_dekuking",
+			"units/deku/deku_hero_dekuprincess",
+			"units/deku/deku_hero_dekubutler"
+		]
+	}
+}

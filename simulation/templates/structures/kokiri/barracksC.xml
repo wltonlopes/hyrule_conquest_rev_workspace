@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Circle radius="14.0"/>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <History>Across the west of the forest, Koroks are a rare sight, even in Kokiri villages. When troops of them arrive from the Great Sea, the Kokiri carve them dedicated hollows to shelter them from the elements.</History>
+    <SpecificName>Korok Colony</SpecificName>
+    <Icon>structures/kokiri/kok_grove.dds</Icon>
+    <Tooltip>Trains Korok units.</Tooltip>
+    <VisibleClasses datatype="tokens">Town -Village</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town -phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}/infantry_spearman_b
+      -units/{civ}/infantry_archer_b
+      -units/{civ}/infantry_swordsman_b
+      units/kokiri/kokiri_wanderer_b
+      units/kokiri/kokiri_walker_b
+      units/kokiri/kokiri_leafer_b
+      units/kokiri/kokiri_kormantlet_b
+      units/kokiri/kokiri_dekusprout_b
+      units/kokiri/kokiri_hero_makar
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/kokiri/barracksC.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

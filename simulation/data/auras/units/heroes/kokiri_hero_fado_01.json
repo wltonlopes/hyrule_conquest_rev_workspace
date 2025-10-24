@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.5 },
+		{ "value": "UnitMotion/RunMultiplier", "multiply": 1.5 }
+	],
+	"auraName": "Musical Genius",
+	"auraDescription": "All soldiers +50% movement speed.",
+	"overlayIcon": "art/textures/ui/session/auras/fiddler_music_1.dds"
+}

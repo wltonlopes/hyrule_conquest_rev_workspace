@@ -1,0 +1,114 @@
+{
+	"Code": "darknut",
+	"Culture": "darknut",
+	"Music":
+	[
+		{ "File": "darknut_theme1.ogg", "Type": "peace" },
+		{ "File": "darknut_ambient1.ogg", "Type": "peace" },
+		{ "File": "darknut_ambient2.ogg", "Type": "peace" },
+		{ "File": "darknut_ambient3.ogg", "Type": "peace" },
+		{ "File": "darknut_ambient4.ogg", "Type": "peace" },
+		{ "File": "darknut_ambient5.ogg", "Type": "peace" },
+		{ "File": "darknut_ambient6.ogg", "Type": "peace" },
+		{ "File": "darknut_ambient7.ogg", "Type": "peace" },
+		{ "File": "darknut_ambient8.ogg", "Type": "peace" },
+		{ "File": "darknut_ambient9.ogg", "Type": "peace" },
+		{ "File": "darknut_ambient10.ogg", "Type": "peace" },
+		{ "File": "darknut_battle1.ogg", "Type": "battle" },
+		{ "File": "darknut_battle2.ogg", "Type": "battle" },
+		{ "File": "darknut_battle3.ogg", "Type": "battle" },
+		{ "File": "darknut_defeat1.ogg", "Type": "defeat" },
+		{ "File": "darknut_victory1.ogg", "Type": "victory" }
+	],
+	"Factions":
+	[
+		{
+			"Name": "Darknuts",
+			"Description": "The Darknut Leigon.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Zalunbar",
+					"Class": "",
+					"Armament": "Deity Axe",
+					"Emblem": "",
+					"History": "A powerful Darknut warrior, Zalunbar was deified by his people and assumed control of the Legion nearly three thousand years prior. His unnaturally long life and apparent immortality ignited much fervor amongst his people and convinced many he was a true god. Zalunbar was utterly narcissistic and completely egocentric. Centuries of constant praise and worship has let his ego spiral completely out of control, and there are few who would dare question his godhood."
+				},
+				{
+					"Name": "Yaraxonal",
+					"Class": "",
+					"Armament": "Duel Khopesh",
+					"Emblem": "",
+					"History": "Yaraxonal was a former Sage of Hyrule, as well as leader and chief deity of the Darknut Legion prior to Zalunbar. Unknown to the Darknut populace, she was imprisoned in stone by Vaati and usurped by Zalunbar. For nearly three thousand years she faded from memory, using her powers as a Sage to reach out and send a message for help. As a Sage of Hyrule, Yaraxonal was an exception to the Legion's no magic policy. She had command of the desert winds and would use them against enemies of the Legion. Despite her power and veneration as a god, Yaraxonal was rather humble and was responsible for expanding the Legion through diplomacy and assimilation rather than conquest."
+				},
+				{
+					"Name": "Senturon",
+					"Class": "",
+					"Armament": "Armorbreaker Sword",
+					"Emblem": "",
+					"History": "Senturon served as one of Vaati's enforcers during the ancient age of Hyrule. Seemingly unkillable, rumors began to build around Senturon that he had the power to raise himself from the dead. Regardless, he mercilessly carried out the orders of the Legion and completely drove the Wind Tribe from Hyrule. After nearly three thousand years, the name Senturon has been forgotten and the moniker of Black Knight has faded into legend. Still, there are some words spoken that this grim warrior still walks in the shadows of Hyrule and serves the Legion to this day."
+				},
+				{
+					"Name": "Alros",
+					"Class": "",
+					"Armament": "Armorbreaker Sword",
+					"Emblem": "",
+					"History": "A former fanatic of Zalunbar, Alros fled into the Gerudo Desert after the fall of his former idol and abandoned the code of the Legion. After decades in sorrow, Alros regained his resolve and began amassing an army of mercenaries and fellow Darknut outcasts. For years he has ravaged the desert with his fellow reavers; his ultimate goal is nothing short of taking the Darknut throne and replacing Zalunbar as the living god of the Legion."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/darknut/civil_centre"
+		},
+		{
+			"Template": "units/darknut/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/darknut/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/darknut/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/darknut/infantry_swordsman_b"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/athen/wallset_stone"
+	],
+	"AINames":
+	[
+
+		"Zalunbar",
+		"Yaraxonal",
+		"Senturon",
+		"Alros"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/darknut/infantry_javelineer_b",
+		"skirmish/units/default_cavalry": "units/darknut/infantry_swordsman_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": false
+}

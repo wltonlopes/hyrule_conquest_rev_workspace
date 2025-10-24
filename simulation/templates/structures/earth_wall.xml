@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_palisade">
+  <Cost>
+    <BuildTime>16</BuildTime>
+    <Resources>
+      <stone>8</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="3" depth="20"/>
+    <Height>12</Height>
+  </Footprint>
+  <Health>
+    <Max>5000</Max>
+  </Health>
+  <Identity>
+    <SpecificName>Earth Wall</SpecificName>
+    <GenericName>Earth</GenericName>
+    <SelectionGroupName>template_structure_defensive_wall</SelectionGroupName>
+    <Tooltip>Dig a wall of earth. Build anywhere.</Tooltip>
+    <VisibleClasses datatype="tokens">EarthMound</VisibleClasses>
+    <Icon>structures/palisade_wall.png</Icon>
+  </Identity>
+  <Loot disable=""/>
+  <Obstruction>
+    <Static width="3" depth="20"/>
+    <Active>true</Active>
+    <BlockMovement>true</BlockMovement>
+    <BlockPathfinding>true</BlockPathfinding>
+    <BlockFoundation>true</BlockFoundation>
+    <BlockConstruction>false</BlockConstruction>
+    <DisableBlockMovement>false</DisableBlockMovement>
+    <DisableBlockPathfinding>false</DisableBlockPathfinding>
+    <DeleteUponConstruction>false</DeleteUponConstruction>
+  </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>20</Hack>
+        <Pierce>50</Pierce>
+        <Crush>50</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <StatusBars>
+    <HeightOffset>4</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/special/earth_wall.xml</Actor>
+    <FoundationActor>structures/fndn_1x1.xml</FoundationActor>
+  </VisualActor>
+</Entity>

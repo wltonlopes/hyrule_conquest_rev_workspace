@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Trader"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "Trader/GainMultiplier", "add": 0.25 }
+	],
+	"auraName": "Partner Networks",
+	"auraDescription": "All allied traders have a +25 bonus to trade gain."
+}

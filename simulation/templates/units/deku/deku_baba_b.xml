@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Fangs</AttackName>
+      <Damage>
+        <Pierce>4.0</Pierce>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>20</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <GenericName>Creature</GenericName>
+    <SpecificName>Deku Baba</SpecificName>
+    <History>These wicked plants grow like ravenous weeds throughout Hyrule's various forests, but are quite friendly to Deku Scrubs. Many Scrubs take them in as pets, and still yet they are used by their armies for guard duty. Deku Babas are completely immobile and on their own can do little more than protect their immediate area. They can be mounted on the heads of many Deku Scrubs and the backs of their Orhat Beetles however, giving whatever unit they are attached to a bonus melee attack.</History>
+    <Tooltip>Small immobile Creature unit that can be picked up by a wide variety of units to augment their abilities.</Tooltip>
+    <Icon>units/deku/dek_baba.dds</Icon>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>1.0</Hack>
+        <Pierce>40.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/dekubaba_bite.xml</attack_melee>
+      <death>voice/deku/dekubaba/dekubaba_death.xml</death>
+      <order_attack>voice/deku/dekubaba/dekubaba_attack.xml</order_attack>
+      <order_build>voice/deku/dekubaba/dekubaba_repair.xml</order_build>
+      <order_garrison>voice/deku/dekubaba/dekubaba_garrison.xml</order_garrison>
+      <order_gather>voice/deku/dekubaba/dekubaba_gather.xml</order_gather>
+      <order_repair>voice/deku/dekubaba/dekubaba_repair.xml</order_repair>
+      <order_walk>voice/deku/dekubaba/dekubaba_walk.xml</order_walk>
+      <run>actor/movement/dekubaba/dekubaba_crawl.xml</run>
+      <select>voice/deku/dekubaba/dekubaba_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <walk>actor/movement/dekubaba/dekubaba_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <Upgrade>
+    <Shoot>
+      <Entity>units/deku/deku_baba_upgA</Entity>
+      <Tooltip>Breed the Baba to shoot out it's fangs.</Tooltip>
+      <Cost>
+        <wood>50</wood>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>12</Time>
+    </Shoot>
+    <Poison>
+      <Entity>units/deku/deku_baba_upgB</Entity>
+      <Tooltip>Breed the Baba to have poisonous fangs.</Tooltip>
+      <Cost>
+        <wood>50</wood>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>12</Time>
+    </Poison>
+    <Spikes>
+      <Entity>units/deku/deku_baba_upgC</Entity>
+      <Tooltip>Breed the Baba to have a spiny coating.</Tooltip>
+      <Cost>
+        <wood>50</wood>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>12</Time>
+    </Spikes>
+  </Upgrade>
+  <UnitMotion>
+    <RunMultiplier>1.0</RunMultiplier>
+    <WalkSpeed>0.001</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/deku/deku_baba_b.xml</Actor>
+  </VisualActor>
+</Entity>

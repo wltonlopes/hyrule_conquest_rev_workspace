@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Ranged"],
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Pierce", "add": 5 },
+		{ "value": "Attack/Ranged/MaxRange", "add": 10 }
+	],
+	"auraName": "Leader of the Emerald Archers",
+	"auraDescription": "All ranged units +5 pierce damage and +10 range.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

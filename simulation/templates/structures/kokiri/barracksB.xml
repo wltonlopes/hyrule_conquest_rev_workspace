@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint replace="">
+    <Circle radius="21.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_huge</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <History>A small encampment of Mudmen sent from Bando Grove to join the Kokiri in defending the forest.</History>
+    <SpecificName>Mudmen Camp</SpecificName>
+    <Icon>structures/kokiri/kok_korokcolony.dds</Icon>
+    <Tooltip>Trains Mudmen units.</Tooltip>
+    <VisibleClasses datatype="tokens">Town -Village</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town -phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="10.0" depth="10.0"/>
+  </Obstruction>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}/infantry_spearman_b
+      -units/{civ}/infantry_archer_b
+      -units/{civ}/infantry_swordsman_b
+      units/kokiri/kokiri_mudlaborer
+      units/kokiri/kokiri_mudjabber_b
+      units/kokiri/kokiri_mudmantlet_b
+      units/kokiri/kokiri_wolfkiller_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/kokiri/barracksB.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

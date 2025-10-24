@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/kokiri/civil_centre">
+  <Attack>
+    <Ranged>
+      <AttackName>Deku Seeds</AttackName>
+      <Damage>
+        <Crush>3.5</Crush>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>55</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PrepareTime>1700</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>1900</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>800</BuildTime>
+    <Resources>
+      <wood>1200</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Circle radius="25.0"/>
+  </Footprint>
+  <Health>
+    <Max>4000</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_huge</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <History>While one may assume tribes of children to be quite unorganized, the Kokiri are no slouches when it comes to administration. Hollows across the forest serve as dedicated offices for Chiefs, to whom the Kokiri come each day for instructions.</History>
+    <SpecificName>Large Hollow</SpecificName>
+    <Tooltip>Center of a Kokiri Settlement. Can be manned with Slingshotters for extra defense.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>600</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="43.0" width="43.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/kokiri/kokiri_chief_b
+    </Entities>
+  </Trainer>
+  <Upgrade replace="">
+    <Safehold>
+      <Entity>structures/kokiri/civil_centre_upg_B</Entity>
+      <Tooltip>Reinforce with more wood and upgrade to a safehold.</Tooltip>
+      <Cost>
+        <wood>500</wood>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>120</Time>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+    </Safehold>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/kokiri/civic_centre_upg.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_medium">
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <wood>24</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="26.5" depth="9.0"/>
+    <Height>9</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_tiny</SpawnEntityOnDeath>
+  </Health>
+  <GarrisonHolder disable="" />
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Kokiri Wall</SpecificName>
+    <History>The wooden Kokiri walls were durable enough and served them well keeping out invaders.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="30.0" depth="7.5"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.5</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>4</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>-4</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>8</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Archer3>
+      <Archer4>
+        <X>-8</X>
+        <Y>9.5</Y>
+        <Z>0</Z>
+      </Archer4>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/kokiri/wall_medium.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldD.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>30.0</Length>
+  </WallPiece>
+</Entity>

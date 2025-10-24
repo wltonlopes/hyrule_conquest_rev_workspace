@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/darknut/infantry_javelineer_b">
+  <Attack>
+    <Ranged>
+      <AttackName>Javelin</AttackName>
+      <Damage>
+        <Pierce>25</Pierce>
+      </Damage>
+      <MaxRange>70</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>800</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>1200</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Identity>
+    <Rank>Advanced</Rank>
+    <SpecificName>Mighty Peltast</SpecificName>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>12.5</Hack>
+        <Pierce>10.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <VisualActor>
+    <Actor>units/darknut/infantry_javelinist_a.xml</Actor>
+  </VisualActor>
+</Entity>

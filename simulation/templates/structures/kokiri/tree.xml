@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Capturable disable=""/>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <wood>50</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="2.5"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Health>
+    <Max>500</Max>
+    <SpawnEntityOnDeath disable=""/>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Tree</SpecificName>
+    <Icon>gaia/flora_tree_generic.png</Icon>
+    <Tooltip>Chop Trees for wood. Max gatherers: 8.</Tooltip>
+  </Identity>
+  <Minimap>
+    <Color b="68" g="107" r="69"/>
+    <Type>wood</Type>
+  </Minimap>
+  <Obstruction>
+    <Static depth="1.6" width="1.6"/>
+    <DeleteUponConstruction>true</DeleteUponConstruction>
+  </Obstruction>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>200</Max>
+    <Type>wood.tree</Type>
+    <MaxGatherers>8</MaxGatherers>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/resource/sel_tree.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarWidth>3.0</BarWidth>
+    <BarHeight>0.5</BarHeight>
+    <HeightOffset>10.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>flora/forest/kokiri_trees_smallA.xml</Actor>
+    <FoundationActor disable=""/>
+  </VisualActor>
+</Entity>

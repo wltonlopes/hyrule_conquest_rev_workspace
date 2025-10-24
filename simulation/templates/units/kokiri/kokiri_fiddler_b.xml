@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Auras datatype="tokens">
+    units/kokiri_fiddler_01
+  </Auras>
+  <Attack disable=""/>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Fiddler</SpecificName>
+    <GenericName>Support Unit</GenericName>
+    <VisibleClasses datatype="tokens">Support Musical Champion -Melee -Spearman</VisibleClasses>
+    <History>Music is valued highly by the Kokiri, and their musical creations have become quite famous across all of Hyrule. Perhaps their most well known compositions come from these violin playing Fiddlers. When marching into battle these players improve the speed with which fellow Kokiri move. Some get skilled enough to learn magical songs, such as the Song of Half-Time or Song of Storms</History>
+    <Tooltip>Support unit that improves the movement rate of Kokiri with his fiddle. Can be upgraded to play a specific magical song.</Tooltip>
+    <Icon>units/kokiri/kok_fiddler.dds</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>4.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/kokiri/fiddler/fiddler_death.xml</death>
+      <order_attack>voice/kokiri/fiddler/fiddler_attack.xml</order_attack>
+      <order_garrison>voice/kokiri/fiddler/fiddler_garrison.xml</order_garrison>
+      <order_gather>voice/kokiri/fiddler/fiddler_gather.xml</order_gather>
+      <order_heal>voice/kokiri/fiddler/fiddler_attack.xml</order_heal>
+      <order_repair>voice/kokiri/fiddler/fiddler_repair.xml</order_repair>
+      <order_walk>voice/kokiri/fiddler/fiddler_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/kokiri/fiddler/fiddler_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <Upgrade>
+    <SongofStorms>
+      <Entity>units/kokiri/kokiri_fiddler_upgA</Entity>
+      <Tooltip>Teach the Fiddler the Song of Storms.</Tooltip>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Cost>
+        <metal>100</metal>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>24</Time>
+    </SongofStorms>
+    <SongofHalfTime>
+      <Entity>units/kokiri/kokiri_fiddler_upgB</Entity>
+      <Tooltip>Teach the Fiddler the Song of Half Time.</Tooltip>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Cost>
+        <metal>100</metal>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>24</Time>
+    </SongofHalfTime>
+    <SariasSong>
+      <Entity>units/kokiri/kokiri_fiddler_upgC</Entity>
+      <Tooltip>Teach the Fiddler Saria's Song.</Tooltip>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Cost>
+        <metal>100</metal>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>24</Time>
+    </SariasSong>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/kokiri/kokiri_fiddler_b.xml</Actor>
+  </VisualActor>
+</Entity>

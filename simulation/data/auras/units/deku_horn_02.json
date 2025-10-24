@@ -1,0 +1,13 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Soldier"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Attack/Melee/Pierce", "multiply": 0.90 },
+		{ "value": "Attack/Melee/Hack", "multiply": 0.90 }
+	],
+	"auraName": "Erie Horns",
+	"auraDescription": "All enemy soldiers -10% hack and pierce damage.",
+	"overlayIcon": "art/textures/ui/session/auras/broken_sword.png"
+}

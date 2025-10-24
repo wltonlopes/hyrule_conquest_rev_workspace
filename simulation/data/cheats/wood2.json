@@ -1,0 +1,9 @@
+{
+	"Name": "kokiri' emerald",
+	"Data": {
+		"Action": "addresource",
+		"Type": "wood",
+		"DefaultParameter": 5000,
+		"isNumeric": true
+	}
+}

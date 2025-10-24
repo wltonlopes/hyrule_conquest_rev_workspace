@@ -1,0 +1,9 @@
+{
+	"Name": "goron's ruby",
+	"Data": {
+		"Action": "addresource",
+		"Type": "stone",
+		"DefaultParameter": 5000,
+		"isNumeric": true
+	}
+}

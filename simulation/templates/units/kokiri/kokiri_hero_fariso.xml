@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_axeman">
+  <Auras datatype="tokens">
+    units/heroes/kokiri_hero_domiso_03
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Axe</AttackName>
+      <Damage>
+        <Hack>10.0</Hack>
+        <Crush>10.0</Crush>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1100</PrepareTime>
+      <RepeatTime>1100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>16</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="3.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Fariso</SpecificName>
+    <GenericName>The Final Know-It-All-Brother</GenericName>
+    <History>The Know-It-All-Brothers are quite famous among the Kokiri, mainly for the trait that no Kokiri can tell the brothers apart. They spend most of their time doing chores around the Deku Tree's Grove, much to their dismay. The last of the brothers, Fariso, is a bit skilled with an axe and can defend his people if needs be.</History>
+    <Tooltip>A swift Infantrt Hero that attacks with his axe and has an training bonus.</Tooltip>
+    <Icon>units/kokiri/kok_hero_domiso.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>5.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/kokiri/gulley/gulley_death.xml</death>
+      <order_attack>voice/kokiri/gulley/gulley_attack.xml</order_attack>
+      <order_garrison>voice/kokiri/gulley/gulley_garrison.xml</order_garrison>
+      <order_gather>voice/kokiri/gulley/gulley_gather.xml</order_gather>
+      <order_repair>voice/kokiri/gulley/gulley_repair.xml</order_repair>
+      <order_walk>voice/kokiri/gulley/gulley_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/kokiri/gulley/gulley_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.3636</RunMultiplier>
+    <WalkSpeed>11.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/kokiri/kokiri_hero_domiso_c.xml</Actor>
+  </VisualActor>
+</Entity>

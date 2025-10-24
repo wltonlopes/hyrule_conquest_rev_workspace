@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource">
+  <Footprint>
+    <Circle radius="15.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>rubble/debris_hylian_tiny</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>structures/node_woodA</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <Classes datatype="tokens">DropsiteWood DropsiteMetal DropsiteStone</Classes>
+    <GenericName>Lumbermill</GenericName>
+    <History>A small Lumbermill for dropping off and processing wood.</History>
+    <Icon>structures/hylian/hyl_dropoff.dds</Icon>
+    <Tooltip>A small Lumbermill for dropping off and processing wood.</Tooltip>
+    <VisibleClasses datatype="tokens">Storehouse</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="15.0" width="15.0"/>
+  </Obstruction>
+  <RallyPoint disable=""/>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <ResourceDrain>
+    <MaxResourceSpotsToDrainSimultaneously>
+      <metal.tree>3</metal.tree>
+    </MaxResourceSpotsToDrainSimultaneously>
+    <Radius>75</Radius>
+    <ResourcesPerTick>
+      <metal.tree>1</metal.tree>
+    </ResourcesPerTick>
+    <TickRate>2000</TickRate>
+    <VisualEffectDuration>1000</VisualEffectDuration>
+  </ResourceDrain>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_storehouse.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_storehouse.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_harvestA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_constA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

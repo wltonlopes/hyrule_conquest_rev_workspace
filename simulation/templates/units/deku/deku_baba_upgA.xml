@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/deku/deku_baba_b">
+  <Attack>
+    <Ranged>
+      <AttackName>Fangs</AttackName>
+      <Damage>
+        <Pierce>4.0</Pierce>
+      </Damage>
+      <MaxRange>75.0</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PrepareTime>800</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <SpecificName>Projectile Baba</SpecificName>
+    <History>Through a special breeding process, some Babas can be cultivated to shoot out their teeth at enemies. The process to do this involves taunting the already aggresive Babas, but staying well out of reach. This is obviously a dangerous job.</History>
+    <Tooltip>Small immobile Creature unit that can be picked up by a wide variety of units to augment their abilities. This version shoots out it's teeth.</Tooltip>
+  </Identity>
+  <Upgrade disable=""/>
+</Entity>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_plot">
+  <Capturable disable=""/>
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Resources>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="16.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Health>
+    <Max>750</Max>
+    <SpawnEntityOnDeath>rubble/debris_ordona_tiny</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <GenericName>Building Plot</GenericName>
+    <History disable=""/>
+    <Icon>structures/ordona/ord_plot.dds</Icon>
+    <Tooltip>Constructs Ordonian Buildings on this space.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="5" width="5"/>
+  </Obstruction>
+  <Plots>
+    <IsPlot>true</IsPlot>
+  </Plots>
+  <Researcher>
+    <Technologies datatype="tokens">
+	</Technologies>
+  </Researcher>
+  <StatusBars>
+    <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>19.0</HeightOffset>
+  </StatusBars>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+  </Trainer>
+  <Upgrade>
+    <BuildingA>
+      <Cost>
+        <metal>150</metal>
+      </Cost>
+      <Entity>structures/ordona/ordona_house</Entity>
+      <Time>45</Time>
+      <Tooltip>Build Serf Stead on this plot.</Tooltip>
+      <Variant>upgrading_house</Variant>
+    </BuildingA>
+    <BuildingB>
+      <Cost>
+        <metal>200</metal>
+      </Cost>
+      <Entity>structures/ordona/ordona_field</Entity>
+      <Time>45</Time>
+      <Tooltip>Build Field on this plot.</Tooltip>
+      <Variant>upgrading_farm</Variant>
+    </BuildingB>
+    <BuildingC>
+      <Cost>
+        <metal>300</metal>
+      </Cost>
+      <Entity>structures/ordona/ordona_market</Entity>
+      <Time>45</Time>
+      <Tooltip>Build Swap Meet on this plot.</Tooltip>
+      <Variant>upgrading_market</Variant>
+    </BuildingC>
+    <BuildingD>
+      <Cost>
+        <metal>200</metal>
+      </Cost>
+      <Entity>structures/ordona/ordona_apiary</Entity>
+      <Time>45</Time>
+      <Tooltip>Build Apiary on this plot.</Tooltip>
+      <Variant>upgrading_apiary</Variant>
+    </BuildingD>
+    <BuildingE>
+      <Cost>
+        <metal>200</metal>
+      </Cost>
+      <Entity>structures/ordona/ordona_barracks</Entity>
+      <Time>45</Time>
+      <Tooltip>Build Militia Booth on this plot.</Tooltip>
+      <Variant>upgrading_barracks</Variant>
+    </BuildingE>
+    <BuildingF>
+      <Cost>
+        <metal>200</metal>
+      </Cost>
+      <Entity>structures/ordona/ordona_stables</Entity>
+      <Time>45</Time>
+      <Tooltip>Build Stables on this plot.</Tooltip>
+      <Variant>upgrading_stables</Variant>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+    </BuildingF>
+    <BuildingG>
+      <Cost>
+        <metal>200</metal>
+      </Cost>
+      <Entity>structures/ordona/ordona_siegeworks</Entity>
+      <Time>45</Time>
+      <Tooltip>Build Carriage Barn on this plot.</Tooltip>
+      <Variant>upgrading_siegeworks</Variant>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+    </BuildingG>
+    <BuildingH>
+      <Cost>
+        <metal>200</metal>
+      </Cost>
+      <Entity>structures/ordona/ordona_temple</Entity>
+      <Time>45</Time>
+      <Tooltip>Build Chapel on this plot.</Tooltip>
+      <Variant>upgrading_temple</Variant>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+    </BuildingH>
+    <BuildingI>
+      <Cost>
+        <metal>200</metal>
+      </Cost>
+      <Entity>structures/ordona/ordona_blacksmith</Entity>
+      <Time>45</Time>
+      <Tooltip>Build Smithy on this plot.</Tooltip>
+      <Variant>upgrading_blacksmith</Variant>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+    </BuildingI>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_plot_mediumA.xml</Actor>
+  </VisualActor>
+</Entity>

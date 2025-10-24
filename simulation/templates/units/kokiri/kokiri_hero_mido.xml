@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+    units/kokiri_chief_aura
+    units/heroes/kokiri_hero_mido_01
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Antlers</AttackName>
+      <Damage>
+        <Crush>30.0</Crush>
+        <Hack>30.0</Hack>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>1300</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>16</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>150</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="5.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Mido</SpecificName>
+    <GenericName>Chief Kokiri</GenericName>
+    <History>The Kokiri Chief and boss of the Kokiri Forest. Mido is stubborn and considered a bully by most of the other Kokiri, and very few of his brothers and sisters actually admire him. Most Kokiri simply tolerate him. Despite his mean personality he does genuinely care for the state of his people, and has an intense affection for Saria.</History>
+    <Tooltip>A swift Cavalry Hero that attacks with his spear and has an economic bonus.</Tooltip>
+    <Icon>units/kokiri/kok_hero_mido.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>5.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/kokiri/mido/mido_death.xml</death>
+      <order_attack>voice/kokiri/mido/mido_attack.xml</order_attack>
+      <order_garrison>voice/kokiri/mido/mido_garrison.xml</order_garrison>
+      <order_gather>voice/kokiri/mido/mido_gather.xml</order_gather>
+      <order_repair>voice/kokiri/mido/mido_repair.xml</order_repair>
+      <order_walk>voice/kokiri/mido/mido_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/kokiri/mido/mido_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/movement/horse/horse_footsteps.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.6</RunMultiplier>
+    <WalkSpeed>17.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/kokiri/kokiri_hero_mido.xml</Actor>
+  </VisualActor>
+</Entity>

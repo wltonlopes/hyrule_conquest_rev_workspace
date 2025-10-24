@@ -1,0 +1,9 @@
+{
+	"settings" : {
+		"Name" : "Deku Temple",
+		"Script" : "deku_temple.js",
+		"Description" : "At the center of the Deku Forest lies the Wooded Temple, an ancient building built by the Scrubs in ages long past. An amry of wild Deku Srubs roves the area around their Temple, and they will defend it with their life. Battle for control of the temple, and the horror it holds within.\n\n[color=\"red\"]IMPORTANT NOTE: This map is very difficult for novice players, as the wandering monsters can destroy an entire settlement.[/color]\n",
+		"Preview" : "deep_forest.png",
+		"CircularMap" : true
+	}
+}

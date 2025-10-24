@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/deku/deku_baba_b">
+  <Auras datatype="tokens">
+    units/deku_baba_thorns
+  </Auras>
+  <Identity>
+    <SpecificName>Thorn Baba</SpecificName>
+    <History>When grown in environments full of danger or in places with little fresh air, Deku Babas grow a hard, thorny coating around their stems, to protect them and harm enemies.</History>
+    <Tooltip>Small immobile Creature unit that can be picked up by a wide variety of units to augment their abilities. This version deals pierce damage to units touching it.</Tooltip>
+  </Identity>
+  <Upgrade disable=""/>
+</Entity>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/kokiri/kokiri_hero_fado_b">
+  <Auras datatype="tokens">
+    units/heroes/kokiri_hero_fado_01
+    units/kokiri_fiddler_04
+    units/heroes/kokiri_hero_fado_songsaria
+  </Auras>
+  <Upgrade>
+    <SongofStorms>
+      <Entity>units/kokiri/kokiri_hero_fado_upgA</Entity>
+      <Tooltip>Play the Song of Storms.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Time>1</Time>
+    </SongofStorms>
+    <SongofQuartTime>
+      <Entity>units/kokiri/kokiri_hero_fado_upgB</Entity>
+      <Tooltip>Play the Song of Quarter Time.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Time>1</Time>
+    </SongofQuartTime>
+    <SongofDoubleTime>
+      <Entity>units/kokiri/kokiri_hero_fado_upgD</Entity>
+      <Tooltip>Play the Song of Double Time.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Time>1</Time>
+    </SongofDoubleTime>
+  </Upgrade>
+</Entity>

@@ -1,0 +1,4 @@
+Creatures
+If a unit has the class Creature, it does not count as a conquest unit.
+This means that, in a Conquest Units game, if the enemy only has units with the Creature class left, you win!
+The reasoning for this is that once all of the handlers are gone, the creatures no-longer obey.

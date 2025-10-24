@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_farmstead">
+  <Footprint replace="">
+    <Circle radius="21.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1800</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Berry Seeders</SpecificName>
+    <History>The berry seeders is where the Kokiri store extra seeds for berry bushes.</History>
+    <Icon>structures/kokiri/kok_berryseeders.dds</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="10.0" depth="10.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/kokiri/farmstead.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+</Entity>

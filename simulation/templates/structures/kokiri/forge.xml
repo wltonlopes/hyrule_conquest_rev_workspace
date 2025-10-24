@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Footprint replace="">
+    <Circle radius="27.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/debris_kokiri_huge</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Wood Carvers</SpecificName>
+    <History>Skilled Kokiri craftsman carve wood into many different forms for a wide variety of uses. While not reknowned in Hyrule for their skill in crafting armor, the Kokiri nonetheless made some of the sturdiest wooden shields and plating from Deku Tree bark.</History>
+    <Icon>structures/kokiri/kok_woodcarver.dds</Icon>
+    <Tooltip>Upgrades Kokiri armor and weapons.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <Vision>
+    <Range>32</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/kokiri/forge.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+</Entity>

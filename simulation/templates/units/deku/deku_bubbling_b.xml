@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/deku/barracksB
+      structures/deku/houseB
+      structures/deku/stableB
+    </Entities>
+  </Builder>
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Bubble</AttackName>
+      <Damage>
+        <Water>7.0</Water>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>70</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PrepareTime>800</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>4000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Water>4.0</Water>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>8</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>130</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.075</EjectHealth>
+    <List datatype="tokens">BabaCanRide</List>
+    <LoadingRange>6</LoadingRange>
+    <Max>1</Max>
+  </GarrisonHolder>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>2.6</Y>
+        <Z>-0.15</Z>
+      </Archer1>
+    </TurretPoints>
+  </TurretHolder>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Bubbling</SpecificName>
+    <History>Some individual Deku Scrubs have the ability to create a soapy and durable bubble within their mouth. When popped, the bubble unleashes a powerful burst that knocks everything around the area right to the ground. Such Deku are valued for their ability to knock down groups of enemies, and the Scrubs are always quick to add their rare talent to their armies.</History>
+    <Tooltip>Missile unit that spits explosive bubbles at their enemies.</Tooltip>
+    <Icon>units/deku/dek_bubbling.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>5.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/natural/dekububble_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/natural/dekububble_shoot.xml</attack_ranged>
+      <death>voice/deku/scrubC/scrubC_death.xml</death>
+      <order_attack>voice/deku/scrubC/scrubC_attack.xml</order_attack>
+      <order_garrison>voice/deku/scrubC/scrubC_garrison.xml</order_garrison>
+      <order_gather>voice/deku/scrubC/scrubC_gather.xml</order_gather>
+      <order_repair>voice/deku/scrubC/scrubC_repair.xml</order_repair>
+      <order_walk>voice/deku/scrubC/scrubC_walk.xml</order_walk>
+      <run>actor/movement/dekuscrub/scrub_hopA.xml</run>
+      <select>voice/deku/scrubC/scrubC_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/dekuscrub/scrub_hopA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.6363</RunMultiplier>
+    <WalkSpeed>11.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/deku/deku_bubbling_b.xml</Actor>
+  </VisualActor>
+</Entity>

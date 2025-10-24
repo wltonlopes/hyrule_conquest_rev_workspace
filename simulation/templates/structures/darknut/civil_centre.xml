@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Attack>
+    <Ranged>
+      <AttackName>Javelin</AttackName>
+      <Damage>
+        <Pierce>15</Pierce>
+      </Damage>
+      <MaxRange>140</MaxRange>
+      <PrepareTime>600</PrepareTime>
+      <RepeatTime>5000</RepeatTime>
+      <Projectile>
+        <Speed>100</Speed>
+        <Spread>2</Spread>
+        <Gravity>50</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="0"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
+    </Ranged>
+  </Attack>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+    <Category>CivilCentre</Category>
+    <Distance>
+      <FromClass>CivilCentre</FromClass>
+      <MinDistance>400</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <BuildingAI>
+    <DefaultArrowCount>10</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>750</BuildTime>
+    <Resources>
+      <wood>300</wood>
+      <stone>1000</stone>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="35.0"/>
+    <Height>180.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>25</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>5000</Max>
+  </Health>
+  <Identity>
+    <Civ>darknut</Civ>
+    <SpecificName>Basilica</SpecificName>
+  </Identity>
+  <Loot>
+    <wood>100</wood>
+    <stone>400</stone>
+    <metal>100</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="70.0" depth="70.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>30</Bonus>
+  </Population>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>200</Radius>
+    <Weight>10000</Weight>
+  </TerritoryInfluence>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/support_female_citizen
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_swordsman_b
+    </Entities>
+  </Trainer>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/darknut/darknut_civic_centre.xml</Actor>
+  </VisualActor>
+</Entity>

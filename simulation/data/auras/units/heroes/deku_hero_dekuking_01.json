@@ -1,0 +1,13 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "multiply": 1.2 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "multiply": 1.2 },
+		{ "value": "Resistance/Entity/Damage/Crush", "multiply": 1.2 },
+		{ "value": "Vision/Range", "multiply": 1.2 }
+	],
+	"auraName": "Deku Unifiyer",
+	"auraDescription": "All units +20% resistance and +10% vision range.",
+	"overlayIcon": "art/textures/ui/session/auras/standground.png"
+}

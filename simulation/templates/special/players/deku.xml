@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Auras datatype="tokens">
+    teambonuses/deku_player_teambonus
+  </Auras>
+  <Identity>
+    <Civ>deku</Civ>
+    <GenericName>Deku Kingdom</GenericName>
+    <History>"The Deku Kingdom.",</History>
+    <Icon>emblems/emblem_deku.dds</Icon>
+  </Identity>
+</Entity>

@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["All"],
+	"modifications": [
+		{ "value": "Vision/Range", "add": 20 }
+	],
+	"auraName": "Lead Watcher",
+	"auraDescription": "All units and structures +20 vision range."
+}

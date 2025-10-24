@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Deku Seeds</AttackName>
+      <Damage>
+        <Crush>3.5</Crush>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>55</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PrepareTime>1900</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}/fortress
+      structures/kokiri/barracksB
+      structures/kokiri/barracksC
+      structures/kokiri/tree
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <food>30</food>
+      <wood>15</wood>
+      <stone>5</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <SpecificName>Slingshotter</SpecificName>
+    <History>A short ranged attacker wielding the signature Kokiri Slingshots, they can stun enemies with their attack. Slingshotters might not pack much of a punch but a cluster of them can send enemies spinning in circles.</History>
+    <Tooltip>Light and cheap missile unit.</Tooltip>
+    <Icon>units/kokiri/kok_slingshotter.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>4.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/slingshot.xml</attack_ranged>
+      <death>voice/kokiri/slingshotter/slingshotter_death.xml</death>
+      <order_attack>voice/kokiri/slingshotter/slingshotter_attack.xml</order_attack>
+      <order_build>voice/kokiri/slingshotter/slingshotter_repair.xml</order_build>
+      <order_garrison>voice/kokiri/slingshotter/slingshotter_garrison.xml</order_garrison>
+      <order_gather>voice/kokiri/slingshotter/slingshotter_gather.xml</order_gather>
+      <order_repair>voice/kokiri/slingshotter/slingshotter_repair.xml</order_repair>
+      <order_walk>voice/kokiri/slingshotter/slingshotter_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/kokiri/slingshotter/slingshotter_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.3636</RunMultiplier>
+    <WalkSpeed>11.0</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>65</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/kokiri/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

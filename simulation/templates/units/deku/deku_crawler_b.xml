@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Fangs</AttackName>
+      <Damage>
+        <Hack>8.0</Hack>
+        <Pierce>12</Pierce>
+      </Damage>
+      <MaxRange>7.0</MaxRange>
+      <PrepareTime>1400</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>250</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>2.6</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>1.7</X>
+        <Y>2.1</Y>
+        <Z>-1.2</Z>
+      </Archer2>
+      <Archer3>
+        <X>-1.7</X>
+        <Y>2.1</Y>
+        <Z>-1.2</Z>
+      </Archer3>
+    </TurretPoints>
+  </TurretHolder>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <SpecificName>Baba Crawler</SpecificName>
+    <GenericName>Creature</GenericName>
+    <History>The Baba Crawler is a slow moving monstrosity that drags itself across the ground and entangles victims in it's thorny arms. Attacking a Baba Crawler in a melee is difficult, and anything that attempts to is bound to take damage from it's numerous thorns. Sometimes Baba Crawlers will mangle themselves with other Deku Babas and become a larger and more dangerous mass of thrashing vines and maws.</History>
+    <Tooltip>Slow moving Melee creature unit that can carry other Deku Babas around.</Tooltip>
+    <Icon>units/deku/dek_babacrawler.dds</Icon>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>30.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/dekubaba_bite.xml</attack_melee>
+      <death>voice/deku/dekubaba/dekubaba_death.xml</death>
+      <order_attack>voice/deku/dekubaba/dekubaba_attack.xml</order_attack>
+      <order_garrison>voice/deku/dekubaba/dekubaba_garrison.xml</order_garrison>
+      <order_gather>voice/deku/dekubaba/dekubaba_gather.xml</order_gather>
+      <order_repair>voice/deku/dekubaba/dekubaba_repair.xml</order_repair>
+      <order_walk>voice/deku/dekubaba/dekubaba_walk.xml</order_walk>
+      <run>actor/movement/dekubaba/dekubaba_crawl.xml</run>
+      <select>voice/deku/dekubaba/dekubaba_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <walk>actor/movement/dekubaba/dekubaba_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+    <RunMultiplier>1.8888</RunMultiplier>
+    <WalkSpeed>4.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/deku/deku_crawler_b.xml</Actor>
+  </VisualActor>
+</Entity>

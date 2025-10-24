@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Lantern</AttackName>
+      <Damage>
+        <Fire>15</Fire>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1100</PrepareTime>
+      <RepeatTime>1300</RepeatTime>
+    </Melee>
+  </Attack>
+  <Footprint replace="">
+    <Circle radius="3.0" />
+    <Height>7.0</Height>
+  </Footprint>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <VisibleClasses datatype="tokens">Undead</VisibleClasses>
+    <SpecificName>Poe</SpecificName>
+    <GenericName>Undead</GenericName>
+    <History>The Poe ghosts never left the earthly realm but remained restlessly by their own graves. When the graves were disturbed, the ghosts would appear, swinging their spirit lanterns to attack their living foes. Many dark necromancers would seek out and bind these tortured souls to their causes.</History>
+    <Tooltip>Floating unit that deals Fire damage.</Tooltip>
+    <Icon>units/stalfos/sta_poe.dds</Icon>
+  </Identity>
+  <Position>
+    <Floating>true</Floating>
+    <TurnRate>3.25</TurnRate>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>25.0</Hack>
+        <Pierce>25.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/poe_lantern.xml</attack_melee>
+      <attack_ranged>attack/weapon/poe_lantern.xml</attack_ranged>
+      <death>voice/stalfos/poe/poe_death.xml</death>
+      <order_attack>voice/stalfos/poe/poe_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/poe/poe_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/poe/poe_gather.xml</order_gather>
+      <order_repair>voice/stalfos/poe/poe_repair.xml</order_repair>
+      <order_walk>voice/stalfos/poe/poe_walk.xml</order_walk>
+      <run>actor/movement/poe/poe_hover.xml</run>
+      <select>voice/stalfos/poe/poe_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/poe/poe_hover.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <RoamDistance>48.0</RoamDistance>
+    <FleeDistance>24.0</FleeDistance>
+    <RoamTimeMin>2000</RoamTimeMin>
+    <RoamTimeMax>40000</RoamTimeMax>
+    <FeedTimeMin>16000</FeedTimeMin>
+    <FeedTimeMax>30000</FeedTimeMax>
+    <Formations disable=""/>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+    <RunMultiplier>1.4285</RunMultiplier>
+    <WalkSpeed>4.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>85</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_poe_b.xml</Actor>
+  </VisualActor>
+</Entity>

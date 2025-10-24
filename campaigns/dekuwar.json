@@ -1,0 +1,29 @@
+{
+	"Name": "Deku Civil War",
+	"Description": "Play through a civil war between two Deku Scrub factions.",
+	"Levels": {
+		"begin": {
+			"Name": "Sparks of War",
+			"Map": "campaigns/deku1.xml",
+			"MapType": "scenario",
+			"Description": "The Deku Scrubs have never been united, but now outright war has broken out.",
+			"Preview": "session/icons/mappreview/Introductory_Tutorial.png"
+		},
+		"middle": {
+			"Name": "Battle for the Forest",
+			"Map": "campaigns/deku2.xml",
+			"MapType": "scenario",
+			"Description": "The Deku Scrubs are waging war throughout the forest. Battle to make sure your side wins.",
+			"Requires": "begin"
+		},
+		"end": {
+			"Name": "Woodtemple Battle",
+			"Map": "campaigns/deku3.xml",
+			"MapType": "scenario",
+			"Description": "The enemy has been pushed back to the Great Temple. Now, we will end this war!",
+			"Requires": "middle"
+		}
+	},
+	"Order": ["begin", "middle", "end"],
+	"ShowUnavailable": true
+}

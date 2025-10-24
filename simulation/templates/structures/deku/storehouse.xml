@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Footprint replace="">
+    <Circle radius="18.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Storehouse</SpecificName>
+    <Icon>structures/deku/dek_supplystores.dds</Icon>
+    <Classes datatype="tokens">-DropsiteWood</Classes>
+    <History>A storehouse for resources and Deku Nuts.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <ResourceDropsite>
+    <Types>stone metal</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <VisualActor>
+    <Actor>structures/deku/storehouse.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

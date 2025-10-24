@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_passive">
+  <Attack disable=""/>
+  <Footprint replace="">
+    <Circle radius="1.5"/>
+    <Height>4.0</Height>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Underling</SpecificName>
+    <GenericName>Deku Worker</GenericName>
+    <History>Underlings are at the bottom of the Scrub hierarchy. Underlings work tirelessly to build and maintain the Scrub civilization, and are often bossed around by other Scrubs. They do not seem to mind much though, in fact Underlings that have no work to accomplish tend to become depressed and find ways to start trouble. Some Underlings will carry Scrublings on top of their shoulders to defend them while they work.</History>
+    <Icon>units/deku/dek_underling.dds</Icon>
+    <Tooltip>Worker unit: can gather all resources and construct buildings for the Deku Scrubs.</Tooltip>
+  </Identity>
+  <Loot>
+    <xp>3</xp>
+    <wood>5</wood>
+  </Loot>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>1</Hack>
+        <Pierce>1</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/weapon/sword.xml</attack>
+      <build>resource/construction/con_wood.xml</build>
+      <death>voice/deku/underling/underling_death.xml</death>
+      <order_attack>voice/deku/underling/underling_attack.xml</order_attack>
+      <order_build>voice/deku/underling/underling_repair.xml</order_build>
+      <order_garrison>voice/deku/underling/underling_garrison.xml</order_garrison>
+      <order_gather>voice/deku/underling/underling_gather.xml</order_gather>
+      <order_repair>voice/deku/underling/underling_repair.xml</order_repair>
+      <order_walk>voice/deku/underling/underling_walk.xml</order_walk>
+      <run>actor/movement/dekuscrub/scrub_hopA.xml</run>
+      <select>voice/deku/underling/underling_select.xml</select>
+      <trained>interface/alarm/alarm_create_worker.xml</trained>
+      <walk>actor/movement/dekuscrub/scrub_hopA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>passive</DefaultStance>
+    <CanGuard>false</CanGuard>
+    <CanPatrol>false</CanPatrol>
+    <RoamDistance>24.0</RoamDistance>
+    <FleeDistance>24.0</FleeDistance>
+    <RoamTimeMin>8000</RoamTimeMin>
+    <RoamTimeMax>16000</RoamTimeMax>
+    <FeedTimeMin>8000</FeedTimeMin>
+    <FeedTimeMax>10000</FeedTimeMax>
+    <Formations disable=""/>
+  </UnitAI>
+  <VisualActor>
+    <Actor>units/deku/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

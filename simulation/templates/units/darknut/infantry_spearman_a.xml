@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/darknut/infantry_spearman_b">
+  <Attack>
+    <Melee>
+      <AttackName>Spear</AttackName>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
+      <Damage>
+        <Pierce>23.0</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1300</PrepareTime>
+      <RepeatTime>1400</RepeatTime>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Rank>Advanced</Rank>
+    <SpecificName>Mighty Hoplite</SpecificName>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>30.0</Hack>
+        <Pierce>32.5</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/darknut/infantry_spearman_a.xml</Actor>
+  </VisualActor>
+</Entity>

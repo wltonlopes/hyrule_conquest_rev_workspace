@@ -1,0 +1,13 @@
+{
+	"type": "global",
+	"affects": ["Structure"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.8 },
+		{ "value": "Cost/Resources/food", "multiply": 0.8 },
+		{ "value": "Cost/Resources/wood", "multiply": 0.8 },
+		{ "value": "Cost/Resources/stone", "multiply": 0.8 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.8 }
+	],
+	"auraName": "Economic Knowledge",
+	"auraDescription": "All structures cost 20% less resources and take 20% less time to build."
+}

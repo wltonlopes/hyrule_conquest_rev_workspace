@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_gate">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <wood>30</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="38.5" depth="8.5"/>
+    <Height>9</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>rubble/debris_deku_wall_long</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Encampment Gate</SpecificName>
+    <History>A makeshift wooden wall to keep the elements out of Deku territory.</History>
+  </Identity>
+  <Obstruction>
+    <Obstructions>
+      <Right width="14" depth="7" x="12" z="0"/>
+      <Left width="14" depth="7" x="-12" z="0"/>
+      <Door width="10" depth="7" x="0" z="0"/>
+    </Obstructions>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>12.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/deku/wall_gatehouse.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>37.0</Length>
+  </WallPiece>
+</Entity>

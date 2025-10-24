@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Auras datatype="tokens">
+    units/deku_horn_01
+    units/deku_horn_02
+  </Auras>
+  <Attack>
+    <Melee disable=""/>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>150</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Hornling</SpecificName>
+    <GenericName>Support Unit</GenericName>
+    <History>The musical chirps and sounds of the Scrub's language serves them well on the battlefield. Hornlings bring a large Deku Horn with them to loudly and clearly give orders to the soldiers under their command. Although the horns sound confusing and obnoxious to outsiders, their bass utterance carries with it the unfolding plans of a Scrub army.</History>
+    <Tooltip>Support unit that improves the movement rate of Deku Scrubs with his musical horn.</Tooltip>
+    <Icon>units/deku/dek_hornling.dds</Icon>
+    <VisibleClasses datatype="tokens">Support Musical -Melee -Spearman</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>5.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <death>voice/deku/scrubA/scrubA_death.xml</death>
+      <order_garrison>voice/deku/scrubA/scrubA_garrison.xml</order_garrison>
+      <order_gather>voice/deku/scrubA/scrubA_gather.xml</order_gather>
+      <order_repair>voice/deku/scrubA/scrubA_repair.xml</order_repair>
+      <order_walk>voice/deku/hornling/hornling_walk.xml</order_walk>
+      <run>actor/movement/dekuscrub/scrub_hopA.xml</run>
+      <select>voice/deku/hornling/hornling_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/dekuscrub/scrub_hopA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/deku/deku_hornling_b.xml</Actor>
+  </VisualActor>
+</Entity>

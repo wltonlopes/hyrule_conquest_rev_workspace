@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Footprint>
+    <Height>12.0</Height>
+    <Square depth="41.0" width="41.0"/>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Loggery</SpecificName>
+    <History>The Scrubs are notable for their highly organized and boxy cities built from well crafted and painted logs. Scrubs have a knack for growing, cutting down, and using the forests around them rather efficiently to do just that.</History>
+    <Icon>structures/deku/dek_loggery.dds</Icon>
+    <Tooltip>Builds Deku Siege units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/deku/deku_scrubram
+      units/deku/deku_dekupult
+      -units/{civ}/champion_infantry_crossbowman
+      -units/{civ}/siege_scorpio_packed
+      -units/{civ}/siege_polybolos_packed
+      -units/{civ}/siege_oxybeles_packed
+      -units/{civ}/siege_onager_packed
+      -units/{civ}/siege_lithobolos_packed
+      -units/{civ}/siege_ballista_packed
+      -units/{civ}/siege_ram
+      -units/{civ}/siege_tower
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/deku/arsenal.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

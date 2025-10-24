@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint>
+    <Square depth="41.0" width="41.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <Classes datatype="tokens">Village</Classes>
+    <History>A garden dedicated to growing and cultivating the violent Deku Babas. Scrubs have many uses for these creatures, from guard dog duty to augmenting their war efforts.</History>
+    <SpecificName>Baba Patch</SpecificName>
+    <Icon>structures/deku/dek_babapatch.dds</Icon>
+    <Tooltip>Trains Deku Babas and related units.</Tooltip>
+    <Classes datatype="tokens">CivSpecific</Classes>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/deku/complete_babapatch.xml</constructed>
+      <select>interface/select/building/deku/sel_babapatch.xml</select>
+      <upgraded>interface/complete/building/deku/complete_babapatch.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/deku/deku_baba_b
+      units/deku/deku_crawler_b
+      -units/{civ}/infantry_spearman_b
+      -units/{civ}/infantry_pikeman_b
+      -units/{civ}/infantry_maceman_b
+      -units/{civ}/infantry_axeman_b
+      -units/{civ}/infantry_swordsman_b
+      -units/{civ}/infantry_javelineer_b
+      -units/{civ}/infantry_slinger_b
+      -units/{civ}/infantry_archer_b
+      -units/{civ}/champion_infantry_spearman
+      -units/{civ}/champion_infantry_pikeman
+      -units/{civ}/champion_infantry_maceman
+      -units/{civ}/champion_infantry_axeman
+      -units/{civ}/champion_infantry_swordsman
+      -units/{civ}/champion_infantry_javelineer
+      -units/{civ}/champion_infantry_slinger
+      -units/{civ}/champion_infantry_archer
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/deku/barracksB.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>
