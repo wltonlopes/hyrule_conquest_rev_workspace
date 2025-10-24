@@ -1,0 +1,11 @@
+<variant name="Base" frequency="1">
+  <animations>
+		<animation file="HC_kokiri/kokiri_idle" name="Idle" id="idle1" speed="50"/>
+		<animation file="HC_kokiri/kokiri_run.dae" name="Walk" id="walk1" speed="20"/>
+		<animation file="HC_kokiri/kokiri_run.dae" name="Walk" id="walk2" speed="20"/>
+		<animation file="HC_kokiri/kokiri_run.dae" name="Run" id="run1" speed="20"/>
+		<animation file="HC_kokiri/kokiri_run.dae" name="Run" id="run2" speed="20"/>
+		<animation file="HC_kokiri/kokiri_flailA.dae" name="Flail" id="flail1" speed="8"/>
+		<animation file="HC_kokiri/kokiri_recoverA.dae" name="Recover" id="recover1" speed="8"/>
+   </animations>
+</variant>
