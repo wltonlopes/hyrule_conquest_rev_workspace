@@ -1,0 +1,8 @@
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="HC_archer/biped_hum_arch_harvest_grain.dae" name="Idle" id="idle1" speed="121"/>
+    <animation file="HC_archer/biped_hum_arch_harvest_grain.dae" name="Idle" id="idle2" speed="121"/>
+    <animation file="HC_archer/biped_hum_arch_harvest_grain.dae" name="Idle" id="idle3" speed="121"/>
+    <animation file="HC_archer/biped_hum_arch_harvest_grain.dae" name="Idle" id="idle4" speed="121"/>
+  </animations>
+</variant>

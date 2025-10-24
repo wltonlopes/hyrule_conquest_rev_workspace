@@ -1,0 +1,5 @@
+<variant name="attack_ranged">
+  <animations>
+    <animation event="0.5" file="HC_korok_small/korok_small_attack_leafA.dae" load="0.5" name="attack_ranged" speed="100"/>
+  </animations>
+</variant>

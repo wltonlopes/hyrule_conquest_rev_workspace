@@ -1,0 +1,6 @@
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="HC_swordling/swordling_walk.dae" name="Idle" id="idle1" speed="121"/>
+    <animation event="0.5" file="HC_swordling/swordling_walk.dae" name="Walk" id="walk1" speed="20"/>
+  </animations>
+</variant>
