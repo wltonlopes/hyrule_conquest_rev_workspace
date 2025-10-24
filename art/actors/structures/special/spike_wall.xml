@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="spike wall">
+      <animations/>
+      <mesh>structural/spike_wall.dae</mesh>
+      <textures>
+        <texture file="structural/dirt_rugged.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>

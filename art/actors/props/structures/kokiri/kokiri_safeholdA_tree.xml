@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="trunk-a">
+      <mesh>structural/kokiri/kok_safeholdA_tree.dae</mesh>
+      <textures>
+        <texture file="gaia/flora/LW_treeB.dds" name="baseTex"/>
+      </textures>
+      <props>
+	<prop actor="particle/kokiri_leavesA.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_wind.xml</material>
+</actor>

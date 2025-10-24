@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group> 
+    <variant frequency="1" name="trunk-a">
+      <mesh>structural/kokiri/kok_secludeA_leaves.dae</mesh>
+      <textures>
+        <texture file="gaia/flora/LW_treeA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_wind.xml</material>
+</actor>

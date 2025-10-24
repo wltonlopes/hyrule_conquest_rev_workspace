@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Safehold">
+      <animations>
+        <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
+      </animations>
+      <mesh>structural/kokiri/kok_safeholdA.dae</mesh>
+      <textures>
+        <texture file="structural/kokiri/kokiri_buildingA.dds" name="baseTex"/>
+	<texture file="structural/kokiri/kokiri_buildingA_normal.dds" name="normTex"/>
+        <texture file="structural/kokiri/kokiri_buildingA.dds" name="specTex"/>
+	<texture file="structural/kokiri/kokiri_safeholdA_ao.dds" name="aoTex"/>
+      </textures>
+      <props>
+	<prop actor="particle/kokiri_sparklesA.xml" attachpoint="root"/>
+	<prop actor="particle/kokiri_sparklesB.xml" attachpoint="root"/>
+	<prop actor="particle/kokiri_sparklesC.xml" attachpoint="root"/>
+	<prop actor="particle/kokiri_mistA.xml" attachpoint="root"/>
+	<prop actor="particle/kokiri_leavesA.xml" attachpoint="root"/>
+	<prop actor="props/structures/kokiri/kokiri_settle_groundA.xml" attachpoint="root"/>
+	<prop actor="props/structures/kokiri/kokiri_safeholdA_tree.xml" attachpoint="root"/>
+	<prop actor="props/structures/kokiri/kokiri_safeholdA_leaves.xml" attachpoint="root"/>
+	<prop actor="props/structures/kokiri/kokiri_safeholdA_flags.xml" attachpoint="root"/>
+	<prop actor="props/units/weapons/kokiri_rockA.xml" attachpoint="loaded-projectile"/>
+	<prop actor="props/units/weapons/kokiri_rockA.xml" attachpoint="projectile"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_ao_norm_spec.xml</material>
+</actor>

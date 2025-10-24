@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Korok">
+      <mesh>units/korok/kor_smallA.dae</mesh>
+      <props>
+	<prop actor="props/units/outfits/korok_maskA.xml" attachpoint="face_leaf"/>
+	<prop actor="props/units/weapons/korok_copterleafA.xml" attachpoint="spinner"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Kokiri">
+      <textures>
+        <texture file="skeletal/korok/kor_mainA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_korok_small/base_HC_korok_small_fly.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_korok_small/base_HC_korok_small_attack_leaf.xml"/>
+    <variant file="HC_korok_small/base_HC_korok_small_fly_death.xml"/>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/deku/dek_stagnoxA.dae</mesh>
+      <props>
+        <prop actor="particle/stagnox_asscloudA.xml" attachpoint="ass_02"/>
+        <prop actor="props/units/explosions/catapult_explosion.xml" attachpoint="projectile"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Stagnox">
+      <textures>
+        <texture file="skeletal/deku/dek_stagnoxA.dds" name="baseTex"/>
+        <texture file="skeletal/deku/dek_stagnoxA.dds" name="specTex"/>
+        <texture file="skeletal/deku/dek_stagnoxA.dds" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_stagnox/base_HC_stagnox.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_stagnox/base_HC_stagnox_att.xml"/>
+    <variant name="Death">
+      <props>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

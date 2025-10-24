@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Walker">
+      <mesh>units/korok/kor_largeA.dae</mesh>
+      <props>
+	<prop actor="props/units/weapons/deku_nutA_shoot.xml" attachpoint="projectile"/>
+	<prop actor="units/kokiri/korok_large_tree.xml" attachpoint="treetop"/>
+	<prop actor="units/kokiri/korok_large_leaves.xml" attachpoint="treetop"/>
+	<prop actor="units/kokiri/korok_large_treetop.xml" attachpoint="treetop"/>
+	<prop actor="props/units/outfits/korok_largemaskA.xml" attachpoint="leafmask"/>
+	<prop actor="props/units/weapons/korok_spearA.xml" attachpoint="R_hand"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Kokiri">
+      <textures>
+        <texture file="skeletal/korok/kor_mainA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_korok_large/base_HC_korok_large.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_korok_large/base_HC_korok_large_death.xml"/>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

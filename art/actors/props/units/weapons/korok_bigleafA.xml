@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="mesh">
+      <textures><texture file="skeletal/korok/kor_plantsA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="korokleaf-A">
+      <mesh>props/weapon/korok_bigleafA.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>  
+</actor>

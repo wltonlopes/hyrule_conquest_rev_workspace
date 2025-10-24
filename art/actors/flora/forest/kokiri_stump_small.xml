@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="trunk-a">
+      <mesh>gaia/flora/flora_kokiri_stumpA.dae</mesh>
+    </variant>
+    <variant frequency="1" name="trunk-b">
+      <mesh>gaia/flora/flora_kokiri_stumpB.dae</mesh>
+    </variant>
+    <variant frequency="1" name="trunk-c">
+      <mesh>gaia/flora/flora_kokiri_stumpC.dae</mesh>
+    </variant>
+    <variant frequency="1" name="trunk-d">
+      <mesh>gaia/flora/flora_kokiri_stumpD.dae</mesh>
+    </variant>
+    <variant frequency="1" name="trunk-e">
+      <mesh>gaia/flora/flora_kokiri_stumpE.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="trunk-texture">
+      <textures><texture file="gaia/flora/treestump_kokiriA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>

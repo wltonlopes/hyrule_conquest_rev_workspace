@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="CapeA">
+      <animations>
+        <animation file="HC_kokiri/kokiri_rider_idle.dae" name="Idle" speed="50"/>
+        <animation file="HC_kokiri/kokiri_rider_move.dae" name="Walk" speed="18"/>
+        <animation file="HC_kokiri/kokiri_rider_move.dae" name="Run" speed="40"/>
+        <animation event="0.5" file="HC_kokiri/kokiri_rider_attackA.dae" name="attack_melee" speed="100"/>
+        <animation event="0.5" file="HC_kokiri/kokiri_rider_attackA.dae" name="attack_slaughter" speed="100"/>
+        <animation event="0.5" file="HC_kokiri/kokiri_rider_attackA.dae" name="gather_meat" speed="100"/>
+        <animation file="HC_kokiri/kokiri_rider_death.dae" name="death" speed="230"/>
+      </animations>
+      <mesh>units/kokiri/kok_cape_chiefA.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Kokiri">
+      <textures>
+        <texture file="skeletal/kokiri/kok_mainB.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>

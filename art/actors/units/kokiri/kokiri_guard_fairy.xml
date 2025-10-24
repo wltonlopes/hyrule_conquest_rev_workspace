@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="HC_fairy_small/base_HC_fairy_relax.xml">
+      <mesh>units/kokiri/kok_guard_fairyA.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="pink">
+      <props>
+	<prop actor="particle/fairy_glow_pink.xml" attachpoint="fairy_01"/>
+	<prop actor="particle/fairy_sparklesA_pink.xml" attachpoint="fairy_01"/>
+      </props>
+      <textures>
+        <texture file="skeletal/fairy/fai_wings_pink.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="white">
+      <props>
+	<prop actor="particle/fairy_glow_white.xml" attachpoint="fairy_01"/>
+	<prop actor="particle/fairy_sparklesA_white.xml" attachpoint="fairy_01"/>
+      </props>
+      <textures>
+        <texture file="skeletal/fairy/fai_wings_white.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="orange">
+      <props>
+	<prop actor="particle/fairy_glow_orange.xml" attachpoint="fairy_01"/>
+	<prop actor="particle/fairy_sparklesA_orange.xml" attachpoint="fairy_01"/>
+      </props>
+      <textures>
+        <texture file="skeletal/fairy/fai_wings_orange.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="green">
+      <props>
+	<prop actor="particle/fairy_glow_green.xml" attachpoint="fairy_01"/>
+	<prop actor="particle/fairy_sparklesA_green.xml" attachpoint="fairy_01"/>
+      </props>
+      <textures>
+        <texture file="skeletal/fairy/fai_wings_green.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blue">
+      <props>
+	<prop actor="particle/fairy_glow_blue.xml" attachpoint="fairy_01"/>
+	<prop actor="particle/fairy_sparklesA_blue.xml" attachpoint="fairy_01"/>
+      </props>
+      <textures>
+        <texture file="skeletal/fairy/fai_wings_blue.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="red">
+      <props>
+	<prop actor="particle/fairy_glow_red.xml" attachpoint="fairy_01"/>
+	<prop actor="particle/fairy_sparklesA_red.xml" attachpoint="fairy_01"/>
+      </props>
+      <textures>
+        <texture file="skeletal/fairy/fai_wings_red.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="violet">
+      <props>
+	<prop actor="particle/fairy_glow_violet.xml" attachpoint="fairy_01"/>
+	<prop actor="particle/fairy_sparklesA_violet.xml" attachpoint="fairy_01"/>
+      </props>
+      <textures>
+        <texture file="skeletal/fairy/fai_wings_violet.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="yellow">
+      <props>
+	<prop actor="particle/fairy_glow_yellow.xml" attachpoint="fairy_01"/>
+	<prop actor="particle/fairy_sparklesA_yellow.xml" attachpoint="fairy_01"/>
+      </props>
+      <textures>
+        <texture file="skeletal/fairy/fai_wings_yellow.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant file="HC_fairy_small/base_HC_fairy_death.xml"/>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

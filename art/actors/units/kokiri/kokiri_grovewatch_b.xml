@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="MaleA">
+      <mesh>units/kokiri/kok_maleA.dae</mesh>
+    </variant>
+    <variant frequency="1" name="MaleB">
+      <mesh>units/kokiri/kok_maleB.dae</mesh>
+    </variant>
+    <variant frequency="1" name="MaleC">
+      <mesh>units/kokiri/kok_maleC.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Kokiri">
+      <props>
+	<prop actor="props/units/hair/kokiri_MhairA.xml" attachpoint="bone_head"/>
+	<prop actor="props/units/outfits/kokiri_MarmorA.xml" attachpoint="root"/>
+	<prop actor="props/units/weapons/kokiri_swordA.xml" attachpoint="bone_weapon_right"/>
+	<prop actor="props/units/weapons/kokiri_shieldA.xml" attachpoint="bone_weapon_left"/>
+	<prop actor="units/kokiri/kokiri_guard_fairy.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="skeletal/kokiri/kok_mainA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_kokiri/base_HC_biped_relax.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_kokiri/base_HC_biped_capture.xml"/>
+    <variant file="HC_kokiri/base_HC_biped_slaughter.xml"/>
+    <variant file="HC_kokiri/base_HC_biped_death.xml">
+      <props>
+	<prop actor="props/units/blood_01.xml" attachpoint="root"/>
+	<prop actor="props/units/outfits/kokiri_MarmorA.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

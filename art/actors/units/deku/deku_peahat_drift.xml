@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Underling">
+      <mesh>units/deku/dek_peahatdriftA.dae</mesh>
+      <textures>
+        <texture file="skeletal/deku/dek_peahatdriftA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Main">
+      <animations>
+        <animation file="HC_peahat/peahatmama_fly.dae" name="Idle" speed="25"/>
+        <animation file="HC_peahat/peahatmama_fly.dae" name="Walk" speed="5"/>
+        <animation file="HC_peahat/peahatmama_fly.dae" name="Walk" speed="7"/>
+        <animation file="HC_peahat/peahatmama_fly.dae" name="Walk" speed="9"/>
+        <animation file="HC_peahat/peahatmama_fly.dae" name="Walk" speed="11"/>
+        <animation file="HC_peahat/peahatmama_fly.dae" name="Run" speed="5"/>
+        <animation file="HC_peahat/peahatmama_fly.dae" name="Run" speed="7"/>
+        <animation file="HC_peahat/peahatmama_fly.dae" name="Run" speed="9"/>
+        <animation event="0.5" file="HC_peahat/peahatmama_fly.dae" id="attack1" name="attack_melee" speed="100"/>
+        <animation file="HC_peahat/peahatmama_death_fall.dae" id="death1" name="Death" speed="100"/>
+      </animations>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

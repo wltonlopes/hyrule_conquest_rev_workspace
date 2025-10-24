@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+	
+   <group>
+    <variant minquality="high" frequency="1" name="maleA">
+      <mesh>units/ordona/ord_maleA.dae</mesh>
+    </variant>
+    <variant minquality="high" frequency="1" name="maleB">
+      <mesh>units/ordona/ord_maleB.dae</mesh>
+    </variant>
+    <variant minquality="high" frequency="1" name="maleC">
+      <mesh>units/ordona/ord_maleC.dae</mesh>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="maleA">
+       <mesh>units/ordona/medium/ord_maleA.dae</mesh>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="maleB">
+       <mesh>units/ordona/medium/ord_maleB.dae</mesh>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="maleC">
+       <mesh>units/ordona/medium/ord_maleC.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="maleA">
+       <mesh>units/ordona/low/ord_maleA.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="maleB">
+       <mesh>units/ordona/low/ord_maleB.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="maleC">
+       <mesh>units/ordona/low/ord_maleC.dae</mesh>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="outfitA">
+      <textures><texture file="skeletal/ordona/ord_mainA.dds" name="baseTex"/></textures>
+    </variant>
+	<variant frequency="1" name="outfitB">
+      <textures><texture file="skeletal/ordona/ord_mainB.dds" name="baseTex"/></textures>
+    </variant>
+	<variant frequency="1" name="outfitC">
+      <textures><texture file="skeletal/ordona/ord_mainC.dds" name="baseTex"/></textures>
+    </variant>
+	<variant frequency="1" name="outfitD">
+      <textures><texture file="skeletal/ordona/ord_mainD.dds" name="baseTex"/></textures>
+    </variant>
+	<variant frequency="1" name="outfitE">
+      <textures><texture file="skeletal/ordona/ord_mainE.dds" name="baseTex"/></textures>
+    </variant>	
+  </group>  
+  
+  <group>
+    <variant file="HC_archer/base_HC_biped_farmer.xml">
+	  <props>
+		<prop actor="props/units/weapons/ordona_pitchforkA.xml" attachpoint="root"/>
+		<prop actor="units/ordona/ordona_M_hairs.xml" attachpoint="bone_head"/>
+	  </props>	
+    </variant>
+   </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_archer/base_HC_biped_death.xml">
+	  <props>
+		<prop actor="props/units/weapons/ordona_pitchforkA.xml" attachpoint="root"/>
+		<prop actor="props/units/blood_01.xml" attachpoint="root"/>
+	  </props>	
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>

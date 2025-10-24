@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="mesh">
+      <textures><texture file="skeletal/korok/kor_plantsA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="kokirispear-A">
+      <mesh>props/weapon/korok_stickA.dae</mesh>
+    </variant>
+    <variant frequency="1" name="kokirispear-B">
+      <mesh>props/weapon/korok_stickA.dae</mesh>
+    </variant>
+  </group>
+</actor>
+

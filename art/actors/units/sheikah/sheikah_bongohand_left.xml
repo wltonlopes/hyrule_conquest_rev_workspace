@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/sheikah/she_bongohand_left.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Bongo Bongo">
+      <textures>
+        <texture file="skeletal/sheikah/she_devouredA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_bongobongo/base_HC_bongobongo.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_bongobongo/base_HC_bongobongo_att.xml"/>
+    <variant name="Death">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

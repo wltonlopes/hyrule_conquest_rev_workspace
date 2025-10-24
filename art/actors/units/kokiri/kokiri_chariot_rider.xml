@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+   <group>
+    <variant frequency="1" name="femaleA">
+      <mesh>units/kokiri/kok_maleA.dae</mesh>
+    </variant>
+    <variant frequency="1" name="femaleB">
+      <mesh>units/kokiri/kok_maleB.dae</mesh>
+    </variant>
+    <variant frequency="1" name="femaleC">
+      <mesh>units/kokiri/kok_maleC.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Base">
+      <animations>
+        <animation file="HC_kokiri/mantletcrew_idle.dae" name="Idle" speed="50"/>
+	<animation file="HC_kokiri/mantletcrew_idle.dae" name="Idle" speed="60"/>
+        <animation file="HC_kokiri/mantletcrew_idle.dae" name="Walk" speed="18"/>
+        <animation file="HC_kokiri/mantletcrew_idle.dae" name="Run" speed="25"/>
+        <animation file="HC_kokiri/mantletcrew_death.dae" name="death" speed="230"/>
+      </animations>
+      <props>
+	<prop actor="props/units/hair/kokiri_MhairA.xml" attachpoint="bone_head"/>
+	<prop actor="units/kokiri/kokiri_guard_fairy.xml" attachpoint="root"/>
+      </props>
+      <textures><texture file="skeletal/kokiri/kok_mainA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

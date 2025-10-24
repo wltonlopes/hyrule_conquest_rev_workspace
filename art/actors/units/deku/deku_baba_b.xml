@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Baba">
+      <mesh>units/deku/dek_babaA.dae</mesh>
+      <textures>
+        <texture file="skeletal/deku/dek_babaA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_baba_small/base_HC_biped_baba.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_baba_small/base_HC_biped_attack_baba.xml"/>
+    <variant file="HC_baba_small/base_HC_biped_capture.xml"/>
+    <variant file="HC_baba_small/base_HC_biped_slaughter.xml"/>
+    <variant file="HC_baba_small/base_HC_biped_death.xml"/>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

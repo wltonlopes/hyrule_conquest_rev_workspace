@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/deku/dek_thopterA.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/deku_mednutA_shoot.xml" attachpoint="projectile"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Thopter">
+      <textures>
+        <texture file="skeletal/deku/dek_mainB.dds" name="baseTex"/>
+        <texture file="skeletal/deku/dek_mainB.dds" name="specTex"/>
+        <texture file="skeletal/deku/dek_mainB.dds" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_thopter/base_HC_biped_scrub.xml"/> 
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_thopter/base_HC_biped_attack_seed.xml"/>
+      <variant file="HC_thopter/base_HC_biped_capture.xml"/>
+      <variant file="HC_thopter/base_HC_biped_slaughter.xml"/>
+      <variant file="HC_thopter/base_HC_biped_death.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

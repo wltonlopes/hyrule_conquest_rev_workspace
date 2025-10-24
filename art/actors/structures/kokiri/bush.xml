@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Group A">
+      <mesh>gaia/flora/flora_kokiri_berrybushA.dae</mesh>
+      <props>
+      </props>
+      <textures>
+        <texture file="structural/kokiri/kokiri_buildingA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Group B">
+      <mesh>gaia/flora/flora_kokiri_berrybushB.dae</mesh>
+      <props>
+      </props>
+      <textures>
+        <texture file="structural/kokiri/kokiri_buildingA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Group C">
+      <mesh>gaia/flora/flora_kokiri_berrybushC.dae</mesh>
+      <props>
+      </props>
+      <textures>
+        <texture file="structural/kokiri/kokiri_buildingA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Group D">
+      <mesh>gaia/flora/flora_kokiri_berrybushD.dae</mesh>
+      <props>
+      </props>
+      <textures>
+        <texture file="structural/kokiri/kokiri_buildingA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Group E">
+      <mesh>gaia/flora/flora_kokiri_berrybushE.dae</mesh>
+      <props>
+      </props>
+      <textures>
+        <texture file="structural/kokiri/kokiri_buildingA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Group F">
+      <mesh>gaia/flora/flora_kokiri_berrybushF.dae</mesh>
+      <props>
+      </props>
+      <textures>
+        <texture file="structural/kokiri/kokiri_buildingA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death"/>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

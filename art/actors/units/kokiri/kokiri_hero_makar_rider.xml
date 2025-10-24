@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Korok">
+      <animations>	
+	<animation file="HC_korok_small/korok_mounted_idle.dae" name="Idle" id="idle1" speed="121"/>
+	<animation file="HC_korok_small/korok_mounted_idle.dae" name="Idle" id="idle2" speed="121"/>
+	<animation file="HC_korok_small/korok_mounted_idle.dae" name="Idle" id="idle3" speed="121"/>	
+	<animation file="HC_korok_small/korok_mounted_idle.dae" name="Idle" id="idle4" speed="121"/>
+	<animation file="HC_korok_small/korok_mounted_walk.dae" name="Walk" speed="35"/>
+	<animation file="HC_korok_small/korok_mounted_walk.dae" name="Run" speed="40"/>
+	<animation event="0.5" file="HC_korok_small/korok_mounted_attackA.dae" name="attack_melee" id="attack1" speed="120"/>
+	<animation event="0.5" file="HC_korok_small/korok_mounted_attackA.dae" name="attack_melee" id="attack2" speed="120"/>
+	<animation file="HC_korok_small/korok_mounted_walk.dae" name="Flail" id="flail1" speed="8"/>
+	<animation file="HC_korok_small/korok_mounted_walk.dae" name="Recover" id="recover1" speed="8"/>		
+	<animation file="HC_korok_small/korok_mounted_deathA.dae" name="Death" id="death1" speed="90"/>
+	<animation file="HC_korok_small/korok_mounted_deathA.dae" name="Death" id="death2" speed="90"/>		
+      </animations>
+      <mesh>units/korok/kor_makarA.dae</mesh>
+      <props>
+	<prop actor="props/units/outfits/korok_makarmaskA.xml" attachpoint="face_leaf"/>
+	<prop actor="props/units/weapons/korok_stickA.xml" attachpoint="R_hand"/>
+	<prop actor="props/units/weapons/korok_makarstickA.xml" attachpoint="L_hand"/>
+      </props>
+      <textures><texture file="skeletal/korok/kor_mainA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>

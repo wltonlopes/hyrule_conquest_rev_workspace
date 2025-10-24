@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="plot">
+      <mesh>structural/ordona/ord_plot_mediumA.dae</mesh>
+	  <props>
+		<prop actor="props/structures/ordona/ordona_groundbase_medium.xml" attachpoint="root"/>
+      </props>
+      <textures>
+	    <texture file="structural/ordona/ordona_building_plots.dds" name="baseTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <group>
+	<variant name="Idle" frequency="1"/>
+	<variant name="upgrading_house">
+      <props>
+		<prop actor="structures/ordona/ordona_scaffoldC.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_frameC.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+	<variant name="upgrading_farm">
+      <props>
+		<prop actor="structures/ordona/ordona_scaffoldC.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_frameC.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+	<variant name="upgrading_market">
+      <props>
+		<prop actor="structures/ordona/ordona_scaffoldE.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_frameE.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+	<variant name="upgrading_temple">
+      <props>
+		<prop actor="structures/ordona/ordona_frameB.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_scaffoldB.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+	<variant name="upgrading_barracks">
+      <props>
+		<prop actor="structures/ordona/ordona_frameB.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_scaffoldB.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+	<variant name="upgrading_apiary">
+      <props>
+		<prop actor="structures/ordona/ordona_frameC.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_scaffoldC.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>	
+	<variant name="upgrading_stables">
+      <props>
+		<prop actor="structures/ordona/ordona_frameF.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_scaffoldF.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>	
+	<variant name="upgrading_siegeworks">
+      <props>
+		<prop actor="structures/ordona/ordona_frameE.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_scaffoldE.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>	
+	<variant name="upgrading_blacksmith">
+      <props>
+		<prop actor="structures/ordona/ordona_frameB.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_scaffoldB.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>	
+   </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/korok/kor_dekusproutA.dae</mesh>
+      <props>
+	<prop actor="units/kokiri/kokiri_dekusprout_leaves.xml" attachpoint="root"/>
+        <prop actor="units/kokiri/kokiri_dekusprout_rider.xml" attachpoint="rider"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="fox">
+      <textures>
+        <texture file="skeletal/korok/kor_dekusproutA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_dekusprout/base_HC_dekusprout.xml"/>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant file="HC_dekusprout/base_HC_dekusprout_death.xml">
+      <props>
+	<prop actor="units/kokiri/kokiri_dekusprout_leaves.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

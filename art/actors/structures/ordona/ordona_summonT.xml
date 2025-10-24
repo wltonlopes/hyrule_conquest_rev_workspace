@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <group>
+    <variant>
+      <mesh>units/ordona/ord_emptybaseA.dae</mesh>
+      <textures><texture file="skeletal/empty.dds" name="baseTex"/></textures>
+	  <props>
+		<prop actor="props/structures/ordona/ordona_summongroundT.xml" attachpoint="root"/>
+		<prop actor="particle/ordona_summonflareA.xml" attachpoint="root"/>
+		<prop actor="particle/ordona_springfogA.xml" attachpoint="root"/>			
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
+

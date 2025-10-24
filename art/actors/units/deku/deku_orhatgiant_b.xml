@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Underling">
+      <mesh>units/deku/dek_orhat_giantA.dae</mesh>
+      <textures>
+        <texture file="skeletal/deku/dek_orhat_giantA.dds" name="baseTex"/>
+        <texture file="skeletal/deku/dek_orhat_giantA.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_mounts/base_HC_orhat_giantA.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+      <variant name="Run">
+        <props>
+          <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    <variant file="HC_mounts/base_HC_orhat_giantA_death.xml">
+      <props>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

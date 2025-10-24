@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="maskA">
+      <mesh>units/korok/kor_leafA.dae</mesh>
+      <textures><texture file="skeletal/korok/Korok_LeafA.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="maskB">
+      <mesh>units/korok/kor_leafB.dae</mesh>
+      <textures><texture file="skeletal/korok/Korok_LeafB.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="maskC">
+      <mesh>units/korok/kor_leafC.dae</mesh>
+      <textures><texture file="skeletal/korok/Korok_LeafC.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="maskD">
+      <mesh>units/korok/kor_leafD.dae</mesh>
+      <textures><texture file="skeletal/korok/Korok_LeafD.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="maskE">
+      <mesh>units/korok/kor_leafE.dae</mesh>
+      <textures><texture file="skeletal/korok/Korok_LeafE.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="maskF">
+      <mesh>units/korok/kor_leafF.dae</mesh>
+      <textures><texture file="skeletal/korok/Korok_LeafF.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="maskG">
+      <mesh>units/korok/kor_leafG.dae</mesh>
+      <textures><texture file="skeletal/korok/Korok_LeafG.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="maskH">
+      <mesh>units/korok/kor_leafH.dae</mesh>
+      <textures><texture file="skeletal/korok/Korok_LeafH.dds" name="baseTex"/></textures>
+    </variant>	
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Group A">
+      <mesh>structural/kokiri/kok_forestshrineA.dae</mesh>
+      <props>
+	<prop actor="particle/kokiri_sparklesA.xml" attachpoint="root"/>
+	<prop actor="particle/kokiri_sparklesB.xml" attachpoint="root"/>
+	<prop actor="particle/kokiri_sparklesC.xml" attachpoint="root"/>
+	<prop actor="props/structures/kokiri/kokiri_forestshrineA_plants.xml" attachpoint="root"/>
+	<prop actor="props/structures/kokiri/kokiri_groundbase_grassE.xml" attachpoint="root"/>
+	<prop actor="particle/kokiri_mistA.xml" attachpoint="gate"/>
+	<prop actor="particle/kokiri_leavesA.xml" attachpoint="gate"/>
+      </props>
+      <textures>
+        <texture file="structural/kokiri/kokiri_ruinsA.dds" name="baseTex"/>
+	<texture file="structural/kokiri/kokiri_ruinsA_normal.dds" name="normTex"/>
+        <texture file="structural/kokiri/kokiri_ruinsA.dds" name="specTex"/>
+	<texture file="structural/kokiri/kokiri_forestshrineA_ao.dds" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_norm_spec.xml</material>
+</actor>

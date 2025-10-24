@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="HC_businessscrub/base_HC_biped_businessscrub.xml">
+      <mesh>units/deku/dek_businessscrub.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Trader">
+      <textures>
+        <texture file="skeletal/deku/dek_mainC.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_businessscrub/base_HC_biped_death.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

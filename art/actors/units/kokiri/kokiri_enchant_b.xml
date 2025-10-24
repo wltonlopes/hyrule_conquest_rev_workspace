@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Enchantress">
+      <mesh>units/kokiri/kok_enchantA.dae</mesh>
+      <props>
+	<prop actor="props/units/hair/kokiri_FhairA.xml" attachpoint="bone_head"/>
+	<prop actor="units/kokiri/kokiri_guard_fairy.xml" attachpoint="root"/>
+	<prop actor="particle/fairy_glow_green.xml" attachpoint="bone_weapon_right"/>
+	<prop actor="particle/fairy_glow_green.xml" attachpoint="bone_weapon_left"/>
+      </props>
+      <textures>
+        <texture file="skeletal/kokiri/kok_mainB.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_kokiri/base_HC_biped_relax.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_kokiri/base_HC_biped_mageatt.xml"/>
+    <variant file="HC_kokiri/base_HC_biped_capture.xml"/>
+    <variant file="HC_kokiri/base_HC_biped_slaughter.xml"/>
+    <variant file="HC_kokiri/base_HC_biped_death.xml">
+      <props>
+	<prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

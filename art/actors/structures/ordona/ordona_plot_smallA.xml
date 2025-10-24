@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="plot">
+      <mesh>structural/ordona/ord_plot_smallA.dae</mesh>
+	  <props>
+		<prop actor="props/structures/ordona/ordona_groundbase_small.xml" attachpoint="root"/>
+      </props>
+      <textures>
+	    <texture file="structural/ordona/ordona_building_plots.dds" name="baseTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <group>
+	<variant name="Idle" frequency="1"/>
+	<variant name="upgrading_wall">
+      <props>
+		<prop actor="structures/ordona/ordona_scaffoldJ.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_frameJ.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+	<variant name="upgrading_tower">
+      <props>
+		<prop actor="structures/ordona/ordona_frameI.xml" attachpoint="root"/>
+        <prop actor="structures/ordona/ordona_scaffoldI.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+   </group>  
+   <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

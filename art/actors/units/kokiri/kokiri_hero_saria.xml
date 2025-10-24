@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Saria">
+      <mesh>units/kokiri/kok_sariaA.dae</mesh>
+      <props>
+	<prop actor="props/units/weapons/kokiri_quiverA.xml" attachpoint="bone_pelvis"/>
+	<prop actor="props/units/weapons/kokiri_bowA.xml" attachpoint="bone_weapon_left"/>
+	<prop actor="props/units/weapons/hylian_arrowA_shoot.xml" attachpoint="projectile"/>
+	<prop actor="units/kokiri/kokiri_guard_fairy.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Kokiri">
+      <textures>
+        <texture file="skeletal/kokiri/kok_heroA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_kokiri/base_HC_biped_emarcher.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_kokiri/base_HC_biped_archeratt.xml"/>
+    <variant file="HC_kokiri/base_HC_biped_capture.xml"/>
+    <variant file="HC_kokiri/base_HC_biped_slaughter.xml"/>
+    <variant file="HC_kokiri/base_HC_biped_death.xml">
+      <props>
+	<prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

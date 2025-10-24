@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+	
+   <group>
+    <variant minquality="high" frequency="1" name="GoatA">
+      <mesh>units/ordona/ord_goat_largeA.dae</mesh>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="GoatA">
+       <mesh>units/ordona/medium/ord_goat_largeA.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="GoatA">
+       <mesh>units/ordona/low/ord_goat_largeA.dae</mesh>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="FurA">
+      <textures><texture file="skeletal/wild/wild_ordgoatA.dds" name="baseTex"/></textures>
+    </variant>	
+  </group>  
+  
+  <group>
+    <variant file="HC_mounts/base_HC_goat_large.xml">
+	  <props>
+		<prop actor="units/ordona/ordona_billybat_b_r_armorA.xml" attachpoint="root"/>
+        <prop actor="units/ordona/ordona_billybat_b_r.xml" attachpoint="belly"/>
+		<prop actor="units/ordona/ordona_billybat_b_r_axe.xml" attachpoint="belly"/>
+	  </props>	
+    </variant>
+   </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+	<variant name="Run">
+      <props>
+		<prop actor="units/ordona/ordona_billybat_b_r_armorA.xml" attachpoint="root"/>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+    </variant>
+	<variant file="HC_mounts/base_HC_goat_large_death.xml">
+      <props>
+		<prop actor="units/ordona/ordona_billybat_b_r_armorA.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>

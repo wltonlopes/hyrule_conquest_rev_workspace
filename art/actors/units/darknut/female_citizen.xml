@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="2" name="Thrall Basic">
+      <mesh>units/darknut/dar_thrallA.dae</mesh>
+      <textures>
+          <texture file="skeletal/darknut/dar_mainC.dds" name="baseTex"/>
+          <texture file="skeletal/darknut/dar_mainC.dds" name="specTex"/>
+      </textures>
+    </variant>
+
+  </group>
+  <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_darknut/base_HC_darknut_spear.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_carry_meat.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_carry_wood.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_carry_stone.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_carry_metal.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_carry_food_idle.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_carry_meat_idle.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_carry_wood_idle.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_carry_stone_idle.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_carry_metal_idle.xml"/>
+  </group>
+  <group>
+    <variant name="Idle" frequency="1"/>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_darknut/base_HC_darknut_capture.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_slaughter.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_gather_tree.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_gather_grain.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_gather_fruit.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_gather_meat.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_gather_rock.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_gather_ore.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_gather_rupees.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_gather_ruins.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_gather_praise.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_death.xml">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Scrubram">
+      <mesh>units/deku/dek_scrubramA.dae</mesh>
+      <props>
+        <prop actor="units/deku/deku_crew.xml" attachpoint="crew_01"/>
+        <prop actor="units/deku/deku_crew.xml" attachpoint="crew_02"/>
+     </props>
+      <textures>
+        <texture file="skeletal/deku/dek_ramA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Main">
+      <animations>
+        <animation file="HC_scrubram/scrubram_idle.dae" name="Idle" speed="100"/>
+        <animation event="0.5" file="HC_scrubram/scrubram_move.dae" name="Walk" speed="10"/>
+        <animation event="0.5" file="HC_scrubram/scrubram_move.dae" name="Run" speed="10"/>
+        <animation event="0.6" file="HC_scrubram/scrubram_attack.dae" load="0.10" name="attack_melee" sound="0" speed="75"/>
+        <animation file="HC_scrubram/scrubram_death.dae" name="death" speed="100"/>
+      </animations>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Underling">
+      <mesh>units/deku/dek_underlingA.dae</mesh>
+      <textures>
+        <texture file="skeletal/deku/dek_mainA.dds" name="baseTex"/>
+        <texture file="skeletal/deku/dek_mainA.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_dekuscrub/base_HC_biped_farmer.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_dekuscrub/base_HC_biped_death.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

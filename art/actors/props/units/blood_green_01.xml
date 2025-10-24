@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <float/>
+  <group>
+    <variant frequency="1" name="Base">
+      <decal width="4.0" depth="4.0" angle="0" offsetx="0" offsetz="0"/>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="blood_green-01">
+      <textures>
+        <texture file="props/blood_green_01.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blood_green-02">
+      <textures>
+        <texture file="props/blood_green_02.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blood_green-03">
+      <textures>
+        <texture file="props/blood_green_03.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blood_green-04">
+      <textures>
+        <texture file="props/blood_green_04.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blood_green-05">
+      <textures>
+        <texture file="props/blood_green_05.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blood_green-06">
+      <textures>
+        <texture file="props/blood_green_06.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blood_green-07">
+      <textures>
+        <texture file="props/blood_green_07.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blood_green-08">
+      <textures>
+        <texture file="props/blood_green_08.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blood_green-09">
+      <textures>
+        <texture file="props/blood_green_09.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blood_green-10">
+      <textures>
+        <texture file="props/blood_green_10.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="blood_green-11">
+      <textures>
+        <texture file="props/blood_green_11.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>terrain_norm_spec.xml</material>
+</actor>

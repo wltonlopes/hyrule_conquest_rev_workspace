@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="korokleaf-A">
+      <mesh>units/korok/kor_dekusprout_leavesA.dae</mesh>
+    </variant>
+    <variant frequency="1" name="korokleaf-B">
+      <mesh>units/korok/kor_dekusprout_leavesB.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="dekusprout">
+      <textures>
+        <texture file="skeletal/korok/kor_sprout_leafA.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_dekusprout/base_HC_dekusprout.xml"/>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+	<variant file="HC_dekusprout/base_HC_dekusprout_death.xml">
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Underling">
+      <mesh>units/deku/dek_underlingA.dae</mesh>
+      <textures>
+        <texture file="skeletal/deku/dek_mainA.dds" name="baseTex"/>
+        <texture file="skeletal/deku/dek_mainA.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_dekuscrub/base_HC_biped_scrub.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_dekuscrub/base_HC_biped_attack_seed.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_capture.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_slaughter.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_gather_tree.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_gather_meganut.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_gather_grain.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_gather_fruit.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_gather_meat.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_gather_rock.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_gather_ore.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_gather_rupees.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_gather_ruins.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_gather_praise.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_build.xml"/>
+    <variant file="HC_dekuscrub/base_HC_biped_death.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

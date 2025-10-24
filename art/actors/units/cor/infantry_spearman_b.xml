@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base 1">
+      <mesh>units/cor/cor_swordling_b.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Guardling">
+      <textures>
+        <texture file="skeletal/cor/cor_mainA.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_swordling/base_HC_biped_swordling.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Manhandla">
+      <mesh>units/deku/dek_manhandlaA_H.dae</mesh>
+      <textures>
+        <texture file="skeletal/deku/dek_mainA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_manhandla_h/base_HC_biped_manhandla_h_a.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_manhandla_h/base_HC_biped_capture.xml"/>
+    <variant file="HC_manhandla_h/base_HC_biped_slaughter.xml"/>
+    <variant file="HC_manhandla_h/base_HC_biped_death.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/deku/dek_dekukingA.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/deku_kingstaffA.xml" attachpoint="R_weapon"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Guardling">
+      <textures>
+        <texture file="skeletal/deku/dek_mainA.dds" name="baseTex"/>
+        <texture file="skeletal/deku/dek_mainA.dds" name="specTex"/>
+        <texture file="skeletal/deku/dek_mainA.dds" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_dekuking/base_HC_biped_dekuking.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_dekuking/base_HC_biped_capture.xml"/>
+    <variant file="HC_dekuking/base_HC_biped_slaughter.xml"/>
+    <variant file="HC_dekuking/base_HC_biped_death.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

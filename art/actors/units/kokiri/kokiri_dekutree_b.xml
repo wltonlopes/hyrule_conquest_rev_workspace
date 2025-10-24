@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Deku Tree">
+      <mesh>units/kokiri/kok_dekutree_medA.dae</mesh>
+      <props>
+        <prop actor="particle/kokiri_leavesA.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/kokiri/kokiri_GDT.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_dekutree/base_HC_dekutree_med.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_dekutree/base_HC_dekutree_med_att.xml"/>
+    <variant name="Death"/>
+  </group>  
+  <material>basic_trans.xml</material>
+</actor>

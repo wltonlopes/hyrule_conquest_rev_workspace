@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="maskA">
+      <mesh>units/korok/kor_large_leafA.dae</mesh>
+      <textures><texture file="skeletal/korok/bigleafA.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="maskB">
+      <mesh>units/korok/kor_large_leafB.dae</mesh>
+      <textures><texture file="skeletal/korok/bigleafB.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="maskC">
+      <mesh>units/korok/kor_large_leafC.dae</mesh>
+      <textures><texture file="skeletal/korok/bigleafC.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="maskD">
+      <mesh>units/korok/kor_large_leafD.dae</mesh>
+      <textures><texture file="skeletal/korok/bigleafD.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
