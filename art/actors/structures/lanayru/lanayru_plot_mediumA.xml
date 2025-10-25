@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Plot">
+      <mesh>structural/lanayru/lan_plot_mediumA.dae</mesh>
+      <textures>
+	    <texture file="structural/lanayru/lanayru_building_plots.dds" name="baseTex"/>
+      </textures>
+	  <props>
+		<prop actor="props/structures/lanayru/lanayru_groundbaseA.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  
+  <group>
+	<variant name="Idle" frequency="1"/>
+	<variant name="upgrading_house">
+      <props>
+		<prop actor="structures/lanayru/lanayru_frameC.xml" attachpoint="root"/>
+        <prop actor="structures/lanayru/lanayru_scaffoldC.xml" attachpoint="root"/>
+		<prop actor="structures/lanayru/lanayru_constextraC.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>	
+	<variant name="upgrading_farm">
+      <props>
+		<prop actor="structures/lanayru/lanayru_frameC.xml" attachpoint="root"/>
+        <prop actor="structures/lanayru/lanayru_scaffoldC.xml" attachpoint="root"/>
+		<prop actor="structures/lanayru/lanayru_constextraC.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+	<variant name="upgrading_market">
+      <props>
+		<prop actor="structures/lanayru/lanayru_frameC.xml" attachpoint="root"/>
+        <prop actor="structures/lanayru/lanayru_scaffoldC.xml" attachpoint="root"/>
+		<prop actor="structures/lanayru/lanayru_constextraC.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+	<variant name="upgrading_bank">
+      <props>
+		<prop actor="structures/lanayru/lanayru_frameB.xml" attachpoint="root"/>
+        <prop actor="structures/lanayru/lanayru_scaffoldB.xml" attachpoint="root"/>
+		<prop actor="structures/lanayru/lanayru_constextraB.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>	
+	<variant name="upgrading_temple">
+      <props>
+		<prop actor="structures/lanayru/lanayru_frameC.xml" attachpoint="root"/>
+        <prop actor="structures/lanayru/lanayru_scaffoldC.xml" attachpoint="root"/>
+		<prop actor="structures/lanayru/lanayru_constextraC.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+	<variant name="upgrading_barracks">
+      <props>
+		<prop actor="structures/lanayru/lanayru_frameB.xml" attachpoint="root"/>
+        <prop actor="structures/lanayru/lanayru_scaffoldB.xml" attachpoint="root"/>
+		<prop actor="structures/lanayru/lanayru_constextraB.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>
+	<variant name="upgrading_stables">
+      <props>
+		<prop actor="structures/lanayru/lanayru_frameC.xml" attachpoint="root"/>
+        <prop actor="structures/lanayru/lanayru_scaffoldC.xml" attachpoint="root"/>
+		<prop actor="structures/lanayru/lanayru_constextraC.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>	
+	<variant name="upgrading_stablesB">
+      <props>
+		<prop actor="structures/lanayru/lanayru_frameC.xml" attachpoint="root"/>
+        <prop actor="structures/lanayru/lanayru_scaffoldC.xml" attachpoint="root"/>
+		<prop actor="structures/lanayru/lanayru_constextraC.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>	
+	<variant name="upgrading_blacksmith">
+      <props>
+		<prop actor="structures/lanayru/lanayru_frameB.xml" attachpoint="root"/>
+        <prop actor="structures/lanayru/lanayru_scaffoldB.xml" attachpoint="root"/>
+		<prop actor="structures/lanayru/lanayru_constextraB.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+      </props>
+	</variant>	
+   </group>  
+   
+  <material>basic_trans.xml</material>
+</actor>

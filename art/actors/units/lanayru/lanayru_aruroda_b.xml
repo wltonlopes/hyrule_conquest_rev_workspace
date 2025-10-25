@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+	
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/lanayru/lan_arurodaA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/lanayru/medium/lan_arurodaA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/lanayru/low/lan_arurodaA.dae</mesh>
+      </variant>
+    </group>
+
+  <group>  
+    <variant frequency="1" name="bodyA">
+      <textures>
+        <texture file="skeletal/lanayru/lan_mainC.dds" name="baseTex"/>
+      </textures>
+    </variant>   
+  </group>  
+  
+  <group>
+    <variant frequency="1" name="Base">
+      <animations>
+        <animation file="HC_aruroda/aruroda_idle.dae" name="Idle" speed="100"/>
+        <animation file="HC_aruroda/aruroda_idleA.dae" name="Idle" speed="100"/>
+        <animation file="HC_aruroda/aruroda_idleB.dae" name="Idle" speed="100"/>
+        <animation file="HC_aruroda/aruroda_idleC.dae" name="Idle" speed="100"/>
+        <animation event="0.1" file="HC_aruroda/aruroda_walk.dae" name="carry_meat" speed="20"/>
+        <animation event="0.1" file="HC_aruroda/aruroda_walk.dae" name="Walk" speed="20"/>
+        <animation event="0.1" file="HC_aruroda/aruroda_walk.dae" name="Run" speed="25"/>
+        <animation event="0.1" file="HC_aruroda/aruroda_attackA.dae" name="attack_melee" speed="100"/>
+        <animation event="0.1" file="HC_aruroda/aruroda_attackB.dae" name="attack_melee" speed="100"/>
+		<animation event="0.1" file="HC_aruroda/aruroda_attackC.dae" name="attack_melee" speed="100"/>
+        <animation file="HC_aruroda/aruroda_attackC.dae" name="attack_slaughter" speed="70"/>
+        <animation file="HC_aruroda/aruroda_deathA.dae" name="death" speed="100"/>
+		<animation file="HC_aruroda/aruroda_flailA.dae" name="Flail" id="flail1" speed="8"/>
+		<animation file="HC_aruroda/aruroda_recoverA.dae" name="Recover" id="recover1" speed="8"/>
+      </animations>
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>

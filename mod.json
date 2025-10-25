@@ -1,0 +1,9 @@
+{
+  "name": "hyrule-conquest_workstation",
+  "version": "0.15.0",
+  "label": "Hyrule Conquest",
+  "url": "https://www.moddb.com/mods/hyrule-conquest/",
+  "description": "A real time strategy game set withing the fantasy setting of Hyrule. Command one from over two dozen factions from the Zelda mythos.",
+	"dependencies": ["0ad=0.27.0"],
+	"type": "Factions"
+}

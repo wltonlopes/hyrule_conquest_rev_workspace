@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <group>
+    <variant name="decal_dirt_small">
+      <decal angle="0" depth="125" offsetx="0" offsetz="0" width="125"/>
+      <textures>
+        <texture file="props/lanayru/lan_camp_groundA.dds" name="baseTex"/>
+        <texture file="props/lanayru/lan_settle_groundA_normal.dds" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>
+terrain_norm_spec.xml</material>
+</actor>

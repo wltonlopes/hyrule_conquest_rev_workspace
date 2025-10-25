@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="HC_zora/base_HC_biped_fisher.xml">
+      <mesh>units/lanayru/lan_bodyA.dae</mesh>
+      <props>
+		<prop actor="props/units/outfits/lanayru_farmer_outfitA.xml" attachpoint="root"/>
+		<prop actor="props/units/outfits/lanayru_beltA_farmer.xml" attachpoint="root"/>
+		<prop actor="props/units/weapons/lanayru_spearB.xml" attachpoint="R_wrist_01"/>
+      </props>
+    </variant>
+  </group>
+  <group>  
+    <variant frequency="1" name="body_peach">
+      <textures>
+        <texture file="skeletal/lanayru/lan_bodyA.dds" name="baseTex"/>
+      </textures>
+    </variant>  
+    <variant frequency="1" name="body_green">
+      <textures>
+        <texture file="skeletal/lanayru/lan_bodyB.dds" name="baseTex"/>
+      </textures>
+    </variant>  
+    <variant frequency="1" name="body_blue">
+      <textures>
+        <texture file="skeletal/lanayru/lan_bodyC.dds" name="baseTex"/>
+      </textures>
+    </variant>  
+    <variant frequency="1" name="body_black">
+      <textures>
+        <texture file="skeletal/lanayru/lan_bodyD.dds" name="baseTex"/>
+      </textures>
+    </variant>  
+    <variant frequency="1" name="body_pink">
+      <textures>
+        <texture file="skeletal/lanayru/lan_bodyE.dds" name="baseTex"/>
+      </textures>
+    </variant>  
+    <variant frequency="1" name="body_yellow">
+      <textures>
+        <texture file="skeletal/lanayru/lan_bodyF.dds" name="baseTex"/>
+      </textures>
+    </variant>  
+    <variant frequency="1" name="body_red">
+      <textures>
+        <texture file="skeletal/lanayru/lan_bodyG.dds" name="baseTex"/>
+      </textures>
+    </variant>  
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_zora/base_HC_biped_death.xml">
+      <props>
+		<prop actor="props/units/outfits/lanayru_farmer_outfitA.xml" attachpoint="root"/>
+		<prop actor="props/units/outfits/lanayru_beltA_farmer.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>

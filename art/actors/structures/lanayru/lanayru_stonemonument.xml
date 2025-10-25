@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Monument">
+      <mesh>structural/lanayru/lan_stonemonumentA.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="structural/lanayru/lanayru_stonemonument_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_norm_spec.xml</material>
+</actor>
+

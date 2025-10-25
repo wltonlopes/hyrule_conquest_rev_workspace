@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+	
+   <group>
+    <variant minquality="high" frequency="1" name="PrawnA">
+      <mesh>units/lanayru/lan_prawn_saddleA.dae</mesh>
+    </variant>  
+    <variant maxquality="high" minquality="medium" frequency="1" name="PrawnA">
+       <mesh>units/lanayru/medium/lan_prawn_saddleA.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="PrawnA">
+       <mesh>units/lanayru/low/lan_prawn_saddleA.dae</mesh>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="saddle_blue">
+      <textures><texture file="skeletal/lanayru/lan_mainC.dds" name="baseTex"/></textures>
+    </variant>
+  </group> 
+  
+  <group>
+    <variant file="HC_mounts/base_HC_prawnA.xml">
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="Run">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+    </variant>
+	<variant file="HC_mounts/base_HC_prawnA_death.xml">
+      <props>
+        <prop actor="props/units/blood_zora_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>

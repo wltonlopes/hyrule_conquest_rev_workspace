@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="House">
+      <mesh>structural/lanayru/lan_houseB.dae</mesh>
+      <props>
+		<prop actor="structures/lanayru/lanayru_hubA.xml" attachpoint="root"/>
+		<prop actor="props/structures/lanayru/lanayru_houseB_path.xml" attachpoint="root"/>
+      </props>
+       <textures>
+	    <texture file="structural/lanayru/lanayru_buildingA.dds" name="baseTex"/>
+	    <texture file="structural/lanayru/lanayru_buildingA_normal.dds" name="normTex"/>
+          <texture file="null_black.dds" name="specTex"/>
+		<texture file="structural/lanayru/lanayru_houseA_ao.dds" name="aoTex"/>	
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_norm_spec.xml</material>
+</actor>
