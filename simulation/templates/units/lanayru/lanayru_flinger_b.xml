@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_stonethrower">
+  <Attack replace="">
+    <Ranged>
+      <AttackName>Shrapnel</AttackName>
+      <Damage>
+        <Crush>300.0</Crush>
+      </Damage>
+      <MaxRange>110</MaxRange>
+      <MinRange>45.0</MinRange>
+      <PrepareTime>7000</PrepareTime>
+      <RepeatTime>7500</RepeatTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/catapult_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.2</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>37.5</Speed>
+        <Spread>3.0</Spread>
+      </Projectile>
+      <Splash>
+        <Damage>
+          <Hack>5.0</Hack>
+          <Pierce>12.0</Pierce>
+        </Damage>
+        <FriendlyFire>true</FriendlyFire>
+        <Range>25</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>3.0</Height>
+    <Square depth="12.0" width="8.0"/>
+  </Footprint>
+  <Health>
+    <Max>600</Max>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Shrapnel Flinger</SpecificName>
+    <History>Shrapnel Flingers are perhaps the Province's most infamous weapon, even amongst their own ranks. The catapult indiscriminately unleashes countless jagged shards of razor sharp coral, potentially slicing up a dozen soldiers in one volley. Even if the attack completely misses, soldiers are still sprayed with hundreds sharp shards.</History>
+    <Tooltip>Siege unit that sprays enemies with shrapnel.</Tooltip>
+    <Icon>units/lanayru/lan_flinger.dds</Icon>
+  </Identity>
+  <Pack disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>25.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/siege/ballist_attack.xml</attack_ranged>
+      <death>voice/lanayru/conscript/conscript_death.xml</death>
+      <order_attack>voice/lanayru/conscript/conscript_attack.xml</order_attack>
+      <order_garrison>voice/lanayru/conscript/conscript_garrison.xml</order_garrison>
+      <order_gather>voice/lanayru/conscript/conscript_gather.xml</order_gather>
+      <order_repair>voice/lanayru/conscript/conscript_repair.xml</order_repair>
+      <order_walk>voice/lanayru/conscript/conscript_walk.xml</order_walk>
+      <run>actor/movement/cart/cart_move.xml</run>
+      <select>voice/lanayru/conscript/conscript_select.xml</select>
+      <trained>interface/alarm/alarm_create_engine.xml</trained>
+      <walk>actor/movement/cart/cart_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/lanayru/lanayru_flinger_b.xml</Actor>
+  </VisualActor>
+</Entity>

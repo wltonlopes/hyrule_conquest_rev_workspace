@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/stalfos/civil_centre">
+  <Health>
+    <Max>4000</Max>
+  </Health>
+  <Identity>
+    <SpecificName>Tomb</SpecificName>
+    <Icon>structures/stalfos/sta_cc_ancB.dds</Icon>
+  </Identity>
+  <Population>
+    <Bonus>120</Bonus>
+  </Population>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/stalfos/stalfos_hero_gabora
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Bigger>
+      <Entity>structures/stalfos/civil_centre_upgB</Entity>
+      <Tooltip>Upgrade to a Mausoleum.</Tooltip>
+      <Cost>
+        <stone>200</stone>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>60</Time>
+    </Bigger>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/stalfos/civic_centre_upg.xml</Actor>
+  </VisualActor>
+</Entity>

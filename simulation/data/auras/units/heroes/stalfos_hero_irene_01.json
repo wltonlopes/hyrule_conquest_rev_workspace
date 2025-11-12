@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Poe"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Fire","multiply": 1.15 },
+		{ "value": "Attack/Ranged/Damage/Fire", "multiply": 1.15 }
+	],
+	"auraName": "Magical Gift",
+	"auraDescription": "All poes +15% damage.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

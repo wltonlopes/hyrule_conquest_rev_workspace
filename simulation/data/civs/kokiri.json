@@ -68,9 +68,9 @@
 	"TeamBonuses":
 	[
 		{
-			"Name": "Partner Networks",
-			"History": "The Deku Scrubs have created a massive network of merchants and salesmen, and will share their secrets with their allies.",
-			"Description": "25% trade route bonus."
+			"Name": "Bounty of the Forest",
+			"History": "Allies of the Kokiri find it easier to gather wood.",
+			"Description": "15% wood gathering bonus."
 		}
 	],
 	"Structures":
@@ -103,7 +103,7 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/kokiri/kokiri_doetrotter",
+			"Template": "units/kokiri/kokiri_huntingfox",
 			"Count": 2
 		},
 		{
@@ -113,7 +113,7 @@
 	"WallSets":
 	[
 		"structures/wallset_palisade",
-		"structures/deku/wallset_stone"
+		"structures/kokiri/wallset_stone"
 	],
 	"AINames":
 	[
@@ -125,8 +125,10 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_infantry_ranged_b": "units/kokiri/infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/kokiri/kokiri_doetrotter",
-		"skirmish/structures/default_house_10": "structures/kokiri/house"
+		"skirmish/units/default_cavalry": "units/kokiri/kokiri_huntingfox",
+		"skirmish/structures/default_house_10": "structures/kokiri/house",
+		"skirmish/structures/default_civil_centre": "structures/kokiri/civil_centre",
+		"skirmish/structures/default_fortress": "structures/kokiri/barracksB"
 	},
 	"SelectableInGameSetup": true
 }

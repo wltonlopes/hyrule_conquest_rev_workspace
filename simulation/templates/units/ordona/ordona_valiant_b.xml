@@ -1,52 +1,28 @@
-<Entity parent="template_unit_infantry">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
   <Attack>
-    <Melee>
+    <Melee replace="">
       <AttackName>Sword</AttackName>
       <Damage>
         <Hack>13.0</Hack>
         <Pierce>2</Pierce>
       </Damage>
       <MaxRange>5.0</MaxRange>
-      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
       <PrepareTime>1000</PrepareTime>
       <RepeatTime>1300</RepeatTime>
     </Melee>
   </Attack>
-
-  <Cost>
-    <BuildTime>20</BuildTime>
-    <Resources>
-      <metal>150</metal>
-      
-      
-      
-    </Resources>
-  </Cost>
   <Health>
     <Max>500</Max>
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <Classes datatype="tokens">Knight Medium Class100 Helmed</Classes>
-    <GenericName>Valiant</GenericName>
-    <HideIfTechnologyRequirementIsNotMet>true</HideIfTechnologyRequirementIsNotMet>
-    <History>An order of knights established by Rusl, trained to be far more versatile than the common heavily armored knight of Hyrule. Using a simple sword and shield in battle the Valiant is also equipped with many other unusual tools and gear to give them an edge in wild and rugged environments, such as their Grappling Hooks that let them climb cliffs and enemy walls. They can also Camouflage into the wilderness, allowing them to set up ambushes.</History>
+    <SpecificName>Valiant</SpecificName>
+    <History>An order of knights established by Rusl, trained to be far more versatile than the common heavily armored knight of Hyrule. Using a simple sword and shield in battle the Valiant is also equipped with many other unusual tools and gear to give them an edge in wild and rugged environments, such as their Grappling Hooks that let them climb cliffs and enemy walls.</History>
+    <Tooltip>Medium Melee unit armed with a sword, they can climb over any terrain.</Tooltip>
     <Icon>units/ordona/ord_valiant.dds</Icon>
-    <Lang>ordona</Lang>
-    <RequiredTechnology>civ_choices/ordona/choosehero_rusl</RequiredTechnology>
-    <SelectionGroupName>units/ordona/ordona_valiant_b</SelectionGroupName>
-    <Tooltip>Rusl's Unique Unit. Medium Melee unit armed with a sword, they can climb over any terrain.</Tooltip>
-    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Crush>15.0</Crush>
-        <Hack>40.0</Hack>
-        <Pierce>50.0</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
+  <Promotion disable=""/>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/sword.xml</attack_melee>

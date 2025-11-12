@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Arrows</AttackName>
+      <Damage>
+        <Pierce>7</Pierce>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>76</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PrepareTime>1500</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/ordona/apiary
+    </Entities>
+  </Builder>
+  <Health>
+    <Max>75</Max>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <SpecificName>Peasant Archer</SpecificName>
+    <History>During Hyrule's winters when crops die off, hunting becomes a means of supplementing food stocks. At least one member of a Farmer's household is trained in the use of the bow, and during snowfall ventures into Faron Woods to hunt game.</History>
+    <Tooltip>Cheap light Missile unit that attacks with a bow and arrows.</Tooltip>
+    <Icon>units/ordona/ord_parcher.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+      <order_attack>voice/ordona/peasantF/peasantF_attack.xml</order_attack>
+      <order_garrison>voice/ordona/peasantF/peasantF_garrison.xml</order_garrison>
+      <order_gather>voice/ordona/peasantF/peasantF_gather.xml</order_gather>
+      <order_repair>voice/ordona/peasantF/peasantF_repair.xml</order_repair>
+      <order_walk>voice/ordona/peasantF/peasantF_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/ordona/peasantF/peasantF_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/ordona/ordona_parcher_b.xml</Actor>
+  </VisualActor>
+</Entity>

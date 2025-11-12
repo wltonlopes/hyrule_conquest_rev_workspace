@@ -4,7 +4,7 @@
     <Ranged replace="">
       <AttackName>Roots</AttackName>
       <Damage>
-        <Crush>75.0</Crush>
+        <Crush>50.0</Crush>
       </Damage>
       <MaxRange>12.0</MaxRange>
       <MinRange>0.0</MinRange>
@@ -19,10 +19,10 @@
       <RepeatTime>2300</RepeatTime>
       <Splash>
         <Damage>
-          <Crush>30.0</Crush>
+          <Crush>25.0</Crush>
         </Damage>
         <FriendlyFire>false</FriendlyFire>
-        <Range>18</Range>
+        <Range>15</Range>
         <Shape>Circular</Shape>
       </Splash>
     </Ranged>
@@ -32,7 +32,7 @@
     <BuildTime>30</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>350</wood>
+      <wood>750</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>
@@ -42,7 +42,7 @@
     <Height>20.0</Height>
   </Footprint>
   <Health>
-    <Max>2500</Max>
+    <Max>1500</Max>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
@@ -60,7 +60,7 @@
     <Entity>
       <Damage>
         <Crush>30.0</Crush>
-        <Hack>15.0</Hack>
+        <Hack>8.0</Hack>
         <Pierce>55.0</Pierce>
       </Damage>
     </Entity>
@@ -111,6 +111,7 @@
     </TurretPoints>
   </TurretHolder>
   <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
     <RunMultiplier>1.1111</RunMultiplier>
     <WalkSpeed>8.0</WalkSpeed>
   </UnitMotion>

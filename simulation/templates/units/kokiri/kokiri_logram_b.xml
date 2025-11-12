@@ -42,9 +42,6 @@
     <History>They may not pack the punch of most siege weapons, but this pair of Kokiri can move quickly and batter down gates with ease. They are quite vulnerable to attacks however and lack any form of armor.</History>
     <Tooltip>Cheap Siege unit that can deal decent damage to structures.</Tooltip>
     <Icon>units/kokiri/kok_logram.dds</Icon>
-    <Requirements>
-      <Techs datatype="tokens">phase_town</Techs>
-    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

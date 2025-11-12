@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 60 ,
+	"affects": ["Ranger"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.50 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.20 }
+	],
+	"auraName": "Head of the Rangers",
+	"auraDescription": "Rangers +50% walk speed, +20% ranged pierce damage."
+}

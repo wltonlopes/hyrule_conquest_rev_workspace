@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.5 }
+	],
+	"auraName": "Thieve's Feet",
+	"auraDescription": "(+50% movement speed - All Organic units)"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Footprint replace="">
+    <Circle radius="32.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <SpecificName>Carraige Barn</SpecificName>
+    <History>Periodically Ordona Province launches counter attacks against Moblins and Lizalfos, bringing the fight to their enemies’ villages and cities. Ordonians are more than happy to assemble their Catapults to help take down any fortifications halting their advance.</History>
+    <Icon>structures/ordona/ord_carriagebarn.dds</Icon>
+    <Tooltip>Builds and trains various mechanical engines used by Ordona.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="28.0" width="28.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/ordona/ordona_warwagon_b
+      units/ordona/ordona_siegeram_b
+      units/ordona/ordona_catapult_b
+      -units/{civ}/champion_infantry_crossbowman
+      -units/{civ}/siege_scorpio_packed
+      -units/{civ}/siege_polybolos_packed
+      -units/{civ}/siege_oxybeles_packed
+      -units/{civ}/siege_onager_packed
+      -units/{civ}/siege_lithobolos_packed
+      -units/{civ}/siege_ballista_packed
+      -units/{civ}/siege_ram
+      -units/{civ}/siege_tower
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_carriagebarnA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+</Entity>

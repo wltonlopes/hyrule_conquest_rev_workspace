@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <SpecificName>Smithy</SpecificName>
+    <History>Ordonians are known for agriculture, livestock, beer, and many other things... but weapons and armor are not among them. Province blacksmiths may not be anywhere near the finest in Hyrule, but they still do their best to provide soldiers with decent swords and armor.</History>
+    <Icon>structures/ordona/ord_smithy.dds</Icon>
+    <Tooltip>Upgrades Ordonian armor and weapons.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="25.0" width="25.0"/>
+  </Obstruction>
+  <Vision>
+    <Range>32</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_smithyA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,62 @@
+{
+	"Title": "Hyrule Credits",
+	"Content": [
+		{
+			"Title": "Project Leads",
+			"List": [
+				{ "nick": "Perzival12" }
+			]
+		},
+		{
+			"Title": "Art",
+			"List": [
+					{ "nick": "Perzival12" },
+					{ "nick": "The Undying Nephalim" }
+				]
+		},
+		{
+			"Title": "Programming",
+			"List": [
+					{ "nick": "Perzival12" },
+					{ "nick": "Lopess" }
+				]
+		},
+		{
+			"Title": "Audio",
+			"List": [
+					{ "nick": "Perzival12" }
+				]
+		},
+		{
+			"Title": "Balancing",
+			"List": [
+					{ "nick": "Perzival12" },
+					{ "nick": "Some other anonymous playtesters." }
+				]
+		},
+		{
+			"Title": "Community and Management",
+			"List": [
+					{ "nick": "Perzival12" }
+				]
+		},
+		{
+			"Title": "Maps",
+			"List": [
+					{ "nick": "Perzival12" }
+				]
+		},
+		{
+			"Title": "Thanks to the The Undying Nephalim, for making the original version of this mod."
+		},
+		{
+			"Title": "Thanks to the Zelda community for many great ideas and art."
+		},
+		{
+			"Title": "Thanks to the entire community for making 0 A.D."
+		},
+		{
+			"Title": "And thanks, once again, to Shigeru Miyamoto, without who this mod would not have been possible."
+		}
+	]
+}

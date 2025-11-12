@@ -39,12 +39,14 @@
         <prop actor="particle/dust_cav.xml" attachpoint="root"/>
       </props>
     </variant>
-	<variant name="death">
-	  <mesh>units/lanayru/lan_gleeockling2A_head.dae</mesh>
+    <variant name="death">
+      <mesh>units/lanayru/lan_gleeockling1A_damage.dae</mesh>
       <props>
         <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
       </props>
     </variant>
+    <variant file="damage_variants/gleeoklingB_medium_damage.xml"/>
+    <variant file="damage_variants/gleeoklingB_heavy_damage.xml"/>
   </group>
   <material>basic_trans.xml</material>
 </actor>

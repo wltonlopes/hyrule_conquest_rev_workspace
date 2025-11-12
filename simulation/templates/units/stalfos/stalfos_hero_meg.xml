@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/stalfos_hero_meg_01
+    units/heroes/stalfos_hero_meg_02
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Torch</AttackName>
+      <Damage>
+        <Fire>30.0</Fire>
+      </Damage>
+      <MaxRange>10.0</MaxRange>
+      <PrepareTime>1900</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>750</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>2200</Max>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <SpecificName>Meg</SpecificName>
+    <GenericName>Poe Sister</GenericName>
+    <History>One of the four Poe sisters of legend, Meg's lifetime is shrouded in mystery as well as the circumstances leading to her haunting of the Kokiri Forest. Where Meg roams the skeletal remains of long forgotten souls rise and follow. Seeking an audience with this enigmatic ghost is foolish at best; seeking her service is dangerous beyond all reason.</History>
+    <Tooltip>Mage unit that can pass through any obstacle, is immune to normal damage, and torcesh enemies with fire.</Tooltip>
+    <Icon>units/stalfos/sta_hero_meg.dds</Icon>
+    <VisibleClasses datatype="tokens">Mage Undead Poe</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>55.0</Crush>
+        <Hack>55.0</Hack>
+        <Pierce>55.0</Pierce>
+        <Poison>55.0</Poison>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/meg_lantern.xml</attack_melee>
+      <attack_ranged>attack/weapon/meg_lantern.xml</attack_ranged>
+      <death>voice/stalfos/meg/meg_death.xml</death>
+      <order_attack>voice/stalfos/meg/meg_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/meg/meg_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/meg/meg_gather.xml</order_gather>
+      <order_repair>voice/stalfos/meg/meg_repair.xml</order_repair>
+      <order_walk>voice/stalfos/meg/meg_walk.xml</order_walk>
+      <run>actor/movement/poe/poe_hover.xml</run>
+      <select>voice/stalfos/meg/meg_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/movement/poe/poe_hover.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_meg_b.xml</Actor>
+  </VisualActor>
+</Entity>

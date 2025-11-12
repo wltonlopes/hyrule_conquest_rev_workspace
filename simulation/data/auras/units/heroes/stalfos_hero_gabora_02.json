@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack","multiply": 1.3 },
+		{ "value": "Resistance/Entity/Damage/Pierce","multiply": 1.3 },
+		{ "value": "Resistance/Entity/Damage/Crush","multiply": 1.3 }
+	],
+	"auraName": "Master Armorer",
+	"auraDescription": "All units +30% resistance.",
+	"overlayIcon": "art/textures/ui/session/auras/standground.png"
+}

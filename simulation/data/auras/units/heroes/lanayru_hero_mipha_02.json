@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.2 }
+	],
+	"auraName": "Champion of Lanayru",
+	"auraDescription": "All units +20% speed.",
+	"overlayIcon": "art/textures/ui/session/auras/speed_bonus.png"
+}

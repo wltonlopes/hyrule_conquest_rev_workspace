@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint>
+    <Square depth="33.0" width="33.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_stalfos_ruins_des</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <SpecificName>Occult Peddlers</SpecificName>
+    <History>Occult Peddlers served as a source of income for the necromantic elites. Within these shops, brave outsiders could find all manner of powerful, rare, and unholy items to use for themselves.</History>
+    <Icon>structures/stalfos/sta_market.dds</Icon>
+    <Tooltip>Allows the trading of resources on the market or with your allies.</Tooltip>
+    <VisibleClasses datatype="tokens">-Town Village</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="33.0" width="33.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/stalfos/market.xml</Actor>
+    <FoundationActor>structures/stalfos/stalfos_unearthT.xml</FoundationActor>
+  </VisualActor>
+</Entity>

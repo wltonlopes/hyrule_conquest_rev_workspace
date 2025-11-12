@@ -1,0 +1,12 @@
+{
+	"genericName": "Kokiri Pathfinding",
+	"autoResearch": true,
+	"description": "The Kokiri have wandered the paths of the Lost Woods and Kokiri Forest for years, so that even the most lazy Kokiri knows the paths like the back of his hand.",
+	"tooltip": "All Units +10 movement rate.",
+	"requirements": { "civ": "kokiri" },
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "add": 10 }
+	],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

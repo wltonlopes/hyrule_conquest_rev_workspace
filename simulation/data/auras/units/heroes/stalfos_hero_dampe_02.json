@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Stalchild"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 2 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 2 },
+		{ "value": "Health/MaxHealth", "multiply": 1.4}
+	],
+	"auraName": "Stalfather",
+	"auraDescription": "All stalchildren +2 resistance and +40% health."
+}

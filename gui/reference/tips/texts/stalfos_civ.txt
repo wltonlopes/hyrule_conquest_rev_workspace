@@ -1,0 +1,6 @@
+Stalfos
+Very, very cheap, but also much weaker and slower than other races
+Cost mostly food and metal, with the occaisonal stone or wood.
+Almost only infantry units, with some creatures and a tiny bit of cavalry.
+All Stal units can walk under water, while all Poe units can fly over any terrain.
+Perform best with horde tactics: training hundreds of troops to overwhelm the enemy with numbers.

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Height>1.0</Height>
+    <Square depth="45.0" width="45.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>500</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_stalfos_ruins_anc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <SpecificName>Graveyard</SpecificName>
+    <Icon>structures/stalfos/sta_graveyard.dds</Icon>
+    <History>These large and expansive graveyards are highly sought after by Stalfos necromancers. Defiling a location with such a site can yield a large amount of soldiers to raise from the dead, allowing the Stalfos to settle.</History>
+  </Identity>
+  <Obstruction>
+    <Obstructions>
+      <Left depth="23" width="15" x="-16" z="-12"/>
+    </Obstructions>
+    <Static disable=""/>
+  </Obstruction>
+  <Population>
+    <Bonus>100</Bonus>
+  </Population>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/stalfos/stalfos_hero_dampe
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/stalfos/houseB.xml</Actor>
+    <FoundationActor>structures/stalfos/stalfos_unearthT.xml</FoundationActor>
+  </VisualActor>
+</Entity>

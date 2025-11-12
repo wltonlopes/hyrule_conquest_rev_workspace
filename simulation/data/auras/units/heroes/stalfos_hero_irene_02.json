@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Poe"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Fire","multiply": 1.15 },
+		{ "value": "Resistance/Entity/Damage/Forest","multiply": 1.15 },
+		{ "value": "Resistance/Entity/Damage/Water", "multiply": 1.15 }
+	],
+	"auraName": "Magical Defense",
+	"auraDescription": "All poes +15% magic resistance.",
+	"overlayIcon": "art/textures/ui/session/auras/standground.png"
+}

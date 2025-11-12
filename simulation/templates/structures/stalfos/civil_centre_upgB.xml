@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/stalfos/civil_centre_upg">
+  <Health>
+    <Max>5000</Max>
+  </Health>
+  <Identity>
+    <SpecificName>Mausoleum</SpecificName>
+    <Icon>structures/stalfos/sta_cc_ancC.dds</Icon>
+  </Identity>
+  <Population>
+    <Bonus>160</Bonus>
+  </Population>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/stalfos/stalfos_hero_blind
+    </Entities>
+  </Trainer>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>structures/stalfos/civic_centre_upgB.xml</Actor>
+  </VisualActor>
+</Entity>

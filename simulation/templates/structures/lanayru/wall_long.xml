@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_long">
+  <Cost>
+    <BuildTime>36</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>18</stone>
+      <metal>18</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="38.5" depth="9.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <GarrisonHolder disable="" />
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Silver Wall</SpecificName>
+    <History>The walls of Lanayru Province, while not as durable as those of other civilizations, were nonetheless impressive and served their defnesive purpose well.</History>
+    <Tooltip>Protective Wall to hold off attackers.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="40.0" depth="7.5"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.5</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>15.2</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>4</X>
+        <Y>15.2</Y>
+        <Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>-4</X>
+        <Y>15.2</Y>
+        <Z>0</Z>
+      </Archer3>
+      <Archer4>
+        <X>8</X>
+        <Y>15.2</Y>
+        <Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>-8</X>
+        <Y>15.2</Y>
+        <Z>0</Z>
+      </Archer5>
+    </TurretPoints>
+  </TurretHolder>
+  <Upgrade>
+    <Gate>
+      <Entity>structures/lanayru/wall_gate</Entity>
+      <Time>15</Time>
+      <Tooltip>Convert to Silver Gate.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Gate>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_wall_long.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>40.0</Length>
+  </WallPiece>
+</Entity>

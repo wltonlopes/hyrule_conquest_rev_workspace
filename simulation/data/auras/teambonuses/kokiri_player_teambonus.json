@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.15 }
+	],
+	"auraName": "Bounty of the Forest",
+	"auraDescription": "All allies have a +15 bonus to gathering wood."
+}

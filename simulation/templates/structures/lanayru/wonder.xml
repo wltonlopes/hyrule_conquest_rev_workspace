@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint>
+    <Square depth="90.0" width="90.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>10000</Max>
+    <SpawnEntityOnDeath>rubble/debris_lanayru_wonderA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Rutala Dam</SpecificName>
+    <History>This massive structure was built across the Airu River near its source in the Death Mountain range. It was able to regulate the flow of water through Lanayru Province as well as habor aquatic life in its reservoir.</History>
+    <Icon>structures/lanayru/lan_rutaladam.dds</Icon>
+    <Tooltip>The Lanayru Wonder, allows you to summon Vrylonacia, the Spirit of Lanayru.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="90.0" depth="90.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/lanayru/lanayru_titan_vrylonacia
+    </Entities>
+  </Trainer>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/lanayru/complete_rutaladam.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/lanayru/sel_rutaladam.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>52</Radius>
+    <Root>false</Root>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_wonderA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldM.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>50</stone>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_lanayru_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Shrimpery</SpecificName>
+    <History>Shellfish are abundant on Lanayru's Coast and can be easily grown further inland as well; so long as water is part of the mix. Prawns are usually the foundation of any Lanayru Zora's diet, and ponds of the creatures dot their coastal cities.</History>
+    <Icon>structures/lanayru/lan_shrimpery.dds</Icon>
+  </Identity>
+  <Obstruction>
+    <Static depth="33.0" width="33.0"/>
+    <BlockMovement>false</BlockMovement>
+    <BlockPathfinding>false</BlockPathfinding>
+  </Obstruction>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Type>food.meat</Type>
+    <MaxGatherers>5</MaxGatherers>
+  </ResourceSupply>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_shrimperyA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>lanayru</Civ>
+    <GenericName>Lanayru Province</GenericName>
+    <History>Originally established as a small vassal state through the union of Hylian and Zora marriages, Lanayru Province quickly grew to become an economic juggernaut that financially rivals the larger empires of the world. The bountiful resources of their homeland allow for rapid wealth, but make the small and young nation a prime target for constant invasions at the hands of greedy and hungry forces.</History>
+    <Icon>emblems/emblem_lanayru.dds</Icon>
+  </Identity>
+</Entity>

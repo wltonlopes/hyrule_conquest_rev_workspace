@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 60 ,
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.25 }
+	],
+	"auraName": "Inspiring Prescence",
+	"auraDescription": "Soldiers +25% walk speed.",
+	"overlayIcon": "art/textures/ui/session/auras/speed_bonus.png"
+}

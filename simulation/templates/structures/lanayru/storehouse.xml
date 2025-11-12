@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>50</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="10.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_lanayru_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Treasury</SpecificName>
+    <Classes datatype="tokens">DropsiteFood</Classes>
+    <VisibleClasses datatype="tokens">Farmstead</VisibleClasses>
+    <History>Lanayru Province is incredibly rich in natural resources, making them prime targets for would-be invaders. The state keeps many of these resources in Treasuries under its own administration, ensuring their safety.</History>
+    <Icon>structures/lanayru/lan_camp.dds</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+  </ResourceDropsite>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_storehouseA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldK.xml</FoundationActor>
+  </VisualActor>
+</Entity>

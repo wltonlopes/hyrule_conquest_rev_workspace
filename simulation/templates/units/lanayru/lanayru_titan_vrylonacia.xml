@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Capture>
+      <AttackName>Capture</AttackName>
+      <Capture>10</Capture>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Wall</RestrictedClasses>
+    </Capture>
+    <Ranged replace="">
+      <AttackName>Water Mass</AttackName>
+      <Damage>
+        <Crush>150</Crush>
+        <Water>100.0</Water>
+      </Damage>
+      <EffectDelay>3</EffectDelay>
+      <MaxRange>10</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PrepareTime>2000</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/biggoron_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>300.0</Speed>
+        <Spread>1.0</Spread>
+      </Projectile>
+      <RepeatTime>3000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Crush>100.0</Crush>
+          <Water>50.0</Water>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>10</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>120</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>2500</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="10.0"/>
+    <Height>20.0</Height>
+  </Footprint>
+  <Health>
+    <IdleRegenRate>2</IdleRegenRate>
+    <Max>7500</Max>
+    <RegenRate>1</RegenRate>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <GenericName>The Spirit of Lanayru</GenericName>
+    <SpecificName>Vrylonacaia</SpecificName>
+    <History>An primordial Spirit from which Lanayru Province is named after, Vrylonacia was likely worshiped as a pagan deity by ancient Zora before the Akkalans arrived in the area and introduced worship of the Goddesses. Legend says that Vrylonacia fled the coast and into the south and slumbers somewhere beneath Hyrule's waters. While no longer active in the world, Vrylonacia's influence and symbols can be found throughout all of the Province's architecture and culture.</History>
+    <Tooltip>Lanayru Titan unit. Giant Melee unit that can slide over any terrain and is imune to Water damage.</Tooltip>
+    <Icon>units/lanayru/lan_titan_vrylonacia.dds</Icon>
+    <VisibleClasses datatype="tokens">Titan Creature</VisibleClasses>
+  </Identity>
+  <Position>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <TurnRate>2.5</TurnRate>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>25.0</Crush>
+        <Hack>15.0</Hack>
+        <Pierce>25.0</Pierce>
+        <Water>55.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Minimap>
+    <Type>hero</Type>
+  </Minimap>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>historia/1024x1024_aura.dds</MainTexture>
+        <MainTextureMask>historia/1024x1024_aura_mask.dds</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/natural/lightspirit_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/natural/vrylonacia_swipe.xml</attack_ranged>
+      <death>voice/lanayru/vrylonacia/vrylonacia_death.xml</death>
+      <order_attack>voice/lanayru/vrylonacia/vrylonacia_attack.xml</order_attack>
+      <order_garrison>voice/lanayru/vrylonacia/vrylonacia_garrison.xml</order_garrison>
+      <order_gather>voice/lanayru/vrylonacia/vrylonacia_gather.xml</order_gather>
+      <order_repair>voice/lanayru/vrylonacia/vrylonacia_repair.xml</order_repair>
+      <order_walk>voice/lanayru/vrylonacia/vrylonacia_walk.xml</order_walk>
+      <run>actor/movement/vrylonacia/vrylonacia_walk.xml</run>
+      <select>voice/lanayru/vrylonacia/vrylonacia_select.xml</select>
+      <trained>interface/alarm/alarm_create_titan.xml</trained>
+      <walk>actor/movement/vrylonacia/vrylonacia_walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarWidth>5.0</BarWidth>
+    <BarHeight>1.0</BarHeight>
+    <HeightOffset>20.0</HeightOffset>
+  </StatusBars>
+  <TrainingRestrictions>
+    <Category>Titan</Category>
+    <MatchLimit>1</MatchLimit>
+  </TrainingRestrictions>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+    <RunMultiplier>2.1428</RunMultiplier>
+    <WalkSpeed>10.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/lanayru/lanayru_spiritlanayru.xml</Actor>
+  </VisualActor>
+</Entity>

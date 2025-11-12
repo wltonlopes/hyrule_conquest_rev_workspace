@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <animations>
+        <animation file="HC_coach/coach_idle.dae" name="Idle" speed="70"/>
+        <animation event="0.5" file="HC_coach/coach_idle.dae" name="attack_melee" speed="120"/>
+        <animation file="HC_coach/coach_move.dae" name="Walk" speed="20"/>
+        <animation file="HC_coach/coach_move.dae" name="Run" speed="30"/>
+        <animation file="HC_coach/coach_death.dae" name="Death" speed="90"/>
+      </animations>
+      <mesh>units/stalfos/sta_horsecartA.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Cart">
+      <textures>
+        <texture file="skeletal/stalfos/sta_cartA.dds" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="units/stalfos/stalfos_driver_b.xml" attachpoint="driver"/>
+        <prop actor="units/stalfos/stalfos_carthorse_b.xml" attachpoint="horse"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,24 +1,23 @@
-<Entity parent="template_unit_creature">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
   <Attack>
-    <Melee>
+    <Melee replace="">
       <AttackName>Horn</AttackName>
       <Damage>
         <Crush>7.0</Crush>
       </Damage>
       <MaxRange>5.0</MaxRange>
-      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
       <PrepareTime>900</PrepareTime>
       <RepeatTime>1100</RepeatTime>
     </Melee>
   </Attack>
-
   <Cost>
-    <BuildTime>12</BuildTime>
+    <BuildTime>5</BuildTime>
     <Resources>
-      <metal>120</metal>
-      
-      
-      
+      <food>50</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Health>
@@ -26,24 +25,13 @@
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <Classes datatype="tokens">Small Class80 Goat Shepherdgoat</Classes>
-    <GenericName>Ordonian Goat</GenericName>
-    <History>The iconic blue Goats of Ordona are a stock source of meat, wool, and milk throughout much of Hyrule. Domesticated varieties could be traied to attack</History>
-    <Icon>units/wild/wild_ordgoat.dds</Icon>
-    <Lang>ordona</Lang>
-    <SelectionGroupName>units/ordona/ordona_attackgoat_b</SelectionGroupName>
+    <SpecificName>Ordonian Goat</SpecificName>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
+    <History>The iconic blue Goats of Ordona are a stock source of meat, wool, and milk throughout much of Hyrule. Domesticated varieties are sometimes trained to attack</History>
     <Tooltip>Melee Creature unit with a strong headbutt and kick.</Tooltip>
-    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+    <Icon>units/wild/wild_ordgoat.dds</Icon>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Crush>20.0</Crush>
-        <Hack>20.0</Hack>
-        <Pierce>10.0</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
+  <Promotion disable=""/>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/natural/headbutt.xml</attack_melee>

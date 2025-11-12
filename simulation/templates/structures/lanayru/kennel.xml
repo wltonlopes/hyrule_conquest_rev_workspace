@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_kennel">
+  <Footprint replace="">
+    <Height>10.0</Height>
+    <Circle radius="20.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>150</stone>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_lanayru_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Arach Den</SpecificName>
+    <History>Arachs and Arurodas are extremely common throughout all of Lanayru, but adults are impossible to domesticate. Setting up a den of newborn scorpions in remote locations allows the Province to raise the creatures as beasts of war.</History>
+    <Icon>structures/lanayru/lan_arachden.dds</Icon>
+    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <Tooltip>Trains various Cavalry and Creature units.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_village phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="33.0" width="33.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+	units/lanayru/lanayru_aruroda_b
+	units/lanayru/lanayru_arachdervish_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_arachdenA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+</Entity>

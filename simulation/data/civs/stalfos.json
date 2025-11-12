@@ -1,0 +1,147 @@
+{
+	"Code": "stalfos",
+	"Culture": "stalfos",
+	"Music":
+	[
+		{"File": "stalfos_theme1.ogg", "Type": "peace"},
+		{"File": "stalfos_ambient1.ogg", "Type": "peace"},
+		{"File": "stalfos_ambient2.ogg", "Type": "peace"},
+		{"File": "stalfos_ambient3.ogg", "Type": "peace"},
+		{"File": "stalfos_ambient4.ogg", "Type": "peace"},
+		{"File": "stalfos_ambient5.ogg", "Type": "peace"},
+		{"File": "stalfos_ambient6.ogg", "Type": "peace"},
+		{"File": "stalfos_battle1.ogg", "Type": "battle"},
+		{"File": "stalfos_battle2.ogg", "Type": "battle"},
+		{"File": "stalfos_battle3.ogg", "Type": "battle"},
+		{"File": "stalfos_victory1.ogg", "Type": "victory"}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Stalfos",
+			"Description": "The creation of horrifying magic that was outlawed and sealed away in Hyrule’s ancient past, the Stalfos are a vast, ever growing army of animated corpses. Headed by a collection of warring and elite Necromancers, the modern incarnation of Hyrule’s undead seek to fill it's ranks with mindless followers and to establish a kingdom of immortality that can stand against the other forces of Hyrule.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Meg",
+					"Class": "Infantry Mage",
+					"Armament": "Poe's Torch",
+					"Emblem": "",
+   					"History": "One of the four Poe sisters of legend, Meg's lifetime is shrouded in mystery as well as the circumstances leading to her haunting of the Kokiri Forest. Where Meg roams the skeletal remains of long forgotten souls rise and follow. Seeking an audience with this enigmatic ghost is foolish at best; seeking her service is dangerous beyond all reason"
+				},
+				{
+					"Name": "Irene",
+					"Class": "Infantry Mage",
+					"Armament": "Magic",
+					"Emblem": "",
+    					"History": "Irene once served as one of Rauru's three Deacons. After many disagreements with her master, in time she sought out the dark arts of Hyrule's Witches. The path from honored deacon to rebellious witch to an ally of the undead is not yet clear to the annals of history, but this feisty young witch has been found working with the Stalfos and should be treated as such."
+				},
+				{
+					"Name": "Stalblind",
+					"Class": "Infantry Swordsman",
+					"Armament": "Sword",
+					"Emblem": "",
+    					"History": "Blind was a legendary thief during his lifetime. Legend says he manged to infiltrate even the Sheikah of Kakariko and steal their vast fortunes. Afraid of losing his treasures, Blind seemed to have earned an audience with a necromancer of some renown and gained the power of undeath. Now Blind roams the western dunes and caves as a relentless Stalfos, killing and stealing anything of value he comes across."
+				},
+				{
+					"Name": "Gabora",
+					"Class": "Infantry Swordsman",
+					"Armament": "Hammer",
+					"Emblem": "",
+    					"History": "Gabora is the partner of Zubora, and is known as one of the best, if not THE best blacksmith in all of Hyrule. While his past is unknown, it is said that he is an undead creature, using his cursed form of immortality to further his skills."
+				},
+				{
+					"Name": "Death Sword",
+					"Class": "Infantry Swordsman",
+					"Armament": "Death Sword",
+					"Emblem": "",
+    					"History": "His name has been lost to all record. His origin is obscure at best: rumored to be one of the previous Gerudo Kings before the time of their Great Curse. All that remains of this infamous beast is the story of his sealing deep within the Arbiter Grounds: a story that itself has many versions and mysteries. The Death Sword was charged with the crimes of unearthing and re-instituting Necromancy after it had been abolished and destroyed from Hyrule. He is considered the father of all current Stalfos that haunt and torment the living of Hyrule."
+				},
+				{
+					"Name": "Dampe",
+					"Class": "Infantry Swordsman",
+					"Armament": "Shovel",
+					"Emblem": "",
+    					"History": "Dampe has gone long unnoticed in Hyrule, serving as an undertaker based in Kakariko Village. While his services have been respected for most of his life, across the decades he has been suspected of and blamed for the increasing appearance of Stalchildren around Hyrule. He denies these accusations... or at least the malevolent intentions implied in them."
+				},
+				{
+					"Name": "Titan: Stallord",
+					"Class": "Titan",
+					"Armament": "Claws",
+					"Emblem": "",
+    					"History": "A massive and impossibly ancient skeleton deep within the Gerudo Desert, the Stallord is believed to have once been one of the many ancient dragons that ravaged Hyrule before the dawn of history. Gerudo mythology claims their elder gods slew the dragon and used its corpse to make the world, burying the skeleton deep in the desert. Should the skeleton be removed the Gerudo believe the world will come to an end. The animated Stallord himself is a slow moving and crawling monstrosity that can vomit up dusty corpses and amass a following of Stalfos soldiers to follow him."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Unholy Blessing",
+			"History": "The Stalfos grant a necormantic defense blessing to their allies.",
+			"Description": "+2 armor bonus to all units."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name": "Wonder: Arbiter's Grounds",
+			"Class": "Wonder",
+			"Emblem": "",
+			"History": "Built by the Gerudo after Ganandorf's banishment to the Sacred Realm, this massive building was created as an execution grounds for those who would break Gerudo and Hylian law. Full of torture chambers and cells, it is said that Arbiter's Grounds was built directly above the ruins of a necromancer's ruined tower, which might explain the dark magic that seems to haunt this place, raising skeletons and ghosts from their eternal rest.",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Trains the Stalfos Titan."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/stalfos/civil_centre"
+		},
+		{
+			"Template": "units/stalfos/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/stalfos/infantry_spearman_b",
+			"Count": 4
+		},
+		{
+			"Template": "units/stalfos/stalfos_stalhound_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/stalfos/stalfos_stalhorse_b"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade"
+	],
+	"AINames":
+	[
+		"Meg",
+		"Irene",
+		"Stalblind",
+		"Death Sword",
+		"Dampe",
+		"Gabora",
+		"Stallord"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/stalfos/infantry_swordsman_b",
+		"skirmish/units/default_cavalry": "units/stalfos/stalfos_stalhorse_b",
+		"skirmish/structures/default_house_10": "structures/stalfos/house",
+		"skirmish/structures/default_civil_centre": "structures/stalfos/civil_centre",
+		"skirmish/structures/default_fortress": "structures/stalfos/kennel"
+	},
+	"SelectableInGameSetup": true
+}

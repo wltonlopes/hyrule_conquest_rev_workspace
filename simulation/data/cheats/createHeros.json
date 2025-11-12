@@ -7,7 +7,27 @@
 		"Templates": [
 			"units/deku/deku_hero_dekuking",
 			"units/deku/deku_hero_dekuprincess",
-			"units/deku/deku_hero_dekubutler"
+			"units/deku/deku_hero_dekubutler",
+			"units/kokiri/kokiri_hero_saria",
+			"units/kokiri/kokiri_hero_fado_b",
+			"units/kokiri/kokiri_hero_mido",
+			"units/kokiri/kokiri_hero_makar",
+			"units/kokiri/kokiri_hero_fadola",
+			"units/kokiri/kokiri_hero_domiso",
+			"units/kokiri/kokiri_hero_cariso",
+			"units/kokiri/kokiri_hero_fariso",
+			"units/ordona/ordona_hero_ilia",
+			"units/ordona/ordona_hero_rusl",
+			"units/ordona/ordona_hero_colin",
+			"units/ordona/ordona_hero_ashei",
+			"units/ordona/ordona_hero_mayorbo",
+			"units/ordona/ordona_hero_beth",
+			"units/stalfos/stalfos_hero_deathsword",
+			"units/stalfos/stalfos_hero_meg",
+			"units/stalfos/stalfos_hero_dampe",
+			"units/stalfos/stalfos_hero_blind",
+			"units/stalfos/stalfos_hero_irene",
+			"units/stalfos/stalfos_hero_gabora"
 		]
 	}
 }

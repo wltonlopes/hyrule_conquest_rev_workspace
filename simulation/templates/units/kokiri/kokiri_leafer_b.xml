@@ -22,8 +22,6 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}/fortress
-      structures/kokiri/barracksB
-      structures/kokiri/barracksC
       structures/kokiri/tree
     </Entities>
   </Builder>

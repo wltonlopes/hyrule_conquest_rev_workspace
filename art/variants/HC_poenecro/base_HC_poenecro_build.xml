@@ -1,0 +1,8 @@
+<variant name="Build">
+  <animations>
+    <animation event="0.1" file="HC_poenecro/poenecro_raisedead.dae" name="Build" id="build1" speed="70"/>
+  </animations>
+  <props>
+    <prop actor="props/structures/stalfos/stalfos_summonglowA.xml" attachpoint="root"/>
+  </props>
+</variant>

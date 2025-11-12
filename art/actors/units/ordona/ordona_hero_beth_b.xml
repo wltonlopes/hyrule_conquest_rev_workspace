@@ -8,7 +8,6 @@
 	<props>
 	    <prop actor="props/units/weapons/hylian_arrowA_shoot.xml" attachpoint="projectile"/>
 		<prop actor="props/units/hair/ordona_beth_hairA.xml" attachpoint="bone_head"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>		
       </props>
     </variant>
   </group>  

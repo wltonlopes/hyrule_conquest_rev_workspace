@@ -4,10 +4,6 @@
   <group>
     <variant frequency="1" name="House">
       <mesh>structural/lanayru/lan_campA.dae</mesh>
-      <props>
-		<prop actor="props/structures/lanayru/lanayru_camp_pathA.xml" attachpoint="root"/>
-		<prop actor="props/structures/lanayru/lanayru_camp_groundA.xml" attachpoint="root"/>
-      </props>
        <textures>
 	    <texture file="structural/lanayru/lanayru_buildingA.dds" name="baseTex"/>
 	    <texture file="structural/lanayru/lanayru_buildingA_normal.dds" name="normTex"/>

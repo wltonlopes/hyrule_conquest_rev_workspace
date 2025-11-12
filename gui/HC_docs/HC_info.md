@@ -6,34 +6,30 @@
 
 [font="sans-bold-16"] ## What's new this version
 [font="sans-16"]
-
- - AI
-   - A new AI called Scrub Bot, that is designed only for the Deku Kingdom and Corrupted Scrubs civs.
    
  - Civs
-   - Kokiri
-   
+   - Lanayru Province
+
  - GUI
    - New backgrounds
-   - New buttons
-   - New background music
-   - New loading icons
+   - New icons
+   - A few new sounds
    
  - Maps
-   - A new random map: Undead Swamp (an edited version of Plague Swamp)
-   - A new random map: Deku Temple (an edited version of Deep Forest)
-   
- - Other
-   - New cheats
+   - A new random map: Testing Map
 
 [font="sans-bold-16"] ## Feature list
 [font="sans-16"]
 
  - AI
    - A new AI called Hyrule Bot (is currently compatible with vanilla races)
+   - A new AI called Scrub Bot, that is designed only for the Deku Kingdom civ.
    
  - Civs
    - Deku Kingdom
+   - Kokiri
+   - Ordona Province
+   - Stalfos
    
  - GUI
    - New backgrounds
@@ -44,7 +40,7 @@
  - Maps
    - A new map size: Titan
    - New map size names
-   - A new random map: Deku Forest
+   - New random maps: Deku Forest, Deku Temple, & Undead Swamp
    - A cool new map feature: Wandering Gaia Soldiers
    
  - Match Settings
@@ -61,6 +57,7 @@
 [font="sans-bold-16"] ## Planned feature list
 [font="sans-16"]
  - Civs
+   - Corrupted Scrubs
    - Fairy Enclave
    - Gerudo
    - Gohma
@@ -70,9 +67,7 @@
    - Lanayru Province
    - Lizalfos Tribes
    - Moblin Clans
-   - Ordona Province
    - Sheikah
-   - Stalfos
    - Wild Zora
    - Zora
    
@@ -92,4 +87,4 @@
  - Other
    - Secrets...
    
-[font="sans-bold-12"] Hyrule Conquest: Revival V 0.2.1
+[font="sans-bold-12"] Hyrule Conquest: Revival V 0.5.0

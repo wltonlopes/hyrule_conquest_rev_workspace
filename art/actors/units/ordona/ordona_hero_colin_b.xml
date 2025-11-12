@@ -7,7 +7,6 @@
 	<textures><texture file="skeletal/ordona/ord_colinA.dds" name="baseTex"/></textures>
       <props>
 		<prop actor="props/units/hair/ordona_colin_hairA.xml" attachpoint="bone_head"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

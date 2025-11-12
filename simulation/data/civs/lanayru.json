@@ -1,0 +1,152 @@
+{
+	"Code": "lanayru",
+	"Culture": "zora",
+	"Music":
+	[
+		{"File": "lanayru_theme1.ogg", "Type": "peace"},
+		{"File": "lanayru_theme1_variant.ogg", "Type": "peace"},
+		{"File": "lanayru_ambient1.ogg", "Type": "peace"},
+		{"File": "lanayru_ambient2.ogg", "Type": "peace"},
+		{"File": "lanayru_ambient3.ogg", "Type": "peace"},
+		{"File": "lanayru_ambient4.ogg", "Type": "peace"},
+		{"File": "lanayru_ambient5.ogg", "Type": "peace"},
+		{"File": "lanayru_ambient6.ogg", "Type": "peace"},
+		{"File": "lanayru_ambient7.ogg", "Type": "peace"},
+		{"File": "lanayru_ambient8.ogg", "Type": "peace"},
+		{"File": "lanayru_ambient9.ogg", "Type": "peace"},
+		{"File": "lanayru_battle1.ogg", "Type": "battle"},
+		{"File": "lanayru_battle2.ogg", "Type": "battle"},
+		{"File": "lanayru_victory1.ogg", "Type": "victory"}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Lanayru Province",
+    			"History": "Originally established as a small vassal state through the union of Hylian and Zora marriages, Lanayru Province quickly grew to become an economic juggernaut that financially rivals the larger empires of the world. The bountiful resources of their homeland allow for rapid wealth, but make the small and young nation a prime target for constant invasions at the hands of greedy and hungry forces.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Ilia",
+					"Class": "Cavalry Crossbowman",
+					"Armament": "Ranger Crossbow",
+					"Emblem": "",
+    					"History": "Ilia is the daughter of Mayor Bo and was the trading assistant of Rusl in her youth. Being born into a privileged class, she had the opportunity to try various job paths before settling on breeding and training horses. As a young adult Ilia has become quite a business woman in Ordona Province, gaining stock over some of the best horses in Hyrule while simultaneously leading the Rangers and managing a lumber company to supply the building of stables across Hyrule. She is known for her party loving personality and habit of holding down quite a bit of ale. She has somewhat of a friendly rivalry with Malon of Lon Lon Ranch, and hopes to one day out-compete the famous horse breeder. In battle Ilia rides atop a horse, using a Ranger Crossbow to snipe down anyone who threatens the Province."
+				},
+				{
+					"Name": "Mayor Bo",
+					"Class": "Cavalry Spearman",
+					"Armament": "Sword",
+					"Emblem": "",
+    					"History": "The Lord Mayor and head of all of Ordona Province, Mayor Bo has served his leadership role longer than any other man of the Ordonian people. He is loved by the people for his humble attitude and knack for partaking in menial labor with the Serfs of the Province. Mayor Bo is a man of impressive durability, and is famous for getting into sumo fights with Gorons. His daughter Ilia claims that he ripped the horn off of a Moblin that he made a bet with, but he denies ever pulling the stunt off. In battle Mayor Bo rides on top of his Elder Goat, piercing the family lance into the hearts of his enemies."
+				},
+				{
+					"Name": "Colin",
+					"Class": "Infantry Swordsman",
+					"Armament": "Sword",
+					"Emblem": "",
+    					"History": "The son of Rusl, Colin grew up as a farmhand most of his life. His father instilled in him a love of the sword and was sure to teach him sword, a skill that Colin took on as a profession in his adulthood. He has since become a Squire in hopes of attaining Knighthood."
+				},
+				{
+					"Name": "Rusl",
+					"Class": "Infantry Swordsman",
+					"Armament": "Sword",
+					"Emblem": "",
+    					"History": "To many in Ordona Province, Rusl is just an average trader who makes rounds to Hyrule Proper and Lanayru. Those that know him personally are more than likely aware of his small background in military. Unlike many Ordonians, Rusl was actually professionally trained in several Hylian military academies, with rumors that he was attempting to become the first Hyrulean Knight from Ordona Province. Somewhere along the lines he left his studies and became the salesman he was later known as. Rusl is known for his kindness and perhaps most importantly, calmness. Even in sticky situations he maintains a level head and never shows any signs of panic."
+				},
+				{
+					"Name": "Beth",
+					"Class": "Infantry Archer",
+					"Armament": "Bow & Arrows",
+					"Emblem": "",
+    					"History": "The daughter of Sera and inheritor of Sera's Sundries, Beth runs one of the largest market chains in all of Hyrule. She is tied to Ordona's economic prosperity and foreign trade and hopes to keep the Province one of Hyrule's greatest market powers. While not skilled in fighting, she has enough training with a bow and arrows to defend herself and her merchants if needs be."
+				},
+				{
+					"Name": "Ashei",
+					"Class": "Infantry Swordsman",
+					"Armament": "Sword",
+					"Emblem": "",
+    					"History": "The daughter of a Hylian Knight, Ashei's father was expelled from his order for having a child with an Ordonian wife and corrupting the bloodline of it's members. With little place for him as a farmer in Ordon, Ashei's father instead wandered east into the mountains of Labrynna where he later established the Resistance: a paramilitary order of knights and mercenaries that seek out and stop threats to Hyrule before wars break out. He raised Ashei to become a knight as he was, in hopes that she will inherit the Resistance. Without the rigid order and imperious military looming over her training, Ashei has turned out much different than most professional soldiers. With no true connection to any nation, she is more mercenary than knight, adapting and learning a wide variety of combat techniques and sword fighting arts from various cultures."
+				},
+				{
+					"Name": "Titan: Latoan, the Spirit of Ordona",
+					"Class": "Titan",
+					"Armament": "Horn",
+					"Emblem": "",
+    					"History": "An ancient and perhaps primordial Spirit, Latoan was worshiped as a deity by the ancient tribes of Ordona Province before the Hylians converted their people to worship of the Goddesses. Latoan's iconography and influence never left the Ordonians however, and even to this day he serves as somewhat of patron saint or deity of Ordona Province. Legend says that Latoan fell into a deep sleep beneath the Ordon Spring as he and his kind were no longer needed to spiritually guide the Ordonian people. When he was active in the world, legend said that Latoan would grow vast crops in the blink of an eye, bring a healing rain forth from the sky, and summon a flock of ghostly goats to protect the borders of his land from enemies."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Shared Farming Knowledge",
+			"History": "While their exact farming techniques are a closely guarded secret, Ordona Province has been known to let their allies in on some of thier argricultural secrets.",
+			"Description": "+25% bonus to food gathering."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name": "Wonder: Ordona Spring",
+			"Class": "Wonder",
+			"Emblem": "",
+    			"History": "Legend says that the guardian spirit of Ordona blessed the southern lands of Hyrule with healing waters and a bountiful harvest. While the elusive demigod has not been seen in modern times, these springs nevertheless create vast tracts of fertile lands around their perimeter.",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Trains the Ordona Titan."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/lanayru/civil_centre"
+		},
+		{
+			"Template": "units/lanayru/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/lanayru/infantry_swordsman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/lanayru/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/lanayru/lanayru_sentry_b",
+			"Count": 2
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/ordona/wallset_stone"
+	],
+	"AINames":
+	[
+		"Ilia",
+		"Mayor Bo",
+		"Colin",
+		"Rusl",
+		"Beth",
+		"Ashei",
+		"Latoan, the Spirit of Ordona"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/lanayru/infantry_spearman_b",
+		"skirmish/units/default_cavalry": "units/lanayru/lanayru_sentry_b",
+		"skirmish/structures/default_house_10": "structures/lanayru/house",
+		"skirmish/structures/default_civil_centre": "structures/lanayru/civil_centre",
+		"skirmish/structures/default_fortress": "structures/ordona/fortress"
+	},
+	"SelectableInGameSetup": true
+}

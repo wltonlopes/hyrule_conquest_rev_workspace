@@ -119,7 +119,9 @@
 	{
 		"skirmish/units/default_infantry_ranged_b": "units/deku/infantry_archer_b",
 		"skirmish/units/default_cavalry": "units/deku/infantry_swordsman_b",
-		"skirmish/structures/default_house_10": "structures/deku/house"
+		"skirmish/structures/default_house_10": "structures/deku/house",
+		"skirmish/structures/default_civil_centre": "structures/deku/civil_centre",
+		"skirmish/structures/default_fortress": "structures/deku/fortress"
 	},
 	"SelectableInGameSetup": true
 }

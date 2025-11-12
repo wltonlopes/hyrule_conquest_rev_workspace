@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="mediumdamage" frequency="0">
+  <mesh>units/lanayru/lan_gleeockling2A_damage.dae</mesh>
+</variant>

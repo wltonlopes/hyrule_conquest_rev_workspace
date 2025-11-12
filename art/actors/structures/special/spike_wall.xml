@@ -4,9 +4,9 @@
   <group>
     <variant frequency="1" name="spike wall">
       <animations/>
-      <mesh>structural/spike_wall.dae</mesh>
+      <mesh>structural/spikewall.dae</mesh>
       <textures>
-        <texture file="structural/dirt_rugged.dds" name="baseTex"/>
+        <texture file="structural/mound.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

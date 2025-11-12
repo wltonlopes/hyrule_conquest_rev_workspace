@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>800</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>1000</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>10.0</Height>
+    <Square depth="37.0" width="37.0"/>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_stalfos_ruins_anc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <History>While much of the people and civilizations that created the art of necromancy was lost or burned by their enemies in such an ancient age, there are many buried and sealed crypts containing powerful and terrible knowledge that should have remained forbidden.</History>
+    <SpecificName>Hollow</SpecificName>
+    <Icon>structures/stalfos/sta_cc_ancA.dds</Icon>
+    <Tooltip>Center of a Stalfos Settlement. Summons Stalfos Heroes.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>500</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="43.0" width="43.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>80</Bonus>
+  </Population>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/darknut/complete_civ_center_darknut.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/darknut/sel_civ_center_darknut.xml</select>
+      <upgraded>interface/complete/building/darknut/complete_civ_center_darknut.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/stalfos/infantry_spearman_b
+      units/stalfos/stalfos_collector_b
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Bigger>
+      <Entity>structures/stalfos/civil_centre_upg</Entity>
+      <Tooltip>Upgrade to a Tomb.</Tooltip>
+      <Cost>
+        <stone>200</stone>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>60</Time>
+    </Bigger>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/stalfos/civic_centre.xml</Actor>
+    <FoundationActor>structures/stalfos/stalfos_unearthT.xml</FoundationActor>
+  </VisualActor>
+</Entity>

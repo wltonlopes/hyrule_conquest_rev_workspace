@@ -43,7 +43,7 @@
     </Resources>
   </Cost>
   <Health>
-    <SpawnEntityOnDeath>rubble/debris_kokiri_small</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_kokiri_small</SpawnEntityOnDeath>
   </Health>
   <GarrisonHolder disable=""/>
   <Identity>

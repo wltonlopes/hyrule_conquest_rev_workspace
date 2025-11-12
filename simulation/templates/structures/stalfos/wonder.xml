@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint replace="">
+    <Circle radius="42.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>10000</Max>
+    <SpawnEntityOnDeath>rubble/debris_stalfos_wonder_anc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <SpecificName>Arbiter's Grounds</SpecificName>
+    <History>Built by the Gerudo after Ganandorf's banishment to the Sacred Realm, this massive building was created as an execution grounds for those who would break Gerudo and Hylian law. Full of torture chambers and cells, it is said that Arbiter's Grounds was built directly above the ruins of a necromancer's ruined tower, which might explain the dark magic that seems to haunt this place, raising skeletons and ghosts from their eternal rest.</History>
+    <Icon>structures/stalfos/sta_arbitersground.dds</Icon>
+    <Tooltip>The Stalfos Wonder, allows you to summon the Stallord ad Death Sword.</Tooltip>
+    <VisibleClasses datatype="tokens">-City Village</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="64.0" depth="64.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/stalfos/stalfos_hero_deathsword
+      units/stalfos/stalfos_titan_stallord
+    </Entities>
+  </Trainer>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/moblin/complete_ganoncastle.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/moblin/sel_ganoncastle.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>52</Radius>
+    <Root>false</Root>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/stalfos/wonder.xml</Actor>
+    <FoundationActor>structures/stalfos/stalfos_unearthW.xml</FoundationActor>
+  </VisualActor>
+</Entity>

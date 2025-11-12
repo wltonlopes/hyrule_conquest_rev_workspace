@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.25 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.25 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.25 }
+	],
+	"auraName": "Combat Knowledge",
+	"auraDescription": "All soldiers do +25% more melee damage."
+}

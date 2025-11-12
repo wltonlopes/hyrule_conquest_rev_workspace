@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/stalfos/sta_deathswordA.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Death Sword">
+      <textures>
+        <texture file="skeletal/stalfos/sta_deathswordA.dds" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/capes/cape_deathswordA.xml" attachpoint="root"/>
+        <prop actor="particle/black_smokeA.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_deathsword/base_HC_deathsword.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_deathsword/base_HC_deathsword_death.xml">
+      <props>
+        <prop actor="props/units/capes/cape_deathswordA.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

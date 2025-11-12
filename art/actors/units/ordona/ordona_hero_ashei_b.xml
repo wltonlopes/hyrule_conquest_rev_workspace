@@ -5,9 +5,6 @@
     <variant file="HC_archer/base_HC_biped_archer.xml">
 	<mesh>units/ordona/ord_asheiA.dae</mesh>
 	<textures><texture file="skeletal/ordona/ord_heroA.dds" name="baseTex"/></textures>
-      <props>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
-      </props>
     </variant>
   </group>
   <group>

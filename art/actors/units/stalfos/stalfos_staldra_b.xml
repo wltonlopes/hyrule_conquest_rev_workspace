@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/stalfos/sta_staldraA.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Staldra">
+      <textures>
+        <texture file="skeletal/stalfos/sta_mainB.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_staldra/base_HC_staldra.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_staldra/base_HC_staldra_death.xml"/>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

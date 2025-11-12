@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "multiply": 1.15 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "multiply": 1.15 },
+		{ "value": "Resistance/Entity/Damage/Crush", "multiply": 1.15 }
+	],
+	"auraName": "Unholy Blessing",
+	"auraDescription": "All allies have +15% resistance."
+}

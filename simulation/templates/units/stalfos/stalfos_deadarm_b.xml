@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Claw</AttackName>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>5</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>900</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>3</BuildTime>
+    <Resources>
+      <food>30</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>80</Max>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <VisibleClasses datatype="tokens">Undead</VisibleClasses>
+    <SpecificName>Deadarm</SpecificName>
+    <GenericName>Undead</GenericName>
+    <History>When confronting a victim the Dead Hand would use countless disembodied arms to grapple their prey, then slowly approach to decapitate them with one giant bite from their unhinged jaws.</History>
+    <Tooltip>Melee Creature unit that grabs and rips apart its enemies.</Tooltip>
+    <Icon>units/stalfos/sta_deadarm.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>3.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/deadhand_bite.xml</attack_melee>
+      <death>voice/stalfos/deadhand/deadhand_death.xml</death>
+      <order_attack>voice/stalfos/deadhand/deadhand_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/deadhand/deadhand_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/deadhand/deadhand_gather.xml</order_gather>
+      <order_repair>voice/stalfos/deadhand/deadhand_repair.xml</order_repair>
+      <order_walk>voice/stalfos/deadhand/deadhand_walk.xml</order_walk>
+      <run>actor/movement/deadhand/deadhand_crawl.xml</run>
+      <select>voice/stalfos/deadhand/deadhand_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/deadhand/deadhand_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <Formations disable=""/>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+  </UnitMotion>
+  <Vision>
+    <Range>10</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_deadarm_b.xml</Actor>
+  </VisualActor>
+</Entity>

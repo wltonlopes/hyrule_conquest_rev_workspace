@@ -6,7 +6,9 @@
 		"isNumeric": true,
 		"Templates": [
 			"units/deku/deku_titan_stagnox",
-			"units/kokiri/kokiri_titan_GDT"
+			"units/stalfos/stalfos_titan_stallord",
+			"units/kokiri/kokiri_titan_GDT",
+			"units/ordona/ordona_titan_latoan"
 		]
 	}
 }

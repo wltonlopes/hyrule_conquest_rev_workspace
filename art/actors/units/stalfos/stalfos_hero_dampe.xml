@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/stalfos/sta_dampeA.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Dampe">
+      <textures>
+        <texture file="skeletal/stalfos/sta_dampeA.dds" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="props/units/weapons/stalfos_dampeshovelA.xml" attachpoint="R_wrist"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_goronsmall/base_HC_goron_hammer.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_goronsmall/base_HC_goron_capture.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_slaughter.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_death.xml">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

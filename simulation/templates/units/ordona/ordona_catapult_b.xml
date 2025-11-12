@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_auxiliary">
-  <Attack>
+<Entity parent="template_unit_siege_stonethrower">
+  <Attack replace="">
     <Ranged>
       <AttackName>Boulder</AttackName>
       <Damage>
         <Crush>300.0</Crush>
       </Damage>
-      <EffectDelay>0</EffectDelay>
-      <MaxRange>110.0</MaxRange>
+      <MaxRange>110</MaxRange>
       <MinRange>45.0</MinRange>
-      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
       <PrepareTime>5000</PrepareTime>
+      <RepeatTime>7500</RepeatTime>
       <Projectile>
         <FriendlyFire>false</FriendlyFire>
         <Gravity>9.81</Gravity>
@@ -20,17 +19,16 @@
         <Speed>37.5</Speed>
         <Spread>3.0</Spread>
       </Projectile>
-      <RepeatTime>7500</RepeatTime>
     </Ranged>
   </Attack>
-  <Battalion>
-    <Size>2</Size>
-    <SpawnDeltaTime>1700</SpawnDeltaTime>
-  </Battalion>
+  <Capturable disable="" />
   <Cost>
-    <BuildTime>45</BuildTime>
+    <BuildTime>25</BuildTime>
     <Resources>
-      <metal>300</metal>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -42,22 +40,19 @@
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <Classes datatype="tokens">-Organic Construct Large Class40</Classes>
-    <GenericName>Ordona Catapult</GenericName>
-    <History>With enemies on all sides, Ordona was often on the defensive. In the cases where the tables were turned, Catapults served as their big guns for taking out enemy walls and towers. Ordonian catapults could hurl boulders from safe behind their army's lines, busting open gates and taking out large targets with ease.</History>
-    <Icon>units/ordona/ord_catapult.dds</Icon>
+    <SpecificName>Ordona Catapult</SpecificName>
+    <History>With enemies on all sides, Ordona is often on the defensive. In the cases where the tables are turned, Catapults serve as their big guns for taking out enemy walls and towers. Ordonian catapults hurl boulders from safe behind their army's lines, busting open gates and taking out large targets with ease.</History>
     <Tooltip>Small but effective ranged Siege unit that can knock down enemy structures.</Tooltip>
-    <VisibleClasses datatype="tokens">Siege</VisibleClasses>
+    <Icon>units/ordona/ord_catapult.dds</Icon>
   </Identity>
+  <Pack disable=""/>
   <Resistance>
     <Entity>
       <Damage>
-        <Crush>5.0</Crush>
-        <Hack>10.0</Hack>
-        <Pierce>70.0</Pierce>
+        <Hack>5.0</Hack>
+        <Pierce>25.0</Pierce>
       </Damage>
     </Entity>
-    <KnockbackResistance>100</KnockbackResistance>
   </Resistance>
   <Sound>
     <SoundGroups>
@@ -78,4 +73,3 @@
     <Actor>units/ordona/ordona_catapult_b.xml</Actor>
   </VisualActor>
 </Entity>
-

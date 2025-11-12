@@ -5,12 +5,50 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.5</authoring_tool>
     </contributor>
-    <created>2025-09-26T15:41:29</created>
-    <modified>2025-09-26T15:41:29</modified>
+    <created>2025-11-06T21:56:45</created>
+    <modified>2025-11-06T21:56:45</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
-  <library_images/>
+  <library_effects>
+    <effect id="Material_001-effect">
+      <profile_COMMON>
+        <newparam sid="mound_png-surface">
+          <surface type="2D">
+            <init_from>mound_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="mound_png-sampler">
+          <sampler2D>
+            <source>mound_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="mound_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="mound_png" name="mound_png">
+      <init_from>mound.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material_001-material" name="Material.001">
+      <instance_effect url="#Material_001-effect"/>
+    </material>
+  </library_materials>
   <library_geometries>
     <geometry id="Icosphere-mesh" name="Icosphere">
       <mesh>
@@ -46,7 +84,7 @@
         <vertices id="Icosphere-mesh-vertices">
           <input semantic="POSITION" source="#Icosphere-mesh-positions"/>
         </vertices>
-        <triangles count="5120">
+        <triangles material="Material_001-material" count="5120">
           <input semantic="VERTEX" source="#Icosphere-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Icosphere-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Icosphere-mesh-map-0" offset="2" set="0"/>
@@ -59,7 +97,15 @@
     <visual_scene id="Scene" name="Scene">
       <node id="Icosphere" name="Icosphere" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-        <instance_geometry url="#Icosphere-mesh" name="Icosphere"/>
+        <instance_geometry url="#Icosphere-mesh" name="Icosphere">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
       </node>
     </visual_scene>
   </library_visual_scenes>

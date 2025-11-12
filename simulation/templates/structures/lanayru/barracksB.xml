@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>100</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_lanayru_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <History>A gathering place for warriors whom wield Silver weaponry as well as a blacksmith for the creation of Lanayru's signature tools. The Silver Armory can produce some of the Province's finest troops.</History>
+    <SpecificName>Silver Armory</SpecificName>
+    <Icon>structures/lanayru/lan_silverarmory.dds</Icon>
+    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <Tooltip>Trains Silver Lanayru combat units.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_village phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="33.0" depth="33.0"/>
+  </Obstruction>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}/infantry_spearman_b
+      -units/{civ}/infantry_swordsman_b
+      -units/{civ}/infantry_archer_b
+      units/lanayru/lanayru_wavewarrior_b
+      units/lanayru/lanayru_silverarcher_b
+      units/lanayru/lanayru_aquamarine_b
+      units/lanayru/lanayru_marshal_b
+      units/lanayru/lanayru_tridenteer_b
+      units/lanayru/lanayru_hero_sidon
+      units/lanayru/lanayru_hero_aydia
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_barracksA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldK.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Cavalry"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.50 },
+		{ "value": "UnitMotion/RunMultiplier", "multiply": 1.50 },
+		{ "value": "Health/Max", "multiply": 1.25 }
+	],
+	"auraName": "Master Horse Breeder",
+	"auraDescription": "Cavalry +50% walk speed, run multiplier, and +25% health."
+}

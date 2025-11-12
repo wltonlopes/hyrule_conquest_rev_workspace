@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Trader"],
+	"modifications": [
+		{ "value": "Trader/GainMultiplier", "multiply": 1.5 }
+	],
+	"auraName": "Extensive Trade Routes",
+	"auraDescription": "Traders +50% gain multiplier."
+}

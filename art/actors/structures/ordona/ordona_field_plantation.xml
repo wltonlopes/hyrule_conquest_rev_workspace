@@ -5,7 +5,6 @@
     <variant frequency="100" name="field_pumpkin">
       <mesh>structural/ordona/ord_campfarmA.dae</mesh>
       <props>
-		<prop actor="particle/gather_foodB.xml" attachpoint="root"/>
 		
 		<prop actor="units/ordona/ordona_farmer_female.xml" attachpoint="farmer_001"/>
 		<prop actor="units/ordona/ordona_farmer_male.xml" attachpoint="farmer_002"/>

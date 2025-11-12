@@ -1,19 +1,26 @@
-<Entity parent="template_structure_defense_wall">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_gate">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <wood>30</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
   <Footprint>
-    <Height>9.0</Height>
-    <Square depth="8.5" width="38.5" />
+    <Square width="38.5" depth="8.5"/>
+    <Height>9</Height>
   </Footprint>
   <Gate>
     <PassRange>20</PassRange>
   </Gate>
   <Health>
-    <SpawnEntityOnDeath>rubble/debris_ordona_wall_long</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_wall_long</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <GenericName>Palisade Gate</GenericName>
+    <SpecificName>Palisade Gate</SpecificName>
     <History>A makeshift wooden wall to keep the elements out of Ordonian villages.</History>
-    <Icon>structures/ordona/ord_wall.dds</Icon>
     <Tooltip>Protective Wall to hold off attackers.</Tooltip>
   </Identity>
   <Obstruction>
@@ -24,6 +31,9 @@
     </Obstructions>
     <Static disable="" />
   </Obstruction>
+  <StatusBars>
+    <HeightOffset>12.5</HeightOffset>
+  </StatusBars>
   <VisualActor>
     <Actor>structures/ordona/ordona_wall_gatehouse.xml</Actor>
     <FoundationActor>structures/ordona/ordona_scaffoldJ.xml</FoundationActor>

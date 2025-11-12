@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+   <castshadow/>
+   <group>
+    <variant minquality="high" frequency="1" name="horseA">
+      <mesh>units/ordona/ord_horseA.dae</mesh>
+    </variant>
+    <variant minquality="high" frequency="1" name="horseB">
+      <mesh>units/ordona/ord_horseB.dae</mesh>
+    </variant>
+    <variant minquality="high" frequency="1" name="horseC">
+      <mesh>units/ordona/ord_horseC.dae</mesh>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="outfitA">
+      <textures><texture file="skeletal/ordona/ord_horse1.dds" name="baseTex"/></textures>
+    </variant>
+  </group>  
+  
+  <group>
+    <variant file="HC_mounts/base_HC_horse.xml">
+	  <props>
+		<prop actor="units/ordona/ordona_horseranger_b_r_body.xml" attachpoint="bone_Spine1"/>
+		<prop actor="units/ordona/ordona_horseranger_capeA.xml" attachpoint="bone_Spine1"/>
+	  </props>	
+    </variant>
+   </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="Run">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+    </variant>	
+	<variant file="HC_mounts/base_HC_horse_death.xml">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -6,7 +6,7 @@
       <animations/>
       <mesh>structural/earth_mound_short.dae</mesh>
       <textures>
-        <texture file="structural/dirt.png" name="baseTex"/>
+        <texture file="structural/mound.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

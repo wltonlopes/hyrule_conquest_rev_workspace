@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="30.0" width="30.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>200</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_stalfos_ruins_anc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <SpecificName>Haunted Ruins</SpecificName>
+    <Icon>structures/stalfos/sta_haunted.dds</Icon>
+    <History>Where both low and mighty civilizations once set their banners, all manner of spirit are still said to haunt their ruinous remains. Many of these spirits can be summoned and brought back to the world of the living, where they may once again take a ghastly form.</History>
+    <Tooltip>Summons Poes and contains other unholy upgrades.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="30.0" width="30.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>10</Bonus>
+  </Population>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}/infantry_spearman_b
+      -units/{civ}/infantry_swordsman_b
+      units/stalfos/stalfos_poe_b
+      units/stalfos/stalfos_poebig_b
+      units/stalfos/stalfos_poeice_b
+      units/stalfos/stalfos_poenecro_b
+      units/stalfos/stalfos_phantomrider_b
+      units/stalfos/stalfos_hero_meg
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/stalfos/barracks.xml</Actor>
+    <FoundationActor>structures/stalfos/stalfos_unearthA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -8,7 +8,6 @@
       <props>
 		<prop actor="units/lanayru/lanayru_arach_saddle_b.xml" attachpoint="root"/>
 		<prop actor="units/lanayru/lanayru_hero_ralis_b_r.xml" attachpoint="rider_01"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

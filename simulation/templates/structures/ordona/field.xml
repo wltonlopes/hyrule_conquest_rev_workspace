@@ -1,50 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_field">
-  <Cost>
-    <BuildTime>45</BuildTime>
-    <Resources>
-      
-      
-      
-      <metal>150</metal>
-    </Resources>
-  </Cost>
   <Health>
     <Max>500</Max>
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <Classes datatype="tokens">Field</Classes>
-    <GenericName>Field</GenericName>
-    <History>A vast majority of the gentle plains across Ordona Province were covered in rich and fertile farmland. The lowest members of Ordonian society labored over these lands to feed their families and pay tribute to their local Fief Lords. Pumpkins were perhaps Ordona's most famous crop, though many things were grown in their homeland.</History>
+    <SpecificName>Pumpkin Patch	</SpecificName>
+    <History>A vast majority of the gentle plains across Ordona Province are covered in rich and fertile farmland. The lowest members of Ordonian society labor over these lands to feed their families and pay tribute to their local Fief Lords. Pumpkins are perhaps Ordona's most famous crop, though many things are grown in their homeland.</History>
     <Icon>structures/ordona/ord_field.dds</Icon>
-    <Tooltip>Automatically generates Rupees..</Tooltip>
-    <VisibleClasses datatype="tokens">Economic</VisibleClasses>
+    <Tooltip>Harvest Pumpkins for food. Max gatherers: 5.</Tooltip>
   </Identity>
-  <TerritoryInfluence>
-    <Radius>35</Radius>
-    <Root>false</Root>
-    <Weight>10000</Weight>
-  </TerritoryInfluence>
-  <ResourceTrickle>
-    <Interval>2000</Interval>
-    <Rates>
-      
-      
-      
-      <metal>2.0</metal>
-    </Rates>
-  </ResourceTrickle>
-  <Upgrade>
-    <Tower>
-      <Cost>
-        <metal>50</metal>
-      </Cost>
-      <Entity>structures/ordona/ordona_field_upg</Entity>
-      <RequiredTechnology>ordona/gather_food_heartypumpkins</RequiredTechnology>
-      <Time>2</Time>
-      <Tooltip>.</Tooltip>
-    </Tower>
-  </Upgrade>
+  <Minimap>
+    <Color b="102" g="204" r="155"/>
+    <Type>food</Type>
+  </Minimap>
   <VisualActor>
     <Actor>structures/ordona/ordona_field_pumpkin.xml</Actor>
   </VisualActor>

@@ -101,5 +101,5 @@
       </props>
     </variant>
   </group>  
-  <material>basic_glow_nu.xml</material>
+  <material>basic_trans.xml</material>
 </actor>

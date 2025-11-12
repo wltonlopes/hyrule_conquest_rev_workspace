@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Cost>
+    <Resources>
+      <wood>0</wood>
+      <stone>250</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Height>12.0</Height>
+    <Square depth="33.0" width="33.0"/>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_stalfos_ruins_anc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <History>Unearthing a Dark Reliquary full of forbidden magic and dead necromancers (or ones who attempted necromancy but failed) potentially provided Stalfos armies with undead leaders to direct their forces. Such a find would assure that new Stalfos warriors were a step above shambling zombies.</History>
+    <SpecificName>Dark Reliquary</SpecificName>
+    <Icon>structures/stalfos/sta_darkreliquary.dds</Icon>
+    <Tooltip>Religious building that increases the spread of your territory.</Tooltip>
+    <VisibleClasses datatype="tokens">-Town Village</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="33" depth="33"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/stalfos/stalfos_stalmaster_b
+      units/stalfos/stalfos_deadhand_b
+      units/stalfos/stalfos_redeadknight_b
+      units/stalfos/stalfos_stalreaper_b
+      units/stalfos/stalfos_hero_irene
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/stalfos/temple.xml</Actor>
+    <FoundationActor>structures/stalfos/stalfos_unearthT.xml</FoundationActor>
+  </VisualActor>
+</Entity>

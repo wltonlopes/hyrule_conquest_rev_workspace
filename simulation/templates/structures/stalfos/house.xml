@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Height>1.0</Height>
+    <Square depth="15.0" width="15.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>100</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_stalfos_ruins_anc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <SpecificName>Burial Site</SpecificName>
+    <Icon>structures/stalfos/sta_field.dds</Icon>
+    <History>The countless graves across the surface of Hyrule are undoubtedly the best source of corpses for a rising Stalfos army. Long dead workers and warriors can be animated at will, as long as the corpses are replentished from a source such as this.</History>
+  </Identity>
+  <Obstruction>
+    <Static depth="15.0" width="15.0"/>
+    <BlockMovement>false</BlockMovement>
+    <BlockPathfinding>false</BlockPathfinding>
+  </Obstruction>
+  <Population>
+    <Bonus>25</Bonus>
+  </Population>
+  <VisualActor>
+    <Actor>structures/stalfos/house.xml</Actor>
+    <FoundationActor>structures/stalfos/stalfos_unearthA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/food", "multiply": 1.25 }
+	],
+	"auraName": "Shared Farming Knowledge",
+	"auraDescription": "All allies have a +25 bonus to gathering food."
+}

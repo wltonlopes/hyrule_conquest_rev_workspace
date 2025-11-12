@@ -5,7 +5,6 @@
     <variant frequency="100" name="field_pumpkin">
       <mesh>structural/ordona/ord_fieldA.dae</mesh>
       <props>
-	    <prop actor="particle/gather_foodB.xml" attachpoint="root"/>
 		
         <prop actor="flora/farm/ordona_pumpkins.xml" attachpoint="patch" maxheight="20" minheight="-20"/>
         <prop actor="flora/farm/ordona_pumpkins.xml" attachpoint="patch_001" maxheight="20" minheight="-20"/>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Fin Blades</AttackName>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>2.0</Pierce>
+        <Poison>5.0</Poison>
+        <True>4.0</True>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>900</PrepareTime>
+      <RepeatTime>1100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>290</Max>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Aquamarine</SpecificName>
+    <History>Wearing durable but light and highly flexible Lanayru Armor, Aquamarines are the Province's main assault force for bringing the fight to their enemies. Armed with wickedly sharp coralmold gauntlets, an Aquamarine can pry off all manner of armor with ease, poisoning the wearer as well. The nature of their armor allows them to move just as fast in water as on land.</History>
+    <Tooltip>Fast moving Melee unit that deals armor piercing damage and poison damage.</Tooltip>
+    <Icon>units/lanayru/lan_aquamarine.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/lanayru/aquamarine/aquamarine_death.xml</death>
+      <order_attack>voice/lanayru/aquamarine/aquamarine_attack.xml</order_attack>
+      <order_garrison>voice/lanayru/aquamarine/aquamarine_garrison.xml</order_garrison>
+      <order_gather>voice/lanayru/aquamarine/aquamarine_gather.xml</order_gather>
+      <order_repair>voice/lanayru/aquamarine/aquamarine_repair.xml</order_repair>
+      <order_walk>voice/lanayru/aquamarine/aquamarine_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/lanayru/aquamarine/aquamarine_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <RunMultiplier>1.0967</RunMultiplier>
+    <WalkSpeed>12.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/lanayru/lanayru_aquamarine_b.xml</Actor>
+  </VisualActor>
+</Entity>

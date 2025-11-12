@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Auras datatype="tokens">
+    units/redead_aura_01
+    units/redead_aura_02
+  </Auras>
+  <Attack replace="">
+    <Melee>
+      <AttackName>Sword</AttackName>
+      <Damage>
+        <Hack>30</Hack>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>3100</PrepareTime>
+      <RepeatTime>3200</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>300</food>
+      <wood>10</wood>
+      <stone>0</stone>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <VisibleClasses datatype="tokens">Undead</VisibleClasses>
+    <SpecificName>ReDead Knight</SpecificName>
+    <GenericName>Undead</GenericName>
+    <History>ReDead Knights are the animated corpses of famed captains, generals and other past leaders. Unlike most undead, they have been given some level of autonomy and use their past experience to guide their mindless counterparts in battle.</History>
+    <Tooltip>Melee Commander unit that slows down and stuns enemies. Has a bonus to nearby unit motion</Tooltip>
+    <Icon>units/stalfos/sta_redeadknight.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>20.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/redead_sword.xml</attack_melee>
+      <death>voice/stalfos/redead/redead_death.xml</death>
+      <order_attack>voice/stalfos/redead/redead_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/redead/redead_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/redead/redead_gather.xml</order_gather>
+      <order_heal>voice/stalfos/redead/redead_attack.xml</order_heal>
+      <order_repair>voice/stalfos/redead/redead_repair.xml</order_repair>
+      <order_walk>voice/stalfos/redead/redead_walk.xml</order_walk>
+      <run>actor/movement/redead/redead_step.xml</run>
+      <select>voice/stalfos/redead/redead_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/redead/redead_step.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <Formations disable=""/>
+    <CheeringTime>0</CheeringTime>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <RunMultiplier>1.5</RunMultiplier>
+    <WalkSpeed>3.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_redeadknight_b.xml</Actor>
+  </VisualActor>
+</Entity>

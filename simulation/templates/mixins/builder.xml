@@ -7,6 +7,7 @@
       structures/{civ}/crannog
       structures/{civ}/military_colony
       structures/{civ}/house
+      structures/{civ}/houseB
       structures/{civ}/ice_house
       structures/{civ}/pyramid_small
       structures/{civ}/apartment
@@ -17,7 +18,10 @@
       structures/{civ}/dock
       structures/{civ}/kennel
       structures/{civ}/barracks
+      structures/{civ}/barracksB
+      structures/{civ}/barracksC
       structures/{civ}/stable
+      structures/{civ}/stableB
       structures/{civ}/elephant_stable
       structures/{civ}/forge
       structures/{civ}/temple
@@ -27,8 +31,10 @@
       structures/{civ}/sentry_tower
       structures/{civ}/defense_tower
       structures/{civ}/arsenal
+      structures/{civ}/bank
       structures/{civ}/academy
       structures/{civ}/fortress
+      structures/earth_mound_short
       structures/wallset_palisade
       structures/{civ}/wallset_palisade
       structures/{civ}/wallset_siege

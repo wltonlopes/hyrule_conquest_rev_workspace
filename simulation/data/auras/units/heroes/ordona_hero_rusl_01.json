@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.15 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.15 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.15 }
+	],
+	"auraName": "Sword Training",
+	"auraDescription": "Soldiers +15% melee attack damage."
+}

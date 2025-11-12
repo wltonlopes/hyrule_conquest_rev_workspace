@@ -1,14 +1,38 @@
 [
   {
-    "textFile": "deku_civ.txt",
+    "textFile": "dead_hand.txt",
     "imageFiles": [
-      "deku.png"
+      "dead_hand.png"
+    ]
+  },
+  {
+    "textFile": "stalfos_civ.txt",
+    "imageFiles": [
+      "stalfos.png"
+    ]
+  },
+  {
+    "textFile": "ordona_civ.txt",
+    "imageFiles": [
+      "ordona.png"
+    ]
+  },
+  {
+    "textFile": "redead.txt",
+    "imageFiles": [
+      "redead.png"
     ]
   },
   {
     "textFile": "creatures.txt",
     "imageFiles": [
       "creatures.png"
+    ]
+  },
+  {
+    "textFile": "titan_stallord.txt",
+    "imageFiles": [
+      "titan_stallord.png"
     ]
   }
 ]

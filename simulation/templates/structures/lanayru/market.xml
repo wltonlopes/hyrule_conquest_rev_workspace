@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_lanayru_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Emporium</SpecificName>
+    <History>The Emporium stocks and sells various products created with Lanayru Province and is a hot spot for economic activity across all of Hyrule. Traders and customers from across the land would venture here just to obtain even a few of Lanayru's high quality goods.</History>
+    <Icon>structures/lanayru/lan_emporium.dds</Icon>
+    <Tooltip>Allows the trading of resources on the market or with your allies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="33.0" width="33.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_marketA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldI.xml</FoundationActor>
+  </VisualActor>
+</Entity>

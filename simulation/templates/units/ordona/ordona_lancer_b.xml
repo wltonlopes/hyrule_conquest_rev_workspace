@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spearman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Lance</AttackName>
+      <Damage>
+        <Pierce>14</Pierce>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1100</PrepareTime>
+      <RepeatTime>1400</RepeatTime>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>620</Max>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <SpecificName>Lancer</SpecificName>
+    <History>When faced by cavalry, the Ordona Province sends their Lancers into the fray. Armed with a strong and very sharp lance, these cavalry warriors deal great damage to other cavalry.</History>
+    <Tooltip>Fast moving Melee Anti-Cavalry unit armed with a lance.</Tooltip>
+    <Icon>units/ordona/ord_horseman.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/ordona/horseman/horseman_death.xml</death>
+      <order_attack>voice/ordona/horseman/horseman_attack.xml</order_attack>
+      <order_garrison>voice/ordona/horseman/horseman_garrison.xml</order_garrison>
+      <order_gather>voice/ordona/horseman/horseman_gather.xml</order_gather>
+      <order_repair>voice/ordona/horseman/horseman_repair.xml</order_repair>
+      <order_walk>voice/ordona/horseman/horseman_walk.xml</order_walk>
+      <run>actor/movement/horse/horse_footsteps.xml</run>
+      <select>voice/ordona/horseman/horseman_select.xml</select>
+      <trained>interface/alarm/alarm_create_cavalry.xml</trained>
+      <walk>actor/movement/horse/horse_footsteps.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/ordona/ordona_lancer_b.xml</Actor>
+  </VisualActor>
+</Entity>

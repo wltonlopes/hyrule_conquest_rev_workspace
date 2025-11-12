@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Silver Arrows</AttackName>
+      <Damage>
+        <Pierce>10</Pierce>
+        <True>30</True>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>80</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PrepareTime>1000</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>3000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Health>
+    <Max>450</Max>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Silver Archer</SpecificName>
+    <VisibleClasses datatype="tokens">Silver</VisibleClasses>
+    <History>Hunters of massive and titanic beasts across Hyrule, the secret of the Silver Archer lies in their arrows. A single Silver Arrow can wound many of the giant monsters across Hyrule, usually the larger they are the harder they will fall. Regardless of size, a Silver Arrow can puncture through all but Magic armor.</History>
+    <Tooltip>Strong Missile unit that pierces all forms of armor.</Tooltip>
+    <Icon>units/lanayru/lan_silverarcher.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/bow_silver_fire.xml</attack_ranged>
+      <death>voice/lanayru/silverarcher/silverarcher_death.xml</death>
+      <order_attack>voice/lanayru/silverarcher/silverarcher_attack.xml</order_attack>
+      <order_garrison>voice/lanayru/silverarcher/silverarcher_garrison.xml</order_garrison>
+      <order_gather>voice/lanayru/silverarcher/silverarcher_gather.xml</order_gather>
+      <order_repair>voice/lanayru/silverarcher/silverarcher_repair.xml</order_repair>
+      <order_walk>voice/lanayru/silverarcher/silverarcher_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/lanayru/silverarcher/silverarcher_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/lanayru/lanayru_silverarcher_b.xml</Actor>
+  </VisualActor>
+</Entity>

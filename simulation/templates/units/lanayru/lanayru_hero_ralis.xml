@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/lanayru_hero_ralis_01
+    units/heroes/lanayru_hero_ralis_02
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Sword</AttackName>
+      <Damage>
+        <Crush>14.0</Crush>
+        <Hack>14.0</Hack>
+        <Pierce>6.0</Pierce>
+        <True>14</True>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>1400</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="5.0" />
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2500</Max>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Ralis</SpecificName>
+    <GenericName>The Silver Prince</GenericName>
+    <History>The Son of King De Bon and Queen Rutela, Ralis was born shortly after the royal divorce. For most of his life he lacked a father figure and was raised entirely by his mother, perhaps stunting his maturity as a result. Perhaps foolishly he associates bravado and aggressiveness with masculinity, leading to him to become a somewhat reckless warrior Prince.</History>
+    <Tooltip>Mounted Cavalry Hero that attacks with his mighty Silver Sword.</Tooltip>
+    <Icon>units/lanayru/lan_hero_aydia.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>10.0</Hack>
+        <Pierce>10.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/lanayru/ralis/ralis_death.xml</death>
+      <order_attack>voice/lanayru/ralis/ralis_attack.xml</order_attack>
+      <order_garrison>voice/lanayru/ralis/ralis_garrison.xml</order_garrison>
+      <order_gather>voice/lanayru/ralis/ralis_gather.xml</order_gather>
+      <order_repair>voice/lanayru/ralis/ralis_repair.xml</order_repair>
+      <order_walk>voice/lanayru/ralis/ralis_walk.xml</order_walk>
+      <run>actor/movement/arach/arach_walk.xml</run>
+      <select>voice/lanayru/ralis/ralis_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/movement/arach/arach_walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <RunMultiplier>1.28</RunMultiplier>
+    <WalkSpeed>12.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/lanayru/lanayru_hero_ralis_b.xml</Actor>
+  </VisualActor>
+</Entity>

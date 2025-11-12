@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/stalfos/sta_poebigB.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Poe">
+      <textures>
+        <texture file="skeletal/stalfos/sta_poesA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_poebigA/base_HC_poebigA.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_poebigA/base_HC_poebigA_death.xml"/>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

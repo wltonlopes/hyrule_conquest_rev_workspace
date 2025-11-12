@@ -19,7 +19,6 @@
       <props>
         <prop actor="units/ordona/ordona_hero_ilia_b_r.xml" attachpoint="bone_Spine1"/>	
 		<prop actor="units/ordona/ordona_hero_ilia_b_crossbow.xml" attachpoint="bone_Spine1"/>		
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

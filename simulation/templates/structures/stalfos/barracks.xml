@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="25.0" width="25.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>200</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_stalfos_ruins_anc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <SpecificName>Soldier's Sepulcrum</SpecificName>
+    <Icon>structures/stalfos/sta_sepulcrum.dds</Icon>
+    <History>In tombs such as these, warriors from many cultures are be buried to honor their life's deeds. Breaking the peace of a sepulcrum is considered shameful. Raising its occupants as undead and binding them to one's service iss an unforgivable insult to a culture and its people.</History>
+    <Tooltip>Allows the raising of warrior Stalfos forms, as well as upgrades for them.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="25.0" width="25.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>10</Bonus>
+  </Population>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}/infantry_spearman_b
+      -units/{civ}/infantry_swordsman_b
+      units/stalfos/stalfos_stalkin_b
+      units/stalfos/stalfos_stalhorse_b
+      units/stalfos/infantry_swordsman_b
+      units/stalfos/stalfos_battleforgedA_b
+      units/stalfos/stalfos_knight_b
+      units/stalfos/stalfos_lostsoul_b
+      units/stalfos/stalfos_stalgiant_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/stalfos/barracksB.xml</Actor>
+    <FoundationActor>structures/stalfos/stalfos_unearthA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

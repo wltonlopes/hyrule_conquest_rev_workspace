@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_stone">
+  <Footprint replace="">
+    <Circle radius="3.5"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <GarrisonHolder disable=""/>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Silver Tower</SpecificName>
+    <History>The tall and ever watchful Silver Towers keeps Lanayru's Coast safe, both from invaders and their native wildlife. Many Province cities erect a series of these towers throughout their grounds.</History>
+    <Icon>structures/lanayru/lan_guard_tower.dds</Icon>
+    <Tooltip>Defensive Tower that attacks enemies with its arrows.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="5" depth="5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      tower_watch
+      -tower_crenellations
+      -tower_range
+      -tower_murderholes
+      tower_health
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/slingshot.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>19.0</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>1</X>
+        <Y>24.8</Y>
+        <Z>2.5</Z>
+      </Archer1>
+      <Archer2>
+        <X>1</X>
+        <Y>24.8</Y>
+        <Z>-2.5</Z>
+      </Archer2>
+      <Archer3>
+        <X>-2.5</X>
+        <Y>24.8</Y>
+        <Z>1</Z>
+      </Archer3>
+      <Archer4>
+        <X>-2.5</X>
+        <Y>24.8</Y>
+        <Z>-1</Z>
+      </Archer4>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_silvertowerA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+</Entity>

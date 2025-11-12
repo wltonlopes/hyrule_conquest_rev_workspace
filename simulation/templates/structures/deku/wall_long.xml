@@ -12,7 +12,7 @@
     <Height>9.0</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>rubble/debris_deku_wall_long</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_deku_wall_long</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>deku</Civ>

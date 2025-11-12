@@ -8,4 +8,4 @@
 [imgleft="iconMap"]Hyrule Conquest: Revival is Free Software: you can participate in its development.
 If you want to help with art, sound, gameplay or programming, or want to contribute an idea, make sure to email me at Perzival12@proton.me.
 
-[font="sans-bold-12"] Hyrule Conquest: Revival V 0.2.1
+[font="sans-bold-12"] Hyrule Conquest: Revival V 0.5.0

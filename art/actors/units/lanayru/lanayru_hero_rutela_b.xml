@@ -11,7 +11,6 @@
 		<prop actor="props/units/capes/cape_lanayru_rutela.xml" attachpoint="root"/>
 		<prop actor="props/units/weapons/lanayru_swordD.xml" attachpoint="R_wrist_01"/>
 		<prop actor="props/units/weapons/lanayru_sheathC.xml" attachpoint="zora_base_main"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
       </props>
 	  <textures>
         <texture file="skeletal/lanayru/lan_bodyG.dds" name="baseTex"/>

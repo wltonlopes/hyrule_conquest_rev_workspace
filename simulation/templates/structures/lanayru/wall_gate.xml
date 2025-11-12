@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_gate">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>30</stone>
+      <metal>30</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="38.5" depth="8.5"/>
+    <Height>9</Height>
+  </Footprint>
+  <Gate>
+    <PassRange>20</PassRange>
+  </Gate>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Silver Gate</SpecificName>
+    <History>The walls of Lanayru Province, while not as durable as those of other civilizations, were nonetheless impressive and served their defnesive purpose well.</History>
+    <Tooltip>Protective Wall to hold off attackers.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Obstructions>
+      <Door depth="7" width="10" x="0" z="0" />
+      <Left depth="7" width="14" x="-12" z="0" />
+      <Right depth="7" width="14" x="12" z="0" />
+    </Obstructions>
+    <Static disable="" />
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>12.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_wall_gatehouseA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>37.0</Length>
+  </WallPiece>
+</Entity>

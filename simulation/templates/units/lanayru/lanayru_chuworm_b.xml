@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Mandibles</AttackName>
+      <Damage>
+        <Pierce>3</Pierce>
+      </Damage>
+      <MaxRange>7.0</MaxRange>
+      <PrepareTime>400</PrepareTime>
+      <RepeatTime>400</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>5</BuildTime>
+    <Resources>
+      <food>25</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="3.0" />
+    <Height>7.0</Height>
+  </Footprint>
+  <Health>
+    <Max>25</Max>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Chu Worm</SpecificName>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
+    <History>A durable vermin found at the bottom of Hyrule's lakes. While surface dwellers rarely interact with these creatures, they can be become pests to Zora and other aquatic settlements. Lanayru Province has taken up the practice of domesticating one of the more docile breeds of Chu Worm.</History>
+    <Tooltip>Support unit that increases the protects other units from damage.</Tooltip>
+    <Icon>units/lanayru/lan_chuworm.dds</Icon>
+    <VisibleClasses datatype="tokens">Support</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/orhat_bite.xml</attack_melee>
+      <death>voice/lanayru/chuworm/chuworm_death.xml</death>
+      <order_attack>voice/lanayru/chuworm/chuworm_attack.xml</order_attack>
+      <order_garrison>voice/lanayru/chuworm/chuworm_garrison.xml</order_garrison>
+      <order_gather>voice/lanayru/chuworm/chuworm_gather.xml</order_gather>
+      <order_repair>voice/lanayru/chuworm/chuworm_repair.xml</order_repair>
+      <order_walk>voice/lanayru/chuworm/chuworm_walk.xml</order_walk>
+      <run>actor/movement/fairy/fairy_hoverA.xml</run>
+      <select>voice/lanayru/chuworm/chuworm_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/orhat/orhat_skitter.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <RunMultiplier>2.0588</RunMultiplier>
+    <WalkSpeed>8.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/lanayru/lanayru_chuworm_b.xml</Actor>
+  </VisualActor>
+</Entity>

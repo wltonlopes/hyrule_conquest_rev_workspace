@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_tower">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>8</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>4</stone>
+      <metal>4</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="12.5" depth="12.5"/>
+    <Height>18</Height>
+  </Footprint>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Silver Wall Tower</SpecificName>
+    <History>The walls of Lanayru Province, while not as durable as those of other civilizations, were nonetheless impressive and served their defnesive purpose well.</History>
+    <Tooltip>Protective Wall to hold off attackers.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="9.5" depth="9.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_wall_tower.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>9.5</Length>
+  </WallPiece>
+  <Upgrade>
+    <BuildingA>
+      <Cost>
+        <stone>50</stone>
+        <metal>50</metal>
+      </Cost>
+      <Entity>structures/lanayru/defense_tower</Entity>
+      <Time>45</Time>
+      <Tooltip>Man this tower with Archers.</Tooltip>
+      <Variant>upgrading_tower</Variant>
+    </BuildingA>  
+  </Upgrade>   
+</Entity>

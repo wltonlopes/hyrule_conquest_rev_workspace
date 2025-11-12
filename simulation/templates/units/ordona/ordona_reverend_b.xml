@@ -1,5 +1,11 @@
-<Entity parent="template_unit_auxiliary">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Auras datatype="tokens">
+    units/deacon_chant_01
+  </Auras>
   <Attack>
+    <Melee disable=""/>
+    <Ranged disable=""/>
     <Capture>
       <AttackName>Effigy</AttackName>
       <Bonuses>
@@ -14,48 +20,49 @@
       <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
     </Capture>
   </Attack>
-  <Auras datatype="tokens">
-    units/deacon_chant_1
-  units/deacon_chant_2
-  units/deacon_chant_3
-  units/deacon_chant_4
-  </Auras>
+  <Builder disable=""/>
   <Cost>
     <BuildTime>20</BuildTime>
     <Resources>
-      <metal>25</metal>
-      
-      
-      
+      <food>100</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
+  <Heal>
+    <Range>25</Range>
+    <RangeOverlay>
+      <LineTexture>heal_overlay_range.png</LineTexture>
+      <LineTextureMask>heal_overlay_range_mask.png</LineTextureMask>
+      <LineThickness>0.35</LineThickness>
+    </RangeOverlay>
+    <Health>5</Health>
+    <Interval>2000</Interval>
+    <UnhealableClasses datatype="tokens"/>
+    <HealableClasses datatype="tokens">Human</HealableClasses>
+  </Heal>
   <Health>
     <Max>200</Max>
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <Classes datatype="tokens">Class40 Priest Medium Reverend</Classes>
-    <GenericName>Reverend</GenericName>
-    <History>While Ordona Province is not as dogmatic as the Hylian&#8217;s religious establishment, the nation has bred a more passionate and expressive line of priests to spread the Book of Mudora and knowledge of the Goddesses to all of Hyrule. These Reverends will preach in just about any land, be they welcoming or hostile to their intent.</History>
+    <SpecificName>Reverend</SpecificName>
+    <History>While Ordona Province is not as dogmatic as the Hylian's religious establishment, the nation has bred a more passionate and expressive line of priests to spread the Book of Mudora and knowledge of the Goddesses to all of Hyrule. These Reverends will preach in just about any land, be they welcoming or hostile to their intent.</History>
+    <Tooltip>Healing Support unit with several buffing abilities.</Tooltip>
     <Icon>units/ordona/ord_reverend.dds</Icon>
-    <Lang>ordona</Lang>
-    <Rank>Basic</Rank>
-    <SelectionGroupName>units/ordona/ordona_reverend_b</SelectionGroupName>
-    <Tooltip>Support unit with several buffing abilities.</Tooltip>
-    <VisibleClasses datatype="tokens">Support</VisibleClasses>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Crush>10.0</Crush>
-        <Hack>5.0</Hack>
-        <Pierce>5.0</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
+  <Promotion disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x128/ellipse.png</MainTexture>
+        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
-      <attack_melee>attack/weapon/sword.xml</attack_melee>
       <death>voice/ordona/reverend/reverend_death.xml</death>
       <order_attack>voice/ordona/reverend/reverend_attack.xml</order_attack>
       <order_garrison>voice/ordona/reverend/reverend_garrison.xml</order_garrison>

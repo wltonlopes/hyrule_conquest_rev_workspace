@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/stalfos/sta_stalhoundA.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="fox">
+      <textures>
+        <texture file="skeletal/stalfos/sta_mainA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_wolf/base_HC_wolf.xml"/>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant file="HC_wolf/base_HC_wolf_death.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

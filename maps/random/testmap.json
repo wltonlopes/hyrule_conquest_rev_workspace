@@ -1,0 +1,15 @@
+{
+	"settings" : {
+		"Name" : "Testing Map",
+		"Script" : "testingmap.js",
+		"Description" : "A flat map with no obstacles, dips, or resources. Only for testing combat and construction, not playable IN ANY WAY.",
+		"Keywords": ["demo"],
+		"CircularMap" : true,
+		"PlayerPlacements": [
+			"circle",
+			"river",
+			"groupedLines",
+			"randomGroup"
+		]
+	}
+}

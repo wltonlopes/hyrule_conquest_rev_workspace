@@ -75,16 +75,40 @@
       <MaxTerrainSlope>90.0</MaxTerrainSlope>
       <Clearance>10.0</Clearance>
     </titan>
+    <climbing>
+      <Obstructions>pathfinding</Obstructions>
+      <MaxWaterDepth>2</MaxWaterDepth>
+      <MaxTerrainSlope>50.0</MaxTerrainSlope>
+      <Clearance>0.8</Clearance>
+    </climbing>
+    <huge_climbing>
+      <Obstructions>pathfinding</Obstructions>
+      <MaxWaterDepth>5</MaxWaterDepth>
+      <MaxTerrainSlope>50.0</MaxTerrainSlope>
+      <Clearance>7</Clearance>
+    </huge_climbing>
     <amphibious>
       <Obstructions>pathfinding</Obstructions>
       <MaxWaterDepth>50</MaxWaterDepth>
       <MaxTerrainSlope>1.0</MaxTerrainSlope>
       <Clearance>0.8</Clearance>
     </amphibious>
+    <large_amphibious>
+      <Obstructions>pathfinding</Obstructions>
+      <MaxWaterDepth>50</MaxWaterDepth>
+      <MaxTerrainSlope>3.0</MaxTerrainSlope>
+      <Clearance>1</Clearance>
+    </large_amphibious>
+    <huge_amphibious>
+      <Obstructions>pathfinding</Obstructions>
+      <MaxWaterDepth>50</MaxWaterDepth>
+      <MaxTerrainSlope>2.0</MaxTerrainSlope>
+      <Clearance>7</Clearance>
+    </huge_amphibious>
     <fly>
       <Obstructions>none</Obstructions>
       <MaxWaterDepth>50</MaxWaterDepth>
-      <MaxTerrainSlope>89.0</MaxTerrainSlope>
+      <MaxTerrainSlope>100.0</MaxTerrainSlope>
       <Clearance>0</Clearance>
     </fly>
     <ship>

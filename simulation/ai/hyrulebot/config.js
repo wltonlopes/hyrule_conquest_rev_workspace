@@ -107,6 +107,9 @@ HYRULE.Config = function(difficulty = HYRULE.DIFFICULTY_MEDIUM, behavior)
 			"structures/{civ}/palace",
 			"structures/{civ}/pillar_ashoka"
 		],
+		"ordona": [
+			"structures/{civ}/stableB"
+		],
 		"pers": [
 			"structures/{civ}/tachara"
 		],
@@ -124,7 +127,11 @@ HYRULE.Config = function(difficulty = HYRULE.DIFFICULTY_MEDIUM, behavior)
 		"spart": [
 			"structures/{civ}/syssiton",
 			"structures/{civ}/theater"
-		]
+		],
+		"stalfos": [
+			"structures/{civ}/barracksB",
+			"structures/{civ}/barracksC"
+		],
 	};
 
 	this.priorities =

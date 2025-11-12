@@ -1,24 +1,24 @@
-<Entity parent="template_unit_creature">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
   <Attack>
-    <Melee>
+    <Melee replace="">
       <AttackName>Claws</AttackName>
       <Damage>
         <Hack>2.0</Hack>
         <Pierce>5</Pierce>
       </Damage>
       <MaxRange>6.0</MaxRange>
-      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>1100</RepeatTime>
+      <PrepareTime>900</PrepareTime>
+      <RepeatTime>800</RepeatTime>
     </Melee>
   </Attack>
   <Cost>
-    <BuildTime>12</BuildTime>
+    <BuildTime>5</BuildTime>
     <Resources>
-      <metal>35</metal>
-      
-      
-      
+      <food>25</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Health>
@@ -26,29 +26,20 @@
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <Classes datatype="tokens">Small Flying</Classes>
-    <GenericName>Ordona Hawk</GenericName>
-    <History>These large birds of prey native to the Province were often trained by Ordonian families to serve as messengers, hunting companions, and in times of war they could be deployed as scouts and unconventional battle units.</History>
+    <SpecificName>Ordona Hawk</SpecificName>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
+    <History>These large birds of prey native to the Province are often trained by Ordonian families to serve as messengers, hunting companions, and in times of war they are be deployed as scouts and unconventional battle units.</History>
+    <Tooltip>Flying Creature Scout unit that can cover much ground and can attack other scout units.</Tooltip>
     <Icon>units/ordona/ord_hawk.dds</Icon>
-    <Lang>ordona</Lang>
-    <SelectionGroupName>units/ordona/ordona_hawk_b</SelectionGroupName>
-    <Tooltip>Flying Creature Scout unit that can cover much ground and detect Camouflaged and Stealthed units.</Tooltip>
     <VisibleClasses datatype="tokens">Scout</VisibleClasses>
   </Identity>
   <Position>
+    <Altitude>20.0</Altitude>
+    <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <TurnRate>3.25</TurnRate>
   </Position>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Crush>20.0</Crush>
-        <Hack>10.0</Hack>
-        <Pierce>10.0</Pierce>
-      </Damage>
-    </Entity>
-    <KnockbackResistance>100</KnockbackResistance>
-  </Resistance>
+  <Promotion disable=""/>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/natural/hawk_dive.xml</attack_melee>
@@ -64,16 +55,18 @@
       <walk>actor/movement/patra/patra_flap.xml</walk>
     </SoundGroups>
   </Sound>
+  <TrainingRestrictions>
+    <Category>Hawk</Category>
+  </TrainingRestrictions>
+  <UnitAI>
+    <DefaultStance>defensive</DefaultStance>
+  </UnitAI>
   <UnitMotion>
-    <PassabilityClass>hover</PassabilityClass>
+    <PassabilityClass>fly</PassabilityClass>
+    <RunMultiplier>1.1515</RunMultiplier>
+    <WalkSpeed>16.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/ordona/ordona_hawk_holder.xml</Actor>
+    <Actor>units/ordona/ordona_hawk_b.xml</Actor>
   </VisualActor>
-  <Visibility>
-    <CanSpotStealth>
-      <MinRange>0</MinRange>
-      <MaxRange>80</MaxRange>
-    </CanSpotStealth>
-  </Visibility>
 </Entity>

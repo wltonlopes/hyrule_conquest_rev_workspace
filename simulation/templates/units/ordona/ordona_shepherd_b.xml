@@ -1,45 +1,54 @@
-<Entity parent="template_unit_auxiliary">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Attack>
+    <Melee>
+      <AttackName>Knife</AttackName>
+      <Damage>
+        <Hack>5.0</Hack>
+      </Damage>
+      <MaxRange>3</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+    <Slaughter>
+      <RepeatTime>1000</RepeatTime>
+      <AttackName>Knife</AttackName>
+      <Damage>
+        <Hack>25.0</Hack>
+      </Damage>
+      <MaxRange>2</MaxRange>
+    </Slaughter>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/ordona/apiary
+    </Entities>
+  </Builder>
   <Cost>
-    <BuildTime>20</BuildTime>
     <Resources>
-      <metal>25</metal>
-      
-      
-      
+      <food>50</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
   <Health>
     <Max>200</Max>
-    <SpawnOnInterval>
-      <one>
-        <Interval>10000</Interval>
-        <LinkedDestruction>true</LinkedDestruction>
-        <Max>5</Max>
-        <SpawnNumber>1</SpawnNumber>
-        <StartDelay>5000</StartDelay>
-        <Template>units/ordona/ordona_attackgoat_b</Template>
-      </one>
-    </SpawnOnInterval>	
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <Classes datatype="tokens">Medium Class40 Shepherdgoat</Classes>
-    <GenericName>Shepherd</GenericName>
+    <SpecificName>Shepherd</SpecificName>
+    <GenericName>Support Unit</GenericName>
     <History>Shepherds guide and care for Ordona's native goats. Providing meat and milk as well as serving the role of beast of burden and battle mount, Ordonian goats are treasured and nearly sacred to the people of the province. A Shepherd can summon a small flock of Ordonian goats that follow their leader around, attacking any enemies that come near.</History>
     <Icon>units/ordona/ord_shepherd.dds</Icon>
-    <Lang>ordona</Lang>
-    <Rank>Basic</Rank>
-    <SelectionGroupName>units/ordona/ordona_shepherd_b</SelectionGroupName>
-    <SpecificName>Shepherd</SpecificName>
     <Tooltip>Support unit that summons herds of Attack Goats to swarm their enemies.</Tooltip>
-    <VisibleClasses datatype="tokens">Support</VisibleClasses>
   </Identity>
+  <ProductionQueue/>
   <Resistance>
     <Entity>
       <Damage>
-        <Crush>25.0</Crush>
-        <Hack>5.0</Hack>
-        <Pierce>5.0</Pierce>
+        <Hack>2.0</Hack>
+        <Pierce>3.0</Pierce>
       </Damage>
     </Entity>
   </Resistance>
@@ -58,6 +67,11 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+	units/ordona/ordona_attackgoat_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>units/ordona/ordona_shepherd_b.xml</Actor>
   </VisualActor>

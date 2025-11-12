@@ -21,7 +21,6 @@
         <prop actor="units/lanayru/lanayru_hero_dorephan_b_r.xml" attachpoint="crab_med_base"/>
 		<prop actor="units/lanayru/lanayru_hero_dorephan_cape.xml" attachpoint="crab_med_base"/>
 		<prop actor="units/lanayru/lanayru_hero_dorephan_extra.xml" attachpoint="crab_med_base"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

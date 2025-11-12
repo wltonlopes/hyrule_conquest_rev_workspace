@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Cost>
+    <BuildTime>600</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>500</stone>
+      <metal>500</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="17.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2500</Max>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <History>The Silver Keeps of Lanayru are famed throughout Hyrule not particularly for their defensive capabilities, but for their beauty alone. Typically, the towns that spring up around them consider them gathering places of sorts.</History>
+    <SpecificName>Silver Keep</SpecificName>
+    <Icon>structures/lanayru/lan_outpost.dds</Icon>
+    <Tooltip>Center of a Lanayru Settlement. Summons Lanayru Heroes. Manned with archers for defense.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>500</wood>
+    <stone>0</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="35.0" width="35.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/lanayru/complete_civ_center_lanayru.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/lanayru/sel_civ_center_lanayru.xml</select>
+      <upgraded>interface/complete/building/lanayru/complete_civ_center_lanayru.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/lanayru/infantry_swordsman_b
+      units/lanayru/infantry_spearman_b
+      units/lanayru/lanayru_sentry_b
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>4.5</X>
+        <Y>15.4</Y>
+        <Z>-5.5</Z>
+      </Archer1>
+      <Archer2>
+        <X>-4.5</X>
+        <Y>15.4</Y>
+        <Z>-5.5</Z>
+      </Archer2>
+      <Archer3>
+        <X>5.5</X>
+        <Y>14.5</Y>
+        <Z>0</Z>
+      </Archer3>
+      <Archer4>
+        <X>-5.5</X>
+        <Y>15.4</Y>
+        <Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>4.5</X>
+        <Y>15.4</Y>
+        <Z>5.5</Z>
+      </Archer5>
+      <Archer6>
+        <X>-4.5</X>
+        <Y>15.4</Y>
+        <Z>5.5</Z>
+      </Archer6>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_outpostA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldA.xml</FoundationActor>
+  </VisualActor>
+  <Upgrade replace="">
+    <Safehold>
+      <Entity>structures/lanayru/civil_centre_upg</Entity>
+      <Tooltip>Reinforce with more metal and stone and upgrade to a Royal Hub.</Tooltip>
+      <Cost>
+        <stone>250</stone>
+        <metal>250</metal>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>120</Time>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+    </Safehold>
+  </Upgrade>
+</Entity>

@@ -6,7 +6,6 @@
       <props>
 		<prop actor="units/ordona/ordona_goatlord_b_r_armor.xml" attachpoint="root"/>
 		<prop actor="units/ordona/ordona_hero_mayorbo_b_r.xml" attachpoint="belly"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

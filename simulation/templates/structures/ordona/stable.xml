@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="28.0" width="28.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <SpecificName>Goat Barn</SpecificName>
+    <History>Ordonians are notable for devoting sizeable portions of their farmlands to the signature goats that roam the southern plains. Shephards tend to flocks of the creatures, while Yeoman pick from the group their mounts into battle.</History>
+    <Icon>structures/ordona/ord_goatbarn.dds</Icon>
+    <Tooltip>Trains many Ordonian cavalry units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="24.0" width="24.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -unlock_champion_chariots
+      -nisean_horses
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+	units/ordona/ordona_shepherd_b
+	units/ordona/ordona_yeoman_b
+	units/ordona/ordona_billybat_b
+	units/ordona/ordona_goatlord_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_goatbarnA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+</Entity>

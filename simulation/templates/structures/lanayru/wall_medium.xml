@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_medium">
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>12</stone>
+      <metal>12</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="26.5" depth="9.0"/>
+    <Height>9</Height>
+  </Footprint>
+  <GarrisonHolder disable="" />
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Silver Wall</SpecificName>
+    <History>The walls of Lanayru Province, while not as durable as those of other civilizations, were nonetheless impressive and served their defnesive purpose well.</History>
+    <Tooltip>Protective Wall to hold off attackers.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="30.0" depth="7.5"/>
+  </Obstruction>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>15.2</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>4</X>
+        <Y>15.2</Y>
+        <Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>-4</X>
+        <Y>15.2</Y>
+        <Z>0</Z>
+      </Archer3>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_wall_medium.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>30.0</Length>
+  </WallPiece>
+</Entity>

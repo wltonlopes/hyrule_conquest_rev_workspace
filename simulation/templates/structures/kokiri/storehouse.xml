@@ -6,7 +6,7 @@
   </Footprint>
   <Health>
     <Max>1000</Max>
-    <SpawnEntityOnDeath>rubble/debris_kokiri_small</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_kokiri_small</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
@@ -14,12 +14,14 @@
     <History>A storehouse for resources.</History>
     <Icon>structures/kokiri/kok_camp.dds</Icon>
   </Identity>
+  <ProductionQueue/>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/kokiri/koiri_hero_cariso
+      units/kokiri/kokiri_hero_fariso
     </Entities>
   </Trainer>
   <VisualActor>

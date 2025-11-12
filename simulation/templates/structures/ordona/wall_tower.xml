@@ -1,20 +1,28 @@
-<Entity parent="template_structure_defense_wall">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_tower">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>8</BuildTime>
+    <Resources>
+      <wood>4</wood>
+      <stone>4</stone>
+    </Resources>
+  </Cost>
   <Footprint>
-    <Height>18.0</Height>
-    <Square depth="12.5" width="12.5" />
+    <Square width="12.5" depth="12.5"/>
+    <Height>18</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>rubble/debris_ordona_tiny</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_tiny</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <GenericName>Palisade Wall</GenericName>
+    <SpecificName>Palisade Wall Tower</SpecificName>
     <History>A makeshift wooden wall to keep the elements out of Ordonian villages.</History>
-    <Icon>structures/ordona/ord_wall.dds</Icon>
     <Tooltip>Protective Wall to hold off attackers.</Tooltip>
   </Identity>
   <Obstruction>
-    <Static depth="9.5" width="9.5" />
+    <Static width="9.5" depth="9.5"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/ordona/ordona_wall_tower.xml</Actor>
@@ -24,15 +32,14 @@
     <Length>9.5</Length>
   </WallPiece>
   <Upgrade>
-	<BuildingA>
+    <BuildingA>
       <Cost>
-        
-        <metal>100</metal>
+        <stone>100</stone>
       </Cost>
-      <Entity>structures/ordona/ordona_defense_towerB</Entity>
+      <Entity>structures/ordona/defense_tower</Entity>
       <Time>45</Time>
-      <Tooltip>Man this tower with Archers.</Tooltip>
+      <Tooltip>Upgrade this post to a tower and man it with archers.</Tooltip>
       <Variant>upgrading_tower</Variant>
-    </BuildingA> 
-  </Upgrade>    
+    </BuildingA>  
+  </Upgrade>   
 </Entity>

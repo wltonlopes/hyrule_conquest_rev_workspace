@@ -38,7 +38,7 @@
   </Footprint>
   <Health>
     <Max>3000</Max>
-    <SpawnEntityOnDeath>rubble/debris_deku_huge</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_deku_huge</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>deku</Civ>

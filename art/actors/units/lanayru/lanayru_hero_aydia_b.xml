@@ -7,7 +7,6 @@
       <props>
 		<prop actor="props/units/weapons/lanayru_swordC.xml" attachpoint="R_wrist_01"/>
 		<prop actor="props/units/weapons/lanayru_sheathC.xml" attachpoint="zora_base_main"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
 		</props>
 	  <textures>
 			<texture file="skeletal/lanayru/lan_heroA.dds" name="baseTex"/>

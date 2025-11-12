@@ -6,7 +6,7 @@
   </Footprint>
   <Health>
     <Max>1800</Max>
-    <SpawnEntityOnDeath>rubble/debris_kokiri_small</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_kokiri_small</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>

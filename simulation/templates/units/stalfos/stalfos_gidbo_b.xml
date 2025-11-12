@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Auras datatype="tokens">
+    units/redead_aura_01
+  </Auras>
+  <Attack replace="">
+    <Melee>
+      <AttackName>Claws</AttackName>
+      <Damage>
+        <Hack>20</Hack>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>3100</PrepareTime>
+      <RepeatTime>3200</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>120</food>
+      <wood>50</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <VisibleClasses datatype="tokens">Undead</VisibleClasses>
+    <SpecificName>Gidbo</SpecificName>
+    <GenericName>Undead</GenericName>
+    <History>While ReDeads are said to have been the servants of nobles, burried with them in their tombs, Gidbos are the nobles. Wrapped in a gauze and preserved by time, Gidbos are a rare sight. Their terrifying screams are even more powerful than that of a ReDead, and even those experienced in slaying undead think twice before fighting the horrors.</History>
+    <Tooltip>Melee unit that slows down and stuns enemies.</Tooltip>
+    <Icon>units/stalfos/sta_gibdo.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>10.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/redead_attack.xml</attack_melee>
+      <death>voice/stalfos/redead/redead_death.xml</death>
+      <order_attack>voice/stalfos/redead/redead_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/redead/redead_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/redead/redead_gather.xml</order_gather>
+      <order_heal>voice/stalfos/redead/redead_attack.xml</order_heal>
+      <order_repair>voice/stalfos/redead/redead_repair.xml</order_repair>
+      <order_walk>voice/stalfos/redead/redead_walk.xml</order_walk>
+      <run>actor/movement/redead/redead_step.xml</run>
+      <select>voice/stalfos/redead/redead_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/redead/redead_step.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <Formations disable=""/>
+    <CheeringTime>0</CheeringTime>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <RunMultiplier>1.2</RunMultiplier>
+    <WalkSpeed>2.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_gidbo_b.xml</Actor>
+  </VisualActor>
+</Entity>

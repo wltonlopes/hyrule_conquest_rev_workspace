@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/stalfos_hero_gabora_01
+    units/heroes/stalfos_hero_gabora_02
+  </Auras>
+  <Attack replace="">
+    <Melee>
+      <AttackName>Hammer</AttackName>
+      <Damage>
+        <Crush>80.0</Crush>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1300</PrepareTime>
+      <RepeatTime>1400</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>300</food>
+      <wood>0</wood>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <SpecificName>Gabora</SpecificName>
+    <GenericName>Master Blacksmith</GenericName>
+    <History>Gabora is the partner of Zubora, and is known as one of the best, if not THE best blacksmith in all of Hyrule. While his past is unknown, it is said that he is an undead creature, using his cursed form of immortality to further his skills.</History>
+    <Tooltip>Melee Hero with heavy armor and massive crush damage.</Tooltip>
+    <Icon>units/stalfos/sta_hero_gabora.dds</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <ProductionQueue/>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>10.0</Hack>
+        <Pierce>55.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/gabora_hammer.xml</attack_melee>
+      <death>voice/stalfos/gabora/gabora_death.xml</death>
+      <order_attack>voice/stalfos/gabora/gabora_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/gabora/gabora_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/gabora/gabora_gather.xml</order_gather>
+      <order_repair>voice/stalfos/gabora/gabora_repair.xml</order_repair>
+      <order_walk>voice/stalfos/gabora/gabora_walk.xml</order_walk>
+      <run>actor/movement/darknut/darknut_armor_step.xml</run>
+      <select>voice/stalfos/gabora/gabora_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/movement/darknut/darknut_armor_step.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <RunMultiplier>1.3333</RunMultiplier>
+    <WalkSpeed>4.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_hero_gabora.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,50 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civilian">
-  <BuildRestrictions>
-    <Category>Field</Category>
-  </BuildRestrictions>
+<Entity parent="template_structure_economic_farmstead">
   <Cost>
-    <BuildTime>45</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
-      <metal>75</metal>
+      <wood>100</wood>
+      <stone>200</stone>
     </Resources>
   </Cost>
-  <Footprint>
+  <Footprint replace="">
     <Circle radius="25.0"/>
     <Height>5.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>5</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Beekeeper</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
   <Health>
     <Max>900</Max>
-    <SpawnEntityOnDeath>rubble/debris_ordona_small</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_small</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <AIBuild>
-      <one>
-        <MinPop>0</MinPop>
-      </one>
-      <two>
-        <Nodes>8</Nodes>
-      </two>
-    </AIBuild>
     <Civ>ordona</Civ>
-    <Classes datatype="tokens">Field Apiary</Classes>
-    <GenericName>Apiary</GenericName>
-    <History>Ordona Province seemed to be quite the hotspot for bees. More varieties could be found there than any other location in Hyrule, and the Ordonians took advantage in the way they know best: Food. Honey and other Bee products were part of daily life in the Province, and all the surplus was sold for a nice sum of Rupees.</History>
+    <SpecificName>Apiary</SpecificName>
+    <Classes datatype="tokens">Apiary</Classes>
+    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <History>Ordona Province seems to be quite the hotspot for bees. More varieties can be found there than any other location in Hyrule, and the Ordonians take advantage in the way they know best: Food. Honey and other Bee products are part of daily life in the Province, and all the surplus is sold for a nice sum of Rupees.</History>
     <Icon>structures/ordona/ord_apiary.dds</Icon>
-    <Tooltip>Trains Beekeepers and provides a steady flow of Rupees.</Tooltip>
-    <VisibleClasses datatype="tokens">Economic</VisibleClasses>
+    <Tooltip>Trains Beekeepers and provides a steady flow of food.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_village phase_town</Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
-    <Static depth="30.0" width="30.0"/>
+    <Static width="30.0" depth="30.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </Researcher>
+  <ProductionQueue/>
   <ResourceTrickle>
     <Interval>5000</Interval>
     <Rates>
-      <metal>0.0</metal>
+      <food>0.0</food>
     </Rates>
   </ResourceTrickle>
   <Sound>
@@ -54,9 +52,8 @@
     </SoundGroups>
   </Sound>
   <Trainer>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-    units/ordona/{civ}_beekeeper_b
+      units/ordona/ordona_beekeeper_b
     </Entities>
   </Trainer>
   <VisualActor>

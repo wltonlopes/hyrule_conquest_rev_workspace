@@ -15,7 +15,7 @@
   </Footprint>
   <Health>
     <Max>200</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_field</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath disable=""/>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>

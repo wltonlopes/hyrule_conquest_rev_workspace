@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_swordsman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Fangs</AttackName>
+      <Damage>
+        <Hack>9</Hack>
+        <Pierce>19.5</Pierce>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1300</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>16</BuildTime>
+    <Resources>
+      <food>300</food>            
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="5.0" />
+    <Height>7.0</Height>
+  </Footprint>
+  <Health>
+    <Max>850</Max>
+    <RegenRate>2.0</RegenRate>
+    <DamageVariants>
+      <mediumdamage>0.66</mediumdamage>
+      <heavydamage>0.33</heavydamage>
+    </DamageVariants>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Gleeokling</SpecificName>
+    <History>Offspring of the legendary Gleeok Dragon, these semi-aquatic creatures are some of the only dragons left in Hyrule. Lanayru Province has gone through great efforts to tame these beasts and use their power to aid their military. A Gleeokling has multiple heads on its body which will continually regenerate if one is lost. A Gleeokling can survive and heal any injury so long as one of its heads remains attached to its body; thus the only way to slay this creature is to decapitate all of its heads.</History>
+    <Tooltip>Powerful Melee Creature unit that continues to fight after it loses its heads.</Tooltip>
+    <Icon>units/lanayru/lan_gleeockling_2.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>7.0</Hack>
+        <Pierce>12.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/lanayru/shoreserpent/shoreserpent_death.xml</death>
+      <order_attack>voice/lanayru/shoreserpent/shoreserpent_attack.xml</order_attack>
+      <order_garrison>voice/lanayru/shoreserpent/shoreserpent_garrison.xml</order_garrison>
+      <order_gather>voice/lanayru/shoreserpent/shoreserpent_gather.xml</order_gather>
+      <order_repair>voice/lanayru/shoreserpent/shoreserpent_repair.xml</order_repair>
+      <order_walk>voice/lanayru/shoreserpent/shoreserpent_walk.xml</order_walk>
+      <select>voice/lanayru/shoreserpent/shoreserpent_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>large_amphibious</PassabilityClass>
+    <RunMultiplier>1.3333</RunMultiplier>
+    <WalkSpeed>10.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/lanayru/lanayru_gleeockling3_b.xml</Actor>
+  </VisualActor>
+</Entity>

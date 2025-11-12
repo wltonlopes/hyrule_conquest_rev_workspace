@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Colin"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.20 },
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.20 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.20 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.20 }
+	],
+	"auraName": "Father of Colin", 
+	"auraDescription": "As long as Rusl is alive, Colin gains a +20% bonus to health and damage."
+}

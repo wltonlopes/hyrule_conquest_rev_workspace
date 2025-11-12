@@ -1,0 +1,11 @@
+{
+	"Name": "full monkey",
+	"Data": {
+		"Action": "createunits",
+		"DefaultParameter": 1,
+		"isNumeric": true,
+		"Templates": [
+			"gaia/full_monkey"
+		]
+	}
+}

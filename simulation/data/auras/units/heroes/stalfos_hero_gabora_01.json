@@ -1,0 +1,15 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack","multiply": 1.3 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.3 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.3 },
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 1.3 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.3 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.3 }
+	],
+	"auraName": "Master Weaponsmith",
+	"auraDescription": "All units +30% damage.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

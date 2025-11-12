@@ -5,7 +5,6 @@
     <variant frequency="1" name="House">
       <mesh>structural/lanayru/lan_bankA.dae</mesh>
       <props>
-	    <prop actor="particle/gather_rupeeB.xml" attachpoint="root"/>
 		<prop actor="structures/lanayru/lanayru_hubA.xml" attachpoint="root"/>
       </props>
        <textures>

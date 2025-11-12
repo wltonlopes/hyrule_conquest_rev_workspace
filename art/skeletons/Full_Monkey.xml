@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="Suzanne" id="Suzanne" />
+  <skeleton title="Suzanne" target="Suzanne">
+    <identifier>
+      <root />
+    </identifier>
+  </skeleton>
+</skeletons>

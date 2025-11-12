@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Footprint replace="">
+    <Height>10.0</Height>
+    <Circle radius="20.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>150</stone>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_lanayru_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Aquarium</SpecificName>
+    <History>Praddle Prawns tend to remain out in the oceans, but they can be enticed to move unto land and set up nests in these remote water filled caves. With proper training Lanayru Province can turn the giant Prawns and other aquatic creatures into battle mounts.</History>
+    <Icon>structures/lanayru/lan_aquarium.dds</Icon>
+    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <Tooltip>Trains various Cavalry and Creature units.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_village phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="33.0" width="33.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -unlock_champion_chariots
+      -nisean_horses
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+	units/lanayru/lanayru_chuworm_b
+	units/lanayru/lanayru_prawnbowman_b
+	units/lanayru/lanayru_hermitid_b
+	units/lanayru/lanayru_shoreserpent_b
+	units/lanayru/lanayru_gleeoklingA_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_aquariumA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+</Entity>

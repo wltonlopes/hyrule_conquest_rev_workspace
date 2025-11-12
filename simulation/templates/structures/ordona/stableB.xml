@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="30.0" width="30.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <SpecificName>Ranch</SpecificName>
+    <History>Ordonian Horses are among the finest in all of Hyrule. The Ordonians themselves prefer Goats as their beasts of burden, but Horses still supplement the backbone of their economy and military.</History>
+    <Icon>structures/ordona/ord_ranch.dds</Icon>
+    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <Tooltip>Trains many Ordonian cavalry units.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_village phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="28.0" width="28.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -unlock_champion_chariots
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/ordona/ordona_horseman_b
+      units/ordona/ordona_lancer_b
+      units/ordona/ordona_horseranger_b
+      units/ordona/ordona_roughrider_b
+      units/ordona/ordona_hero_ilia
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_ranchA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+</Entity>

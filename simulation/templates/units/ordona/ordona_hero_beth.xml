@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Auras datatype="tokens">
+    units/heroes/ordona_hero_beth_01
+    units/heroes/ordona_hero_beth_02
+  </Auras>
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Arrows</AttackName>
+      <Damage>
+        <Pierce>100</Pierce>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>80.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PrepareTime>800</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>4000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>2200</Max>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <SpecificName>Beth</SpecificName>
+    <GenericName>Lady of Ordon</GenericName>
+    <History>The daughter of Sera and inheritor of Sera's Sundries, Beth runs one of the largest market chains in all of Hyrule. She is tied to Ordona's economic prosperity and foreign trade and hopes to keep the Province one of Hyrule's greatest market powers. While not skilled in fighting, she has enough training with a bow and arrows to defend herself and her merchants if needs be.</History>
+    <Tooltip>Ranged Hero carrying a bow and arrow.</Tooltip>
+    <Icon>units/ordona/ord_hero_beth.dds</Icon>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3.0</Hack>
+        <Pierce>3.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+      <death>voice/ordona/ashei/ashei_death.xml</death>
+      <order_attack>voice/ordona/ashei/ashei_attack.xml</order_attack>
+      <order_garrison>voice/ordona/ashei/ashei_garrison.xml</order_garrison>
+      <order_gather>voice/ordona/ashei/ashei_gather.xml</order_gather>
+      <order_repair>voice/ordona/ashei/ashei_repair.xml</order_repair>
+      <order_walk>voice/ordona/ashei/ashei_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/ordona/ashei/ashei_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/ordona/ordona_hero_beth_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -13,7 +13,7 @@
     <Height>18</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>rubble/debris_deku_tiny</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_deku_tiny</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>deku</Civ>

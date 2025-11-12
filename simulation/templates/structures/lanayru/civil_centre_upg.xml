@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Cost>
+    <BuildTime>600</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>500</stone>
+      <metal>500</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="25.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2500</Max>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <History>The Center of any military operation within Lanayru Province, the Royal Hub serves as a gathering location and base of operations for both Royalty and Generals. Though not as glorious as the Silver Throne of Airu, these nonetheless decorated structures field Handmaidens and function as a gathering point for various resources.</History>
+    <SpecificName>Royal Hub</SpecificName>
+    <Icon>structures/lanayru/lan_hub_royal.dds</Icon>
+    <Tooltip>Center of a Lanayru Settlement. Summons Lanayru Heroes. Manned with archers for defense.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>250</stone>
+    <metal>250</metal>
+  </Loot>
+  <Obstruction>
+    <Obstructions>
+      <Left depth="43" width="43" x="0" z="0"/>
+      <Right depth="25" width="25" x="0" z="25"/>
+    </Obstructions>
+    <Static disable=""/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/lanayru/complete_civ_center_lanayru.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/lanayru/sel_civ_center_lanayru.xml</select>
+      <upgraded>interface/complete/building/lanayru/complete_civ_center_lanayru.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/lanayru/infantry_swordsman_b
+      units/lanayru/infantry_spearman_b
+      units/lanayru/lanayru_sentry_b
+      units/lanayru/lanayru_guardianmaiden_b
+      units/lanayru/lanayru_hero_dorephan
+      units/lanayru/lanayru_hero_ralis
+      units/lanayru/lanayru_hero_rutela
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>5.3</X>
+        <Y>15.6</Y>
+        <Z>5.8</Z>
+      </Archer1>
+      <Archer2>
+        <X>-5.3</X>
+        <Y>15.6</Y>
+        <Z>5.8</Z>
+      </Archer2>
+      <Archer3>
+        <X>8.6</X>
+        <Y>15.6</Y>
+        <Z>0</Z>
+      </Archer3>
+      <Archer4>
+        <X>-8.6</X>
+        <Y>15.6</Y>
+        <Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>2.5</X>
+        <Y>15.6</Y>
+        <Z>7</Z>
+      </Archer5>
+      <Archer6>
+        <X>-2.5</X>
+        <Y>15.6</Y>
+        <Z>7</Z>
+      </Archer6>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_civic_centreA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

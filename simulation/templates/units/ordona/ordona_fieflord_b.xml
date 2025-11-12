@@ -1,52 +1,32 @@
-<Entity parent="template_unit_infantry">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/commander_aura_01
+  </Auras>
   <Attack>
-    <Melee>
+    <Melee replace="">
       <AttackName>Sword</AttackName>
       <Damage>
         <Hack>13.0</Hack>
-        <Pierce>3.0</Pierce>
+        <Pierce>3</Pierce>
       </Damage>
       <MaxRange>5.0</MaxRange>
-      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>1300</RepeatTime>
     </Melee>
   </Attack>
-  <Auras datatype="tokens">
-    units/commander_aura_1
-  </Auras>
-  <Cost>
-    <BuildTime>20</BuildTime>
-    <Resources>
-      <metal>60</metal>
-      
-      
-      
-    </Resources>
-  </Cost>
   <Health>
-    <Max>350</Max>
+    <Max>200</Max>
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <Classes datatype="tokens">Medium Class80 Helmed Fieflord</Classes>
-    <GenericName>Fief Lord</GenericName>
-    <History>Fief Lords were the only members of Ordona who legally owned land, often with a dozen Yeoman under his or her lordship. Fief Lords also had rudimentary military experience; a talent that when combined with their natural job of bossing people around made them excellent officers for managing Province troops.</History>
-    <Icon>units/ordona/ord_fieflord.dds</Icon>
-    <Lang>ordona</Lang>
-    <SelectionGroupName>units/gerudo/gerudo_ashcap_b</SelectionGroupName>
+    <SpecificName>Fief Lord</SpecificName>
+    <History>Fief Lords are the only members of Ordona who legally own land, often with a dozen Yeoman under his or her lordship. Fief Lords also have rudimentary military experience; a talent that when combined with their natural job of bossing people around makes them excellent officers for managing Province troops.</History>
     <Tooltip>Infantry Commander that improves upon other Infantry units.</Tooltip>
-    <VisibleClasses datatype="tokens">Commander Melee</VisibleClasses>
+    <Icon>units/ordona/ord_fieflord.dds</Icon>
+    <VisibleClasses datatype="tokens">Commander</VisibleClasses>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Crush>15.0</Crush>
-        <Hack>25.0</Hack>
-        <Pierce>25.0</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
+  <Promotion disable=""/>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/sword.xml</attack_melee>

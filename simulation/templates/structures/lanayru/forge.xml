@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_lanayru_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Silver Exchange</SpecificName>
+    <History>Lanayru Province is known for their melding of Silver and Coral to create a strange but sturdy alloy. They use this material in many of their weapons and armor and the beauty of such prized creations is admired throughout all of Hyrule.</History>
+    <Icon>structures/lanayru/lan_silversmith.dds</Icon>
+    <Tooltip>Upgrades Lanayru units and structures.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="33.0" width="33.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/lanayru/lanayru_silversmithA.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldL.xml</FoundationActor>
+  </VisualActor>
+</Entity>

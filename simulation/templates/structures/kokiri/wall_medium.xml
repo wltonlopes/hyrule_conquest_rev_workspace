@@ -12,7 +12,7 @@
     <Height>9</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>rubble/debris_kokiri_tiny</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_kokiri_tiny</SpawnEntityOnDeath>
   </Health>
   <GarrisonHolder disable="" />
   <Identity>

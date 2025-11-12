@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <GenericName>Palisade</GenericName>
+    <Tooltip>Wall off an area. Build in own or neutral territory.</Tooltip>
+    <VisibleClasses datatype="tokens">-Wall Palisade</VisibleClasses>
+    <Icon>structures/palisade_wall.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Gate>structures/fence_stone_stub</Gate>
+      <Tower>structures/fence_stone_stub</Tower>
+      <WallLong>structures/fence_stone_long</WallLong>
+      <WallMedium>structures/fence_stone_medium</WallMedium>
+      <WallShort>structures/fence_stone_short</WallShort>
+      <WallEnd>structures/fence_stone_stub</WallEnd>
+    </Templates>
+  </WallSet>
+</Entity>

@@ -1,0 +1,13 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack","multiply": 1.1 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.1 }
+	],
+	"auraName": "Queen of Lanayru",
+	"auraDescription": "All units +15% damage and +10% speed range.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

@@ -1,0 +1,13 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 2 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 2 },
+		{ "value": "Health/MaxHealth", "multiply": 1.4}
+	],
+	"auraName": "Protector of the Zora",
+	"auraDescription": "All units +2 resistance and +40% health.",
+	"overlayIcon": "art/textures/ui/session/auras/standground.png"
+}

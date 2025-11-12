@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Sword</AttackName>
+      <Damage>
+        <Hack>20.0</Hack>
+        <Pierce>10</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1100</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <food>800</food>
+      <wood>0</wood>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <SpecificName>Stalknight</SpecificName>
+    <History>Once noble lords and warriors in life, Stalfos Knights are the skeletons of those that abandoned their codes in exchange for immortality. Indeed they received what they sought, though as slaves to their necromantic masters. All should beware the Stalfos Knight in combat: they have had centuries to hone their skills that were already formidable in life.</History>
+    <Tooltip>Heavily armored infantry unit. Very resistant to non-magic damage. A powerful all-round late game unit.</Tooltip>
+    <Icon>units/stalfos/sta_knight.dds</Icon>
+    <VisibleClasses datatype="tokens">Undead</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>1.0</Crush>
+        <Hack>5.0</Hack>
+        <Pierce>55.0</Pierce>
+        <Poison>55.0</Poison>
+        <Fire>30.0</Fire>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/stalfos/knight/knight_death.xml</death>
+      <order_attack>voice/stalfos/knight/knight_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/knight/knight_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/knight/knight_gather.xml</order_gather>
+      <order_repair>voice/stalfos/knight/knight_repair.xml</order_repair>
+      <order_walk>voice/stalfos/knight/knight_walk.xml</order_walk>
+      <run>actor/movement/stalfos_med/stalfosmed_step.xml</run>
+      <select>voice/stalfos/knight/knight_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/stalfos_med/stalfosmed_step.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>aggressive</DefaultStance>
+    <FleeDistance>12.0</FleeDistance>
+    <FormationController>false</FormationController>
+    <CanGuard>true</CanGuard>
+    <CanPatrol>true</CanPatrol>
+    <PatrolWaitTime>1</PatrolWaitTime>
+    <CheeringTime>0</CheeringTime>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <RunMultiplier>1.4285</RunMultiplier>
+    <WalkSpeed>4.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_knight_b.xml</Actor>
+  </VisualActor>
+</Entity>

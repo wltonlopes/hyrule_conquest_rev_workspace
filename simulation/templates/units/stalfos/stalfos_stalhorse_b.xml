@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spearman">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Sword</AttackName>
+      <Damage>
+        <Hack>10</Hack>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1400</PrepareTime>
+      <RepeatTime>1600</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <VisibleClasses datatype="tokens">Undead Stal</VisibleClasses>
+    <SpecificName>Stalhorse</SpecificName>
+    <History>Animated mounts of dead horses, these swift running undead carry Stalfos warriors into battle. Their masters often use these beasts to precede their invasions; raiding farmers and smaller targets to leave behind fresh corpses for the army to raise upon arrival.</History>
+    <Tooltip>Lightly armored cavalry unit armed with a sword.</Tooltip>
+    <Icon>units/stalfos/sta_stalhorse.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>1.0</Crush>
+        <Hack>3.0</Hack>
+        <Pierce>55.0</Pierce>
+        <Poison>55.0</Poison>
+        <Fire>30.0</Fire>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/stalfos/stalhorse/stalhorse_death.xml</death>
+      <order_attack>voice/stalfos/stalhorse/stalhorse_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/stalhorse/stalhorse_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/stalhorse/stalhorse_gather.xml</order_gather>
+      <order_repair>voice/stalfos/stalhorse/stalhorse_repair.xml</order_repair>
+      <order_walk>voice/stalfos/stalhorse/stalhorse_walk.xml</order_walk>
+      <run>actor/movement/horse/horse_footsteps.xml</run>
+      <select>voice/stalfos/stalhorse/stalhorse_select.xml</select>
+      <trained>interface/alarm/alarm_create_cavalry.xml</trained>
+      <walk>actor/movement/horse/horse_footsteps.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>aggressive</DefaultStance>
+    <FleeDistance>12.0</FleeDistance>
+    <FormationController>false</FormationController>
+    <CanGuard>true</CanGuard>
+    <CanPatrol>true</CanPatrol>
+    <PatrolWaitTime>1</PatrolWaitTime>
+    <CheeringTime>0</CheeringTime>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <RunMultiplier>1.4705</RunMultiplier>
+    <WalkSpeed>17</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_stalhorse_b.xml</Actor>
+  </VisualActor>
+</Entity>

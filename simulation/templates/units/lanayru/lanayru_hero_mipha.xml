@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/lanayru_hero_mipha_01
+    units/heroes/lanayru_hero_mipha_02
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Trident</AttackName>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>23.0</Pierce>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1300</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
+  <Heal>
+    <Range>45</Range>
+    <RangeOverlay>
+      <LineTexture>heal_overlay_range.png</LineTexture>
+      <LineTextureMask>heal_overlay_range_mask.png</LineTextureMask>
+      <LineThickness>0.35</LineThickness>
+    </RangeOverlay>
+    <Health>15</Health>
+    <Interval>2000</Interval>
+    <UnhealableClasses datatype="tokens"/>
+    <HealableClasses datatype="tokens">Human</HealableClasses>
+  </Heal>
+  <Health>
+    <Max>2100</Max>
+  </Health>
+  <Identity>
+    <Civ>lanayru</Civ>
+    <SpecificName>Mipha Dorephan</SpecificName>
+    <GenericName>Champion of Lanayru</GenericName>
+    <History>The only daughter of Duke Dorephan and Aydia, Mipha was encouraged from a young age to follow her in her mother's footsteps and uphold her family's military lineage. Despite some talent with pole-arms, Mipha feels her place is not in taking life, but healing it.</History>
+    <Tooltip>Melee Hero armed with her cermonial Trident and gifted with healing abilities.</Tooltip>
+    <Icon>units/lanayru/lan_hero_mipha.dds</Icon>
+    <VisibleClasses datatype="tokens">Healer Support</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>8.0</Hack>
+        <Pierce>8.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/lanayru/mipha/mipha_death.xml</death>
+      <order_attack>voice/lanayru/mipha/mipha_attack.xml</order_attack>
+      <order_garrison>voice/lanayru/mipha/mipha_garrison.xml</order_garrison>
+      <order_gather>voice/lanayru/mipha/mipha_gather.xml</order_gather>
+      <order_repair>voice/lanayru/mipha/mipha_repair.xml</order_repair>
+      <order_walk>voice/lanayru/mipha/mipha_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/lanayru/mipha/mipha_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/lanayru/lanayru_hero_mipha_b.xml</Actor>
+  </VisualActor>
+</Entity>

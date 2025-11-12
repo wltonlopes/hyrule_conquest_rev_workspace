@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Hero"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 30  },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 30  },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 30  }
+	],
+	"auraName": "Guardian Maiden",
+	"auraDescription": "All heroes nearby gain +30 resistance to all standard damage types."
+}

@@ -22,6 +22,7 @@
       <Animal>50</Animal>
       <CivilCentre>1</CivilCentre>
       <Gladiator>0</Gladiator>
+      <Hawk>0</Hawk>
       <Hero>3</Hero>
       <Juggernaut>1</Juggernaut>
       <Kennel>2</Kennel>
@@ -42,6 +43,9 @@
       <Wonder>1</Wonder>
     </Limits>
     <LimitChangers>
+      <Hawk>
+        <Tower>1</Tower>
+      </Hawk>
       <Gladiator>
         <Amphitheater>15</Amphitheater>
       </Gladiator>

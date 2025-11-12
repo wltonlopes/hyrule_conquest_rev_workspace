@@ -29,7 +29,7 @@
   <Resistance>
     <Entity>
       <Damage>
-        <Hack>30.0</Hack>
+        <Hack>10.0</Hack>
         <Pierce>30.0</Pierce>
       </Damage>
     </Entity>

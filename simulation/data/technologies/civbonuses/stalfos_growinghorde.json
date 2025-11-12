@@ -1,0 +1,13 @@
+{
+	"genericName": "Growing Horde",
+	"autoResearch": true,
+	"description": "When an enemy is slain, the Stalfos do not let it's body go to waste, nor it's spirit rest. Instead, they must suffer as a new soldier in the growing horde.",
+	"tooltip": "Every soldier slain gives at least 50 food, enough to train a single Stalchild.",
+	"requirements": { "civ": "stalfos" },
+	"modifications": [
+		{ "value": "Loot/food", "add": 50 }
+	],
+	"affects": ["Human"],
+	"affectedPlayers": ["Enemy"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Mouth</AttackName>
+      <Damage>
+        <Hack>14</Hack>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>300</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="3.0" />
+    <Height>7.0</Height>
+  </Footprint>
+  <Health>
+    <Max>380</Max>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <VisibleClasses datatype="tokens">Undead</VisibleClasses>
+    <SpecificName>Deadhand</SpecificName>
+    <GenericName>Undead</GenericName>
+    <History>A twisted nightmare created by demons of old, Deadhands are fortunately rare but no less a terror for the fact. Stuck somewhere between the living and the deceased like a ReDead, it's theorised these monsters are the product of unspeakable psychological trauma during their lifetime.</History>
+    <Tooltip>Large Undead unit that can summon hordes of disembodied arms to attack its targets.</Tooltip>
+    <Icon>units/stalfos/sta_deadhand.dds</Icon>
+  </Identity>
+  <ProductionQueue/>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>55.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/deadhand_bite.xml</attack_melee>
+      <death>voice/stalfos/deadhand/deadhand_death.xml</death>
+      <order_attack>voice/stalfos/deadhand/deadhand_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/deadhand/deadhand_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/deadhand/deadhand_gather.xml</order_gather>
+      <order_repair>voice/stalfos/deadhand/deadhand_repair.xml</order_repair>
+      <order_walk>voice/stalfos/deadhand/deadhand_walk.xml</order_walk>
+      <run>actor/movement/deadhand/deadhand_crawl.xml</run>
+      <select>voice/stalfos/deadhand/deadhand_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/deadhand/deadhand_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/stalfos/stalfos_deadarm_b
+    </Entities>
+  </Trainer>
+  <UnitAI>
+    <Formations disable=""/>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+  </UnitMotion>
+  <Vision>
+    <Range>85</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_deadhand_b.xml</Actor>
+  </VisualActor>
+</Entity>

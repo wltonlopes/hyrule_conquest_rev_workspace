@@ -1,0 +1,17 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack","multiply": 0.9 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 0.9 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 0.9 },
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 0.9 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 0.9 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 0.9 }
+	],
+	"auraName": "Terrifying Visage",
+	"auraDescription": "All units within 60' of Death Sword have a -10% damage penalty.",
+	"overlayIcon": "art/textures/ui/session/auras/broken_sword.png"
+}

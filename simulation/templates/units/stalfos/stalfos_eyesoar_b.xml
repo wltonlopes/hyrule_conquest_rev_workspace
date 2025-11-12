@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Bash</AttackName>
+      <Damage>
+        <Crush>7</Crush>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>3</BuildTime>
+    <Resources>
+      <food>8</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>stalfos</Civ>
+    <VisibleClasses datatype="tokens">Undead</VisibleClasses>
+    <SpecificName>Eyesoar</SpecificName>
+    <GenericName>Undead</GenericName>
+    <History>Eyesoars are small floating eyeballs. Their origin is unknown, though it is rumored that they are the eyes of newly-dead Bokonoxes, and are created during the process that creates a Stalgiant. Sprouting wings from the sides of their desiccated eye, Eyesoars are able to hover about and will viciously try to ram into enemies.</History>
+    <Tooltip>Flying Creature Scout unit that can cover much ground.</Tooltip>
+    <Icon>units/stalfos/sta_eyesoar.dds</Icon>
+  </Identity>
+  <Position>
+    <Floating>true</Floating>
+    <TurnRate>3.25</TurnRate>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>1.0</Crush>
+        <Hack>3.0</Hack>
+        <Pierce>3.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/patra_dive.xml</attack_melee>
+      <death>voice/stalfos/eyesoar/eyesoar_death.xml</death>
+      <order_attack>voice/stalfos/eyesoar/eyesoar_attack.xml</order_attack>
+      <order_garrison>voice/stalfos/eyesoar/eyesoar_garrison.xml</order_garrison>
+      <order_gather>voice/stalfos/eyesoar/eyesoar_gather.xml</order_gather>
+      <order_repair>voice/stalfos/eyesoar/eyesoar_repair.xml</order_repair>
+      <order_walk>voice/stalfos/eyesoar/eyesoar_walk.xml</order_walk>
+      <run>actor/movement/patra/patra_flap.xml</run>
+      <select>voice/stalfos/eyesoar/eyesoar_select.xml</select>
+      <trained>interface/alarm/alarm_create_flying.xml</trained>
+      <walk>actor/movement/patra/patra_flap.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <Formations disable=""/>
+    <CheeringTime>0</CheeringTime>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+  </UnitMotion>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/stalfos/stalfos_eyesoar_b.xml</Actor>
+  </VisualActor>
+</Entity>

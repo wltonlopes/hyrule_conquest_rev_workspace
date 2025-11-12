@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<qualitylevels version="1">
-  <actor quality="low" inline=""/>
-  <actor quality="medium" inline=""/>
-  <actor inline=""/>
-  <inline version="1">
-    <castshadow minquality="medium"/>
-	
+<actor version="1">
+   <castshadow/>
    <group>
     <variant minquality="high" frequency="1" name="horseA">
       <mesh>units/ordona/ord_horseA.dae</mesh>
@@ -15,24 +10,6 @@
     </variant>
     <variant minquality="high" frequency="1" name="horseC">
       <mesh>units/ordona/ord_horseC.dae</mesh>
-    </variant>
-    <variant maxquality="high" minquality="medium" frequency="1" name="horseA">
-       <mesh>units/ordona/medium/ord_horseA.dae</mesh>
-    </variant>
-    <variant maxquality="high" minquality="medium" frequency="1" name="horseB">
-       <mesh>units/ordona/medium/ord_horseB.dae</mesh>
-    </variant>
-    <variant maxquality="high" minquality="medium" frequency="1" name="horseC">
-       <mesh>units/ordona/medium/ord_horseC.dae</mesh>
-    </variant>
-    <variant maxquality="medium" frequency="1" name="horseA">
-       <mesh>units/ordona/low/ord_horseA.dae</mesh>
-    </variant>
-    <variant maxquality="medium" frequency="1" name="horseB">
-       <mesh>units/ordona/low/ord_horseB.dae</mesh>
-    </variant>
-    <variant maxquality="medium" frequency="1" name="horseC">
-       <mesh>units/ordona/low/ord_horseC.dae</mesh>
     </variant>
   </group>
 
@@ -64,5 +41,4 @@
     </variant>
   </group>
   <material>basic_trans.xml</material>
-  </inline>
-</qualitylevels>
+</actor>

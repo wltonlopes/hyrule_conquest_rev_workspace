@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<qualitylevels version="1">
-  <actor quality="low" inline=""/>
-  <actor quality="medium" inline=""/>
-  <actor inline=""/>
-  <inline version="1">
-    <castshadow minquality="medium"/>
-	
+<actor version="1">
+   <castshadow/>
    <group>
-    <variant minquality="high" frequency="1" name="maleA">
+    <variant frequency="1" name="maleA">
       <mesh>units/ordona/ord_beekeeperA.dae</mesh>
     </variant>
-    <variant maxquality="high" minquality="medium" frequency="1" name="maleA">
-       <mesh>units/ordona/medium/ord_beekeeperA.dae</mesh>
-    </variant>
-    <variant maxquality="medium" frequency="1" name="maleA">
-       <mesh>units/ordona/low/ord_beekeeperA.dae</mesh>
-    </variant>
   </group>
-
   <group>
     <variant frequency="1" name="outfitA">
       <textures><texture file="skeletal/ordona/ord_beekeeperA.dds" name="baseTex"/></textures>
     </variant>
   </group>  
-  
   <group>
     <variant file="HC_archer/base_HC_biped_archer.xml">
 	  <props>
@@ -64,6 +51,5 @@
     </variant>
   </group>
   <material>default.xml</material>
-  </inline>
-</qualitylevels>
+</actor>
 

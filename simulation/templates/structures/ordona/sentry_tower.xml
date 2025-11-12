@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defense">
-  <BuildRestrictions>
-    <Category>DefenseTower</Category>
-    <Distance>
-      <FromClass>DefenseTower</FromClass>
-      <MinDistance>60</MinDistance>
-    </Distance>
-  </BuildRestrictions>
+<Entity parent="template_structure_defensive_tower_sentry">
+  <Footprint>
+    <Square width="10.0" depth="10.0"/>
+    <Height>15.0</Height>
+  </Footprint>
   <Cost>
-    <BuildTime>30</BuildTime>
     <Resources>
-      <metal>100</metal>
+      <food>0</food>
+      <wood>75</wood>
+      <stone>0</stone>
+      <metal>0</metal>
     </Resources>
   </Cost>
-  <Footprint>
-    <Height>15.0</Height>
-    <Square depth="10.0" width="10.0"/>
-  </Footprint>
-  <GarrisonHolder>
-    <List datatype="tokens">Medium Small LargeGarrison</List>
-  </GarrisonHolder>
   <Health>
     <Max>1000</Max>
-    <SpawnEntityOnDeath>rubble/debris_ordona_tiny</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_tiny</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>ordona</Civ>
-    <Classes datatype="tokens">Hawksentry RangerWatches LiteDefenseTower</Classes>
-    <GenericName>Border Post</GenericName>
+    <SpecificName>Border Post</SpecificName>
     <History>Border Posts dot the western and eastern borders of the Province, watching and warning of all incoming threats to the nation.</History>
     <Icon>structures/ordona/ord_borderpost.dds</Icon>
-    <Tooltip>Small Tower that can detect Camouflaged and Stealthed units.</Tooltip>
-    <VisibleClasses datatype="tokens">Tower</VisibleClasses>
+    <Tooltip>Small Tower that shoots arrows.</Tooltip>
   </Identity>
   <Obstruction>
-    <Static depth="7.5" width="7.5"/>
+    <Static width="7.5" depth="7.5"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </Researcher>
   <StatusBars>
     <BarHeight>0.6</BarHeight>
     <BarWidth>6.0</BarWidth>
@@ -48,7 +34,7 @@
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}_hawk_b2
+      units/ordona/ordona_hawk_b
     </Entities>
   </Trainer>
   <TurretHolder>

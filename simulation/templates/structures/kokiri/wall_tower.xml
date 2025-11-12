@@ -13,7 +13,7 @@
     <Height>18</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>rubble/debris_kokiri_tiny</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/debris_kokiri_tiny</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>

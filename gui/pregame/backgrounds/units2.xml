@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprites>
+	<sprite name="background-bkgrnd-2">
+		<image
+			texture="pregame/backgrounds/bkgrnd.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="true"
+		/>
+	</sprite>
+	
+	<sprite name="background-units-2">
+		<image
+			texture="pregame/backgrounds/units2.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="true"
+		/>
+	</sprite>	
+	
+</sprites>

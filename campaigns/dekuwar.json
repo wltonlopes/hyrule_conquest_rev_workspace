@@ -4,7 +4,7 @@
 	"Levels": {
 		"begin": {
 			"Name": "Sparks of War",
-			"Map": "campaigns/deku1.xml",
+			"Map": "campaigns/Seeds_of_War.xml",
 			"MapType": "scenario",
 			"Description": "The Deku Scrubs have never been united, but now outright war has broken out.",
 			"Preview": "session/icons/mappreview/Introductory_Tutorial.png"

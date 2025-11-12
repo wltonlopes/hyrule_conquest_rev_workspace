@@ -1,0 +1,12 @@
+{
+	"genericName": "Bountiful Harvest",
+	"autoResearch": true,
+	"description": "Of all things, the Ordona Province is most famous for it's agricultural techniques, which it jealously guards from the other countries of Hyrule.",
+	"tooltip": "+25% bonus to gathering food.",
+	"requirements": { "civ": "ordona" },
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/food", "multiply": 1.25 }
+	],
+	"affects": ["Human"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<qualitylevels version="1">
-  <actor quality="low" inline=""/>
-  <actor quality="medium" inline=""/>
-  <actor inline=""/>
-  <inline version="1">
-    <castshadow minquality="medium"/>
-	
+<actor version="1">
+   <castshadow/>
    <group>
-    <variant minquality="high" frequency="1" name="femaleA">
+    <variant frequency="1" name="femaleA">
       <mesh>units/ordona/ord_reverendA.dae</mesh>
-    </variant>
-    <variant maxquality="high" minquality="medium" frequency="1" name="femaleA">
-       <mesh>units/ordona/medium/ord_reverendA.dae</mesh>
-    </variant>
-    <variant maxquality="medium" frequency="1" name="femaleA">
-       <mesh>units/ordona/low/ord_reverendA.dae</mesh>
     </variant>
   </group>
 
@@ -55,5 +44,4 @@
     </variant>
   </group>
   <material>default.xml</material>
-  </inline>
-</qualitylevels>
+</actor>

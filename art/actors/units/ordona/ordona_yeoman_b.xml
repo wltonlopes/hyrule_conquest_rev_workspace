@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<qualitylevels version="1">
-  <actor quality="low" inline=""/>
-  <actor quality="medium" inline=""/>
-  <actor inline=""/>
-  <inline version="1">
-    <castshadow minquality="medium"/>
-	
+<actor version="1">
+   <castshadow/>
    <group>
     <variant minquality="high" frequency="1" name="GoatA">
       <mesh>units/ordona/ord_goatA.dae</mesh>
     </variant>
-    <variant maxquality="high" minquality="medium" frequency="1" name="GoatA">
-       <mesh>units/ordona/medium/ord_goatA.dae</mesh>
-    </variant>
-    <variant maxquality="medium" frequency="1" name="GoatA">
-       <mesh>units/ordona/low/ord_goatA.dae</mesh>
-    </variant>
   </group>
-
   <group>
     <variant frequency="1" name="FurA">
       <textures><texture file="skeletal/wild/wild_ordgoatA.dds" name="baseTex"/></textures>
     </variant>	
   </group>  
-  
   <group>
     <variant file="HC_mounts/base_HC_goat_mount.xml">
 	  <props>
@@ -49,5 +36,4 @@
     </variant>
   </group>
   <material>default.xml</material>
-  </inline>
-</qualitylevels>
+</actor>

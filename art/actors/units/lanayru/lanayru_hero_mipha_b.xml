@@ -6,7 +6,6 @@
       <mesh>units/lanayru/lan_miphaA.dae</mesh>
       <props>
 		<prop actor="props/units/weapons/lanayru_tridentB.xml" attachpoint="R_wrist_01"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
       </props>
 	  <textures>
         <texture file="skeletal/lanayru/lan_heroB.dds" name="baseTex"/>
