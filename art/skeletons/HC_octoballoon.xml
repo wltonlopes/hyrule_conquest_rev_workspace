@@ -1,0 +1,143 @@
+<skeletons>
+<standard_skeleton id="Octoballoon Skeleton" title="Octoballoon Skeleton">
+<bone name="base_octoballoonA">
+<bone name="head">
+<bone name="blimp">
+</bone>
+</bone>
+<bone name="snout">
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+</bone>
+<bone name="L_tentdang_01">
+<bone name="L_tentdang_02">
+<bone name="L_tentdang_03">
+<bone name="L_tentdang_04">
+<bone name="L_tentdang_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_tentdang_01">
+<bone name="R_tentdang_02">
+<bone name="R_tentdang_03">
+<bone name="R_tentdang_04">
+<bone name="R_tentdang_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_Btent_01">
+<bone name="L_Btent_02">
+<bone name="L_Btent_03">
+</bone>
+</bone>
+</bone>
+<bone name="L_Mtent_01">
+<bone name="L_Mtent_02">
+<bone name="L_Mtent_03">
+</bone>
+</bone>
+</bone>
+<bone name="L_Ftent_01">
+<bone name="L_Ftent_02">
+<bone name="L_Ftent_03">
+</bone>
+</bone>
+</bone>
+<bone name="R_Ftent_01">
+<bone name="R_Ftent_02">
+<bone name="R_Ftent_03">
+</bone>
+</bone>
+</bone>
+<bone name="R_Mtent_01">
+<bone name="R_Mtent_02">
+<bone name="R_Mtent_03">
+</bone>
+</bone>
+</bone>
+<bone name="R_Btent_01">
+<bone name="R_Btent_02">
+<bone name="R_Btent_03">
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Octoballoon Skeleton" title="Octoballoon Skeleton">
+<identifier><root>base_octoballoonA</root></identifier>
+<bone name="base_octoballoonA"><target>base_octoballoonA</target>
+<bone name="head"><target>head</target>
+<bone name="blimp"><target>blimp</target>
+</bone>
+</bone>
+<bone name="snout"><target>snout</target>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+</bone>
+<bone name="L_tentdang_01"><target>L_tentdang_01</target>
+<bone name="L_tentdang_02"><target>L_tentdang_02</target>
+<bone name="L_tentdang_03"><target>L_tentdang_03</target>
+<bone name="L_tentdang_04"><target>L_tentdang_04</target>
+<bone name="L_tentdang_05"><target>L_tentdang_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_tentdang_01"><target>R_tentdang_01</target>
+<bone name="R_tentdang_02"><target>R_tentdang_02</target>
+<bone name="R_tentdang_03"><target>R_tentdang_03</target>
+<bone name="R_tentdang_04"><target>R_tentdang_04</target>
+<bone name="R_tentdang_05"><target>R_tentdang_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_Btent_01"><target>L_Btent_01</target>
+<bone name="L_Btent_02"><target>L_Btent_02</target>
+<bone name="L_Btent_03"><target>L_Btent_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="L_Mtent_01"><target>L_Mtent_01</target>
+<bone name="L_Mtent_02"><target>L_Mtent_02</target>
+<bone name="L_Mtent_03"><target>L_Mtent_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="L_Ftent_01"><target>L_Ftent_01</target>
+<bone name="L_Ftent_02"><target>L_Ftent_02</target>
+<bone name="L_Ftent_03"><target>L_Ftent_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_Ftent_01"><target>R_Ftent_01</target>
+<bone name="R_Ftent_02"><target>R_Ftent_02</target>
+<bone name="R_Ftent_03"><target>R_Ftent_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_Mtent_01"><target>R_Mtent_01</target>
+<bone name="R_Mtent_02"><target>R_Mtent_02</target>
+<bone name="R_Mtent_03"><target>R_Mtent_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_Btent_01"><target>R_Btent_01</target>
+<bone name="R_Btent_02"><target>R_Btent_02</target>
+<bone name="R_Btent_03"><target>R_Btent_03</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

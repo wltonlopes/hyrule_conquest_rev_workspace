@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/zola/zol_derazol_slimeA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/zola/medium/zol_derazol_slimeA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/zola/low/zol_derazol_slimeA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_derazol/base_HC_derazol.xml">
+        <textures>
+          <texture file="skeletal/zola/zol_sludgeA.dds" name="baseTex"/>
+        </textures>
+		<props>
+        </props>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+    <variant file="HC_derazol/base_HC_derazol_death.xml">
+      <props>
+      </props>
+    </variant>
+    </group>
+    <material>basic_trans.xml</material>	
+  </inline>
+</qualitylevels>

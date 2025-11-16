@@ -1,0 +1,59 @@
+<skeletons>
+<standard_skeleton id="Zollike Skeleton" title="Zollike Skeleton">
+<bone name="base_zollikeA">
+<bone name="head">
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+<bone name="clawtop01">
+</bone>
+<bone name="clawtop04">
+</bone>
+<bone name="clawtop03">
+</bone>
+<bone name="clawtop02">
+</bone>
+</bone>
+<bone name="foot03">
+</bone>
+<bone name="foot02">
+</bone>
+<bone name="foot01">
+</bone>
+<bone name="slime01">
+</bone>
+<bone name="slime02">
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Zollike Skeleton" title="Zollike Skeleton">
+<identifier><root>base_zollikeA</root></identifier>
+<bone name="base_zollikeA"><target>base_zollikeA</target>
+<bone name="head"><target>head</target>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+<bone name="clawtop01"><target>clawtop01</target>
+</bone>
+<bone name="clawtop04"><target>clawtop04</target>
+</bone>
+<bone name="clawtop03"><target>clawtop03</target>
+</bone>
+<bone name="clawtop02"><target>clawtop02</target>
+</bone>
+</bone>
+<bone name="foot03"><target>foot03</target>
+</bone>
+<bone name="foot02"><target>foot02</target>
+</bone>
+<bone name="foot01"><target>foot01</target>
+</bone>
+<bone name="slime01"><target>slime01</target>
+</bone>
+<bone name="slime02"><target>slime02</target>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

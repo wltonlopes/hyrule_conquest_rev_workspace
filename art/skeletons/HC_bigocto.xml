@@ -1,0 +1,119 @@
+<skeletons>
+<standard_skeleton id="Bigocto Skeleton" title="Bigocto Skeleton">
+<bone name="base_bigoctoA">
+<bone name="body">
+<bone name="snout">
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+</bone>
+<bone name="shell">
+</bone>
+<bone name="L_stache01">
+<bone name="L_stache02">
+<bone name="L_stache03">
+</bone>
+</bone>
+</bone>
+<bone name="R_stache01">
+<bone name="R_stache02">
+<bone name="R_stache03">
+</bone>
+</bone>
+</bone>
+<bone name="L_Fleg01">
+<bone name="L_Fleg02">
+<bone name="L_Fleg03">
+<bone name="L_Fleg04">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_Bleg01">
+<bone name="L_Bleg02">
+<bone name="L_Bleg03">
+<bone name="L_Bleg04">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Fleg01">
+<bone name="R_Fleg02">
+<bone name="R_Fleg03">
+<bone name="R_Fleg04">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Bleg01">
+<bone name="R_Bleg02">
+<bone name="R_Bleg03">
+<bone name="R_Bleg04">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Bigocto Skeleton" title="Bigocto Skeleton">
+<identifier><root>base_bigoctoA</root></identifier>
+<bone name="base_bigoctoA"><target>base_bigoctoA</target>
+<bone name="body"><target>body</target>
+<bone name="snout"><target>snout</target>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+</bone>
+<bone name="shell"><target>shell</target>
+</bone>
+<bone name="L_stache01"><target>L_stache01</target>
+<bone name="L_stache02"><target>L_stache02</target>
+<bone name="L_stache03"><target>L_stache03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_stache01"><target>R_stache01</target>
+<bone name="R_stache02"><target>R_stache02</target>
+<bone name="R_stache03"><target>R_stache03</target>
+</bone>
+</bone>
+</bone>
+<bone name="L_Fleg01"><target>L_Fleg01</target>
+<bone name="L_Fleg02"><target>L_Fleg02</target>
+<bone name="L_Fleg03"><target>L_Fleg03</target>
+<bone name="L_Fleg04"><target>L_Fleg04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_Bleg01"><target>L_Bleg01</target>
+<bone name="L_Bleg02"><target>L_Bleg02</target>
+<bone name="L_Bleg03"><target>L_Bleg03</target>
+<bone name="L_Bleg04"><target>L_Bleg04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Fleg01"><target>R_Fleg01</target>
+<bone name="R_Fleg02"><target>R_Fleg02</target>
+<bone name="R_Fleg03"><target>R_Fleg03</target>
+<bone name="R_Fleg04"><target>R_Fleg04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Bleg01"><target>R_Bleg01</target>
+<bone name="R_Bleg02"><target>R_Bleg02</target>
+<bone name="R_Bleg03"><target>R_Bleg03</target>
+<bone name="R_Bleg04"><target>R_Bleg04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

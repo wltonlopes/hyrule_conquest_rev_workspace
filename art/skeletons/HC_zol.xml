@@ -1,0 +1,63 @@
+<skeletons>
+<standard_skeleton id="Zol Skeleton" title="Zol Skeleton">
+<bone name="base_zolA">
+<bone name="slime01">
+</bone>
+<bone name="slime02">
+</bone>
+<bone name="body">
+<bone name="loaded_projectile">
+</bone>
+<bone name="L_eye_01">
+<bone name="L_eye_02">
+<bone name="L_eye_03">
+</bone>
+</bone>
+</bone>
+<bone name="R_eye_01">
+<bone name="R_eye_02">
+<bone name="R_eye_03">
+</bone>
+</bone>
+</bone>
+<bone name="projectile">
+</bone>
+</bone>
+<bone name="slime03">
+</bone>
+<bone name="slime04">
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Zol Skeleton" title="Zol Skeleton">
+<identifier><root>base_zolA</root></identifier>
+<bone name="base_zolA"><target>base_zolA</target>
+<bone name="slime01"><target>slime01</target>
+</bone>
+<bone name="slime02"><target>slime02</target>
+</bone>
+<bone name="body"><target>body</target>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+<bone name="L_eye_01"><target>L_eye_01</target>
+<bone name="L_eye_02"><target>L_eye_02</target>
+<bone name="L_eye_03"><target>L_eye_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_eye_01"><target>R_eye_01</target>
+<bone name="R_eye_02"><target>R_eye_02</target>
+<bone name="R_eye_03"><target>R_eye_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="projectile"><target>projectile</target>
+</bone>
+</bone>
+<bone name="slime03"><target>slime03</target>
+</bone>
+<bone name="slime04"><target>slime04</target>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

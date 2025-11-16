@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/zola/zol_octogonA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/zola/medium/zol_octogonA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/zola/low/zol_octogonA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_octogon/base_HC_octogon.xml">
+        <textures>
+          <texture file="skeletal/zola/zol_octogonA.dds" name="baseTex"/>
+        </textures>
+		<props>
+          <prop actor="units/zola/zola_octogonshellA.xml" attachpoint="shell"/>
+		  <prop actor="props/units/weapons/rock.xml" attachpoint="projectile"/>
+        </props>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+    <variant file="HC_octogon/base_HC_octogon_death.xml">
+      <props>
+        <prop actor="props/units/blood_ooze_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>

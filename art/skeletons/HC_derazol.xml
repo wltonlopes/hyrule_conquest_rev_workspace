@@ -1,0 +1,71 @@
+<skeletons>
+<standard_skeleton id="Derazol Skeleton" title="Derazol Skeleton">
+<bone name="base_derazolA">
+<bone name="head_01">
+<bone name="head_02">
+<bone name="L_eye_01">
+<bone name="L_eye_02">
+<bone name="L_eye_03">
+</bone>
+</bone>
+</bone>
+<bone name="R_eye_01">
+<bone name="R_eye_02">
+<bone name="R_eye_03">
+</bone>
+</bone>
+</bone>
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+</bone>
+</bone>
+<bone name="tail_01">
+<bone name="tail_02">
+<bone name="tail_03">
+</bone>
+</bone>
+</bone>
+<bone name="slime_01">
+</bone>
+<bone name="shell">
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Derazol Skeleton" title="Derazol Skeleton">
+<identifier><root>base_derazolA</root></identifier>
+<bone name="base_derazolA"><target>base_derazolA</target>
+<bone name="head_01"><target>head_01</target>
+<bone name="head_02"><target>head_02</target>
+<bone name="L_eye_01"><target>L_eye_01</target>
+<bone name="L_eye_02"><target>L_eye_02</target>
+<bone name="L_eye_03"><target>L_eye_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_eye_01"><target>R_eye_01</target>
+<bone name="R_eye_02"><target>R_eye_02</target>
+<bone name="R_eye_03"><target>R_eye_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+</bone>
+</bone>
+<bone name="tail_01"><target>tail_01</target>
+<bone name="tail_02"><target>tail_02</target>
+<bone name="tail_03"><target>tail_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="slime_01"><target>slime_01</target>
+</bone>
+<bone name="shell"><target>shell</target>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

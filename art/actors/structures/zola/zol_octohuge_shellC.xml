@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Bar">
+      <mesh>structural/zola/zol_octohuge_shellB.dae</mesh>
+
+      <textures>
+	    <texture file="structural/zola/zol_shellC.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+
+  <material>default.xml</material>
+</actor>

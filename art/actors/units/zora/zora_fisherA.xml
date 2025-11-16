@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/zora/zor_servantA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/zora/medium/zor_servantA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/zora/low/zor_servantA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_zora/base_HC_biped_fisher.xml">
+        <textures>
+          <texture file="skeletal/zora/zor_main2.dds" name="baseTex"/>
+        </textures>
+        <props>
+          <prop actor="props/units/weapons/zora_spearA.xml" attachpoint="R_hand_01"/>
+        </props>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_zora/base_HC_biped_death.xml">
+        <props>
+          <prop actor="props/units/blood_zora_01.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

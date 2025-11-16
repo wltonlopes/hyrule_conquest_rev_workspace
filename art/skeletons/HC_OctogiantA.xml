@@ -1,0 +1,151 @@
+<skeletons>
+<standard_skeleton id="Octogiant Skeleton" title="Octogiant Skeleton">
+<bone name="base_giantoctoA">
+<bone name="body">
+<bone name="snout">
+<bone name="projectile">
+</bone>
+<bone name="projectile_loaded">
+</bone>
+</bone>
+<bone name="L_Fleg_01">
+<bone name="L_Fleg_02">
+<bone name="L_Fleg_03">
+<bone name="L_Fleg_04">
+<bone name="L_Fleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_Bleg_01">
+<bone name="L_Bleg_02">
+<bone name="L_Bleg_03">
+<bone name="L_Bleg_04">
+<bone name="L_Bleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="shell">
+</bone>
+<bone name="L_mustache_01">
+<bone name="L_mustache_02">
+<bone name="L_mustache_03">
+<bone name="L_mustache_04">
+<bone name="L_mustache_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_mustache_01">
+<bone name="R_mustache_02">
+<bone name="R_mustache_03">
+<bone name="R_mustache_04">
+<bone name="R_mustache_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Fleg_01">
+<bone name="R_Fleg_02">
+<bone name="R_Fleg_03">
+<bone name="R_Fleg_04">
+<bone name="R_Fleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Bleg_01">
+<bone name="R_Bleg_02">
+<bone name="R_Bleg_03">
+<bone name="R_Bleg_04">
+<bone name="R_Bleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Octogiant Skeleton" title="Octogiant Skeleton">
+<identifier><root>base_giantoctoA</root></identifier>
+<bone name="base_giantoctoA"><target>base_giantoctoA</target>
+<bone name="body"><target>body</target>
+<bone name="snout"><target>snout</target>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="projectile_loaded"><target>projectile_loaded</target>
+</bone>
+</bone>
+<bone name="L_Fleg_01"><target>L_Fleg_01</target>
+<bone name="L_Fleg_02"><target>L_Fleg_02</target>
+<bone name="L_Fleg_03"><target>L_Fleg_03</target>
+<bone name="L_Fleg_04"><target>L_Fleg_04</target>
+<bone name="L_Fleg_05"><target>L_Fleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_Bleg_01"><target>L_Bleg_01</target>
+<bone name="L_Bleg_02"><target>L_Bleg_02</target>
+<bone name="L_Bleg_03"><target>L_Bleg_03</target>
+<bone name="L_Bleg_04"><target>L_Bleg_04</target>
+<bone name="L_Bleg_05"><target>L_Bleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="shell"><target>shell</target>
+</bone>
+<bone name="L_mustache_01"><target>L_mustache_01</target>
+<bone name="L_mustache_02"><target>L_mustache_02</target>
+<bone name="L_mustache_03"><target>L_mustache_03</target>
+<bone name="L_mustache_04"><target>L_mustache_04</target>
+<bone name="L_mustache_05"><target>L_mustache_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_mustache_01"><target>R_mustache_01</target>
+<bone name="R_mustache_02"><target>R_mustache_02</target>
+<bone name="R_mustache_03"><target>R_mustache_03</target>
+<bone name="R_mustache_04"><target>R_mustache_04</target>
+<bone name="R_mustache_05"><target>R_mustache_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Fleg_01"><target>R_Fleg_01</target>
+<bone name="R_Fleg_02"><target>R_Fleg_02</target>
+<bone name="R_Fleg_03"><target>R_Fleg_03</target>
+<bone name="R_Fleg_04"><target>R_Fleg_04</target>
+<bone name="R_Fleg_05"><target>R_Fleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Bleg_01"><target>R_Bleg_01</target>
+<bone name="R_Bleg_02"><target>R_Bleg_02</target>
+<bone name="R_Bleg_03"><target>R_Bleg_03</target>
+<bone name="R_Bleg_04"><target>R_Bleg_04</target>
+<bone name="R_Bleg_05"><target>R_Bleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+	
+   <group>
+    <variant minquality="high" frequency="1" name="GoatA">
+      <mesh>units/zola/zol_aerocudaA.dae</mesh>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="GoatA">
+       <mesh>units/zola/medium/zol_aerocudaA.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="GoatA">
+       <mesh>units/zola/low/zol_aerocudaA.dae</mesh>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="FeathersA">
+      <textures><texture file="skeletal/zola/zol_aeocudaA.dds" name="baseTex"/></textures>
+    </variant>	
+  </group>  
+  
+  <group>
+	<variant frequency="1" name="Main">
+      <animations>
+			<animation file="HC_aerocuda/aerocuda_idle.dae" name="Idle" speed="100"/>
+			<animation file="HC_aerocuda/aerocuda_fly.dae" name="Walk" speed="10"/>
+			<animation file="HC_aerocuda/aerocuda_fly.dae" name="Walk" speed="15"/>
+			<animation file="HC_aerocuda/aerocuda_fly.dae" name="Walk" speed="17"/>
+			<animation file="HC_aerocuda/aerocuda_fly.dae" name="Walk" speed="17"/>
+			<animation file="HC_aerocuda/aerocuda_fly.dae" name="Run" speed="10"/>
+			<animation file="HC_aerocuda/aerocuda_fly.dae" name="Run" speed="15"/>
+			<animation file="HC_aerocuda/aerocuda_fly.dae" name="Run" speed="17"/>
+			<animation event="0.5" file="HC_aerocuda/aerocuda_attackA.dae" name="Attack_melee" id="attack1" speed="100"/>
+			<animation event="0.5" file="HC_aerocuda/aerocuda_attackA.dae" name="Attack_ranged" id="attack2" speed="100"/>
+			<animation file="HC_aerocuda/aerocuda_deathA.dae" name="Death" id="death1" speed="100"/>			
+      </animations>
+   </variant>
+  </group>  
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/units/blood_ooze_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+  </inline>
+</qualitylevels>
+

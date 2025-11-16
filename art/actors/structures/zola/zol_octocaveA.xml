@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="barracks">
+      <mesh>structural/zola/zol_octogiant_caveA.dae</mesh>
+      <textures>
+	    <texture file="structural/zola/zol_octocaveA.dds" name="baseTex"/>
+	    <texture file="structural/zola/zol_octocaveA_normal.dds" name="normTex"/>
+		<texture file="structural/zola/zola_octocaveA_ao.dds" name="aoTex"/>
+	  </textures>
+        <props>
+          <prop actor="structures/zola/zol_octocaveA_eggs.xml" attachpoint="root"/>
+		  <prop actor="structures/zola/zol_octocaveA_plants.xml" attachpoint="root"/>
+		  <prop actor="particle/zola_octocavefogA.xml" attachpoint="root"/>
+		  <prop actor="props/structures/zola/zola_groundbase_mainA.xml" attachpoint="root"/>
+        </props>
+    </variant>
+  </group>  
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
+        
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_ao_norm_spec.xml</material>
+</actor>

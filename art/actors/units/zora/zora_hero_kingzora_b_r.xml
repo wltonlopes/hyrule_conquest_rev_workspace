@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/zora/zor_debonA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/zora/medium/zor_debonA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/zora/low/zor_debonA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant frequency="1" name="Base">
+        <animations>
+          <animation file="HC_kingzora/kingzora_idle.dae" name="Idle" speed="50"/>
+          <animation file="HC_kingzora/kingzora_idleA.dae" name="Idle" speed="50"/>
+          <animation file="HC_kingzora/kingzora_idleB.dae" name="Idle" speed="50"/>
+          <animation file="HC_kingzora/kingzora_walk.dae" name="Walk" speed="10"/>
+          <animation file="HC_kingzora/kingzora_walk.dae" name="Run" speed="20"/>
+          <animation event="0.5" file="HC_kingzora/kingzora_walk.dae" name="attack_melee" speed="100"/>
+          <animation event="0.5" file="HC_kingzora/kingzora_walk.dae" name="attack_slaughter" speed="100"/>
+          <animation event="0.5" file="HC_kingzora/kingzora_walk.dae" name="gather_meat" speed="100"/>
+          <animation file="HC_kingzora/kingzora_deathA.dae" name="death" speed="230"/>
+        </animations>
+        <textures>
+          <texture file="skeletal/zora/zor_main2.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

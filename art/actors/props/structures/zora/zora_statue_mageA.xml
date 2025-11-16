@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="statue">
+      <mesh>structural/zora/zor_statue_mageA.dae</mesh>
+      <props>
+		<prop actor="props/structures/zora/zora_statue_crystalA.xml" attachpoint="crystal01"/>
+		<prop actor="props/structures/zora/zora_statue_mageA_water.xml" attachpoint="root"/>
+      </props>
+      <textures>
+	    <texture file="structural/zora/zora_statue_mageA.dds" name="baseTex"/>
+	    <texture file="structural/zora/zora_statue_mageA_normal.dds" name="normTex"/>
+		<texture file="structural/zora/zora_statuesA_ao.dds" name="aoTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <material>basic_trans_ao_norm_spec.xml</material>
+</actor>

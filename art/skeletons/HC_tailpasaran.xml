@@ -1,0 +1,75 @@
+<skeletons>
+<standard_skeleton id="tailpasaran Skeleton" title="tailpasaran Skeleton">
+<bone name="base_tailpasaran">
+<bone name="tail_01">
+<bone name="tail_02">
+<bone name="tail_03">
+<bone name="tail_04">
+<bone name="tail_05">
+<bone name="tail_06">
+<bone name="tail_07">
+<bone name="tail_08">
+<bone name="tail_09">
+<bone name="tail_010">
+<bone name="tail_011">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="claw_01">
+</bone>
+<bone name="claw_03">
+</bone>
+<bone name="claw_02">
+</bone>
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="tailpasaran Skeleton" title="tailpasaran Skeleton">
+<identifier><root>base_tailpasaran</root></identifier>
+<bone name="base_tailpasaran"><target>base_tailpasaran</target>
+<bone name="tail_01"><target>tail_01</target>
+<bone name="tail_02"><target>tail_02</target>
+<bone name="tail_03"><target>tail_03</target>
+<bone name="tail_04"><target>tail_04</target>
+<bone name="tail_05"><target>tail_05</target>
+<bone name="tail_06"><target>tail_06</target>
+<bone name="tail_07"><target>tail_07</target>
+<bone name="tail_08"><target>tail_08</target>
+<bone name="tail_09"><target>tail_09</target>
+<bone name="tail_010"><target>tail_010</target>
+<bone name="tail_011"><target>tail_011</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="claw_01"><target>claw_01</target>
+</bone>
+<bone name="claw_03"><target>claw_03</target>
+</bone>
+<bone name="claw_02"><target>claw_02</target>
+</bone>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

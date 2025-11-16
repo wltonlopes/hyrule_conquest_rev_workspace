@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/zola/zol_maleA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/zola/medium/zol_maleA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/zola/low/zol_maleA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_darknut/base_HC_darknut_sword_slow.xml">
+        <props>
+          <prop actor="props/units/weapons/zola_swordA.xml" attachpoint="R_weapon"/>
+		  <prop actor="props/units/weapons/zola_shieldA.xml" attachpoint="L_weapon"/>
+		  <prop actor="units/zola/zola_geoarmorA.xml" attachpoint="root"/>
+		  
+        </props>
+        <textures>
+          <texture file="skeletal/zola/zol_maleA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_darknut/base_HC_darknut_attack_splash.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_capture.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_slaughter.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_gather_tree.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_gather_grain.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_gather_fruit.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_gather_meat.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_gather_rock.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_gather_ore.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_gather_ruins.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_gather_praise.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_build.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_build_farm.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_carry_food.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_carry_meat.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_carry_wood.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_carry_stone.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_carry_metal.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_carry_food_idle.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_carry_meat_idle.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_carry_wood_idle.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_carry_stone_idle.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_carry_metal_idle.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_death.xml">
+        <props>
+          <prop actor="props/units/blood_ooze_01.xml" attachpoint="root"/>
+		  <prop actor="units/zola/zola_geoarmorA.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

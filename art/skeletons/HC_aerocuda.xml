@@ -1,0 +1,151 @@
+<skeletons>
+<standard_skeleton id="Aerocude Skeleton" title="Aerocude Skeleton">
+<bone name="base_aerocudaA">
+<bone name="belly">
+<bone name="chest">
+<bone name="head">
+<bone name="mouthbot">
+</bone>
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+<bone name="L_ant01">
+<bone name="L_ant02">
+<bone name="L_ant03">
+</bone>
+</bone>
+</bone>
+<bone name="R_ant01">
+<bone name="R_ant02">
+<bone name="R_ant03">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_wing01">
+<bone name="L_wing02">
+<bone name="L_wing03">
+<bone name="L_wing04">
+<bone name="L_wing05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_wing01">
+<bone name="R_wing02">
+<bone name="R_wing03">
+<bone name="R_wing04">
+<bone name="R_wing05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="tail01">
+<bone name="tail02">
+<bone name="tail03">
+<bone name="tail04">
+<bone name="tail05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_hip">
+<bone name="L_knee">
+<bone name="L_foot">
+<bone name="L_toes">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_hip">
+<bone name="R_knee">
+<bone name="R_foot">
+<bone name="R_toes">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Aerocude Skeleton" title="Aerocude Skeleton">
+<identifier><root>base_aerocudaA</root></identifier>
+<bone name="base_aerocudaA"><target>base_aerocudaA</target>
+<bone name="belly"><target>belly</target>
+<bone name="chest"><target>chest</target>
+<bone name="head"><target>head</target>
+<bone name="mouthbot"><target>mouthbot</target>
+</bone>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+<bone name="L_ant01"><target>L_ant01</target>
+<bone name="L_ant02"><target>L_ant02</target>
+<bone name="L_ant03"><target>L_ant03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_ant01"><target>R_ant01</target>
+<bone name="R_ant02"><target>R_ant02</target>
+<bone name="R_ant03"><target>R_ant03</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_wing01"><target>L_wing01</target>
+<bone name="L_wing02"><target>L_wing02</target>
+<bone name="L_wing03"><target>L_wing03</target>
+<bone name="L_wing04"><target>L_wing04</target>
+<bone name="L_wing05"><target>L_wing05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_wing01"><target>R_wing01</target>
+<bone name="R_wing02"><target>R_wing02</target>
+<bone name="R_wing03"><target>R_wing03</target>
+<bone name="R_wing04"><target>R_wing04</target>
+<bone name="R_wing05"><target>R_wing05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="tail01"><target>tail01</target>
+<bone name="tail02"><target>tail02</target>
+<bone name="tail03"><target>tail03</target>
+<bone name="tail04"><target>tail04</target>
+<bone name="tail05"><target>tail05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_hip"><target>L_hip</target>
+<bone name="L_knee"><target>L_knee</target>
+<bone name="L_foot"><target>L_foot</target>
+<bone name="L_toes"><target>L_toes</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_hip"><target>R_hip</target>
+<bone name="R_knee"><target>R_knee</target>
+<bone name="R_foot"><target>R_foot</target>
+<bone name="R_toes"><target>R_toes</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>
