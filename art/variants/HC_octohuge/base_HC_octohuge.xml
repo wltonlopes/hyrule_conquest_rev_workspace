@@ -1,0 +1,15 @@
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="HC_octohuge/octohuge_idle.dae" name="Idle" id="idle1" speed="121"/>
+    <animation file="HC_octohuge/octohuge_idle.dae" name="Idle" id="idle2" speed="121"/>
+    <animation file="HC_octohuge/octohuge_idle.dae" name="Idle" id="idle3" speed="121"/>
+	<animation file="HC_octohuge/octohuge_idle.dae" name="Idle" id="idle4" speed="121"/>
+    <animation event="0.01" file="HC_octohuge/octohuge_walk.dae" name="Walk" speed="20"/>
+    <animation event="0.01" file="HC_octohuge/octohuge_walk.dae" name="Run" speed="30"/>
+    <animation event="0.5" file="HC_octohuge/octohuge_attackA.dae" name="attack_melee" speed="120"/>
+    <animation event="0.5" file="HC_octohuge/octohuge_attackA.dae" name="attack_melee" speed="120"/>
+    <animation event="0.5" file="HC_octohuge/octohuge_attack_spitA.dae" name="attack_ranged" speed="120"/>
+	<animation file="HC_octohuge/octohuge_idle.dae" name="Flail" id="flail1" speed="8"/>
+	<animation file="HC_octohuge/octohuge_idle.dae" name="Recover" id="recover1" speed="8"/>
+  </animations>
+</variant>

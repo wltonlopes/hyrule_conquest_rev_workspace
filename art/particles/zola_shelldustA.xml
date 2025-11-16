@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<particles>
+
+    <texture>art/textures/particles/fog_tealA.dds</texture>
+    <blend mode="over"/>
+	
+    <constant name="emissionrate" value="50.0"/>
+    <uniform name="lifetime" min="0.9" max="5.0"/>
+
+    <uniform name="position.x" min="-3.0" max="3.0"/>
+    <uniform name="position.y" min="-5.0" max="7.0"/>
+    <uniform name="position.z" min="-3.0" max="3.0"/>
+
+    <uniform name="angle" min="-3.14" max="3.14"/>
+
+    <uniform name="velocity.x" min="-0.3" max="0.3"/>
+	<uniform name="velocity.y" min="-0.5" max="0.3"/>
+    <uniform name="velocity.z" min="-0.3" max="0.3"/>
+    <uniform name="velocity.angle" min="-0.2" max="0.2"/>
+
+    <uniform name="size" min="1.0" max="7.0"/>
+
+    <force y="-0.3"/>
+
+</particles>

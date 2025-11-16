@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>props/weapon/goron_rockA_shoot.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>props/weapon/medium/goron_rockA_shoot.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>props/weapon/low/goron_rockA_shoot.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant frequency="100" name="Base">
+        <textures>
+          <texture file="skeletal/goron/gor_main3.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+  </inline>
+</qualitylevels>
+
