@@ -6,9 +6,9 @@
       <textures>
         <texture file="props/zola/zol_groundbaseA.dds" name="baseTex"/>
         <texture file="props/zola/zol_groundbaseA_normal.dds" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>
-terrain_norm_spec.xml</material>
+  <material>terrain_norm_spec.xml</material>
 </actor>

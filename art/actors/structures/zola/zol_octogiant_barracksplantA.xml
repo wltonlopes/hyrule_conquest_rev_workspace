@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Bar">
-      <mesh>structural/zola/zol_octorok_cave_plantsA.dae</mesh>
+      <mesh>structural/zola/zol_octohuge_barracksplntA.dae</mesh>
       <textures>
 	    <texture file="gaia/flora/plants_aquaticA.dds" name="baseTex"/>
       </textures>

@@ -7,6 +7,7 @@
       <textures>
 	    <texture file="structural/zola/zol_octocaveA.dds" name="baseTex"/>
 	    <texture file="structural/zola/zol_octocaveA_normal.dds" name="normTex"/>
+      <texture file="null_black.dds" name="specTex"/>
 		<texture file="structural/zola/zola_octocaveB_ao.dds" name="aoTex"/>
 	  </textures>
         <props>
@@ -23,7 +24,6 @@
         <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
-        
       </props>
     </variant>
   </group>

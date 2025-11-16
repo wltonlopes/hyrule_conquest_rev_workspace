@@ -3,11 +3,11 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Bar">
-      <mesh>structural/zola/zol_octorok_cave_plantsA.dae</mesh>
+      <mesh>structural/zola/zol_octogiant_shellA.dae</mesh>
       <textures>
-	    <texture file="gaia/flora/plants_aquaticA.dds" name="baseTex"/>
+	    <texture file="structural/zola/zol_shellA.dds" name="baseTex"/>
       </textures>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>default.xml</material>
 </actor>

@@ -7,7 +7,8 @@
       <textures>
 	    <texture file="structural/zora/zora_statue_soldierA.dds" name="baseTex"/>
 	    <texture file="structural/zora/zora_statue_soldierA_normal.dds" name="normTex"/>
-		<texture file="structural/zora/zora_statuesA_ao.dds" name="aoTex"/>
+		<texture file="null_black.dds" name="specTex"/>
+    <texture file="structural/zora/zora_statuesA_ao.dds" name="aoTex"/>
 	  </textures>
     </variant>
   </group>

@@ -7,13 +7,14 @@
       <textures>
 	    <texture file="structural/zola/zol_octocaveA.dds" name="baseTex"/>
 	    <texture file="structural/zola/zol_octocaveA_normal.dds" name="normTex"/>
-		<texture file="structural/zola/zola_octocaveA_ao.dds" name="aoTex"/>
+      <texture file="null_black.dds" name="specTex"/>
+		  <texture file="structural/zola/zola_octocaveA_ao.dds" name="aoTex"/> 
 	  </textures>
         <props>
           <prop actor="structures/zola/zol_octocaveA_eggs.xml" attachpoint="root"/>
-		  <prop actor="structures/zola/zol_octocaveA_plants.xml" attachpoint="root"/>
-		  <prop actor="particle/zola_octocavefogA.xml" attachpoint="root"/>
-		  <prop actor="props/structures/zola/zola_groundbase_mainA.xml" attachpoint="root"/>
+          <prop actor="structures/zola/zol_octocaveA_plants.xml" attachpoint="root"/>
+          <prop actor="particle/zola_octocavefogA.xml" attachpoint="root"/>
+          <prop actor="props/structures/zola/zola_groundbase_mainA.xml" attachpoint="root"/>
         </props>
     </variant>
   </group>  
