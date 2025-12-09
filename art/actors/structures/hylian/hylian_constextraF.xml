@@ -7,6 +7,7 @@
 	  <textures>
 	    <texture file="structural/hylian/hylian_scaffoldingA.dds" name="baseTex"/>
 	    <texture file="structural/hylian/hylian_scaffoldingA_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
 		<texture file="structural/hylian/hylian_constextrasC_ao.dds" name="aoTex"/>
 	  </textures>
     </variant>

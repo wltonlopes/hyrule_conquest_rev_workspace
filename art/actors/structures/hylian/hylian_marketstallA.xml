@@ -56,7 +56,14 @@
 		<texture file="structural/hylian/hyl_marketstallA_ao.dds" name="aoTex"/>
       </textures>
     </variant>
-  </group>  
+  </group>
+  <group>
+    <variant frequency="1" name="base_only">
+      <textures>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
   <group>
     <variant frequency="1" name="Clothing">
 	  <props>

@@ -6,6 +6,7 @@
       <textures>
         <texture file="props/hylian/hyl_groundbaseA.dds" name="baseTex"/>
         <texture file="props/hylian/hyl_groundbaseA_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>

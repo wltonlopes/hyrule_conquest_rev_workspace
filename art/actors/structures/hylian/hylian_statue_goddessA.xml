@@ -7,6 +7,7 @@
       <textures>
 	    <texture file="structural/settle_malkariko/malka_fountainA.dds" name="baseTex"/>
 	    <texture file="structural/settle_malkariko/malka_fountainA_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
 		<texture file="structural/hylian/hyl_statue_goddessA_ao.dds" name="aoTex"/>
       </textures>
     </variant>

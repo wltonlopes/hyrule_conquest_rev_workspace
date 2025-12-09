@@ -13,6 +13,7 @@
       <textures>
         <texture file="structural/hylian/hylian_totA.dds" name="baseTex"/>
         <texture file="structural/hylian/hylian_totA_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
 		<texture file="structural/hylian/hylian_tot_ao.dds" name="aoTex"/>
       </textures>
     </variant>

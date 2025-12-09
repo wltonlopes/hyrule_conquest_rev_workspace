@@ -24,6 +24,7 @@
       <textures>
 	    <texture file="structural/hylian/hylian_buildingA.dds" name="baseTex"/>
 	    <texture file="structural/hylian/hylian_buildingA_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
 		<texture file="structural/hylian/hylian_marketA_ao.dds" name="aoTex"/>
       </textures>
     </variant>

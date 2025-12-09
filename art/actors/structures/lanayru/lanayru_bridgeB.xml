@@ -5,10 +5,10 @@
     <variant name="Wall long">
       <mesh>structural/lanayru/lan_bridgeB.dae</mesh>
       <textures>
-		<texture file="structural/lanayru/lanayru_buildingA.dds" name="baseTex"/>
-		<texture file="structural/lanayru/lanayru_buildingA_normal.dds" name="normTex"/>
-               <texture file="null_black.dds" name="specTex"/>
-		<texture file="structural/lanayru/lanayru_bridgeB_ao.dds" name="aoTex"/>
+        <texture file="structural/lanayru/lanayru_buildingA.dds" name="baseTex"/>
+        <texture file="structural/lanayru/lanayru_buildingA_normal.dds" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+        <texture file="structural/lanayru/lanayru_bridgeB_ao.dds" name="aoTex"/>
 	  </textures>
 	  <props>
 		<prop actor="props/structures/lanayru/lanayru_bridgeB_path.xml" attachpoint="root"/>

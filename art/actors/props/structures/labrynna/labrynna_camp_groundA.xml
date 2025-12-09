@@ -5,6 +5,7 @@
       <decal angle="0" depth="150" offsetx="0" offsetz="0" width="150"/>
       <textures>
         <texture file="props/labrynna/labrynna_camp_groundA.dds" name="baseTex"/>
+        <texture file="null_black.dds" name="specTex"/>
         <texture file="props/labrynna/labrynna_camp_groundA_normal.dds" name="normTex"/>
       </textures>
     </variant>

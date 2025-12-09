@@ -10,6 +10,7 @@
       <textures>
 	    <texture file="structural/hylian/hylian_buildingD.dds" name="baseTex"/>
 	    <texture file="structural/hylian/hylian_buildingD_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
 		<texture file="structural/hylian/hylian_blacksmithA_ao.dds" name="aoTex"/>
 	  </textures>
     </variant>

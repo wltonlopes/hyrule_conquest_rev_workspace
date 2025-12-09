@@ -13,6 +13,7 @@
       <textures>
 	    <texture file="structural/labrynna/labrynna_buildingC.dds" name="baseTex"/>
 		<texture file="structural/labrynna/labrynna_buildingC_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
 	  </textures>
     </variant>
   </group>

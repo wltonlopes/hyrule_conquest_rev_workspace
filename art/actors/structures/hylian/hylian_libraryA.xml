@@ -11,6 +11,7 @@
       <textures>
 	    <texture file="structural/hylian/hyl_libraryA.dds" name="baseTex"/>
 	    <texture file="structural/hylian/hyl_libraryA_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
 		<texture file="structural/hylian/hyl_libraryA_ao.dds" name="aoTex"/>
 	  </textures>
     </variant>

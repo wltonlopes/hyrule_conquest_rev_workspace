@@ -7,6 +7,7 @@
       <textures>
 	    <texture file="structural/hylian/hylian_buildingA.dds" name="baseTex"/>
 	    <texture file="structural/hylian/hylian_buildingA_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
 	  </textures>
 	  <props>
 		<prop actor="props/structures/hylian/hyl_flag_small_d_royalA.xml" attachpoint="flag_01"/>

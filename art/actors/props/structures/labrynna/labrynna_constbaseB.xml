@@ -6,6 +6,7 @@
       <textures>
         <texture file="props/labrynna/labrynna_constbaseA.dds" name="baseTex"/>
         <texture file="props/labrynna/labrynna_constbaseA_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
