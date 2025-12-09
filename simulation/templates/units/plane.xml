@@ -2,84 +2,101 @@
 <Entity parent="template_unit">
   <Attack>
     <Ranged>
-      <AttackName context="Name of an attack of a World War II fighter plane.">Machine Guns</AttackName>
+      <AttackName>Blasters</AttackName>
       <Damage>
-        <Pierce>100</Pierce>
-        <Crush>227</Crush>
+        <True>250.0</True>
+        <Pierce>150.0</Pierce>
       </Damage>
-      <MaxRange>120</MaxRange>
-      <MinRange>80</MinRange>
-      <PrepareTime>0</PrepareTime>
-      <RepeatTime>10000</RepeatTime>
+      <EffectDelay>3</EffectDelay>
+      <MaxRange>200</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PrepareTime>1500</PrepareTime>
       <Projectile>
-        <Speed>75</Speed>
-        <Spread>1</Spread>
-        <Gravity>9.81</Gravity>
         <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/catapult_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
         <LaunchPoint y="3"/>
+        <Speed>300.0</Speed>
+        <Spread>1.0</Spread>
       </Projectile>
+      <RepeatTime>2300</RepeatTime>
+      <Splash>
+        <Damage>
+          <True>250.0</True>
+          <Pierce>150.0</Pierce>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>10</Range>
+        <Shape>Circular</Shape>
+      </Splash>
     </Ranged>
   </Attack>
   <BuildingAI>
     <DefaultArrowCount>3</DefaultArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
   </BuildingAI>
   <Decay>
-    <SinkingAnim>true</SinkingAnim>
     <DelayTime>0.0</DelayTime>
-    <SinkRate>3.0</SinkRate>
     <SinkAccel>7.0</SinkAccel>
+    <SinkRate>3.0</SinkRate>
+    <SinkingAnim>true</SinkingAnim>
   </Decay>
   <GarrisonHolder>
-    <Max>1</Max>
+    <BuffHeal>1</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens"/>
     <EjectHealth>0</EjectHealth>
     <List datatype="tokens">Support Infantry</List>
-    <BuffHeal>1</BuffHeal>
     <LoadingRange>5</LoadingRange>
-    <EjectClassesOnDestroy datatype="tokens"/>
+    <Max>1</Max>
   </GarrisonHolder>
   <Health>
     <Max>100</Max>
     <Unhealable>true</Unhealable>
   </Health>
   <Identity>
-    <SpecificName>P-51 Mustang</SpecificName>
-    <Tooltip>A World War II American fighter plane.</Tooltip>
-    <Icon>units/global/mustang.png</Icon>
+    <Civ>gaia</Civ>
+    <Icon>units/starfox/sf_arwingm2.dds</Icon>
+    <SpecificName>Arwing X-02</SpecificName>
+    <Tooltip>The Mark II Arwing was comissioned by the Cornerian Army and created by Arspace Dynamics as a potential replacement for the AL1 Bottlenose Fighter. While the craft exceeded expectations, the Cornerian Army abandoned them in favor of the cheaper AL2 Bottlenose. The few Arwing X-02's that were built were bought by James McCloud and were made famous by the Star Fox Team.</Tooltip>
   </Identity>
   <Obstruction disable=""/>
   <Position>
-    <Anchor>upright</Anchor>
+    <FloatDepth>0.0</FloatDepth>
     <Floating>true</Floating>
-    <FloatDepth>0</FloatDepth>
-    <TurnRate>1</TurnRate>
+    <TurnRate>1.0</TurnRate>
   </Position>
   <Repairable>
     <RepairTimeRatio>3.0</RepairTimeRatio>
   </Repairable>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/magic/arwing_blaster.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
   <UnitAI>
     <Formations datatype="tokens" replace=""/>
   </UnitAI>
   <UnitMotion disable=""/>
   <UnitMotionFlying>
-    <MaxSpeed>60.0</MaxSpeed>
-    <TakeoffSpeed>50.0</TakeoffSpeed>
-    <LandingSpeed>40.0</LandingSpeed>
     <AccelRate>25.0</AccelRate>
-    <SlowingRate>5.0</SlowingRate>
     <BrakingRate>10.0</BrakingRate>
-    <TurnRate>2.0</TurnRate>
-    <OvershootTime>2.0</OvershootTime>
-    <FlyingHeight>50.0</FlyingHeight>
     <ClimbRate>15.0</ClimbRate>
     <DiesInWater>true</DiesInWater>
+    <FlyingHeight>50.0</FlyingHeight>
+    <LandingSpeed>40.0</LandingSpeed>
+    <MaxSpeed>60.0</MaxSpeed>
+    <OvershootTime>2.0</OvershootTime>
     <PassabilityClass>unrestricted</PassabilityClass>
+    <SlowingRate>5.0</SlowingRate>
+    <TakeoffSpeed>50.0</TakeoffSpeed>
+    <TurnRate>2.0</TurnRate>
   </UnitMotionFlying>
   <Vision>
     <Range>100</Range>
   </Vision>
   <VisualActor>
-    <Actor>fauna/dragon.xml</Actor>
+    <Actor>units/starfox/starfox_arwingM2.xml</Actor>
   </VisualActor>
 </Entity>

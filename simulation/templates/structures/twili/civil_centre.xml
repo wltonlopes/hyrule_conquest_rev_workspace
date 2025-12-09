@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Cost>
+    <BuildTime>800</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>750</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="38.0" depth="38.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>4000</Max>
+  </Health>
+  <Identity>
+    <Civ>twili</Civ>
+    <History>A base for Twili incursions into Hyrule. Teleported in along with some Twili soldiers and workers, it acts as both a civil base as well as a military one.</History>
+    <SpecificName>Twilight Keep</SpecificName>
+    <Icon>structures/lanayru/lan_outpost.dds</Icon>
+    <Tooltip>Center of a Twili Settlement. Summons Twili Heroes. Highly resistant to magic damage.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>200</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="38.0" width="38.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -archery_tradition
+      -hoplite_tradition
+      -hellenistic_metropolis
+      -roman_roads
+    </Technologies>
+  </Researcher>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>15</Hack>
+        <Pierce>55</Pierce>
+        <Fire>55</Fire>
+        <Forest>55</Forest>
+        <Water>55</Water>
+        <True>100</True>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/lanayru/complete_civ_center_lanayru.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/lanayru/sel_civ_center_lanayru.xml</select>
+      <upgraded>interface/complete/building/lanayru/complete_civ_center_lanayru.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/twili/twili_hero_darklink
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/twili/twili_civcenter.xml</Actor>
+    <FoundationActor>structures/lanayru/lanayru_scaffoldA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

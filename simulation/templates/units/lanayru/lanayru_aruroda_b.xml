@@ -10,6 +10,10 @@
       <MaxRange>6.0</MaxRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>1400</RepeatTime>
+      <Stun>
+        <Chance>50</Chance>
+        <Time>750</Time>
+      </Stun>
     </Melee>
   </Attack>
   <Cost>
@@ -32,7 +36,7 @@
     <Civ>lanayru</Civ>
     <SpecificName>Aruroda</SpecificName>
     <VisibleClasses datatype="tokens">Creature</VisibleClasses>
-    <History>The scorpion beasts native to the sands of Lanayru, Arurodas are considered an extremely dangerous pest by many civilizations in Hyrule. The Zora of Lanayru Province have found ways to adapt and avoid their aggressive seasons and rarely run into problems with the creatures. If caught at a young enough age, Arurodas could be domesticated and used as beasts of war.</History>
+    <History>The scorpion beasts native to the sands of Lanayru, Arurodas are considered an extremely dangerous pest by many civilizations in Hyrule. The Zora of Lanayru Province have found ways to adapt and avoid their aggressive seasons and rarely run into problems with the creatures. If caught at a young enough age, Arurodas can be domesticated and used as beasts of war.</History>
     <Tooltip>Light Melee Creature unit.</Tooltip>
     <Icon>units/lanayru/lan_aruroda.dds</Icon>
     <VisibleClasses datatype="tokens">Melee</VisibleClasses>

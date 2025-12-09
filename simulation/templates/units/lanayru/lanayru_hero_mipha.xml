@@ -42,6 +42,7 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">Swimmer</Classes>
     <SpecificName>Mipha Dorephan</SpecificName>
     <GenericName>Champion of Lanayru</GenericName>
     <History>The only daughter of Duke Dorephan and Aydia, Mipha was encouraged from a young age to follow her in her mother's footsteps and uphold her family's military lineage. Despite some talent with pole-arms, Mipha feels her place is not in taking life, but healing it.</History>

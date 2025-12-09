@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Spear</AttackName>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>2.0</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
+      <Damage>
+        <Pierce>10.0</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1300</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}/fortress
+    </Entities>
+  </Builder>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>zora</Civ>
+    <Classes datatype="tokens">Swimmer</Classes>
+    <SpecificName>River Patrol</SpecificName>
+    <History>Frequently seen travelling along the Zora's River, the police force of the Zora keep order within the Dominion. With their light spear and buckler, they are able to handle all sorts of minor threats, from bandits, to wild creatures, to criminal uprisings.</History>
+    <Tooltip>Light Melee unit armed with a spear. They can gather fish from bodies of water.</Tooltip>
+    <Icon>units/zora/zor_rivpatrol.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <ResourceGatherer>
+    <Rates>
+      <food.fish>1.8</food.fish>
+    </Rates>
+  </ResourceGatherer>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/zora/rivpatrol/rivpatrol_death.xml</death>
+      <order_attack>voice/zora/rivpatrol/rivpatrol_attack.xml</order_attack>
+      <order_build>voice/zora/rivpatrol/rivpatrol_repair.xml</order_build>
+      <order_garrison>voice/zora/rivpatrol/rivpatrol_garrison.xml</order_garrison>
+      <order_gather>voice/zora/rivpatrol/rivpatrol_gather.xml</order_gather>
+      <order_repair>voice/zora/rivpatrol/rivpatrol_repair.xml</order_repair>
+      <order_walk>voice/zora/rivpatrol/rivpatrol_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/zora/rivpatrol/rivpatrol_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <WalkSpeed>11</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/zora/zora_rivpatrol_b.xml</Actor>
+  </VisualActor>
+</Entity>

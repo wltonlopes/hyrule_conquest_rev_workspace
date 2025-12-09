@@ -42,6 +42,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub</Classes>
     <SpecificName>Scrubram</SpecificName>
     <History>While its tiny size hardly makes it an impressive siege weapon, a huge swarm of these rams can wear down gates and walls bit by bit until they finally break down.</History>
     <Tooltip>Small and cheap Siege unit that bashes enemy fortifications to the ground.</Tooltip>

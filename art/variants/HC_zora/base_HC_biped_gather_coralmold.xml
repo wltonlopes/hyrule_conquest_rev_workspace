@@ -2,8 +2,4 @@
   <animations>
     <animation event="0.25" file="HC_zora/zora_harvest_fish.dae" name="gather_coralmold" speed="120"/>
   </animations>
-  <props>
-	<prop actor="props/units/weapons/zora_spearA.xml" attachpoint="R_wrist_01"/>
-	<prop attachpoint="L_wrist_01"/>
-  </props>
 </variant>

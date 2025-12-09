@@ -1,0 +1,18 @@
+{
+	"type": "range",
+	"radius": 25,
+	"affects": ["Infantry Melee"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.05 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.05 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.05 },
+		{ "value": "Attack/Melee/Damage/TrueDamage", "multiply": 1.05 },
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 1.05 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.05 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.05 },
+		{ "value": "Attack/Ranged/Damage/TrueDamage", "multiply": 1.05 }
+	],
+	"auraName": "Brotherly Command",
+	"auraDescription": "{In Formation, +10% Armor - Melee Infantry)",
+	"overlayIcon": "art/textures/ui/session/auras/battlebro_aura_1.dds"
+}

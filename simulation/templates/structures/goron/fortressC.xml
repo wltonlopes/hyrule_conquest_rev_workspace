@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Auras datatype="tokens">
+    structural/lavawallbig_aura_1
+    structural/lavawallbig_aura_2
+  </Auras>
+  <Attack>
+    <Ranged>
+      <AttackName>Fire Bomb</AttackName>
+      <Damage>
+        <Fire>20.0</Fire>
+      </Damage>
+      <MaxRange>110.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>2500</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/catapult_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>5000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Fire>20.0</Fire>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>10</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>10</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+  </BuildingAI>
+  <Cost>
+    <BuildTime>80</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>350</stone>
+      <metal>350</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="35.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>15</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>6000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_huge</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Stronghold (Lava Moat)</SpecificName>
+    <History>A giant looming edifice found along the sides of Death Mountain, Goron strongholds are some of the most defensible fortresses to have been erected in Hyrule. A lone Goron Stronghold can do wonders to hold an enemy invasion at bay.</History>
+    <Icon>structures/goron/gor_strongholdA.dds</Icon>
+    <Tooltip>Giant Defense fortification that attacks many enemies and generates Territory.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="55.0" depth="55.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/goron_bomb_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/goron_throw_bomb.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>15</X>
+        <Y>34.1</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>-15</X>
+        <Y>34.1</Y>
+        <Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>0</X>
+        <Y>34.1</Y>
+        <Z>-15</Z>
+      </Archer3>
+      <Archer4>
+        <X>0</X>
+        <Y>34.1</Y>
+        <Z>15</Z>
+      </Archer4>
+      <Archer5>
+        <X>10.4</X>
+        <Y>34.1</Y>
+        <Z>10.4</Z>
+      </Archer5>
+      <Archer6>
+        <X>-10.4</X>
+        <Y>34.1</Y>
+        <Z>10.4</Z>
+      </Archer6>
+      <Archer7>
+        <X>10.4</X>
+        <Y>34.1</Y>
+        <Z>-10.4</Z>
+      </Archer7>
+      <Archer8>
+        <X>-10.4</X>
+        <Y>34.1</Y>
+        <Z>-10.4</Z>
+      </Archer8>
+    </TurretPoints>
+  </TurretHolder>
+  <Upgrade>
+    <FortB>
+      <Cost>
+	<stone>100</stone>
+	<metal>100</metal>
+      </Cost>
+      <Entity>structures/goron/fortressB</Entity>
+      <Time>15</Time>
+      <Tooltip>Reinforce the Stronghold's walls.</Tooltip>
+      <Variant>upgrading</Variant>
+    </FortB>
+    <FortD>
+      <Cost>
+	<stone>100</stone>
+	<metal>100</metal>
+      </Cost>
+      <Entity>structures/goron/fortressD</Entity>
+      <Time>12</Time>
+      <Tooltip>Add a Bulwark to the Stronghold.</Tooltip>
+      <Variant>upgrading</Variant>
+    </FortD>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/goron/goron_strongholdC.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>50.0</Length>
+    <Indent>7.6</Indent>
+  </WallPiece>
+</Entity>

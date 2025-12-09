@@ -26,6 +26,7 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">SilverWeapon SilverArmor Swimmer</Classes>
     <SpecificName>Silver Archer</SpecificName>
     <VisibleClasses datatype="tokens">Silver</VisibleClasses>
     <History>Hunters of massive and titanic beasts across Hyrule, the secret of the Silver Archer lies in their arrows. A single Silver Arrow can wound many of the giant monsters across Hyrule, usually the larger they are the harder they will fall. Regardless of size, a Silver Arrow can puncture through all but Magic armor.</History>

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
+<Entity parent="template_unit_titan">
   <Attack>
-    <Capture>
-      <AttackName>Capture</AttackName>
-      <Capture>10</Capture>
-      <MaxRange>4</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Wall</RestrictedClasses>
-    </Capture>
-    <Ranged replace="">
+    <Ranged>
       <AttackName>Claws</AttackName>
       <Damage>
         <Hack>50.0</Hack>
@@ -38,12 +31,10 @@
       </Splash>
     </Ranged>
   </Attack>
-  <Builder disable=""/>
   <Cost>
-    <BuildTime>120</BuildTime>
     <Resources>
-      <food>0</food>
-      <wood>2500</wood>
+      <food>2500</food>
+      <wood>0</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>
@@ -62,10 +53,9 @@
     <History>A massive and impossibly ancient skeleton deep within the Gerudo Desert, the Stallord is believed to have once been one of the many ancient dragons that ravaged Hyrule before the dawn of history. Gerudo mythology claims their elder gods slew the dragon and used its corpse to make the world, burying the skeleton deep in the desert. Should the skeleton be removed the Gerudo believe the world will come to an end. The animated Stallord himself is a slow moving and crawling monstrosity that can vomit up dusty corpses and amass a following of Stalfos soldiers to follow him.</History>
     <Tooltip>Titan unit that crushes enemies with its two massive hands and summons hordes of disposable Staltroops.</Tooltip>
     <Icon>units/stalfos/sta_titan_stallord.dds</Icon>
-    <VisibleClasses datatype="tokens">Titan Undead Stal</VisibleClasses>
+    <VisibleClasses datatype="tokens">Undead Stal</VisibleClasses>
   </Identity>
   <ProductionQueue/>
-  <Promotion disable=""/>
   <Resistance>
     <Entity>
       <Damage>
@@ -77,19 +67,6 @@
       </Damage>
     </Entity>
   </Resistance>
-  <Minimap>
-    <Type>hero</Type>
-  </Minimap>
-  <ResourceGatherer disable=""/>
-  <Selectable>
-    <Overlay>
-      <AlwaysVisible/>
-      <Texture>
-        <MainTexture>historia/1024x1024_aura.dds</MainTexture>
-        <MainTextureMask>historia/1024x1024_aura_mask.dds</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/natural/stallord_hit_impact.xml</attack_impact_ranged>
@@ -116,10 +93,6 @@
       units/stalfos/infantry_spearman_b
     </Entities>
   </Trainer>
-  <TrainingRestrictions>
-    <Category>Titan</Category>
-    <MatchLimit>1</MatchLimit>
-  </TrainingRestrictions>
   <UnitMotion>
     <PassabilityClass>titan</PassabilityClass>
     <RunMultiplier>1.3333</RunMultiplier>

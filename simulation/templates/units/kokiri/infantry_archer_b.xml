@@ -18,6 +18,10 @@
         <Spread>1.5</Spread>
       </Projectile>
       <RepeatTime>2000</RepeatTime>
+      <Stun>
+        <Chance>1</Chance>
+        <Time>200</Time>
+      </Stun>
     </Ranged>
   </Attack>
   <Builder>
@@ -70,10 +74,20 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/kokiri_scatter
+    </Formations>
+  </UnitAI>
   <UnitMotion>
     <RunMultiplier>1.3636</RunMultiplier>
     <WalkSpeed>11.0</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+      <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility>  
   <Vision>
     <Range>65</Range>
   </Vision>

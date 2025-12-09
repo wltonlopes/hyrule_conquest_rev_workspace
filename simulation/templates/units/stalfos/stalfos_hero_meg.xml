@@ -69,6 +69,11 @@
   <UnitMotion>
     <PassabilityClass>fly</PassabilityClass>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility>
   <VisualActor>
     <Actor>units/stalfos/stalfos_meg_b.xml</Actor>
   </VisualActor>

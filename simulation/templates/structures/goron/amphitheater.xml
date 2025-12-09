@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_amphitheater">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="60.0" width="60.0"/>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/debris_goron_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <History>The Gladiator Ring pits the biggest and meanest Goron warriors of all types and varieties against each other. Large and bulky Gorons exit the arena to do battle with enemies.</History>
+    <GenericName>Amphitheater</GenericName>
+    <SpecificName>Gladiator Ring</SpecificName>
+    <Icon>structures/goron/gor_gladring.dds</Icon>
+    <Tooltip>Trains very large and powerful Goron units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="45.0" width="45.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/goron/complete_gladiator.xml</constructed>
+      <select>interface/select/building/goron/sel_gladiator.xml</select>
+      <upgraded>interface/complete/building/goron/complete_gladiator.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/goron/goron_sumo_b
+      units/goron/goron_ram_b
+      units/goron/goron_giant_b
+      units/goron/goron_shieldbreaker_b
+      units/goron/goron_hero_gorcoron
+      units/goron/goron_hero_dangoro
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/goron/goron_gladringA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

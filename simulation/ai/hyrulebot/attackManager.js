@@ -1,5 +1,6 @@
 /**
  * Attack Manager
+ * This is where HYRULE decides what types of attack to send, as well as when to send them and how big they are.
  */
 HYRULE.AttackManager = function(Config)
 {
@@ -161,7 +162,7 @@ HYRULE.AttackManager.prototype.assignBombers = function(gameState)
 		}
 	}
 
-	const bombers = gameState.updatingCollection("bombers", API3.Filters.byClasses(["BoltShooter", "StoneThrower"]), gameState.getOwnUnits());
+	const bombers = gameState.updatingCollection("bombers", API3.Filters.byClasses(["BoltShooter", "StoneThrower", "Mage+Fire"]), gameState.getOwnUnits());
 	for (let ent of bombers.values())
 	{
 		if (!ent.position() || !ent.isIdle() || !ent.attackRange("Ranged"))

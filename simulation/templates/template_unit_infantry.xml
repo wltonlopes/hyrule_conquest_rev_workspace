@@ -58,7 +58,7 @@
       <Damage>
         <Hack>2</Hack>
         <Pierce>4</Pierce>
-        <Crush>15</Crush>
+        <Crush>3</Crush>
       </Damage>
     </Entity>
   </Resistance>
@@ -109,6 +109,11 @@
       <invalid_building_placement>interface/alarm/alarm_invalid_building_placement.xml</invalid_building_placement>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/arrow
+    </Formations>
+  </UnitAI>
   <Vision>
     <Range>80</Range>
   </Vision>

@@ -25,7 +25,7 @@
       <Damage>
         <Hack>8</Hack>
         <Pierce>8</Pierce>
-        <Crush>25</Crush>
+        <Crush>9</Crush>
       </Damage>
     </Entity>
   </Resistance>
@@ -40,4 +40,9 @@
       </Texture>
     </Overlay>
   </Selectable>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/arrow
+    </Formations>
+  </UnitAI>
 </Entity>

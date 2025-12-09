@@ -1,0 +1,14 @@
+{
+	"genericName": "Silverstream Coralmold",
+	"description": "Coralmold is poisonous. Lanayru Silver is armor-piercing. Dipping Coralmold in Lanayru Silver is deadly.",
+	"cost": {"food": 0, "wood": 0, "stone": 500, "metal": 500},
+	"icon": "lanayru/attack_silvercoral.dds",
+	"researchTime": 40,
+	"tooltip": "All units with Silver weapons gain 10 Poison damage.",
+	"modifications": [
+				{"value": "Attack/Melee/Damage/Poison", "add": 10},
+				{"value": "Attack/Ranged/Damage/Poison", "add": 10}
+			 ],
+	"affects": ["SilverWeapon"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

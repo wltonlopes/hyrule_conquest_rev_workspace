@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
+<Entity parent="template_unit_titan">
   <Attack>
-    <Capture>
-      <AttackName>Capture</AttackName>
-      <Capture>10</Capture>
-      <MaxRange>4</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Wall</RestrictedClasses>
-    </Capture>
-    <Ranged replace="">
+    <Ranged>
       <AttackName>Water Mass</AttackName>
       <Damage>
         <Crush>150</Crush>
@@ -39,9 +32,7 @@
       </Splash>
     </Ranged>
   </Attack>
-  <Builder disable=""/>
   <Cost>
-    <BuildTime>120</BuildTime>
     <Resources>
       <food>0</food>
       <wood>0</wood>
@@ -62,17 +53,15 @@
     <Civ>lanayru</Civ>
     <GenericName>The Spirit of Lanayru</GenericName>
     <SpecificName>Vrylonacaia</SpecificName>
-    <History>An primordial Spirit from which Lanayru Province is named after, Vrylonacia was likely worshiped as a pagan deity by ancient Zora before the Akkalans arrived in the area and introduced worship of the Goddesses. Legend says that Vrylonacia fled the coast and into the south and slumbers somewhere beneath Hyrule's waters. While no longer active in the world, Vrylonacia's influence and symbols can be found throughout all of the Province's architecture and culture.</History>
+    <History>The primordial Spirit from which Lanayru Province is named after, Vrylonacia was likely worshiped as a pagan deity by ancient Zora before the Akkalans arrived in the area and introduced worship of the Goddesses. Legend says that Vrylonacia fled the coast and into the south and slumbers somewhere beneath Hyrule's waters. While no longer active in the world, Vrylonacia's influence and symbols can be found throughout all of the Province's architecture and culture.</History>
     <Tooltip>Lanayru Titan unit. Giant Melee unit that can slide over any terrain and is imune to Water damage.</Tooltip>
     <Icon>units/lanayru/lan_titan_vrylonacia.dds</Icon>
-    <VisibleClasses datatype="tokens">Titan Creature</VisibleClasses>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
   </Identity>
   <Position>
-    <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <TurnRate>2.5</TurnRate>
   </Position>
-  <Promotion disable=""/>
   <Resistance>
     <Entity>
       <Damage>
@@ -83,19 +72,6 @@
       </Damage>
     </Entity>
   </Resistance>
-  <Minimap>
-    <Type>hero</Type>
-  </Minimap>
-  <ResourceGatherer disable=""/>
-  <Selectable>
-    <Overlay>
-      <AlwaysVisible/>
-      <Texture>
-        <MainTexture>historia/1024x1024_aura.dds</MainTexture>
-        <MainTextureMask>historia/1024x1024_aura_mask.dds</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/natural/lightspirit_impact.xml</attack_impact_ranged>
@@ -117,10 +93,6 @@
     <BarHeight>1.0</BarHeight>
     <HeightOffset>20.0</HeightOffset>
   </StatusBars>
-  <TrainingRestrictions>
-    <Category>Titan</Category>
-    <MatchLimit>1</MatchLimit>
-  </TrainingRestrictions>
   <UnitMotion>
     <PassabilityClass>fly</PassabilityClass>
     <RunMultiplier>2.1428</RunMultiplier>

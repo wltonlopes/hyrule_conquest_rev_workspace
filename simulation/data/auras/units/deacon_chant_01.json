@@ -1,6 +1,7 @@
 {
 	"type": "range",
 	"radius": 20,
+	"stackable": "true",
 	"affects": ["Unit"],
 	"modifications": [
 		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 },

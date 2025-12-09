@@ -1,0 +1,18 @@
+<Entity parent="template_gaia_doodad">
+  <Footprint>
+    <Circle radius="21.0" />
+    <Height>3.5</Height>
+  </Footprint>
+  <Identity>
+    <GenericName>Forest Tunnel</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static depth="21.0" width="21.0" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>geology/landscape/tunnels/kf_logtunnel_half.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>60.0</Length>
+  </WallPiece>
+</Entity>

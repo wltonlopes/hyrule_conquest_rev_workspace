@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["CivilCentre"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/metal", "add": 1 },
+		{ "value": "ResourceTrickle/Interval", "add": 2000 }
+	],
+	"auraName": "International Banking",
+	"auraDescription": "Allies gain a slow trickle of metal."
+}

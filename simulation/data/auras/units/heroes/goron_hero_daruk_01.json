@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Health/MaxHealth", "multiply": 1.4},
+		{ "value": "Health/IdleRegenRate", "add": 1}
+	],
+	"auraName": "Inner Peace",
+	"auraDescription": "All units within range +40% health and +1 regeneration.",
+	"overlayIcon": "art/textures/ui/session/auras/health_bonus.png"
+}

@@ -1,0 +1,22 @@
+{
+  "genericName": "Burnt Offering",
+  "description": "Call upon the blessing of Latoan, and he will repay you with more food from animals.",
+  "cost": {
+    "food": 250,
+    "wood": 0,
+    "stone": 0,
+    "metal": 100
+  },
+  "requirements": {
+    "all": [
+      { "tech": "phase_town" },
+      { "civ": "ordona" }
+    ]
+  },
+  "icon": "ordona/chapel_burntoffering.dds",
+  "researchTime": 40,
+  "tooltip": "Herdable animals provide an immediate 25 Food when slain for gathering.",
+  "modifications": [{"value": "Loot/food", "add": 25}],
+  "affects": [ "Animal" ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

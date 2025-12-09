@@ -46,5 +46,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_spec.xml</material>
+  <material>basic_trans_ao_norm_spec.xml</material>
 </actor>

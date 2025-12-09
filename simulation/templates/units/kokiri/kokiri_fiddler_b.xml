@@ -54,6 +54,11 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/kokiri_scatter
+    </Formations>
+  </UnitAI>
   <Upgrade>
     <SongofStorms>
       <Entity>units/kokiri/kokiri_fiddler_upgA</Entity>

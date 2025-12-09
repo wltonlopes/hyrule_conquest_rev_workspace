@@ -1,0 +1,16 @@
+{
+	"genericName": "Sharpnuts",
+	"description": "Deku Nuts can be carved to have sharp sides, cutting enemies.",
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 250},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"supersedes": "deku/attack_pointnuts",
+	"icon": "deku/scrubling_sleeknuts.dds",
+	"researchTime": 40,
+	"tooltip": "Adds 5 Hack damage to the Scrubling's attack.",
+	"modifications": [
+				{"value": "Attack/Melee/Damage/Hack", "add": 5}
+			 ],
+	"affects": ["Scrubling"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

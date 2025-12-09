@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
   <Footprint replace="">
-    <Circle radius="21.0"/>
+    <Circle radius="14.0"/>
     <Height>12.0</Height>
   </Footprint>
   <Health>
@@ -10,9 +10,10 @@
   <Identity>
     <Civ>darknut</Civ>
     <SpecificName>Gymnasia</SpecificName>
+    <Icon>structures/darknut/dar_gymnasia.dds</Icon>
   </Identity>
   <Obstruction>
-    <Static width="42.0" depth="42.0"/>
+    <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <VisualActor>
     <Actor>structures/darknut/darknut_barracks.xml</Actor>

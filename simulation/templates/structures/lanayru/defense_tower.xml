@@ -30,9 +30,9 @@
     <Technologies datatype="tokens">
       tower_watch
       -tower_crenellations
-      -tower_range
-      -tower_murderholes
-      tower_health
+      tower_range
+      tower_murderholes
+      -tower_health
     </Technologies>
   </Researcher>
   <Sound>

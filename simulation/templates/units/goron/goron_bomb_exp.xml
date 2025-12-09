@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack disable=""/>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>6</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>5</wood>
+      <stone>0</stone>
+      <metal>25</metal>
+    </Resources>
+  </Cost>
+  <DeathDamage>
+    <Shape>Circular</Shape>
+    <Range>50</Range>
+    <FriendlyFire>true</FriendlyFire>
+    <Damage>
+      <Fire>500</Fire>
+    </Damage>
+  </DeathDamage>
+  <Decay>
+    <DelayTime>0.1</DelayTime>
+    <SinkRate>100.0</SinkRate>
+    <SinkAccel>100.0</SinkAccel>
+  </Decay>
+  <Health>
+    <Max>5</Max>
+    <RegenRate>-1</RegenRate>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <Classes datatype="tokens">CanbeCarried</Classes>
+    <GenericName>Bomb</GenericName>
+    <History>While not the most innovative or safe of weapons, the Goron Bomb is able to be lit and carried, dealing massive damage to all nearby units when it explodes. While not the best weapon for offense, due to it's volatile nature, the Gorons often use them as traps and mixed into barracades, to eliminate invaders.</History>
+    <Tooltip>Obstruction that can be picked up by worker Gorons and carried around. Detonates at will or when killed, dealing massive damage.</Tooltip>
+    <Icon>technologies/signal_fires.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>1.0</Hack>
+        <Pierce>1.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <death>attack/weapon/bomb_explosion.xml</death>
+      <order_garrison>interface/select/building/sel_universal.xml</order_garrison>
+      <order_walk>interface/select/building/sel_universal.xml</order_walk>
+      <select>interface/select/building/sel_universal.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Upgrade>
+    <Light>
+      <Entity>units/goron/goron_bomb_b</Entity>
+      <Tooltip>Put out the bomb's fuse.</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>2</Time>
+    </Light>
+  </Upgrade>
+  <UnitMotion>
+    <RunMultiplier>1.0</RunMultiplier>
+    <WalkSpeed>0.001</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/goron/goron_bomb_exp.xml</Actor>
+  </VisualActor>
+</Entity>

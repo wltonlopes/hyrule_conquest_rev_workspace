@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_passive">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>150</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="15.0" depth="30.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Identity>
+    <Civ>zola</Civ>
+    <SpecificName>Clam Farm</SpecificName>
+    <GenericName>Field</GenericName>
+    <Classes datatype="tokens">ConquestCritical Structure</Classes>
+    <VisibleClasses datatype="tokens">Creature Resource Field</VisibleClasses>
+    <History>The Zola need to eat, especially when on the march. When the land does not provide prey, they turn to creatures brought over from the sea. Various clams and barnacles can be latched onto the shell of a Bigocto to allow the Zolas' food to come to them.</History>
+    <Tooltip>Generates Food.</Tooltip>
+    <Icon>structures/zola/zol_farm.dds</Icon>
+  </Identity>
+  <Population>
+    <Bonus>8</Bonus>
+  </Population> 
+  <Promotion disable=""/>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>Infinity</Max>
+    <Type>food.meat</Type>
+    <MaxGatherers>8</MaxGatherers>
+  </ResourceSupply>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>25.0</Crush>
+        <Hack>5.0</Hack>
+        <Pierce>10.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/siege/ram_attack.xml</attack_melee>
+      <death>voice/zola/octogiant/octogiant_death.xml</death>
+      <order_attack>voice/zola/octogiant/octogiant_attack.xml</order_attack>
+      <order_garrison>voice/zola/octogiant/octogiant_garrison.xml</order_garrison>
+      <order_gather>voice/zola/octogiant/octogiant_gather.xml</order_gather>
+      <order_repair>voice/zola/octogiant/octogiant_repair.xml</order_repair>
+      <order_walk>voice/zola/octogiant/octogiant_walk.xml</order_walk>
+      <run>actor/movement/bigocto/bigocto_crawl.xml</run>
+      <select>voice/zola/octogiant/octogiant_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <walk>actor/movement/bigocto/bigocto_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <FeedTimeMax>12000</FeedTimeMax>
+    <FeedTimeMin>5000</FeedTimeMin>
+    <DefaultStance>passive</DefaultStance>
+    <RoamDistance>5.0</RoamDistance>
+    <RoamTimeMax>1000</RoamTimeMax>
+    <RoamTimeMin>500</RoamTimeMin>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>huge_amphibious</PassabilityClass>
+    <RunMultiplier>1.2307</RunMultiplier>
+    <WalkSpeed>3.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>50</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/zola/zol_octohuge_farm.xml</Actor>
+  </VisualActor>
+</Entity>

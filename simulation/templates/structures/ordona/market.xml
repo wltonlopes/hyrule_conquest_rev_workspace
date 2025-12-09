@@ -18,6 +18,12 @@
   <Obstruction>
     <Static depth="43.0" width="43.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      ordona/trade_honeyexport
+      ordona/trade_goat_caravan
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/ordona/ordona_hero_beth

@@ -21,7 +21,6 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}/fortress
-      structures/lanayru/monument
     </Entities>
   </Builder>
   <Health>
@@ -29,12 +28,19 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">Swimmer</Classes>
     <SpecificName>Shore Sentry</SpecificName>
     <History>All along the rivers and coasts of Lanayru Province a network of Sentries stand watch and guard. These lightly armored units pass on armor in favor of speed and camouflage. If enemy invaders approach the Shore Sentry can easily escape to warn the Province's main force, or in more desperate situations ambush their enemies and stall their forces.</History>
     <Tooltip>Scout unit armed with a spear.</Tooltip>
     <Icon>units/lanayru/lan_sentry.dds</Icon>
+    <VisibleClasses datatype="tokens">Volunteer</VisibleClasses>
   </Identity>
   <Promotion disable=""/>
+  <ResourceGatherer>
+    <Rates>
+      <food.fish>1.8</food.fish>
+    </Rates>
+  </ResourceGatherer>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/arrowfly.xml</attack_melee>
@@ -56,6 +62,11 @@
     <RunMultiplier>1.0967</RunMultiplier>
     <WalkSpeed>15.5</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility> 
   <VisualActor>
     <Actor>units/lanayru/lanayru_shoresentry_b.xml</Actor>
   </VisualActor>

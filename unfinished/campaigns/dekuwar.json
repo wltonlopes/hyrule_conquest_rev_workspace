@@ -1,0 +1,29 @@
+{
+	"Name": "Deku Civil War",
+	"Description": "Play through a civil war between two Deku Scrub factions.",
+	"Levels": {
+		"begin": {
+			"Name": "Seeds of War",
+			"Map": "campaigns/seeds_of_war.xml",
+			"MapType": "scenario",
+			"Description": "The Deku Scrubs have never been united, but now a group of rebel scrubs have attacked! Drive out these traitors and avenge destruction of several towns to earn the respect of the King.",
+			"Preview": "session/icons/mappreview/seeds_of_war.png"
+		},
+		"middle": {
+			"Name": "Battle for the Forest",
+			"Map": "campaigns/battle_for_the_forest.xml",
+			"MapType": "scenario",
+			"Description": "The stronghokd of the rebels has been located. Command your forces, amass an invasion force, and destroy their bases to win, but beware: the murky swamp river may hide enemies from plain sight...",
+			"Requires": "begin"
+		},
+		"end": {
+			"Name": "Woodtemple Battle",
+			"Map": "campaigns/deku3.xml",
+			"MapType": "scenario",
+			"Description": "The enemy has been pushed back to the Great Temple. Now, we will end this war!",
+			"Requires": "middle"
+		}
+	},
+	"Order": ["begin", "middle", "end"],
+	"ShowUnavailable": true
+}

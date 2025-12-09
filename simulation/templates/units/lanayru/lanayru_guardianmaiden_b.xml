@@ -36,6 +36,7 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">Swimmer</Classes>
     <SpecificName>Guardian Maiden</SpecificName>
     <GenericName>Lanayru Worker</GenericName>
     <History>Guardian Maidens are Zora woman who dedicated their lives to protecting the Province, in particular the royal bloodline. Forgoing all material possessions, relationships, and any form of personal lives, they do nothing but their job until the day they die; hopefully in battle. So long as a Guardian Maiden is in formation with a Commander or Hero, the Guardian Maiden will deflect most damage from that Commander or Hero until she is slain.</History>

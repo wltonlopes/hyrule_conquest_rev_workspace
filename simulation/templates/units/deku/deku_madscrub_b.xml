@@ -50,6 +50,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub</Classes>
     <SpecificName>Mad Scrub</SpecificName>
     <History>A very angry scrub, Mad Scrubs are tasked with defending the Royal Deku Family. Shooting out Deku Nuts much faster and harder than Scrublings, Mad Scrubs are feared by the other Deku for their tendency to start a fight at any slight, real or percived. It is rumored that Mad Scrubs are the result of Mad Scrub, a disease that is so rare it's existence has not been proved.</History>
     <Tooltip>Tiny Missile unit that spots out Deku Nuts at their targets.</Tooltip>

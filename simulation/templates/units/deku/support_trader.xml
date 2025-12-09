@@ -13,6 +13,7 @@
   </Footprint>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub</Classes>
     <SpecificName>Buisness Scrub</SpecificName>
     <History>The most commonly encountered Scrub outside of the Forests, Business Scrubs are entirely motivated by profit by any means. They'll strike a deal with anyone, so long as Rupees or capital are part of the bargain. They tend to be very friendly and agreeable, and are favored merchants in many places of Hyrule.</History>
     <Icon>units/deku/dek_businessscrub.dds</Icon>

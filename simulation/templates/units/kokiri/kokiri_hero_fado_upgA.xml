@@ -4,6 +4,11 @@
     units/heroes/kokiri_hero_fado_01
     units/heroes/kokiri_hero_fado_songstorms
   </Auras>
+  <Sound>
+    <SoundGroups>
+      <trained>interface/alarm/fado/fado_songofstorms.xml</trained>
+    </SoundGroups>
+  </Sound>
   <Upgrade>
     <SongofQuartTime>
       <Entity>units/kokiri/kokiri_hero_fado_upgB</Entity>

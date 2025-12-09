@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="minutemen">
+      <mesh>units/kokiri/kok_doublebaseA.dae</mesh>
+      <props>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/storm.xml" attachpoint="root"/>
+	<prop actor="particle/lightningC.xml" attachpoint="root"/>
+	<prop actor="particle/lightningC.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Kokiri">
+      <textures>
+        <texture file="skeletal/empty.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

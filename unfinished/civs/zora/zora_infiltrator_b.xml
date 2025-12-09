@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Knife</AttackName>
+      <Damage>
+        <Hack>7.0</Hack>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>1300</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}/fortress
+    </Entities>
+  </Builder>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>zora</Civ>
+    <Classes datatype="tokens">Swimmer</Classes>
+    <SpecificName>Infiltrator</SpecificName>
+    <History>Undergoing years of extreme body shaping, Infiltrators can sneak into just about any place they need to get the information they are after. Their warped frames allow them to bend into just about any position, and squeeze through any crevice that their skeleton can get through. Such talents are used by the Dominion to scout and spy on their neighboring lands.</History>
+    <Tooltip>Zora Scout unit that is stealthed.</Tooltip>
+    <Icon>units/zora/zor_infiltrator.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <ResourceGatherer>
+    <Rates>
+      <food.fish>1.8</food.fish>
+    </Rates>
+  </ResourceGatherer>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/arrowfly.xml</attack_melee>
+      <death>voice/zora/infiltrator/infiltrator_death.xml</death>
+      <order_attack>voice/zora/infiltrator/infiltrator_attack.xml</order_attack>
+      <order_garrison>voice/zora/infiltrator/infiltrator_garrison.xml</order_garrison>
+      <order_gather>voice/zora/infiltrator/infiltrator_gather.xml</order_gather>
+      <order_repair>voice/zora/infiltrator/infiltrator_repair.xml</order_repair>
+      <order_walk>voice/zora/infiltrator/infiltrator_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/zora/infiltrator/infiltrator_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <RunMultiplier>1.0967</RunMultiplier>
+    <WalkSpeed>16</WalkSpeed>
+  </UnitMotion>
+  <Visibility>
+    <Stealth>
+      <RevealOnAttackDelay>3000</RevealOnAttackDelay>
+    </Stealth>
+  </Visibility>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/zora/zora_infiltrator_b.xml</Actor>
+  </VisualActor>
+</Entity>

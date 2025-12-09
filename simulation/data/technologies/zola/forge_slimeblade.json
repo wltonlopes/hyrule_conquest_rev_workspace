@@ -1,0 +1,19 @@
+{
+	"genericName": "Slime Blades",
+	"description": "By adding Zol slime to your soldiers weapons, you can increase their damage as the acidic go eats through an opponent's armor and flesh.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": { "all": 
+				[
+					{ "entity": { "class": "ZolaBreeder", "number": 1 } }
+				] 
+			},
+	"requirementsTooltip": "Unlocked with the Zol Octo.",
+	"icon": "sword_poison.png",
+	"researchTime": 40,
+	"tooltip": "Drudges and Geozards now deal 3 Water damage.",
+	"modifications": [
+				{"value": "Attack/Melee/Damage/Water", "add": 3}
+			 ],
+	"affects": ["Slimeblade"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

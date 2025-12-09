@@ -1,0 +1,13 @@
+{
+	"genericName": "Log Conservation",
+	"description": "Although there is no shortage of wood within the Deku Kingdom, they are nonetheless careful with their supplies and assur that enough logs are always stored for construction.",
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 0},
+	"requirements": {"all": [ {"tech": "phase_town"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "deku/building_logcons.dds",
+	"researchTime": 40,
+	"tooltip": "Buildings cost 25% less wood.",
+	"modifications": [{ "value": "Cost/Resources/wood", "multiply": 0.75 }],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

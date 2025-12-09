@@ -25,9 +25,9 @@
     </Ranged>
   </Attack>
   <Cost>
-    <BuildTime>150</BuildTime>
+    <BuildTime>500</BuildTime>
     <Resources>
-      <wood>300</wood>
+      <wood>800</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>
@@ -42,10 +42,11 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrubling</Classes>
     <History>A Small Encampment set up by Deku Scrubs, serving as a base of operations in this region. Its presence likely indicates that the Scrubs will expand into a city.</History>
     <Icon>structures/deku/dek_encampment.dds</Icon>
     <Tooltip>A smaller Civil Center that all Resources can be dropped off here.</Tooltip>
-    <SpecificName>Smalll Encampment</SpecificName>
+    <SpecificName>Small Encampment</SpecificName>
   </Identity>
   <Loot>
     <wood>200</wood>

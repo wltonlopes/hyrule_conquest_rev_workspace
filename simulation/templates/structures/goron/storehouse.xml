@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>200</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Quarry</SpecificName>
+    <Classes datatype="tokens">DropsiteFood</Classes>
+    <VisibleClasses datatype="tokens">Farmstead</VisibleClasses>
+    <History>Goron quarries are considered some of the most profitable in all of Hyrule, and many dot the Death Mountain landscape. A lone Goron Quarry can provide enough resources to constuct an entire city.</History>
+    <Icon>structures/goron/gor_quarry.dds</Icon>
+  </Identity>
+  <Obstruction>
+    <Static depth="25.0" width="25.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -gather_lumbering_ironaxes
+      -gather_lumbering_strongeraxes
+      -gather_lumbering_sharpaxes
+      gather_mining_servants
+      gather_mining_serfs
+      gather_mining_slaves
+      gather_mining_wedgemallet
+      gather_mining_shaftmining
+      gather_mining_silvermining
+      gather_capacity_basket
+      gather_capacity_wheelbarrow
+      gather_capacity_carts
+    </Technologies>
+  </Researcher>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+  </ResourceDropsite>
+  <TerritoryInfluence>
+    <Radius>20</Radius>
+    <Root>true</Root>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/goron/goron_quarryA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

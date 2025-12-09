@@ -142,11 +142,20 @@
 	],
 	"SkirmishReplacements":
 	{
+		"skirmish/units/default_support_female_citizen": "units/ordona/support_female_citizen",
+		"skirmish/units/default_infantry_melee_b": "units/ordona/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/ordona/infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/ordona/ordona_horseman_b",
+		"skirmish/units/default_ship_arrow": "units/ordona/ordona_hawk_b",
+		"skirmish/units/default_ship_scout": "units/ordona/ordona_hawk_b",
+		"skirmish/units/default_siege_ram": "units/ordona/ordona_siegeram_b",
+		"skirmish/units/default_cavalry": "units/ordona/ordona_billybat_b",
+		"skirmish/units/special_starting_unit": "units/ordona/ordona_roughrider_b",
+		"skirmish/structures/default_corral": "structures/ordona/field",
+		"skirmish/structures/default_dock": "structures/ordona/defense_tower",
+		"skirmish/structures/default_house_5": "structures/ordona/house",
 		"skirmish/structures/default_house_10": "structures/ordona/house",
-		"skirmish/structures/default_civil_centre": "structures/ordona/civil_centre",
-		"skirmish/structures/default_fortress": "structures/ordona/fortress"
+		"skirmish/structures/default_outpost": "structures/ordona/sentry_tower",
+		"skirmish/structures/default_range": "structures/ordona/stableB"
 	},
 	"SelectableInGameSetup": true
 }

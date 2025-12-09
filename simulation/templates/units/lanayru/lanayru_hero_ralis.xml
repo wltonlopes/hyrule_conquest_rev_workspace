@@ -36,6 +36,7 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">SilverArmor</Classes>
     <SpecificName>Ralis</SpecificName>
     <GenericName>The Silver Prince</GenericName>
     <History>The Son of King De Bon and Queen Rutela, Ralis was born shortly after the royal divorce. For most of his life he lacked a father figure and was raised entirely by his mother, perhaps stunting his maturity as a result. Perhaps foolishly he associates bravado and aggressiveness with masculinity, leading to him to become a somewhat reckless warrior Prince.</History>

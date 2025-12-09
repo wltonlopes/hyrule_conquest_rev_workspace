@@ -31,6 +31,12 @@
   <Obstruction>
     <Static depth="40.0" width="40.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      deku/pikit_barbed
+      deku/manhandla_megasymb
+    </Technologies>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/deku/complete_menagerie.xml</constructed>

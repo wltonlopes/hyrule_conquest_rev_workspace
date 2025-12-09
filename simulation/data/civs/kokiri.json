@@ -19,6 +19,7 @@
 		{"File": "kokiri_battle2.ogg", "Type": "battle"},
 		{"File": "kokiri_battle3.ogg", "Type": "battle"},
 		{"File": "kokiri_battle4.ogg", "Type": "battle"},
+		{"File": "kokiri_defeat1.ogg", "Type": "defeat"},
 		{"File": "kokiri_victory1.ogg", "Type": "victory"}
 	],
 	"Factions":
@@ -47,10 +48,38 @@
 				},
 				{
 					"Name": "Fado, the Sage of Winds",
-					"Class": "Support",
+					"Class": "Support Infantry",
 					"Armament": "Fiddle",
 					"Emblem": "",
 					"History": "One of Saria's close friends and a famous musician, Fado is skilled with all manner of stringed intruments. He often organizes the many Kokiri festivals, but when danger looms over the forest he plays a tune to keep spirits high and troops in marching order."
+				},
+				{
+					"Name": "Makar, the Korok Sage",
+					"Class": "Cavalry Spearman",
+					"Armament": "Deku Stick",
+					"Emblem": "",
+    					"History": "Riding on the Sprout of the Great Deku Tree, Makar is a very young and wide eyed Korok who is eager to explore beyond the forest."
+				},
+				{
+					"Name": "Fadola",
+					"Class": "Infantry Archer",
+					"Armament": "Slingshot",
+					"Emblem": "",
+    					"History": "Fadola is one of the less social Kokiri, often spending her time in high places that other Kokiri are afraid to climb to. She has a very calm and friendly demeanor to those that know her. Rumor has it that Fadola is the world's greatest Slingshotter, but she lacks the pride to boast and prove if it's true."
+				},
+				{
+					"Name": "Mirora, Chief of the Mudmen",
+					"Class": "Cavalry Swordsman",
+					"Armament": "Fangs and Claws",
+					"Emblem": "",
+    					"History": "The leader of the Mudmen of Faron, Mirora briefly served as the head Chief of all the Kokiri while Mido was on a quest. Although not quite suited for governance, Mirora's years of experience defending the borders of the Forest make her an ideal general. Mirora is known for her rather short temper, especially for a Kokiri. She prefers to solve problems through force and sees ranged weapons as dishonorable. She is also quite a wild dancer, as is common amongst the Mudmen."
+				},
+				{
+					"Name": "The Know-It-All Brothers",
+					"Class": "Melee Infantry",
+					"Armament": "Sword, Axe, and Spear",
+					"Emblem": "",
+    					"History": "The Know-It-All-Brothers are quite famous among the Kokiri, mainly for the trait that no Kokiri can tell the brothers apart. They spend most of their time doing chores around the Deku Tree's Grove, much to their dismay. Still, they have some weapons skills, and can defend their people when the need arises."
 				},
 				{
 					"Name": "Titan: The Great Deku Tree",
@@ -117,18 +146,33 @@
 	],
 	"AINames":
 	[
-		"Saria Emeraldbow",
-		"Fado of the Winds",
+		"Saria, Sage of the Forest",
+		"Fado, Sage of the Winds",
 		"Mido, Chief Kokiri",
-		"The Great Deku Tree"
+		"Fadola",
+		"Makar, the Korok Sage",
+		"The Know-It-All-Brothers",
+		"Mirora, Chief of the Mudmen",
+		"King Kasuto, The Great Deku Tree"
 	],
 	"SkirmishReplacements":
 	{
+		"skirmish/units/default_support_female_citizen": "units/kokiri/support_female_citizen",
+		"skirmish/units/default_infantry_melee_b": "units/kokiri/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/kokiri/infantry_archer_b",
+		"skirmish/units/default_ship_arrow": "units/kokiri/kokiri_wanderer_b",
+		"skirmish/units/default_ship_scout": "units/kokiri/kokiri_wanderer_b",
+		"skirmish/units/default_siege_ram": "units/kokiri/kokiri_logram_b",
 		"skirmish/units/default_cavalry": "units/kokiri/kokiri_huntingfox",
+		"skirmish/units/special_starting_unit": "units/kokiri/kokiri_fiddler_b",
+		"skirmish/structures/default_corral": "structures/kokiri/field",
+		"skirmish/structures/default_dock": "structures/kokiri/barracksC",
+		"skirmish/structures/default_fortress": "structures/kokiri/temple",
+		"skirmish/structures/default_house_5": "structures/kokiri/house",
 		"skirmish/structures/default_house_10": "structures/kokiri/house",
-		"skirmish/structures/default_civil_centre": "structures/kokiri/civil_centre",
-		"skirmish/structures/default_fortress": "structures/kokiri/barracksB"
+		"skirmish/structures/default_outpost": "structures/kokiri/defense_tower",
+		"skirmish/structures/default_range": "structures/kokiri/barracksB",
+		"skirmish/structures/default_sentry_tower": "structures/kokiri/defense_tower"
 	},
 	"SelectableInGameSetup": true
 }

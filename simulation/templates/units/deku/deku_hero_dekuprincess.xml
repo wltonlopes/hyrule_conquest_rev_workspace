@@ -45,6 +45,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub</Classes>
     <GenericName>Princess of the Deku Scrubs</GenericName>
     <SpecificName>Kad-A-Kana</SpecificName>
     <History>The only daughter of King Kud-Loh-Kan, Kad-A-Kana may not be the one sitting on the throne, but she is certainly the one calling the shots. Her father can not help but give in to her demands, and many of the Scrubs wonder just who exactly is in charge.</History>

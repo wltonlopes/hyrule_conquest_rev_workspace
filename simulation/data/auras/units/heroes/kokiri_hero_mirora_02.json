@@ -1,0 +1,13 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Wolfos"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.2 }
+	],
+	"auraName": "Blood Moon",
+	"auraDescription": "All wolfos near Mirora gain a +20% damage bonus.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.dds"
+}

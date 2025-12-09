@@ -18,6 +18,17 @@
   <Obstruction>
     <Static depth="28.0" width="28.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -siege_attack
+      -siege_health
+      -siege_pack_unpack
+      -siege_bolt_accuracy
+      ordona/siege_sideseats
+      ordona/siege_timberram
+      ordona/siege_boozeboulder
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/ordona/ordona_warwagon_b

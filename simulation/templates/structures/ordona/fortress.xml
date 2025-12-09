@@ -60,6 +60,16 @@
   <Population>
     <Bonus>10</Bonus>
   </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -tower_garrison
+      -art_of_war
+      -poison_arrows
+      -poison_blades
+      -roman_reforms
+      ordona/garrison_rangerwatch
+    </Technologies>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <attack_ranged>attack/natural/dekuscrub_spit.xml</attack_ranged>

@@ -29,5 +29,5 @@
       <variant file="HC_thopter/base_HC_biped_slaughter.xml"/>
       <variant file="HC_thopter/base_HC_biped_death.xml"/>
   </group>
-  <material>player_trans_norm_spec.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

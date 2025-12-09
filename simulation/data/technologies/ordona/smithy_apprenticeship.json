@@ -1,0 +1,17 @@
+{
+	"genericName": "Apprenticeships",
+	"description": "Begin training apprentices at forges, allowing better weapons and armor.",
+	"cost": {"food": 350, "wood": 0, "stone": 0, "metal": 150},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "ordona"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "ordona/smithy_apprenticeship.dds",
+	"researchTime": 40,
+	"tooltip": "Melee unit attack damage is increased by +15%",
+	"modifications": [
+				{"value": "Attack/Melee/Damage/Hack", "multiply": 1.15},
+				{"value": "Attack/Melee/Damage/Pierce", "multiply": 1.15},
+				{"value": "Attack/Melee/Damage/Crush", "multiply": 1.15}
+			 ],
+	"affects": ["Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

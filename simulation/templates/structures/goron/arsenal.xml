@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Cost>
+    <BuildTime>250</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>150</stone>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="60.0" width="60.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <History>Test sites devoted to creating some of the most powerful explosive weaponry around, these Foundries are often lit up in a display of fireworks on a daily basis.</History>
+    <SpecificName>Explosive Foundry</SpecificName>
+    <Icon>structures/goron/gor_explfoundry.dds</Icon>
+    <Tooltip>Trains explosive Goron units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="45.0" depth="45.0"/>
+  </Obstruction>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/goron/goron_bomb_b
+      units/goron/goron_bombthrower_b
+      units/goron/goron_powderkegl_packed
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/goron/goron_explfoundryA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

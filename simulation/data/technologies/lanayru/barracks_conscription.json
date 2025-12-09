@@ -1,0 +1,22 @@
+{
+	"genericName": "Forced Conscription",
+	"description": "Mass produce your armies, at the price of weaker soldiers.",
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 500},
+	"supersedes": "lanayru/barracks_volunteers",
+	"requirements": {"all": 
+				[
+					{"tech": "phase_city"}, 
+					{"civ": "lanayru"}
+				]
+			},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "lanayru/barrackshub_volunteers.dds",
+	"researchTime": 60,
+	"tooltip": "All volunteers train instantly, at the price of having 2/3 health",
+	"modifications": [
+				{"value": "Cost/BuildTime", "multiply": 0.01},
+				{"value": "Health/Max", "multiply": 0.66}
+			 ],
+	"affects": ["Volunteer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

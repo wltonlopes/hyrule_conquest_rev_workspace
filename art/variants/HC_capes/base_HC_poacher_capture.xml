@@ -1,0 +1,8 @@
+<variant name="attack_capture">
+  <animations>
+	<animation event="0.81" file="HC_capes/biped_hum_cape_archeratt.dae" name="Idle" id="idle_capture" speed="121"/>
+  </animations>
+  <props>
+	<prop actor="particle/scentseed_smokeA.xml" attachpoint="bone_Lhand"/>
+  </props>
+</variant>

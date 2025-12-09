@@ -5,6 +5,14 @@
     <Circle radius="7.0"/>
     <Height>7.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>0</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
   <Health>
     <Max>610</Max>
   </Health>
@@ -15,7 +23,7 @@
     <History>Most often these Coaches serve as transports, both for people and goods, but during a time of war they are converted to carriers that ship soldiers across the vast plains of Ordona. War Wagons can hold up to six soldiers and bring them across large stretches of land very quickly, making them ideal for charging armies past towers and defenses in order to drop off their combat load. Ranged units can also attack from the windows of the carriage, allowing War Wagons to become mobile attack platforms.</History>
     <Tooltip>Transport unit that can carry other units to battle. Ranged units can attack from the Wagon while turreted.</Tooltip>
     <Icon>units/ordona/ord_warwagon.dds</Icon>
-    <VisibleClasses datatype="tokens">Support</VisibleClasses>
+    <VisibleClasses datatype="tokens">Support Transport</VisibleClasses>
   </Identity>
   <Promotion disable=""/>
   <Sound>

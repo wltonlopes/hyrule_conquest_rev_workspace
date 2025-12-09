@@ -21,15 +21,23 @@
     <History>A gathering place for warriors whom wield Silver weaponry as well as a blacksmith for the creation of Lanayru's signature tools. The Silver Armory can produce some of the Province's finest troops.</History>
     <SpecificName>Silver Armory</SpecificName>
     <Icon>structures/lanayru/lan_silverarmory.dds</Icon>
-    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <VisibleClasses datatype="tokens">-Village City</VisibleClasses>
     <Tooltip>Trains Silver Lanayru combat units.</Tooltip>
     <Requirements>
-      <Techs datatype="tokens">-phase_village phase_town</Techs>
+      <Techs datatype="tokens">-phase_village phase_city</Techs>
     </Requirements>
   </Identity>
   <Obstruction>
     <Static width="33.0" depth="33.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -barracks_batch_training
+      -unlock_champion_infantry
+      -pair_unlock_champions_sele
+      lanayru/barracks_hullmount
+    </Technologies>
+  </Researcher>
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">

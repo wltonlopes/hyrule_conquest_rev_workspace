@@ -68,6 +68,11 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/kokiri_scatter
+    </Formations>
+  </UnitAI>
   <VisualActor>
     <Actor>units/kokiri/kokiri_minutemen_b.xml</Actor>
   </VisualActor>

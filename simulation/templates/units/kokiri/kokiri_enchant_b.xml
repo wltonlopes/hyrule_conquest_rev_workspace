@@ -28,6 +28,10 @@
         <Range>20</Range>
         <Shape>Circular</Shape>
       </Splash>
+      <Stun>
+        <Chance>30</Chance>
+        <Time>2500</Time>
+      </Stun>
     </Ranged>
   </Attack>
   <Builder disable=""/>
@@ -98,6 +102,9 @@
     </SoundGroups>
   </Sound>
   <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/kokiri_scatter
+    </Formations>
     <DefaultStance>aggressive</DefaultStance>
   </UnitAI>
   <VisualActor>

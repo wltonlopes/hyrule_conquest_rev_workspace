@@ -24,7 +24,6 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}/fortress
-      structures/lanayru/monument
     </Entities>
   </Builder>
   <Health>
@@ -32,12 +31,19 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">CoralArcher Swimmer</Classes>
     <SpecificName>Coral Archer</SpecificName>
     <History>Armed with infamous coralmold tipped arrows, Lanayru’s Coral Archers are a cheap counter to heavily armored units. In most cases they can level the playing field by softening up heavy armor for Lanayru’s lighter forces to deal with.</History>
     <Tooltip>Light Archer unit with poisonous arrows.</Tooltip>
     <Icon>units/lanayru/lan_coralarcher.dds</Icon>
+    <VisibleClasses datatype="tokens">Volunteer</VisibleClasses>
   </Identity>
   <Promotion disable=""/>
+  <ResourceGatherer>
+    <Rates>
+      <food.fish>1.8</food.fish>
+    </Rates>
+  </ResourceGatherer>
   <Sound>
     <SoundGroups>
       <attack_ranged>attack/weapon/bow_TP_fire.xml</attack_ranged>

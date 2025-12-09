@@ -10,6 +10,10 @@
       <MaxRange>5.0</MaxRange>
       <PrepareTime>900</PrepareTime>
       <RepeatTime>1000</RepeatTime>
+      <Stun>
+        <Chance>80</Chance>
+        <Time>1500</Time>
+      </Stun>
     </Melee>
   </Attack>
   <Builder disable=""/>

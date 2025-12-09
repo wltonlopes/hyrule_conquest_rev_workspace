@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Cost>
+    <BuildTime>800</BuildTime>
+    <Resources>
+      <wood>500</wood>
+      <stone>500</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2500</Max>
+  </Health>
+  <Identity>
+    <Civ>zola</Civ>
+    <History>The center of any Zola establishment, These large Octocaves grow the beasts to massive sizes, allowing the Zola to create their nomadic communities.</History>
+    <SpecificName>Bigocto Nest</SpecificName>
+    <Icon>structures/zola/zol_cave.dds</Icon>
+    <Tooltip>Center of a Zola Settlement. Summons Zola Heroes. Manned with archers for defense.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>100</wood>
+    <stone>250</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="33.0" width="33.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -phase_town_{civ}
+      -phase_city_{civ}
+      unlock_shared_los
+      zola/unlock_spies
+      zola/spy_counter
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/natural/octorok_spit.xml</attack_ranged>
+      <constructed>interface/complete/building/zola/complete_civ_center_zola.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/zola/sel_civ_center_zola.xml</select>
+      <upgraded>interface/complete/building/zola/complete_civ_center_zola.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/zola/zola_biri_b
+      units/zola/zola_octorok_b
+      structures/zola/house
+      structures/zola/field
+      structures/zola/barracks
+      structures/zola/barracksB
+      structures/zola/barracksC
+      structures/zola/barracksD
+      structures/zola/forge
+      structures/zola/market
+      structures/zola/zola_hero_zaro
+      structures/zola/zola_hero_oren
+      structures/zola/zola_titan_aquamentus
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>16.5</Y>
+        <Z>11</Z>
+      </Archer1>
+      <Archer2>
+        <X>0</X>
+        <Y>16.5</Y>
+        <Z>-11</Z>
+      </Archer2>
+      <Archer3>
+        <X>11</X>
+        <Y>16.5</Y>
+        <Z>0</Z>
+      </Archer3>
+      <Archer4>
+        <X>-11</X>
+        <Y>16.5</Y>
+        <Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>7.5</X>
+        <Y>16.5</Y>
+        <Z>7.5</Z>
+      </Archer5>
+      <Archer6>
+        <X>-7.5</X>
+        <Y>16.5</Y>
+        <Z>7.5</Z>
+      </Archer6>
+      <Archer7>
+        <X>7.5</X>
+        <Y>16.5</Y>
+        <Z>-7.5</Z>
+      </Archer7>
+      <Archer8>
+        <X>-7.5</X>
+        <Y>16.5</Y>
+        <Z>-7.5</Z>
+      </Archer8>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/zola/zol_octocaveA.xml</Actor>
+  </VisualActor>
+</Entity>

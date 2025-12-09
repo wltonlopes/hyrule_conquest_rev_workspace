@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_stone">
+  <Attack>
+    <Ranged>
+      <AttackName>Fire Bomb</AttackName>
+      <Damage>
+        <Fire>10.0</Fire>
+      </Damage>
+      <MaxRange>90.0</MaxRange>
+      <MinRange>30.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>2500</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/catapult_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>40.0</Speed>
+        <Spread>2.5</Spread>
+      </Projectile>
+      <RepeatTime>6000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Fire>10.0</Fire>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>10</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>2</DefaultArrowCount>
+  </BuildingAI>
+  <Footprint replace="">
+    <Circle radius="21.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>100</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_tiny</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Bomb Tower</SpecificName>
+    <History>Manned by a Bomb Thrower and placed along the borders of Goron lands, these towers can halt and even ward off approaching invaders with their explosive weaponry.</History>
+    <Icon>structures/goron/gor_bombtower.dds</Icon>
+    <Tooltip>Defensive Tower that hurls explosive bombs at enemies.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="25" depth="25"/>
+  </Obstruction>
+  <StatusBars>
+    <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>19.0</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>16</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>0</X>
+        <Y>16</Y>
+        <Z>7</Z>
+      </Archer2>
+      <Archer3>
+        <X>0</X>
+        <Y>16</Y>
+        <Z>-7</Z>
+      </Archer3>
+      <Archer4>
+        <X>7</X>
+        <Y>16</Y>
+        <Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>-7</X>
+        <Y>16</Y>
+        <Z>0</Z>
+      </Archer5>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/goron/goron_towerA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+</Entity>

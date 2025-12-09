@@ -1,0 +1,18 @@
+{
+  "genericName": "Side Seats",
+  "description": "Add two extra seats for carrying soldiers.",
+  "cost": { "food": 0, "wood": 400, "stone": 0, "metal": 0},
+  "requirements": {
+    "all": [
+      { "tech": "phase_city" },
+      { "civ": "ordona" }
+    ]
+  },
+  "requirementsTooltip": "Unlocked with City Phase.",
+  "icon": "ordona/carriagebarn_sideseats.dds",
+  "researchTime": 40,
+  "tooltip": "War Wagons can carry an additional two passengers, though they cannot fire ranged attacks.",
+  "modifications": [{ "value": "GarrisonHolder/Max", "add": 2.0 }],
+  "affects": [ "Transport" ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

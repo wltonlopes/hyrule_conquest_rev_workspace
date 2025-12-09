@@ -31,6 +31,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub</Classes>
     <SpecificName>Underling</SpecificName>
     <GenericName>Deku Worker</GenericName>
     <History>Underlings are at the bottom of the Scrub hierarchy. Underlings work tirelessly to build and maintain the Scrub civilization, and are often bossed around by other Scrubs. They do not seem to mind much though, in fact Underlings that have no work to accomplish tend to become depressed and find ways to start trouble. Some Underlings will carry Scrublings on top of their shoulders to defend them while they work.</History>

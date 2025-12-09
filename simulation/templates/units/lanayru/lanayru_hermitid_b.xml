@@ -38,11 +38,11 @@
   <Identity>
     <Civ>lanayru</Civ>
     <SpecificName>Hermitid</SpecificName>
-    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
+    <Classes datatype="tokens">Hermitid</Classes>
     <History>A very large creature possibly related to the Praddle Prawns, the Hermitid is a slow moving monster with a very durable and giant shell. All but the most powerful of blunt weaponry and magic can break through the creature's thick armor. The slow moving speed of the Hermitid makes it a poor combatant, but a group of soldiers can ride inside its shell protected from enemy attacks.</History>
     <Tooltip>Large Support Creature that can ferry large amounts of soldiers in its protective shell.</Tooltip>
     <Icon>units/lanayru/lan_hermitid.dds</Icon>
-    <VisibleClasses datatype="tokens">Support</VisibleClasses>
+    <VisibleClasses datatype="tokens">Creature Support</VisibleClasses>
   </Identity>
   <Resistance>
     <Entity>

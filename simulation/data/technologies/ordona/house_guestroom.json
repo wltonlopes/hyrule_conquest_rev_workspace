@@ -1,0 +1,13 @@
+{
+	"genericName": "Guest Rooms",
+	"description": "Add a guest room to all Ordonian houses.",
+	"cost": {"food": 0, "wood": 200, "stone": 150, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "ordona"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "ordona/serfstead_guestroom.dds",
+	"researchTime": 40,
+	"tooltip": "Homesteads all provide +1 additional population.",
+	"modifications": [{"value": "Population/Bonus", "add": 1}],
+	"affects": ["House"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

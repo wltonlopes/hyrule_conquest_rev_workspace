@@ -68,6 +68,11 @@
     <RunMultiplier>1.2222</RunMultiplier>
     <WalkSpeed>18.0</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Stealth>
+      <RevealOnAttackDelay>8000</RevealOnAttackDelay >
+    </Stealth>
+  </Visibility>  
   <Vision>
     <Range>80</Range>
   </Vision>

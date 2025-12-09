@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/goron/gor_warsalamanderA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/goron/medium/gor_warsalamanderA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/goron/low/gor_warsalamanderA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant frequency="1" name="Main">
+        <animations>
+          <animation file="HC_salamander_large/salamander_idle.dae" name="Idle" speed="50"/>
+          <animation file="HC_salamander_large/salamander_idleA.dae" name="Idle" speed="50"/>
+          <animation file="HC_salamander_large/salamander_idleB.dae" name="Idle" speed="50"/>
+          <animation event="0.5" file="HC_salamander_large/salamander_attackA.dae" name="attack_ranged" speed="120"/>
+          <animation file="HC_salamander_large/salamander_walk.dae" name="Walk" speed="10"/>
+          <animation file="HC_salamander_large/salamander_walk.dae" name="Run" speed="20"/>
+          <animation file="HC_salamander_large/salamander_deathA.dae" name="Death" speed="70"/>
+        </animations>
+        <textures>
+          <texture file="skeletal/goron/gor_main2.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="100" name="Idle"/>
+      <variant name="attack_ranged">
+        <props>
+          <prop actor="particle/smoke_catapult.xml" attachpoint="tong_02"/>
+          <prop actor="particle/flame_catapult.xml" attachpoint="projectile"/>
+        </props>
+      </variant>
+      <variant name="death">
+        <props>
+          <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+          <prop actor="particle/smoke_catapult.xml" attachpoint="tong_02"/>
+        </props>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

@@ -31,6 +31,15 @@
     <Static depth="40.0" width="40.0"/>
   </Obstruction>
   <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -pop_house_01
+      -pop_house_02
+      -unlock_females_house
+      deku/bubbling_burstsoap
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/deku/deku_bubbling_b

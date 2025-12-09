@@ -1,3 +1,7 @@
+/** This is where most of the important numbers are, defining when HYRULE builds and upgrades, 
+ *  as well as how different difficulties affect the AI. 
+ */
+ 
 // These integers must be sequential
 HYRULE.DIFFICULTY_SANDBOX = 0;
 HYRULE.DIFFICULTY_VERY_EASY = 1;
@@ -30,10 +34,15 @@ HYRULE.Config = function(difficulty = HYRULE.DIFFICULTY_MEDIUM, behavior)
 	};
 
 	this.DamageTypeImportance = {
+		"True": 0.095,
+		"Spirit": 0.90,
+		"Fire": 0.90,
+		"Forest": 0.90,
+		"Shadow": 0.90,
+		"Water": 0.90,
 		"Hack": 0.085,
 		"Pierce": 0.075,
-		"Crush": 0.065,
-		"Fire": 0.095
+		"Crush": 0.065
 	};
 
 	this.Economy = {
@@ -63,74 +72,30 @@ HYRULE.Config = function(difficulty = HYRULE.DIFFICULTY_MEDIUM, behavior)
 	this.buildings =
 	{
 		"default": [],
-		"athen": [
-			"structures/{civ}/gymnasium",
-			"structures/{civ}/prytaneion",
-			"structures/{civ}/theater"
-		],
-		"brit": [],
-		"cart": [
-			"structures/{civ}/embassy_celtic",
-			"structures/{civ}/embassy_iberian",
-			"structures/{civ}/embassy_italic"
-		],
 		"deku": [
 			"structures/{civ}/barracksB",
-			"structures/{civ}/stableB",
 			"structures/{civ}/houseB",
 			"structures/{civ}/theater"
 		],
-		"gaul": [
-			"structures/{civ}/assembly"
-		],
-		"han": [
-			"structures/{civ}/academy"
-		],
-		"iber": [
-			"structures/{civ}/monument"
+		"goron": [
+			"structures/{civ}/barracksB",
+			"structures/{civ}/ampitheater",
 		],
 		"kokiri": [
 			"structures/{civ}/barracksB",
 			"structures/{civ}/barracksC"
 		],
-		"kush": [
-			"structures/{civ}/camp_blemmye",
-			"structures/{civ}/camp_noba",
-			"structures/{civ}/pyramid_large",
-			"structures/{civ}/pyramid_small",
-			"structures/{civ}/temple_amun"
-		],
-		"mace": [
-			"structures/{civ}/theater"
-		],
-		"maur": [
-			"structures/{civ}/palace",
-			"structures/{civ}/pillar_ashoka"
+		"lanayru": [
+			"structures/{civ}/bank",
+			"structures/{civ}/barracksB"
 		],
 		"ordona": [
+			"structures/{civ}/apiary",
 			"structures/{civ}/stableB"
 		],
-		"pers": [
-			"structures/{civ}/tachara"
-		],
-		"ptol": [
-			"structures/{civ}/library",
-			"structures/{civ}/theater"
-		],
-		"rome": [
-			"structures/{civ}/army_camp",
-			"structures/{civ}/temple_vesta"
-		],
-		"sele": [
-			"structures/{civ}/theater"
-		],
-		"spart": [
-			"structures/{civ}/syssiton",
-			"structures/{civ}/theater"
-		],
 		"stalfos": [
-			"structures/{civ}/barracksB",
-			"structures/{civ}/barracksC"
+			"structures/{civ}/houseB",
+			"structures/{civ}/barracksB"
 		],
 	};
 

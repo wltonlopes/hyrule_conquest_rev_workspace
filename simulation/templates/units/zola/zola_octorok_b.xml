@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Rock</AttackName>
+      <Damage>
+        <Pierce>0</Pierce>
+        <Crush>10.0</Crush>
+      </Damage>
+      <MaxRange>60</MaxRange>
+      <MinRange>10.0</MinRange>
+      <PrepareTime>1500</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <stone>25</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="1.5"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <Civ>zola</Civ>
+    <Classes datatype="tokens">Rock Octo</Classes>
+    <SpecificName>Octorok</SpecificName>
+    <History>Cunning and craven, the River Octorok floats belong the surface of rivers and lakes, waiting for prey, upon which it will surface and attempt to disabled them with spit rocks and debris for later consumption</History>
+    <Icon>gaia/fauna_octorokA.dds</Icon>
+    <Tooltip>Ranged Creature unit.</Tooltip>
+  </Identity>
+  <Position>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>1</FloatDepth>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>25.0</Crush>
+        <Hack>3.0</Hack>
+        <Pierce>5.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/natural/octorok_spit.xml</attack_ranged>
+      <death>voice/wild/octorok/octorok_death.xml</death>
+      <order_attack>voice/wild/octorok/octorok_attack.xml</order_attack>
+      <order_garrison>voice/wild/octorok/octorok_select.xml</order_garrison>
+      <order_gather>voice/wild/octorok/octorok_select.xml</order_gather>
+      <order_repair>voice/wild/octorok/octorok_select.xml</order_repair>
+      <order_walk>voice/wild/octorok/octorok_walk.xml</order_walk>
+      <select>voice/wild/octorok/octorok_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <run>actor/movement/octorok/octorok_crawl.xml</run>
+      <walk>actor/movement/octorok/octorok_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <RunMultiplier>2.0588</RunMultiplier>
+    <WalkSpeed>8.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/wild/wild_octorokA.xml</Actor>
+  </VisualActor>
+</Entity>

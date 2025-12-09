@@ -18,6 +18,7 @@
   </Health>
   <Identity>
     <Civ>ordona</Civ>
+    <Classes datatype="tokens">RangerWatch</Classes>
     <SpecificName>Border Post</SpecificName>
     <History>Border Posts dot the western and eastern borders of the Province, watching and warning of all incoming threats to the nation.</History>
     <Icon>structures/ordona/ord_borderpost.dds</Icon>
@@ -26,6 +27,11 @@
   <Obstruction>
     <Static width="7.5" depth="7.5"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      ordona/tower_hawkpatrols
+    </Technologies>
+  </Researcher>
   <StatusBars>
     <BarHeight>0.6</BarHeight>
     <BarWidth>6.0</BarWidth>

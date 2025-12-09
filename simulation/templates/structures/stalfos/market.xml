@@ -22,6 +22,15 @@
   <Obstruction>
     <Static depth="33.0" width="33.0"/>
   </Obstruction>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/merc/merc_polsvoice_b
+      units/merc/merc_gimos_b
+      units/merc/merc_daira_b
+      units/merc/merc_meteo_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/stalfos/market.xml</Actor>
     <FoundationActor>structures/stalfos/stalfos_unearthT.xml</FoundationActor>

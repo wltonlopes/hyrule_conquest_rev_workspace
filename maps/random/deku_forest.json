@@ -3,7 +3,7 @@
 		"Name" : "Deku Forest",
 		"Script" : "deku_forest.js",
 		"Description" : "Each player starts deep in a forest full of Deku Scrubs and Babas. Defend yourself against attacks both by your enemy and these wandering enemies, while preparing attacks of your own...",
-		"Keywords": ["multiplayer"],
+		"Keywords": ["hyrule"],
 		"CircularMap" : true,
 		"PlayerPlacements": [
 			"circle",

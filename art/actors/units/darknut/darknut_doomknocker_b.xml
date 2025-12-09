@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>units/darknut/dar_doomknockerA.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/darknut_maceA.xml" attachpoint="R_weapon"/>
+        <prop actor="props/units/weapons/darknut_shieldD.xml" attachpoint="L_weapon"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Hoplite">
+      <textures>
+        <texture file="skeletal/darknut/dar_mainA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_darknut/base_HC_darknut_sword_slow.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_darknut/base_HC_darknut_attack_splash.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_capture.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_slaughter.xml"/>
+    <variant file="HC_darknut/base_HC_darknut_death.xml">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

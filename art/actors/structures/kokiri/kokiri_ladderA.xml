@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="trunk-a">
+      <mesh>gaia/structure/kf_ladderA.dae</mesh>
+	  <textures><texture file="gaia/flora/LW_treeB.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>

@@ -28,6 +28,15 @@
   <Population>
     <Bonus>15</Bonus>
   </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -pop_house_01
+      -pop_house_02
+      -unlock_females_house
+      deku/deku_crammed
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/deku/house.xml</Actor>
     <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>

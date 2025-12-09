@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>6</stone>
+      <metal>6</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="14.5" depth="9"/>
+    <Height>9</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_tiny</SpawnEntityOnDeath>
+  </Health>
+  <GarrisonHolder disable="" />
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Goron Wall</SpecificName>
+    <History>Goron Walls are some of the sturdiest defenses in all of Hyrule. It takes quite a force to break through metal and stone.</History>
+    <Tooltip>Defensive Wall to slow invaders.</Tooltip>
+    <Icon>structures/goron/gor_wallA.dds</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="20" depth="7.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/goron/goron_wall_shortA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>20.0</Length>
+  </WallPiece>
+  <Upgrade>
+    <WallB>
+      <Cost>
+	<stone>25</stone>
+      </Cost>
+      <Entity>structures/goron/wall_shortB</Entity>
+      <Time>8</Time>
+      <Tooltip>Reinforce the tower walls.</Tooltip>
+      <Variant>upgrading</Variant>
+    </WallB>
+    <WallC>
+      <Cost>
+	<stone>25</stone>
+      </Cost>
+      <Entity>structures/goron/wall_shortC</Entity>
+      <Time>8</Time>
+      <Tooltip>Add a lava moat to the walls.</Tooltip>
+      <Variant>upgrading</Variant>
+    </WallC>
+    <WallD>
+      <Cost>
+	<stone>25</stone>
+      </Cost>
+      <Entity>structures/goron/wall_longD</Entity>
+      <Time>8</Time>
+      <Tooltip>Add a lava moat to the walls.</Tooltip>
+      <Variant>upgrading</Variant>
+    </WallD>
+  </Upgrade>
+</Entity>

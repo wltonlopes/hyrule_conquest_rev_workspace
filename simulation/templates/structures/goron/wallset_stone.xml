@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Metal Wall</SpecificName>
+    <History>Goron Walls are some of the sturdiest defenses in all of Hyrule. It takes quite a force to break through metal and stone.</History>
+    <Icon>structures/goron/gor_wallA.dds</Icon>
+    <Tooltip>Protective Wall to hold off attackers.</Tooltip>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Gate>structures/goron/wall_gateA</Gate>
+      <Tower>structures/goron/wall_towerA</Tower>
+      <WallLong>structures/goron/wall_longA</WallLong>
+      <WallMedium>structures/goron/wall_mediumA</WallMedium>
+      <WallShort>structures/goron/wall_shortA</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.10</MinTowerOverlap>
+  </WallSet>
+</Entity>

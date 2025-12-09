@@ -1296,6 +1296,8 @@ SCRUB.HQ.prototype.buildFarmstead = function(gameState, queues)
 	// Wait to have at least one dropsite and house before the farmstead
 	if (!gameState.getOwnEntitiesByClass("Storehouse", true).hasEntities())
 		return;
+	if (!gameState.getOwnEntitiesByClass("Bank", true).hasEntities())
+		return;
 	if (!gameState.getOwnEntitiesByClass("House", true).hasEntities())
 		return;
 	if (queues.economicBuilding.hasQueuedUnitsWithClass("DropsiteFood"))
@@ -1637,10 +1639,13 @@ SCRUB.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 	let stableTemplate = this.canBuild(gameState, "structures/{civ}/stable") ? "structures/{civ}/stable" : undefined;
 	let numStables = gameState.getOwnEntitiesByClass("Stable", true).length;
 
+	let mercsTemplate = this.canBuild(gameState, "structures/{civ}/mercs") ? "structures/{civ}/mercs" : undefined;
+	let numMercs = gameState.getOwnEntitiesByClass("MercenaryCamp", true).length;
+
 	if (this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks1 ||
 	    this.phasing == 2 && gameState.getOwnStructures().filter(API3.Filters.byClass("Village")).length < 5)
 	{
-		// First barracks/range and stable.
+		// First barracks/range, stable, and, mercs.
 		if (numBarracks + numRanges == 0)
 		{
 			let template = barracksTemplate || rangeTemplate;
@@ -1658,8 +1663,13 @@ SCRUB.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 			queues.militaryBuilding.addPlan(new SCRUB.ConstructionPlan(gameState, stableTemplate, { "militaryBase": true }));
 			return;
 		}
+		if (numMercs == 0 && mercsTemplate)
+		{
+			queues.militaryBuilding.addPlan(new SCRUB.ConstructionPlan(gameState, mercsTemplate, { "militaryBase": true }));
+			return;
+		}
 
-		// Second barracks/range and stable.
+		// Second barracks/range, stable, and, mercs.
 		if (numBarracks + numRanges == 1 && this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks2)
 		{
 			let template = numBarracks == 0 ? (barracksTemplate || rangeTemplate) : (rangeTemplate || barracksTemplate);
@@ -1674,8 +1684,14 @@ SCRUB.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 			queues.militaryBuilding.addPlan(new SCRUB.ConstructionPlan(gameState, stableTemplate, { "militaryBase": true }));
 			return;
 		}
+		if (numMercs == 1 && mercsTemplate && this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks2)
+		{
+			queues.militaryBuilding.addPlan(new SCRUB.ConstructionPlan(gameState, mercsTemplate, { "militaryBase": true }));
+			return;
+		}
 
 		// Third barracks/range and stable, if needed.
+		// The AI shouldn't build any more merc camps, as it should prioritize it's units over mercs.
 		if (numBarracks + numRanges + numStables == 2 && this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks2 + 30)
 		{
 			let template = barracksTemplate || stableTemplate || rangeTemplate;

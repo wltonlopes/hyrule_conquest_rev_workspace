@@ -6,42 +6,49 @@
 
 [font="sans-bold-16"] ## What's new this version
 [font="sans-16"]
+ - AI
+   - A new AI called Goro Bot, that is designed only for the Goron civ.
    
  - Civs
-   - Lanayru Province
+   - Gorons
 
  - GUI
    - New backgrounds
-   - New icons
-   - A few new sounds
-   
- - Maps
-   - A new random map: Testing Map
 
 [font="sans-bold-16"] ## Feature list
 [font="sans-16"]
 
  - AI
-   - A new AI called Hyrule Bot (is currently compatible with vanilla races)
+   - A new AI called Hyrule Bot, which is intended to be the main AI.
    - A new AI called Scrub Bot, that is designed only for the Deku Kingdom civ.
    
  - Civs
    - Deku Kingdom
    - Kokiri
+   - Lanayru Province
    - Ordona Province
    - Stalfos
+   - Wild Zora
+   - Mercenary units.
    
  - GUI
    - New backgrounds
    - New buttons
    - New background music
+   - New cursors
    - New loading icons
+   - New icons
+   - New sounds
+   - Removal of the unit selection limit
    
  - Maps
+   - A new map feature: Wandering Gaia Soldiers
+   - A new map filter: Hyrule Conquest
    - A new map size: Titan
    - New map size names
-   - New random maps: Deku Forest, Deku Temple, & Undead Swamp
-   - A cool new map feature: Wandering Gaia Soldiers
+   - New random maps: Deku Forest, Deku Temple, Testing Map, & Undead Swamp
+   - New scenario maps: Battle for the Forest, Cave of the Undead, & Seeds of War
+   - A new skirmish map: The Pit
    
  - Match Settings
    - More time options (along with funny new names)
@@ -52,7 +59,11 @@
    
  - Units
    - A new type of unit: Titan, a unique hero unit for each race.
-   - New pathfinder types: Amphibious, Fly, Huge, and Titan
+   - New pathfinder types: Amphibious, Large Amphibious, Huge Amphibious, Climbing, Huge Climbing, Fly, Huge, and Titan
+   - Three entire new unit features: Stealth, Camouflage, and Stun
+   
+ - Other
+   - New cheats
    
 [font="sans-bold-16"] ## Planned feature list
 [font="sans-16"]
@@ -61,14 +72,12 @@
    - Fairy Enclave
    - Gerudo
    - Gohma
-   - Gorons
    - Hylians
    - Labrynna Empire
-   - Lanayru Province
    - Lizalfos Tribes
    - Moblin Clans
    - Sheikah
-   - Wild Zora
+   - Twili
    - Zora
    
  - Match Settings
@@ -78,7 +87,7 @@
  - Maps
    - A skirmish map for every civ
    - A random map for every civ
-   - A main campaign
+   - At least one campaign
    - Some more cool map features
    
  - AI
@@ -87,4 +96,4 @@
  - Other
    - Secrets...
    
-[font="sans-bold-12"] Hyrule Conquest: Revival V 0.5.0
+[font="sans-bold-12"] Hyrule Conquest: Revival V 0.6.1

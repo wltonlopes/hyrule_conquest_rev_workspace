@@ -13,6 +13,8 @@
 "Thick scales stop sharp blades." - Lizalfos Proverb
 "The bigger you are, the harder you can fall." - Moblin Proverb
 "Bones break. Spirits don't." - Stalfos Proverb
+"Embrace the darkness. Then you will see the light" - Twili Proverb
+"Only by knowing the darkness can you discover the light" - Shiekah Proverb
 "I have no enemies. Only the blackened bodies and bloody corpses of those who dared to defie me." - Ganondorf
 "Time fades into memories, with only a moment in between. The world rests in those memories. Hope, is what remains, to be seen." - Ancient Hylian Poem
 "Did you get all that?" - Kaepora Gaebora
@@ -21,8 +23,9 @@
 "It's dangerous to go alone, take this!" - Old Man
 "Buy something, will ya!" - Merchant
 "Yikes, I'm getting out of here!" - Deku Merchant
-"Only by knowing the darkness can you dscover the light" - Shiekah Proverb
 "You must help me, Link" - Princess Zelda
 "For you Zelda, anything" - Link
-"The fires of war burn brightly. Soon you will as well." - Karakath Blackhand
 "I will banish this abomination to the rift between dimensions!" - Ganondorf
+"The only true power is the will to reject power..." - Hylia
+"I am always here. You know this, yet deny it." - Majora
+"We are not that which wears the mask, we are the masks we wear." - Majora

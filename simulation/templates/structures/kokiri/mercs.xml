@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_mercs">
+  <Footprint replace="">
+    <Circle radius="27.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/debris_kokiri_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>kokiri</Civ>
+    <History>Kokiri criminals are rare but they do exist. Kokiri are very easily embarrassed, and to deal with these criminals they hang them publicly by their undergarments for all to point and laugh at. A crude and painful, but very effective means of punishment, which travelers sometimes stop to watch.</History>
+    <SpecificName>Public Hanging</SpecificName>
+    <Icon>structures/kokiri/kok_publichanging.dds</Icon>
+    <Tooltip>Allows the Kokiri to hire Mercenary units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="40.0" depth="40.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/kokiri/complete_hanging.xml</constructed>
+      <select>interface/select/building/kokiri/sel_hanging.xml</select>
+      <upgraded>interface/complete/building/kokiri/complete_hanging.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/merc/merc_daira_b
+      -units/merc/merc_gimos_b
+      -units/merc/merc_meteo_b
+      -units/merc/merc_wosu_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/kokiri/kokiri_publichang_whole.xml</Actor>
+    <FoundationActor>structures/kokiri/kokiri_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

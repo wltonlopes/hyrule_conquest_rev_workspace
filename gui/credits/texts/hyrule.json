@@ -11,26 +11,36 @@
 			"Title": "Art",
 			"List": [
 					{ "nick": "Perzival12" },
-					{ "nick": "The Undying Nephalim" }
+					{ "nick": "Ice Cream Man", "name": "Chasen Lindsey" }
 				]
 		},
 		{
 			"Title": "Programming",
 			"List": [
-					{ "nick": "Perzival12" },
-					{ "nick": "Lopess" }
+					{ "nick": "Welton Lopes" },
+					{ "nick": "Perzival12" }
 				]
 		},
 		{
 			"Title": "Audio",
 			"List": [
-					{ "nick": "Perzival12" }
+					{ "name": "Adam Halpin" },
+					{ "nick": "HelpTheWretched" },
+					{ "nick": "Perzival12" },
+					{ "nick": "Rozen" },
+					{ "nick": "Symphony of the Goddesses" },
+					{ "nick": "Theophany" },
+					{ "nick": "X-Ray Dog" },
+					{ "nick": "And many more, who made the original Zelda music" }
+					
 				]
 		},
 		{
 			"Title": "Balancing",
 			"List": [
+					{ "nick": "Cheapeststack" },
 					{ "nick": "Perzival12" },
+					{ "nick": "Profile138" },
 					{ "nick": "Some other anonymous playtesters." }
 				]
 		},
@@ -43,7 +53,11 @@
 		{
 			"Title": "Maps",
 			"List": [
-					{ "nick": "Perzival12" }
+					{ "nick": "Gor Moron", "name": "He said I didn't need to credit him, but I did" },
+					{ "nick": "Hannibal_Barca", "name": "Plague Swamp*" },
+					{ "nick": "Perzival12" },
+					{ "nick": "(-_-)", "name": "Plague Swamp*" },
+					{ "nick": "*Names that are credited to specific maps are the original creators of that map, which has been copied and possibly edited for the creation of this mod." }
 				]
 		},
 		{

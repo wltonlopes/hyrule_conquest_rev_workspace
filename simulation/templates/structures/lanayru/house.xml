@@ -30,6 +30,16 @@
   <Population>
     <Bonus>15</Bonus>
   </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -pop_house_01
+      -pop_house_02
+      -unlock_females_house
+      lanayru/house_higher_living
+      lanayru/house_private_domociles
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/lanayru/lanayru_houseA.xml</Actor>
     <FoundationActor>structures/lanayru/lanayru_scaffoldH.xml</FoundationActor>

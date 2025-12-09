@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 60 ,
+	"affects": ["FemaleCitizen"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack","multiply": 1.1 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.1 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.1 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 }
+	],
+	"auraName": "Miner Roots",
+	"auraDescription": "Miners +10% walk speed and Melee damage.",
+	"overlayIcon": "art/textures/ui/session/auras/battlebro_aura_1.dds"
+}

@@ -20,6 +20,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub</Classes>
     <SpecificName>Hornling</SpecificName>
     <GenericName>Support Unit</GenericName>
     <History>The musical chirps and sounds of the Scrub's language serves them well on the battlefield. Hornlings bring a large Deku Horn with them to loudly and clearly give orders to the soldiers under their command. Although the horns sound confusing and obnoxious to outsiders, their bass utterance carries with it the unfolding plans of a Scrub army.</History>

@@ -4,10 +4,10 @@
     <Melee replace="">
       <AttackName>Axe</AttackName>
       <Bonuses>
-        <BonusCavMelee>
+        <BonusInfMelee>
           <Classes>Infantry</Classes>
           <Multiplier>2.0</Multiplier>
-        </BonusCavMelee>
+        </BonusInfMelee>
       </Bonuses>
       <Damage>
         <Hack>14.0</Hack>
@@ -37,7 +37,7 @@
     <Tooltip>A very fast Champion Melee Cavalry unit armed with an axe in hand. These melee cavalry can ram into enemy Infantry and are excellent at dealing with such units.</Tooltip>
     <Icon>units/kokiri/kok_buckrider.dds</Icon>
     <Requirements>
-      <Techs datatype="tokens">-unlock_champion_cavalry</Techs>
+      <Techs datatype="tokens">phase_town -unlock_champion_cavalry</Techs>
     </Requirements>
   </Identity>
   <Promotion disable=""/>

@@ -1,0 +1,20 @@
+{
+	"genericName": "Ison Arrows",
+	"description": "Forge arrow tips out of the cursed metal from the Ison Valley of Ordona Province, which is said to pierce all defenses.",
+	"cost": {"food": 0, "wood": 0, "stone": 350, "metal": 350},
+	"requirements": {"all": [
+				{"tech": "phase_city"},
+				{"civ": "ordona"}
+				]
+			},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "ordona/smithy_isonarrow.dds",
+	"researchTime": 40,
+	"tooltip": "Ranged units do +3 Pierce and 5 True damage.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Pierce", "add": 3.0},
+				{"value": "Attack/Ranged/Damage/True", "add": 5.0}
+			 ],
+	"affects": ["Ranged"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

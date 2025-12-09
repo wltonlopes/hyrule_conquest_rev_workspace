@@ -68,10 +68,20 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/kokiri_scatter
+    </Formations>
+  </UnitAI>
   <UnitMotion>
     <RunMultiplier>1.2222</RunMultiplier>
     <WalkSpeed>18.0</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility>
   <Vision>
     <Range>100</Range>
   </Vision>

@@ -118,7 +118,11 @@ HYRULE.AttackPlan = function(gameState, Config, uniqueID, type = HYRULE.AttackPl
 		priority = 150;
 		this.unitStat.Infantry = { "priority": 3, "minSize": 15, "targetSize": 20, "batchSize": 5, "classes": ["Infantry"],
 			"interests": [["strength", 1], ["costsResource", 0.5, "stone"], ["costsResource", 0.6, "metal"]] };
-		this.unitStat.FastMoving = { "priority": 2, "minSize": 10, "targetSize": 15, "batchSize": 5, "classes": ["FastMoving+CitizenSoldier"],
+		this.unitStat.FastMoving = { "priority": 2, "minSize": 10, "targetSize": 15, "batchSize": 5, "classes": ["FastMoving"],
+			"interests": [["strength", 1]] };
+		this.unitStat.Ranged = { "priority": 2, "minSize": 5, "targetSize": 10, "batchSize": 5, "classes": ["Ranged+Soldier"],
+			"interests": [["strength", 1]] };
+		this.unitStat.Creature = { "priority": 1, "minSize": 0, "targetSize": 5, "batchSize": 5, "classes": ["Creature"],
 			"interests": [["strength", 1]] };
 		if (data && data.targetSize)
 			this.unitStat.Infantry.targetSize = data.targetSize;
@@ -133,6 +137,8 @@ HYRULE.AttackPlan = function(gameState, Config, uniqueID, type = HYRULE.AttackPl
 			"interests": [ ["strength", 1] ] };
 		this.unitStat.Cavalry = { "priority": 1, "minSize": 5, "targetSize": 15, "batchSize": 5, "classes": ["Cavalry"],
 			"interests": [ ["strength", 1] ] };
+		this.unitStat.Creature = { "priority": 1, "minSize": 0, "targetSize": 5, "batchSize": 5, "classes": ["Creature"],
+			"interests": [["strength", 1]] };
 		this.neededShips = 3;
 	}
 	else if (type === HYRULE.AttackPlan.TYPE_HUGE_ATTACK)
@@ -155,7 +161,11 @@ HYRULE.AttackPlan = function(gameState, Config, uniqueID, type = HYRULE.AttackPl
 			"interests": [["strength", 3]] };
 		this.unitStat.ChampMeleeFastMoving = { "priority": 1, "minSize": 3, "targetSize": 15, "batchSize": 3, "classes": ["FastMoving+Melee+Champion"],
 			"interests": [["strength", 2]] };
+		this.unitStat.Creature = { "priority": 1, "minSize": 5, "targetSize": 15, "batchSize": 5, "classes": ["Creature"],
+			"interests": [["strength", 1]] };
 		this.unitStat.Hero = { "priority": 1, "minSize": 0, "targetSize": 1, "batchSize": 1, "classes": ["Hero"],
+			"interests": [["strength", 2]] };
+		this.unitStat.Titan = { "priority": 1, "minSize": 0, "targetSize": 1, "batchSize": 1, "classes": ["Titan"],
 			"interests": [["strength", 2]] };
 		this.neededShips = 5;
 	}
@@ -392,7 +402,7 @@ HYRULE.AttackPlan.prototype.addSiegeUnits = function(gameState)
 		return false;
 
 	let civ = gameState.getPlayerCiv();
-	const classes = [["Siege+Melee"], ["Siege+Ranged"], ["Elephant+Melee"]];
+	const classes = [["Siege+Melee"], ["Siege+Ranged"], ["Creature+Siege"]];
 	let hasTrainer = [false, false, false];
 	for (let ent of gameState.getOwnTrainingFacilities().values())
 	{
@@ -656,6 +666,8 @@ HYRULE.AttackPlan.prototype.trainMoreUnits = function(gameState)
 		if (firstOrder[4] == "Siege")
 			queue = this.queueSiege;
 		else if (firstOrder[3].classes.indexOf("Hero") != -1)
+			queue = this.queueSiege;
+		else if (firstOrder[3].classes.indexOf("Titan") != -1)
 			queue = this.queueSiege;
 		else if (firstOrder[3].classes.indexOf("Champion") != -1)
 			queue = this.queueChamp;
@@ -982,6 +994,9 @@ HYRULE.AttackPlan.prototype.defaultTargetFinder = function(gameState, playerEnem
 			targets.addEnt(ent);
 	if (gameState.getVictoryConditions().has("regicide"))
 		for (let ent of gameState.getEnemyUnits(playerEnemy).filter(API3.Filters.byClass("Hero")).values())
+			targets.addEnt(ent);
+	if (gameState.getVictoryConditions().has("godslayer"))
+		for (let ent of gameState.getEnemyUnits(playerEnemy).filter(API3.Filters.byClass("Titan")).values())
 			targets.addEnt(ent);
 	if (gameState.getVictoryConditions().has("capture_the_relic"))
 		for (let ent of gameState.updatingGlobalCollection("allRelics", API3.Filters.byClass("Relic")).filter(relic => relic.owner() == playerEnemy).values())
@@ -1474,6 +1489,8 @@ HYRULE.AttackPlan.prototype.update = function(gameState, events)
 			{
 				if (HYRULE.isSiegeUnit(target) || target.hasClass("Hero"))
 					unitTargets[targetId] = -8;
+				else if (target.hasClass(["Titan"]))
+					unitTargets[targetId] = -12;
 				else if (target.hasClasses(["Champion", "Ship"]))
 					unitTargets[targetId] = -5;
 				else

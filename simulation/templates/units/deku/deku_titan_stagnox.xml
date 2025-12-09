@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
+<Entity parent="template_unit_titan">
   <Attack>
-    <Capture>
-      <AttackName>Capture</AttackName>
-      <Capture>10</Capture>
-      <MaxRange>4</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Field Palisade Wall</RestrictedClasses>
-    </Capture>
-    <Ranged replace="">
+    <Ranged>
       <AttackName>Horn</AttackName>
       <Damage>
         <Crush>150.0</Crush>
@@ -40,7 +33,6 @@
   </Attack>
   <Builder disable=""/>
   <Cost>
-    <BuildTime>120</BuildTime>
     <Resources>
       <food>0</food>
       <wood>2500</wood>
@@ -62,14 +54,12 @@
     <History>This giant hulking Orhat Beetle has long lurked on the eastern forests of Hyrule. In some cases the Scrubs have been known to coerce this huge monster into fighting on their behalf. The Stagnox may be slow, but his armor is some of the most impressive and durable in Hyrule. While the Stagnox has wings, his huge size makes his ability to fly very limited.</History>
     <Tooltip>Deku Scrub Titan unit. Giant Melee unit with extremely durable armor.</Tooltip>
     <Icon>units/deku/dek_titan_stagnox.dds</Icon>
-    <VisibleClasses datatype="tokens">Titan Creature</VisibleClasses>
+    <VisibleClasses datatype="tokens">Creature Beetle</VisibleClasses>
   </Identity>
   <Position>
-    <Anchor>upright</Anchor>
-    <Floating>true</Floating>
+    <Floating>false</Floating>
     <TurnRate>2.5</TurnRate>
   </Position>
-  <Promotion disable=""/>
   <Resistance>
     <Entity>
       <Damage>
@@ -79,19 +69,6 @@
       </Damage>
     </Entity>
   </Resistance>
-  <Minimap>
-    <Type>hero</Type>
-  </Minimap>
-  <ResourceGatherer disable=""/>
-  <Selectable>
-    <Overlay>
-      <AlwaysVisible/>
-      <Texture>
-        <MainTexture>historia/1024x1024_aura.dds</MainTexture>
-        <MainTextureMask>historia/1024x1024_aura_mask.dds</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/natural/stagnox_impact.xml</attack_impact_ranged>
@@ -113,10 +90,6 @@
     <BarHeight>1.0</BarHeight>
     <HeightOffset>20.0</HeightOffset>
   </StatusBars>
-  <TrainingRestrictions>
-    <Category>Hero</Category>
-    <MatchLimit>1</MatchLimit>
-  </TrainingRestrictions>
   <UnitMotion>
     <PassabilityClass>titan</PassabilityClass>
     <RunMultiplier>1.6666</RunMultiplier>
@@ -124,6 +97,5 @@
   </UnitMotion>
   <VisualActor>
     <Actor>units/deku/deku_titan_stagnox.xml</Actor>
-    <FoundationActor>structures/deku/deku_summonT.xml</FoundationActor>
   </VisualActor>
 </Entity>

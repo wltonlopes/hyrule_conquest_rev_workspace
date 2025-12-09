@@ -5,11 +5,16 @@
     <Melee>
       <AttackName>Spiked Tongue</AttackName>
       <Damage>
+        <True>0</True>
         <Pierce>12.0</Pierce>
       </Damage>
       <MaxRange>21.0</MaxRange>
       <PrepareTime>1300</PrepareTime>
       <RepeatTime>1400</RepeatTime>
+      <Stun>
+        <Chance>0</Chance>
+        <Time>0</Time>
+      </Stun>
     </Melee>
   </Attack>
   <Cost>
@@ -26,7 +31,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <Classes datatype="tokens">-ConquestCritical Pikit</Classes>
     <GenericName>Creature</GenericName>
     <SpecificName>Pickit</SpecificName>
     <History>Pikits are one of several creatures that the Deku Scrubs commonly capture and use in their armies. While not intelligent by any stretch of the imagination, Pikits seemed to be able to understand the musical Scrub language and take basic orders from them. The Pikit's main attack is a long and flexible vine-like tongue that is coated with small but extremely sharp tips that can cut through armor.</History>

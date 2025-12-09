@@ -22,6 +22,7 @@
   </Health>
   <Identity>
     <Civ>ordona</Civ>
+    <Classes datatype="tokens">Helmed</Classes>
     <SpecificName>Militia</SpecificName>
     <History>Militia are designated civilians drafted or volunteered into military service during wartime. Often they have basic military training, and while some have state-crafted armor and swords, just as many bring their own handmade weapons and shields to battle.</History>
     <Tooltip>Cheap but eager Melee units armed with a sword and shield.</Tooltip>

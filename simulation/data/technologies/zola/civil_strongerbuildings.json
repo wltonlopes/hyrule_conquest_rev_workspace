@@ -1,0 +1,15 @@
+{
+	"genericName": "Stronger Octo Buildings",
+	"description": "You can increase the thickness of your buildings' skins and shells.",
+	"cost": {"food": 600, "wood": 0, "stone": 0, "metal": 0},
+	"icon": "zola/strongocto.png",
+	"researchTime": 40,
+	"tooltip": "Buildings have +50% resistance to non-magic attacks.",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Crush", "multiply": 1.5},
+				{"value": "Resistance/Entity/Damage/Hack", "multiply": 1.5},
+				{"value": "Resistance/Entity/Damage/Pierce", "multiply": 1.5}
+			 ],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

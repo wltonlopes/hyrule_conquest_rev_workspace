@@ -22,6 +22,7 @@
   <Identity>
     <Civ>lanayru</Civ>
     <SpecificName>Marshal</SpecificName>
+    <Classes datatype="tokens">SilverWeapon Swimmer</Classes>
     <VisibleClasses datatype="tokens">Commander Silver</VisibleClasses>
     <History>Marshals are soldiers of Lanayru who have actual academic and field experience in battle. With such a large and unprofessional army they are invaluable for guiding troops and directing them in engagements.</History>
     <Tooltip>Commander unit that improves the performance of other units.</Tooltip>

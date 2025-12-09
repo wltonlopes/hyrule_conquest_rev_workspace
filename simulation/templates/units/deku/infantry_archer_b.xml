@@ -4,6 +4,8 @@
     <Ranged replace="">
       <AttackName>Deku Nuts</AttackName>
       <Damage>
+        <Hack>0</Hack>
+        <Pierce>0</Pierce>
         <Crush>5</Crush>
       </Damage>
       <EffectDelay>0</EffectDelay>
@@ -50,7 +52,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
-    <VisibleClasses datatype="tokens">Scrubling</VisibleClasses>
+    <Classes datatype="tokens">Scrubling Scrub</Classes>
     <SpecificName>Scrubling</SpecificName>
     <History>One of the lowest classes of Scrubs, Scrublings are armless individuals used by their superiors as ranged units and skirmishers. Some Scrublings will let other Scrublings ride on top of their shoulders to double their firepower.</History>
     <Tooltip>Tiny Missile unit that spits Deku Nuts at it's targets.</Tooltip>
@@ -86,6 +88,11 @@
     <RunMultiplier>1.5384</RunMultiplier>
     <WalkSpeed>13.0</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+      <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility>
   <VisualActor>
     <Actor>units/deku/infantry_archer_b.xml</Actor>
   </VisualActor>

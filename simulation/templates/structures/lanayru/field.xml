@@ -25,12 +25,18 @@
   </Identity>
   <Obstruction>
     <Static depth="33.0" width="33.0"/>
-    <BlockMovement>false</BlockMovement>
-    <BlockPathfinding>false</BlockPathfinding>
+    <BlockMovement>true</BlockMovement>
+    <BlockPathfinding>true</BlockPathfinding>
   </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      lanayru/gather_food_forcedmating
+    </Technologies>
+  </Researcher>
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
-    <Type>food.meat</Type>
+    <Type>food.fish</Type>
     <MaxGatherers>5</MaxGatherers>
   </ResourceSupply>
   <VisualActor>

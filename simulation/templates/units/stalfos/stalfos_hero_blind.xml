@@ -70,6 +70,11 @@
     <RunMultiplier>1.4285</RunMultiplier>
     <WalkSpeed>7.5</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility>
   <VisualActor>
     <Actor>units/stalfos/stalfos_hero_blind.xml</Actor>
   </VisualActor>

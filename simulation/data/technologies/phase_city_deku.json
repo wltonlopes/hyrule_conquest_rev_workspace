@@ -1,0 +1,27 @@
+{
+	"genericName": "City Phase",
+	"specificName": { "deku": "Tree Phase"},
+	"description": "Advances from a bustling town to a massive city, perfect for conquest or peace.",
+	"cost": {
+		"food": 0,
+		"wood": 1250
+	},
+	"requirements": {
+		"entity": {
+			"class": "Town",
+			"number": 3
+		}
+	},
+	"requirementsTooltip": "Requires three Town Structures.",
+	"supersedes": "phase_town_deku",
+	"replaces": ["phase_city"],
+	"icon": "city_phase.png",
+	"researchTime": 30,
+	"tooltip": "Advance to City Phase, which unlocks more entities and technologies. Civic Centers +25% territory influence radius. Structures +20% damage and +0.5 capture points regeneration rate for garrisoned units.",
+	"modifications": [
+		{ "value": "Capturable/GarrisonRegenRate", "add": 0.5, "affects": "Structure" },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2, "affects": "Structure" },
+		{ "value": "TerritoryInfluence/Radius", "multiply": 1.25, "affects": "CivCentre" }
+	],
+	"soundComplete": "interface/alarm/alarm_phase.xml"
+}

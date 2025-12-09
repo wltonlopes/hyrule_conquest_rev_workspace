@@ -87,6 +87,11 @@
   <Vision>
     <Range>85</Range>
   </Vision>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility>
   <VisualActor>
     <Actor>units/stalfos/stalfos_poeice_b.xml</Actor>
   </VisualActor>

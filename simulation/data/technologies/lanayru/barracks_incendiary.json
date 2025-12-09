@@ -1,0 +1,15 @@
+{
+	"genericName": "Incendiary Shrapnel",
+	"description": "The shrapnel balls fired from the shrapnel flinger can have a small incendiary device added inside, increasing range and damage slightly.",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 500},
+	"icon": "incendiary_weapons.png",
+	"requirements": { "tech": "phase_city" },
+	"researchTime": 40,
+	"tooltip": "The Shrapnel Flinger gains a +5 bonus to splash range and splash damage.",
+	"modifications": [
+				{"value": "Attack/Ranged/Splash/Damage/Pierce", "add": 5},
+				{"value": "Attack/Ranged/Splash/Range", "add": 5}
+			 ],
+	"affects": ["Flinger"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

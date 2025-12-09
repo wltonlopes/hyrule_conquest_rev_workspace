@@ -57,15 +57,25 @@
       <order_repair>voice/kokiri/explorer/explorer_repair.xml</order_repair>
       <order_walk>voice/kokiri/explorer/explorer_walk.xml</order_walk>
       <run>actor/human/movement/walk.xml</run>
-      <select>voice/kokiri/explorer/minutemen_select.xml</select>
+      <select>voice/kokiri/explorer/explorer_select.xml</select>
       <trained>interface/alarm/alarm_create_infantry.xml</trained>
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/kokiri_scatter
+    </Formations>
+  </UnitAI>
   <UnitMotion>
     <RunMultiplier>1.2222</RunMultiplier>
     <WalkSpeed>18.0</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility> 
   <Vision>
     <Range>90</Range>
   </Vision>

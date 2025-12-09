@@ -31,6 +31,7 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">SilverWeapon SilverArmor</Classes>
     <SpecificName>Sidon Dorephan</SpecificName>
     <GenericName>Prince of Lanayru</GenericName>
     <History>The lone son of Duke Dorephan and younger brother of Mipha. Sidon has long been overshadowed by his sister despite his charisma and superior political mind. He is well liked by the nobles of both the Dominion and Lanayru, but behind his friendly and saavy words are the teeth of a shark. He is also rumored to have a strong rivalry with Prince Ralis, who is his direct superior and commander.</History>

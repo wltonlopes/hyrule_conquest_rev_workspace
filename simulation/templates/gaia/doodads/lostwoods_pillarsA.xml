@@ -1,0 +1,14 @@
+<Entity parent="template_gaia_tree">
+  <Identity>
+    <GenericName>Wood</GenericName>
+    <History />
+    <SpecificName>Pillar</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>flora/forest/LW_pillarsA.xml</Actor>
+  </VisualActor>
+  <Obstruction>
+    <Static depth="3.0" width="3.0" />
+  </Obstruction>
+  <ResourceSupply disable="" />  
+</Entity>

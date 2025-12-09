@@ -26,5 +26,5 @@
       <mesh>structural/debris/debris_wood_smallC.dae</mesh>
     </variant>
   </group>
-  <material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_norm_spec.xml</material>
 </actor>

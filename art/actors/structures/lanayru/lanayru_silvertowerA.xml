@@ -13,10 +13,10 @@
 		<prop actor="props/structures/lanayru/lanayru_silvertowerA_path.xml" attachpoint="root"/>
       </props>
        <textures>
-	    <texture file="structural/lanayru/lanayru_buildingA.dds" name="baseTex"/>
-	    <texture file="structural/lanayru/lanayru_buildingA_normal.dds" name="normTex"/>
-          <texture file="null_black.dds" name="specTex"/>
-		<texture file="structural/lanayru/lanayru_silvertowerA_ao.dds" name="aoTex"/>
+	<texture file="structural/lanayru/lanayru_buildingA.dds" name="baseTex"/>
+	<texture file="structural/lanayru/lanayru_buildingA_normal.dds" name="normTex"/>
+	<texture file="structural/lanayru/lanayru_buildingA.dds" name="specTex"/>
+	<texture file="structural/lanayru/lanayru_silvertowerA_ao.dds" name="aoTex"/>
       </textures>
     </variant>
   </group>

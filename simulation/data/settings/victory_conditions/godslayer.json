@@ -1,0 +1,14 @@
+{
+	"TranslatedKeys": ["Title", "Description"],
+	"Data":
+	{
+		"Title": "God Slayer",
+		"Description": "Defeat opponents by killing their titan.",
+		"Scripts":
+		[
+			"scripts/TriggerHelper.js",
+			"scripts/Godslayer.js"
+		],
+		"GUIOrder": 10
+	}
+}

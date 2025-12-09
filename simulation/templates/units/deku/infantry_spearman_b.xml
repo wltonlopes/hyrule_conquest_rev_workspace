@@ -47,6 +47,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub Guardling</Classes>
     <SpecificName>Guardling</SpecificName>
     <History>Sitting just above Scrublings on the social ladder, Guardlings are Scrubs with arms that serve basic military roles for their various leaders. Often they are given simple patrol routes and told to not let anyone into the areas they guard. During war the Scrubs will assemble them into columns on the front lines, hoping their pointy stick spears will halt the charge of their larger enemies. Some Guardlings will let Scrublings ride on top of their shoulders to provide support in combat.</History>
     <Tooltip>Little Melee unit armed with a pointy stick for a spear.</Tooltip>

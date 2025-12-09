@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<AmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>5</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="612.291" y="335.537" z="-164.953"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "A simple map showcasing the Kokiri civilization’s assets in the game.",
+  "Keywords": [
+    "demo",
+    "hyrule"
+  ],
+  "LockTeams": false,
+  "Name": "Sandbox - The Kokiri",
+  "PlayerData": [
+    {
+      "Civ": "kokiri",
+      "Color": {
+        "b": 6,
+        "g": 255,
+        "r": 33
+      },
+      "Resources": {
+        "food": 50000,
+        "metal": 50000,
+        "stone": 50000,
+        "wood": 50000
+      }
+    }
+  ],
+  "Preview": "",
+  "RevealMap": false,
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="5">
+			<Template>structures/kokiri/civil_centre</Template>
+			<Player>1</Player>
+			<Position x="504.01462" z="357.97126"/>
+			<Orientation y="3.09688"/>
+			<Actor seed="21167"/>
+		</Entity>
+		<Entity uid="7">
+			<Template>structures/kokiri/civil_centre_upg</Template>
+			<Player>1</Player>
+			<Position x="665.74512" z="358.43195"/>
+			<Orientation y="-3.05341"/>
+			<Actor seed="7358"/>
+		</Entity>
+		<Entity uid="8">
+			<Template>structures/kokiri/civil_centre_upg_B</Template>
+			<Player>1</Player>
+			<Position x="846.2646" z="368.03943"/>
+			<Orientation y="-3.02273"/>
+			<Actor seed="56234"/>
+		</Entity>
+		<Entity uid="9">
+			<Template>structures/kokiri/barracks</Template>
+			<Player>1</Player>
+			<Position x="744.90296" z="281.30652"/>
+			<Orientation y="3.11617"/>
+			<Actor seed="18744"/>
+		</Entity>
+		<Entity uid="10">
+			<Template>structures/kokiri/barracksB</Template>
+			<Player>1</Player>
+			<Position x="590.53614" z="276.93168"/>
+			<Orientation y="2.9787"/>
+			<Actor seed="4962"/>
+		</Entity>
+		<Entity uid="11">
+			<Template>structures/kokiri/barracksC</Template>
+			<Player>1</Player>
+			<Position x="436.28937" z="268.961"/>
+			<Orientation y="3.10862"/>
+			<Actor seed="12556"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>structures/kokiri/defense_tower</Template>
+			<Player>1</Player>
+			<Position x="400.08313" z="331.12531"/>
+			<Orientation y="-0.1018"/>
+			<Actor seed="10758"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>structures/kokiri/farmstead</Template>
+			<Player>1</Player>
+			<Position x="393.0365" z="400.11204"/>
+			<Orientation y="2.86625"/>
+			<Actor seed="47641"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>structures/kokiri/field</Template>
+			<Player>1</Player>
+			<Position x="416.86142" z="336.73584"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54383"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>structures/kokiri/forge</Template>
+			<Player>1</Player>
+			<Position x="433.86475" z="465.54017"/>
+			<Orientation y="2.94457"/>
+			<Actor seed="25050"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>structures/kokiri/house</Template>
+			<Player>1</Player>
+			<Position x="497.56141" z="477.32813"/>
+			<Orientation y="3.0475"/>
+			<Actor seed="40622"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>structures/kokiri/market</Template>
+			<Player>1</Player>
+			<Position x="561.69745" z="474.86445"/>
+			<Orientation y="-3.09234"/>
+			<Actor seed="24724"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>structures/kokiri/stable</Template>
+			<Player>1</Player>
+			<Position x="630.22388" z="478.15674"/>
+			<Orientation y="-2.95301"/>
+			<Actor seed="21734"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>structures/kokiri/storehouse</Template>
+			<Player>1</Player>
+			<Position x="679.22779" z="465.92212"/>
+			<Orientation y="-3.0698"/>
+			<Actor seed="28064"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>structures/kokiri/temple</Template>
+			<Player>1</Player>
+			<Position x="719.94251" z="466.36771"/>
+			<Orientation y="-3.04172"/>
+			<Actor seed="53895"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>structures/kokiri/tree</Template>
+			<Player>1</Player>
+			<Position x="761.52723" z="452.79865"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4927"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>structures/kokiri/wall_gate</Template>
+			<Player>1</Player>
+			<Position x="801.482" z="477.4535"/>
+			<Orientation y="-3.09501"/>
+			<Actor seed="44660"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>structures/kokiri/wall_long</Template>
+			<Player>1</Player>
+			<Position x="847.4751" z="487.25"/>
+			<Orientation y="3.13973"/>
+			<Actor seed="46857"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>structures/kokiri/wall_medium</Template>
+			<Player>1</Player>
+			<Position x="892.53315" z="488.5276"/>
+			<Orientation y="-3.08324"/>
+			<Actor seed="61563"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>structures/kokiri/wall_short</Template>
+			<Player>1</Player>
+			<Position x="923.82691" z="488.5276"/>
+			<Orientation y="-3.01174"/>
+			<Actor seed="21366"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>structures/kokiri/wall_tower</Template>
+			<Player>1</Player>
+			<Position x="949.97693" z="486.02125"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="761"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>structures/kokiri/wonder</Template>
+			<Player>1</Player>
+			<Position x="667.05091" z="229.52613"/>
+			<Orientation y="3.04264"/>
+			<Actor seed="11631"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>units/kokiri/champion_chariot</Template>
+			<Player>1</Player>
+			<Position x="486.22104" z="263.14707"/>
+			<Orientation y="3.0753"/>
+			<Actor seed="52041"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>units/kokiri/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="495.68409" z="266.64368"/>
+			<Orientation y="3.09855"/>
+			<Actor seed="31366"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>units/kokiri/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="502.27277" z="267.4712"/>
+			<Orientation y="3.13671"/>
+			<Actor seed="28059"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>units/kokiri/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="510.68531" z="266.09635"/>
+			<Orientation y="-3.09766"/>
+			<Actor seed="1660"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>units/kokiri/kokiri_buckrider</Template>
+			<Player>1</Player>
+			<Position x="521.08832" z="264.74311"/>
+			<Orientation y="-3.03673"/>
+			<Actor seed="16288"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>units/kokiri/kokiri_chief_b</Template>
+			<Player>1</Player>
+			<Position x="529.51105" z="265.28183"/>
+			<Orientation y="-2.9887"/>
+			<Actor seed="45868"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>units/kokiri/kokiri_chief_upg</Template>
+			<Player>1</Player>
+			<Position x="535.90278" z="266.09635"/>
+			<Orientation y="-2.95333"/>
+			<Actor seed="55416"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>units/kokiri/kokiri_dekusprout_b</Template>
+			<Player>1</Player>
+			<Position x="543.95624" z="267.1945"/>
+			<Orientation y="-3.1046"/>
+			<Actor seed="27033"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>units/kokiri/kokiri_dekutree_b</Template>
+			<Player>1</Player>
+			<Position x="559.9516" z="243.63395"/>
+			<Orientation y="3.08642"/>
+			<Actor seed="32304"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>units/kokiri/kokiri_dekutree_large</Template>
+			<Player>1</Player>
+			<Position x="582.45044" z="240.03452"/>
+			<Orientation y="3.11764"/>
+			<Actor seed="53771"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>units/kokiri/kokiri_doetrotter</Template>
+			<Player>1</Player>
+			<Position x="487.49018" z="249.11875"/>
+			<Orientation y="-3.09255"/>
+			<Actor seed="52110"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>units/kokiri/kokiri_emarcher_b</Template>
+			<Player>1</Player>
+			<Position x="496.30222" z="252.53122"/>
+			<Orientation y="2.9925"/>
+			<Actor seed="12860"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>units/kokiri/kokiri_enchant_b</Template>
+			<Player>1</Player>
+			<Position x="503.6912" z="253.86042"/>
+			<Orientation y="2.97916"/>
+			<Actor seed="8221"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>units/kokiri/kokiri_explorer_b</Template>
+			<Player>1</Player>
+			<Position x="509.67356" z="254.9138"/>
+			<Orientation y="3.0262"/>
+			<Actor seed="24120"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>units/kokiri/kokiri_fiddler_b</Template>
+			<Player>1</Player>
+			<Position x="348.24061" z="291.85856"/>
+			<Orientation y="2.85035"/>
+			<Actor seed="64884"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>units/kokiri/kokiri_fiddler_upgA</Template>
+			<Player>1</Player>
+			<Position x="358.90735" z="293.21073"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39056"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>units/kokiri/kokiri_fiddler_upgB</Template>
+			<Player>1</Player>
+			<Position x="367.75458" z="292.87122"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32013"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>units/kokiri/kokiri_fiddler_upgC</Template>
+			<Player>1</Player>
+			<Position x="376.93201" z="295.26856"/>
+			<Orientation y="2.9688"/>
+			<Actor seed="655"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>units/kokiri/kokiri_grovewatch_b</Template>
+			<Player>1</Player>
+			<Position x="519.10425" z="255.98398"/>
+			<Orientation y="-3.03678"/>
+			<Actor seed="9155"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>units/kokiri/kokiri_hero_cariso</Template>
+			<Player>1</Player>
+			<Position x="527.10688" z="255.14393"/>
+			<Orientation y="-2.98003"/>
+			<Actor seed="50771"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>units/kokiri/kokiri_hero_domiso</Template>
+			<Player>1</Player>
+			<Position x="532.18494" z="256.01539"/>
+			<Orientation y="-2.96628"/>
+			<Actor seed="57966"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>units/kokiri/kokiri_hero_fado_b</Template>
+			<Player>1</Player>
+			<Position x="760.75776" z="203.66776"/>
+			<Orientation y="-3.08526"/>
+			<Actor seed="28996"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>units/kokiri/kokiri_hero_fado_upgA</Template>
+			<Player>1</Player>
+			<Position x="769.50196" z="201.84522"/>
+			<Orientation y="-3.02268"/>
+			<Actor seed="35428"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>units/kokiri/kokiri_hero_fado_upgB</Template>
+			<Player>1</Player>
+			<Position x="777.72584" z="201.84522"/>
+			<Orientation y="-2.96537"/>
+			<Actor seed="42628"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>units/kokiri/kokiri_hero_fado_upgC</Template>
+			<Player>1</Player>
+			<Position x="785.85541" z="201.44654"/>
+			<Orientation y="-2.89512"/>
+			<Actor seed="46066"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>units/kokiri/kokiri_hero_fado_upgD</Template>
+			<Player>1</Player>
+			<Position x="794.72248" z="201.97687"/>
+			<Orientation y="-3.00521"/>
+			<Actor seed="270"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>units/kokiri/kokiri_hero_fadola</Template>
+			<Player>1</Player>
+			<Position x="539.02186" z="255.62381"/>
+			<Orientation y="3.05962"/>
+			<Actor seed="30810"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>units/kokiri/kokiri_hero_fariso</Template>
+			<Player>1</Player>
+			<Position x="545.44495" z="256.58597"/>
+			<Orientation y="3.10653"/>
+			<Actor seed="57700"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>units/kokiri/kokiri_hero_makar</Template>
+			<Player>1</Player>
+			<Position x="489.00977" z="238.55762"/>
+			<Orientation y="2.92206"/>
+			<Actor seed="11977"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>units/kokiri/kokiri_hero_mido</Template>
+			<Player>1</Player>
+			<Position x="499.2407" z="239.59192"/>
+			<Orientation y="2.82174"/>
+			<Actor seed="49573"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>units/kokiri/kokiri_hero_saria</Template>
+			<Player>1</Player>
+			<Position x="506.4469" z="241.71494"/>
+			<Orientation y="2.9872"/>
+			<Actor seed="26578"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>units/kokiri/kokiri_huntingfox</Template>
+			<Player>1</Player>
+			<Position x="512.63978" z="241.86942"/>
+			<Orientation y="2.84546"/>
+			<Actor seed="33638"/>
+		</Entity>
+		<Entity uid="63">
+			<Template>units/kokiri/kokiri_idol_b</Template>
+			<Player>1</Player>
+			<Position x="521.73517" z="241.40708"/>
+			<Orientation y="3.0872"/>
+			<Actor seed="35306"/>
+		</Entity>
+		<Entity uid="64">
+			<Template>units/kokiri/kokiri_kormantlet_b</Template>
+			<Player>1</Player>
+			<Position x="528.9256" z="244.07374"/>
+			<Orientation y="2.97312"/>
+			<Actor seed="51347"/>
+		</Entity>
+		<Entity uid="65">
+			<Template>units/kokiri/kokiri_leafer_b</Template>
+			<Player>1</Player>
+			<Position x="535.33637" z="245.53287"/>
+			<Orientation y="3.02445"/>
+			<Actor seed="44147"/>
+		</Entity>
+		<Entity uid="66">
+			<Template>units/kokiri/kokiri_logram_b</Template>
+			<Player>1</Player>
+			<Position x="543.92231" z="245.36908"/>
+			<Orientation y="-3.11304"/>
+			<Actor seed="46008"/>
+		</Entity>
+		<Entity uid="67">
+			<Template>units/kokiri/kokiri_mudjabber_b</Template>
+			<Player>1</Player>
+			<Position x="490.40183" z="229.20868"/>
+			<Orientation y="2.8924"/>
+			<Actor seed="12835"/>
+		</Entity>
+		<Entity uid="68">
+			<Template>units/kokiri/kokiri_mudlaborer</Template>
+			<Player>1</Player>
+			<Position x="499.4249" z="229.88553"/>
+			<Orientation y="2.9602"/>
+			<Actor seed="7396"/>
+		</Entity>
+		<Entity uid="69">
+			<Template>units/kokiri/kokiri_mudmantlet_b</Template>
+			<Player>1</Player>
+			<Position x="506.97706" z="231.08729"/>
+			<Orientation y="3.01832"/>
+			<Actor seed="62900"/>
+		</Entity>
+		<Entity uid="70">
+			<Template>units/kokiri/kokiri_titan_GDT</Template>
+			<Player>1</Player>
+			<Position x="663.94135" z="155.65519"/>
+			<Orientation y="-2.97216"/>
+			<Actor seed="24243"/>
+		</Entity>
+		<Entity uid="71">
+			<Template>units/kokiri/kokiri_walker_b</Template>
+			<Player>1</Player>
+			<Position x="514.66828" z="231.14798"/>
+			<Orientation y="3.03635"/>
+			<Actor seed="40532"/>
+		</Entity>
+		<Entity uid="72">
+			<Template>units/kokiri/kokiri_wanderer_b</Template>
+			<Player>1</Player>
+			<Position x="521.61353" z="231.07486"/>
+			<Orientation y="3.12516"/>
+			<Actor seed="50038"/>
+		</Entity>
+		<Entity uid="73">
+			<Template>units/kokiri/kokiri_wolfkiller_b</Template>
+			<Player>1</Player>
+			<Position x="529.41285" z="232.66123"/>
+			<Orientation y="-3.07287"/>
+			<Actor seed="17140"/>
+		</Entity>
+		<Entity uid="74">
+			<Template>units/kokiri/kokiri_wolfos_b</Template>
+			<Player>1</Player>
+			<Position x="536.32203" z="233.09372"/>
+			<Orientation y="-2.99912"/>
+			<Actor seed="31771"/>
+		</Entity>
+		<Entity uid="75">
+			<Template>units/kokiri/support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="542.4098" z="232.44651"/>
+			<Orientation y="-2.93368"/>
+			<Actor seed="30967"/>
+		</Entity>
+		<Entity uid="76">
+			<Template>units/kokiri/support_trader</Template>
+			<Player>1</Player>
+			<Position x="490.28891" z="220.8137"/>
+			<Orientation y="3.05257"/>
+			<Actor seed="41347"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

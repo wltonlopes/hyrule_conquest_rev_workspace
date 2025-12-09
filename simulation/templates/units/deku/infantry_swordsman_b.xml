@@ -42,6 +42,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub Nutling</Classes>
     <SpecificName>Nutling</SpecificName>
     <History>This breed of Deku Scrub grows a protective nut shell on top of their heads rather than leaves or flowers. Such a covering makes Nutlings very durable to conventional weapons, a trait the Deku Scrubs use to protect narrow passages and bottlenecks. Some Nutlings will let Scrublings ride on top of their shoulders to provide support in combat.</History>
     <Tooltip>Small but sturdy defensive unit.</Tooltip>

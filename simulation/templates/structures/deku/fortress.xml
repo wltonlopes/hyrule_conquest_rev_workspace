@@ -49,6 +49,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrubling</Classes>
     <SpecificName>Blockhouse</SpecificName>
     <History>The Blockhouse serves as a durable defensive platform to protect a Deku Scrub Encampment. The Blockhouse itself is manned by Deku Nut spitting Scrubs and can garrison batallions of units inside to bolster its attack power.</History>
     <Icon>structures/deku/dek_blockhouse.dds</Icon>
@@ -57,6 +58,18 @@
   <Obstruction>
     <Static width="40.0" depth="40.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -attack_soldiers_will
+      -tower_murderholes
+      -tower_garrison
+      -art_of_war
+      -poison_arrows
+      -poison_blades
+      -roman_reforms
+      deku/megascrub_clawgrowth
+    </Technologies>
+  </Researcher>
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">

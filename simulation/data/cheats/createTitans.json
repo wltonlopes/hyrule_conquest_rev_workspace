@@ -8,7 +8,10 @@
 			"units/deku/deku_titan_stagnox",
 			"units/stalfos/stalfos_titan_stallord",
 			"units/kokiri/kokiri_titan_GDT",
-			"units/ordona/ordona_titan_latoan"
+			"units/ordona/ordona_titan_latoan",
+			"units/lanayru/lanayru_titan_vrylonacia",
+			"units/zola/zola_titan_aquamentus",
+			"units/goron/goron_titan_biggoron"
 		]
 	}
 }

@@ -20,7 +20,6 @@
       <variant file="HC_zora/base_HC_biped_sword.xml">
         <props>
 			<prop actor="props/units/weapons/zola_krellstaffA.xml" attachpoint="L_hand_01"/>
-			<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
         </props>
         <textures>
           <texture file="skeletal/zola/zol_hero1.dds" name="baseTex"/>

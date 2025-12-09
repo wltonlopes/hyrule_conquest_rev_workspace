@@ -17,6 +17,16 @@
   <Obstruction>
     <Static width="12.0" depth="12.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -pair_gather_food_maur
+      -gather_farming_seed_drill
+      -gather_farming_water_weeding
+      -gather_farming_chain_pump
+      -gather_farming_harvester
+      ordona/gather_food_heartypumpkins
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/ordona/ordona_plantationA.xml</Actor>
     <FoundationActor>structures/ordona/ordona_scaffoldB.xml</FoundationActor>

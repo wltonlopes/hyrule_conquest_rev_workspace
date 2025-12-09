@@ -18,6 +18,26 @@
   <Obstruction>
     <Static depth="33.0" width="33.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -trader_health
+      -trade_gain_01
+      -trade_gain_02
+      trade_commercial_treaty
+      unlock_shared_los
+      lanayru/market_foreignmarket
+      lanayru/market_exchangerate
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/merc/merc_goriya_b
+      units/merc/merc_geru_b
+      units/merc/merc_tinsuit_b
+      units/merc/merc_wosu_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/lanayru/lanayru_marketA.xml</Actor>
     <FoundationActor>structures/lanayru/lanayru_scaffoldI.xml</FoundationActor>

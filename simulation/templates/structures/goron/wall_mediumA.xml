@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_medium">
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>12</stone>
+      <metal>12</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="26.5" depth="9.0"/>
+    <Height>9</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_small</SpawnEntityOnDeath>
+  </Health>
+  <GarrisonHolder disable="" />
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Goron Wall</SpecificName>
+    <History>Goron Walls are some of the sturdiest defenses in all of Hyrule. It takes quite a force to break through metal and stone.</History>
+    <Tooltip>Defensive Wall to slow invaders.</Tooltip>
+    <Icon>structures/goron/gor_wallA.dds</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="30.0" depth="7.5"/>
+  </Obstruction>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>4</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>-4</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Archer3>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/goron/goron_wall_mediumA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>30.0</Length>
+  </WallPiece>
+  <Upgrade>
+    <WallB>
+      <Cost>
+	<stone>30</stone>
+      </Cost>
+      <Entity>structures/goron/wall_mediumB</Entity>
+      <Time>10</Time>
+      <Tooltip>Reinforce the tower walls.</Tooltip>
+      <Variant>upgrading</Variant>
+    </WallB>
+    <WallC>
+      <Cost>
+	<stone>30</stone>
+      </Cost>
+      <Entity>structures/goron/wall_mediumC</Entity>
+      <Time>10</Time>
+      <Tooltip>Add a lava moat to the walls.</Tooltip>
+      <Variant>upgrading</Variant>
+    </WallC>
+    <WallD>
+      <Cost>
+	<stone>30</stone>
+      </Cost>
+      <Entity>structures/goron/wall_longD</Entity>
+      <Time>10</Time>
+      <Tooltip>Add a lava moat to the walls.</Tooltip>
+      <Variant>upgrading</Variant>
+    </WallD>
+  </Upgrade>
+</Entity>

@@ -17,6 +17,7 @@
 		{"File": "deku_battle1.ogg", "Type": "battle"},
 		{"File": "deku_battle2.ogg", "Type": "battle"},
 		{"File": "deku_battle3.ogg", "Type": "battle"},
+		{"File": "deku_defeat1.ogg", "Type": "defeat"},
 		{"File": "deku_victory1.ogg", "Type": "victory"}
 	],
 	"Factions":
@@ -117,11 +118,21 @@
 	],
 	"SkirmishReplacements":
 	{
+		"skirmish/units/default_support_female_citizen": "units/deku/support_female_citizen",
+		"skirmish/units/default_infantry_melee_b": "units/deku/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/deku/infantry_archer_b",
+		"skirmish/units/default_ship_arrow": "units/deku/deku_waterbeetle",
+		"skirmish/units/default_ship_scout": "units/deku/deku_waterbeetle",
+		"skirmish/units/default_siege_ram": "units/deku/deku_scrubram",
 		"skirmish/units/default_cavalry": "units/deku/infantry_swordsman_b",
+		"skirmish/units/special_starting_unit": "units/deku/deku_hornling_b",
+		"skirmish/structures/default_corral": "structures/deku/field",
+		"skirmish/structures/default_dock": "structures/deku/stable",
+		"skirmish/structures/default_house_5": "structures/deku/house",
 		"skirmish/structures/default_house_10": "structures/deku/house",
-		"skirmish/structures/default_civil_centre": "structures/deku/civil_centre",
-		"skirmish/structures/default_fortress": "structures/deku/fortress"
+		"skirmish/structures/default_outpost": "structures/deku/defense_tower",
+		"skirmish/structures/default_range": "structures/deku/kennel",
+		"skirmish/structures/default_sentry_tower": "structures/deku/defense_tower"
 	},
 	"SelectableInGameSetup": true
 }

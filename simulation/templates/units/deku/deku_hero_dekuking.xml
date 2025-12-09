@@ -2,7 +2,6 @@
 <Entity parent="template_unit_hero_infantry_spearman">
   <Auras datatype="tokens">
     units/heroes/deku_hero_dekuking_01
-    units/heroes/deku_hero_dekuking_02
   </Auras>
   <Attack>
     <Melee replace="">
@@ -39,6 +38,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub</Classes>
     <GenericName>King of the Deku Scrubs</GenericName>
     <SpecificName>Kud-Loh-Kan</SpecificName>
     <History>Perhaps one of the most powerful rulers of the Deku Scrubs, King Kud-Loh-Kan is the first of his race to unite every single Scrub under one banner. His success does not rise from the people&#8217;s favor however; King Kud-Loh-Kan rules like a tyrant and constantly threatens his people with executions. Despite his angry demeanor, the King&#8217;s motivations seem to be rooted in his love for his daughter, and he wishes for her to replace him on the throne after his passing.</History>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <Cost>
+    <Resources>
+      <wood>0</wood>
+      <stone>75</stone>
+      <metal>25</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Worker</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>900</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <Classes datatype="tokens">SirloinMine</Classes>
+    <SpecificName>Rock Sirloin Mine</SpecificName>
+    <Icon>structures/goron/gor_mine.dds</Icon>
+    <History>Gorons are capable of consuming a wide variety of minerals, though Rock Sirloin is among their favorite diets. This primary food of the Goron people can be mined just under the surface of most landscapes.</History>
+  </Identity>
+  <Obstruction>
+    <Static width="43.0" depth="43.0"/>
+    <BlockMovement>true</BlockMovement>
+    <BlockPathfinding>true</BlockPathfinding>
+  </Obstruction>
+  <ResourceTrickle>
+    <Rates>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Rates>
+    <Interval>5000</Interval>
+  </ResourceTrickle>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>Infinity</Max>
+    <Type>stone.rock</Type>
+    <MaxGatherers>5</MaxGatherers>
+  </ResourceSupply>
+  <VisualActor>
+    <Actor>structures/goron/goron_mineA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

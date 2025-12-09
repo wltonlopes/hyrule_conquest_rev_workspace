@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_storehouse">
+  <AlertRaiser>
+    <List datatype="tokens">Trader+!Ship</List>
+    <RaiseAlertRange>-1</RaiseAlertRange>
+    <EndOfAlertRange>-1</EndOfAlertRange>
+    <SearchRange>100</SearchRange>
+  </AlertRaiser>
   <Cost>
     <BuildTime>25</BuildTime>
     <Resources>
@@ -20,7 +26,7 @@
   <Identity>
     <Civ>lanayru</Civ>
     <SpecificName>Bank</SpecificName>
-    <Classes datatype="tokens">-DropsiteStone -DropsiteWood</Classes>
+    <Classes datatype="tokens">Bank -DropsiteStone -DropsiteWood</Classes>
     <VisibleClasses datatype="tokens">Town -Village</VisibleClasses>
     <History>One of the keys to Lanayru Province's rapid growth and financial success, Banks could hold citiziens' money for use in investements and other business ventures, as well as issue out loans and generate interest. Lanayru Banks were careful with this practice however, as mismanagement could lead to rapid inflation and economic collapse.</History>
     <Icon>structures/lanayru/lan_bank.dds</Icon>
@@ -28,6 +34,13 @@
       <Techs datatype="tokens">-phase_village phase_city</Techs>
     </Requirements>
   </Identity>
+  <Loot>
+    <metal>1000</metal>
+  </Loot>
+  <Market>
+    <TradeType>land</TradeType>
+    <InternationalBonus>0.2</InternationalBonus>
+  </Market>
   <Obstruction>
     <Static width="33.0" depth="33.0"/>
   </Obstruction>
@@ -39,10 +52,30 @@
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>10</metal>
+      <metal>5</metal>
     </Rates>
     <Interval>2000</Interval>
   </ResourceTrickle>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -gather_lumbering_ironaxes
+      -gather_lumbering_strongeraxes
+      -gather_lumbering_sharpaxes
+      -gather_mining_servants
+      -gather_mining_serfs
+      -gather_mining_slaves
+      -gather_mining_wedgemallet
+      -gather_mining_shaftmining
+      -gather_mining_silvermining
+      -gather_capacity_basket
+      -gather_capacity_wheelbarrow
+      -gather_capacity_carts
+      lanayru/bank_taxes
+      lanayru/bank_loans
+      lanayru/bank_interest
+      lanayru/bank_vault
+    </Technologies>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/lanayru/complete_bank.xml</constructed>

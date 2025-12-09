@@ -3,10 +3,20 @@
   <Auras datatype="tokens">
     teambonuses/kokiri_player_teambonus
   </Auras>
+  <EntityLimits>
+    <Limits>
+      <Song>1</Song>
+    </Limits>
+  </EntityLimits>
   <Identity>
     <Civ>kokiri</Civ>
     <GenericName>Kokiri</GenericName>
-    <History>"The Kokiri are a group of Hylian children that long ago fled into the depths of the forest to escape the Wars of (triforce era). Soon, they found that they were immortal as long as they stayed in the forest, and attributed this to be the power of the Great Deku Tree, their patron diety. Now, as darkness enravels their forest, they must fight to take back what is theirs'.",</History>
+    <History>The Kokiri are a group of Hylian children that long ago fled into the depths of the forest to escape the Wars of (triforce era). Soon, they found that they were immortal as long as they stayed in the forest, and attributed this to be the power of the Great Deku Tree, their patron diety. Now, as darkness enravels their forest, they must fight to take back what is theirs'.</History>
     <Icon>emblems/emblem_kokiri.dds</Icon>
   </Identity>
+  <Player>
+    <Formations datatype="tokens">
+      special/formations/kokiri_scatter
+    </Formations>
+  </Player>
 </Entity>

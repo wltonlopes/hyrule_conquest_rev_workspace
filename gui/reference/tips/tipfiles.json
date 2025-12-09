@@ -34,5 +34,35 @@
     "imageFiles": [
       "titan_stallord.png"
     ]
+  },
+  {
+    "textFile": "titan_aquamentus.txt",
+    "imageFiles": [
+      "titan_aquamentus.png"
+    ]
+  },
+  {
+    "textFile": "titan_stagnox.txt",
+    "imageFiles": [
+      "titan_stagnox.png"
+    ]
+  },
+  {
+    "textFile": "titan_vrylonacia.txt",
+    "imageFiles": [
+      "titan_vrylonacia.png"
+    ]
+  },
+  {
+    "textFile": "titan_GDT.txt",
+    "imageFiles": [
+      "titan_GDT.png"
+    ]
+  },
+  {
+    "textFile": "titan_biggoron.txt",
+    "imageFiles": [
+      "titan_biggoron.png"
+    ]
   }
 ]

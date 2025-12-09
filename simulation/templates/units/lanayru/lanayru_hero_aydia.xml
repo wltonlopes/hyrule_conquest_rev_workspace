@@ -30,6 +30,7 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">Swimmer</Classes>
     <SpecificName>Aydia Dorephan</SpecificName>
     <GenericName>Supreme Province General</GenericName>
     <History>Aydia was a long serving Marshal in Lanayru's army. She is almost entirely responsible for the Province's conscription program and without it the nation would have likely fallen from a lack of military force by now. She has perhaps participated in more battles than any other Zora of the north, and bears scars from her numerous engagements.</History>

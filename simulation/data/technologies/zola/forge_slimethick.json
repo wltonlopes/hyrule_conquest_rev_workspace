@@ -1,0 +1,16 @@
+{
+	"genericName": "Acidic Slime",
+	"description": "You increase the thickness of Zol slime, increasing defense. However, this slightly slows the Zols movement speed.",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 400},
+	"icon": "zola/zol_zol.dds",
+	"researchTime": 40,
+	"tooltip": "Zol units have +50% resistance, but -10% speed.",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Crush", "multiply": 1.5},
+				{"value": "Resistance/Entity/Damage/Hack", "multiply": 1.5},
+				{"value": "Resistance/Entity/Damage/Pierce", "multiply": 1.5},
+				{"value": "UnitMotion/WalkSpeed", "multiply": 0.90}
+			 ],
+	"affects": ["Zol"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

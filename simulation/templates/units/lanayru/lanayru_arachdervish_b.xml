@@ -11,6 +11,10 @@
       <MaxRange>6.0</MaxRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>1400</RepeatTime>
+      <Stun>
+        <Chance>80</Chance>
+        <Time>1000</Time>
+      </Stun>
     </Melee>
   </Attack>
   <Cost>
@@ -32,11 +36,11 @@
   <Identity>
     <Civ>lanayru</Civ>
     <SpecificName>Arach Dervish</SpecificName>
-    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
+    <Classes datatype="tokens">ArachDervish</Classes>
     <History>Older Arachs are rare, as they can only be domesticated if caught at an early age. Even those that have been domesticated cannot be given verbal orders, and must be controlled by a rider. Because of how aggressive and difficult Arachs are to manage, its rider cannot attack and must focus entirely on directing its mount. The Arach itself has two powerful claws and a venomous stinger on its tail, making them one of the most deadly creatures in Lanayru's army.</History>
     <Tooltip>Fast Melee Unit that attacks with poisonous stinger.</Tooltip>
     <Icon>units/lanayru/lan_arachdervish.dds</Icon>
-    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
   </Identity>
   <Resistance>
     <Entity>

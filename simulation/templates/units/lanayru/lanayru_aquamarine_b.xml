@@ -19,6 +19,7 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">Aquamarine Swimmer</Classes>
     <SpecificName>Aquamarine</SpecificName>
     <History>Wearing durable but light and highly flexible Lanayru Armor, Aquamarines are the Province's main assault force for bringing the fight to their enemies. Armed with wickedly sharp coralmold gauntlets, an Aquamarine can pry off all manner of armor with ease, poisoning the wearer as well. The nature of their armor allows them to move just as fast in water as on land.</History>
     <Tooltip>Fast moving Melee unit that deals armor piercing damage and poison damage.</Tooltip>
@@ -45,6 +46,11 @@
     <RunMultiplier>1.0967</RunMultiplier>
     <WalkSpeed>12.5</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>6000</ActivateDelay>
+    </Camouflage>
+  </Visibility> 
   <VisualActor>
     <Actor>units/lanayru/lanayru_aquamarine_b.xml</Actor>
   </VisualActor>

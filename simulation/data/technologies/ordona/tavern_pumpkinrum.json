@@ -1,0 +1,21 @@
+{
+	"genericName": "Pumpkin Rum Exporting",
+	"description": "Spiced Rum from Ordona Province is quite famous among the neighboring states.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
+	"requirements": {"all": 
+				[
+					{"tech": "phase_town"},
+					{"civ": "ordona"}
+				]
+			},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "ordona/tavern_pumpkinrum.dds",
+	"researchTime": 40,
+	"tooltip": "Markets now sell Pumpkin Rum, creating a slight trickle in resources.",
+	"modifications": [
+				{"value": "ResourceTrickle/Rates/metal", "add": 1.0},
+				{"value": "ResourceTrickle/Interval", "add": 2000.0}
+			 ],
+	"affects": ["Market"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -72,9 +72,16 @@
         <Hack>1</Hack>
         <Pierce>1</Pierce>
         <Crush>1</Crush>
+        <Fire>0</Fire>
+        <Forest>0</Forest>
+        <Water>0</Water>
+        <Shadow>0</Shadow>
+        <Spirit>0</Spirit>
         <True>0</True>
       </Damage>
     </Entity>
+    <KnockbackResistance>0</KnockbackResistance>
+    <StunResistance>0</StunResistance>
   </Resistance>
   <Selectable>
     <Overlay>

@@ -1,0 +1,9 @@
+{
+	"Name": "Art",
+	"Data": {
+		"Action": "createunits",
+		"DefaultParameter": 1,
+		"isNumeric": true,
+		"Templates": ["units/tun"]
+	}
+}

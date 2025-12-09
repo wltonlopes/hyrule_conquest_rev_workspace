@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_passive">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square width="15.0" depth="30.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Identity>
+    <Civ>zola</Civ>
+    <SpecificName>Zola Carrier</SpecificName>
+    <GenericName>Barracks</GenericName>
+    <Classes datatype="tokens">ConquestCritical Structure DropsiteWood DropsiteMetal DropsiteStone DropsiteFood</Classes>
+    <VisibleClasses datatype="tokens">Creature Barracks Military</VisibleClasses>
+    <History>While Zola are hardly the only culture to employ mobile homes and barracks, they are the only ones to fully do so by using the insides of other creatures. Bigoctos which have grown to a large enough size have much of their shell hollowed out, allowing for soldiers and their gear to fit inside.</History>
+    <Tooltip>Trains Zola units.</Tooltip>
+    <Icon>structures/zola/zol_barracks.dds</Icon>
+  </Identity>
+  <ProductionQueue/>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>25.0</Crush>
+        <Hack>5.0</Hack>
+        <Pierce>10.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceDropsite>
+    <Types>wood stone metal food</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/siege/ram_attack.xml</attack_melee>
+      <death>voice/zola/octogiant/octogiant_death.xml</death>
+      <order_attack>voice/zola/octogiant/octogiant_attack.xml</order_attack>
+      <order_garrison>voice/zola/octogiant/octogiant_garrison.xml</order_garrison>
+      <order_gather>voice/zola/octogiant/octogiant_gather.xml</order_gather>
+      <order_repair>voice/zola/octogiant/octogiant_repair.xml</order_repair>
+      <order_walk>voice/zola/octogiant/octogiant_walk.xml</order_walk>
+      <run>actor/movement/bigocto/bigocto_crawl.xml</run>
+      <select>voice/zola/octogiant/octogiant_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <walk>actor/movement/bigocto/bigocto_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/zola/support_female_citizen
+      units/zola/zola_aerocuda_b
+      units/zola/zola_geozard_b
+      units/zola/zola_feral_b
+      units/zola/zola_ku_b
+      units/zola/zola_auger_b
+      units/zola/zola_geochief_b
+      units/zola/zola_hero_barudakan
+    </Entities>
+  </Trainer> 
+  <UnitAI>
+    <FeedTimeMax>12000</FeedTimeMax>
+    <FeedTimeMin>5000</FeedTimeMin>
+    <DefaultStance>passive</DefaultStance>
+    <RoamDistance>5.0</RoamDistance>
+    <RoamTimeMax>1000</RoamTimeMax>
+    <RoamTimeMin>500</RoamTimeMin>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>huge_amphibious</PassabilityClass>
+    <RunMultiplier>1.2307</RunMultiplier>
+    <WalkSpeed>3.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>50</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/zola/zol_octohuge_barracks.xml</Actor>
+  </VisualActor>
+</Entity>

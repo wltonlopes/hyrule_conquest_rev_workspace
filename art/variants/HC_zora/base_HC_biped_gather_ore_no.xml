@@ -2,7 +2,4 @@
   <animations>
     <animation event="0.4" file="HC_zora/zora_harvest_mine.dae" name="gather_ore" speed="100"/>
   </animations>
-  <props>
-	<prop attachpoint="L_wrist_01"/>
-  </props>
 </variant>

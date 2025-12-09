@@ -18,6 +18,7 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">SilverWeapon SilverArmor Swimmer</Classes>
     <SpecificName>Wave Warrior</SpecificName>
     <VisibleClasses datatype="tokens">Silver</VisibleClasses>
     <History>Outfitted with Silverscale mail and armed with a Silver Falcion, the Wave Warriors are Lanayru Province's chief battle unit. They can go toe to toe with their enemies and quickly retreat back to the waters if need be.</History>

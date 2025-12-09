@@ -1,0 +1,12 @@
+{
+	"genericName": "Riches of Lanayru",
+	"autoResearch": true,
+	"description": "Even among the wealthier countries of Hyrule, Lanayru stands out as the wealthiest. They have spent years perfecting the refinement and harvesting of metal in order to get to such riches.",
+	"tooltip": "+25% bonus to gathering metal.",
+	"requirements": { "civ": "lanayru" },
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/metal", "multiply": 1.25 }
+	],
+	"affects": ["Human"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -30,6 +30,7 @@
   </Health>
   <Identity>
     <Civ>ordona</Civ>
+    <Classes datatype="tokens">Goat</Classes>
     <SpecificName>Bo</SpecificName>
     <GenericName>Lord Mayor of Ordona Province</GenericName>
     <History>The Lord Mayor and head of all of Ordona Province, Mayor Bo has served his leadership role longer than any other man of the Ordonian people. He is loved by the people for his humble attitude and knack for partaking in menial labor with the Serfs of the Province. Mayor Bo is a man of impressive durability, and is famous for getting into sumo fights with Gorons. His daughter Ilia claims that he ripped the horn off of a Moblin that he made a bet with, but he denies ever pulling the stunt off. In battle Mayor Bo rides on top of his Elder Goat, piercing the family lance into the hearts of his enemies.</History>

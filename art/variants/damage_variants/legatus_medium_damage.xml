@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant name="mediumdamage" frequency="0">
+  <mesh>units/darknut/dar_baseA_low.dae</mesh>
+</variant>

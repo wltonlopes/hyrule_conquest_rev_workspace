@@ -1,0 +1,10 @@
+{
+	"type": "garrison",
+	"affects": ["SirloinMine"],
+	"stackable": "true",
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/stone", "add": 1.00 }
+	],
+	"auraName": "Mine Sirloin",
+	"auraDescription": "When garrisoned in a Rock Sirloin Mine, generates 1 food/second."
+}

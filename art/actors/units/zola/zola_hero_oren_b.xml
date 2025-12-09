@@ -20,7 +20,6 @@
       <variant file="HC_zora/base_HC_biped_spear.xml">
         <props>
 		  <prop actor="units/zola/zola_orenoutfitA.xml" attachpoint="root"/>
-		  <prop actor="props/hero_selectorA.xml" attachpoint="root"/>
         </props>
         <textures>
           <texture file="skeletal/zola/zol_femaleA.dds" name="baseTex"/>

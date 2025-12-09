@@ -24,6 +24,7 @@
   <Identity>
     <Civ>ordona</Civ>
     <SpecificName>Yeoman</SpecificName>
+    <Classes datatype="tokens">Goat Helmed</Classes>
     <History>Yeomen are the owners of an Ordonian household, often with several families of farmers below them. Though they are often a bit wealthier than their workers, they still answer to their immediate Fief Lord and are drafted into mandatory military service. Often Yeomen ride their family's Goat into battle, bringing with them a spear to match enemy cavalry. Like all of Ordona's goat cavalry, the Yeoman can climb over mountainous terrain.</History>
     <Tooltip>Light Melee Cavalry unit armed with a spear, ideal for attacking other Cavalry units. Can climb over mountains.</Tooltip>
     <Icon>units/ordona/ord_yeoman.dds</Icon>

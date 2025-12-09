@@ -1,0 +1,17 @@
+{
+	"genericName": "Barbed Tongues",
+	"description": "Pikit tongues are covered in very wicked thorns, but certain speciments have some truly monsterous barbs. These growths can be encouraged by Deku Scrubs, allowing Pikits to rip through armor and hinder their targets.",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 200},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "deku/pikit_barbed.dds",
+	"researchTime": 40,
+	"tooltip": "Pikit tongues were covered in very wicked thorns, but certain speciments had some truly monsterous bards. These growths could be encouraged by Deku Scrubs, allowing Pikits to rip through armor and hinder their targets. (Pikit attack now deals Truedamage and has a chance to Stun targets)",
+	"modifications": [
+				{"value": "Attack/Melee/Damage/TrueDamage", "add": 12},
+				{"value": "Attack/Melee/Damage/Stun/Chance", "add": 50},
+				{"value": "Attack/Melee/Damage/Stun/Time", "add": 500}
+			 ],
+	"affects": ["Pikit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

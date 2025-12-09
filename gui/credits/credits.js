@@ -2,6 +2,7 @@
  * Order in which the tabs should show up.
  */
 var g_OrderTabNames = [
+	"hyrule",
 	"special",
 	"programming",
 	"art",
@@ -11,8 +12,7 @@ var g_OrderTabNames = [
 	"balancing",
 	"community",
 	"translators",
-	"donators",
-	"hyrule"
+	"donators"
 ];
 
 /**

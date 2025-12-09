@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_aggressive">
+  <Attack>
+    <Ranged>
+      <AttackName>Slime</AttackName>
+      <Damage>
+        <Crush>80</Crush>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>5</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PrepareTime>1400</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>50.0</Speed>
+        <Spread>1.0</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Crush>25.0</Crush>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>5</Range>
+        <Shape>Circular</Shape>
+      </Splash> 
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>500</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <DeathDamage>
+    <Shape>Circular</Shape>
+    <Range>14</Range>
+    <FriendlyFire>false</FriendlyFire>
+    <Damage>
+      <Water>24</Water>
+    </Damage>
+  </DeathDamage>
+  <Footprint replace="">
+    <Circle radius="10"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <Civ>zola</Civ>
+    <SpecificName>Dera Zol</SpecificName>
+    <VisibleClasses datatype="tokens">Creature Zol</VisibleClasses>
+    <History>These large slimy creatures wear durable shells and serve as living battering rams. In addition to their strong melee attack against buildings, the Zol slime oozed from these creatures slowly and passively deals damage to any structure in range.</History>
+    <Tooltip>Large Creature Siege unit that excells at destroying enemy structures. Splits into Zols when slain.</Tooltip>
+    <Icon>units/zola/zol_derazol.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>10.0</Crush>
+        <Hack>10.0</Hack>
+        <Pierce>10.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/derazol_slam.xml</attack_melee>
+      <attack_ranged>attack/natural/derazol_slam.xml</attack_ranged>
+      <death>voice/zola/derazol/derazol_death.xml</death>
+      <order_attack>voice/zola/derazol/derazol_attack.xml</order_attack>
+      <order_garrison>voice/zola/derazol/derazol_garrison.xml</order_garrison>
+      <order_gather>voice/zola/derazol/derazol_gather.xml</order_gather>
+      <order_repair>voice/zola/derazol/derazol_repair.xml</order_repair>
+      <order_walk>voice/zola/derazol/derazol_walk.xml</order_walk>
+      <run>actor/movement/morpha/morphalong_move.xml</run>
+      <select>voice/zola/derazol/derazol_select.xml</select>
+      <trained>interface/alarm/alarm_create_cavalry.xml</trained>
+      <walk>actor/movement/morpha/morphalong_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+    <RunMultiplier>1.4285</RunMultiplier>
+    <WalkSpeed>5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/zola/zola_derazol_b.xml</Actor>
+  </VisualActor>
+</Entity>

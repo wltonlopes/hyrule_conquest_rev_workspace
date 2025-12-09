@@ -1,0 +1,20 @@
+{
+	"genericName": "Cotton Cuirass",
+	"description": "Start padding leather armor to deaden the blow from maces and other crushing damage, and help stop arrows.",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 200},
+	"requirements": {"all": [
+					{"tech": "phase_town"},
+					{"civ": "ordona"}
+				]
+			},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "ordona/smithy_cottoncuirass.dds",
+	"researchTime": 40,
+	"tooltip": "All soldiers +2 crush and +1 pierce resistance",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Pierce", "add": 1.0},
+				{"value": "Resistance/Entity/Damage/Crush", "add": 2.0}
+			 ],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

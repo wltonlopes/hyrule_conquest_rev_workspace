@@ -1,0 +1,15 @@
+<Entity parent="template_gaia_tree">
+  <Identity>
+    <GenericName>Wood</GenericName>
+    <History />
+    <SpecificName>Mystical Tree</SpecificName>
+    <Tooltip>The lost Woods is the last vestige of a long-lost age when Hyrule was young and green, and pulses with powerful magics. Some of the mystical trees in its depths have stood since the Primordial Age.</Tooltip>
+  </Identity>
+  <VisualActor>
+    <Actor>flora/forest/LW_tree_targetA.xml</Actor>
+  </VisualActor>
+  <Obstruction>
+    <Static depth="35.0" width="35.0" />
+  </Obstruction>
+  <ResourceSupply disable="" />  
+</Entity>

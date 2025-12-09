@@ -35,6 +35,7 @@
     <Height>3.0</Height>
     <Square depth="12.0" width="8.0"/>
   </Footprint>
+  <GarrisonHolder disable=""/>
   <Health>
     <Max>600</Max>
   </Health>
@@ -44,6 +45,7 @@
     <History>With enemies on all sides, Ordona is often on the defensive. In the cases where the tables are turned, Catapults serve as their big guns for taking out enemy walls and towers. Ordonian catapults hurl boulders from safe behind their army's lines, busting open gates and taking out large targets with ease.</History>
     <Tooltip>Small but effective ranged Siege unit that can knock down enemy structures.</Tooltip>
     <Icon>units/ordona/ord_catapult.dds</Icon>
+    <Classes datatype="tokens">Catapult</Classes>
   </Identity>
   <Pack disable=""/>
   <Resistance>

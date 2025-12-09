@@ -17,6 +17,7 @@
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
+    <Classes datatype="tokens">Wolfos</Classes>
     <History>The Wolfos are a very violent and bloodthirsty creature native to the Kokiri Forest. They typically operate on their own and will attack anything outside of their pack, even other Wolfos groups. Only a particularly powerful and brave warrior can hope to win their respect and aid in battle.</History>
     <SpecificName>Wolfos</SpecificName>
     <Tooltip>Fast and Powerful Melee Creature unit.</Tooltip>

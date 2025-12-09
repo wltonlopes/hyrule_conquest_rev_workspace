@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Soldier"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack","multiply": 0.9 },
+		{ "value": "Resistance/Entity/Damage/Hack","multiply": 0.9 },
+		{ "value": "Resistance/Entity/Damage/Hack","multiply": 0.9 }
+	],
+	"auraName": "Bewildering Speed",
+	"auraDescription": "All soldiers within 60' of Gor Coron have -10% resistance.",
+	"overlayIcon": "art/textures/ui/session/auras/battlebro_aura_2.dds"
+}

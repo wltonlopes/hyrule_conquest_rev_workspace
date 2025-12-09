@@ -1,0 +1,14 @@
+{
+	"genericName": "Private Domociles",
+	"description": "Seperate houses into seperate domociles, raising the armor of houses at the cost of less population.",
+	"cost": {"food": 0, "wood": 0, "stone": 300, "metal": 300},
+	"icon": "lanayru/home_privatequarters.dds",
+	"researchTime": 40,
+	"tooltip": "Houses gain +25 health but -10% population.",
+	"modifications": [
+				{"value": "Health/Max", "multiply": 1.25},
+				{"value": "Population/Bonus", "multiply": 0.90}
+			 ],
+	"affects": ["House"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -45,6 +45,7 @@
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
+    <Classes datatype="tokens">Mudman</Classes>
     <SpecificName>Mudman Laborer</SpecificName>
     <GenericName>Kokiri Worker</GenericName>
     <History>The workforce of the Mudmen, these workers will defend themselves and their peers with ferocity. Though they specialize in building, they also have some combat training, allowing them to defend themselves very effeciantly.</History>
@@ -92,6 +93,11 @@
     <CanPatrol>true</CanPatrol>
     <DefaultStance>defensive</DefaultStance>
   </UnitAI>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility>  
   <VisualActor>
     <Actor>units/kokiri/kokiri_mudlaborer.xml</Actor>
   </VisualActor>

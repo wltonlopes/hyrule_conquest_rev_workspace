@@ -25,7 +25,6 @@
           <prop actor="units/zola/zola_bigoctoshellA.xml" attachpoint="shell"/>
 		  <prop actor="units/zola/zola_octokingshellA.xml" attachpoint="shell"/>
 		  <prop actor="units/zola/zola_hero_zaro_b_r.xml" attachpoint="shell"/>
-		  <prop actor="props/hero_selectorA.xml" attachpoint="root"/>
         </props>
       </variant>
     </group>

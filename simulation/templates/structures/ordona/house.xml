@@ -30,6 +30,16 @@
   <Population>
     <Bonus>8</Bonus>
   </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -pop_house_01
+      -pop_house_02
+      -unlock_females_house
+      ordona/house_guestroom
+      ordona/gather_capacity_youthlabor
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/ordona/ordona_houseA.xml</Actor>
     <FoundationActor>structures/ordona/ordona_scaffoldC.xml</FoundationActor>

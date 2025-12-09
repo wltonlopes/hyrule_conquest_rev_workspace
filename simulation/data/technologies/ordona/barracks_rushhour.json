@@ -1,0 +1,13 @@
+{
+	"genericName": "Patriotism",
+	"description": "Inspire your people to become soldiers to defend their homes.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 400},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "ordona"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "ordona/militiabooth_rushhour.dds",
+	"researchTime": 40,
+	"tooltip": "Increases the batch training speed of all Milita Booth units by 25%",
+	"modifications": [{ "value": "Trainer/BatchTimeModifier", "multiply": 0.75 }],
+	"affects": ["Barracks"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+} 

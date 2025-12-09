@@ -26,6 +26,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub Megascrub</Classes>
     <SpecificName>Megascrub</SpecificName>
     <History>These large Deku Scrubs serve little purpose in their culture other than bashing the heads in of their enemies. Although barely taller than the average Hylian, they are some of the largest Scrubs to live and are considered by their people to be the apex of their race. In a battle they will relentlessly maul victims with their two clawed arms.</History>
     <Tooltip>Large Deku Scrub warrior that attacks enemies with it's sharp clawed hands.</Tooltip>

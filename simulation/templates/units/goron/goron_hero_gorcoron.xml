@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/goron_hero_gorcoron_01
+    units/heroes/goron_hero_gorcoron_02
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Fists</AttackName>
+      <Damage>
+        <Crush>40.0</Crush>
+      </Damage>
+      <MaxRange>7.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>900</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Stun>
+        <Chance>75</Chance>
+        <Time>5000</Time>
+      </Stun> 
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>500</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="7.0" />
+    <Height>7.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1400</Max>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Gor Coron</SpecificName>
+    <GenericName>Elder of Death Mountain</GenericName>
+    <History>One of two remaining elders of Death Mountain. Gor Coron was the youngest of the four elders and by far the most loved. Gor Coron oversaw much of the Goron's military during his younger days, though he now prefers to spend his time fighting in sport against other Gorons.</History>
+    <Tooltip>Faster Melee Goron Hero that has excellent attack speed and has a high Stun chance.</Tooltip>
+    <Icon>units/goron/gor_hero_gorcoron.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>25.0</Pierce>
+        <Fire>55</Fire>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/goron/gorcoron/gorcoron_death.xml</death>
+      <order_attack>voice/goron/gorcoron/gorcoron_attack.xml</order_attack>
+      <order_garrison>voice/goron/gorcoron/gorcoron_garrison.xml</order_garrison>
+      <order_gather>voice/goron/gorcoron/gorcoron_gather.xml</order_gather>
+      <order_repair>voice/goron/gorcoron/gorcoron_repair.xml</order_repair>
+      <order_walk>voice/goron/gorcoron/gorcoron_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/goron/gorcoron/gorcoron_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.5</RunMultiplier>
+    <WalkSpeed>9</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/goron/goron_hero_coron_b.xml</Actor>
+  </VisualActor>
+</Entity>

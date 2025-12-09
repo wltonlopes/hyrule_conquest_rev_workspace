@@ -26,6 +26,7 @@
   <Identity>
     <Civ>ordona</Civ>
     <SpecificName>Ordonian Goat</SpecificName>
+    <Classes datatype="tokens">Goat</Classes>
     <VisibleClasses datatype="tokens">Creature</VisibleClasses>
     <History>The iconic blue Goats of Ordona are a stock source of meat, wool, and milk throughout much of Hyrule. Domesticated varieties are sometimes trained to attack</History>
     <Tooltip>Melee Creature unit with a strong headbutt and kick.</Tooltip>

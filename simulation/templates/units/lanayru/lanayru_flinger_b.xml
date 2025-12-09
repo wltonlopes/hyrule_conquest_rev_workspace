@@ -48,6 +48,7 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">Flinger</Classes>
     <SpecificName>Shrapnel Flinger</SpecificName>
     <History>Shrapnel Flingers are perhaps the Province's most infamous weapon, even amongst their own ranks. The catapult indiscriminately unleashes countless jagged shards of razor sharp coral, potentially slicing up a dozen soldiers in one volley. Even if the attack completely misses, soldiers are still sprayed with hundreds sharp shards.</History>
     <Tooltip>Siege unit that sprays enemies with shrapnel.</Tooltip>

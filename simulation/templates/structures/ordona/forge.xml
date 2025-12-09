@@ -18,6 +18,28 @@
   <Obstruction>
     <Static depth="25.0" width="25.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      ordona/smithy_apprenticeship
+      ordona/smithy_isonarrow
+      ordona/smithy_cottoncuirass
+      ordona/smithy_ramscrown
+      -soldier_attack_melee_01
+      -soldier_attack_melee_02
+      -soldier_attack_melee_03
+      -soldier_attack_melee_03_variant
+      -soldier_attack_ranged_01
+      -soldier_attack_ranged_02
+      -soldier_attack_ranged_03
+      -soldier_resistance_hack_01
+      -soldier_resistance_hack_02
+      -soldier_resistance_hack_03
+      -soldier_resistance_pierce_01
+      -soldier_resistance_pierce_02
+      -soldier_resistance_pierce_03
+      -archer_attack_spread
+    </Technologies>
+  </Researcher>
   <Vision>
     <Range>32</Range>
   </Vision>

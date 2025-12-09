@@ -14,7 +14,6 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}/fortress
-      structures/lanayru/monument
     </Entities>
   </Builder>
   <Health>
@@ -22,12 +21,20 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">Swimmer</Classes>
     <SpecificName>Conscript</SpecificName>
     <History>Little more than a citizen of Lanayru who had been handed a sword, Conscripts are willing volunteers who joined the army on mass in exchange for all their living expenses being covered by the Province. Most Conscripts lack even basic training, and their survival rate is rather low on the frontlines of battle.</History>
     <Tooltip>Cheap mass produced Melee unit armed with swords.</Tooltip>
     <Icon>units/lanayru/lan_conscript.dds</Icon>
+    <VisibleClasses datatype="tokens">Volunteer</VisibleClasses>
   </Identity>
+  <ProductionQueue/>
   <Promotion disable=""/>
+  <ResourceGatherer>
+    <Rates>
+      <food.fish>1.8</food.fish>
+    </Rates>
+  </ResourceGatherer>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/sword.xml</attack_melee>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military">
+  <Cost>
+    <BuildTime>130</BuildTime>
+    <Resources>
+      <wood>300</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="19.0" depth="19.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+    <List datatype="tokens">Merc</List>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Mercenary Camp</GenericName>
+    <SelectionGroupName>template_structure_military_mercs</SelectionGroupName>
+    <Tooltip>Train Mercenaries and research Mercenary technologies.</Tooltip>
+    <VisibleClasses datatype="tokens">Town MercenaryCamp</VisibleClasses>
+    <Icon>structures/barracks.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <wood>40</wood>
+    <stone>20</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="17.0" depth="17.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_mercs.xml</constructed>
+      <select>interface/select/building/sel_mercs.xml</select>
+      <upgraded>interface/complete/building/complete_mercs.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/merc/merc_polsvoice_b
+      units/merc/merc_pikku_b
+      units/merc/merc_forestthief_b
+      units/merc/merc_goriya_b
+      units/merc/merc_geru_b
+      units/merc/merc_taros_b
+      units/merc/merc_gimos_b
+      units/merc/merc_marksman_b
+      units/merc/merc_daira_b
+      units/merc/merc_mago_b
+      units/merc/merc_tinsuit_b
+      units/merc/merc_meteo_b
+      units/merc/merc_wosu_b
+    </Entities>
+  </Trainer>
+  <Vision>
+    <Range>32</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

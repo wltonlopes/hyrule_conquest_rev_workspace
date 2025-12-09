@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="a">
+      <mesh>gaia/landscape/rocks/kf_rockA.dae</mesh>
+	  <textures><texture file="gaia/rocks/kokiri_rocksA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+</actor>

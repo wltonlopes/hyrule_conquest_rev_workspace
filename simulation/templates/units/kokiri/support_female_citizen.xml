@@ -86,6 +86,11 @@
     <RunMultiplier>1.4545</RunMultiplier>
     <WalkSpeed>11.0</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility>
   <Vision>
     <Range>70</Range>
   </Vision>

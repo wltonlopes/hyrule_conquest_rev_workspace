@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>twili</Civ>
+    <GenericName>Twili</GenericName>
+    <History>"The Twili.",</History>
+    <Icon>emblems/emblem_twili.png</Icon>
+  </Identity>
+</Entity>

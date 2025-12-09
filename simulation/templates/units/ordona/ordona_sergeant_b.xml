@@ -29,6 +29,7 @@
   <Identity>
     <Civ>ordona</Civ>
     <SpecificName>Sergeant</SpecificName>
+    <Classes datatype="tokens">Helmed</Classes>
     <History>Hailing from families of middling wealth and prestige, Sergeants are citizens of Ordona Provice enlisted into military service, trained, and held on standby for army orders. During most of their time they go about their daily lives, but quickly abandon their tasks to take up arms and armor while filing into ranks. Sergeant training is crude as is usual amongst the Ordonians, and to save time on learning swordplay (as well as to keep costs down), Sergeants are outfitted with easy-to-use spears.</History>
     <Tooltip>Melee unit wearing decent armor and armed with a spear.</Tooltip>
     <Icon>units/ordona/ord_sergeant.dds</Icon>

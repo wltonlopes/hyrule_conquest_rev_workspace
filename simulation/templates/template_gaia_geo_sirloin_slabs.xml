@@ -1,0 +1,23 @@
+<Entity parent="template_gaia_geo_sirloin">
+  <Footprint>
+    <Circle radius="5.0" />
+    <Height>3.5</Height>
+  </Footprint>
+  <Obstruction>
+    <Static depth="8.0" width="8.0" />
+  </Obstruction>
+  <ResourceSupply>
+    <Max>500</Max>
+    <MaxGatherers>5</MaxGatherers>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/resource/sel_stone.xml</select>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+</Entity>

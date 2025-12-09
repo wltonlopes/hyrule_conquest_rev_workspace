@@ -30,6 +30,16 @@
   <Obstruction>
     <Static depth="35.0" width="35.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -archery_tradition
+      -hoplite_tradition
+      -hellenistic_metropolis
+      -roman_roads
+      lanayru/bank_taxes
+      lanayru/provincial_planning
+    </Technologies>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/lanayru/complete_civ_center_lanayru.xml</constructed>

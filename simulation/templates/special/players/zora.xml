@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>zora</Civ>
+    <GenericName>Zora Dominion</GenericName>
+    <History>The fish-men and women of Hyrule's waters have long dominated the submerged realms. With a focus on the ideal of beauty and grace, they have crafted an Empire bent on shaping others to their extraordinary standards... A goal that has made them quite prideful and arrogant in the eyes of their land-dwelling neighbors. When convincing others fails, the Dominion has both military and magic might on their side.</History>
+    <Icon>emblems/emblem_zora.dds</Icon>
+  </Identity>
+</Entity>

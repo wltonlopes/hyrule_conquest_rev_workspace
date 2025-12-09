@@ -64,6 +64,7 @@
     <Shoot>
       <Entity>units/deku/deku_baba_upgA</Entity>
       <Tooltip>Breed the Baba to shoot out it's fangs.</Tooltip>
+      <Icon>portraits/units/deku/baba_projectileteeth.dds</Icon>
       <Cost>
         <wood>50</wood>
       </Cost>
@@ -73,6 +74,7 @@
     <Poison>
       <Entity>units/deku/deku_baba_upgB</Entity>
       <Tooltip>Breed the Baba to have poisonous fangs.</Tooltip>
+      <Icon>portraits/units/deku/baba_venomteeth.dds</Icon>
       <Cost>
         <wood>50</wood>
       </Cost>
@@ -82,6 +84,7 @@
     <Spikes>
       <Entity>units/deku/deku_baba_upgC</Entity>
       <Tooltip>Breed the Baba to have a spiny coating.</Tooltip>
+      <Icon>portraits/units/deku/baba_thorncoat.dds</Icon>
       <Cost>
         <wood>50</wood>
       </Cost>

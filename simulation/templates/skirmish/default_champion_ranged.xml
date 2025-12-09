@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion">
+  <Identity>
+    <Civ>skirm</Civ>
+    <Icon>units/athen/champion_ranged.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <SkirmishReplacer>
+    <general>units/{civ}/default_champion_ranged</general>
+  </SkirmishReplacer>
+  <VisualActor>
+    <Actor>units/athenians/infantry_archer_c.xml</Actor>
+  </VisualActor>
+</Entity>

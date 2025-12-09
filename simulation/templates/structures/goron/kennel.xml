@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_kennel">
+  <Footprint replace="">
+    <Height>10.0</Height>
+    <Square depth="50.0" width="50.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>150</stone>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Salamander Den</SpecificName>
+    <History>The reptilian Salamanders have long dwelled underground, rarely coming to the surface unless provoked. Gorons have tamed the beasts for a variety of uses, in particular as war beasts.</History>
+    <Icon>structures/goron/gor_saladen.dds</Icon>
+    <Tooltip>Allows the training of Salamander Creature units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="45.0" width="45.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/goron/goron_salamander_b
+      units/goron/goron_salawagon_b
+      units/goron/goron_warsalamander_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/goron/goron_saladenA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

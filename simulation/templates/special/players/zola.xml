@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Auras datatype="tokens">
+    teambonuses/zola_player_teambonus
+  </Auras>
+  <Identity>
+    <Civ>zola</Civ>
+    <GenericName>Wild Zora</GenericName>
+    <History>While the Zora race is on the whole, peaceful, one group has branched of from the others. With strange, green skin, sharp fangs, and a tendancy towards violence, it is rumored that these are the remnants of ancient Zora, who joined Demise in his conquest of Hyrule. Whatever the case, the other Zora races refuse to recognize these creatures as the same race, calling the mutants and demons. The rest of Hyrule calls them the 'Wild Zora', or, more commonly, just the 'Zola'.</History>
+    <Icon>emblems/emblem_zola.dds</Icon>
+  </Identity>
+</Entity>

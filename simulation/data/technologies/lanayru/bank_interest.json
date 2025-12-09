@@ -1,0 +1,14 @@
+{
+  "genericName": "Higher Interest Rates",
+  "description": "Raise your interest rates to generate more money.",
+  "cost": { "food": 0, "wood": 0, "stone": 0, "metal": 500 },
+  "supersedes": "lanayru/bank_loans",
+  "icon": "coinage.png",
+  "researchTime": 40,
+  "tooltip": "Raise the amount of metal the Bank generates.",
+  "modifications": [
+			{ "value": "ResourceTrickle/Rates/metal", "add": 5 }
+		   ],
+  "affects": [ "Bank" ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

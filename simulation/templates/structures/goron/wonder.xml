@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint replace="">
+    <Circle radius="18.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>rubble/debris_goron_wonderA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Urn of Maphaeus</SpecificName>
+    <History>A mysterious giant urn that seems to move and dance about of its own will. The Gorons claim that the spirit of Maphaeus, the First Sage of Fire, possesses the Urn and entices it to dance. Regardless of the source of its magical animation, the Gorons revere the urn as the greatest work of art their culture has produced.</History>
+    <Icon>structures/goron/gor_urn.dds</Icon>
+    <Tooltip>The Goron Wonder, allows you to summon Biggoron.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="25" depth="25"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/goron/goron_titan_biggoron
+    </Entities>
+  </Trainer>
+  <TerritoryInfluence>
+    <Radius>52</Radius>
+    <Root>false</Root>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/goron/goron_wonderA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

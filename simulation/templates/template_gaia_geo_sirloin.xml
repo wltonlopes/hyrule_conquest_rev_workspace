@@ -1,0 +1,24 @@
+<Entity parent="template_gaia_rock">
+  <Footprint>
+    <Circle radius="5.0" />
+    <Height>3.5</Height>
+  </Footprint>
+  <Identity>
+    <GenericName>Food</GenericName>
+    <History>This type of Rock is considered a delicacy by Gorons, even if appearing as normal Stone to other peoples.</History>
+    <Icon>gaia/geology_stone_3.dds</Icon>
+    <SpecificName>Raw Rock Sirloin</SpecificName>
+    <Tooltip>This type of Rock is considered a delicacy by Gorons, even if appearing as normal Stone to other peoples.</Tooltip>
+  </Identity>
+  <ResourceSupply>
+    <Max>2500</Max>
+    <KillBeforeGather>false</KillBeforeGather>
+    <MaxGatherers>12</MaxGatherers>
+    <Type>stone.rock</Type>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/resource/sel_stone.xml</select>
+    </SoundGroups>
+  </Sound>
+</Entity>

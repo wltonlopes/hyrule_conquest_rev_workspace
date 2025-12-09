@@ -1,0 +1,13 @@
+{
+	"genericName": "Higher Quality Living",
+	"description": "Lanayru houses are among the cleanest and healthiest places to live throughout all of Hyrule.",
+	"cost": {"food": 0, "wood": 0, "stone": 200, "metal": 300},
+	"icon": "architecture.png",
+	"researchTime": 40,
+	"tooltip": "Lanayru workers and volunteers gain +25 health.",
+	"modifications": [
+				{"value": "Health/Max", "multiply": 1.25}
+			],
+	"affects": ["Worker", "Volunteer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

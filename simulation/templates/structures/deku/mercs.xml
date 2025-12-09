@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_mercs">
+  <Footprint>
+    <Height>8.0</Height>
+    <Square depth="41.0" width="41.0"/>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/debris_deku_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>deku</Civ>
+    <History>The Deku Scrubs could be worked up into quite a fury for such small creatures. For those they deemed worthy of wrath, the Scrubs would boil alive before the entire community. All are welcome to watch the festivities.</History>
+    <SpecificName>Boiling Cauldron</SpecificName>
+    <Icon>structures/deku/dek_cauldron.dds</Icon>
+    <Tooltip>Allows the Deku Scrubs to hire Mercenary units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="40.0" depth="40.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/merc/merc_daira_b
+      -units/merc/merc_gimos_b
+      -units/merc/merc_meteo_b
+      -units/merc/merc_wosu_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/deku/deku_cauldronA.xml</Actor>
+    <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

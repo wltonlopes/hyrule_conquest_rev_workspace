@@ -9,5 +9,5 @@
 	  </textures>
     </variant>
   </group>
-  <material>water_trans.xml</material>
+  <material>player_water.xml</material>
 </actor>

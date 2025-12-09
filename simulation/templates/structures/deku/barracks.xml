@@ -18,6 +18,14 @@
   <Obstruction>
     <Static width="40.0" depth="40.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -barracks_batch_training
+      -unlock_champion_infantry
+      -pair_unlock_champions_sele
+      deku/guardling_vitalpoints
+    </Technologies>
+  </Researcher>
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">

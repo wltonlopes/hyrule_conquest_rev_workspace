@@ -1,6 +1,7 @@
 {
 	"type": "garrison",
 	"affects": ["Apiary"],
+	"stackable": "true",
 	"modifications": [
 		{ "value": "ResourceTrickle/Rates/food", "add": 1.00 }
 	],

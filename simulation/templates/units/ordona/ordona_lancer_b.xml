@@ -17,6 +17,7 @@
   <Identity>
     <Civ>ordona</Civ>
     <SpecificName>Lancer</SpecificName>
+    <Classes datatype="tokens">Helmed</Classes>
     <History>When faced by cavalry, the Ordona Province sends their Lancers into the fray. Armed with a strong and very sharp lance, these cavalry warriors deal great damage to other cavalry.</History>
     <Tooltip>Fast moving Melee Anti-Cavalry unit armed with a lance.</Tooltip>
     <Icon>units/ordona/ord_horseman.dds</Icon>

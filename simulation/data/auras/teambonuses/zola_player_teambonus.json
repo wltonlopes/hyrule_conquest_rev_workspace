@@ -1,0 +1,13 @@
+{
+	"type": "global",
+	"affects": ["Soldier"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "Attack/Melee/PrepareTime", "multiply": 0.85 },
+		{ "value": "Attack/Melee/RepeatTime", "multiply": 0.85 },
+		{ "value": "Attack/Ranged/PrepareTime", "multiply": 0.85 },
+		{ "value": "Attack/Ranged/RepeatTime", "multiply": 0.85 }
+	],
+	"auraName": "Fierce Alliance",
+	"auraDescription": "All allied soldiers attack +15% faster."
+}

@@ -42,6 +42,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrubling</Classes>
     <History>A Large Encampment set up by Deku Scrubs, serving as a base of operations in this region. Its presence likely indicates that the Scrubs plan to build a foothold in this region.</History>
     <Icon>structures/deku/dek_encampment.dds</Icon>
     <SpecificName>Large Encampment</SpecificName>
@@ -70,6 +71,11 @@
     </Obstructions>
     <Static disable=""/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      deku/attack_sharpnuts
+    </Technologies>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/deku/complete_civ_center_deku.xml</constructed>

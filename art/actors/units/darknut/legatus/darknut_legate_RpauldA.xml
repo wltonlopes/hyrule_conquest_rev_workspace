@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+      <variant frequency="1" name="mesh-variant">
+        <mesh>units/darknut/dar_legate_RpauldA.dae</mesh>
+      </variant>
+    </group>
+    <group>
+      <variant file="HC_darknut/base_HC_darknut_legatus_nosound.xml">
+        <textures>
+          <texture file="skeletal/darknut/dar_mainA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_darknut/base_HC_darknut_capture.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_slaughter.xml"/>
+      <variant file="HC_darknut/base_HC_darknut_death_armor.xml"/>
+    </group>
+    <material>basic_trans.xml</material>
+</actor>
+

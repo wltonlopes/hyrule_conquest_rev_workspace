@@ -21,6 +21,7 @@
   <Identity>
     <Civ>ordona</Civ>
     <SpecificName>Fief Lord</SpecificName>
+    <Classes datatype="tokens">Helmed</Classes>
     <History>Fief Lords are the only members of Ordona who legally own land, often with a dozen Yeoman under his or her lordship. Fief Lords also have rudimentary military experience; a talent that when combined with their natural job of bossing people around makes them excellent officers for managing Province troops.</History>
     <Tooltip>Infantry Commander that improves upon other Infantry units.</Tooltip>
     <Icon>units/ordona/ord_fieflord.dds</Icon>

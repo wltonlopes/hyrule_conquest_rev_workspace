@@ -18,6 +18,30 @@
   <Obstruction>
     <Static depth="40.0" width="40.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -soldier_attack_melee_01
+      -soldier_attack_melee_02
+      -soldier_attack_melee_03
+      -soldier_attack_melee_03_variant
+      -soldier_attack_ranged_01
+      -soldier_attack_ranged_02
+      -soldier_attack_ranged_03
+      -soldier_resistance_hack_01
+      -soldier_resistance_hack_02
+      -soldier_resistance_hack_03
+      -soldier_resistance_pierce_01
+      -soldier_resistance_pierce_02
+      -soldier_resistance_pierce_03
+      -archer_attack_spread
+      deku/attack_pointnuts
+      deku/attack_sharpnuts
+      deku/attack_sleeknuts
+      deku/armor_deku_01
+      deku/armor_deku_02
+      deku/nutling_hardhat
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/deku/forge.xml</Actor>
     <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>

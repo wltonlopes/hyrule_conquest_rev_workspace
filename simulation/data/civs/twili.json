@@ -1,0 +1,109 @@
+{
+	"Code": "twili",
+	"Culture": "twili",
+	"Music":
+	[
+		{"File": "twili_theme.ogg", "Type": "peace"},
+		{"File": "twili_defeat1.ogg", "Type": "defeat"},
+		{"File": "twili_victory1.ogg", "Type": "victory"}
+	],
+	"Factions":
+	[
+		{
+			"Name": "The Twili",
+			"Description": "The Twili",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Twili Midna",
+					"Class": "Infantry Mage",
+					"Armament": "Twilight Magic",
+					"Emblem": "",
+					"History": "The princess of the Twilight Realm."
+				},
+				{
+					"Name": "Midna",
+					"Class": "Infantry Swordsman",
+					"Armament": "Ethereal Claw",
+					"Emblem": "",
+					"History": "The princess of the Twilight Realm, transformed."
+				},
+				{
+					"Name": "Prince Zant",
+					"Class": "Infantry Mage",
+					"Armament": "Twilight Magic",
+					"Emblem": "",
+					"History": "The prince of the Twilight Realm."
+				},
+				{
+					"Name": "Titan: Majora's Mask, Ancient Shadow Artifact",
+					"Class": "Titan",
+					"Armament": "Tentacles",
+					"Emblem": "",
+					"History": "Majora's Mask."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+		{
+			"Name": "Wonder: The Moon",
+			"Class": "Wonder",
+			"Emblem": "",
+			"History": "The moon of Termina.",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Trains the Twili Titan."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/twili/civil_centre"
+		},
+		{
+			"Template": "units/athen/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/athen/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/athen/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/cor/cor_baba_b"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/athen/wallset_stone"
+	],
+	"AINames":
+	[
+		"Twili Midna",
+		"Midna",
+		"Zant",
+		"Majora's Mask"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_ranged_b": "units/athen/infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/athen/infantry_swordsman_b",
+		"skirmish/structures/default_house_10": "structures/athen/house"
+	},
+	"SelectableInGameSetup": false
+}

@@ -48,6 +48,7 @@
   </Health>
   <Identity>
     <Civ>ordona</Civ>
+    <Classes datatype="tokens">RangerWatch</Classes>
     <SpecificName>Ordona Guard Tower</SpecificName>
     <History>The Guard Towers of Ordona Province dot their larger cities, protecting them from invading armies with shots from archers.</History>
     <Icon>structures/ordona/ord_guardtower.dds</Icon>
@@ -56,6 +57,11 @@
   <Obstruction>
     <Static width="15.5" depth="15.5"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      ordona/tower_hawkpatrols
+    </Technologies>
+  </Researcher>
   <StatusBars>
     <BarHeight>0.6</BarHeight>
     <BarWidth>6.0</BarWidth>

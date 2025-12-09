@@ -30,6 +30,11 @@
   <Obstruction>
     <Static depth="33.0" width="33.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      lanayru/kennel_rapidresponse
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
 	units/lanayru/lanayru_aruroda_b

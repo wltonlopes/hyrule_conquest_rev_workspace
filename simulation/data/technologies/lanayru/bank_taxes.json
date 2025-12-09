@@ -1,0 +1,23 @@
+{
+  "genericName": "Taxes",
+  "description": "Start taxing your people.",
+  "cost": { "food": 0, "wood": 0, "stone": 0, "metal": 500 },
+  "requirements": { "all": 
+  			[
+				{ "tech": "phase_town" }
+  			] 
+  		  },
+  "requirementsTooltip": "Unlocked with City Phase.",
+  "icon": "currency.png",
+  "researchTime": 40,
+  "tooltip": "Royal Hubs and Silver Keeps slowly generate a trickle of resources.",
+  "modifications": [
+  			{ "value": "ResourceTrickle/Rates/food", "add": 1 },
+			{ "value": "ResourceTrickle/Rates/wood", "add": 1 },
+			{ "value": "ResourceTrickle/Rates/stone", "add": 1 },
+			{ "value": "ResourceTrickle/Rates/metal", "add": 1 },
+			{ "value": "ResourceTrickle/Interval", "add": 2000 }
+		   ],
+  "affects": [ "CivilCentre" ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

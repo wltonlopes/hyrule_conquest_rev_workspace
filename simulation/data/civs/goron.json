@@ -1,0 +1,147 @@
+{
+	"Code": "goron",
+	"Culture": "goron",
+	"Music":
+	[
+		{ "File": "goron_theme1.ogg", "Type": "peace" },
+		{ "File": "goron_ambient1.ogg", "Type": "peace" },
+		{ "File": "goron_ambient2.ogg", "Type": "peace" },
+		{ "File": "goron_ambient3.ogg", "Type": "peace" },
+		{ "File": "goron_ambient4.ogg", "Type": "peace" },
+		{ "File": "goron_ambient5.ogg", "Type": "peace" },
+		{ "File": "goron_battle1.ogg", "Type": "battle" },
+		{ "File": "goron_battle2.ogg", "Type": "battle" },
+		{ "File": "goron_battle3.ogg", "Type": "battle" },
+		{ "File": "goron_battle4.ogg", "Type": "battle" },
+		{ "File": "goron_defeat1.ogg", "Type": "defeat" },
+		{ "File": "goron_victory1.ogg", "Type": "victory" }
+	],
+	"Factions":
+	[
+		{
+			"Name": "Goron",
+    			"Description": "Mighty rock-men hailing from the peaks of Death Mountain, the Gorons are a people of warriors, miners and boisterous party-goers. Hyrule's mightiest weapons are crafted by their hands, and the outcome of many wars has rested on their involvement. Their tenacity for battle is legendary and has earned them a place in the vast history of the land.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Dangoro",
+					"Class": "Infantry Swordsman",
+					"Armament": "Iron Fists",
+					"Emblem": "",
+    					"History": "Raised in the mines of the Death Mountain Crater, Dangoro has seen quite a life of hardship. After saving Darunia from a Dodongo trap, he was plucked out of his duty as a miner and became a guardian brother. Dangoro may not be bright, but he is quick to recognize a threat and deal with it. He traditionally wears rather heavy armor and powerful gauntlets and is not shy of ramming into and punching his targets without abandon."
+				},
+				{
+					"Name": "Daruk",
+					"Class": "Infantry Swordsman",
+					"Armament": "Sword",
+					"Emblem": "",
+    					"History": "The younger brother of Darunia, Daruk secluded himself in isolated monasteries after the Volvagians had been driven from Death Mountain. He's not been seen for decades by the Gorons at large, only returning when his people are under great threat. During his time at the Goron Monastaries, he has learned inner peace and has become the Brother of Four Flames, the highest position a Goron Monk can obtain."
+				},
+				{
+					"Name": "King Darunia",
+					"Class": "Infantry Swordsman",
+					"Armament": "Megaton Hammer",
+					"Emblem": "",
+    					"History": "The King of the Gorons and third in the line of Fire Sages, Darunia has lead his people for over a century through countless hardships. Be it overthrowing Volvagians, or fighting off the longest winters Death Mountain has faced, there is a distinct possibility that without his leadership, the Gorons may have gone extinct. Darunia is known for his aggressive mannerisms, though he is quite jovial and friendly to those that earn his respect. Dancing is among his favorite pastimes. and he will search far and wide across Hyrule to listen to the music of other races. He is usually called the honorary title of Big Brother by his fellow Gorons, as well as those who he deems worthy."
+				},
+				{
+					"Name": "Gor Coron",
+					"Class": "Infantry Swordsman",
+					"Armament": "Fists",
+					"Emblem": "",
+    					"History": "One of two remaining elders of Death Mountain. Gor Coron was the youngest of the four elders and by far the most loved. Gor Coron oversaw much of the Goron's military during his younger days, though he now prefers to spend his time fighting in sport against other Gorons."
+				},
+				{
+					"Name": "Gor Ebizo",
+					"Class": "Cavalry Archer",
+					"Armament": "Fire Breath",
+					"Emblem": "",
+    					"History": "One of two remaining elders of Death Mountain. Gor Ebizo was often seen as silent and absent by his bretheren, but in truth he is perhaps the greatest mastermind of the Goron people. His leadership saw success against the Zora Dominion during the Gorons' many wars with their people."
+				},
+				{
+					"Name": "Medigoron",
+					"Class": "Infantry Swordsman",
+					"Armament": "Medigoron's Sword",
+					"Emblem": "",
+    					"History": "The younger brother of the legendary Biggoron, Medigoron may only be about half his size, but he still is quite large even for a Goron. He is also a master blacksmith, though no-where near as skilled as his brother, having spent most of his life learning how to use the weapons that Biggoron creates, to great effect."
+				},
+				{
+					"Name": "Titan: Biggoron",
+					"Class": "Titan",
+					"Armament": "Fists",
+					"Emblem": "",
+   					"History": "Perhaps the largest Goron in all of recorded history, Biggoron lives a mostly solitary life on the peak of Death Mountain. It is there that he spends most of his time perfecting the refinement of metals. His work has become the basis for forging some of the Goron's most powerful weaponry and armor. Despite his name being associated with weapons and bloodshed, Biggoron is a pacifist at heart, and creates his work for the sake of art and self-defense."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/goron/civil_centre"
+		},
+		{
+			"Template": "units/goron/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/goron/infantry_spearman_b",
+			"Count": 4
+		},
+		{
+			"Template": "units/goron/goron_salamander_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/goron/goron_battlebro_b"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/goron/wallset_stone"
+	],
+	"AINames":
+	[
+		"Dangoro, Guardian of Death Mountain",
+		"Daruk",
+		"King Darunia, the Sage of Fire",
+		"Gor Coron",
+		"Gor Ebizo",
+		"Medigoron, Master Smithy",
+		"Biggoron, Legendary Smithy"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_support_female_citizen": "units/goron/support_female_citizen",
+		"skirmish/units/default_infantry_melee_b": "units/goron/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/goron/goron_salamander_b",
+		"skirmish/units/default_ship_arrow": "units/goron/goron_giant_b",
+		"skirmish/units/default_ship_scout": "units/goron/goron_giant_b",
+		"skirmish/units/default_siege_ram": "units/goron/goron_ram_b",
+		"skirmish/units/default_cavalry": "units/goron/goron_battlebro_b",
+		"skirmish/units/special_starting_unit": "units/goron/goron_drummer_b",
+		"skirmish/structures/default_corral": "structures/goron/field",
+		"skirmish/structures/default_dock": "structures/goron/barracksB",
+		"skirmish/structures/default_farmstead": "units/goron/storehouse",
+		"skirmish/structures/default_house_5": "structures/goron/house",
+		"skirmish/structures/default_house_10": "structures/goron/house",
+		"skirmish/structures/default_outpost": "structures/goron/defense_tower",
+		"skirmish/structures/default_stable": "structures/goron/kennel",
+		"skirmish/structures/default_range": "structures/goron/ampitheater",
+		"skirmish/structures/default_sentry_tower": "structures/goron/defense_tower"
+	},
+	"SelectableInGameSetup": true
+}

@@ -1,0 +1,18 @@
+{
+	"genericName": "Silvercoated Picks",
+	"description": "Coat mining picks in silver for stronger and faster picks.",
+	"cost": {
+		"metal": 300
+	},
+	"requirements": { "tech": "phase_village" },
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "mining_stone_01.png",
+	"researchTime": 40,
+	"tooltip": "Workers +25% stone and metal gather rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.25 },
+		{ "value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.25 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

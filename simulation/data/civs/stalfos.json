@@ -13,6 +13,7 @@
 		{"File": "stalfos_battle1.ogg", "Type": "battle"},
 		{"File": "stalfos_battle2.ogg", "Type": "battle"},
 		{"File": "stalfos_battle3.ogg", "Type": "battle"},
+		{"File": "stalfos_defeat1.ogg", "Type": "defeat"},
 		{"File": "stalfos_victory1.ogg", "Type": "victory"}
 	],
 	"Factions":
@@ -128,20 +129,37 @@
 	"AINames":
 	[
 		"Meg",
-		"Irene",
+		"Irene, the Fallen Deacon",
 		"Stalblind",
 		"Death Sword",
-		"Dampe",
-		"Gabora",
+		"Dampe, the Gravedigger",
+		"Gabora, Master Smithy",
 		"Stallord"
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_ranged_b": "units/stalfos/infantry_swordsman_b",
+		"skirmish/units/default_support_female_citizen": "units/stalfos/support_female_citizen",
+		"skirmish/units/default_infantry_melee_b": "units/stalfos/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/stalfos/stalfos_stalhound_b",
+		"skirmish/units/default_ship_arrow": "units/stalfos/stalfos_poe_b",
+		"skirmish/units/default_ship_scout": "units/stalfos/stalfos_eyesoar_b",
+		"skirmish/units/default_siege_ram": "units/stalfos/stalfos_stalgiant_b",
 		"skirmish/units/default_cavalry": "units/stalfos/stalfos_stalhorse_b",
-		"skirmish/structures/default_house_10": "structures/stalfos/house",
-		"skirmish/structures/default_civil_centre": "structures/stalfos/civil_centre",
-		"skirmish/structures/default_fortress": "structures/stalfos/kennel"
+		"skirmish/units/special_starting_unit": "units/stalfos/infantry_swordsman_b",
+		"skirmish/structures/default_arsenal": "structures/stalfos/barracksB",
+		"skirmish/structures/default_corral": "structures/stalfos/field",
+		"skirmish/structures/default_defense_tower": "structures/stalfos/house",
+		"skirmish/structures/default_dock": "structures/stalfos/kennel",
+		"skirmish/structures/default_farmstead": "units/stalfos/stalfos_collector_b",
+		"skirmish/structures/default_forge": "structures/stalfos/barracks",
+		"skirmish/structures/default_fortress": "structures/stalfos/barracksB",
+		"skirmish/structures/default_house_5": "structures/stalfos/house",
+		"skirmish/structures/default_house_10": "structures/stalfos/houseB",
+		"skirmish/structures/default_outpost": "structures/stalfos/house",
+		"skirmish/structures/default_stable": "structures/stalfos/kennel",
+		"skirmish/structures/default_storehouse": "units/stalfos/stalfos_collector_b",
+		"skirmish/structures/default_range": "structures/stalfos/kennel",
+		"skirmish/structures/default_sentry_tower": "structures/stalfos/house"
 	},
 	"SelectableInGameSetup": true
 }

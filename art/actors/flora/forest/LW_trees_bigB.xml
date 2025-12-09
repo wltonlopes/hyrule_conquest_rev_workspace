@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="trunk-a">
+      <mesh>gaia/flora/LW_tree_bigA.dae</mesh>
+	  <textures><texture file="gaia/flora/LW_treeA.dds" name="baseTex"/></textures>
+	  <props>
+		<prop actor="flora/forest/LW_trees_bigA_leaves.xml" attachpoint="root"/>
+		<prop actor="particle/kokiri_leavesA.xml" attachpoint="root"/>
+		<prop actor="particle/kokiri_sparklesA.xml" attachpoint="root"/>
+		<prop actor="particle/kokiri_sparklesB.xml" attachpoint="root"/>
+		<prop actor="particle/kokiri_sparklesC.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_wind.xml</material>
+</actor>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_mercs">
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>ordona</Civ>
+    <History>Ordonians brewed quite a few strong brands of ale and mead and were famous throughout Hyrule for it. Many travellers would pass through the Province just to sample and partake at the parties that unfolded at these jovial (and often drunken) halls.</History>
+    <SpecificName>Tavern</SpecificName>
+    <Icon>structures/ordona/ord_tavern.dds</Icon>
+    <Tooltip>Allows Ordona Province to hire Mercenary units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="35.0" width="35.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/merc/merc_polsvoice_b
+      -units/merc/merc_daira_b
+      -units/merc/merc_gimos_b
+      -units/merc/merc_meteo_b
+      -units/merc/merc_wosu_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_tavernA.xml</Actor>
+    <FoundationActor>structures/ordona/ordona_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>

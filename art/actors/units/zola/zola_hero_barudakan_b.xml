@@ -21,7 +21,6 @@
         <props>
           <prop actor="props/units/weapons/zola_barudaswordA.xml" attachpoint="R_weapon"/>
 		  <prop actor="units/zola/zola_barudaarmorA.xml" attachpoint="root"/>
-		  <prop actor="props/hero_selectorA.xml" attachpoint="root"/>
         </props>
         <textures>
           <texture file="skeletal/zola/zol_hero1.dds" name="baseTex"/>

@@ -18,6 +18,7 @@
   </Health>
   <Identity>
     <Civ>ordona</Civ>
+    <Classes datatype="tokens">RangerWatch</Classes>
     <History>The Mayors and Mayor Lords of Ordona Province often live in style, at least compared to the lower class workers under their command. Ordonian Manors still come off as quite humble compared to the lavish castles and fortresses occupied by royalty across Hyrule, but by Province standards they are high class living. An Ordonian Mayor can manage an establishments's work force and labor from such a home.</History>
     <SpecificName>Mayor's Manor</SpecificName>
     <Icon>structures/ordona/ord_mayormanor.dds</Icon>
@@ -34,6 +35,15 @@
   <Population>
     <Bonus>20</Bonus>
   </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -archery_tradition
+      -hoplite_tradition
+      -hellenistic_metropolis
+      -roman_roads
+      ordona/civic_villeins
+    </Technologies>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/ordona/complete_civ_center_ordona.xml</constructed>

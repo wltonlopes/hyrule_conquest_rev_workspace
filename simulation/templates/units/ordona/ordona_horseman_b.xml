@@ -18,6 +18,7 @@
   <Identity>
     <Civ>ordona</Civ>
     <SpecificName>Horseman</SpecificName>
+    <Classes datatype="tokens">Helmed</Classes>
     <History>Ordona Province has bred some of the finest cavalry in the history of Hyrule, and these scores of mounted warriors display that pride in the thick of battle. Armed with a shield and wielding a sword, these swift riders can decapitate just about any foe with a neck.</History>
     <Tooltip>Fast moving Melee Cavalry unit armed with swords.</Tooltip>
     <Icon>units/ordona/ord_horseman.dds</Icon>

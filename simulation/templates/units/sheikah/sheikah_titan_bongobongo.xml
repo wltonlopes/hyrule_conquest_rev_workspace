@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
+<Entity parent="template_unit_titan">
   <Attack>
-    <Capture>
-      <AttackName>Capture</AttackName>
-      <Capture>10</Capture>
-      <MaxRange>4</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Field Palisade Wall</RestrictedClasses>
-    </Capture>
-    <Ranged replace="">
+    <Ranged>
       <AttackName>Fists</AttackName>
       <Damage>
         <Crush>100.0</Crush>
@@ -37,14 +30,12 @@
       </Splash>
     </Ranged>
   </Attack>
-  <Builder disable=""/>
   <Cost>
-    <BuildTime>120</BuildTime>
     <Resources>
-      <food>1500</food>
+      <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>1000</metal>
+      <metal>2500</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
@@ -61,14 +52,11 @@
     <History>An ancient monster that the Sheikah had sealed beneath Kakariko Village in ages past, the creature known as Bongo Bongo has become nothing but a vague legend even to other Sheikah. The Nirvata Monks at times have sought to master and control this demon for their own ends in the past. Many attempts have failed, resulting in Bongo Bongo bringing havoc to Hyrule until it could be sealed away again. The monster itself appears as a large headless corpse with disembodied hands that follow it around as it goes.</History>
     <Tooltip>Sheikah Titan unit. Giant Melee unit.</Tooltip>
     <Icon>units/sheikah/she_titan_bongobongo.dds</Icon>
-    <VisibleClasses datatype="tokens">Titan</VisibleClasses>
   </Identity>
   <Position>
-    <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <TurnRate>2.5</TurnRate>
   </Position>
-  <Promotion disable=""/>
   <Resistance>
     <Entity>
       <Damage>
@@ -78,19 +66,6 @@
       </Damage>
     </Entity>
   </Resistance>
-  <Minimap>
-    <Type>hero</Type>
-  </Minimap>
-  <ResourceGatherer disable=""/>
-  <Selectable>
-    <Overlay>
-      <AlwaysVisible/>
-      <Texture>
-        <MainTexture>256x256/star.png</MainTexture>
-        <MainTextureMask>256x256/star_mask.png</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/natural/bongo_hit_impact.xml</attack_impact_ranged>
@@ -107,10 +82,6 @@
       <walk>actor/movement/bongo/bongo_crawl.xml</walk>
     </SoundGroups>
   </Sound>
-  <TrainingRestrictions>
-    <Category>Hero</Category>
-    <MatchLimit>1</MatchLimit>
-  </TrainingRestrictions>
   <UnitAI>
     <DefaultStance>defensive</DefaultStance>
   </UnitAI>
@@ -119,8 +90,13 @@
     <RunMultiplier>1.3333</RunMultiplier>
     <WalkSpeed>5</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+      <PostDelay>3000</PostDelay>
+    </Camouflage>
+  </Visibility>
   <VisualActor>
     <Actor>units/sheikah/sheikah_titan_bongobongo.xml</Actor>
-    <FoundationActor>structures/sheikah/sheikah_summonT.xml</FoundationActor>
   </VisualActor>
 </Entity>

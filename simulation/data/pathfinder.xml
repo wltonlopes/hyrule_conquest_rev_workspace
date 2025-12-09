@@ -128,7 +128,7 @@
         from water and not on cliffs or mountains.
     * Shore is used for docks, which must be near water and
         land, yet shallow enough for builders to approach.
-    * Aquatic is used for underwater buildings and units
+    * Aquatic will used for underwater buildings and units
         that transform into buildings underwater. It must 
         be built in water.
     -->

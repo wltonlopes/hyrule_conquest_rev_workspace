@@ -22,7 +22,6 @@
 		  <prop actor="units/zola/zola_momshellA.xml" attachpoint="headhshell"/>
 		  <prop actor="units/zola/zola_momleafA.xml" attachpoint="headhshell"/>
 		  <prop actor="units/wild/wild_octorokA.xml" attachpoint="projectile"/>
-		  <prop actor="props/hero_selectorA.xml" attachpoint="root"/>
         </props>
         <textures>
           <texture file="skeletal/zola/zol_momaiai.dds" name="baseTex"/>

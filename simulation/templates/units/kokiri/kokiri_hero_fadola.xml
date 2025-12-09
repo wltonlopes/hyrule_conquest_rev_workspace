@@ -22,6 +22,10 @@
         <Spread>1.5</Spread>
       </Projectile>
       <RepeatTime>2500</RepeatTime>
+      <Stun>
+        <Chance>5</Chance>
+        <Time>1000</Time>
+      </Stun>
     </Ranged>
   </Attack>
   <Cost>
@@ -68,6 +72,11 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/kokiri_scatter
+    </Formations>
+  </UnitAI>
   <UnitMotion>
     <RunMultiplier>1.3636</RunMultiplier>
     <WalkSpeed>11.0</WalkSpeed>

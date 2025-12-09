@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<particles>
+
+    <texture>art/textures/particles/gohma_fireballC.dds</texture>
+    <blend mode="over"/>
+	
+	<start_full/>
+	
+    <constant name="emissionrate" value="1.0"/>
+    <uniform name="lifetime" min="3.0" max="5.0"/>
+
+    <uniform name="position.x" min="0.0" max="0.0"/>
+    <uniform name="position.z" min="0.0" max="0.0"/>
+    <constant name="position.y" value="0.0"/>
+
+    <uniform name="angle" min="-3.14" max="3.14"/>
+
+    <uniform name="velocity.x" min="0" max="0"/>
+    <uniform name="velocity.y" min="0" max="0"/>
+    <uniform name="velocity.z" min="0" max="0"/>
+    <uniform name="velocity.angle" min="0" max="0"/>
+
+    <uniform name="size" min="50.0" max="75.0"/>
+
+    <force y="0"/>
+
+</particles>

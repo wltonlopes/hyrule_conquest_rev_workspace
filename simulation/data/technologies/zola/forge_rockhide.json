@@ -1,0 +1,15 @@
+{
+	"genericName": "Rockhides",
+	"description": "Breed Octoroks to have thicker skin.",
+	"cost": {"food": 700, "wood": 0, "stone": 0, "metal": 0},
+	"icon": "zola/rockhide.dds",
+	"researchTime": 40,
+	"tooltip": "Zol units have +50% resistance.",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Crush", "multiply": 1.5},
+				{"value": "Resistance/Entity/Damage/Hack", "multiply": 1.5},
+				{"value": "Resistance/Entity/Damage/Pierce", "multiply": 1.5}
+			 ],
+	"affects": ["Octo"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

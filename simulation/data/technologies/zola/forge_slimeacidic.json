@@ -1,0 +1,15 @@
+{
+	"genericName": "Acidic Slime",
+	"description": "You can add toxins and diseases to the slime of your Zols, increasing their acidity.",
+	"cost": {"food": 400, "wood": 0, "stone": 0, "metal": 400},
+	"icon": "zola/zol_gel.dds",
+	"researchTime": 40,
+	"tooltip": "Zol units deal double Water damage.",
+	"modifications": [
+				{"value": "Attack/Melee/Damage/Water", "multiply": 2},
+				{"value": "Attack/Ranged/Damage/Water", "multiply": 2},
+				{"value": "DeathDamage/Damage/Water", "multiply": 2}
+			 ],
+	"affects": ["Zol"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

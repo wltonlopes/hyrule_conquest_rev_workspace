@@ -6,11 +6,16 @@
       <Damage>
         <Hack>5</Hack>
         <Pierce>15.0</Pierce>
+        <Poison>12</Poison>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>6.0</MaxRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>1400</RepeatTime>
+      <Stun>
+        <Chance>100</Chance>
+        <Time>1500</Time>
+      </Stun>
     </Melee>
   </Attack>
   <Cost>
@@ -28,11 +33,21 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">ShoreSerpent</Classes>
     <SpecificName>Shore Serpent</SpecificName>
     <History>Aquatic snakes that live off the coasts of Airu, the Shore Serpent in the wild is a very aggressive and hostile creature with a powerful bite. Domesticated variations of the beast are used by the Zora of Lanayru as pets and circus attractions, though they also make a frightening opponent when spread into their army.</History>
     <Tooltip>Slithering Melee Creature with a venomous bite.</Tooltip>
     <Icon>units/lanayru/lan_shoreserpent.dds</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town -unlock_champion_cavalry</Techs>
+    </Requirements>
   </Identity>
+  <Position>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>2</FloatDepth>
+    <TurnRate>1.2</TurnRate>
+  </Position>
   <Promotion disable=""/>
   <Resistance>
     <Entity>

@@ -27,6 +27,7 @@
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
+    <Classes datatype="tokens">Mudman</Classes>
     <SpecificName>Mudmantlet</SpecificName>
     <GenericName>Mantlet</GenericName>
     <History>A pair of Mudmen using a large mantlet shield. This pair of Mudmen leads and protects the frontline of their armies from ranged attacks. When in range of enemies they stab them from behind their shield.</History>

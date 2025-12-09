@@ -1,6 +1,7 @@
 {
 	"type": "range",
 	"radius": 60,
+	"stackable": "true",
 	"affects": ["Soldier"],
 	"affectedPlayers": ["Enemy"],
 	"modifications": [

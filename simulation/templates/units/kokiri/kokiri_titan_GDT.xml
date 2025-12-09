@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
+<Entity parent="template_unit_titan">
   <Attack>
-    <Capture>
-      <AttackName>Capture</AttackName>
-      <Capture>10</Capture>
-      <MaxRange>4</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-      <RestrictedClasses datatype="tokens">Wall</RestrictedClasses>
-    </Capture>
-    <Ranged replace="">
+    <Ranged>
       <AttackName>Roots</AttackName>
       <Damage>
         <Crush>128.0</Crush>
@@ -38,9 +31,7 @@
       </Splash>
     </Ranged>
   </Attack>
-  <Builder disable=""/>
   <Cost>
-    <BuildTime>120</BuildTime>
     <Resources>
       <food>0</food>
       <wood>2500</wood>
@@ -62,13 +53,11 @@
     <History>This massive hulking being is the lord of the entire Kokiri Forest and the patron deity of the many woodland people. He can plant and uproot himself. While planted, he is a durable and garrisonable turret that can train Large Deku Trees. While uprooted, he is a slow moving Creature unit that deals massive area damage around himself.</History>
     <Tooltip>Kokiri Titan unit. Giant Melee unit capable of attacking large enemy groups.</Tooltip>
     <Icon>units/kokiri/kok_titan_gdt.dds</Icon>
-    <VisibleClasses datatype="tokens">Titan Creature</VisibleClasses>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
   </Identity>
   <Position>
-    <Anchor>upright</Anchor>
     <TurnRate>1.1</TurnRate>
   </Position>
-  <Promotion disable=""/>
   <Resistance>
     <Entity>
       <Damage>
@@ -79,19 +68,6 @@
       </Damage>
     </Entity>
   </Resistance>
-  <Minimap>
-    <Type>hero</Type>
-  </Minimap>
-  <ResourceGatherer disable=""/>
-  <Selectable>
-    <Overlay>
-      <AlwaysVisible/>
-      <Texture>
-        <MainTexture>historia/1024x1024_aura.dds</MainTexture>
-        <MainTextureMask>historia/1024x1024_aura_mask.dds</MainTextureMask>
-      </Texture>
-    </Overlay>
-  </Selectable>
   <Sound>
     <SoundGroups>
       <attack_impact_ranged>attack/natural/GDT_impact.xml</attack_impact_ranged>
@@ -113,10 +89,6 @@
     <BarHeight>1.0</BarHeight>
     <HeightOffset>20.0</HeightOffset>
   </StatusBars>
-  <TrainingRestrictions>
-    <Category>Titan</Category>
-    <MatchLimit>1</MatchLimit>
-  </TrainingRestrictions>
   <TurretHolder>
     <TurretPoints>
       <Archer1>

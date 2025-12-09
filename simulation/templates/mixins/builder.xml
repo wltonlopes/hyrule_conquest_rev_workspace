@@ -30,6 +30,7 @@
       structures/{civ}/outpost
       structures/{civ}/sentry_tower
       structures/{civ}/defense_tower
+      structures/{civ}/mercs
       structures/{civ}/arsenal
       structures/{civ}/bank
       structures/{civ}/academy
@@ -40,6 +41,7 @@
       structures/{civ}/wallset_siege
       structures/{civ}/wallset_stone
       structures/{civ}/theater
+      structures/{civ}/amphitheater
       structures/{civ}/tachara
       structures/{civ}/wonder
     </Entities>

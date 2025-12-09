@@ -5,6 +5,9 @@ var g_ProjectInformation = {
 	"organizationName": {
 		"caption": translate("BLACK FOREST PRODUCTIONS")
 	},
+	"organizationLogo": {
+		"sprite": "WildfireGamesLogo"
+	},
 	"productLogo": {
 		"sprite": "0ADLogo"
 	},
@@ -12,47 +15,47 @@ var g_ProjectInformation = {
 		"caption": getBuildString()
 	},
 	"productDescription": {
-		"caption": setStringTags(translate("Alpha V: Lanayru"), { "font": "sans-bold-16" }) + "\n\n" +
+		"caption": setStringTags(translate("Alpha VII: Goro"), { "font": "sans-bold-16" }) + "\n\n" +
 			translate("Notice: This mod is under development and their may be errors. Play at your own risk!")
 	}
 };
 
 var g_CommunityButtons = [
 	{
-		"caption": translate("Hyrule Website"),
-		"tooltip": translate("Click to open HyruleConquest.com in your web browser."),
+		"caption": translate("Official Discord"),
+		"tooltip": translate("Click to open Hyrule Conquest: Revival Discord Server in your web browser."),
 		"size": "8 100%-148 50%-4 100%-116",
 		"onPress": () => {
-			openURL("https://hyruleconquest.com/");
+			openURL("https://discord.com/invite/EFW7v3G2cg");
 		}
 	},
 	{
-		"caption": translate("Chat"),
-		"tooltip": translate("Click to open the 0 A.D. IRC chat in your browser (#0ad on webchat.quakenet.org). It is run by volunteers who do all sorts of tasks, it may take a while to get your question answered. Alternatively, you can use the forum (see Website)."),
+		"caption": translate("Official Forum Page"),
+		"tooltip": translate("Click to visit the Wildfire Games forum page in your browser."),
+		"size": "50%+4 100%-112 100%-8 100%-80",
+		"onPress": () => {
+			openURL("https://wildfiregames.com/forum/topic/137228-the-return-of-hyrule-conquestmy-revival-of-the-undying-nephalims-mod/");
+		}
+	},
+	{
+		"caption": translate("Official Spacebattles"),
+		"tooltip": translate("Click to open Hyrule Conquest: Revival Spacebattles thread in your web browser"),
 		"size": "50%+4 100%-148 100%-8 100%-116",
 		"onPress": () => {
-			openURL("https://webchat.quakenet.org/?channels=0ad");
+			openURL("https://forums.spacebattles.com/threads/hyrule-conquest-the-final-release-is-out.932454/page-6#post-117160019");
 		}
 	},
 	{
 		"caption": translate("Report a Glitch"),
-		"tooltip": translate("Click to visit Hyrule Conquest Help to report a bug, crash, or error."),
+		"tooltip": translate("Click to visit the Hyrule Conquest: Revival Discord Server to report a bug, crash, or error."),
 		"size": "8 100%-112 50%-4 100%-80",
 		"onPress": () => {
-			openURL("https://hyruleconquest.com/Help/Errors/");
-		}
-	},
-	{
-		"caption": translateWithContext("Frequently Asked Questions", "FAQ"),
-		"tooltip": translate("Click to visit the Frequently Asked Questions page in your browser."),
-		"size": "50%+4 100%-112 100%-8 100%-80",
-		"onPress": () => {
-			openURL("https://hyruleconquest.com/Help/FAQ");
+			openURL("https://discord.com/invite/EFW7v3G2cg");
 		}
 	},
 	{
 		"caption": translate("Donate Rupees"),
-		"tooltip": translate("Help with the project expenses by donating."),
+		"tooltip": translate("Help with the project expenses by donating (not yet implemented)."),
 		"size": "8 100%-40 100%-8 100%-8",
 		"onPress": () => {
 			openURL("https:///hyruleconquest.com/Help/Donate/");

@@ -47,6 +47,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrubling</Classes>
     <SpecificName>Lookout Post</SpecificName>
     <History>The Scrubs have many enemies, mostly because of their hostile and irrational attitudes. They are always on patrol, always on guard, and always watching over their domains with vigilance.</History>
     <Icon>structures/deku/dek_tower.dds</Icon>

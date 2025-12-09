@@ -16,6 +16,16 @@
   <Obstruction>
     <Static width="40" depth="40"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -cost_healer
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
+      deku/mad_drench
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/deku/temple.xml</Actor>
     <FoundationActor>structures/deku/deku_scaffoldB.xml</FoundationActor>

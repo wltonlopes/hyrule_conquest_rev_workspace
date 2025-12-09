@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Cost>
+    <BuildTime>125</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>75</stone>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="37.0" width="37.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Lava Smithy</SpecificName>
+    <History>The mighty Megaton hammers and other powerful weaponry are a closely guarded Goron secret. These forges are set up deep in the caverns of Death Mountain to craft and create the prized possessions of Goron warriors.</History>
+    <Icon>structures/goron/gor_lavasmithy.dds</Icon>
+    <Tooltip>Upgrades Goron weapon and armor.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="35.0" width="35.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/goron/goron_hero_medigoron
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/goron/goron_lavasmithyA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -21,7 +21,6 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}/fortress
-      structures/lanayru/monument
     </Entities>
   </Builder>
   <Health>
@@ -29,12 +28,19 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">Swimmer</Classes>
     <SpecificName>Coral Lancer</SpecificName>
     <History>Coral Lancers are the Province's baseline soldier; serving as both a police force and quick response unit to invasions. Armed with a spiky coralmold pole-arm, they are a cheap counter to cavalry and other larger units that their enemies often throw in their direction.</History>
     <Tooltip>Spear armed Melee Infantry unit with moderate armor and a cavalry bonus.</Tooltip>
     <Icon>units/lanayru/lan_lancer.dds</Icon>
+    <VisibleClasses datatype="tokens">Volunteer</VisibleClasses>
   </Identity>
   <Promotion disable=""/>
+  <ResourceGatherer>
+    <Rates>
+      <food.fish>1.8</food.fish>
+    </Rates>
+  </ResourceGatherer>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/sword.xml</attack_melee>

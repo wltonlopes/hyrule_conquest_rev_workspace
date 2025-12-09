@@ -1,0 +1,25 @@
+{
+	"genericName": "Silver Vault",
+	"description": "Add a Silver Vault to your Banks, to safely store your citizens' money.",
+	"cost": {"food": 0, "wood": 0, "stone": 100, "metal": 500},
+	"requirements": { "all": 
+				[
+					{ "entity": { "class": "Forge", "number": 1 } }
+				]
+			},
+	"requirementsTooltip": "Unlocked with Silver Exchange.",
+	"icon": "special_treasure.png",
+	"researchTime": 40,
+	"tooltip": "The Bank gets +2 Non Magic armor and +0.5 Magic armor, and reduces the loot gained by invaders by 1/2.",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Hack", "add": 2.0},
+				{"value": "Resistance/Entity/Damage/Pierce", "add": 2.0},
+				{"value": "Resistance/Entity/Damage/Crush", "add": 2.0},
+				{"value": "Resistance/Entity/Damage/Forest", "add": 0.5},
+				{"value": "Resistance/Entity/Damage/Fire", "add": 0.5},
+				{"value": "Resistance/Entity/Damage/Water", "add": 0.5},
+				{"value": "Loot/metal", "multiply": 0.5}
+			],
+	"affects": ["Bank"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

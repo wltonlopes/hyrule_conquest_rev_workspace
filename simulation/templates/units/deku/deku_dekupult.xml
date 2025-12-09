@@ -27,6 +27,10 @@
         <Range>8</Range>
         <Shape>Circular</Shape>
       </Splash>
+      <Stun>
+        <Chance>100</Chance>
+        <Time>2000</Time>
+      </Stun>
     </Ranged>
   </Attack>
   <Capturable disable="" />
@@ -48,9 +52,10 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub</Classes>
     <SpecificName>Dekupult</SpecificName>
-    <History>While they are rather small (like the Deku Scrubs themselves,) these catapults are no less deadly than those used by the other races of Hyrule. Loaded with exceptionally large Deku Nuts, the ammo of these siege engines can explode in a giant flash of light. Such bursts can punch a hole into an enemy gate, or holes into multiple enemy soldiers in the area.</History>
-    <Tooltip>Ranged Siege unit that lobs explosive Deku Nuts at its targets.</Tooltip>
+    <History>While they are rather small (like the Deku Scrubs themselves,) these catapults are no less deadly than those used by the other races of Hyrule. Loaded with exceptionally large Deku Nuts, the ammo of these siege engines can explode in a giant flash of light, stunning nearby enemies. Such bursts can also punch a hole into an enemy gate, or holes into multiple enemy soldiers in the area.</History>
+    <Tooltip>Ranged Siege unit that lobs explosive Deku Nuts at its targets, Stunning them.</Tooltip>
     <Icon>units/deku/dek_dekupult.dds</Icon>
   </Identity>
   <Pack disable=""/>

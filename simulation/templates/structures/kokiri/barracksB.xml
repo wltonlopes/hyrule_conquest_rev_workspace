@@ -14,7 +14,7 @@
     <SpecificName>Mudmen Camp</SpecificName>
     <Icon>structures/kokiri/kok_korokcolony.dds</Icon>
     <Tooltip>Trains Mudmen units.</Tooltip>
-    <VisibleClasses datatype="tokens">Town -Village</VisibleClasses>
+    <VisibleClasses datatype="tokens">Town -Village Kennel</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">phase_town -phase_village</Techs>
     </Requirements>
@@ -31,7 +31,9 @@
       units/kokiri/kokiri_mudlaborer
       units/kokiri/kokiri_mudjabber_b
       units/kokiri/kokiri_mudmantlet_b
+      units/kokiri/kokiri_wolfos_b
       units/kokiri/kokiri_wolfkiller_b
+      units/kokiri/kokiri_hero_mirora
     </Entities>
   </Trainer>
   <VisualActor>

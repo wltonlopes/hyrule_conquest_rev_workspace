@@ -70,8 +70,13 @@
   <UnitMotion>
     <PassabilityClass>fly</PassabilityClass>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility>
   <Vision>
-    <Range>80</Range>
+    <Range>120</Range>
   </Vision>
   <VisualActor>
     <Actor>units/stalfos/stalfos_eyesoar_b.xml</Actor>

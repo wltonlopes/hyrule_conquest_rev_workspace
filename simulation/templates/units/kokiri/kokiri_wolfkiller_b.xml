@@ -32,6 +32,7 @@
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
+    <Classes datatype="tokens">Mudman</Classes>
     <SpecificName>Wolfkiller</SpecificName>
     <History>A particularly violent hunter of the Mudmen Tribe that carries Mantis blades, they are excellent at fighting and slaying Creature units. They are quite well off being out in the wild, and in fact prefer it over the comfort of civilization.</History>
     <Tooltip>Melee unit that has an attack bonus against Creature units.</Tooltip>
@@ -64,10 +65,20 @@
       <walk>actor/human/movement/walk.xml</walk>
     </SoundGroups>
   </Sound>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/kokiri_scatter
+    </Formations>
+  </UnitAI>
   <UnitMotion>
     <RunMultiplier>1.3636</RunMultiplier>
     <WalkSpeed>11.0</WalkSpeed>
   </UnitMotion>
+  <Visibility>
+    <Camouflage>
+     <ActivateDelay>3000</ActivateDelay>
+    </Camouflage>
+  </Visibility>
   <Vision>
     <Range>70</Range>
   </Vision>

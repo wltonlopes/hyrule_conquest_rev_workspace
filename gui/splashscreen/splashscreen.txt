@@ -5,7 +5,9 @@
 
 [imgleft="iconLag"]The game can have performance problems, especially with large map, many AI players, and a great number of units.
 
+[imgleft="constructionIcon"]The Wild Zora civ currently does not function when controlled by an existing AI. A custom AI, called ZolBot, is planned for the near future.
+
 [imgleft="iconMap"]Hyrule Conquest: Revival is Free Software: you can participate in its development.
 If you want to help with art, sound, gameplay or programming, or want to contribute an idea, make sure to email me at Perzival12@proton.me.
 
-[font="sans-bold-12"] Hyrule Conquest: Revival V 0.5.0
+[font="sans-bold-12"] Hyrule Conquest: Revival V 0.7.0

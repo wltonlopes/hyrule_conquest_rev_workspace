@@ -1,0 +1,13 @@
+{
+	"genericName": "Vital Points",
+	"description": "They may be small, but with proper training and the right stick the Guardlings know how to stab creatures where it hurt most.",
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 250},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "deku/guardling_vitalpoints.dds",
+	"researchTime": 40,
+	"tooltip": "Guardlings x2 cavalry attack multiplier.",
+	"modifications": [{"value": "Attack/Melee/Damage/Bonuses/BonusCavMelee/Multiplier", "multiply": 2}],
+	"affects": ["Guardling"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

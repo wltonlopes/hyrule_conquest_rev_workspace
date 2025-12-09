@@ -26,6 +26,15 @@
   <Obstruction>
     <Static width="30.0" depth="30.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -barracks_batch_training
+      -unlock_champion_infantry
+      -pair_unlock_champions_sele
+      ordona/barracks_rushhour
+      ordona/barracks_grueling
+    </Technologies>
+  </Researcher>
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">

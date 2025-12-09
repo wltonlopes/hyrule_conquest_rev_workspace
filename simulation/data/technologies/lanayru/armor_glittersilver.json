@@ -1,0 +1,18 @@
+{
+	"genericName": "Glittering Silverscale",
+	"description": "Silverscale armor is a powerful protectant. However, when made out of the purest alloys and highly polished, it becomes even more so, even providing some small protection against magic.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 500},
+	"icon": "lanayru/armor_glittersilver.dds",
+	"researchTime": 40,
+	"tooltip": "All units with Silverscale armor gain +3 Non-Magic armor and +1 Magic armor.",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Hack", "add": 3.0},
+				{"value": "Resistance/Entity/Damage/Pierce", "add": 3.0},
+				{"value": "Resistance/Entity/Damage/Crush", "add": 3.0},
+				{"value": "Resistance/Entity/Damage/Forest", "add": 1.0},
+				{"value": "Resistance/Entity/Damage/Fire", "add": 1.0},
+				{"value": "Resistance/Entity/Damage/Water", "add": 1.0}
+	],
+	"affects": ["SilverArmor"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

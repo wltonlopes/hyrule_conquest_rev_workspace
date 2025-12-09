@@ -31,6 +31,7 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">SilverWeapon SilverArmor Swimmer</Classes>
     <SpecificName>Rutela</SpecificName>
     <GenericName>Queen of Lanayru Proince</GenericName>
     <History>The former wife of King Zora De Bon XVI, Rutela eventually split from the Dominion and more or less formally sanctified Lanayru Province as a distinct nation. Prior to her marriage she was a general in the Dominion's army and had participated in the defense against Ganon's first invasion.</History>

@@ -63,6 +63,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
+    <Classes datatype="tokens">Scrub Bubbling</Classes>
     <SpecificName>Bubbling</SpecificName>
     <History>Some individual Deku Scrubs have the ability to create a soapy and durable bubble within their mouth. When popped, the bubble unleashes a powerful burst that knocks everything around the area right to the ground. Such Deku are valued for their ability to knock down groups of enemies, and the Scrubs are always quick to add their rare talent to their armies.</History>
     <Tooltip>Missile unit that spits explosive bubbles at their enemies.</Tooltip>

@@ -32,8 +32,16 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      -unlock_champion_chariots
+      -stable_batch_training
+      -cavalry_movement_speed
+      -cavalry_health
       -nisean_horses
+      -unlock_champion_cavalry
+      -unlock_champion_chariots
+      lanayru/animal_rapidresponse
+      lanayru/attack_coraltips
+      lanayru/animal_shellhallows
+      lanayru/animal_noxious
     </Technologies>
   </Researcher>
   <Trainer>

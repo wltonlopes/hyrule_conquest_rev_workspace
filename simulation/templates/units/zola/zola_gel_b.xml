@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_aggressive">
+  <Attack>
+    <Melee>
+      <AttackName>Slime</AttackName>
+      <Damage>
+        <Water>1.0</Water>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PrepareTime>900</PrepareTime>
+      <RepeatTime>1000</RepeatTime>  
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>1</BuildTime>
+    <Resources>
+      <food>5</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <DeathDamage>
+    <Shape>Circular</Shape>
+    <Range>4</Range>
+    <FriendlyFire>false</FriendlyFire>
+    <Damage>
+      <Water>2</Water>
+    </Damage>
+  </DeathDamage>
+  <Footprint replace="">
+    <Circle radius="1"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>10</Max>
+  </Health>
+  <Identity>
+    <Civ>zola</Civ>
+    <SpecificName>Gel</SpecificName>
+    <VisibleClasses datatype="tokens">Creature Zol</VisibleClasses>
+    <History>Smaller form of a Zol.</History>
+    <Tooltip>Small Melee Creature unit with a weak Water attack. Can move over most terrain types.</Tooltip>
+    <Icon>units/zola/zol_gel.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>2.5</Crush>
+        <Hack>2.5</Hack>
+        <Pierce>2.5</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/gel_bite.xml</attack_melee>
+      <death>voice/zola/zol/zol_death.xml</death>
+      <order_attack>voice/zola/zol/zol_attack.xml</order_attack>
+      <order_garrison>voice/zola/zol/zol_garrison.xml</order_garrison>
+      <order_gather>voice/zola/zol/zol_gather.xml</order_gather>
+      <order_repair>voice/zola/zol/zol_repair.xml</order_repair>
+      <order_walk>voice/zola/zol/zol_walk.xml</order_walk>
+      <run>actor/movement/zol/gel_crawl.xml</run>
+      <select>voice/zola/zol/zol_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <walk>actor/movement/zol/gel_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+    <RunMultiplier>1.1111</RunMultiplier>
+    <WalkSpeed>5.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/zola/zola_gel_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -18,6 +18,7 @@
   <Identity>
     <Civ>ordona</Civ>
     <SpecificName>Billy Battler</SpecificName>
+    <Classes datatype="tokens">Goat Helmed></Classes>
     <History>The Billy Battler is the face of the Ordonian army, and perhaps their nation's most numerous military unit. A trained warrior riding on the back of an angry Ordonian goat, these armored cavalry may lack speed but pack quite the buck. After charging into an enemy with their looped horn, the Billy Battler's rider chops and decapitates enemies with their axe. Like all of Ordona's goat cavalry, the Billy Battler can climb over mountainous terrain.</History>
     <Tooltip>Medium Cavalry unit with a strong melee attack.</Tooltip>
     <Icon>units/ordona/ord_billybat.dds</Icon>

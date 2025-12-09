@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_swordsman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Mouth</AttackName>
+      <Damage>
+        <Crush>2.0</Crush>
+      </Damage>
+      <MaxRange>3</MaxRange>
+      <PrepareTime>900</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>6</BuildTime>
+    <Resources>
+      <food>25</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="1.5"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>15</Max>
+  </Health>
+  <Identity>
+    <Civ>zola</Civ>
+    <SpecificName>Puffers</SpecificName>
+    <History>Swarm of very tiny Octorocks</History>
+    <Icon>units/zola/zol_puffer.dds</Icon>
+    <Tooltip>Melee Creature unit.</Tooltip>
+  </Identity>
+  <Position>
+    <Floating>true</Floating>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>5.0</Crush>
+        <Hack>3.0</Hack>
+        <Pierce>15.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/natural/octorok_spit.xml</attack_ranged>
+      <death>voice/wild/octorok/octorok_death.xml</death>
+      <order_attack>voice/wild/octorok/octorok_attack.xml</order_attack>
+      <order_garrison>voice/wild/octorok/octorok_select.xml</order_garrison>
+      <order_gather>voice/wild/octorok/octorok_select.xml</order_gather>
+      <order_repair>voice/wild/octorok/octorok_select.xml</order_repair>
+      <order_walk>voice/wild/octorok/octorok_walk.xml</order_walk>
+      <select>voice/wild/octorok/octorok_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <run>actor/movement/octorok/octorok_crawl.xml</run>
+      <walk>actor/movement/octorok/octorok_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/zola/zola_puffer_b.xml</Actor>
+  </VisualActor>
+</Entity>

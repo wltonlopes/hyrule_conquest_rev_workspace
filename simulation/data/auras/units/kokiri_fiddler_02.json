@@ -2,6 +2,7 @@
 	"type": "range",
 	"radius": 60,
 	"affects": ["Organic"],
+	"stackable": "true",
 	"affectedPlayers": ["Enemy"],
 	"modifications": [
 		{ "value": "Vision/Range", "add": -30 }

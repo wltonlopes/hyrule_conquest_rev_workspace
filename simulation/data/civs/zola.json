@@ -1,0 +1,160 @@
+{
+	"Code": "zola",
+	"Culture": "zora",
+	"Music":
+	[
+		{"File": "zola_theme1.ogg", "Type": "peace"},
+		{"File": "zola_ambient1.ogg", "Type": "peace"},
+		{"File": "zola_ambient2.ogg", "Type": "peace"},
+		{"File": "zola_ambient3.ogg", "Type": "peace"},
+		{"File": "zola_ambient4.ogg", "Type": "peace"},
+		{"File": "zola_ambient5.ogg", "Type": "peace"},
+		{"File": "zola_ambient6.ogg", "Type": "peace"},
+		{"File": "zola_ambient7.ogg", "Type": "peace"},
+		{"File": "zola_ambient8.ogg", "Type": "peace"},
+		{"File": "zola_ambient9.ogg", "Type": "peace"},
+		{"File": "zola_battle1.ogg", "Type": "battle"},
+		{"File": "zola_battle2.ogg", "Type": "battle"},
+		{"File": "zola_battle3.ogg", "Type": "battle"},
+		{"File": "zola_defeat1.ogg", "Type": "defeat"},
+		{"File": "zola_victory1.ogg", "Type": "victory"}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Wild Zora",
+    			"History": "While the Zora race is on the whole, peaceful, one group has branched of from the others. With strange, green skin, sharp fangs, and a tendancy towards violence, it is rumored that these are the remnants of ancient Zora, who joined Demise in his conquest of Hyrule. Whatever the case, the other Zora races refuse to recognize these creatures as the same race, calling the mutants and demons. The rest of Hyrule calls them the 'Wild Zora', or, more commonly, just the 'Zola'.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Barudakan",
+					"Class": "Infantry Swordsman",
+					"Armament": "Sword",
+					"Emblem": "",
+    					"History": "Queen Oren's favorite bodyguard, Barudakan is an easily amused soldier who loves his lot in life. While not exactly a brilliant tactician or commander, or a warrior with much finesse for that matter, his brute force and knack for 'refusing to die' have lead him to win many skirmishes and campaigns against his enemies. His body is heavily scarred from his many near death battles, but he almost seems unaware of his disfiguring wounds. If there is one thing that Barudakan is more interested in than fighting, its fairies. This Zola has devoted much of his free time to learning about Fairies and he hopes to catch one as a pet one day."
+				},
+				{
+					"Name": "Jellyf",
+					"Class": "Infantry Archer ",
+					"Armament": "Ink",
+					"Emblem": "",
+    					"History": "A very enigmatic figure in the court of the Zola, Jellyf is believed to be ancient and possibly one of the oldest beings alive in Hyrule. Jellyf uses her personal servants to speak for her, only speaking directly to Queen Oren. Jellyf's mysterious motivations raise suspicion and concern even amongst the royal court, but the turnaround success of reconquering lost Zola coves and territory since her arrival has kept any from questioning her."
+				},
+				{
+					"Name": "Krel",
+					"Class": "Infantry Maceman",
+					"Armament": "Staff",
+					"Emblem": "",
+    					"History": "A highly intelligent mage who came into service of Queen Oren. He presents himself as an arrogant wisecraker, though amongst the Wild Zora he perhaps is the most loyal servant the royals have in their service. Nothing is known of Krel's origin of where he came from or what his real motivations might possibly be. He seems to have vast knowledge of the Zol slime that links the Zora, Octroks, and Parella together and how to control it."
+				},
+				{
+					"Name": "Maiamai",
+					"Class": "Cavalry Archer",
+					"Armament": "Octoroks",
+					"Emblem": "",
+    					"History": "One of the only living Octorok mothers in Hyrule's current age, Maiamai maintains a symbiotic alliance with Queen Oren that has benefited both people for generations. While generally peaceful, she is obsessive of her newborns and will violently protect them. Like most Octoroks, she fears the Octorok sea god Bellum and perpetuates his return to Hyrule."
+				},
+				{
+					"Name": "Queen Oren",
+					"Class": "Infantry Archer",
+					"Armament": "Spines",
+					"Emblem": "",
+    					"History": "The real power that holds the Wild Zora together, Queen Oren is a shrewd diplomat and has a keen understanding of aquatic warfare. Unlike many of her contemporaries, she is more than capable of being reasoned with and has more or less become the spokesperson of her people. Despite this, is seems Queen Oren has suppressed much and is prone to huge fits of rage, fits that become so bad she'll bloat into a horrifying monster. Her land dwelling Zora cousins believe it's only a matter of time before she slips up and causes a full scale war between the various Zora kingdoms."
+				},
+				{
+					"Name": "King Zaro",
+					"Class": "Infantry Maceman",
+					"Armament": "Club",
+					"Emblem": "",
+    					"History": "King Zaro wields immense power among his people, despite this he prefers to let his wife Oren run his little kingdom and spends most of his time lounging around and avoiding his responsibilities. While not necessarily lazy, he simply has little interest in running a kingdom. King Zaro is known however, for his intense rivalry with the Zora kings of the Dominion and Lanayru Province. If there is anything that can call him to action it's the opportunity to ruin their reputation, foil their endeavors, or if possible conquer their entire kingdoms.</History>    <History>King Zaro wields immense power among his people, despite this he prefers to let his wife Oren run his little kingdom and spends most of his time lounging around and avoiding his responsibilities. While not necessarily lazy, he simply has little interest in running a kingdom. King Zaro is known however, for his intense rivalry with the Zora kings of the Dominion and Lanayru Province. If there is anything that can call him to action it's the opportunity to ruin their reputation, foil their endeavors, or if possible conquer their entire kingdoms."
+				},
+				{
+					"Name": "Titan: Aquamentus, Ancient Water Dragon",
+					"Class": "Titan",
+					"Armament": "Teeth, Claws, and Fire",
+					"Emblem": "",
+    					"History": "This massive water dragon sports powerful rending claws, a lancing horn on its head, and short range but deadly fire breath. Its wings are quite small for its size however, and as such this dragon can only use them for extended leaps rather then consistent flight."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Fierce Alliance",
+			"History": "The Wild Zora make very fierce troops, inspiring the forces of their allies.",
+			"Description": "Allied soldiers attack +15% faster."
+		}
+	],
+	"Structures":
+	[
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/zola/civil_centre"
+		},
+		{
+			"Template": "units/zola/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/zola/zola_octoballoon_b",
+			"Count": 1
+		},
+		{
+			"Template": "units/zola/zola_biri_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/zola/zola_octorok_b",
+			"Count": 2
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade"
+	],
+	"AINames":
+	[
+		"Barudakan",
+		"Jellyf",
+		"Krel",
+		"Maiamai",
+		"Queen Oren",
+		"King Zaro",
+		"Aquamentus, Ancient Water Dragon"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_support_female_citizen": "units/zola/support_female_citizen",
+		"skirmish/units/default_infantry_melee_b": "units/zola/zola_biri_b",
+		"skirmish/units/default_infantry_ranged_b": "units/zola/zola_octorok_b",
+		"skirmish/units/default_ship_arrow": "units/zola/zola_bigocto_b",
+		"skirmish/units/default_ship_scout": "units/zola/zola_octoballoon_b",
+		"skirmish/units/default_siege_ram": "units/zola/zola_derazol_b",
+		"skirmish/units/default_cavalry": "units/zola/zola_octoballoon_b",
+		"skirmish/units/special_starting_unit": "units/zola/zola_sludgeshark_b",
+		"skirmish/structures/default_arsenal": "structures/zola/barracksC",
+		"skirmish/structures/default_corral": "structures/zola/field",
+		"skirmish/structures/default_defense_tower": "structures/zola/house",
+		"skirmish/structures/default_dock": "structures/zola/barracks",
+		"skirmish/structures/default_farmstead": "units/zola/house",
+		"skirmish/structures/default_fortress": "structures/zola/barracksB",
+		"skirmish/structures/default_house_5": "structures/zola/house",
+		"skirmish/structures/default_house_10": "structures/zola/house",
+		"skirmish/structures/default_outpost": "structures/zola/house",
+		"skirmish/structures/default_stable": "structures/zola/barracksB",
+		"skirmish/structures/default_storehouse": "units/zola/house",
+		"skirmish/structures/default_temple": "structures/zola/barracksB",
+		"skirmish/structures/default_range": "structures/zola/barracksD",
+		"skirmish/structures/default_sentry_tower": "structures/zola/house"
+	},
+	"SelectableInGameSetup": true
+}

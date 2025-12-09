@@ -22,7 +22,6 @@
   <Builder>
     <Entities datatype="tokens">
       -structures/{civ}/fortress
-      structures/lanayru/monument
     </Entities>
   </Builder>
   <Cost>
@@ -38,12 +37,19 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">Swimmer</Classes>
     <SpecificName>Handmaiden</SpecificName>
     <GenericName>Lanayru Worker</GenericName>
     <History>Citizens of Lanayru Province that have dedicated and sworn their service to the throne, Handmaidens build and gather until their terms are up. With no family life to attend to, they have devoted their lives to constructing, rebuilding, and improving the civilian and military bases of the entire Province.</History>
     <Icon>units/lanayru/lan_handmaiden.dds</Icon>
     <Tooltip>Worker unit: can gather all resources and construct buildings for Lanayru Province.</Tooltip>
   </Identity>
+  <ProductionQueue/>
+  <ResourceGatherer>
+    <Rates>
+      <food.fish>1.8</food.fish>
+    </Rates>
+  </ResourceGatherer>
   <Sound>
     <SoundGroups>
       <attack>attack/weapon/sword.xml</attack>

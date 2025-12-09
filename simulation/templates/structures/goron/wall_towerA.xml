@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_tower">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>8</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>4</stone>
+      <metal>4</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="12.5" depth="12.5"/>
+    <Height>18</Height>
+  </Footprint>
+  <GarrisonHolder disable="" />
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_tiny</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Goron Tower</SpecificName>
+    <History>Goron Walls are some of the sturdiest defenses in all of Hyrule. It takes quite a force to break through metal and stone.</History>
+    <Icon>structures/goron/gor_wallA.dds</Icon>
+    <Tooltip>Defensive Wall to slow invaders.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="9.5" depth="9.5"/>
+  </Obstruction>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>18</Y>
+        <Z>5</Z>
+      </Archer1>
+      <Archer2>
+        <X>0</X>
+        <Y>18</Y>
+        <Z>-5</Z>
+      </Archer2>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/goron/goron_wall_towerA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>9.5</Length>
+  </WallPiece>
+  <Upgrade>
+    <TowerA>
+      <Cost>
+	<metal>300</metal>
+      </Cost>
+      <Entity>structures/goron/defense_tower</Entity>
+      <Time>45</Time>
+      <Tooltip>Garrison with Bomb Throwers.</Tooltip>
+      <Variant>upgrading</Variant>
+    </TowerA>
+    <TowerB>
+      <Cost>
+	<stone>25</stone>
+      </Cost>
+      <Entity>structures/goron/wall_towerB</Entity>
+      <Time>8</Time>
+      <Tooltip>Reinforce the tower walls.</Tooltip>
+      <Variant>upgrading</Variant>
+    </TowerB>
+    <TowerC>
+      <Cost>
+	<stone>25</stone>
+      </Cost>
+      <Entity>structures/goron/wall_towerC</Entity>
+      <Time>8</Time>
+      <Tooltip>Add a lava moat to the tower.</Tooltip>
+      <Variant>upgrading</Variant>
+    </TowerC>
+    <TowerD>
+      <Cost>
+	<stone>25</stone>
+      </Cost>
+      <Entity>structures/goron/wall_towerD</Entity>
+      <Time>8</Time>
+      <Tooltip>Add a lava moat to the tower.</Tooltip>
+      <Variant>upgrading</Variant>
+    </TowerD>
+  </Upgrade>
+</Entity>

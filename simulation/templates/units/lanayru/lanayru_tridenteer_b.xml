@@ -16,6 +16,7 @@
       <Damage>
         <Hack>8.0</Hack>
         <Pierce>11.0</Pierce>
+        <True>9</True>
       </Damage>
       <MaxRange>5.0</MaxRange>
       <PrepareTime>1100</PrepareTime>
@@ -28,8 +29,8 @@
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
+    <Classes datatype="tokens">Swimmer</Classes>
     <SpecificName>Lightscale Tridenteer</SpecificName>
-    <VisibleClasses datatype="tokens">Silver</VisibleClasses>
     <History>Hunters of all manner of sea beast, from the Gyorgs of the Great Sea to the Bigoctos of the west, Lightscale Tridenteers are powerful warriors when in the water. They are exceptionally adept at killing creature units with their tridents, and when not in combat they slowly heal their injuries.</History>
     <Tooltip>Spear armed Melee Infantry unit with moderate armor and a cavalry bonus.</Tooltip>
     <Icon>units/lanayru/lan_tridenteer.dds</Icon>

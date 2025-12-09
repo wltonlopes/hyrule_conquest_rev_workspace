@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_long">
+  <Auras datatype="tokens">
+    structural/lavawall_aura_1
+    structural/lavawall_aura_2
+  </Auras>
+  <Cost>
+    <BuildTime>36</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>18</stone>
+      <metal>18</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="38.5" depth="9.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_wall_long</SpawnEntityOnDeath>
+  </Health>
+  <GarrisonHolder disable="" />
+  <Identity>
+    <Civ>goron</Civ>
+    <SpecificName>Goron Wall</SpecificName>
+    <History>Goron Walls are some of the sturdiest defenses in all of Hyrule. It takes quite a force to break through metal and stone.</History>
+    <Icon>structures/goron/gor_wallA.dds</Icon>
+    <Tooltip>Defensive Wall to slow invaders.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="40.0" depth="7.5"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.5</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>-4</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>4</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Archer3>
+      <Archer4>
+        <X>8</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>-8</X>
+        <Y>11.5</Y>
+        <Z>0</Z>
+      </Archer5>
+    </TurretPoints>
+  </TurretHolder>
+  <Upgrade>
+    <Gate>
+      <Entity>structures/goron/wall_gateA</Entity>
+      <Time>15</Time>
+      <Tooltip>Convert to Goron Gate.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Gate>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/goron/goron_wall_longC.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>40.0</Length>
+  </WallPiece>
+</Entity>

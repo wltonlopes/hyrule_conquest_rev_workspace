@@ -22,7 +22,6 @@
           <texture file="skeletal/zola/zol_octogiantA.dds" name="baseTex"/>
         </textures>
         <props>
-		  <prop actor="particle/gather_foodB.xml" attachpoint="root"/>
           <prop actor="structures/zola/zol_octohuge_shell.xml" attachpoint="shell"/>
 		  <prop actor="structures/zola/zol_octohuge_farmshellA.xml" attachpoint="shell"/>
 		  <prop actor="structures/zola/zol_octohuge_farmplantA.xml" attachpoint="shell"/>

@@ -1,6 +1,7 @@
 {
 	"type": "range",
 	"radius": 15,
+	"stackable": "true",
 	"affects": ["Organic"],
 	"affectedPlayers": ["Enemy"],
 	"modifications": [

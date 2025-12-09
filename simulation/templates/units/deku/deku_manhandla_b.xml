@@ -47,11 +47,11 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <Classes datatype="tokens">-ConquestCritical Manhandla</Classes>
     <GenericName>Creature</GenericName>
     <SpecificName>Manhandla</SpecificName>
     <History>A frighting horror found in the darkest depths of the Kokiri Forest, the Manhandla is a giant whirling engine of destruction when let loose unto the battlefield. The Manhandla is actually a symbiotic collection of multiple plants; a large flower-like creature provides locomotion while up to four smaller Baba-like serpents tear apart victims to feed to themselves and their ride.</History>
-    <Tooltip>Huge lumbering Creature unit that can attack many enemies around itself at once.</Tooltip>
+    <Tooltip>Huge lumbering Creature unit that can attack many enemies around itself at once. Regenerates when idle.</Tooltip>
     <Icon>units/deku/dek_manhandla.dds</Icon>
     <VisibleClasses datatype="tokens">Creature</VisibleClasses>
   </Identity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_mercs">
+  <Cost>
+    <BuildTime>125</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>75</stone>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="30.0" width="30.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>goron</Civ>
+    <History>A basic shop that can be set up early in a settlement's development, the Bazaar sells any extra supplies or items produced by its host settlement.</History>
+    <SpecificName>Bazaar</SpecificName>
+    <Icon>structures/goron/gor_bazaar.dds</Icon>
+    <Tooltip>Allows the Gorons to hire Mercenary units.</Tooltip>
+    <VisibleClasses datatype="tokens">-Town Village</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="15.0" depth="15.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/merc/merc_polsvoice_b
+      -units/merc/merc_pikku_b
+      -units/merc/merc_forestthief_b
+      -units/merc/merc_mago_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/goron/goron_bazaarA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>
