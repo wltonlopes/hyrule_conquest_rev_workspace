@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/labrynna/lab_onox_baseA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/labrynna/medium/lab_onox_baseA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/labrynna/low/lab_onox_baseA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_onox/base_HC_onox_mace.xml">
+        <props>
+          <prop actor="units/labrynna/labrynna_onox_armor.xml" attachpoint="root"/>
+          <prop actor="props/units/weapons/labrynna_onoxmaceA.xml" attachpoint="root"/>
+          <prop actor="props/hero_selectorA.xml" attachpoint="root"/>
+        </props>
+        <textures>
+          <texture file="skeletal/labrynna/lab_onoxA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_onox/base_HC_onox_capture.xml"/>
+      <variant file="HC_onox/base_HC_onox_slaughter.xml"/>
+      <variant file="HC_onox/base_HC_onox_death.xml">
+        <props>
+          <prop actor="units/labrynna/labrynna_onox_armor.xml" attachpoint="root"/>
+          <prop actor="props/units/weapons/labrynna_onoxmaceA.xml" attachpoint="root"/>
+          <prop actor="props/units/blood_twili_01.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

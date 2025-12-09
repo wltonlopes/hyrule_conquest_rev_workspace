@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/labrynna/lab_helm_eagleA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/labrynna/medium/lab_helm_eagleA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/labrynna/low/lab_helm_eagleA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant frequency="1" name="Helm">
+        <textures>
+          <texture file="skeletal/labrynna/lab_mainB.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+  </inline>
+</qualitylevels>
+

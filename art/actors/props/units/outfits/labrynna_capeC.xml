@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/labrynna/lab_bearcapeA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/labrynna/medium/lab_bearcapeA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/labrynna/low/lab_bearcapeA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_capes/base_HC_biped_cape_spear.xml">
+        <textures>
+          <texture file="skeletal/labrynna/lab_bluefurA.png" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_capes/base_HC_biped_cape_crossbowatt.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_slaughter.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_gather_tree.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_gather_grain.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_gather_fruit.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_gather_meat.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_gather_rock.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_gather_ore.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_gather_ruins.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_gather_praise.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_build.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_build_farm.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_carry_food.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_carry_meat.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_carry_wood.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_carry_stone.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_carry_metal.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_carry_food_idle.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_carry_meat_idle.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_carry_wood_idle.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_carry_stone_idle.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_carry_metal_idle.xml"/>
+      <variant file="HC_capes/base_HC_biped_cape_death.xml">
+    </variant>
+    </group>
+    <material>basic_trans.xml</material>
+  </inline>
+</qualitylevels>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/labrynna/lab_edgarA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/labrynna/medium/lab_edgarA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/labrynna/low/lab_edgarA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_darknut_large/base_HC_darknut_sword.xml">
+        <props>
+          <prop actor="props/units/weapons/labrynna_fea_brigadaA.xml" attachpoint="head"/>
+          <prop actor="props/units/weapons/labrynna_starglaiveA.xml" attachpoint="R_weapon"/>
+          <prop actor="props/hero_selectorA.xml" attachpoint="root"/>
+        </props>
+        <textures>
+          <texture file="skeletal/labrynna/lab_edgarA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_darknut_large/base_HC_darknut_attack_splash.xml"/>
+      <variant file="HC_darknut_large/base_HC_darknut_capture.xml"/>
+      <variant file="HC_darknut_large/base_HC_darknut_slaughter.xml"/>
+      <variant file="HC_darknut_large/base_HC_darknut_death.xml">
+        <props>
+          <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

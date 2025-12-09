@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="plot">
+      <mesh>structural/minor_plot_small.dae</mesh>
+	  <props>
+		<prop actor="props/structures/minor_lonlon/lonlon_groundbase_medium.xml" attachpoint="root"/>
+      </props>
+      <textures>
+	    <texture file="structural/minor_tokay/tok_building_plots.dds" name="baseTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <group>
+	<variant name="Idle" frequency="1"/>
+	<variant name="upgrading_generic">
+      <props>
+		<prop actor="particle/construction_dust_huge.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
+		<prop actor="particle/construction_dust_hugeC.xml" attachpoint="root"/>
+      </props>
+	</variant>	
+   </group>  
+   <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>props/weapon/hylian_tplightbowA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>props/weapon/medium/hylian_tplightbowA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>props/weapon/low/hylian_tplightbowA.dae</mesh>
+      </variant>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>props/weapon/hylian_tplightbowA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>props/weapon/medium/hylian_tplightbowA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>props/weapon/low/hylian_tplightbowA.dae</mesh>
+      </variant>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>props/weapon/hylian_tplightbowA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>props/weapon/medium/hylian_tplightbowA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>props/weapon/low/hylian_tplightbowA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant frequency="1" name="mesh">
+        <textures>
+          <texture file="skeletal/hylian/hyl_uu1.dds" name="baseTex"/>
+          <texture file="skeletal/hylian/hyl_uu1_spec.dds" name="specTex"/>
+          <texture file="skeletal/hylian/hyl_uu1_spec.dds" name="glowTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="longbow-med">
+      </variant>
+      <variant frequency="1" name="longbow-dark">
+      </variant>
+      <variant frequency="1" name="longbow-light">
+      </variant>
+    </group>
+    <material>basic_glow.xml</material>
+  </inline>
+</qualitylevels>
+

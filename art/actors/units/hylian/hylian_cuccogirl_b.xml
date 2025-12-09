@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="Holders/base_chasingholder.xml">
+      <mesh>units/chasingunit_holderA.dae</mesh>
+      <props>
+        <prop actor="units/hylian/hylian_cuccogirl_girl.xml" attachpoint="chasing"/>
+		<prop actor="units/hylian/hylian_cuccogirl_cucco.xml" attachpoint="chased"/>
+      </props>
+      <textures><texture file="skeletal/empty.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>

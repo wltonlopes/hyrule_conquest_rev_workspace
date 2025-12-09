@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="HC_biped/base_HC_biped_farmer.xml"/>
+  </group>
+  <group>
+	<variant frequency="1" name="hairs">
+	  <props>
+		<prop actor="props/units/hair/hylian_hairA_farmer.xml" attachpoint="root"/>	
+		<prop actor="props/units/weapons/lonlon_pitchforkA.xml" attachpoint="bone_Rhand"/>	
+      </props>
+	</variant>
+  </group>
+  <group>
+    <variant frequency="1" name="citz_A">
+      <mesh>units/hylian/hyl_citizenA.dae</mesh>
+    </variant>
+    <variant frequency="1" name="citz_B">
+      <mesh>units/hylian/hyl_citizenA_hat.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Dress_White_Pink">
+      <textures>
+        <texture file="skeletal/hylian/hyl_citizenA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Dress_White_Blue">
+      <textures>
+        <texture file="skeletal/hylian/hyl_citizenB.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Dress_White_Red">
+      <textures>
+        <texture file="skeletal/hylian/hyl_citizenC.dds" name="baseTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="Dress_Black_Gold">
+      <textures>
+        <texture file="skeletal/hylian/hyl_citizenD.dds" name="baseTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="Dress_Green_Gold">
+      <textures>
+        <texture file="skeletal/hylian/hyl_citizenE.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_biped/base_HC_biped_death.xml">
+      <props>
+		<prop actor="props/units/hair/hylian_hairA_farmer.xml" attachpoint="root"/>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>

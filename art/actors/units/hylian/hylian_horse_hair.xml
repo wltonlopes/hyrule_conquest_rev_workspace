@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+	
+   <group>
+    <variant minquality="high" frequency="1" name="bodyA">
+      <mesh>units/hylian/hyl_horseA_hair.dae</mesh>
+    </variant>  
+    <variant maxquality="high" minquality="medium" frequency="1" name="bodyA">
+       <mesh>units/hylian/medium/hyl_horseA_hair.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="bodyA">
+       <mesh>units/hylian/low/hyl_horseA_hair.dae</mesh>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="red">
+      <textures><texture file="skeletal/hylian/hyl_horseA.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="grey">
+      <textures><texture file="skeletal/hylian/hyl_horseB.dds" name="baseTex"/></textures>
+    </variant>
+	<variant frequency="1" name="brown">
+      <textures><texture file="skeletal/hylian/hyl_horseC.dds" name="baseTex"/></textures>
+    </variant>
+  </group> 
+  
+  <group>
+    <variant file="HC_mounts/base_HC_horse.xml">   
+    </variant>
+   </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="Run">
+    </variant>
+	<variant file="HC_mounts/base_HC_horse_death.xml">
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>

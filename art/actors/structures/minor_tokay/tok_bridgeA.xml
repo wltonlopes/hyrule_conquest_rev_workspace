@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Bridge">
+      <mesh>structural/minor_tokay/tok_bridgeA.dae</mesh>
+      <textures>
+        <texture file="structural/minor_tokay/tok_mainA.dds" name="baseTex"/>
+		<texture file="structural/minor_tokay/tok_mainA_normal.dds" name="normTex"/>
+		<texture file="structural/minor_tokay/tok_bridgesA_ao.dds" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

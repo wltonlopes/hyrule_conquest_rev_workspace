@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Mesh">
+		<animations>
+			<animation file="HC_cucco/cucco_idle.dae" name="Idle" id="idle1" speed="50"/>
+			<animation file="HC_cucco/cucco_runA" name="Walk" id="walk1" speed="10"/>
+			<animation file="HC_cucco/cucco_runA" name="Walk" id="walk2" speed="10"/>
+			<animation file="HC_cucco/cucco_runA" name="Run" id="run1" speed="10"/>
+			<animation file="HC_cucco/cucco_runA" name="Run" id="run2" speed="10"/>
+			<animation file="HC_cucco/cucco_runA" name="Flail" id="flail1" speed="8"/>
+			<animation file="HC_cucco/cucco_runA" name="Recover" id="recover1" speed="8"/>
+		</animations>
+	  <mesh>units/wild/wild_cuccoA.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="feathers-red">
+     <textures><texture file="skeletal/wild/wild_cuccoA.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="feathers-brown">
+      <textures><texture file="skeletal/wild/wild_cuccoA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+</actor>

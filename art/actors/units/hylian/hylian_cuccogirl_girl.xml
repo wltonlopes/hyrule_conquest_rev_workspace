@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="HC_kokiri/base_HC_kidrun.xml">
+      <mesh>units/hylian/hyl_kid_bodyA.dae</mesh>
+	  <textures>
+        <texture file="skeletal/hylian/hyl_younglinkA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hyl_girloutfitA">
+      <props>
+	    <prop actor="props/units/hair/hylian_hairF_childrun.xml" attachpoint="root"/>	
+        <prop actor="units/hylian/hyl_Fchildrun_outfitA.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="hyl_girloutfitB">
+      <props>
+	    <prop actor="props/units/hair/hylian_hairF_childrun.xml" attachpoint="root"/>	
+        <prop actor="units/hylian/hyl_Fchildrun_outfitB.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="hyl_girloutfitC">
+      <props>
+	    <prop actor="props/units/hair/hylian_hairF_childrun.xml" attachpoint="root"/>	
+        <prop actor="units/hylian/hyl_Fchildrun_outfitC.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>  
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_kokiri/base_HC_biped_death.xml">
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>
