@@ -1,0 +1,19 @@
+{
+	"genericName": "Deku Backpacks",
+	"description": "These large but light backpacks are favored by the laborers of the Kokiri. Everything from resources to building supplies can be easily stored and transported in packs.",
+	"cost": {"food": 0, "wood": 400, "stone": 0, "metal": 0},
+	"supersedes": "kokiri/gather_capacity_belt",
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "kokiri"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "kokiri/gather_capacity_backpack.dds",
+	"researchTime": 40,
+	"tooltip": "+4 Resource Capacity - Worker",
+	"modifications": [
+		{"value": "ResourceGatherer/Capacities/food", "add": 4},
+		{"value": "ResourceGatherer/Capacities/wood", "add": 4},
+		{"value": "ResourceGatherer/Capacities/stone", "add": 4},
+		{"value": "ResourceGatherer/Capacities/metal", "add": 4}
+	],
+	"affects": ["FemaleCitizen"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

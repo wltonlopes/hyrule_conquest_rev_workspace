@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/gerudo/ger_witchspiritA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/gerudo/medium/ger_witchspiritA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/gerudo/low/ger_witchspiritA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant>
+        <animations>
+          <animation file="HC_witchspirit/witchspirit_idle.dae" name="Idle" speed="100"/>
+        </animations>
+        <props>
+          <prop actor="particle/gerudo_spiritwitch.xml" attachpoint="sp_01"/>
+        </props>
+        <textures>
+          <texture file="structural/gerudo/gerudo_spiritA.dds" name="baseTex"/>
+          <texture file="structural/gerudo/gerudo_spiritA.dds" name="normTex"/>
+        </textures>
+      </variant>
+    </group>
+    <material>basic_trans.xml</material>
+  </inline>
+</qualitylevels>
+

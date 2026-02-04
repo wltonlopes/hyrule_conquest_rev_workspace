@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_fairy_mediumA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Waters of Heaven</SpecificName>
+    <History>Legend has it that these magical waterfalls will grant wishes to anyone who offers enough of a material sacrifice to its waters. Travellers seek them out to offer money and other doodads in hopes of receiving something in return from the Fairies who lord over.</History>
+    <Icon>structures/fairy/fai_waterheaven_spring.dds</Icon>
+    <Tooltip>Improves various Fairy units.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="35.0" width="35.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/fairy/complete_waterheaven.xml</constructed>
+      <select>interface/select/building/fairy/sel_waterheaven.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Vision>
+    <Range>32</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_waterheavenA_spring.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_spring.xml</FoundationActor>
+  </VisualActor>
+</Entity>

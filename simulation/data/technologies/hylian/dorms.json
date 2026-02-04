@@ -1,0 +1,16 @@
+{
+	"genericName": "Dorms",
+	"description": "Barracks and Ranges can be expanded with dorm rooms, increasing the amount of soldiers able to be trained, and slighty speeding up the recruitment process.",
+	"cost": {"food": 0, "wood": 200, "stone": 300, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "hylian/academy_dorms.dds",
+	"researchTime": 40,
+	"tooltip": "+5 population provided by Barracks and Ranges, and -10% batch train time.",
+	"modifications": [
+				{"value": "Population/Bonus", "add": 5},
+				{"value": "Trainer/BatchTimeModifier", "multiply": 0.9}
+			 ],
+	"affects": ["Barracks", "Range"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

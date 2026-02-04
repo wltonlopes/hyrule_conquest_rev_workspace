@@ -59,8 +59,11 @@ Visibility.prototype.Init = function()
 };
 
 //HC-code methods related to stealth
-Visibility.prototype.InitStealth = function ()
+//Stealth mostly works, however stealthed units are still visible by the enemy (need to fix that somehow).
+Visibility.prototype.InitStealth = function ()  //Visibility problem is most likely in here.
 {
+    this.stealthed = this.template.Stealth == "true";
+    this.camouflaged = this.template.Camouflage == "true";
     let stealthTemp = this.template.Stealth;
     let camouflageTemp = this.template.Camouflage;
     if (this.corpse == false && this.preview == false) {
@@ -80,27 +83,26 @@ Visibility.prototype.InitStealth = function ()
                 this.CamoActivateDelay = +camouflageTemp.ActivateDelay;
             }
 
-            // abbreviated version of SetStealthState because we dont want to interact with 'IsIdle' at initialization
+            // abbreviated version of SetStealthState because we don't want to interact with 'IsIdle' at initialization
             let cmpUnitAI = Engine.QueryInterface(this.entity, IID_UnitAI);
             if (cmpUnitAI == undefined) // in the case this unit has been deleted, return 
                 return;
 
             this.stealthed = true;
-            this.SetActivated(true); //turn the custom script function on
 
             // Reset status bars for this entity
             let cmpStatusBars = Engine.QueryInterface(this.entity, IID_StatusBars);
             cmpStatusBars.RegenerateSprites();
         }
     }
-
-    if (this.template.CanSpotStealth && this.corpse == false && this.preview == false) {
-        this.minSpotRange = +this.template.CanSpotStealth.MinRange;
-        this.maxSpotRange = +this.template.CanSpotStealth.MaxRange;
-        let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
-        cmpTimer.SetInterval(this.entity, IID_Visibility, "SpotEnemyUnits", 400, 400); // Attempt to spot stealthed enemy units twice a second
-        this.spottedEntities = new Map();
-    }
+    //This code makes units be revealed at init, don't uncomment it unless needed for CanSpotStealth.
+    //if (this.template.CanSpotStealth && this.corpse == false && this.preview == false) {
+        //this.minSpotRange = +this.template.CanSpotStealth.MinRange;
+        //this.maxSpotRange = +this.template.CanSpotStealth.MaxRange;
+        //let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
+        //cmpTimer.SetInterval(this.entity, IID_Visibility, "SpotEnemyUnits", 400, 400); // Attempt to spot stealthed enemy units twice a second
+        //this.spottedEntities = new Map();
+    //}
 }
 
 Visibility.prototype.CanSetNewStealthTimer = function (cmpTimer, newState)
@@ -141,18 +143,18 @@ Visibility.prototype.SetStealthState = function (status)
     if (cmpUnitAI == undefined) // in the case this unit has been deleted, return 
         return;
 
-    if (cmpUnitAI.IsIdle() == true) // if this entity is not idle, there is no need for a reset walk and it would intervene with the current command as well
-    {
+    //This code was causing the every/other way that camouflage worked, keep it commented.
+    //if (cmpUnitAI.IsIdle() == true) // if this entity is not idle, there is no need for a reset walk and it would intervene with the current command as well.
+    //{
         // Stationary/Idle units are not updated visually by the GetVisibility method, so use a reset walk
-        cmpUnitAI.ignoreIdleCall = true; // this walk order should not update the idle status of this entity
-        let cmpPos = Engine.QueryInterface(this.entity, IID_Position);
-        if (cmpPos.IsInWorld()) {
-            let pos = cmpPos.GetPosition2D();
-            Engine.QueryInterface(this.entity, IID_UnitAI).Walk(pos.x + 0.00001, pos.y + 0.00001, false);
-        }
-    }
+        //cmpUnitAI.ignoreIdleCall = true; // this walk order should not update the idle status of this entity
+        //let cmpPos = Engine.QueryInterface(this.entity, IID_Position);
+        //if (cmpPos.IsInWorld()) {
+            //let pos = cmpPos.GetPosition2D();
+            //Engine.QueryInterface(this.entity, IID_UnitAI).Walk(pos.x + 0.00001, pos.y + 0.00001, false);
+        //}
+    //}
     this.stealthed = status;
-    this.SetActivated(status); //turn the custom script function on
 
     // Reset status bars for this entity
     let cmpStatusBars = Engine.QueryInterface(this.entity, IID_StatusBars);
@@ -185,7 +187,7 @@ Visibility.prototype.OnUnitIdleChanged = function (msg) {
         return;
 
     let cmpTimer = Engine.QueryInterface(SYSTEM_ENTITY, IID_Timer);
-    if (this.CanSetNewStealthTimer(cmpTimer, msg.idle) == false) // Can't reset timer, dont set a new one yet
+    if (this.CanSetNewStealthTimer(cmpTimer, msg.idle) == false) // Can't reset timer, don't set a new one yet
         return;
 
     // if this camouflage unit just became idle, set stealth to true with the provided delay
@@ -198,74 +200,73 @@ Visibility.prototype.OnUnitIdleChanged = function (msg) {
     }
     else // if this camouflage unit is no longer idle, set stealth to false with the provided delay
     {
-        this.stealthTimerState = false; // the upcoming state will be false
             this.SetStealthState(false);
 	    return;
     }
 };
-
-Visibility.prototype.SpotEnemyUnits = function () {
+//This is the SpotEnemyUnits stuff, leave commented for now.
+//Visibility.prototype.SpotEnemyUnits = function () {
     //set the previously spotted units to not be spotted at the start of the check
-    for (let CmpVisibility of this.spottedEntities.values())
-        CmpVisibility.isSpotted = false;
+    //for (let CmpVisibility of this.spottedEntities.values())
+        //CmpVisibility.isSpotted = false;
 
-    let cmpRangeManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager);
-    let cmpPlayer = QueryOwnerInterface(this.entity);
-    if (!cmpPlayer)
-        return;
+    //let cmpRangeManager = Engine.QueryInterface(SYSTEM_ENTITY, IID_RangeManager);
+    //let cmpPlayer = QueryOwnerInterface(this.entity);
+    //if (!cmpPlayer)
+        //return;
 
-    let enemyPlayers = cmpPlayer.GetEnemies(); // only check for enemy units
+    //let enemyPlayers = cmpPlayer.GetEnemies(); // only check for enemy units
 
     // get the nearby enemy entities within the specified range
-    let nearbyEnemies = cmpRangeManager.ExecuteQuery(this.entity, this.minSpotRange, this.maxSpotRange, enemyPlayers, IID_Resistance);
-    for (let ent of nearbyEnemies) {
-        let cmpVisibility = this.spottedEntities.get(ent);
-        if (cmpVisibility != undefined) // if this found entity is already spotted, 
-        {
-            cmpVisibility.isSpotted = true; //set to true to nullify the check and continue
-            continue;
-        }
+    //let nearbyEnemies = cmpRangeManager.ExecuteQuery(this.entity, this.minSpotRange, this.maxSpotRange, enemyPlayers, IID_Resistance);
+    //for (let ent of nearbyEnemies) {
+        //let cmpVisibility = this.spottedEntities.get(ent);
+        //if (cmpVisibility != undefined) // if this found entity is already spotted, 
+        //{
+            //cmpVisibility.isSpotted = true; //set to true to nullify the check and continue
+            //continue;
+        //}
 
-        cmpVisibility = Engine.QueryInterface(ent, IID_Visibility);
-        if (cmpVisibility.hasStealth == true && Engine.QueryInterface(this.entity, IID_Resistance).IsInvulnerable() == false) // if not spotted yet, check if it has stealth first
-        {
-            this.spottedEntities.set(ent, cmpVisibility); // if so, add to spotted list
+        //cmpVisibility = Engine.QueryInterface(ent, IID_Visibility);
+        //if (cmpVisibility.hasStealth == true && Engine.QueryInterface(this.entity, IID_Resistance).IsInvulnerable() == false) // if not spotted yet, check if it has stealth first
+        //{
+            //this.spottedEntities.set(ent, cmpVisibility); // if so, add to spotted list
 
-            if (cmpPlayer.allSpottedEntities[ent] == undefined) // if not present yet, 
-                cmpPlayer.allSpottedEntities[ent] = []; // also add this to the global spotted list
+            //if (cmpPlayer.allSpottedEntities[ent] == undefined) // if not present yet, 
+                //cmpPlayer.allSpottedEntities[ent] = []; // also add this to the global spotted list
 
-            cmpPlayer.allSpottedEntities[ent].push(this.entity); // this [ent] has been spotted by this spotter AKA "this.entity"
-            cmpVisibility.SetStealthState(false); // set its current stealth state to false
-            cmpVisibility.isSpotted = true; // let this entity know it was spotted, otherwise it will instantly reset in the code below
+            //cmpPlayer.allSpottedEntities[ent].push(this.entity); // this [ent] has been spotted by this spotter AKA "this.entity"
+            //cmpVisibility.SetStealthState(false); // set its current stealth state to false
+            //cmpVisibility.isSpotted = true; // let this entity know it was spotted, otherwise it will instantly reset in the code below
             ////error(this.entity + " set unit as spotted " + ent);
-        }
-    }
+        //}
+    //}
 
-    // any entities that were previously spotted, but werent found by the spotters query in this iteration
-    for (let key of this.spottedEntities.keys()) {
-        let cmpVisibility = this.spottedEntities.get(key);
-        if (cmpVisibility.isSpotted == false) {
-            let entitySpotters = cmpPlayer.allSpottedEntities;
-            let length = entitySpotters[key].length; // the number of spotters that have spotted this particular entity
-            for (let i = 0; i < length; i++) {
-                if (entitySpotters[key][i] == this.entity) // find this spotter among the list of spotters that have previously seen this entity
-                {
-                    entitySpotters[key].splice(i, 1);
+    // any entities that were previously spotted, but weren't found by the spotters query in this iteration
+    //for (let key of this.spottedEntities.keys()) {
+        //let cmpVisibility = this.spottedEntities.get(key);
+        //if (cmpVisibility.isSpotted == false) {
+            //let entitySpotters = cmpPlayer.allSpottedEntities;
+            //let length = entitySpotters[key].length; // the number of spotters that have spotted this particular entity
+            //for (let i = 0; i < length; i++) {
+                //if (entitySpotters[key][i] == this.entity) // find this spotter among the list of spotters that have previously seen this entity
+                //{
+                    //entitySpotters[key].splice(i, 1);
                     ////error(this.entity + " lost spotted unit " + key);
-                    break;
-                }
-            }
-            this.spottedEntities.delete(key); // this spotter has lost this particular entity
+                    //break;
+                //}
+            //}
+            //this.spottedEntities.delete(key); // this spotter has lost this particular entity
 
             // If this unit is no longer being spotted by anything globally, delete it from the global list and set stealthed back to true
-            if (length < 2) {
-                cmpVisibility.SetStealthState(true);
-                delete entitySpotters[key];
+            //if (length < 2) {
+                //cmpVisibility.SetStealthState(true);
+                //delete entitySpotters[key];
                 ////error(this.entity + " reset spotted unit " + key);
-            }
-        }
-    }
-}
+            //}
+        //}
+    //}
+//}
 //HC-end End of the HC related Stealth methods
 
 

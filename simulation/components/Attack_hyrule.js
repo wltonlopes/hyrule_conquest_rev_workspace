@@ -56,4 +56,41 @@ Attack.prototype.GetStun = function (type, isSplash)
     }
 
     return null;
+}
+Attack.prototype.GetEntityOnImpact = function (type) {
+    if (this.template[type].SpawnEntityOnImpact)
+    {
+        let numberMin = ApplyValueModificationsToEntity("Attack/"+ type +"/SpawnEntityOnImpact/SpawnNumberMin", +this.template[type].SpawnEntityOnImpact.SpawnNumberMin, this.entity);
+        let numberMax = ApplyValueModificationsToEntity("Attack/"+ type +"/SpawnEntityOnImpact/SpawnNumberMax", +this.template[type].SpawnEntityOnImpact.SpawnNumberMax, this.entity);
+        let object =
+        {
+            "template": this.template[type].SpawnEntityOnImpact.Template,
+            "spawnNumberMin": numberMin,
+            "spawnNumberMax": numberMax
+        };
+
+        let ownerID = this.template[type].SpawnEntityOnImpact.OwnerID;
+        if (ownerID != undefined)
+            object.ownerID = ownerID;
+
+        if (this.template[type].SpawnEntityOnImpact.SpawnOnHit)
+        {
+            object["spawnOnHit"] = {};
+
+            let chance = ApplyValueModificationsToEntity("Attack/"+ type +"/SpawnEntityOnImpact/SpawnOnHit/Chance", +this.template[type].SpawnEntityOnImpact.SpawnOnHit.Chance, this.entity);
+            object["spawnOnHit"].chance = chance;
+            object["spawnOnHit"].spawnAtTarget = this.template[type].SpawnEntityOnImpact.SpawnOnHit.SpawnAtTarget != "false";
+        }
+
+        if (this.template[type].SpawnEntityOnImpact.SpawnOnImpact)
+        {
+            object["spawnOnImpact"] = {};
+            let chance = ApplyValueModificationsToEntity("Attack/"+ type +"/SpawnEntityOnImpact/SpawnOnHit/Chance", +this.template[type].SpawnEntityOnImpact.SpawnOnImpact.Chance, this.entity);
+            object["spawnOnImpact"].chance = chance;
+        }
+
+        return object;
+    }
+    else
+        return false;
 };

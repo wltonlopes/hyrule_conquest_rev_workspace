@@ -1,0 +1,13 @@
+{
+	"genericName": "Telescopes",
+	"description": "Many towers have made use of telescopes to allow them to see farther than normal.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 100, "rupees": 250},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "labrynna/ralph_sharpshooting.dds",
+	"researchTime": 40,
+	"tooltip": "Increases the Vision range of all Towers and Fortresses by 50%)",
+	"modifications": [{"value": "Vision/Range", "multiply": 1.5}],
+	"affects": ["Tower", "Fortress"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

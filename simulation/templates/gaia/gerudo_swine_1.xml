@@ -1,0 +1,41 @@
+<Entity parent="template_unit_fauna_herd_domestic">
+  <Footprint>
+    <Height>1.5</Height>
+    <Square depth="2.8" width="1.4" />
+  </Footprint>
+  <Identity>
+    <Civ>gaia</Civ>
+    <History>Lifeblood of the Gerudo people in the infertile desert, these hardy pigs are easy to raise and maintain, being able to subside on the meager vegetable scraps grown in the desert soil.</History>
+    <Icon>gaia/fauna_gerudoswine.dds</Icon>
+    <SpecificName>Gerudo Swine</SpecificName>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Health>
+    <Max>25</Max>
+  </Health>
+  <ResourceSupply replace="">
+    <Max>200</Max>
+    <KillBeforeGather>true</KillBeforeGather>
+    <MaxGatherers>1</MaxGatherers>
+    <Type>food.meat</Type>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <death>actor/fauna/animal/pig.xml</death>
+      <order_walk>actor/fauna/animal/pig.xml</order_walk>
+      <select>actor/fauna/animal/pig.xml</select>
+      <trained>actor/fauna/animal/pig.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>5.0</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed>8.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/gerudo/gerudo_swine_b.xml</Actor>
+  </VisualActor>
+</Entity>

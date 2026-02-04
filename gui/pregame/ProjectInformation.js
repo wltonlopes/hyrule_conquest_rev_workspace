@@ -15,7 +15,7 @@ var g_ProjectInformation = {
 		"caption": getBuildString()
 	},
 	"productDescription": {
-		"caption": setStringTags(translate("Alpha VII: Goro"), { "font": "sans-bold-16" }) + "\n\n" +
+		"caption": setStringTags(translate("Alpha XI: Ganondorf"), { "font": "sans-bold-16" }) + "\n\n" +
 			translate("Notice: This mod is under development and their may be errors. Play at your own risk!")
 	}
 };

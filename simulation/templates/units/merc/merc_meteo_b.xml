@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_archer">
   <Attack>
-    <Ranged>
+    <Ranged replace="">
       <AttackName>Meteor</AttackName>
+      <ApplyStatus>
+        <Burning>
+          <Interval>1000</Interval>
+          <Damage>
+            <Fire>3</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+        </Burning>
+      </ApplyStatus>
       <Damage>
         <Fire>20.0</Fire>
       </Damage>
       <EffectDelay>0</EffectDelay>
-      <MaxRange>100</MaxRange>
+      <MaxRange>90</MaxRange>
       <MinRange>25.0</MinRange>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
       <PrepareTime>1700</PrepareTime>
@@ -23,9 +33,9 @@
       <RepeatTime>2000</RepeatTime>
       <Splash>
         <Damage>
-          <Fire>20.0</Fire>
+          <Fire>5.0</Fire>
         </Damage>
-        <FriendlyFire>false</FriendlyFire>
+        <FriendlyFire>true</FriendlyFire>
         <Range>5</Range>
         <Shape>Circular</Shape>
       </Splash>
@@ -33,11 +43,13 @@
   </Attack>
   <Cost>
     <BuildTime>14</BuildTime>
+    <Population>0</Population>
     <Resources>
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>300</metal>
+      <metal>0</metal>
+      <rupees>250</rupees>
     </Resources>
   </Cost>
   <Health>
@@ -50,6 +62,9 @@
     <Icon>units/merc/merc_meteo.dds</Icon>
     <Tooltip>Hovering Mage unit that hurls flaming rocks at their targets.</Tooltip>
     <VisibleClasses datatype="tokens">Merc Mage</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

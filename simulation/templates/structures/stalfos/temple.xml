@@ -20,7 +20,6 @@
     <SpecificName>Dark Reliquary</SpecificName>
     <Icon>structures/stalfos/sta_darkreliquary.dds</Icon>
     <Tooltip>Religious building that increases the spread of your territory.</Tooltip>
-    <VisibleClasses datatype="tokens">-Town Village</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">-phase_town phase_village</Techs>
     </Requirements>

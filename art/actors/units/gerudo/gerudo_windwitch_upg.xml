@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/gerudo/ger_windwitchA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/gerudo/medium/ger_windwitchA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/gerudo/low/ger_windwitchA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_windwitch/base_HC_windwitch.xml">
+        <props>
+          <prop actor="particle/gerudo_witchnado.xml" attachpoint="root"/>
+          <prop actor="props/units/weapons/gerudo_witchspirit.xml" attachpoint="root"/>
+          <prop actor="props/units/weapons/gerudo_windburstA_shoot.xml" attachpoint="projectile"/>
+        </props>
+        <textures>
+          <texture file="skeletal/gerudo/ger_windwitchA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="100" name="Idle"/>
+      <variant name="Attack_Ranged">
+        <props>
+          <prop actor="particle/gerudo_witchnadoB.xml" attachpoint="root"/>
+          <prop actor="props/units/weapons/gerudo_witchspirit.xml" attachpoint="root"/>
+        </props>
+      </variant>
+      <variant name="Death">
+        <props>
+          <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+          <prop actor="particle/gerudo_spirit_death.xml" attachpoint="root"/>
+          <prop actor="particle/destruction_spirit_med.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_windwitch/base_HC_windwitch_att.xml"/>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

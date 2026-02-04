@@ -162,7 +162,7 @@ HYRULE.AttackManager.prototype.assignBombers = function(gameState)
 		}
 	}
 
-	const bombers = gameState.updatingCollection("bombers", API3.Filters.byClasses(["BoltShooter", "StoneThrower", "Mage+Fire"]), gameState.getOwnUnits());
+	const bombers = gameState.updatingCollection("bombers", API3.Filters.byClasses(["BoltShooter", "StoneThrower", "Mage", "Fire"]), gameState.getOwnUnits());
 	for (let ent of bombers.values())
 	{
 		if (!ent.position() || !ent.isIdle() || !ent.attackRange("Ranged"))

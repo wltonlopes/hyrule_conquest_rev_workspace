@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/house">
+  <Identity>
+    <SpecificName>Manor</SpecificName>
+    <History>The number of fancy Manors in Labrynna has grown since the beginning the campaign of conquest. Citizens of the Empire enjoy a higher quality of living from the spoilers of the conquered.</History>
+    <Icon>structures/labrynna/lab_houseB.dds</Icon>
+  </Identity>
+  <Population>
+    <Bonus>10</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+      labrynna/higher_living
+    </Technologies>
+  </Researcher>
+  <Upgrade replace="">
+    <Steam>
+      <Cost>
+        <metal>50</metal>
+      </Cost>
+      <Entity>structures/labrynna/house_3</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Upgrade the Manor with Steam Machinery.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Steam>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_houseB.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>

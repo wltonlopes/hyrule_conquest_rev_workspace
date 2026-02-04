@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>gerudo</Civ>
+    <GenericName>Gerudo</GenericName>
+    <History>A desert-dwelling race of female warriors, the Gerudo are descended from an ancient and powerful empire that stretched across the western sands of Hyrule for countless centuries. Surrounded on all sides by hostile nations, scarce resources, and a curse that wipes out all the men of their race, the Gerudo have suffered a continuous barrage of brutal hardships, setbacks, and wars without abandon.</History>
+    <Icon>emblems/emblem_gerudo.dds</Icon>
+  </Identity>
+</Entity>

@@ -1,6 +1,6 @@
 {
 	"Code": "kokiri",
-	"Culture": "kokiri",
+	"Culture": "naturalistic",
 	"Music":
 	[
 		{"File": "kokiri_theme1.ogg", "Type": "peace"},
@@ -160,6 +160,9 @@
 		"skirmish/units/default_support_female_citizen": "units/kokiri/support_female_citizen",
 		"skirmish/units/default_infantry_melee_b": "units/kokiri/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/kokiri/infantry_archer_b",
+		"skirmish/units/default_champion_melee": "units/kokiri/kokiri_grovewatch_b",
+		"skirmish/units/default_champion_ranged": "units/kokiri/kokiri_emarcher_b",
+		"skirmish/units/default_hero": "units/kokiri/kokiri_hero_saria",
 		"skirmish/units/default_ship_arrow": "units/kokiri/kokiri_wanderer_b",
 		"skirmish/units/default_ship_scout": "units/kokiri/kokiri_wanderer_b",
 		"skirmish/units/default_siege_ram": "units/kokiri/kokiri_logram_b",

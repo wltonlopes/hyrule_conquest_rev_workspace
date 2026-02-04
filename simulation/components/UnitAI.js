@@ -123,14 +123,14 @@ var g_Stances = {
 		"selectable": true
 	},
 	"standground": {
-		"targetVisibleEnemies": true,
-		"targetAttackersAlways": false,
+		"targetVisibleEnemies": false,
+		"targetAttackersAlways": true,
 		"respondFlee": false,
 		"respondFleeOnSight": false,
 		"respondChase": false,
 		"respondChaseBeyondVision": false,
-		"respondStandGround": true,
-		"respondHoldGround": false,
+		"respondStandGround": false,
+		"respondHoldGround": true,
 		"selectable": true
 	},
 	"skittish": {
@@ -1019,8 +1019,10 @@ UnitAI.prototype.UnitFsmSpec = {
 				let cmpFormation = Engine.QueryInterface(this.entity, IID_Formation);
 				if (!cmpFormation)
 					return;
-
-				if (this.TestAllMemberFunction("IsIdle"))
+					
+				//HC-code, vanilla version interferes with the Idle code, breaking camouflage
+				let cmpVisibility = Engine.QueryInterface(cmpFormation.members[0], IID_Visibility);
+				if (cmpVisibility && cmpVisibility.hasStealth == true)
 					cmpFormation.MoveMembersIntoFormation(false, false);
 			},
 
@@ -1651,6 +1653,8 @@ UnitAI.prototype.UnitFsmSpec = {
 
 				if (this.isIdle)
 				{
+                    		//HC-code
+                    		//Stealthed walk orders should be ignored by the UnitIdleChange
 					if (this.IsFormationMember())
 					    Engine.QueryInterface(this.formationController, IID_Formation).UnsetIdleEntity(this.entity);
 					
@@ -1659,6 +1663,7 @@ UnitAI.prototype.UnitFsmSpec = {
 				}
                    		else
                         	    this.ignoreIdleCall = false;
+                    		//HC-end
 			},
 
 			"Attacked": function(msg) {

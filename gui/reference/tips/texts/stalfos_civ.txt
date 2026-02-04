@@ -1,6 +1,3 @@
 Stalfos
-Very, very cheap, but also much weaker and slower than other races
-Cost mostly food and metal, with the occaisonal stone or wood.
-Almost only infantry units, with some creatures and a tiny bit of cavalry.
-All Stal units can walk under water, while all Poe units can fly over any terrain.
-Perform best with horde tactics: training hundreds of troops to overwhelm the enemy with numbers.
+The creation of horrifying magic that was outlawed and sealed away in Hyrule’s ancient past, the Stalfos are a vast, ever growing army of animated corpses. Headed by a collection of warring and elite Necromancers, the modern incarnation of Hyrule’s undead seek to fill it's ranks with mindless followers and to establish a kingdom of immortality that can stand against the other forces of Hyrule.
+While incredibly easy to raise, Stalfos tend to be fragile, easily knocked over and destroyed. To counter this, their masters raise them in hordes, to overwhelm the enemy through sheer numbers.

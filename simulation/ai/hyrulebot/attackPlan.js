@@ -124,6 +124,8 @@ HYRULE.AttackPlan = function(gameState, Config, uniqueID, type = HYRULE.AttackPl
 			"interests": [["strength", 1]] };
 		this.unitStat.Creature = { "priority": 1, "minSize": 0, "targetSize": 5, "batchSize": 5, "classes": ["Creature"],
 			"interests": [["strength", 1]] };
+		this.unitStat.Commander = { "priority": 1, "minSize": 0, "targetSize": 1, "batchSize": 1, "classes": ["Commander"],
+			"interests": [["strength", 1]] };
 		if (data && data.targetSize)
 			this.unitStat.Infantry.targetSize = data.targetSize;
 		this.neededShips = 1;
@@ -138,6 +140,8 @@ HYRULE.AttackPlan = function(gameState, Config, uniqueID, type = HYRULE.AttackPl
 		this.unitStat.Cavalry = { "priority": 1, "minSize": 5, "targetSize": 15, "batchSize": 5, "classes": ["Cavalry"],
 			"interests": [ ["strength", 1] ] };
 		this.unitStat.Creature = { "priority": 1, "minSize": 0, "targetSize": 5, "batchSize": 5, "classes": ["Creature"],
+			"interests": [["strength", 1]] };
+		this.unitStat.Commander = { "priority": 1, "minSize": 0, "targetSize": 1, "batchSize": 1, "classes": ["Commander"],
 			"interests": [["strength", 1]] };
 		this.neededShips = 3;
 	}
@@ -163,10 +167,12 @@ HYRULE.AttackPlan = function(gameState, Config, uniqueID, type = HYRULE.AttackPl
 			"interests": [["strength", 2]] };
 		this.unitStat.Creature = { "priority": 1, "minSize": 5, "targetSize": 15, "batchSize": 5, "classes": ["Creature"],
 			"interests": [["strength", 1]] };
+		this.unitStat.Commander = { "priority": 1, "minSize": 0, "targetSize": 2, "batchSize": 1, "classes": ["Commander"],
+			"interests": [["strength", 1]] };
 		this.unitStat.Hero = { "priority": 1, "minSize": 0, "targetSize": 1, "batchSize": 1, "classes": ["Hero"],
-			"interests": [["strength", 2]] };
+			"interests": [["strength", 3]] };
 		this.unitStat.Titan = { "priority": 1, "minSize": 0, "targetSize": 1, "batchSize": 1, "classes": ["Titan"],
-			"interests": [["strength", 2]] };
+			"interests": [["strength", 3]] };
 		this.neededShips = 5;
 	}
 	else

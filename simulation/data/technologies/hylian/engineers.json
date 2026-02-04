@@ -1,0 +1,16 @@
+{
+	"genericName": "Engineers",
+	"description": "Engineers are very useful when building fortresses and castles, pointing out design flaws and structural errors.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
+	"supersedes": "hylian/blueprints",
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/hyl_meticulations.dds",
+	"researchTime": 40,
+	"tooltip": "Buildings have 25% more health.",
+	"modifications": [
+				{"value": "Health/Max", "multiply": 1.25}
+			 ],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

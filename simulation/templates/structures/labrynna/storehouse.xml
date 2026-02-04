@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Footprint replace="">
+    <Circle radius="15.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_labrynna_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <Classes datatype="tokens">DropsiteFood</Classes>
+    <SpecificName>Dropoff Site</SpecificName>
+    <History>A small storehouse for Labrynna to build up their gathered resources.</History>
+    <Icon>structures/labrynna/lab_storehouseA.dds</Icon>
+    <VisibleClasses datatype="tokens">Farmstead</VisibleClasses>
+    <Tooltip>A drop-off site for collected resources.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="15.0" depth="15.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+      labrynna/gather_slaveroutine
+    </Technologies>
+  </Researcher>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <Upgrade>
+    <Storage>
+      <Cost>
+        <wood>50</wood>
+        <stone>50</stone>
+      </Cost>
+      <Entity>structures/labrynna/storehouse_2</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Upgrade the Dropoff Site into Storage.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Storage>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_storehouseA.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>

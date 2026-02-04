@@ -14,16 +14,19 @@
     <AlertnessMax>8</AlertnessMax>
   </BattleDetection>
   <Diplomacy>
-    <SharedLosTech>unlock_shared_los</SharedLosTech>
+    <SharedLosTech>culture_civilized/unlock_shared_los</SharedLosTech>
     <SharedDropsitesTech>unlock_shared_dropsites</SharedDropsitesTech>
   </Diplomacy>
   <EntityLimits>
     <Limits>
       <Animal>50</Animal>
+      <Chute>0</Chute>
       <CivilCentre>1</CivilCentre>
+      <MinorCentre>2</MinorCentre>
       <Gladiator>0</Gladiator>
       <Hawk>0</Hawk>
       <Hero>3</Hero>
+      <NPCHero>2</NPCHero>
       <Juggernaut>1</Juggernaut>
       <Kennel>2</Kennel>
       <Library>1</Library>
@@ -46,6 +49,9 @@
       <Hawk>
         <Tower>1</Tower>
       </Hawk>
+      <Chute>
+        <HeavyStorage>12</HeavyStorage>
+      </Chute>
       <Gladiator>
         <Amphitheater>15</Amphitheater>
       </Gladiator>
@@ -76,12 +82,14 @@
         <wood>1.0</wood>
         <stone>1.0</stone>
         <metal>1.0</metal>
+        <rupees>1.2</rupees>
       </Buy>
       <Sell>
         <food>1.0</food>
         <wood>1.0</wood>
         <stone>1.0</stone>
         <metal>1.0</metal>
+        <rupees>1.2</rupees>
       </Sell>
     </BarterMultiplier>
     <SpyCostMultiplier>1.0</SpyCostMultiplier>
@@ -108,6 +116,7 @@
       <wood>0.0</wood>
       <stone>0.0</stone>
       <metal>0.0</metal>
+      <rupees>0.0</rupees>
     </Rates>
     <Interval>1000</Interval>
   </ResourceTrickle>

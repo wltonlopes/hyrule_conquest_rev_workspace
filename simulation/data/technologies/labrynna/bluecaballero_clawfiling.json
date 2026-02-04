@@ -1,0 +1,19 @@
+{
+	"genericName": "Claw Filing",
+	"description": "Labrynnian Blue Bears already have razor charp claws to maul faces off, they become even more deadly after their claws are filed into razor blades.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 200},
+	"requirements": {"all": [
+				{"tech": "phase_city"},
+				{"civ": "labrynna"}
+				]
+			},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "labrynna/bluecaballero_clawfiling.dds",
+	"researchTime": 40,
+	"tooltip": "Mauler damage increased by 20%",
+	"modifications": [
+		{"value": "Attack/Melee/Damage/Pierce", "multiply": 1.20}
+	],
+  	"affects": [ "Mauler" ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

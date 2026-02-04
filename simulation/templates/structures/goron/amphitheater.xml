@@ -31,7 +31,7 @@
     <Entities datatype="tokens">
       units/goron/goron_sumo_b
       units/goron/goron_ram_b
-      units/goron/goron_giant_b
+      units/goron/goron_giant_melee
       units/goron/goron_shieldbreaker_b
       units/goron/goron_hero_gorcoron
       units/goron/goron_hero_dangoro

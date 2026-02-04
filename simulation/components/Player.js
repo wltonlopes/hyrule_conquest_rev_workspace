@@ -47,7 +47,7 @@ Player.prototype.Deserialize = function(state)
 /**
  * Which units will be shown with special icons at the top.
  */
-var panelEntityClasses = "Hero Relic Titan";
+var panelEntityClasses = "Hero Relic Titan NPCHero";
 
 Player.prototype.Init = function()
 {
@@ -525,7 +525,6 @@ Player.prototype.SetState = function(newState, message)
 		"message": message
 	});
 };
-
 Player.prototype.GetFormations = function()
 {
 	return this.formations;
@@ -575,7 +574,6 @@ Player.prototype.IsAI = function()
 {
 	return this.isAI;
 };
-
 /**
  * Do some map dependant initializations
  */

@@ -1,0 +1,13 @@
+{
+	"type": "global",
+	"affects": ["Wonder"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.5 },
+		{ "value": "Cost/Resources/food", "multiply": 0.5 },
+		{ "value": "Cost/Resources/wood", "multiply": 0.5 },
+		{ "value": "Cost/Resources/stone", "multiply": 0.5 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.5 }
+	],
+	"auraName": "Architect of the Temple of Time",
+	"auraDescription": "The Temple of Time costs 50% less and takes 50% less time to build."
+}

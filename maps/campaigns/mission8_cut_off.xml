@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="5.49779"/>
+		<AmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.898039"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.3" g="0.35" b="0.7"/>
+				<Tint r="0.28" g="0.3" b="0.59"/>
+				<Height>5</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="867.47" y="404.617" z="905.411"/>
+		<Rotation angle="-2.64132"/>
+		<Declination angle="0.610863"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "We have been cut off from the others by a avalanche. We need to find an alternate route, before the monsters that dwell in this region find us.",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Mission 8: Cut Off!",
+  "PlayerData": [
+    {
+      "Civ": "labrynna",
+      "Color": {
+        "b": 7,
+        "g": 2,
+        "r": 251
+      },
+      "Resources": {
+        "food": 0,
+        "metal": 0,
+        "stone": 0,
+        "wood": 0
+      }
+    }
+  ],
+  "Preview": "",
+  "RevealMap": false,
+  "TriggerScripts": [
+    "scripts/TriggerHelper.js",
+    "scripts/Tutorial.js",
+    "campaigns/mission8_cut_off.js"
+  ],
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="12">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="885.29908" z="304.53501"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6268"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="861.8603" z="292.5279"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2834"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="868.7895" z="361.35477"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20456"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="804.4449" z="352.6251"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65030"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="796.82715" z="468.22394"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2928"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="810.5514" z="519.12696"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5638"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="798.53376" z="471.7002"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65497"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="761.80433" z="590.98926"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60409"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="739.31073" z="705.77576"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48605"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="807.14997" z="716.1103"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41414"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="822.7151" z="875.0481"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48833"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="638.59498" z="699.54584"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1480"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="530.21778" z="701.90461"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51206"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="389.56891" z="711.82361"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4148"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="322.0351" z="658.35975"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58090"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="248.98685" z="609.53711"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38544"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="216.70508" z="539.09076"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23815"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="251.71332" z="346.75971"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20467"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="336.42438" z="333.52234"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37913"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="424.06568" z="258.1153"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62319"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="565.47297" z="270.96811"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1561"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="592.06489" z="267.08335"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17542"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="761.01551" z="297.28458"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40841"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="356.491" z="115.80501"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60827"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="498.86896" z="49.90815"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3753"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="695.24067" z="100.32357"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30272"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="717.67109" z="144.4199"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30272"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="498.47693" z="66.88485"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30294"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="305.99842" z="118.63701"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48678"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="266.61777" z="152.07374"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48678"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="193.5337" z="191.09647"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1007"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="119.13573" z="273.33661"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1007"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="102.14574" z="344.72614"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24485"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="84.47579" z="465.27857"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16891"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="181.75287" z="659.98664"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38145"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="243.5923" z="726.1056"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54796"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="278.2995" z="779.3307"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26467"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="407.52814" z="894.70014"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="117"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="439.50358" z="819.60724"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18597"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="607.10315" z="863.74286"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5125"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="571.12085" z="857.75446"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5125"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="910.88025" z="736.73084"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31034"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="947.5923" z="649.92804"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22559"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="994.97443" z="567.75776"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22559"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="961.80799" z="550.71998"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2629"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="630.17536" z="546.11133"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55501"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="654.81043" z="497.36579"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55501"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="651.70868" z="461.23041"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55501"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="669.40064" z="450.32697"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23047"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="554.49634" z="462.69013"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8091"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="473.22925" z="562.83082"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8091"/>
+		</Entity>
+		<Entity uid="63">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="475.30308" z="516.97706"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32638"/>
+		</Entity>
+		<Entity uid="64">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="394.87653" z="554.09302"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32638"/>
+		</Entity>
+		<Entity uid="65">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="327.65104" z="521.4933"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64968"/>
+		</Entity>
+		<Entity uid="66">
+			<Template>actor|particle/snow_storm.xml</Template>
+			<Position x="416.40271" z="465.8376"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64968"/>
+		</Entity>
+		<Entity uid="67">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="846.3014" z="348.15931"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59253"/>
+		</Entity>
+		<Entity uid="68">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="781.67548" z="325.0113"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52911"/>
+		</Entity>
+		<Entity uid="69">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="671.99781" z="281.71625"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19457"/>
+		</Entity>
+		<Entity uid="70">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="594.7193" z="247.87113"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16621"/>
+		</Entity>
+		<Entity uid="71">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="545.45533" z="306.1652"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53304"/>
+		</Entity>
+		<Entity uid="72">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="465.9362" z="243.98624"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37062"/>
+		</Entity>
+		<Entity uid="73">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="476.93158" z="208.84318"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38704"/>
+		</Entity>
+		<Entity uid="74">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="330.59101" z="284.93635"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38704"/>
+		</Entity>
+		<Entity uid="75">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="344.49238" z="318.60486"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65350"/>
+		</Entity>
+		<Entity uid="76">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="313.44971" z="361.14493"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18705"/>
+		</Entity>
+		<Entity uid="77">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="245.98118" z="347.06684"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2014"/>
+		</Entity>
+		<Entity uid="78">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="236.47596" z="423.3201"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45919"/>
+		</Entity>
+		<Entity uid="79">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="213.56553" z="487.73993"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19847"/>
+		</Entity>
+		<Entity uid="80">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="230.97974" z="543.72736"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52122"/>
+		</Entity>
+		<Entity uid="81">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="259.35892" z="640.92774"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39218"/>
+		</Entity>
+		<Entity uid="82">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="349.41956" z="653.92865"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11177"/>
+		</Entity>
+		<Entity uid="83">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="445.02344" z="710.38593"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26620"/>
+		</Entity>
+		<Entity uid="84">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="554.73945" z="677.57258"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64346"/>
+		</Entity>
+		<Entity uid="85">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="714.61072" z="705.3407"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40625"/>
+		</Entity>
+		<Entity uid="86">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="822.5293" z="679.64686"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18763"/>
+		</Entity>
+		<Entity uid="87">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="768.33399" z="644.38428"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53325"/>
+		</Entity>
+		<Entity uid="88">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="703.78895" z="749.11518"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53325"/>
+		</Entity>
+		<Entity uid="89">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="703.90723" z="749.29767"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7978"/>
+		</Entity>
+		<Entity uid="90">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="756.62317" z="563.71167"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30592"/>
+		</Entity>
+		<Entity uid="91">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="797.92804" z="582.2516"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34889"/>
+		</Entity>
+		<Entity uid="92">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="773.97974" z="610.75538"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20932"/>
+		</Entity>
+		<Entity uid="93">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="806.24561" z="732.01038"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20932"/>
+		</Entity>
+		<Entity uid="94">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="763.27283" z="767.37903"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49753"/>
+		</Entity>
+		<Entity uid="95">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="811.51734" z="780.59992"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49753"/>
+		</Entity>
+		<Entity uid="97">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="737.31421" z="308.11866"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58282"/>
+		</Entity>
+		<Entity uid="98">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="704.12885" z="278.32648"/>
+			<Orientation y="1.13563"/>
+			<Actor seed="52698"/>
+		</Entity>
+		<Entity uid="99">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="663.2201" z="293.72593"/>
+			<Orientation y="2.38045"/>
+			<Actor seed="43350"/>
+		</Entity>
+		<Entity uid="103">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="603.22632" z="299.606"/>
+			<Orientation y="-3.12417"/>
+			<Actor seed="63730"/>
+		</Entity>
+		<Entity uid="104">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="556.90723" z="259.29804"/>
+			<Orientation y="0.66013"/>
+			<Actor seed="57980"/>
+		</Entity>
+		<Entity uid="105">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="522.70356" z="294.46137"/>
+			<Orientation y="-3.12418"/>
+			<Actor seed="33687"/>
+		</Entity>
+		<Entity uid="106">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="502.0345" z="255.8483"/>
+			<Orientation y="0.04163"/>
+			<Actor seed="984"/>
+		</Entity>
+		<Entity uid="107">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="487.02094" z="260.85987"/>
+			<Orientation y="2.82226"/>
+			<Actor seed="48335"/>
+		</Entity>
+		<Entity uid="108">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="435.84427" z="305.05039"/>
+			<Orientation y="3.1345"/>
+			<Actor seed="48335"/>
+		</Entity>
+		<Entity uid="109">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="412.2884" z="252.70661"/>
+			<Orientation y="0.2205"/>
+			<Actor seed="51179"/>
+		</Entity>
+		<Entity uid="110">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="364.88215" z="317.90851"/>
+			<Orientation y="-2.84342"/>
+			<Actor seed="4104"/>
+		</Entity>
+		<Entity uid="111">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="308.39939" z="316.42646"/>
+			<Orientation y="0.24996"/>
+			<Actor seed="15132"/>
+		</Entity>
+		<Entity uid="112">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="291.14457" z="358.78501"/>
+			<Orientation y="2.4764"/>
+			<Actor seed="44168"/>
+		</Entity>
+		<Entity uid="113">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="246.51346" z="364.94431"/>
+			<Orientation y="-2.3385"/>
+			<Actor seed="56808"/>
+		</Entity>
+		<Entity uid="114">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="240.15741" z="415.78428"/>
+			<Orientation y="-1.82073"/>
+			<Actor seed="22972"/>
+		</Entity>
+		<Entity uid="115">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="227.41446" z="421.89374"/>
+			<Orientation y="2.28618"/>
+			<Actor seed="10610"/>
+		</Entity>
+		<Entity uid="116">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="217.01642" z="483.84626"/>
+			<Orientation y="-1.82074"/>
+			<Actor seed="34625"/>
+		</Entity>
+		<Entity uid="117">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="241.5182" z="558.57789"/>
+			<Orientation y="-1.48026"/>
+			<Actor seed="34148"/>
+		</Entity>
+		<Entity uid="118">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="296.5464" z="656.20075"/>
+			<Orientation y="2.0292"/>
+			<Actor seed="28525"/>
+		</Entity>
+		<Entity uid="119">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="353.1371" z="666.44751"/>
+			<Orientation y="-1.1124"/>
+			<Actor seed="2179"/>
+		</Entity>
+		<Entity uid="120">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="438.1641" z="707.07508"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7530"/>
+		</Entity>
+		<Entity uid="121">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="555.43641" z="688.91376"/>
+			<Orientation y="-0.44095"/>
+			<Actor seed="40079"/>
+		</Entity>
+		<Entity uid="122">
+			<Template>gaia/fauna_wolf_arctic_violent</Template>
+			<Player>0</Player>
+			<Position x="658.44062" z="705.00922"/>
+			<Orientation y="2.88375"/>
+			<Actor seed="18670"/>
+		</Entity>
+		<Entity uid="124">
+			<Template>gaia/fauna_bear_polar</Template>
+			<Player>0</Player>
+			<Position x="621.57911" z="246.63184"/>
+			<Orientation y="0.51534"/>
+			<Actor seed="29757"/>
+		</Entity>
+		<Entity uid="125">
+			<Template>gaia/fauna_bear_polar</Template>
+			<Player>0</Player>
+			<Position x="229.2039" z="386.75751"/>
+			<Orientation y="1.01734"/>
+			<Actor seed="46400"/>
+		</Entity>
+		<Entity uid="127">
+			<Template>gaia/fauna_bear_polar</Template>
+			<Player>0</Player>
+			<Position x="245.37043" z="623.39112"/>
+			<Orientation y="-1.12856"/>
+			<Actor seed="9838"/>
+		</Entity>
+		<Entity uid="128">
+			<Template>gaia/fauna_bear_polar</Template>
+			<Player>0</Player>
+			<Position x="381.14039" z="678.56873"/>
+			<Orientation y="-0.53316"/>
+			<Actor seed="22535"/>
+		</Entity>
+		<Entity uid="129">
+			<Template>units/campaign/ursawagon</Template>
+			<Player>0</Player>
+			<Position x="802.26215" z="697.8758"/>
+			<Orientation y="0.01874"/>
+			<Actor seed="37240"/>
+		</Entity>
+		<Entity uid="147">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="823.1114" z="323.74491"/>
+			<Orientation y="-2.36023"/>
+			<Actor seed="30628"/>
+		</Entity>
+		<Entity uid="148">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="810.92255" z="330.76737"/>
+			<Orientation y="1.07847"/>
+			<Actor seed="53681"/>
+		</Entity>
+		<Entity uid="149">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="824.95044" z="336.14335"/>
+			<Orientation y="-2.44922"/>
+			<Actor seed="53681"/>
+		</Entity>
+		<Entity uid="150">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="808.89417" z="345.32667"/>
+			<Orientation y="-0.69048"/>
+			<Actor seed="45137"/>
+		</Entity>
+		<Entity uid="151">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="808.55591" z="355.43924"/>
+			<Orientation y="1.6837"/>
+			<Actor seed="21633"/>
+		</Entity>
+		<Entity uid="155">
+			<Template>units/labrynna/labrynna_brigada_b</Template>
+			<Player>1</Player>
+			<Position x="814.95038" z="336.02384"/>
+			<Orientation y="-1.95429"/>
+			<Actor seed="24095"/>
+		</Entity>
+		<Entity uid="156">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="820.70514" z="329.23642"/>
+			<Orientation y="2.19007"/>
+			<Actor seed="52879"/>
+		</Entity>
+		<Entity uid="157">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="830.49714" z="329.7714"/>
+			<Orientation y="0.99187"/>
+			<Actor seed="19684"/>
+		</Entity>
+		<Entity uid="158">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="829.31647" z="340.85413"/>
+			<Orientation y="-1.5709"/>
+			<Actor seed="7993"/>
+		</Entity>
+		<Entity uid="159">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="822.10785" z="347.80039"/>
+			<Orientation y="0.78507"/>
+			<Actor seed="9781"/>
+		</Entity>
+		<Entity uid="160">
+			<Template>units/labrynna/labrynna_mauler_b</Template>
+			<Player>1</Player>
+			<Position x="830.80207" z="317.1884"/>
+			<Orientation y="-2.40043"/>
+			<Actor seed="48390"/>
+		</Entity>
+		<Entity uid="161">
+			<Template>units/labrynna/labrynna_mauler_b</Template>
+			<Player>1</Player>
+			<Position x="838.91889" z="325.88755"/>
+			<Orientation y="0.72071"/>
+			<Actor seed="38158"/>
+		</Entity>
+		<Entity uid="162">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="816.74634" z="325.23038"/>
+			<Orientation y="-2.3034"/>
+			<Actor seed="37899"/>
+		</Entity>
+		<Entity uid="163">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="837.39045" z="339.07322"/>
+			<Orientation y="0.73891"/>
+			<Actor seed="43774"/>
+		</Entity>
+		<Entity uid="164">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="831.22083" z="347.2323"/>
+			<Orientation y="0.72356"/>
+			<Actor seed="18544"/>
+		</Entity>
+		<Entity uid="165">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="825.58368" z="355.09211"/>
+			<Orientation y="-2.07265"/>
+			<Actor seed="18544"/>
+		</Entity>
+		<Entity uid="166">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="808.97474" z="368.3476"/>
+			<Orientation y="1.68145"/>
+			<Actor seed="8708"/>
+		</Entity>
+		<Entity uid="167">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="811.04926" z="360.51691"/>
+			<Orientation y="2.6695"/>
+			<Actor seed="55560"/>
+		</Entity>
+		<Entity uid="171">
+			<Template>structures/tent_rome</Template>
+			<Player>0</Player>
+			<Position x="777.89673" z="688.36078"/>
+			<Orientation y="0.77813"/>
+			<Actor seed="21184"/>
+		</Entity>
+		<Entity uid="172">
+			<Template>structures/tent_rome</Template>
+			<Player>0</Player>
+			<Position x="769.13202" z="694.3891"/>
+			<Orientation y="1.02498"/>
+			<Actor seed="47052"/>
+		</Entity>
+		<Entity uid="173">
+			<Template>structures/tent_rome</Template>
+			<Player>0</Player>
+			<Position x="762.71784" z="703.49256"/>
+			<Orientation y="1.13323"/>
+			<Actor seed="49236"/>
+		</Entity>
+		<Entity uid="174">
+			<Template>actor|props/special/eyecandy/campfire.xml</Template>
+			<Position x="775.62671" z="699.75977"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37082"/>
+		</Entity>
+		<Entity uid="175">
+			<Template>actor|props/special/eyecandy/campfire.xml</Template>
+			<Position x="813.86066" z="697.19001"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39231"/>
+		</Entity>
+		<Entity uid="176">
+			<Template>actor|props/special/eyecandy/campfire.xml</Template>
+			<Position x="793.16474" z="699.09888"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47576"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

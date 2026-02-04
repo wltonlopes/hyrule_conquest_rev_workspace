@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="1" name="plants-a">
+      <mesh>structural/fairy/fai_plantringB_autumn.dae</mesh>
+	  <textures><texture file="gaia/flora/plants_fairyA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  
+  
+  <material>basic_trans_wind.xml</material>
+
+</actor>

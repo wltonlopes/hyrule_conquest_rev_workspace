@@ -35,6 +35,7 @@
   </Health>
   <Identity>
     <Civ>stalfos</Civ>
+    <Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Undead Stal Stalchild</VisibleClasses>
     <SpecificName>Stalchild</SpecificName>
     <GenericName>Stalfos Worker</GenericName>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Footprint replace="">
+    <Square depth="37.0" width="37.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Blacksmith</SpecificName>
+    <History>A large barracks devoted entirely to the production and storage of armor, this structure creates all manner of improved weapons and armors for Hylian warriors.</History>
+    <Icon>structures/hylian/hyl_blacksmithA.dds</Icon>
+    <Tooltip>Researches and creates new and improved weapons and armor.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="25.0" width="25.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -soldier_attack_melee_01
+      -soldier_attack_melee_02
+      -soldier_attack_melee_03
+      -soldier_attack_melee_03_variant
+      -soldier_attack_ranged_01
+      -soldier_attack_ranged_02
+      -soldier_attack_ranged_03
+      -soldier_resistance_hack_01
+      -soldier_resistance_hack_02
+      -soldier_resistance_hack_03
+      -soldier_resistance_pierce_01
+      -soldier_resistance_pierce_02
+      -soldier_resistance_pierce_03
+      -archer_attack_spread
+      hylian/steel_alloy
+      hylian/iron_refinement
+      hylian/vigjaro_leather
+      hylian/malkariko_chainmail
+      hylian/reinforced_shields
+      hylian/hylian_shields
+    </Technologies>
+  </Researcher>
+  <Vision>
+    <Range>32</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_blacksmithA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

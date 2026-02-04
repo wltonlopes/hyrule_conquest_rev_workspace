@@ -1,0 +1,27 @@
+<skeletons>
+<standard_skeleton id="Candlehop Skeleton" title="Candlehop Skeleton">
+<bone name="base_kyandukyanA">
+<bone name="candle_01">
+<bone name="candle_02">
+<bone name="candle_03">
+<bone name="flame_01">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Candlehop Skeleton" title="Candlehop Skeleton">
+<identifier><root>base_kyandukyanA</root></identifier>
+<bone name="base_kyandukyanA"><target>base_kyandukyanA</target>
+<bone name="candle_01"><target>candle_01</target>
+<bone name="candle_02"><target>candle_02</target>
+<bone name="candle_03"><target>candle_03</target>
+<bone name="flame_01"><target>flame_01</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

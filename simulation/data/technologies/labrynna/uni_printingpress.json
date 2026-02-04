@@ -1,0 +1,15 @@
+{
+	"genericName": "Printing Press",
+	"description": "An impressive invention that allows Labrynna to create copies of books much faster than handwriting them... and thus the spread of information can reach farther than ever before.",
+	"cost": {"food": 0, "wood": 150, "stone": 0, "metal": 150, "rupees": 250},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "labrynna/uni_printingpress.dds",
+	"researchTime": 40,
+	"tooltip": "Territory increased by 25%",
+	"modifications": [
+		{"value": "TerritoryInfluence/Radius", "multiply": 1.25}
+	],
+	"affects": [ "Structure" ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

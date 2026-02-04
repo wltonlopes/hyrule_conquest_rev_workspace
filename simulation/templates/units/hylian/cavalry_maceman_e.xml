@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/hylian/cavalry_maceman_a">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Mace</AttackName>
+      <Damage>
+        <Crush>14.0</Crush>
+        <True>16</True>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Cavalry</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>1400</RepeatTime>     
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>220</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>10</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/hylian/infantry_maceman_e</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Rank>Elite</Rank>
+    <Classes datatype="tokens">Kingdom</Classes>
+    <SpecificName>Kingdom Cavalry</SpecificName>
+    <History>Heavily armed soldiers on heavily armed horses, becoming one of these was considered the peak of a military career. Rather than maces, these skilled soldiers carried flails, which could strike their enemies during a charge without making the soldier lose any momentum.</History>
+    <Tooltip>Heavy armored cavalry unit armed with a flail.</Tooltip>
+    <Icon>units/hylian/hyl_kingdomcav.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>8</Hack>
+        <Pierce>6</Pierce>
+        <Crush>9</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <VisualActor>
+    <Actor>units/hylian/hylian_kingdom_cav_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -18,12 +18,17 @@
   <Obstruction>
     <Static width="40.0" depth="40.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+      kokiri/deku_threading
+      kokiri/fairy_targeting
+    </Technologies>
+  </Researcher>
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/kokiri/infantry_spearman_b
       units/kokiri/infantry_archer_b
-      units/kokiri/infantry_swordsman_b
       units/kokiri/kokiri_explorer_b
       units/kokiri/kokiri_logram_b
       units/kokiri/kokiri_hero_fadola

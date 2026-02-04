@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Health/RegenRaate", "add": 2 }
+	],
+	"auraName": "Gift of Life",
+	"auraDescription": "All nearby units regenerate health.",
+	"overlayIcon": "art/textures/ui/session/auras/fairykiss_aura1.dds"
+}

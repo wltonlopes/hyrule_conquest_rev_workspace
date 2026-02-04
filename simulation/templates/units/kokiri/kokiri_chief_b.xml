@@ -39,6 +39,7 @@
     <History>Chiefs are the leaders of Kokiri villages and armies, bossing around other Kokiri and sending out orders from the Great Deku Tree. Chiefs carry around an axe and shield into battle and are capable of getting the troops under their command to run into a fight much faster.</History>
     <Tooltip>Kokiri Commander unit armed with an axe, improves the speed of Kokiri infantry within its aura.</Tooltip>
     <Icon>units/kokiri/kok_chief.dds</Icon>
+    <Classes datatype="tokens">WoodArmor</Classes>
     <Requirements>
       <Techs datatype="tokens">phase_town -phase_city</Techs>
     </Requirements>

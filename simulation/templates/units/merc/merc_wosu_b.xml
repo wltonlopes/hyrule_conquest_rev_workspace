@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Attack>
-    <Melee>
+    <Melee replace="">
       <AttackName>Sword</AttackName>
       <Damage>
         <Hack>35</Hack>
@@ -23,11 +23,13 @@
   </Attack>
   <Cost>
     <BuildTime>14</BuildTime>
+    <Population>0</Population>
     <Resources>
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>300</metal>
+      <metal>0</metal>
+      <rupees>250</rupees>
     </Resources>
   </Cost>
   <Health>
@@ -40,6 +42,9 @@
     <Icon>units/merc/merc_wosu.dds</Icon>
     <Tooltip>Hulking Melee unit that deals massive damage.</Tooltip>
     <VisibleClasses datatype="tokens">Merc</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

@@ -1,0 +1,169 @@
+{
+	"Code": "hylian",
+	"Culture": "civilized",
+	"Music":
+	[
+		{"File": "hylian_theme1.ogg", "Type": "peace"},
+		{"File": "hylian_ambient1.ogg", "Type": "peace"},
+		{"File": "hylian_ambient2.ogg", "Type": "peace"},
+		{"File": "hylian_ambient3.ogg", "Type": "peace"},
+		{"File": "hylian_ambient4.ogg", "Type": "peace"},
+		{"File": "hylian_ambient5.ogg", "Type": "peace"},
+		{"File": "hylian_ambient6.ogg", "Type": "peace"},
+		{"File": "hylian_ambient7.ogg", "Type": "peace"},
+		{"File": "hylian_battle1.ogg", "Type": "battle"},
+		{"File": "hylian_battle2.ogg", "Type": "battle"},
+		{"File": "hylian_battle3.ogg", "Type": "battle"},
+		{"File": "hylian_battle4.ogg", "Type": "battle"},
+		{"File": "hylian_victory1.ogg", "Type": "victory"}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Kingdom of Hyrule",
+    			"History": "The imperial monarchy known as the Kingdom of Hyrule is one of the longest-lived and most powerful empires to have existed. For nearly three-thousand years the Hylian people have rallied behind the banner of the winged Triforce, creating one of the largest and most successful armies the land has ever known.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "King Kazakk",
+					"Class": "Cavalry Spearman",
+					"Armament": "Lance",
+					"Emblem": "",
+    					"History": "Once one of Hyrule's greatest generals, Kazakk married into royalty and fathered the fifth Princess Zelda. In his advancing age, he has prepared to hand over his Kingdom to his daughter, but he still has quite a bit of fight left in him."
+				},
+				{
+					"Name": "Captain Krin",
+					"Class": "Infantry Swordsman",
+					"Armament": "Sword",
+					"Emblem": "",
+    					"History": "Hailing from the house of Arcad, Captain Krin has long served Rauru as bodyguard on his pilgrimages and later Princess Zelda after her ascent to the throne. In truth he followed Rauru to converse with his Deacon, Seres."
+				},
+				{
+					"Name": "Lana, the White Mage",
+					"Class": "Mage",
+					"Armament": "Cane of Byrna",
+					"Emblem": "",
+    					"History": "A young woman who's parentage can be traced back to Calatia, Lana was trained as a Deacon under Rauru. Feeling unfullfilled with her humble clergy role, Lana studied more esoteric magics in secret with the help of the shady Wizzrobes in Byrna. Though her loyaties to the crown and Hyrule are not in question, many including Rauru feel her immense powers are too much for her to control."
+				},
+				{
+					"Name": "Link, Heir of Gustaf",
+					"Class": "Infantry Swordsman",
+					"Armament": "Master Sword",
+					"Emblem": "",
+    					"History": "The last surviving member of the First King of Hyrule's bloodline, Link was raised as a warrior amongst the Order of the Wizzrobe. With knowledge of both martial skill and arcane powers, he trains and leads Hyrule's Knights into battle."
+				},
+				{
+					"Name": "Rauru, the Sage of Light",
+					"Class": "Infantry Maceman",
+					"Armament": "Holy Mace",
+					"Emblem": "",
+    					"History": "The immortal Sage of Light and architect of the Temple of Time, Rauru is centuries old and has long defended the Kingdom of Hyrule. An adviser to Princess Zelda, he is entrusted with detecting and forewarning of supernatural threats against the Kingdom."
+				},
+				{
+					"Name": "Seres",
+					"Class": "Infantry Healer",
+					"Armament": "Healing",
+					"Emblem": "",
+    					"History": "A Deacon who grew up north of Hyrule Castle Town, Seres has long served Rauru and has been his favorite pupil. Seres was trained in healing, though she has devoted much of her time to collecting tomes and historical documents for archiving."
+				},
+				{
+					"Name": "Princess Zelda V",
+					"Class": "Infantry Swordsman",
+					"Armament": "Royal Estoc",
+					"Emblem": "",
+    					"History": "The crown Princess of Hyrule and the fifth woman to bear the name Zelda. Gifted with the power of Prophecy, the Princess can foresee events both small and large in her dreams."
+				},
+				{
+					"Name": "Titan: Fi, the Spirit of the Master Sword",
+					"Class": "Titan",
+					"Armament": "Spirit Swords",
+					"Emblem": "",
+    					"History": "A powerful spirit of the world that was bound within the Master Sword by the goddess Hylia. Now freed from her prison, Fi exhibits tremendous power, and bringing spirit swords against enemies of the Kingdom."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Military Training",
+			"History": "With the possible exception of the Darknuts, the Kingdom of Hyrule has the best-trained armies througout the land. Though they are individually not very skilled, when in a formation with others, they punch above their weight. They have been known to share this knowledge and training with their allies.",
+			"Description": "+2 non-magic rsistance and walk speed for allied formations."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name": "Wonder: Temple of Time",
+			"Class": "Wonder",
+			"Emblem": "",
+    			"History": "The Temple of Time, a marvel of architecture commissioned by the Oocca and designed by Rauru, the Sage of Light. Acting as a Church and housing the Master Sword deep within its recesses, the Temple of Time is a shining wonder and revered structure across all of Hyrule. It is said that, buried deep inside, is a door to the Sacred Realm of the Triforce.",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Trains the Hylian Titan."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/hylian/civil_centre"
+		},
+		{
+			"Template": "units/hylian/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/hylian/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/hylian/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/hylian/cavalry_maceman_b"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/hylian/wallset_wood"
+	],
+	"AINames":
+	[
+		"King Kazakk",
+		"Captain Krin",
+		"Lana, the White Make",
+		"Link, Heir of Gustaf",
+		"Rauru, the Sage of Light",
+		"Seres",
+		"Princess Zelda V",
+		"Fi, the Spirit of the Master Sword"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_support_female_citizen": "units/hylian/support_female_citizen",
+		"skirmish/units/default_infantry_melee_b": "units/hylian/infantry_spearman_b",
+		"skirmish/units/default_champion_melee": "units/hylian/hylian_championknight_b",
+		"skirmish/units/default_champion_ranged": "units/hylian/hylian_lightarrow_b",
+		"skirmish/units/default_hero": "units/hylian/hylian_hero_link_gustav",
+		"skirmish/units/default_infantry_ranged_b": "units/hylian/infantry_archer_b",
+		"skirmish/units/default_ship_arrow": "units/ordona/ordona_hawk_b",
+		"skirmish/units/default_ship_scout": "units/ordona/ordona_hawk_b",
+		"skirmish/units/default_siege_ram": "units/hylian/hylian_siegeram_b",
+		"skirmish/units/default_cavalry": "units/hylian/cavalry_maceman_b",
+		"skirmish/units/special_starting_unit": "units/hylian/hylian_captain_b",
+		"skirmish/structures/default_dock": "structures/hylian/defense_tower",
+		"skirmish/structures/default_farmstead": "structures/hylian/field",
+		"skirmish/structures/default_house_5": "structures/hylian/house",
+		"skirmish/structures/default_house_10": "structures/hylian/house",
+		"skirmish/structures/default_outpost": "structures/hylian/sentry_tower"
+	},
+	"SelectableInGameSetup": true
+}

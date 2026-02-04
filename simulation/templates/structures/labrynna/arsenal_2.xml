@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/arsenal">
+  <Identity>
+    <History>Cannons have quickly become the siege weapon of choice used by the Empire, and dedicated factories can produce the machines at quite a staggering rate.</History>
+    <SpecificName>Cannon Foundry</SpecificName>
+    <Icon>structures/labrynna/lab_gunpowderB.dds</Icon>
+    <VisibleClasses datatype="tokens">-Town City</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_city -phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      labrynna/attack_sharpshooting
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/labrynna/labrynna_cannon_b
+      units/labrynna/labrynna_organgun_b
+    </Entities>
+  </Trainer>
+  <Upgrade replace="">
+    <Garage>
+      <Cost>
+        <wood>100</wood>
+        <stone>100</stone>
+      </Cost>
+      <Entity>structures/labrynna/arsenal_3</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Upgrade the Cannon Foundry with a Garage.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Garage>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_powderB.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldD.xml</FoundationActor>
+  </VisualActor>
+</Entity>

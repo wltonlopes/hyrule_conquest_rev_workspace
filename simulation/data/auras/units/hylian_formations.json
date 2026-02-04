@@ -1,0 +1,13 @@
+{
+	"type": "formation",
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Armour/Pierce", "add": 2 },
+		{ "value": "Armour/Hack", "add": 2 },
+		{ "value": "Armour/Crush", "add": 2 },
+		{ "value": "UnitMotion/WalkSpeed", "add": 2 }
+		
+	],
+	"auraName": "Hylian Formations",
+	"auraDescription": "All formations have +2 non-magic resistance and +2 walk speed."
+}

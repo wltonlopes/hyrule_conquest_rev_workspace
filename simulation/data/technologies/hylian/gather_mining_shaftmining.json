@@ -1,0 +1,20 @@
+{
+	"genericName": "Shaft Mining",
+	"description": "Develop shaft mining. Increases stone and metal gathering rates.",
+	"cost": {
+		"food": 400,
+		"stone": 200
+	},
+	"supersedes": "hylian/gather_mining_peasants",
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "hylian/gather_stone_shaft.dds",
+	"researchTime": 50,
+	"tooltip": "Workers +25% metal gather rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.25 },
+		{ "value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.25 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

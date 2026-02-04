@@ -1,0 +1,111 @@
+<skeletons>
+<standard_skeleton id="Dekusprout Skeleton" title="Dekusprout Skeleton">
+<bone name="base_dekusproutA">
+<bone name="body">
+<bone name="rider">
+</bone>
+<bone name="L_arm_01">
+<bone name="L_arm_02">
+<bone name="L_arm_03">
+</bone>
+</bone>
+</bone>
+<bone name="R_arm_01">
+<bone name="R_arm_02">
+<bone name="R_arm_03">
+</bone>
+</bone>
+</bone>
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+<bone name="top_01">
+<bone name="top_02">
+</bone>
+</bone>
+<bone name="bot_mouth_01">
+<bone name="bot_mouth_02">
+</bone>
+</bone>
+<bone name="top_mouth_01">
+<bone name="top_mouth_02">
+</bone>
+</bone>
+</bone>
+<bone name="L_leg_01">
+<bone name="L_leg_02">
+<bone name="L_leg_03">
+</bone>
+</bone>
+</bone>
+<bone name="R_leg_01">
+<bone name="R_leg_02">
+<bone name="R_leg_03">
+</bone>
+</bone>
+</bone>
+<bone name="B_leg_01">
+<bone name="B_leg_02">
+<bone name="B_leg_03">
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Dekusprout Skeleton" title="Dekusprout Skeleton">
+<identifier><root>base_dekusproutA</root></identifier>
+<bone name="base_dekusproutA"><target>base_dekusproutA</target>
+<bone name="body"><target>body</target>
+<bone name="rider"><target>rider</target>
+</bone>
+<bone name="L_arm_01"><target>L_arm_01</target>
+<bone name="L_arm_02"><target>L_arm_02</target>
+<bone name="L_arm_03"><target>L_arm_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_arm_01"><target>R_arm_01</target>
+<bone name="R_arm_02"><target>R_arm_02</target>
+<bone name="R_arm_03"><target>R_arm_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+<bone name="top_01"><target>top_01</target>
+<bone name="top_02"><target>top_02</target>
+</bone>
+</bone>
+<bone name="bot_mouth_01"><target>bot_mouth_01</target>
+<bone name="bot_mouth_02"><target>bot_mouth_02</target>
+</bone>
+</bone>
+<bone name="top_mouth_01"><target>top_mouth_01</target>
+<bone name="top_mouth_02"><target>top_mouth_02</target>
+</bone>
+</bone>
+</bone>
+<bone name="L_leg_01"><target>L_leg_01</target>
+<bone name="L_leg_02"><target>L_leg_02</target>
+<bone name="L_leg_03"><target>L_leg_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_leg_01"><target>R_leg_01</target>
+<bone name="R_leg_02"><target>R_leg_02</target>
+<bone name="R_leg_03"><target>R_leg_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="B_leg_01"><target>B_leg_01</target>
+<bone name="B_leg_02"><target>B_leg_02</target>
+<bone name="B_leg_03"><target>B_leg_03</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

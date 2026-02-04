@@ -5,6 +5,8 @@
       <AttackName>Deku Seeds</AttackName>
       <Damage>
         <Crush>3.5</Crush>
+        <Pierce>0</Pierce>
+        <Forest>0</Forest>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>55</MaxRange>
@@ -35,6 +37,12 @@
   <Health>
     <Max>3000</Max>
     <SpawnEntityOnDeath>decay|rubble/debris_kokiri_small</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>6</SpawnNumberMax>
+      <SpawnNumberMin>6</SpawnNumberMin>
+      <Template>units/kokiri/infantry_archer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
@@ -51,6 +59,12 @@
   <Obstruction>
     <Static depth="25.0" width="25.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      kokiri/building_emeraldgar
+      kokiri/fado_festival
+    </Technologies>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/kokiri/complete_civ_center_kokiri.xml</constructed>

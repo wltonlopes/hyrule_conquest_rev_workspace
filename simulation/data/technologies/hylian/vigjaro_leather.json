@@ -1,0 +1,16 @@
+{
+	"genericName": "Vigjaro Leather",
+	"description": "Vigjaro makes the toughest leather armor in the Kingdom of Hyrule, and so their leather jerkins and tunics are much sought-after.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 200},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "hylian/armor_vigjaro_leather.dds",
+	"researchTime": 30,
+	"tooltip": "All soldiers gain +15% resistance to pierce and crush damage.",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Pierce", "multiply": 1.15},
+				{"value": "Resistance/Entity/Damage/Crush", "multiply": 1.15}
+			 ],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "add": 2 }
+	],
+	"auraName": "Fairy of the Winds",
+	"auraDescription": "All units +2 walk speed.",
+	"overlayIcon": "art/textures/ui/session/auras/speed_bonus.png"
+}

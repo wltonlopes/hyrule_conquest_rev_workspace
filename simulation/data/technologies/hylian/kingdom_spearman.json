@@ -1,0 +1,23 @@
+{
+  "genericName": "Upgrade to Kingdom Spearman",
+  "description": "As a Hylian house and its subordinate houses gain more wealth and prestige, they can afford better armor and weapons for their military.",
+  "cost": {"rupees": 750},
+  "requirements": {
+    "all": [
+      { "tech": "phase_city" },
+      { "civ": "hylian" }
+    ]
+  },
+  "requirementsTooltip": "Unlocked with City.",
+  "icon": "hylian/kingdom_spearman.dds",
+  "researchTime": 40,
+  "tooltip": "Improves Spearman by making them Kingdom Spearman.",
+  "modifications": [
+    {
+      "value": "Promotion/RequiredXp",
+      "replace": 0
+    }
+  ],
+  "affects": [ "UpgSpear" ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Keaton"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.25 }
+	],
+	"auraName": "Head of the Cartel",
+	"auraDescription": "+50% movement speed - All Keaton units"
+}

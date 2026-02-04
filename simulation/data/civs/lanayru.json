@@ -1,6 +1,6 @@
 {
 	"Code": "lanayru",
-	"Culture": "zora",
+	"Culture": "civilized",
 	"Music":
 	[
 		{"File": "lanayru_theme1.ogg", "Type": "peace"},
@@ -145,6 +145,9 @@
 		"skirmish/units/default_support_female_citizen": "units/lanayru/support_female_citizen",
 		"skirmish/units/default_infantry_melee_b": "units/lanayru/infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/lanayru/infantry_spearman_b",
+		"skirmish/units/default_champion_melee": "units/lanayru/lanayru_wavewarrior_b",
+		"skirmish/units/default_champion_ranged": "units/lanayru/lanayru_silverarcher_b",
+		"skirmish/units/default_hero": "units/lanayru/lanayru_hero_ralis",
 		"skirmish/units/default_ship_arrow": "units/lanayru/lanayru_prawnbowman_b",
 		"skirmish/units/default_ship_scout": "units/lanayru/lanayru_aruroda_b",
 		"skirmish/units/default_siege_ram": "units/lanayru/lanayru_flinger_b",

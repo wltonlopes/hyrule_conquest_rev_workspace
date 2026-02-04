@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Spikes A">
+      <mesh>structural/moblin/mob_spikesA.dae</mesh>
+      <props>
+        <prop actor="props/structures/moblin/moblin_groundbase_small.xml" attachpoint="root"/>
+      </props>
+      <textures>
+		<texture file="structural/moblin/moblin_totemA.dds" name="baseTex"/>
+		<texture file="structural/moblin/moblin_totemA_normal.dds" name="normTex"/>
+		<texture file="structural/moblin/moblin_totemC_ao.dds" name="aoTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_norm_spec.xml</material>
+</actor>

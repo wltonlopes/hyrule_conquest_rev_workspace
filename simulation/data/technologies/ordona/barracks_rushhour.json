@@ -1,7 +1,7 @@
 {
 	"genericName": "Patriotism",
 	"description": "Inspire your people to become soldiers to defend their homes.",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 400},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 400},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "ordona"}]},
 	"requirementsTooltip": "Unlocked with City Phase.",
 	"icon": "ordona/militiabooth_rushhour.dds",

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Footprint replace="">
+    <Square depth="37.0" width="37.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_gerudo_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <SpecificName>Weapon Cache</SpecificName>
+    <History>Dotted throughout the Gerudo Desert are caches full of weaponry. Armies are never short of supply, and can easily replace broken or lost weaponry at these hidden locations.</History>
+    <Icon>structures/gerudo/ger_cacheA.dds</Icon>
+    <Tooltip>Improves Gerudo weapons and armor.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="35.0" width="35.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>10.0</Crush>
+        <Hack>15.0</Hack>
+        <Pierce>55.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/gerudo/gerudo_cacheA.xml</Actor>
+    <FoundationActor>structures/gerudo/gerudo_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

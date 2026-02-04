@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Zuna Oasis">
+      <mesh>structural/minor_zuna/zun_oasisA.dae</mesh>
+	  <props>
+		<prop actor="props/structures/minor_zuna/zun_oasisA_water.xml" attachpoint="root"/>
+	    <prop actor="props/structures/minor_zuna/zun_groundbase_large.xml" attachpoint="root"/>
+		<prop actor="flora/trees/palm_areca.xml" attachpoint="tree_01"/>
+		<prop actor="flora/trees/palm_areca.xml" attachpoint="tree_02"/>
+		<prop actor="flora/trees/palm_areca.xml" attachpoint="tree_03"/>
+      </props>
+      <textures>
+        <texture file="structural/minor_zuna/zun_mainA.dds" name="baseTex"/>
+		<texture file="structural/minor_zuna/zun_mainA_normal.dds" name="normTex"/>
+        <texture file="structural/minor_zuna/zun_mainA.dds" name="specTex"/>
+		<texture file="structural/minor_zuna/zun_oasis_ao.dds" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_ao_norm_spec.xml</material>
+</actor>

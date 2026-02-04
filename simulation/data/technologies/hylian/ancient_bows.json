@@ -1,0 +1,18 @@
+{
+	"genericName": "Ancient Bows",
+	"description": "Light Archers are feared for their magical arrows, but when equiped with the ancient bows used by their ancestors, they become quite deadly.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/zeldav_ancientbows.dds",
+	"researchTime": 40,
+	"tooltip": "+50% accuracy and damage by Light Archer.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Light", "multiply": 1.5},
+				{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.5},
+				{"value": "Attack/Ranged/Damage/True", "multiply": 1.5},
+				{"value": "Attack/Ranged/Projectile/Spread", "multiply": 0.5}
+			 ],
+	"affects": ["LightArcher"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

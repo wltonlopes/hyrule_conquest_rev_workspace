@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100">
+      <animations>
+        <animation file="mechanical/waypoint_flag_idle.dae" name="Idle" speed="30"/>
+      </animations>
+      <mesh>props/waypoint_flag.dae</mesh>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="deku">
+      <textures>
+        <texture file="props/banner_deku.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="fairy">
+      <textures>
+        <texture file="props/banner_fairy.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="gerudo">
+      <textures>
+        <texture file="props/banner_gerudo.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="goron">
+      <textures>
+        <texture file="props/banner_goron.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="hylian">
+      <textures>
+        <texture file="props/banner_hylian.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="kokiri">
+      <textures>
+        <texture file="props/banner_kokiri.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="labrynna">
+      <textures>
+        <texture file="props/banner_labrynna.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="lanayru">
+      <textures>
+        <texture file="props/banner_lanayru.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="ordona">
+      <textures>
+        <texture file="props/banner_ordona.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="stalfos">
+      <textures>
+        <texture file="props/banner_stalfos.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="zola">
+      <textures>
+        <texture file="props/banner_zola.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

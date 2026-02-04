@@ -1,7 +1,7 @@
 {
 	"genericName": "Coralmold Prawn Bowmen",
 	"description": "The Prawn Bowmen can be equiped with coraltip arrows, poisoning their targets as well as piercing them.",
-	"cost": {"food": 0, "wood": 0, "stone": 500, "metal": 500},
+	"cost": {"food": 0, "wood": 0, "stone": 500, "metal": 0, "rupees": 500},
 	"icon": "lanayru/attack_silvercoral.dds",
 	"researchTime": 40,
 	"tooltip": "The Prawn Bowmen gains 10 Poison damage.",

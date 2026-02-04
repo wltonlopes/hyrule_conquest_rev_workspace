@@ -15,6 +15,12 @@
   <Health>
     <Max>1000</Max>
     <SpawnEntityOnDeath>decay|rubble/debris_ordona_tiny</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>5</SpawnNumberMax>
+      <SpawnNumberMin>5</SpawnNumberMin>
+      <Template>units/ordona/infantry_archer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>ordona</Civ>

@@ -1,6 +1,6 @@
 {
 	"Code": "goron",
-	"Culture": "goron",
+	"Culture": "barbaric",
 	"Music":
 	[
 		{ "File": "goron_theme1.ogg", "Type": "peace" },
@@ -9,6 +9,7 @@
 		{ "File": "goron_ambient3.ogg", "Type": "peace" },
 		{ "File": "goron_ambient4.ogg", "Type": "peace" },
 		{ "File": "goron_ambient5.ogg", "Type": "peace" },
+		{ "File": "goron_ambient6.ogg", "Type": "peace" },
 		{ "File": "goron_battle1.ogg", "Type": "battle" },
 		{ "File": "goron_battle2.ogg", "Type": "battle" },
 		{ "File": "goron_battle3.ogg", "Type": "battle" },
@@ -80,6 +81,21 @@
 	],
 	"CivBonuses":
 	[
+		{
+			"Name": "Rock Sirloin",
+			"History": "Gorons are famous for being one of the only races in Hyrule to eat rocks, and even the occasional bowl of Lava Soup. What they do't eat, they use as building materials for their structures.",
+			"Description": "All units cost stone instead of food."
+		},
+		{
+			"Name": "Tougher People",
+			"History": "Gorons are much more durable than other races, and are nearly invulnerable to fire, both side effects from living in an active volcano.",
+			"Description": "All units are more resistant to fire and non-magic damage."
+		},
+		{
+			"Name": "Stone Shapers",
+			"History": "Gorons are masters at shaping and carving stone, mainly because itis a requirement if they want to eat.",
+			"Description": "All workers have bonuses to gathering stone and metal."
+		}
 	],
 	"TeamBonuses":
 	[
@@ -128,6 +144,9 @@
 		"skirmish/units/default_support_female_citizen": "units/goron/support_female_citizen",
 		"skirmish/units/default_infantry_melee_b": "units/goron/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/goron/goron_salamander_b",
+		"skirmish/units/default_champion_melee": "units/goron/goron_shieldbreaker_b",
+		"skirmish/units/default_champion_ranged": "units/goron/goron_warsalamander_b",
+		"skirmish/units/default_hero": "units/goron/goron_hero_darunia",
 		"skirmish/units/default_ship_arrow": "units/goron/goron_giant_b",
 		"skirmish/units/default_ship_scout": "units/goron/goron_giant_b",
 		"skirmish/units/default_siege_ram": "units/goron/goron_ram_b",

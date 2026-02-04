@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Pumpkin Patch</SpecificName>
+    <History>A field of Pumpkins to harvest.</History>
+    <Icon>structures/ordona/ord_field.dds</Icon>
+    <Tooltip>Harvest Pumpkins for food. Max gatherers: 5.</Tooltip>
+  </Identity>
+  <Minimap>
+    <Color b="102" g="204" r="155"/>
+    <Type>food</Type>
+  </Minimap>
+  <VisualActor>
+    <Actor>structures/ordona/ordona_field_pumpkin.xml</Actor>
+  </VisualActor>
+</Entity>

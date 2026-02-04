@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <BuildRestrictions>
+    <Category>TokayLargeHouse</Category>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Circle radius="30.0" />
+  </Footprint>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>250</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1350</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_moblin_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Tokay Boss Chief Shack</SpecificName>
+    <History>The Big Tokay Boss usually has a bigger and nicer shack to live in compared to other Tokay. Mostly bigger, not much nicer.</History>
+    <Icon>structures/minor_tokay/tok_chiefshack.dds</Icon>
+    <Tooltip>Housing that allows you to field larger armies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="39.5" width="39.5" />
+  </Obstruction>
+  <Population>
+    <Bonus>10</Bonus>
+  </Population>
+  <VisualActor>
+    <Actor>structures/minor_tokay/tok_civiccenterA.xml</Actor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+  </VisualActor>
+</Entity>

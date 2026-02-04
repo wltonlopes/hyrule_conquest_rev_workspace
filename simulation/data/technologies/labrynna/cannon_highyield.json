@@ -1,0 +1,15 @@
+{
+	"genericName": "High Yield Cannonballs",
+	"description": "As time goes on the Labrynnians find more and more ways to pack as much firepower into their weapons as possible. The latest version of their Cannonballs proves exceptionally deadly.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 350, "rupees": 200},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "labrynna/cannon_highyield.dds",
+	"researchTime": 40,
+	"tooltip": "Cannon splash damage range increased by 150%",
+	"modifications": [
+		{"value": "Attack/Ranged/Damage/Splash/Range", "multiply": 2.5}
+	],
+  	"affects": [ "Cannon" ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

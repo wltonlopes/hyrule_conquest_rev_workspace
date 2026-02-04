@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="gaia/fauna_wolf">
+  <Identity>
+    <GenericName>White Wolfos</GenericName>
+  </Identity>
+  <UnitAI>
+    <DefaultStance>aggressive</DefaultStance>
+  </UnitAI>
+  <VisualActor>
+    <Actor>units/wild/white_wolfos_b.xml</Actor>
+  </VisualActor>
+</Entity>

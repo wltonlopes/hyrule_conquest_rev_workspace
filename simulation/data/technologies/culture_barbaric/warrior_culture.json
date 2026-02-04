@@ -1,0 +1,24 @@
+{
+	"genericName": "Warrior Culture",
+	"description": "While not neccessarily violent, many cultures celebrate the strong and dangerous over the innovative and cunning.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
+	"requirements": 
+		{"all": [
+			{ "tech": "phase_town" },
+			{ "any": [
+					{ "civ": "goron" },
+					{ "civ": "zola" }
+				 ]
+			}
+			]
+		},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "accuracy_bolt.png",
+	"researchTime": 40,
+	"tooltip": "-10% training time of all soldiers.",
+	"modifications": [
+				{"value": "Cost/BuildTime", "multiply": 0.9}
+			 ],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

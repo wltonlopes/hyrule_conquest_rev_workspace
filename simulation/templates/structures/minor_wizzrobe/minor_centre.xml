@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_minor_centre">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>500</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>12.0</Height>
+    <Circle radius="30.0"/>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Magic Spire</SpecificName>
+    <History>The ruined heart of an ancient Wizzrobe city, the avian magicians still gather around the husks of these buildings to practice their spells.</History>
+    <Icon>structures/minor_wizzrobe/wiz_spire.dds</Icon>
+    <Tooltip>Trains Wizzrobe units.</Tooltip>
+    <VisibleClasses datatype="tokens">Wizzrobe</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="39.5" width="39.5"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/darknut/complete_civ_center_darknut.xml</constructed>
+      <select>interface/select/building/darknut/sel_civ_center_darknut.xml</select>
+      <upgraded>interface/complete/building/darknut/complete_civ_center_darknut.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/minor_wizzrobe/wizzrobe_mage_fire
+      units/minor_wizzrobe/wizzrobe_mage_ice
+      units/minor_wizzrobe/wizzrobe_mage_earth
+      units/minor_wizzrobe/wizzrobe_mage_illusion
+      units/minor_wizzrobe/wizzrobe_mage_summon
+      units/minor_wizzrobe/wizzrobe_hero_carock
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>5</X>
+        <Y>26.2</Y>
+        <Z>-3.5</Z>
+      </Archer1>
+      <Archer2>
+        <X>-3.5</X>
+        <Y>18</Y>
+        <Z>5</Z>
+      </Archer2>
+      <Archer3>
+        <X>3.3</X>
+        <Y>10</Y>
+        <Z>-4.5</Z>
+      </Archer3>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/minor_wizzrobe/wiz_civic_centreA.xml</Actor>
+  </VisualActor>
+</Entity>

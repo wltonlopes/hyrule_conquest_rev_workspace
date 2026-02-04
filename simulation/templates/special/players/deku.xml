@@ -6,7 +6,9 @@
   <Identity>
     <Civ>deku</Civ>
     <GenericName>Deku Kingdom</GenericName>
-    <History>"The Deku Kingdom.",</History>
+    <History>
+        The Kingdom of the Deku Scrubs are a loose collection of feudal territories deep within the eastern reaches of the Kokiri Forest. Known for their irrational bursts of anger and their perpetual short-man's complex, large gatherings of these normally comical forest dwellers can result in terrifying destruction and chaos when unleashed on Hyrule.
+    </History>
     <Icon>emblems/emblem_deku.dds</Icon>
   </Identity>
 </Entity>

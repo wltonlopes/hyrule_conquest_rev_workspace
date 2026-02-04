@@ -1,0 +1,11 @@
+{
+	"genericName": "Fairy Senses",
+	"description": "The fairies of the Kokiri are not just friends and helpers, they also help the Kokiri ntice things that they might not normally see.",
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0, "rupees": 250},
+	"icon": "kokiri/fairy_senses.dds",
+	"researchTime": 40,
+	"tooltip": "+20 Vision Range for all units.",
+	"modifications": [{"value": "Vision/Range", "multiply": 1.2}],
+	"affects": ["Human"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

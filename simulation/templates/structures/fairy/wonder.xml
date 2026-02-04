@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>1000</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="50.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>10000</Max>
+    <SpawnEntityOnDeath>rubble/debris_fairy_largeA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Unicorn Fountain</SpecificName>
+    <History>A legendary fountain still believed to be myth. Many have searched their entire lives for this fabled wonder, and none have found it. Legend says that only a Fairy may visit the Unicorn Fountain, and she may permit a mortal friend a glimpse in their sleep.</History>
+    <Icon>structures/fairy/fai_unicornwonder.dds</Icon>
+    <Tooltip>The Fairy Wonder, allows you to summon the Maku Tree of Horon.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="90.0" depth="90.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/fairy/fairy_titan_maku
+    </Entities>
+  </Trainer>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/fairy/complete_unicornfountain.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/fairy/sel_unicornfountain.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>52</Radius>
+    <Root>false</Root>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_uniwonderA_spring.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_spring.xml</FoundationActor>
+  </VisualActor>
+</Entity>

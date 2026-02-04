@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 120,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Vision/Range", "multiply": 2 }
+	],
+	"auraName": "Prophet Eyes",
+	"auraDescription": "Nearby units x2 vision range.",
+	"overlayIcon": "art/textures/ui/session/auras/Old/zeldav_propheteyes.dds"
+}

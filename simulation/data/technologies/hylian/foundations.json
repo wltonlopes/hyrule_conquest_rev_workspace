@@ -1,0 +1,15 @@
+{
+	"genericName": "Reinforced Foundations",
+	"description": "The foundations of towers can be reinforced with stone, making them much more durable.",
+	"cost": {"food": 0, "wood": 0, "stone": 400, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "hylian/hyl_meticulations.dds",
+	"researchTime": 40,
+	"tooltip": "Towers have 25% more health.",
+	"modifications": [
+				{"value": "Health/Max", "multiply": 1.25}
+			 ],
+	"affects": ["StoneTower"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

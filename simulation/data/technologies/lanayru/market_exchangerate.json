@@ -1,7 +1,7 @@
 {
 	"genericName": "High Exchange Rates",
 	"description": "Creating a higher exchange rate for the Emporium will increase income drastically",
-	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 300},
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 0, "rupees": 300},
 	"requirements": { "all": 
 				[
 					{ "entity": { "class": "Bank", "number": 1 } }
@@ -16,10 +16,11 @@
 	{"value": "Player/BarterMultiplier/Buy/wood", "multiply": 1.25},
 	{"value": "Player/BarterMultiplier/Buy/stone", "multiply": 1.25},
 	{"value": "Player/BarterMultiplier/Buy/metal", "multiply": 1.25},
+	{"value": "Player/BarterMultiplier/Buy/rupees", "multiply": 1.25},
 	{"value": "Player/BarterMultiplier/Sell/food", "multiply": 0.75},
 	{"value": "Player/BarterMultiplier/Sell/wood", "multiply": 0.75},
 	{"value": "Player/BarterMultiplier/Sell/stone", "multiply": 0.75},
-	{"value": "Player/BarterMultiplier/Sell/metal", "multiply": 0.75}	
+	{"value": "Player/BarterMultiplier/Sell/rupees", "multiply": 0.75}	
 	],
 	"affects": ["Market"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/moblin/bugblinA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/moblin/medium/bugblinA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/moblin/low/bugblinA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_bugblin/base_HC_biped_club.xml">
+        <props>
+          <prop actor="props/units/outfits/moblin_bugblin_outfit.xml" attachpoint="root"/>
+          <prop actor="props/units/weapons/moblin_bokoclubC.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Red">
+        <textures>
+          <texture file="skeletal/moblin/mob_bugblinA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Black">
+        <textures>
+          <texture file="skeletal/moblin/mob_bugblinB.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Blue">
+        <textures>
+          <texture file="skeletal/moblin/mob_bugblinC.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Yellow">
+        <textures>
+          <texture file="skeletal/moblin/mob_bugblinD.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Bias_for_Red">
+        <textures>
+          <texture file="skeletal/moblin/mob_bugblinA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_bugblin/base_HC_biped_capture.xml"/>
+      <variant file="HC_bugblin/base_HC_biped_slaughter.xml"/>
+      <variant file="HC_bugblin/base_HC_biped_death.xml">
+        <props>
+          <prop actor="props/units/outfits/moblin_bugblin_outfit.xml" attachpoint="root"/>
+          <prop actor="props/units/weapons/moblin_bokoclubC.xml" attachpoint="root"/>
+          <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

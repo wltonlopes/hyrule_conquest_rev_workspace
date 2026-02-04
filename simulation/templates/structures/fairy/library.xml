@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_library">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>200</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="35.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_fairy_mediumA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <History>Perhaps one of the rarest Fairy locations in all known records, a Misthenge is considered an impossible task to find unless it's Fairy master allows one to stumble unto it. Believed to be a library of all manner of ancient secrets, legend has it that magic too powerful to be known by the world is kept locked away under the stones of these ringed henges.</History>
+    <SpecificName>Misthenge</SpecificName>
+    <Tooltip>Discovers Fairy secrets to improve various features.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="52.0" width="52.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>20</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/fairy/complete_misthenge.xml</constructed>
+      <select>interface/select/building/fairy/sel_misthenge.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_misthengeA_spring.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_spring.xml</FoundationActor>
+  </VisualActor>
+</Entity>

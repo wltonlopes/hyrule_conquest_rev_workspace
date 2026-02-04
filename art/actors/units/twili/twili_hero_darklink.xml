@@ -38,7 +38,6 @@
     <variant file="HC_capes/base_HC_biped_cape_death.xml">
       <props>
 		<prop actor="props/units/capes/cape_darklinkA.xml" attachpoint="root"/>
-        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

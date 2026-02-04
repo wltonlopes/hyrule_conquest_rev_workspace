@@ -1,7 +1,7 @@
 {
 	"genericName": "Sleek Nuts",
 	"description": "With some minor adjustments, Deku Nuts can be altered to be more aerodynamic, allowing them to fly further before falling back to the earth.",
-	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 250},
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 0, "rupees": 250},
 	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "deku"}]},
 	"requirementsTooltip": "Unlocked with Town Phase.",
 	"icon": "deku/scrubling_sleeknuts.dds",

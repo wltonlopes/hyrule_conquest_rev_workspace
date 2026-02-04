@@ -1,0 +1,16 @@
+{
+	"genericName": "Positive Incentives",
+	"description": "Tokay are very easy to control, simple things make the creatures happy even when bossed around and kept in less than ideal living conditions. Often all that is needed to get these Slaves to work faster was the promise of an extra outfit.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 300},
+	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with Village Phase.",
+	"icon": "labrynna/gather_incentive.dds",
+	"researchTime": 40,
+	"tooltip": "Upgrades Tokay Slave move speed by 15%",
+	"modifications": [
+		{"value": "UnitMotion/WalkSpeed", "multiply": 1.15},
+		{"value": "UnitMotion/RunMultiplier", "multiply": 1.15}
+	],
+  	"affects": [ "FemaleCitizen" ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

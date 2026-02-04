@@ -1,0 +1,18 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack","multiply": 1.3 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.3 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.3 },
+		{ "value": "Attack/Ranged/Damage/Hack","multiply": 1.3 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.3 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.3 },
+		{ "value": "Attack/Capture/Capture","multiply": 1.3 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.3 }
+	],
+	"auraName": "Emperor of the Gerudo",
+	"auraDescription": "Nearby soldiers +30% walk speed, non-magic damage, and capture.",
+	"overlayIcon": "art/textures/ui/session/auras/Old/ganondorf_kinggerudo.dds"
+}

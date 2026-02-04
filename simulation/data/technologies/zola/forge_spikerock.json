@@ -1,7 +1,7 @@
 {
 	"genericName": "Spiky Rocks",
 	"description": "Give your Octoroks spiky rocks to shoot out, poking enemies as well as bludgeoning them.",
-	"cost": {"food": 0, "wood": 0, "stone": 200, "metal": 200},
+	"cost": {"food": 0, "wood": 0, "stone": 200, "metal": 0, "rupees": 200},
 	"icon": "zola/spikerocks.dds",
 	"researchTime": 40,
 	"tooltip": "Octoroks and Octogons now deal 3 Pierce damage.",

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/moblin/mob_gruntA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/moblin/medium/mob_gruntA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/moblin/low/mob_gruntA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_moblin/base_HC_biped_spear.xml">
+        <textures>
+          <texture file="skeletal/moblin/mob_mainC_blight.dds" name="baseTex"/>
+        </textures>
+        <props>
+          <prop actor="particle/demonblight_smokeD.xml" attachpoint="head"/>
+          <prop actor="props/units/weapons/moblin_spearA.xml" attachpoint="R_hand"/>
+        </props>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_moblin/base_HC_biped_capture.xml"/>
+      <variant file="HC_moblin/base_HC_biped_slaughter.xml"/>
+      <variant file="HC_moblin/base_HC_biped_death.xml">
+        <props>
+          <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

@@ -1,0 +1,83 @@
+<skeletons>
+<standard_skeleton id="StaltroopSummon Skeleton" title="StaltroopSummon Skeleton">
+<bone name="stalltroop_raise_base">
+<bone name="bone_pelvis">
+<bone name="bone_abs">
+<bone name="bone_torso">
+<bone name="bone_Rclavical">
+<bone name="bone_Rupperarm">
+</bone>
+</bone>
+<bone name="bone_Lclavical">
+<bone name="bone_Lupperarm">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="bone_Lelbow">
+</bone>
+<bone name="bone_Lhand">
+</bone>
+<bone name="bone_Relbow">
+</bone>
+<bone name="projectile">
+</bone>
+<bone name="bone_RThigh">
+</bone>
+<bone name="bone_Rlowerleg">
+</bone>
+<bone name="bone_Rfoot">
+</bone>
+<bone name="bone_LThigh">
+</bone>
+<bone name="bone_Llowerleg">
+</bone>
+<bone name="bone_Lfoot">
+</bone>
+<bone name="bone_head">
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="StaltroopSummon Skeleton" title="StaltroopSummon Skeleton">
+<identifier><root>stalltroop_raise_base</root></identifier>
+<bone name="stalltroop_raise_base"><target>stalltroop_raise_base</target>
+<bone name="bone_pelvis"><target>bone_pelvis</target>
+<bone name="bone_abs"><target>bone_abs</target>
+<bone name="bone_torso"><target>bone_torso</target>
+<bone name="bone_Rclavical"><target>bone_Rclavical</target>
+<bone name="bone_Rupperarm"><target>bone_Rupperarm</target>
+</bone>
+</bone>
+<bone name="bone_Lclavical"><target>bone_Lclavical</target>
+<bone name="bone_Lupperarm"><target>bone_Lupperarm</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="bone_Lelbow"><target>bone_Lelbow</target>
+</bone>
+<bone name="bone_Lhand"><target>bone_Lhand</target>
+</bone>
+<bone name="bone_Relbow"><target>bone_Relbow</target>
+</bone>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="bone_RThigh"><target>bone_RThigh</target>
+</bone>
+<bone name="bone_Rlowerleg"><target>bone_Rlowerleg</target>
+</bone>
+<bone name="bone_Rfoot"><target>bone_Rfoot</target>
+</bone>
+<bone name="bone_LThigh"><target>bone_LThigh</target>
+</bone>
+<bone name="bone_Llowerleg"><target>bone_Llowerleg</target>
+</bone>
+<bone name="bone_Lfoot"><target>bone_Lfoot</target>
+</bone>
+<bone name="bone_head"><target>bone_head</target>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

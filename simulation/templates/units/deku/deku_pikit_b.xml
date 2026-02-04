@@ -13,7 +13,7 @@
       <RepeatTime>1400</RepeatTime>
       <Stun>
         <Chance>0</Chance>
-        <Time>0</Time>
+        <Time>1</Time>
       </Stun>
     </Melee>
   </Attack>

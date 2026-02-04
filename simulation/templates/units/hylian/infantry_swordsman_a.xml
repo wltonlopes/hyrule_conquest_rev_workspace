@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/hylian/infantry_swordsman_b">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Sword</AttackName>
+      <Damage>
+        <Hack>10.0</Hack>
+        <Pierce>4.0</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>1100</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <metal>75</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>125</Max>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">Soldier UpgSword</Classes>
+    <Rank>Advanced</Rank>
+    <SpecificName>Soldier Swordsman</SpecificName>
+    <History>Scores of these infantry serve as the primary warrior deployed by the Kingdom of Hyrule. Funded by both the nobles and the royal family, these soldiers have proper combat training and are provided with standardized armor and weaponry.</History>
+    <Tooltip>Medium unit armed with a spear and shield. Deals Hacking damage.</Tooltip>
+    <Icon>units/hylian/hyl_soldiersword.dds</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/hylian/infantry_swordsman_e</Entity>
+  </Promotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>5</Pierce>
+        <Crush>6</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <VisualActor>
+    <Actor>units/hylian/hylian_soldier_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

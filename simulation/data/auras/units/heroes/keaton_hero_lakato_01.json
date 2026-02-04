@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Loot/food", "multiply": 1.5 },
+		{ "value": "Loot/wood", "multiply": 1.5 },
+		{ "value": "Loot/stone", "multiply": 1.5 },
+		{ "value": "Loot/metal", "multiply": 1.5 }
+	],
+	"auraName": "Crime Don",
+	"auraDescription": "+50% loot from slain enemies."
+}

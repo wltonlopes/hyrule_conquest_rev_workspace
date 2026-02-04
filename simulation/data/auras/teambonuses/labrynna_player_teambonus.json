@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Soldier"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.90 }
+	],
+	"auraName": "Fodder Training",
+	"auraDescription": "All allied soldiers train 10% faster."
+}

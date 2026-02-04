@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_stonethrower">
+  <Attack replace="">
+    <Ranged>
+      <AttackName>Bolts</AttackName>
+      <Damage>
+        <Pierce>0.0</Pierce>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>120.0</MaxRange>
+      <MinRange>45.0</MinRange>
+      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
+      <PrepareTime>1800</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/catapult_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.2</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>100</Speed>
+        <Spread>4</Spread>
+      </Projectile>
+      <RepeatTime>7000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Pierce>100.0</Pierce>
+          <True>100</True>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>8</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Square depth="12.0" width="12.0"/>
+  </Footprint>
+  <Health>
+    <Max>650</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>50</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/minor_zuna/support_female_citizen</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Triballista</SpecificName>
+    <History>Much like their handheld crossbow, the Zuna Triballista allows it's crew to load up to three giant bolts at a time instead of one. A single Triballista can fire these bolts at mutliple targets, potentially breaking open multiple holes in an enemy's defense.</History>
+    <Tooltip>Ranged Siege unit that unleashes a triad of giant bolts at its targets.</Tooltip>
+    <Icon>units/minor_zuna/zun_triballista.dds</Icon>
+    <VisibleClasses datatype="tokens">Zuna</VisibleClasses>
+  </Identity>
+  <Pack disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>25.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/siege/ballist_attack.xml</attack_ranged>
+      <death>voice/zuna/zuna_death.xml</death>
+      <order_attack>voice/zuna/zuna_attack.xml</order_attack>
+      <order_garrison>voice/zuna/zuna_garrison.xml</order_garrison>
+      <order_gather>voice/zuna/zuna_gather.xml</order_gather>
+      <order_repair>voice/zuna/zuna_repair.xml</order_repair>
+      <order_walk>voice/zuna/zuna_walk.xml</order_walk>
+      <run>actor/movement/cart/cart_move.xml</run>
+      <select>voice/zuna/zuna_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/cart/cart_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>6.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>120</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/minor_zuna/zun_triballista_b.xml</Actor>
+  </VisualActor>
+</Entity>

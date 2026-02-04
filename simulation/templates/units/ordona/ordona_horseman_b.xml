@@ -14,6 +14,12 @@
   </Attack>
   <Health>
     <Max>370</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>10</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/ordona/infantry_spearman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>ordona</Civ>

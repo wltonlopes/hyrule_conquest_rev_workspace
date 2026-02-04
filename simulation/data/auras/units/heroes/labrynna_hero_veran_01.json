@@ -1,0 +1,15 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Fire","add": 1 },
+		{ "value": "Resistance/Entity/Damage/Water", "add": 1 },
+		{ "value": "Resistance/Entity/Damage/Spirit", "add": 1 },
+		{ "value": "Resistance/Entity/Damage/Light", "add": 1 },
+		{ "value": "Resistance/Entity/Damage/Forest", "add": 1 },
+		{ "value": "Resistance/Entity/Damage/Shadow", "add": 1 }
+	],
+	"auraName": "Magical Protection",
+	"auraDescription": "While not known to be charitable, Veran often casts small charms upon her soldiers while in battle, to protect them from magic."
+}

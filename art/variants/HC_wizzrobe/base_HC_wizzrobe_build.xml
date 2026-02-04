@@ -1,0 +1,11 @@
+<variant name="Build">
+  <animations>
+	<animation event="0.1" file="HC_wizzrobe/wizzrobe_summonA.dae" name="Build" id="build1" speed="70"/>
+	<animation event="0.1" file="HC_wizzrobe/wizzrobe_summonB.dae" name="Build" id="build2" speed="70"/>
+	<animation event="0.1" file="HC_wizzrobe/wizzrobe_summonC.dae" name="Build" id="build3" speed="70"/>
+  </animations>
+      <props>
+		<prop actor="particle/fairy_sparklesA_blue.xml" attachpoint="R_weapon"/>
+		<prop actor="props/structures/minor_wizzrobe/wiz_summonglowA.xml" attachpoint="root"/>
+      </props>
+</variant>

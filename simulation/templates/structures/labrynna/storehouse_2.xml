@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/storehouse">
+  <Identity>
+    <SpecificName>Storage</SpecificName>
+    <History>A larger storehouse for Labrynna to build up their gathered resources.</History>
+    <Icon>structures/labrynna/lab_storehouseB.dds</Icon>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      labrynna/gather_mininggear
+    </Technologies>
+  </Researcher>
+  <Upgrade replace="">
+    <Storage>
+      <Cost>
+        <wood>50</wood>
+        <stone>50</stone>
+      </Cost>
+      <Entity>structures/labrynna/storehouse_3</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Upgrade the Storage into Heavy Storage.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Storage>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_storehouseB.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>

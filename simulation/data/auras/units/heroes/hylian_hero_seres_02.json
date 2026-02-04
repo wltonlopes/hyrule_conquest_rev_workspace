@@ -1,0 +1,13 @@
+{
+	"type": "global",
+	"affects": ["Healer"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.6 },
+		{ "value": "Cost/Resources/food", "multiply": 0.6 },
+		{ "value": "Cost/Resources/wood", "multiply": 0.6 },
+		{ "value": "Cost/Resources/stone", "multiply": 0.6 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.6 }
+	],
+	"auraName": "Medical Expertise",
+	"auraDescription": "All healers cost 40% less and take 40% less time to train."
+}

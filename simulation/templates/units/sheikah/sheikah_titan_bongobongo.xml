@@ -93,7 +93,6 @@
   <Visibility>
     <Camouflage>
      <ActivateDelay>3000</ActivateDelay>
-      <PostDelay>3000</PostDelay>
     </Camouflage>
   </Visibility>
   <VisualActor>

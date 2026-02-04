@@ -1,0 +1,14 @@
+{
+	"genericName": "Deku Seed Cultigen",
+	"description": "Crossing the essence of Deku Trees with other types of lesser flora results in stronger and more bountiful plants. Kokiri can gather more wood from these hybrid trees.",
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 0, "rupees": 100},
+	"supersedes": "kokiri/gather_wood_planned",
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "kokiri"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "kokiri/gather_wood_cultigen.dds",
+	"researchTime": 40,
+	"tooltip": "+15% Wood Gather Rate - Worker",
+	"modifications": [{"value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.15}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

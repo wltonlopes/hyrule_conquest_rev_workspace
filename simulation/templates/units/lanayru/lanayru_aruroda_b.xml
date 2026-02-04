@@ -10,10 +10,6 @@
       <MaxRange>6.0</MaxRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>1400</RepeatTime>
-      <Stun>
-        <Chance>50</Chance>
-        <Time>750</Time>
-      </Stun>
     </Melee>
   </Attack>
   <Cost>

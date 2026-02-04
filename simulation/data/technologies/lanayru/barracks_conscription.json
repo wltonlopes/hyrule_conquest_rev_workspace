@@ -1,7 +1,7 @@
 {
 	"genericName": "Forced Conscription",
 	"description": "Mass produce your armies, at the price of weaker soldiers.",
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 500},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
 	"supersedes": "lanayru/barracks_volunteers",
 	"requirements": {"all": 
 				[

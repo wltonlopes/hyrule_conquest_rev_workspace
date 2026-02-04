@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_minor_centre">
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>250</wood>
+      <stone>250</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>12.0</Height>
+    <Circle radius="18.0"/>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_labrynna_small</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>6</SpawnNumberMax>
+      <SpawnNumberMin>6</SpawnNumberMin>
+      <Template>units/minor_keaton/keaton_marksman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Safehouse</SpecificName>
+    <History>One of the many Safehouses that the Cartel has spread throughout Hyrule. These serve as a meeting place for important Cartel members, as well as a storehouse for loot and supplies.</History>
+    <Icon>structures/sheikah/she_kitchen.dds</Icon>
+    <Tooltip>Trains Keaton units.</Tooltip>
+    <VisibleClasses datatype="tokens">Keaton</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="20.0" width="20.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_storehouse.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_storehouse.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/minor_keaton/keaton_brigand_b
+      units/minor_keaton/keaton_footpad_b
+      units/minor_keaton/keaton_bandito_b
+      units/minor_keaton/keaton_marksman_b
+      units/minor_keaton/keaton_hero_lakato
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/sheikah/sheikah_campA.xml</Actor>
+    <FoundationActor>structures/sheikah/sheikah_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

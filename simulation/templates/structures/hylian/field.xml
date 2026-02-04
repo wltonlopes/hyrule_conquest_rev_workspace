@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <AlertRaiser>
+    <List datatype="tokens">FemaleCitizen</List>
+    <RaiseAlertRange>50</RaiseAlertRange>
+    <EndOfAlertRange>100</EndOfAlertRange>
+    <SearchRange>100</SearchRange>
+  </AlertRaiser>
+  <Capturable>
+    <CapturePoints>300</CapturePoints>
+  </Capturable>
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="30.0" width="30.0"/>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <Classes datatype="tokens">DropsiteFood</Classes>
+    <SpecificName>Urban Farm</SpecificName>
+    <History>With enemies on all sides, and war quite frequent within the Kingdom's borders, the Hylians shifted to creating their farms within city walls over the centuries. They may not yield as bountiful of harvest because of their limited space, but they provide enough food nonetheless.</History>
+    <Icon>structures/hylian/hyl_urbanfarm.dds</Icon>
+    <Tooltip>Workers can harvest Food at this centralized location. Kingdom of Hyrule farms are also unique in that they serve as a farmstead.</Tooltip>
+    <VisibleClasses datatype="tokens">Farmstead Village</VisibleClasses>
+  </Identity>
+  <Minimap>
+    <Color b="102" g="204" r="155"/>
+    <Type>food</Type>
+  </Minimap>
+  <Obstruction>
+    <Static depth="25.0" width="30.0"/>
+    <BlockMovement>true</BlockMovement>
+    <BlockPathfinding>true</BlockPathfinding>
+  </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      hylian/peahat_dung
+    </Technologies>
+  </Researcher>
+  <ResourceDropsite>
+    <Types>food</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_farmsteadA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldI.xml</FoundationActor>
+  </VisualActor>
+</Entity>

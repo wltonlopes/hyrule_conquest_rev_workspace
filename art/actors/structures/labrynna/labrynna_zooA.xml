@@ -13,8 +13,6 @@
 	  <props>
 			<prop actor="props/structures/labrynna/labrynna_groundbase_zoo.xml" attachpoint="root"/>
 			<prop actor="props/structures/labrynna/labrynna_zoocageA.xml" attachpoint="root"/>
-			<prop actor="props/structures/labrynna/labrynna_zoocageB.xml" attachpoint="root"/>
-			<prop actor="props/structures/labrynna/labrynna_zoocageC.xml" attachpoint="root"/>
 			<prop actor="flora/trees/oak.xml" attachpoint="tree_01"/>
 			<prop actor="flora/trees/oak.xml" attachpoint="tree_02"/>
 			<prop actor="flora/trees/oak.xml" attachpoint="tree_03"/>

@@ -1,0 +1,19 @@
+{
+	"genericName": "Kokiri Utility Belts",
+	"description": "Kokiri Utility Belts are very common, virtually ever Kokiri wears one. These handy dressings contain pouches and tools for everyday work and can be used to carry all manner of useful items.",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 300},
+	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "kokiri"}]},
+	"requirementsTooltip": "Unlocked with Village Phase.",
+	"icon": "kokiri/gather_capacity_belt.dds",
+	"researchTime": 40,
+	"tooltip": "+3 Resource Capacity, +10% Build and Repair Rate - Worker",
+	"modifications": [
+				{"value": "ResourceGatherer/Capacities/food", "add": 3},
+				{"value": "ResourceGatherer/Capacities/wood", "add": 3},
+				{"value": "ResourceGatherer/Capacities/stone", "add": 3},
+				{"value": "ResourceGatherer/Capacities/metal", "add": 3},
+				{"value": "Builder/Rate", "multiply": 1.10}
+			 ],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "add": 4 }
+	],
+	"auraName": "Dance of the Fairies",
+	"auraDescription": "All units +4 walk speed."
+}

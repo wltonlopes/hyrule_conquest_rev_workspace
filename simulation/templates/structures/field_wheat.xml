@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Wheat Field</SpecificName>
+    <History>A field of Wheat to harvest.</History>
+    <Icon>structures/ordona/ord_field.dds</Icon>
+    <Tooltip>Harvest Wheat for food. Max gatherers: 5.</Tooltip>
+  </Identity>
+  <Minimap>
+    <Color b="102" g="204" r="155"/>
+    <Type>food</Type>
+  </Minimap>
+  <VisualActor>
+    <Actor>structures/misc/field_wheat.xml</Actor>
+  </VisualActor>
+</Entity>

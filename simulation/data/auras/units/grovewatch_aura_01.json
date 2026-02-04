@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": "30",
+	"stackable": true,
+	"affects": ["Melee"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.05},
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.05},
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.05}
+	],
+	"auraName": "Inspiring Presence",
+	"auraDescription": "All nearby melee units +5% damage (stacks).",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

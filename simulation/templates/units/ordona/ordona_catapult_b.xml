@@ -3,8 +3,19 @@
   <Attack replace="">
     <Ranged>
       <AttackName>Boulder</AttackName>
+      <ApplyStatus>
+        <Burning>
+          <Interval>1000</Interval>
+          <Damage>
+            <Fire>0</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>0</Duration>
+        </Burning>
+      </ApplyStatus>
       <Damage>
         <Crush>300.0</Crush>
+        <Fire>0</Fire>
       </Damage>
       <MaxRange>110</MaxRange>
       <MinRange>45.0</MinRange>
@@ -38,6 +49,12 @@
   <GarrisonHolder disable=""/>
   <Health>
     <Max>600</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>10</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/ordona/infantry_spearman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>ordona</Civ>

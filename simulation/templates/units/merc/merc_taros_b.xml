@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Attack>
-    <Ranged>
+    <Ranged replace="">
       <AttackName>Trident</AttackName>
       <Damage>
         <Pierce>17.0</Pierce>
@@ -31,11 +31,13 @@
   </Attack>
   <Cost>
     <BuildTime>12</BuildTime>
+    <Population>0</Population>
     <Resources>
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>250</metal>
+      <metal>0</metal>
+      <rupees>150</rupees>
     </Resources>
   </Cost>
   <Health>
@@ -48,6 +50,9 @@
     <Icon>units/merc/merc_taros.dds</Icon>
     <Tooltip>Fast charging Melee unit that rams into targets with its trident.</Tooltip>
     <VisibleClasses datatype="tokens">Merc</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

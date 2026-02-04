@@ -29,6 +29,7 @@
   </Health>
   <Identity>
     <Civ>stalfos</Civ>
+    <Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Undead Stal</VisibleClasses>
     <SpecificName>Blue Bubble</SpecificName>
     <GenericName>Undead</GenericName>

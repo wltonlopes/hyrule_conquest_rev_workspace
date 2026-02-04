@@ -29,6 +29,7 @@
   </Health>
   <Identity>
     <Civ>stalfos</Civ>
+    <Classes datatype="tokens">-Organic</Classes>
     <SpecificName>Meg</SpecificName>
     <GenericName>Poe Sister</GenericName>
     <History>One of the four Poe sisters of legend, Meg's lifetime is shrouded in mystery as well as the circumstances leading to her haunting of the Kokiri Forest. Where Meg roams the skeletal remains of long forgotten souls rise and follow. Seeking an audience with this enigmatic ghost is foolish at best; seeking her service is dangerous beyond all reason.</History>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Bite</AttackName>
+      <Damage>
+        <Crush>3</Crush>
+        <Pierce>3</Pierce>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>800</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>6</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>2.0</Height>
+    <Circle radius="1.0"/>
+  </Footprint>
+  <Health>
+    <Max>25</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Creature</GenericName>
+    <SpecificName>Baby Mountain Tektite</SpecificName>
+    <History>Mountain Tektites commonly lay their eggs near warm hot springs or volcanic vents. The babies lack their parent's climbing skills, but will still attempt to relentlessly hunt prey foolish enough to approach their nests.</History>
+    <Tooltip>Quick moving Melee Creature unit.</Tooltip>
+    <Icon>gaia/fauna_tektite_baby_rock.dds</Icon>
+    <VisibleClasses datatype="tokens">Creature</VisibleClasses>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <Floating>true</Floating>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>3.0</Crush>
+        <Hack>2.0</Hack>
+        <Pierce>3.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+ <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/tektite_bite.xml</attack_melee>
+      <death>voice/wild/tektite/tektite_death.xml</death>
+      <run>actor/movement/tektite/tektite_move.xml</run>
+      <select>voice/wild/tektite/tektite_select.xml</select>
+      <walk>actor/movement/tektite/tektite_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <RoamDistance>6.0</RoamDistance>
+    <FleeDistance>6.0</FleeDistance>
+    <RoamTimeMin>15000</RoamTimeMin>
+    <RoamTimeMax>60000</RoamTimeMax>
+    <FeedTimeMin>15000</FeedTimeMin>
+    <FeedTimeMax>60000</FeedTimeMax>
+    <Formations disable=""/>
+  </UnitAI>
+  <UnitMotion>
+    <RunMultiplier>1.1666</RunMultiplier>
+    <WalkSpeed>13</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/wild/wild_tektite_baby_rockA.xml</Actor>
+  </VisualActor>
+</Entity>

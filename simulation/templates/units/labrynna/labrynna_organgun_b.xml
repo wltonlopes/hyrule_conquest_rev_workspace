@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_stonethrower">
+  <Attack replace="">
+    <Ranged>
+      <AttackName>Cannonballs</AttackName>
+      <Damage>
+        <Crush>125</Crush>
+        <Fire>0</Fire>
+      </Damage>
+      <MaxRange>110.0</MaxRange>
+      <MinRange>45.0</MinRange>
+      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
+      <PrepareTime>1500</PrepareTime>
+      <Projectile>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/trebuchet_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.2</ImpactAnimationLifetime>
+        <Speed>150.0</Speed>
+        <Spread>3</Spread>
+	<FriendlyFire>false</FriendlyFire>
+	<LaunchPoint y="3"/>
+      </Projectile>
+      <RepeatTime>3000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Crush>50.0</Crush>
+          <Fire>0</Fire>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>6</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>3.0</Height>
+    <Square depth="10.0" width="10.0"/>
+  </Footprint>
+  <Health>
+    <Max>500</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>2</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/labrynna/labrynna_borderguard_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <SpecificName>Ribauldequin</SpecificName>
+    <History>Nicknamed the Organ Gun by their enemies, the Ribauldequin is a battery of lighter cannons linked together. The weapon functions much differently than it's single barreled counterpart however; the Organ Gun unleashes a rapid fire shotgun spray over a large area rather than picking out a target. The resulting volley can indiscriminately shred apart large swaths of enemy soldiers.</History>
+    <Tooltip>Ranged Siege unit with very wide field of fire and Splash Damage.</Tooltip>
+    <Icon>units/labrynna/lab_organgun.dds</Icon>
+    <VisibleClasses datatype="tokens">Gunpowder</VisibleClasses>
+  </Identity>
+  <Pack disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>8</Crush>
+        <Hack>8.0</Hack>
+        <Pierce>15.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/cannon_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/organgun_fire.xml</attack_ranged>
+      <order_attack>voice/labrynna/handcannon/handcannon_attack.xml</order_attack>
+      <order_garrison>voice/labrynna/handcannon/handcannon_garrison.xml</order_garrison>
+      <order_gather>voice/labrynna/handcannon/handcannon_gather.xml</order_gather>
+      <order_repair>voice/labrynna/handcannon/handcannon_repair.xml</order_repair>
+      <order_walk>voice/labrynna/handcannon/handcannon_walk.xml</order_walk>
+      <run>actor/movement/cart/cart_move.xml</run>
+      <select>voice/labrynna/handcannon/handcannon_select.xml</select>
+      <trained>interface/alarm/alarm_create_engine.xml</trained>
+      <walk>actor/movement/cart/cart_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>6.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/labrynna/labrynna_organgun_b.xml</Actor>
+  </VisualActor>
+</Entity>

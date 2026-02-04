@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/moblin/mob_tallblinA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/moblin/medium/mob_tallblinA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/moblin/low/mob_tallblinA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_tallblin/base_HC_biped_club.xml">
+        <props>
+          <prop actor="units/moblin/moblin_bugblin_thrown.xml" attachpoint="carryblin"/>
+          <prop actor="units/moblin/moblin_bugblin_ammo.xml" attachpoint="backpack"/>
+          <prop actor="units/moblin/moblin_tallblin_bag.xml" attachpoint="root"/>
+          <prop actor="props/units/outfits/moblin_tallblin_outfit.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Tallblin Red">
+        <textures>
+          <texture file="skeletal/moblin/mob_tallblinA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Tallblin Black">
+        <textures>
+          <texture file="skeletal/moblin/mob_tallblinB.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Tallblin Blue">
+        <textures>
+          <texture file="skeletal/moblin/mob_tallblinC.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Tallblin Yellow">
+        <textures>
+          <texture file="skeletal/moblin/mob_tallblinD.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Tallblin Bias_for_Red">
+        <textures>
+          <texture file="skeletal/moblin/mob_tallblinA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_tallblin/base_HC_biped_attack_throw.xml"/>
+      <variant file="HC_tallblin/base_HC_biped_capture.xml"/>
+      <variant file="HC_tallblin/base_HC_biped_slaughter.xml"/>
+      <variant file="HC_tallblin/base_HC_biped_death.xml">
+        <props>
+          <prop actor="units/moblin/moblin_tallblin_bag.xml" attachpoint="root"/>
+          <prop actor="props/units/outfits/moblin_tallblin_outfit.xml" attachpoint="root"/>
+          <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

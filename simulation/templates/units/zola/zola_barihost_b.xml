@@ -26,13 +26,19 @@
   </Footprint>
   <Health>
     <Max>180</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>2</SpawnNumberMax>
+      <SpawnNumberMin>2</SpawnNumberMin>
+      <Template>units/zola/zola_bari_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>zola</Civ>
     <SpecificName>Bari Host</SpecificName>
     <VisibleClasses datatype="tokens">Creature Support Jellyfish</VisibleClasses>
     <History>These Parella carry a swarm of Bari Jellyish with them, which spawn and attack enemies if the Host is slain in battle.</History>
-    <Tooltip>Melee Creature unit that can train Bari.</Tooltip>
+    <Tooltip>Melee Creature unit that can train Bari. Splits into two Bari when slain</Tooltip>
     <Icon>units/zola/zol_barihost.dds</Icon>
   </Identity>
   <Position>

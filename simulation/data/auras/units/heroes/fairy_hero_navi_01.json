@@ -1,0 +1,10 @@
+{
+	"type": "radius",
+	"range": 60,
+	"affects": ["Ranged"],
+	"modifications": [
+		{ "value": "Attack/Projectile/Spread", "multiply": 0.01 }
+	],
+	"auraName": "Guided Strike",
+	"auraDescription": "All nearby ranged units hit automatically."
+}

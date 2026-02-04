@@ -1,0 +1,16 @@
+{
+	"genericName": "Guay-Fletched Bolts",
+	"description": "Using the same process with which they make crossbow bolts, the Scorio bolts can be upgraded with Guay feathers.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 200},
+	"supersedes": "hylian/siege_attack_01",
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/attack_guay_tipped.dds",
+	"researchTime": 40,
+	"tooltip": "+50% accuracy of Scorpios.",
+	"modifications": [
+				{"value": "Attack/Ranged/Projectile/Spread", "multiply": 0.5}
+			 ],
+	"affects": ["Scorpio"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

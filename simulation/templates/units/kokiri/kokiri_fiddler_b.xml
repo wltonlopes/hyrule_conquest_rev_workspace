@@ -26,7 +26,7 @@
     <Tooltip>Support unit that improves the movement rate of Kokiri with his fiddle. Can be upgraded to play a specific magical song.</Tooltip>
     <Icon>units/kokiri/kok_fiddler.dds</Icon>
     <Requirements>
-      <Techs datatype="tokens">phase_town</Techs>
+      <Techs datatype="tokens">phase_city</Techs>
     </Requirements>
   </Identity>
   <Promotion disable=""/>

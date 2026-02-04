@@ -3,6 +3,16 @@
   <Attack replace="">
     <Ranged>
       <AttackName>Shrapnel</AttackName>
+      <ApplyStatus>
+        <Bleeding>
+          <Interval>1000</Interval>
+          <Damage>
+            <True>1</True>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+        </Bleeding>
+      </ApplyStatus>
       <Damage>
         <Crush>300.0</Crush>
       </Damage>
@@ -19,7 +29,29 @@
         <Speed>37.5</Speed>
         <Spread>3.0</Spread>
       </Projectile>
+      <SpawnEntityOnImpact>
+        <SpawnNumberMax>1</SpawnNumberMax>
+        <SpawnNumberMin>1</SpawnNumberMin>
+        <SpawnOnHit>
+          <Chance>100</Chance>
+          <SpawnAtTarget>true</SpawnAtTarget>
+        </SpawnOnHit>
+        <SpawnOnImpact>
+          <Chance>100</Chance>
+        </SpawnOnImpact>
+        <Template>units/lanayru/lanayru_shrapnel</Template>
+      </SpawnEntityOnImpact>
       <Splash>
+        <ApplyStatus>
+          <Bleeding>
+            <Interval>1000</Interval>
+            <Damage>
+              <True>1</True>
+            </Damage>
+            <Stackability>Stack</Stackability>
+            <Duration>9000</Duration>
+          </Bleeding>
+        </ApplyStatus>
         <Damage>
           <Hack>5.0</Hack>
           <Pierce>12.0</Pierce>
@@ -45,6 +77,12 @@
   </Footprint>
   <Health>
     <Max>600</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>50</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/lanayru/infantry_swordsman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>lanayru</Civ>

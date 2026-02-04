@@ -5,7 +5,8 @@
     "food": 200,
     "wood": 0,
     "stone": 0,
-    "metal": 100
+    "metal": 0,
+    "rupees": 100
   },
   "requirements": {
     "all": [

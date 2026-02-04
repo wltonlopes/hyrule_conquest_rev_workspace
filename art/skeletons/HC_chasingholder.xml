@@ -1,0 +1,19 @@
+<skeletons>
+<standard_skeleton id="Chasingholder Skeleton" title="Chasingholder Skeleton">
+<bone name="chasing_base">
+<bone name="chased">
+</bone>
+<bone name="chasing">
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Chasingholder Skeleton" title="Chasingholder Skeleton">
+<identifier><root>chasing_base</root></identifier>
+<bone name="chasing_base"><target>chasing_base</target>
+<bone name="chased"><target>chased</target>
+</bone>
+<bone name="chasing"><target>chasing</target>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

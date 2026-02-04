@@ -20,6 +20,15 @@
   <Obstruction>
     <Static depth="40.0" width="40.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -barracks_batch_training
+      -unlock_champion_infantry
+      -pair_unlock_champions_sele
+      deku/baba_breeding
+      deku/rapid_growth
+    </Technologies>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <constructed>interface/complete/building/deku/complete_babapatch.xml</constructed>

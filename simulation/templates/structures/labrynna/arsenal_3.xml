@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/arsenal_2">
+  <Identity>
+    <History>The house of the dreaded Steam Tank; Labrynna's fearsome machine of death and destruction.</History>
+    <SpecificName>Garage</SpecificName>
+    <Icon>structures/labrynna/lab_gunpowderC.dds</Icon>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      labrynna/handcannon_efficientmortar
+      labrynna/cannon_highyield
+      labrynna/steamtank_yoribiengine
+      labrynna/production_line
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/labrynna/labrynna_steamtank_b
+      units/labrynna/labrynna_hero_ralph
+    </Entities>
+  </Trainer>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_powderC.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldD.xml</FoundationActor>
+  </VisualActor>
+</Entity>

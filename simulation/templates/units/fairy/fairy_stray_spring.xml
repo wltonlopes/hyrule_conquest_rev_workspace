@@ -1,0 +1,31 @@
+<Entity parent="units/fairy/fairy_stray_b">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/fairy/civil_centreA
+      structures/fairy/civil_centre_upgA
+      structures/fairy/fairy_menhir_spring
+      structures/fairy/fairy_fountain_spring
+      structures/fairy/fairy_waterheaven_spring
+      structures/fairy/fairy_misthenge_spring
+      structures/fairy/fairy_sundial_spring
+      structures/fairy/fairy_meetingspring_spring
+      structures/fairy/fairy_greatfountain_spring
+      structures/fairy/fairy_uniwonder_spring
+    </Entities>
+  </Builder>
+  <DeathDamage>
+    <Damage>
+      <Forest>35.0</Forest>
+    </Damage>
+  </DeathDamage>
+  <Health>
+    <IdleRegenRate>1</IdleRegenRate>
+  </Health>
+  <Identity>
+    <SpecificName>Stray Fairy (Spring)</SpecificName>
+    <Classes datatype="tokens">Spring</Classes>
+  </Identity>
+  <VisualActor>
+    <Actor>units/fairy/fairy_stray_spring.xml</Actor>
+  </VisualActor>
+</Entity>

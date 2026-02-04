@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Capture replace="">
+      <AttackName>Capture</AttackName>
+      <Capture>5</Capture>
+      <MaxRange>20</MaxRange>
+      <RepeatTime>3000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Structure</RestrictedClasses>
+    </Capture>
+    <Ranged replace="">
+      <AttackName>Bullets</AttackName>
+      <Damage>
+        <Pierce>30</Pierce>
+        <Fire>0</Fire>
+        <True>30</True>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>90</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1500</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>100.0</Speed>
+        <Spread>3</Spread>
+      </Projectile>
+      <RepeatTime>8000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <metal>75</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>175</Max>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <SpecificName>Poacher</SpecificName>
+    <History>Labrynna is known for their large variety of hostile and strange wildlife. Scores of big game hunters have made it their living to hunt down and domesticate many of these animalas. Using the mystical Scent Seeds, these Poachers can caputure and domesticate nearly any wild animal, allowing them to train these animals at their Circus.</History>
+    <Tooltip>Support unit that can capture and domesticate Wildlife. </Tooltip>
+    <Icon>units/labrynna/lab_poacher.dds</Icon>
+    <VisibleClasses datatype="tokens">Gunpowder</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_capture>attack/weapon/gun_scentseed.xml</attack_capture>
+      <attack_impact_ranged>attack/weapon/bullet_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+      <death>voice/labrynna/conqueror/conqueror_death.xml</death>
+      <order_attack>voice/labrynna/conqueror/conqueror_attack.xml</order_attack>
+      <order_garrison>voice/labrynna/conqueror/conqueror_garrison.xml</order_garrison>
+      <order_gather>voice/labrynna/conqueror/conqueror_gather.xml</order_gather>
+      <order_repair>voice/labrynna/conqueror/conqueror_repair.xml</order_repair>
+      <order_walk>voice/labrynna/conqueror/conqueror_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/labrynna/conqueror/conqueror_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>16</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/labrynna/labrynna_poacher_b.xml</Actor>
+  </VisualActor>
+</Entity>

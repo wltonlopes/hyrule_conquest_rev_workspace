@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/labrynna_hero_veran_01
+    units/heroes/labrynna_hero_veran_02
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Fairy Whip</AttackName>
+      <Damage>
+        <Shadow>30.0</Shadow>
+      </Damage>
+      <MaxRange>15</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1400</PrepareTime>
+      <RepeatTime>1700</RepeatTime>
+      <Splash>
+        <Damage>
+          <Shadow>15.0</Shadow>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>8</Range>
+        <Shape>Circular</Shape>
+        <Stun>
+          <Chance>20</Chance>
+          <Time>1500</Time>
+        </Stun>
+      </Splash>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="7" />
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2700</Max>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <SpecificName>Veran</SpecificName>
+    <GenericName>Sorcerous of Shadows</GenericName>
+    <History>A mystery to all in Labrynna, even those most close to her, Veran's past is a terrible saga of personal loss and trauma. Once a Great Fairy, circumstances in the past lead to her banishment to the Realm of Twilight with other criminal elements of her people. Then, Twinrova summoned her back from the Twilight Realm, putting her in charge of the conquest of Labrynna... which she succeeded at with flying colors by inserting herself into the throne room of Labrynna, becoming Queen Ambi's chief advicer. Her current orders are unknown. She is, however, quite clearly connected to Labrynna's rapid and extreme military growth. She is the architect of the Black Tower, a massive monolithic structure designed to serve as the new throne of Queen Ambi. Some suspect there's more to the tower's purpose than just an ego trip for Veran's royal friend, however.</History>
+    <Tooltip>Tall Melee Hero with a powerful Splash Damage whip that is resistant to magic damage.</Tooltip>
+    <Icon>units/labrynna/lab_hero_veran.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>6.0</Crush>
+        <Fire>10.0</Fire>
+        <Forest>10.0</Forest>
+        <Hack>5.0</Hack>
+        <Light>10.0</Light>
+        <Pierce>5.0</Pierce>
+        <Shadow>55.0</Shadow>
+        <Spirit>10.0</Spirit>
+        <Water>10.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/veran_whip.xml</attack_impact_ranged>
+      <death>voice/labrynna/veran/veran_death.xml</death>
+      <order_attack>voice/labrynna/veran/veran_attack.xml</order_attack>
+      <order_garrison>voice/labrynna/veran/veran_garrison.xml</order_garrison>
+      <order_gather>voice/labrynna/veran/veran_gather.xml</order_gather>
+      <order_repair>voice/labrynna/veran/veran_repair.xml</order_repair>
+      <order_walk>voice/labrynna/veran/veran_walk.xml</order_walk>
+      <select>voice/labrynna/veran/veran_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarWidth>2.0</BarWidth>
+    <BarHeight>0.333</BarHeight>
+    <HeightOffset>8.0</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed>10</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/labrynna/labrynna_veran_b.xml</Actor>
+  </VisualActor>
+</Entity>

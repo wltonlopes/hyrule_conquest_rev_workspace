@@ -1,7 +1,7 @@
 {
 	"genericName": "Apprenticeships",
 	"description": "Begin training apprentices at forges, allowing better weapons and armor.",
-	"cost": {"food": 350, "wood": 0, "stone": 0, "metal": 150},
+	"cost": {"food": 350, "wood": 0, "stone": 0, "metal": 0, "rupees": 150},
 	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "ordona"}]},
 	"requirementsTooltip": "Unlocked with Town Phase.",
 	"icon": "ordona/smithy_apprenticeship.dds",

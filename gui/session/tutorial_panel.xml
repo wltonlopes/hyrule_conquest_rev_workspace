@@ -4,7 +4,9 @@
 	<object size="10 10 100%-20 100%-48">
 		<object name="tutorialText" type="text" style="TutorialPanel"/>
 	</object>
-
+	
+        <object name="characterSprite" size="-230 0 0 230" type="image" ghost="true" hidden="false"/>
+	
 	<object name="tutorialWarning" type="text" style="ModernLeftLabelText" size="10 100%-42 100%-20 100%-12"/>
 
 	<object name="tutorialReady" type="button" style="ModernButtonRed" size="100%-160 100%-42 100%-20 100%-12">

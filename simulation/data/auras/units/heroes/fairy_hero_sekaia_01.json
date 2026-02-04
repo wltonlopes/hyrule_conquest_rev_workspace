@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Animal", "Creature"],
+	"modifications": [
+		{ "value": "Health/MaxHealth", "multiply": 1.4 }
+	],
+	"auraName": "Protector of Animals",
+	"auraDescription": "All animals and creatures +40% health."
+}

@@ -18,8 +18,20 @@
   <Obstruction>
     <Static depth="40.0" width="40.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -siege_attack
+      -siege_cost_time
+      -siege_health
+      -siege_pack_unpack
+      -siege_bolt_accuracy
+      deku/siege_salvaged
+      deku/siege_bombnuts
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
+      units/deku/deku_baballista_b
       units/deku/deku_scrubram
       units/deku/deku_dekupult
       -units/{civ}/champion_infantry_crossbowman

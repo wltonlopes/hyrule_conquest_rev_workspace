@@ -1,12 +1,13 @@
 {
 	"genericName": "Noxious Glands",
 	"description": "The Shore Serpent is feared for it's deadly venom. However, the Lanayru have bred them so that they have two extra glands full of poison, doubling the speed with which their enemies die.",
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 0, "rupees": 300},
 	"icon": "lanayru/animal_noxious.dds",
 	"researchTime": 40,
 	"tooltip": "The Shore Serpent deals double poison damage.",
 	"modifications": [
-				{"value": "Attack/Melee/Damage/Posion", "multiply": 2.0}
+				{"value": "Attack/Melee/Damage/Poison", "multiply": 2.0},
+				{"value": "Attack/Melee/ApplyStatus/Poisoned/Damage/Poison", "multiply": 2.0 }
 			 ],
 	"affects": ["ShoreSerpent"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

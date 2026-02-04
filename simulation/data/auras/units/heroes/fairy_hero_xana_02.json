@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"affectedPlayers": ["Ally"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Forest", "add": 2 },
+		{ "value": "Attack/Ranged/Damage/Forest", "add": 2 }
+	],
+	"auraName": "Gift of Power",
+	"auraDescription": "All allied units deal +2 Forest damage."
+}

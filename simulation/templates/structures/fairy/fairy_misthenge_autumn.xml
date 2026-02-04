@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/fairy/library">
+  <Identity>
+    <Classes datatype="tokens">Autumn</Classes>
+    <SpecificName>Misthenge (Autumn)</SpecificName>
+    <Icon>structures/fairy/fai_misthenge_autumn.dds</Icon>
+  </Identity>
+  <Upgrade>
+    <Spring>
+      <Entity>structures/fairy/fairy_misthenge_spring</Entity>
+      <Tooltip>Upgrade to a Misthenge (Spring).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Spring>
+    <Summer>
+      <Entity>structures/fairy/fairy_misthenge_summer</Entity>
+      <Tooltip>Upgrade to a Misthenge (Summer).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Summer>
+    <Winter>
+      <Entity>structures/fairy/fairy_misthenge_winter</Entity>
+      <Tooltip>Upgrade to a Misthenge (Winter).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Winter>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_misthengeA_autumn.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_autumn.xml</FoundationActor>
+  </VisualActor>
+</Entity>

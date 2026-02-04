@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>200</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="25.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_fairy_mediumA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <History>These extremely rare Fountains are practically legend, though a few obscure accounts of them exist in history. Believed to be the homes of the mighty Great Fairies, wars are often fought between factions to capture and steal the power residing in these waters. There is no account of success.</History>
+    <SpecificName>Great Fairy Fountain</SpecificName>
+    <Tooltip>Trains large and powerful Fairy units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="35.0" width="35.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>20</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/fairy/complete_gfountain.xml</constructed>
+      <select>interface/select/building/fairy/sel_gfountain.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/fairy/fairy_makusmall_b
+      units/fairy/fairy_great_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_greatfountainA_spring.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_spring.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,23 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Fire","multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Forest", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Light", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Shadow", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Spirit", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Water", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Fire","multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Forest", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Light", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Shadow", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Spirit", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Water", "multiply": 1.2 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.2 }
+	],
+	"auraName": "Queen of all Fairies",
+	"auraDescription": "Nearby units +20% walk speed and magic damage.",
+	"overlayIcon": "art/textures/ui/session/auras/commander_aura_1.dds"
+}

@@ -16,7 +16,7 @@
   <Cost>
     <BuildTime>12</BuildTime>
     <Resources>
-      <food>800</food>
+      <food>400</food>
       <wood>0</wood>
       <metal>0</metal>
     </Resources>
@@ -26,6 +26,7 @@
   </Health>
   <Identity>
     <Civ>stalfos</Civ>
+    <Classes datatype="tokens">-Organic</Classes>
     <SpecificName>Stalknight</SpecificName>
     <History>Once noble lords and warriors in life, Stalfos Knights are the skeletons of those that abandoned their codes in exchange for immortality. Indeed they received what they sought, though as slaves to their necromantic masters. All should beware the Stalfos Knight in combat: they have had centuries to hone their skills that were already formidable in life.</History>
     <Tooltip>Heavily armored infantry unit. Very resistant to non-magic damage. A powerful all-round late game unit.</Tooltip>

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="structures/kokiri/civil_centre">
   <Attack>
-    <Ranged>
+    <Ranged replace="">
       <AttackName>Deku Seeds</AttackName>
       <Damage>
         <Crush>3.5</Crush>
+        <Pierce>0</Pierce>
+        <Forest>0</Forest>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>55</MaxRange>
@@ -35,6 +37,12 @@
   <Health>
     <Max>4000</Max>
     <SpawnEntityOnDeath>decay|rubble/debris_kokiri_huge</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>6</SpawnNumberMax>
+      <SpawnNumberMin>6</SpawnNumberMin>
+      <Template>units/kokiri/infantry_archer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>

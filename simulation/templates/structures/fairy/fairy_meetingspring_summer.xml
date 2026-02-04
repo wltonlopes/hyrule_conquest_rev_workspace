@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/fairy/market">
+  <Identity>
+    <Classes datatype="tokens">Summer</Classes>
+    <SpecificName>Meeting Spring (Summer)</SpecificName>
+    <Icon>structures/fairy/fai_meetingspring_summer.dds</Icon>
+  </Identity>
+  <Upgrade>
+    <Spring>
+      <Entity>structures/fairy/fairy_meetingspring_spring</Entity>
+      <Tooltip>Upgrade to a Meeting Spring (Spring).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Spring>
+    <Autumn>
+      <Entity>structures/fairy/fairy_meetingspring_autumn</Entity>
+      <Tooltip>Upgrade to Meeting Spring (Autumn).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Autumn>
+    <Winter>
+      <Entity>structures/fairy/fairy_meetingspring_winter</Entity>
+      <Tooltip>Upgrade to a Meeting Spring (Winter).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Winter>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_meetingspringA_summer.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_summer.xml</FoundationActor>
+  </VisualActor>
+</Entity>

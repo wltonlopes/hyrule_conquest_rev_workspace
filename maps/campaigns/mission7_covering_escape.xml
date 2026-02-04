@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.638136"/>
+		<AmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>5</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="955.723" y="410.18" z="212.576"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "The invasion was a major failure. We are the only survivors of the army. We need to fall back to Eagle Pass. Captain Edgar has put you in charge of leading a small group of soldiers to hold a choke point so the rest of the army can escape.",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Mission 7: Covering the Escape",
+  "PlayerData": [
+    {
+      "Civ": "labrynna",
+      "Color": {
+        "b": 7,
+        "g": 2,
+        "r": 251
+      },
+      "Resources": {
+        "food": 0,
+        "metal": 0,
+        "stone": 0,
+        "wood": 0
+      }
+    },
+    {
+      "Civ": "hylian",
+      "Color": {
+        "b": 128,
+        "g": 0,
+        "r": 128
+      },
+      "Resources": {
+        "food": 0,
+        "metal": 0,
+        "stone": 0,
+        "wood": 0
+      }
+    }
+  ],
+  "Preview": "",
+  "RevealMap": false,
+  "TriggerScripts": [
+    "scripts/TriggerHelper.js",
+    "scripts/Tutorial.js",
+    "campaigns/mission7_covering_escape.js"
+  ],
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="13">
+			<Template>structures/labrynna/wall_long_sand</Template>
+			<Player>1</Player>
+			<Position x="223.2757" z="320.31592"/>
+			<Orientation y="0.11664"/>
+			<Actor seed="58102"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>structures/labrynna/wall_long_sand</Template>
+			<Player>1</Player>
+			<Position x="191.54297" z="331.10486"/>
+			<Orientation y="0.45926"/>
+			<Actor seed="54634"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>structures/labrynna/wall_long_sand</Template>
+			<Player>1</Player>
+			<Position x="169.94526" z="353.42841"/>
+			<Orientation y="1.01638"/>
+			<Actor seed="32871"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>structures/labrynna/wall_long_sand</Template>
+			<Player>1</Player>
+			<Position x="159.49369" z="371.90363"/>
+			<Orientation y="-1.98566"/>
+			<Actor seed="50952"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="224.46607" z="328.84488"/>
+			<Orientation y="-3.02627"/>
+			<Actor seed="1447"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="220.60578" z="329.21552"/>
+			<Orientation y="-2.99184"/>
+			<Actor seed="38768"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="216.12546" z="330.1745"/>
+			<Orientation y="-3.00846"/>
+			<Actor seed="65147"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="167.73957" z="374.67524"/>
+			<Orientation y="-2.20942"/>
+			<Actor seed="50747"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="169.99054" z="371.55051"/>
+			<Orientation y="-2.26104"/>
+			<Actor seed="4909"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="173.37134" z="367.72013"/>
+			<Orientation y="-2.32947"/>
+			<Actor seed="44567"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="205.1709" z="335.14661"/>
+			<Orientation y="-2.85398"/>
+			<Actor seed="45228"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="200.95069" z="336.60685"/>
+			<Orientation y="-2.60969"/>
+			<Actor seed="63845"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="197.0618" z="338.84464"/>
+			<Orientation y="-2.67484"/>
+			<Actor seed="51951"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="181.42594" z="357.06818"/>
+			<Orientation y="-2.06244"/>
+			<Actor seed="53864"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="183.36048" z="353.50977"/>
+			<Orientation y="-2.11886"/>
+			<Actor seed="24968"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>units/labrynna/labrynna_conqueror_b</Template>
+			<Player>1</Player>
+			<Position x="185.97037" z="349.15043"/>
+			<Orientation y="-2.11597"/>
+			<Actor seed="51576"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>units/labrynna/labrynna_handcannon_b</Template>
+			<Player>1</Player>
+			<Position x="210.36194" z="332.50138"/>
+			<Orientation y="-2.73295"/>
+			<Actor seed="7813"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>units/labrynna/labrynna_handcannon_b</Template>
+			<Player>1</Player>
+			<Position x="191.65879" z="343.93464"/>
+			<Orientation y="-2.31331"/>
+			<Actor seed="64124"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>units/labrynna/labrynna_handcannon_b</Template>
+			<Player>1</Player>
+			<Position x="176.9629" z="362.62821"/>
+			<Orientation y="-1.96682"/>
+			<Actor seed="27800"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>units/labrynna/labrynna_cannon_b</Template>
+			<Player>1</Player>
+			<Position x="201.27686" z="352.79422"/>
+			<Orientation y="-2.45069"/>
+			<Actor seed="62335"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="226.24549" z="347.69657"/>
+			<Orientation y="-2.71743"/>
+			<Actor seed="24734"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="223.18714" z="348.29249"/>
+			<Orientation y="-2.66216"/>
+			<Actor seed="4459"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="220.20691" z="349.85495"/>
+			<Orientation y="-2.61316"/>
+			<Actor seed="52643"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="221.5152" z="353.46863"/>
+			<Orientation y="-2.60283"/>
+			<Actor seed="17075"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="224.41904" z="351.67112"/>
+			<Orientation y="-2.65526"/>
+			<Actor seed="38304"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="227.28232" z="351.64753"/>
+			<Orientation y="-2.69535"/>
+			<Actor seed="22268"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="228.41044" z="355.27201"/>
+			<Orientation y="-2.71175"/>
+			<Actor seed="63400"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="225.7533" z="356.037"/>
+			<Orientation y="-2.64138"/>
+			<Actor seed="44696"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="222.97202" z="357.18464"/>
+			<Orientation y="-2.59244"/>
+			<Actor seed="58688"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="192.89835" z="385.4563"/>
+			<Orientation y="-2.16"/>
+			<Actor seed="46806"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="194.40342" z="382.7645"/>
+			<Orientation y="-2.20768"/>
+			<Actor seed="3533"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="195.86204" z="380.53904"/>
+			<Orientation y="-2.23272"/>
+			<Actor seed="46625"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="192.25376" z="378.1764"/>
+			<Orientation y="-2.24262"/>
+			<Actor seed="7945"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="190.22037" z="379.82114"/>
+			<Orientation y="-2.19022"/>
+			<Actor seed="38115"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="188.90253" z="382.78559"/>
+			<Orientation y="-2.15998"/>
+			<Actor seed="16330"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="185.16968" z="380.13807"/>
+			<Orientation y="-2.1617"/>
+			<Actor seed="40540"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="186.40827" z="377.81028"/>
+			<Orientation y="-2.19722"/>
+			<Actor seed="24863"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="187.65882" z="374.68961"/>
+			<Orientation y="-2.35961"/>
+			<Actor seed="2981"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>units/labrynna/labrynna_campeador_b</Template>
+			<Player>1</Player>
+			<Position x="212.99003" z="367.87159"/>
+			<Orientation y="-2.40627"/>
+			<Actor seed="32139"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="229.17441" z="367.0608"/>
+			<Orientation y="-2.65528"/>
+			<Actor seed="26390"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="227.20313" z="369.08548"/>
+			<Orientation y="-2.60123"/>
+			<Actor seed="42503"/>
+		</Entity>
+		<Entity uid="63">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="224.91602" z="372.06522"/>
+			<Orientation y="-2.52958"/>
+			<Actor seed="6764"/>
+		</Entity>
+		<Entity uid="64">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="222.62327" z="375.45722"/>
+			<Orientation y="-2.44936"/>
+			<Actor seed="39858"/>
+		</Entity>
+		<Entity uid="65">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="216.86307" z="381.16419"/>
+			<Orientation y="-2.2812"/>
+			<Actor seed="18171"/>
+		</Entity>
+		<Entity uid="66">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="215.00193" z="382.78342"/>
+			<Orientation y="-2.23125"/>
+			<Actor seed="966"/>
+		</Entity>
+		<Entity uid="67">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="212.43247" z="384.52665"/>
+			<Orientation y="-2.17208"/>
+			<Actor seed="17980"/>
+		</Entity>
+		<Entity uid="68">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="210.06446" z="386.09153"/>
+			<Orientation y="-2.12056"/>
+			<Actor seed="60870"/>
+		</Entity>
+		<Entity uid="69">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="207.73743" z="387.66584"/>
+			<Orientation y="-2.10521"/>
+			<Actor seed="28695"/>
+		</Entity>
+		<Entity uid="70">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="231.29795" z="364.80311"/>
+			<Orientation y="-2.71233"/>
+			<Actor seed="58884"/>
+		</Entity>
+		<Entity uid="72">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="222.02024" z="371.55213"/>
+			<Orientation y="-2.45621"/>
+			<Actor seed="34401"/>
+		</Entity>
+		<Entity uid="73">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="224.69324" z="368.3506"/>
+			<Orientation y="-2.52208"/>
+			<Actor seed="25472"/>
+		</Entity>
+		<Entity uid="74">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="226.29792" z="364.991"/>
+			<Orientation y="-2.57308"/>
+			<Actor seed="5726"/>
+		</Entity>
+		<Entity uid="75">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="228.90604" z="362.701"/>
+			<Orientation y="-2.62655"/>
+			<Actor seed="1320"/>
+		</Entity>
+		<Entity uid="76">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="213.68281" z="379.82667"/>
+			<Orientation y="-2.26629"/>
+			<Actor seed="47333"/>
+		</Entity>
+		<Entity uid="77">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="211.4184" z="381.31397"/>
+			<Orientation y="-2.21161"/>
+			<Actor seed="577"/>
+		</Entity>
+		<Entity uid="78">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="208.91901" z="383.1818"/>
+			<Orientation y="-2.16393"/>
+			<Actor seed="12894"/>
+		</Entity>
+		<Entity uid="79">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="206.20035" z="384.8505"/>
+			<Orientation y="-2.13335"/>
+			<Actor seed="17079"/>
+		</Entity>
+		<Entity uid="81">
+			<Template>units/labrynna/labrynna_ursawagon_b</Template>
+			<Player>1</Player>
+			<Position x="240.34946" z="397.21021"/>
+			<Orientation y="0.77964"/>
+			<Actor seed="28634"/>
+		</Entity>
+		<Entity uid="82">
+			<Template>trigger/trigger_point_A</Template>
+			<Player>0</Player>
+			<Position x="386.16135" z="59.48241"/>
+			<Orientation y="-1.5034"/>
+			<Actor seed="56106"/>
+		</Entity>
+		<Entity uid="83">
+			<Template>trigger/trigger_point_B</Template>
+			<Player>0</Player>
+			<Position x="240.34946" z="397.21021"/>
+			<Orientation y="-1.5034"/>
+			<Actor seed="56106"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

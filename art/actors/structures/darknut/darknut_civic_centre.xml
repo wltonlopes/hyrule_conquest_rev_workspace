@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>structural/darknut/dar_agoraA.dae</mesh>
+      <mesh>structural/darknut/dar_agorasmallA.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
@@ -13,7 +13,7 @@
         <texture file="structural/darknut/darknut_baseA.dds" name="baseTex"/>
         <texture file="structural/darknut/darknut_baseA.dds" name="specTex"/>
 	<texture file="structural/darknut/darknut_baseA_normal.dds" name="normTex"/>
-	<texture file="structural/darknut/dar_agora_ao.dds" name="aoTex"/>
+	<texture file="structural/darknut/dar_agorasmall_ao.dds" name="aoTex"/>
       </textures>
     </variant>
   </group>

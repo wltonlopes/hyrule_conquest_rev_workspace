@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/market">
+  <Identity>
+    <SpecificName>Clientele</SpecificName>
+    <History>The Clientele attracts foreign agents and soldiers from all over Hyrule. Labrynna occasionally hires these Mercenaries to fill out their ranks.</History>
+    <Icon>structures/labrynna/lab_marketB.dds</Icon>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      labrynna/trade_insurance
+    </Technologies>
+  </Researcher>
+  <Upgrade replace="">
+    <Carnival>
+      <Cost>
+        <wood>50</wood>
+        <rupees>50</rupees>
+      </Cost>
+      <Entity>structures/labrynna/market_3</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Add a Carnival tent to the Bodega.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Carnival>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_marketB.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

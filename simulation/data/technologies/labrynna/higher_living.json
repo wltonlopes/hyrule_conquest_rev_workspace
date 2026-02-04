@@ -1,0 +1,13 @@
+{
+	"genericName": "Higher Living",
+	"description": "The middle class of Labrynna is actually very well off compared to that of most other races. They find it very easy to become upper class citizens, due to the way Labrynna values war skills and promotions.",
+	"cost": { "rupees": 400 },
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "tenement.png",
+	"researchTime": 40,
+	"tooltip": "All units +50% health",
+	"modifications": [{"value": "Health/Max", "multiply": 1.5}],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

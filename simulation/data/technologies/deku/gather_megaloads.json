@@ -1,7 +1,7 @@
 {
 	"genericName": "Megaloads",
 	"description": "While the Underlings seem weak, they can carry immense amounts of resources when forced to.",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 350},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 350},
 	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "deku"}]},
 	"requirementsTooltip": "Unlocked with Town Phase.",
 	"icon": "tech_generic.dds",

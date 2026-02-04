@@ -23,7 +23,7 @@
       </Projectile>
       <RepeatTime>2500</RepeatTime>
       <Stun>
-        <Chance>5</Chance>
+        <Chance>10</Chance>
         <Time>1000</Time>
       </Stun>
     </Ranged>

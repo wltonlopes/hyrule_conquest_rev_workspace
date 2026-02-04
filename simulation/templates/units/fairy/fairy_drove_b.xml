@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Magic</AttackName>
+      <Damage>
+        <Spirit>8.0</Spirit>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}/civil_centre
+      -structures/{civ}/storehouse
+      -structures/{civ}/barracks
+      -structures/{civ}/forge
+      -structures/{civ}/library
+      -structures/{civ}/market
+      -structures/{civ}/barracksB
+      -structures/{civ}/wonder
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <metal>75</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Fairy Drove</SpecificName>
+    <History>Any who encroach on Fairy grounds without invitation are often soon met with uncountable swarms of glittering Fairies. These massive droves can overwhelm just about any unprepared force through pure numbers.</History>
+    <Tooltip>A swarm of tiny Melee attackers that bite and prick their enemies to death.</Tooltip>
+    <Icon>units/fairy/fai_drove.dds</Icon>
+  </Identity>
+  <Position>
+    <Floating>true</Floating>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>6.0</Crush>
+        <Fire>3.0</Fire>
+        <Forest>3.0</Forest>
+        <Hack>5.0</Hack>
+        <Light>3.0</Light>
+        <Pierce>5.0</Pierce>
+        <Shadow>3.0</Shadow>
+        <Spirit>3.0</Spirit>
+        <Water>3.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/fairy_bite.xml</attack_melee>
+      <attack_ranged>attack/natural/fairy_bite.xml</attack_ranged>
+      <death>voice/fairy/drove/drove_death.xml</death>
+      <order_attack>voice/fairy/drove/drove_attack.xml</order_attack>
+      <order_garrison>voice/fairy/drove/drove_garrison.xml</order_garrison>
+      <order_gather>voice/fairy/drove/drove_gather.xml</order_gather>
+      <order_repair>voice/fairy/drove/drove_repair.xml</order_repair>
+      <order_walk>voice/fairy/drove/drove_walk.xml</order_walk>
+      <run>actor/movement/fairy/fairy_hoverA.xml</run>
+      <select>voice/fairy/drove/drove_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/fairy/fairy_hoverA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/fairy/fairy_drove_spring.xml</Actor>
+  </VisualActor>
+</Entity>

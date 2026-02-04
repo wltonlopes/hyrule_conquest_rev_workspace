@@ -1,0 +1,18 @@
+{
+	"genericName": "Pikemasters",
+	"description": "The Pikemen of Lynna City are the undisputed masters of the pole arm. Centuries of fending off Lynels and all manner of beast has trained their line with many techniques to hold even the deadliest of charges at bay.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200, "rupees": 200},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "labrynna/lynnapike_pikemasters.dds",
+	"researchTime": 40,
+	"tooltip": "Lynna Pikes +50% non-magic armor and x2 hp.",
+	"modifications": [
+		{"value": "Resistance/Entity/Damage/Hack", "multiply": 1.5},
+		{"value": "Resistance/Entity/Damage/Pierce", "multiply": 1.5},
+		{"value": "Resistance/Entity/Damage/Crush", "multiply": 1.5},
+		{"value": "Health/Max", "multiply": 2}
+	],
+	"affects": [ "LynnaPike" ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

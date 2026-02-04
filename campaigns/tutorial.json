@@ -1,0 +1,15 @@
+{
+	"Name": "Tutorial",
+	"Description": "Learn how to play Hyrule Conquest: Revival.",
+	"Levels": {
+		"introduction": {
+			"Name": "HC Introductory Tutorial",
+			"Map": "tutorials/HC_troductory_tutorial.xml",
+			"MapType": "scenario",
+			"Description": "This is a basic tutorial to get you started playing Hyrule Conquest: Revival.",
+			"Preview": "session/icons/mappreview/Introductory_Tutorial.png"
+		}
+	},
+	"Order": ["introduction"],
+	"ShowUnavailable": true
+}

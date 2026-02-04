@@ -1,7 +1,7 @@
 {
 	"genericName": "Vital Points",
-	"description": "They may be small, but with proper training and the right stick the Guardlings know how to stab creatures where it hurt most.",
-	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 250},
+	"description": "They may be small, but with proper training and the right stick the Guardlings know how to stab creatures where it hurts most.",
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 0, "rupees": 250},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
 	"requirementsTooltip": "Unlocked with City Phase.",
 	"icon": "deku/guardling_vitalpoints.dds",

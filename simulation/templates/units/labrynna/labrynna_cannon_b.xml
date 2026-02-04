@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_stonethrower">
+  <Attack replace="">
+    <Ranged>
+      <AttackName>Cannonball</AttackName>
+      <Damage>
+        <Crush>250</Crush>
+        <Fire>0</Fire>
+      </Damage>
+      <MaxRange>150.0</MaxRange>
+      <MinRange>60.0</MinRange>
+      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
+      <PrepareTime>2000</PrepareTime>
+      <Projectile>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/trebuchet_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.2</ImpactAnimationLifetime>
+        <Speed>120.0</Speed>
+        <Spread>5.0</Spread>
+	<FriendlyFire>false</FriendlyFire>
+	<LaunchPoint y="3"/>
+      </Projectile>
+      <RepeatTime>10000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Crush>50.0</Crush>
+          <Fire>0.0</Fire>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>6</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>16</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>75</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>3.0</Height>
+    <Square depth="10.0" width="10.0"/>
+  </Footprint>
+  <Health>
+    <Max>300</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>2</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/labrynna/labrynna_borderguard_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <Classes datatype="tokens">Cannon</Classes>
+    <SpecificName>Cannon</SpecificName>
+    <History>The powerful cannons of Labrynna are some of the deadliest siege weapons of their time. They easily outmatched many other conventional siege engines found in Hyrule, and can tear apart walls and buildings with ease.</History>
+    <Tooltip>Extremely powerful and long ranged Siege weapon.</Tooltip>
+    <Icon>units/labrynna/lab_cannon.dds</Icon>
+    <VisibleClasses datatype="tokens">Gunpowder</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Pack disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>8</Crush>
+        <Hack>8.0</Hack>
+        <Pierce>15.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/cannon_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/cannon_fire.xml</attack_ranged>
+      <order_attack>voice/labrynna/pioneer/pioneer_attack.xml</order_attack>
+      <order_garrison>voice/labrynna/pioneer/pioneer_garrison.xml</order_garrison>
+      <order_gather>voice/labrynna/pioneer/pioneer_gather.xml</order_gather>
+      <order_repair>voice/labrynna/pioneer/pioneer_repair.xml</order_repair>
+      <order_walk>voice/labrynna/pioneer/pioneer_walk.xml</order_walk>
+      <run>actor/movement/cart/cart_move.xml</run>
+      <select>voice/labrynna/pioneer/pioneer_select.xml</select>
+      <trained>interface/alarm/alarm_create_engine.xml</trained>
+      <walk>actor/movement/cart/cart_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>6.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>150</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/labrynna/labrynna_cannon_b.xml</Actor>
+  </VisualActor>
+</Entity>

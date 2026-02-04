@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint replace="">
+    <Square depth="25.0" width="20.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>gaia</Civ>
+    <Icon>structures/sheikah/she_house.dds</Icon>
+    <History>Dotting the immediate area around a Cartel Safehouse, as well as near any location with riches or important people, Hideouts are what most members of the Cartel live in in-between jobs.</History>
+    <SpecificName>Hideout</SpecificName>
+    <Tooltip>Housing that allows you to field larger armies.</Tooltip>
+  </Identity>
+  <Health>
+    <Max>1500</Max>
+  </Health>
+  <Obstruction>
+    <Static depth="23.0" width="23.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>5</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -pop_house_01
+      -pop_house_02
+      -unlock_females_house
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/sheikah/sheikah_houseA.xml</Actor>
+    <FoundationActor>structures/sheikah/sheikah_scaffoldD.xml</FoundationActor>
+  </VisualActor>
+</Entity>

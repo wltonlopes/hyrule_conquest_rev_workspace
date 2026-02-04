@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/gerudo/ger_catapultA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/gerudo/medium/ger_catapultA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/gerudo/low/ger_catapultA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant frequency="100" name="gerudo_catapult">
+        <animations>
+          <animation file="HC_catapult/catapult_idle.dae" id="idle1" name="Idle" speed="100"/>
+          <animation file="HC_catapult/catapult_idle.dae" id="idle2" name="Idle" speed="100"/>
+          <animation file="HC_catapult/catapult_idle.dae" id="idle3" name="Idle" speed="100"/>
+          <animation file="HC_catapult/catapult_idle.dae" id="idle4" name="Idle" speed="100"/>
+          <animation event="0.5" file="HC_catapult/catapult_move.dae" id="walk1" name="Walk" speed="10"/>
+          <animation event="0.5" file="HC_catapult/catapult_move.dae" id="walk2" name="Walk" speed="10"/>
+          <animation event="0.5" file="HC_catapult/catapult_move.dae" id="run1" name="Run" speed="10"/>
+          <animation event="0.5" file="HC_catapult/catapult_move.dae" id="run2" name="Run" speed="9"/>
+          <animation event="0.5" file="HC_catapult/catapult_move.dae" id="run3" name="Run" speed="10"/>
+          <animation event="0.55" file="HC_catapult/catapult_attack.dae" id="attack_ranged1" load="0.10" name="attack_ranged" sound="0" speed="75"/>
+          <animation file="HC_catapult/catapult_death.dae" id="death1" name="death" speed="100"/>
+          <animation file="HC_catapult/catapult_death.dae" id="death2" name="death" speed="100"/>
+        </animations>
+        <props>
+          <prop actor="units/gerudo/gerudo_crew_b.xml" attachpoint="catapult_base"/>
+          <prop actor="props/units/weapons/rock.xml" attachpoint="projectile"/>
+          <prop actor="props/units/weapons/rock.xml" attachpoint="loaded-projectile"/>
+        </props>
+        <textures>
+          <texture file="skeletal/gerudo/ger_siegeA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

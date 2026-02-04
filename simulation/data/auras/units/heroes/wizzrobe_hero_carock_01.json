@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Commander", "Hero", "Titan"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 0.9 }
+	],
+	"auraName": "Magical Assassin",
+	"auraDescription": "All heroes have -10% health."
+}

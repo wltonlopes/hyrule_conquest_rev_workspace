@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/hylian/hylian_deacon_b">
+  <Auras datatype="tokens">
+    units/deacon_chant_01
+    units/deacon_chant_04
+  </Auras>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>125</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Heal>
+    <Health>6</Health>
+    <Range>30</Range>
+  </Heal>
+  <Health>
+    <Max>350</Max>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Goddess Priestess</SpecificName>
+    <History>A Goddess Deacon who remains in her service for long enough is bound to become a Priestess. The soldiers like deacons like they do all young girls, but they respect the Priestesses like their own mothers.</History>
+    <Tooltip>Support unit with many aiding abilities.</Tooltip>
+    <Icon>units/hylian/hyl_priestess.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/hylian/hylian_priestess_b.xml</Actor>
+  </VisualActor>
+</Entity>

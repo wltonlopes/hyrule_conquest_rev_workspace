@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>100</wood>
+      <stone>100</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="41.0" width="41.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_barracksA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <History>An armory stocked with weapons and offering training for new soldier recruits.</History>
+    <SpecificName>Kingdom Barracks</SpecificName>
+    <Icon>structures/hylian/hyl_barracksA.dds</Icon>
+    <Tooltip>Trains Melee centric Hylian units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="37.0" depth="37.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>0</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -barracks_batch_training
+      -unlock_champion_infantry
+      -pair_unlock_champions_sele
+      hylian/levy_raises
+      hylian/soldier_raises
+      hylian/kingdom_raises
+      hylian/dorms
+      hylian/kingdom_spearman
+      hylian/kingdom_swordsman
+      hylian/kingdom_maceman
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}/infantry_archer_b
+      units/hylian/infantry_spearman_b
+      units/hylian/infantry_swordsman_b
+      units/hylian/infantry_maceman_b
+      units/hylian/hylian_captain_b
+      units/hylian/hylian_knightofhyrule_b
+      units/hylian/hylian_championknight_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_barracksA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

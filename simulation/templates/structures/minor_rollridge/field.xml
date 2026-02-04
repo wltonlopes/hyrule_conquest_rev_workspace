@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <Cost>
+    <Resources>
+      <wood>0</wood>
+      <stone>100</stone>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="25.0" width="25.0" />
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Talus Mine</SpecificName>
+    <Icon>structures/minor_rollridge/rol_mine.dds</Icon>
+    <History>The peaks of Talus contain many valuable ores and minerals that have been used by the locals for generations in construction. Traditionally the Gorons of Rolling ridge would gather and sell these goods, though wars have been waged to remove the rockmen from control of these mines.</History>
+    <VisibleClasses datatype="tokens">RollRidge</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="24.0" width="24.0"/>
+    <BlockMovement>true</BlockMovement>
+    <BlockPathfinding>true</BlockPathfinding>
+  </Obstruction>
+  <ResourceSupply>
+    <KillBeforeGather>false</KillBeforeGather>
+    <Max>Infinity</Max>
+    <Type>stone.rock</Type>
+    <MaxGatherers>5</MaxGatherers>
+  </ResourceSupply>
+  <VisualActor>
+    <Actor>structures/minor_rollridge/rol_mineA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

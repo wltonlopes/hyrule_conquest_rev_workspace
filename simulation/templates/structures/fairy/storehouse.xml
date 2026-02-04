@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <stone>75</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="15.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_fairy_smallA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Magic Menhir</SpecificName>
+    <Classes datatype="tokens">DropsiteFood DropsiteWood DropsiteStone DropsiteMetal</Classes>
+    <History>A small but peculiar stone jutting forth from the ground said to be the work of Fairies. To many onlookers, this stone simply sits still and does nothing. To the Fairies, the world around them will slowly change as food and material feeds their being.</History>
+    <Icon>structures/fairy/fai_menhir_spring.dds</Icon>
+    <Tooltip>Dropsite for resources. House. Generates a trickle of resources</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="15.0" depth="15.0"/>
+  </Obstruction>
+  <ResourceDropsite>
+    <Sharable>true</Sharable>
+    <Types>food wood stone metal</Types>
+  </ResourceDropsite>
+  <ResourceTrickle>
+    <Interval>2000</Interval>
+    <Rates>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+    </Rates>
+  </ResourceTrickle>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/fairy/complete_menhir.xml</constructed>
+      <select>interface/select/building/fairy/sel_menhir.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_menhirA_spring.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_spring.xml</FoundationActor>
+  </VisualActor>
+</Entity>

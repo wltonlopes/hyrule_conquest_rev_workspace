@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/barracks">
+  <Identity>
+    <Civ>labrynna</Civ>
+    <History>Labrynna's soldiers are academically trained before being thrown into the field of battle. The result has given individual soldiers in the Empire's government run military a sense of tactics and strategy not found in other foreign powers.</History>
+    <SpecificName>Academy</SpecificName>
+    <Icon>structures/labrynna/lab_barracksB.dds</Icon>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      labrynna/homeguard_policestate
+      labrynna/borderguard_camocape
+      labrynna/talusknight_eagledrill
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/labrynna/labrynna_lynnapike_b
+      units/labrynna/labrynna_talusknight_b
+    </Entities>
+  </Trainer>
+  <Upgrade replace="">
+    <WarInst>
+      <Cost>
+        <wood>100</wood>
+        <stone>100</stone>
+      </Cost>
+      <Entity>structures/labrynna/barracks_3</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Upgrade the Academy into a War Institute.</Tooltip>
+      <Variant>upgrading</Variant>
+    </WarInst>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_barracksB.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldD.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_titan">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Fairy Burst</AttackName>
+      <Damage>
+        <Forest>10.0</Forest>
+      </Damage>
+      <EffectDelay>3</EffectDelay>
+      <MaxRange>50</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry Human</PreferredClasses>
+      <PrepareTime>2000</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/weapons/fairy_striderballA.xml</ImpactActorName>
+        <ImpactAnimationLifetime>1.0</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>300.0</Speed>
+        <Spread>1.0</Spread>
+      </Projectile>
+      <RepeatTime>3000</RepeatTime>
+      <SpawnEntityOnImpact>
+        <SpawnNumberMax>1</SpawnNumberMax>
+        <SpawnNumberMin>1</SpawnNumberMin>
+        <SpawnOnHit>
+          <Chance>100</Chance>
+          <SpawnAtTarget>true</SpawnAtTarget>
+        </SpawnOnHit>
+        <SpawnOnImpact>
+          <Chance>100</Chance>
+        </SpawnOnImpact>
+        <Template>units/fairy/fairy_drove_all</Template>
+      </SpawnEntityOnImpact>
+      <Splash>
+        <Damage>
+          <Forest>10.0</Forest>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>25</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>2000</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="10.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5000</Max>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <GenericName>Guardian of Holodrum</GenericName>
+    <SpecificName>The Maku Tree</SpecificName>
+    <History>One of the legendary Maku Trees and perhaps one of the only left to still live, the guardian of Holodrum spent much of his time slumbering at the edge of the Tarm Woods being worshiped by the natives of the land. It is not known how long this tree has slumbered, and it is said that only the wish of a Fairy can awaken him. In the ancient myths of Horon it was said that this giant tree did battle alongside his sister Maku Tree and the Fairies of Tarm to defeat the dragons of the east and bring peace to the land.</History>
+    <Tooltip>Fairy Titan unit. Support unit that continues to summon Fairy Droves into battle.</Tooltip>
+    <Icon>units/fairy/fai_titan_makuholo.dds</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Position>
+    <TurnRate>1.1</TurnRate>
+  </Position>
+  <ProductionQueue/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>35.0</Crush>
+        <Fire>10.0</Fire>
+        <Forest>55.0</Forest>
+        <Hack>15.0</Hack>
+        <Light>10.0</Light>
+        <Pierce>55.0</Pierce>
+        <Shadow>10.0</Shadow>
+        <Spirit>10.0</Spirit>
+        <Water>10.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/magic/makuhoron_summon_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/magic/makuhoron_summon.xml</attack_ranged>
+      <death>voice/fairy/makuhoron/makuhoron_death.xml</death>
+      <order_attack>voice/fairy/makuhoron/makuhoron_attack.xml</order_attack>
+      <order_garrison>voice/fairy/makuhoron/makuhoron_garrison.xml</order_garrison>
+      <order_gather>voice/fairy/makuhoron/makuhoron_gather.xml</order_gather>
+      <order_repair>voice/fairy/makuhoron/makuhoron_repair.xml</order_repair>
+      <order_walk>voice/fairy/makuhoron/makuhoron_walk.xml</order_walk>
+      <run>actor/movement/GDT/GDT_walk.xml</run>
+      <select>voice/fairy/makuhoron/makuhoron_select.xml</select>
+      <trained>interface/alarm/alarm_create_titan.xml</trained>
+      <walk>actor/movement/gianttree/gianttree_walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/fairy/fairy_drove_spring
+      units/fairy/fairy_drove_summer
+      units/fairy/fairy_drove_autumn
+      units/fairy/fairy_drove_winter
+    </Entities>
+  </Trainer>
+  <UnitMotion>
+    <RunMultiplier>1.2222</RunMultiplier>
+    <WalkSpeed>4.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/fairy/fairy_makuholo_b.xml</Actor>
+  </VisualActor>
+</Entity>

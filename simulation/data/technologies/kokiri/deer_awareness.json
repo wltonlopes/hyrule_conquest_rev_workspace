@@ -1,0 +1,13 @@
+{
+	"genericName": "Heightened Awareness",
+	"description": "Kokiri Deer were quite natural at being aware of their environment, likely to survive the numerous monsterous predators of their homeland. The Kokiri could train and use this ability to their advantage.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 200},
+	"requirements": { "all": [{"tech": "phase_city"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "kokiri/deer_awareness.dds",
+	"researchTime": 40,
+	"tooltip": "+15 Line of Sight increase for Deer units.",
+	"modifications": [{"value": "Vision/Range", "multiply": 1.15}],
+	"affects": ["Deer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Ember Seeds</AttackName>
+      <ApplyStatus>
+        <Burning>
+          <Interval>1000</Interval>
+          <Damage>
+            <Fire>3</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+        </Burning>
+      </ApplyStatus>
+      <Damage>
+        <Fire>7.0</Fire>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>10.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>1500</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}/civil_centre
+      -structures/{civ}/storehouse
+      -structures/{civ}/barracks
+      -structures/{civ}/forge
+      -structures/{civ}/library
+      -structures/{civ}/market
+      -structures/{civ}/barracksB
+      -structures/{civ}/wonder
+      structures/fairy/civil_centreD
+      structures/fairy/civil_centre_upgD
+      structures/fairy/fairy_menhir_winter
+      structures/fairy/fairy_fountain_winter
+      structures/fairy/fairy_waterheaven_winter
+      structures/fairy/fairy_misthenge_winter
+      structures/fairy/fairy_sundial_winter
+      structures/fairy/fairy_meetingspring_winter
+      structures/fairy/fairy_greatfountain_winter
+      structures/fairy/fairy_uniwonder_winter
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Ember Fairy</SpecificName>
+    <History>A small Fairy that uses the power of Ember Seeds in it's magic. Ember Fairies are known for their lack of fear of the winter seasons, braving even the coldest storms with their ever burning seeds. It would be wise to not anger one of these small creatures; upsetting them often results in oneself being ignited.</History>
+    <Tooltip>Close combat Mage unit that ignites enemies on fire.</Tooltip>
+    <Icon>units/fairy/fai_ember.dds</Icon>
+    <VisibleClasses datatype="tokens">Mage</VisibleClasses>
+  </Identity>
+  <Position>
+    <Floating>true</Floating>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>4.0</Crush>
+        <Fire>3.0</Fire>
+        <Forest>3.0</Forest>
+        <Hack>3.0</Hack>
+        <Light>3.0</Light>
+        <Pierce>3.0</Pierce>
+        <Shadow>3.0</Shadow>
+        <Spirit>3.0</Spirit>
+        <Water>3.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/magic/spell_fire.xml</attack_melee>
+      <attack_ranged>attack/magic/spell_fire.xml</attack_ranged>
+      <death>voice/fairy/smallfairy/smallfairy_death.xml</death>
+      <order_attack>voice/fairy/smallfairy/smallfairy_attack.xml</order_attack>
+      <order_garrison>voice/fairy/smallfairy/smallfairy_garrison.xml</order_garrison>
+      <order_gather>voice/fairy/smallfairy/smallfairy_gather.xml</order_gather>
+      <order_repair>voice/fairy/smallfairy/smallfairy_repair.xml</order_repair>
+      <order_walk>voice/fairy/smallfairy/smallfairy_walk.xml</order_walk>
+      <run>actor/movement/fairy/fairy_hoverA.xml</run>
+      <select>voice/fairy/smallfairy/smallfairy_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/fairy/fairy_hoverA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/fairy/fairy_z1_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -46,6 +46,12 @@
   <Health>
     <Max>4000</Max>
     <SpawnEntityOnDeath>decay|rubble/debris_deku_medium</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>10</SpawnNumberMax>
+      <SpawnNumberMin>10</SpawnNumberMin>
+      <Template>units/deku/infantry_archer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>deku</Civ>
@@ -67,6 +73,7 @@
       -poison_arrows
       -poison_blades
       -roman_reforms
+      deku/rapid_fire
       deku/megascrub_clawgrowth
     </Technologies>
   </Researcher>

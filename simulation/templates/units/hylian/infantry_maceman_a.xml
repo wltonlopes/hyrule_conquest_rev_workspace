@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/hylian/infantry_maceman_b">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Mace</AttackName>
+      <Damage>
+        <Crush>4.0</Crush>
+        <TrueDamage>12</TrueDamage>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>1400</PrepareTime>
+      <RepeatTime>1600</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <metal>75</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>125</Max>
+  </Health>
+  <Identity>
+    <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Soldier UpgMace</Classes>
+    <SpecificName>Soldier Maceman</SpecificName>
+    <History>Should a levy prove themselves worthy or simply like the job enough, they could become career soldiers. Being a professional came with some perks, like superior armor, nicer weapons, and some Rupees to boot.</History>
+    <Tooltip>Medium unit armed with a spear and shield. Deals Crushing damage.</Tooltip>
+    <Icon>units/hylian/hyl_soldiermace.dds</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/hylian/infantry_maceman_e</Entity>
+  </Promotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>5</Pierce>
+        <Crush>6</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <VisualActor>
+    <Actor>units/hylian/hylian_soldier_maceman_b.xml</Actor>
+  </VisualActor>
+</Entity>

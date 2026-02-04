@@ -1,0 +1,17 @@
+{
+	"genericName": "Hylian Shields",
+	"description": "The famed Hylian Shields are among the most durable shields in all of Hyrule. They are very resistant to fire, making them important items to bring when going near Death Mountain.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 600},
+	"supersedes": "hylian/reinforced_shields",
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/hylian_shield.dds",
+	"researchTime": 50,
+	"tooltip": "All melee soldiers gain +25% resistance to hack and fire damage.",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Hack", "multiply": 1.25},
+				{"value": "Resistance/Entity/Damage/Fire", "multiply": 1.25}
+			 ],
+	"affects": ["Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

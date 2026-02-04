@@ -1,0 +1,18 @@
+{
+	"genericName": "Circus Beasts",
+	"description": "Labrynna's entertainment divisions have long used strange beasts from foreign lands, their Zoos are be more than willing to take these creatures off their hands after the people have become bored of their performances.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 400},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "labrynna/creature_circusbeasts.dds",
+	"researchTime": 40,
+	"tooltip": "Reduces total resource cost of all Creature units by 15%",
+	"modifications": [
+		{"value": "Cost/Resources/food", "multiply": 0.85},
+		{"value": "Cost/Resources/wood", "multiply": 0.85},
+		{"value": "Cost/Resources/stone", "multiply": 0.85},
+		{"value": "Cost/Resources/metal", "multiply": 0.85}
+	],
+	"affects": [ "Creature" ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Spores</AttackName>
+      <Damage>
+        <Forest>2</Forest>
+      </Damage>
+      <ApplyStatus>
+        <Poisoned>
+          <Interval>3000</Interval>
+          <Damage>
+            <Forest>2</Forest>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+        </Poisoned>
+      </ApplyStatus>
+      <MaxRange>7.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>700</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+      <Splash>
+        <ApplyStatus>
+	  <Poisoned>
+	    <Interval>3000</Interval>
+	    <Damage>
+	      <Forest>1</Forest>
+	    </Damage>
+	    <Stackability>Stack</Stackability>
+	    <Duration>9000</Duration>
+	  </Poisoned>
+	</ApplyStatus>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>7</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>50</wood>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="2.0"/>
+    <Height>7.0</Height>
+  </Footprint>
+  <Health>
+    <Max>25</Max>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Puffstool</SpecificName>
+    <History>These reclusive creatures appear to most travellers as harmless giant mushrooms. If one wander too close to them however they will spring to life, releasing an invisible cloud of spores that poison it's unfortunate victims.</History>
+    <Tooltip>Creature unit that poisons all enemies around itself.</Tooltip>
+    <Icon>units/fairy/fai_puffstool.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/puffstool_spores.xml</attack_melee>
+      <attack_ranged>attack/natural/puffstool_spores.xml</attack_ranged>
+      <death>voice/fairy/puffstool/puffstool_death.xml</death>
+      <order_attack>voice/fairy/puffstool/puffstool_attack.xml</order_attack>
+      <order_garrison>voice/fairy/puffstool/puffstool_garrison.xml</order_garrison>
+      <order_gather>voice/fairy/puffstool/puffstool_gather.xml</order_gather>
+      <order_repair>voice/fairy/puffstool/puffstool_repair.xml</order_repair>
+      <order_walk>voice/fairy/puffstool/puffstool_walk.xml</order_walk>
+      <run>actor/movement/fairy/fairy_hoverA.xml</run>
+      <select>voice/fairy/puffstool/puffstool_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/fairy/fairy_hoverA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.5</RunMultiplier>
+    <WalkSpeed>5.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/fairy/fairy_puffstool_b.xml</Actor>
+  </VisualActor>
+</Entity>

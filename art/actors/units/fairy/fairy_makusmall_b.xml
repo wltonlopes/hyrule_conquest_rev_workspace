@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+    <group>
+      <variant minquality="high" frequency="100" name="Base">
+        <mesh>units/fairy/fai_makusmallA.dae</mesh>
+      </variant>
+      <variant minquality="medium" frequency="100" name="Base">
+        <mesh>units/fairy/medium/fai_makusmallA.dae</mesh>
+      </variant>
+      <variant maxquality="medium" frequency="100" name="Base">
+        <mesh>units/fairy/low/fai_makusmallA.dae</mesh>
+      </variant>
+    </group>	
+  <group>
+    <variant file="HC_makusmall/base_HC_makusmall.xml">
+      <textures>
+        <texture file="skeletal/fairy/fai_makuholoA.dds" name="baseTex"/>
+      </textures>
+	  <props>
+		<prop actor="units/fairy/fairy_makusmallA_leaves.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="Death">
+      <props>
+        <prop actor="units/fairy/fairy_makusmallA_leaves.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>

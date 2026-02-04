@@ -1,0 +1,43 @@
+<Entity parent="units/fairy/fairy_stray_b">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/fairy/civil_centreD
+      structures/fairy/civil_centre_upgD
+      structures/fairy/fairy_menhir_winter
+      structures/fairy/fairy_fountain_winter
+      structures/fairy/fairy_waterheaven_winter
+      structures/fairy/fairy_misthenge_winter
+      structures/fairy/fairy_sundial_winter
+      structures/fairy/fairy_meetingspring_winter
+      structures/fairy/fairy_greatfountain_winter
+      structures/fairy/fairy_uniwonder_winter
+    </Entities>
+  </Builder>
+  <DeathDamage>
+    <Damage>
+      <Water>35.0</Water>
+    </Damage>
+  </DeathDamage>
+  <Identity>
+    <SpecificName>Stray Fairy (Winter)</SpecificName>
+    <Classes datatype="tokens">Winter</Classes>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>25.0</Crush>
+        <Fire>3.0</Fire>
+        <Forest>3.0</Forest>
+        <Hack>25.0</Hack>
+        <Light>3.0</Light>
+        <Pierce>25.0</Pierce>
+        <Shadow>3.0</Shadow>
+        <Spirit>3.0</Spirit>
+        <Water>3.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <VisualActor>
+    <Actor>units/fairy/fairy_stray_winter.xml</Actor>
+  </VisualActor>
+</Entity>

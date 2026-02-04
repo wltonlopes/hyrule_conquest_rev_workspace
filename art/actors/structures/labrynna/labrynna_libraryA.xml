@@ -12,8 +12,6 @@
       </textures>
 	  <props>
 			<prop actor="props/structures/labrynna/labrynna_groundbase_square.xml" attachpoint="root"/>
-			<prop actor="props/structures/labrynna/labrynna_libraryexpA.xml" attachpoint="root"/>
-			<prop actor="props/structures/labrynna/labrynna_libraryexpB.xml" attachpoint="root"/>
 	  </props>
 	</variant>
   </group>
@@ -24,8 +22,6 @@
 		<prop actor="structures/labrynna/labrynna_scaffoldD.xml" attachpoint="root"/>
         <prop actor="structures/labrynna/labrynna_frameD.xml" attachpoint="root"/>
 		<prop actor="particle/construction_dust_hugeB.xml" attachpoint="root"/>
-		<prop actor="props/structures/labrynna/labrynna_libraryexpA.xml" attachpoint="root"/>
-			<prop actor="props/structures/labrynna/labrynna_libraryexpB.xml" attachpoint="root"/>
       </props>
 	</variant>
    </group>    

@@ -1,0 +1,16 @@
+{
+	"genericName": "Improved Mining Gear",
+	"description": "As the Black Tower and Labrynna's miltiary foundation's need for more resources continues, the need to equip their workers with better and more useful mining tools has become apparent to the Empire.",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 150},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "labrynna/gather_mininggear.dds",
+	"researchTime": 40,
+	"tooltip": "Stone and Metal gather rate increased by 50% for all workers.",
+	"modifications": [
+				{"value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.5},
+				{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.5}
+			 ],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="HC_makuholo/base_HC_makuholo.xml">
+      <mesh>units/fairy/fai_makuholoA.dae</mesh>
+	  <props>
+        <prop actor="particle/fairy_leaves_spring.xml" attachpoint="root"/>
+		<prop actor="particle/fairy_leaves_summer.xml" attachpoint="root"/>
+		<prop actor="particle/fairy_leaves_autumnA.xml" attachpoint="root"/>
+		<prop actor="particle/fairy_leaves_autumnB.xml" attachpoint="root"/>
+		<prop actor="particle/fairy_field_maku.xml" attachpoint="root"/>
+		<prop actor="units/fairy/fairy_makuholo_leaves.xml" attachpoint="root"/>
+		<prop actor="units/fairy/fairy_makufairies.xml" attachpoint="root"/>
+	  </props>
+      <textures><texture file="skeletal/fairy/fai_makuholoA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="Attack_Ranged">
+	<props>
+		<prop actor="particle/fairy_leaves_spring.xml" attachpoint="root"/>
+		<prop actor="particle/fairy_leaves_summer.xml" attachpoint="root"/>
+		<prop actor="particle/fairy_leaves_autumnA.xml" attachpoint="root"/>
+		<prop actor="particle/fairy_leaves_autumnB.xml" attachpoint="root"/>
+		<prop actor="particle/fairy_field_maku.xml" attachpoint="root"/>
+		<prop actor="units/fairy/fairy_makuholo_leaves.xml" attachpoint="root"/>
+		<prop actor="units/fairy/fairy_makufairies.xml" attachpoint="root"/>
+        <prop actor="particle/fairy_mist_summon.xml" attachpoint="root"/>
+	  </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_makuholo/base_HC_makuholo_att.xml"/>
+    <variant name="Death">
+      <props>
+		<prop actor="units/fairy/fairy_makuholo_leaves.xml" attachpoint="root"/>
+		<prop actor="units/fairy/fairy_makufairies.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>  
+  <material>default.xml</material>
+</actor>
+

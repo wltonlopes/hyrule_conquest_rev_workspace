@@ -25,17 +25,23 @@
   </Footprint>
   <Health>
     <Max>400</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>25</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/kokiri/infantry_spearman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
     <GenericName>Kokiri Chariot</GenericName>
     <SpecificName>Stag Chariot</SpecificName>
-    <SelectionGroupName>units/kokiri/champion_chariot</SelectionGroupName>
     <History>The Kokiri occasionally use these chariots to transports supplies, but during times of war they instead carry soldiers to the battlefield. They are not particularly strong but can be garrisoned with a pair of ranged units to boost their damage output.</History>
     <Icon>units/kokiri/kok_chariot.dds</Icon>
     <Tooltip>Fast Cavalry Unit that can garrison other units inside.</Tooltip>
+    <Classes datatype="tokens">Deer</Classes>
     <Requirements>
-      <Techs datatype="tokens">-unlock_champion_cavalry unlock_champion_chariots</Techs>
+      <Techs datatype="tokens">phase_city -unlock_champion_cavalry</Techs>
     </Requirements>
   </Identity>
   <Resistance>

@@ -17,8 +17,9 @@
 		{
 			"Title": "Programming",
 			"List": [
-					{ "nick": "Welton Lopes" },
-					{ "nick": "Perzival12" }
+					{ "nick": "Exodarian" },
+					{ "nick": "Perzival12" },
+					{ "nick": "Welton Lopes" }
 				]
 		},
 		{
@@ -26,6 +27,7 @@
 			"List": [
 					{ "name": "Adam Halpin" },
 					{ "nick": "HelpTheWretched" },
+					{ "nick": "FaustVIIth" },
 					{ "nick": "Perzival12" },
 					{ "nick": "Rozen" },
 					{ "nick": "Symphony of the Goddesses" },
@@ -56,12 +58,13 @@
 					{ "nick": "Gor Moron", "name": "He said I didn't need to credit him, but I did" },
 					{ "nick": "Hannibal_Barca", "name": "Plague Swamp*" },
 					{ "nick": "Perzival12" },
+					{ "nick": "Profile138" },
 					{ "nick": "(-_-)", "name": "Plague Swamp*" },
 					{ "nick": "*Names that are credited to specific maps are the original creators of that map, which has been copied and possibly edited for the creation of this mod." }
 				]
-		},
+		},	
 		{
-			"Title": "Thanks to the The Undying Nephalim, for making the original version of this mod."
+			"Title": "Thanks to Ice Cream Man, for making the original version of this mod."
 		},
 		{
 			"Title": "Thanks to the Zelda community for many great ideas and art."

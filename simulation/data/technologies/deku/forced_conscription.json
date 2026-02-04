@@ -1,0 +1,21 @@
+{
+	"genericName": "Forced Conscription",
+	"description": "In times of war, Scrub leaders often order the forced conscription of soldiers, ordering every able citizen to battle.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
+	"supersedes": "deku/forced_conscription",
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "deku/deku_crammed.dds",
+	"researchTime": 40,
+	"tooltip": "-20% train time and cost of units, but also -15% health.",
+	"modifications": [
+				{"value": "Cost/BuildTime", "multiply": 0.80},
+				{"value": "Cost/Resources/food", "multiply": 0.80},
+				{"value": "Cost/Resources/wood", "multiply": 0.80},
+				{"value": "Cost/Resources/stone", "multiply": 0.80},
+				{"value": "Cost/Resources/metal", "multiply": 0.80},
+				{"value": "Health/Max", "multiply": 0.85}
+			 ],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,37 @@
+{
+	"TranslatedKeys": ["Title", "Tooltip"],
+	"Data":
+	[
+		{
+			"Difficulty": 1,
+			"Name": "Very Easy",
+			"Title": "Pathetic",
+			"Tooltip": "Choose this difficulty if you are discovering Hyrule Conquest: Revival"
+		},
+		{
+			"Difficulty": 2,
+			"Name": "Easy",
+			"Title": "Wimpy",
+			"Tooltip": "Choose this difficulty if you do not like being knocked down."
+		},
+		{
+			"Difficulty": 3,
+			"Name": "Medium",
+			"Title": "Average",
+			"Tooltip": "Choose this difficulty if you have already a good experience with Hyrule Conquest: Revival",
+			"Default": true
+		},
+		{
+			"Difficulty": 4,
+			"Name": "Hard",
+			"Title": "Heroic",
+			"Tooltip": "Choose this difficulty if you want to be really challenged."
+		},
+		{
+			"Difficulty": 5,
+			"Name": "Very Hard",
+			"Title": "Titan",
+			"Tooltip": "Choose this difficulty if you do not mind being swept out."
+		}
+	]
+}

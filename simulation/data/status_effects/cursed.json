@@ -1,0 +1,7 @@
+{
+	"applierTooltip": "This unit curses targets.",
+	"code": "Cursed",
+	"icon": "cursed",
+	"statusName": "Cursed",
+	"receiverTooltip": "This unit is cursed."
+}

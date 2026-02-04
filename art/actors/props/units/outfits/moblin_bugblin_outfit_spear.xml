@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/moblin/bugblin_outfitA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/moblin/medium/bugblin_outfitA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/moblin/low/bugblin_outfitA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_bugblin/base_HC_biped_spear.xml">
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Zebra">
+        <textures>
+          <texture file="skeletal/moblin/mob_bugblin_outfitA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Leopard">
+        <textures>
+          <texture file="skeletal/moblin/mob_bugblin_outfitB.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Panther">
+        <textures>
+          <texture file="skeletal/moblin/mob_bugblin_outfitC.dds" name="baseTex"/>
+        </textures>
+      </variant>
+      <variant frequency="1" name="Cougar">
+        <textures>
+          <texture file="skeletal/moblin/mob_bugblin_outfitD.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_bugblin/base_HC_biped_capture.xml"/>
+      <variant file="HC_bugblin/base_HC_biped_slaughter.xml"/>
+      <variant file="HC_bugblin/base_HC_biped_death.xml">
+    </variant>
+    </group>
+    <material>player_trans.xml</material>
+  </inline>
+</qualitylevels>
+

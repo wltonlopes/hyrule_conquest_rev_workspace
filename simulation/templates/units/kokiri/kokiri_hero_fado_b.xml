@@ -7,8 +7,8 @@
   <Cost>
     <BuildTime>25</BuildTime>
     <Resources>
-      <food>100</food>
-      <wood>100</wood>
+      <food>250</food>
+      <wood>250</wood>
       <stone>0</stone>
       <metal>0</metal>
     </Resources>

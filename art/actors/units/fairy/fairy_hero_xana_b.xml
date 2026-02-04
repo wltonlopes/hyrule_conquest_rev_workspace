@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+    <group>
+      <variant minquality="high" frequency="100" name="Base">
+        <mesh>units/fairy/fai_greatA.dae</mesh>
+      </variant>
+      <variant minquality="medium" frequency="100" name="Base">
+        <mesh>units/fairy/medium/fai_greatA.dae</mesh>
+      </variant>
+      <variant maxquality="medium" frequency="100" name="Base">
+        <mesh>units/fairy/low/fai_greatA.dae</mesh>
+      </variant>
+    </group>	
+  <group>
+    <variant frequency="1" name="Pink">
+      <textures><texture file="skeletal/fairy/fai_greatA.dds" name="baseTex"/></textures>
+	  <props>
+        <prop actor="particle/fairy_field_pink.xml" attachpoint="root"/>
+		<prop actor="units/fairy/fairy_greatA_leaves.xml" attachpoint="root"/>
+		<prop actor="units/fairy/fairy_greatA_pants.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="HC_greatfairy/base_HC_greatfairy_whip.xml">
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+	<variant file="HC_greatfairy/base_HC_greatfairy_attackmagic.xml"/>
+    <variant file="HC_greatfairy/base_HC_greatfairy_capture.xml"/>
+    <variant file="HC_greatfairy/base_HC_greatfairy_slaughter.xml"/>
+    <variant file="HC_greatfairy/base_HC_greatfairy_death.xml">
+      <props>
+        <prop actor="props/units/blood_fairy_01.xml" attachpoint="root"/>
+		<prop actor="units/fairy/fairy_greatA_leaves.xml" attachpoint="root"/>
+		<prop actor="units/fairy/fairy_greatA_pants.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>

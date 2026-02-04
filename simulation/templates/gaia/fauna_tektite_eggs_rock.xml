@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>6</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>2.0</Height>
+    <Circle radius="1.0"/>
+  </Footprint>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Creature</GenericName>
+    <SpecificName>Mountain Tektite Eggs</SpecificName>
+    <History>Many races in Hyrule consider Tektite Eggs a delicious delicacy. The difficulty in obtaining them (due to a defending mother, and the very short gestation period before hatching) makes them go for quite a market price in some circles.</History>
+    <Tooltip>A Tektite egg catch.</Tooltip>
+    <Icon>gaia/fauna_tektite_eggs_rock.dds</Icon>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <Floating>true</Floating>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>1.0</Crush>
+        <Hack>1.0</Hack>
+        <Pierce>1.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+ <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/tektite_bite.xml</attack_melee>
+      <death>voice/wild/tektite/tektite_death.xml</death>
+      <run>actor/movement/tektite/tektite_move.xml</run>
+      <select>voice/wild/tektite/tektite_select.xml</select>
+      <walk>actor/movement/tektite/tektite_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <RoamDistance>36.0</RoamDistance>
+    <FleeDistance>24.0</FleeDistance>
+    <RoamTimeMin>15000</RoamTimeMin>
+    <RoamTimeMax>60000</RoamTimeMax>
+    <FeedTimeMin>15000</FeedTimeMin>
+    <FeedTimeMax>60000</FeedTimeMax>
+    <Formations disable=""/>
+  </UnitAI>
+  <UnitMotion>
+    <RunMultiplier>1.0</RunMultiplier>
+    <WalkSpeed>0.001</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>structures/wild/tektite_eggs_rockA.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -43,16 +43,27 @@
       <metal>0</metal>
     </Resources>
   </Cost>
+  <Decay>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>0.0</SinkRate>
+    <SinkAccel>2.0</SinkAccel>
+  </Decay>
   <Footprint replace="">
     <Height>3.0</Height>
     <Square depth="12.0" width="8.0"/>
   </Footprint>
   <Health>
     <Max>400</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>2</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/deku/infantry_spearman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>deku</Civ>
-    <Classes datatype="tokens">Scrub</Classes>
+    <Classes datatype="tokens">Scrub Dekupult</Classes>
     <SpecificName>Dekupult</SpecificName>
     <History>While they are rather small (like the Deku Scrubs themselves,) these catapults are no less deadly than those used by the other races of Hyrule. Loaded with exceptionally large Deku Nuts, the ammo of these siege engines can explode in a giant flash of light, stunning nearby enemies. Such bursts can also punch a hole into an enemy gate, or holes into multiple enemy soldiers in the area.</History>
     <Tooltip>Ranged Siege unit that lobs explosive Deku Nuts at its targets, Stunning them.</Tooltip>

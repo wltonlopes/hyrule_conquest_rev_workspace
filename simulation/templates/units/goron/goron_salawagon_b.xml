@@ -11,12 +11,23 @@
       <metal>150</metal>
     </Resources>
   </Cost>
+  <Decay>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>0.0</SinkRate>
+    <SinkAccel>2.0</SinkAccel>
+  </Decay>
   <Footprint>
     <Circle radius="7.0"/>
     <Height>7.0</Height>
   </Footprint>
   <Health>
     <Max>75</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>25</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/goron/infantry_spearman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>goron</Civ>

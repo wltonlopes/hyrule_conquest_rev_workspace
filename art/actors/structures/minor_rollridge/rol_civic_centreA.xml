@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Talus Cave">
+      <mesh>structural/minor_rollridge/rol_taluscaveA.dae</mesh>
+      <props>
+	    <prop actor="structures/minor_rollridge/rol_taluscave_rocksA.xml" attachpoint="root"/>	
+		<prop actor="structures/minor_rollridge/rol_cavegrassA.xml" attachpoint="root"/>	
+		<prop actor="props/structures/minor_rollridge/rol_camp_groundA.xml" attachpoint="root"/>	
+      </props>
+      <textures>
+        <texture file="structural/lairs/lairs_cave_rollridgeA.dds" name="baseTex"/>
+		<texture file="structural/lairs/lairs_caveA_normal.dds" name="normTex"/>
+        <texture file="structural/lairs/lairs_cave_rollridgeA.dds" name="specTex"/>
+		<texture file="structural/minor_rollridge/rol_taluscaveA_ao.dds" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+        
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

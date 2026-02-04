@@ -1,0 +1,19 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack","multiply": 0.8 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 0.8 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 0.8 },
+		{ "value": "Attack/Ranged/Damage/Hack","multiply": 0.8 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 0.8 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 0.8 },
+		{ "value": "Attack/Capture/Capture","multiply": 0.8 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.8 }
+	],
+	"auraName": "Emperor of the Gerudo",
+	"auraDescription": "Enemy soldiers -20% walk speed, non-magic damage, and capture.",
+	"overlayIcon": "art/textures/ui/session/auras/Old/ganondorf_lastwarlord.dds"
+}

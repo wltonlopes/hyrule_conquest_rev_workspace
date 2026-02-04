@@ -38,8 +38,6 @@
       <variant frequency="1" name="mesh">
         <textures>
           <texture file="skeletal/hylian/hyl_uu1.dds" name="baseTex"/>
-          <texture file="skeletal/hylian/hyl_uu1_spec.dds" name="specTex"/>
-          <texture file="skeletal/hylian/hyl_uu1_spec.dds" name="glowTex"/>
         </textures>
       </variant>
     </group>
@@ -51,7 +49,7 @@
       <variant frequency="1" name="longbow-light">
       </variant>
     </group>
-    <material>basic_glow.xml</material>
+    <material>basic_trans.xml</material>
   </inline>
 </qualitylevels>
 

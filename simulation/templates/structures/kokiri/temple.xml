@@ -28,6 +28,11 @@
   <Obstruction>
     <Static width="40" depth="40"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      kokiri/fairy_targeting
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/kokiri/kokiri_grovewatch_b

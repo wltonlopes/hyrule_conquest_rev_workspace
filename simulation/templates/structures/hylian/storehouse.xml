@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Footprint replace="">
+    <Circle radius="18.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1600</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_storehouseA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Storehouse</SpecificName>
+    <History>A small yard for gathering, packing, storing, and hauling collected resources for the Kingdom of Hyrule.</History>
+    <Icon>structures/hylian/hyl_dropoff.dds</Icon>
+    <Tooltip>A drop-off site for collected resources.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -gather_lumbering_ironaxes
+      -gather_lumbering_strongeraxes
+      -gather_lumbering_sharpaxes
+      -gather_mining_servants
+      -gather_mining_serfs
+      -gather_mining_slaves
+      -gather_mining_wedgemallet
+      -gather_mining_shaftmining
+      -gather_mining_silvermining
+      -gather_capacity_basket
+      -gather_capacity_wheelbarrow
+      -gather_capacity_carts
+      hylian/gather_lumbering_ironaxes
+      hylian/gather_lumbering_strongeraxes
+      hylian/gather_lumbering_arnaxes
+      hylian/gather_mining_peasants
+      hylian/gather_mining_shaftmining
+      hylian/gather_mining_prisoners
+      hylian/gather_capacity_basket
+      hylian/gather_capacity_wheelbarrow
+      hylian/gather_capacity_carts
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_storehouseA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_constA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

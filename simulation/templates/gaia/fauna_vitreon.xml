@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_aggressive">
+  <Attack>
+    <Ranged>
+      <AttackName>Bolt</AttackName>
+      <Damage>
+        <Light>15.0</Light>
+      </Damage>
+      <MaxRange>33</MaxRange>
+      <MinRange>0.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.8</Spread>
+      </Projectile>
+      <RepeatTime>1500</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Footprint replace="">
+    <Height>8.0</Height>
+    <Circle radius="2.0"/>
+  </Footprint>
+  <Health>
+    <Max>380</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Vitreon</GenericName>
+    <Icon>gaia/fauna_vitreon.dds</Icon>
+    <History>These large floating eyeballs, coated in disgusting slime, are believed to be the spawn of Vitreous. The horrifying monsters do not seem to have any awareness, aimlessly wandering around the Misery Mire as if they were mindless drones. If provoked, however, they will attack with a deadly shock.</History>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <Floating>true</Floating>
+  </Position>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/magic/magic_spark_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/magic/magic_spark.xml</attack_ranged>
+      <death>voice/zora/kyameron/kyameron_death.xml</death>
+      <run>actor/movement/morpha/morpha_move.xml</run>
+      <walk>actor/movement/morpha/morpha_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/wild/wild_vitreonA.xml</Actor>
+  </VisualActor>
+</Entity>
+

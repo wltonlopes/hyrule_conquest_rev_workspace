@@ -1,0 +1,9 @@
+<Entity parent="template_gaia_tree">
+  <Identity>
+    <History>A green tree native to the Ordona Province region.</History>
+    <SpecificName>Ordon Tree</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>flora/forest/ordon_treesB.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_spearman">
+  <Auras datatype="tokens">
+    units/cowcart_aura_01
+  </Auras>
+  <Attack disable=""/>
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="7.0" />
+    <Height>7.0</Height>
+  </Footprint>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Cow Cart</SpecificName>
+    <History>A simple cart carrying a cache of famous Lon Lon Milk. In the heat of battle soldiers can return to this supply and refresh themselves, even healing some of their wound before returning to the frontlines.</History>
+    <Icon>units/minor_lonlon/lonlon_cowcart.dds</Icon>
+    <Tooltip>Support unit that can heal nearby units.</Tooltip>
+    <VisibleClasses datatype="tokens">LonLon Support</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <death>actor/fauna/animal/cow.xml</death>
+      <order_walk>actor/fauna/animal/cow.xml</order_walk>
+      <run>actor/movement/cart/cart_move.xml</run>
+      <select>actor/fauna/animal/cow.xml</select>
+      <trained>actor/fauna/animal/cow.xml</trained>
+      <walk>actor/movement/cart/cart_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/minor_lonlon/lonlon_cowcart_b.xml</Actor>
+  </VisualActor>
+</Entity>

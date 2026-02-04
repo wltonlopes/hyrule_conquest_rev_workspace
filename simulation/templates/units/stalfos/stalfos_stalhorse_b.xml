@@ -26,6 +26,7 @@
   </Health>
   <Identity>
     <Civ>stalfos</Civ>
+    <Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Undead Stal</VisibleClasses>
     <SpecificName>Stalhorse</SpecificName>
     <History>Animated mounts of dead horses, these swift running undead carry Stalfos warriors into battle. Their masters often use these beasts to precede their invasions; raiding farmers and smaller targets to leave behind fresh corpses for the army to raise upon arrival.</History>

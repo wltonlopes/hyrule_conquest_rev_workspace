@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint replace="">
+    <Circle radius="25.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_fairy_mediumA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Meeting Spring</SpecificName>
+    <History>There are stories from time to time of a Fairy revealing the location of their home to outsiders. Many will flock to these springs in hope of gaining the favor of Fairies, bringing gifts and services as offerings.</History>
+    <Icon>structures/fairy/fai_meetingspring_spring.dds</Icon>
+    <Tooltip>Allows the trading of resources on the market or with your allies. Also allows the Fairies to hire Mercenaries.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/fairy/complete_meetingspring.xml</constructed>
+      <select>interface/select/building/fairy/sel_meetingspring.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/merc/merc_polsvoice_b
+      units/merc/merc_pikku_b
+      units/merc/merc_forrestthief_b
+      units/merc/merc_goriya_b
+      units/merc/merc_taros_b
+      units/merc/merc_marksman_b
+      units/merc/merc_mago_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_meetingspringA_spring.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_spring.xml</FoundationActor>
+  </VisualActor>
+</Entity>

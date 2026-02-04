@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_library">
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>150</stone>
+      <metal>150</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square depth="37.0" width="37.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Library</SpecificName>
+    <Tooltip>Building that researches technologies and trains mage units.</Tooltip>
+    <VisibleClasses datatype="tokens">-Town City</VisibleClasses>
+    <Icon>structures/hylian/hyl_blacksmithA.dds</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_city</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>30</stone>
+    <metal>30</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="35.0" width="35.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      hylian/blueprints
+      hylian/engineers
+      hylian/hyron_tactics
+      hylian/manhala_training
+      hylian/ancient_books
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_blacksmith.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_blacksmith.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities replace="" datatype="tokens">
+      units/hylian/hylian_acolyte_b
+      units/hylian/hylian_magecaptain_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_libraryA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

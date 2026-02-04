@@ -1,0 +1,16 @@
+{
+	"genericName": "Strip Mining",
+	"description": "In order to supply the Black Tower with all of it's construction needs, Labrynna has developed a quick process for utterly stripping all available resources from both above and below the earth in any given area.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 350},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "labrynna/gather_stripmining.dds",
+	"researchTime": 40,
+	"tooltip": "In order to supply the Black Tower with all of it's construction needs, Labrynna developed a quick process for utterly stripping all available resources from both above and under the earth in any given area. (Stone and Ore gather rate increased by 100%)",
+	"modifications": [
+				{"value": "ResourceGatherer/Rates/stone.rock", "multiply": 2},
+				{"value": "ResourceGatherer/Rates/metal.ore", "multiply": 2}
+			 ],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

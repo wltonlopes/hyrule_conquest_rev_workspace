@@ -1,0 +1,15 @@
+{
+	"genericName": "Beetle Training",
+	"description": "Orhat Beetles are fast, though when trained and bred correctly, can move at unbelievable speeds for such large creatures.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 800},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "deku/orhat_beetletraining.dds",
+	"researchTime": 40,
+	"tooltip": "+20% walk speed to Orhat Beetles.",
+	"modifications": [
+				{"value": "UnitMotion/WalkSpeed", "multiply": 1.2}
+			 ],
+	"affects": ["Beetle"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

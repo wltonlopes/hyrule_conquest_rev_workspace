@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Auras datatype="tokens">
+    structural/hospital_heal
+  </Auras>
+  <Cost>
+    <Resources>
+      <wood>50</wood>
+      <stone>250</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="36.0" width="23.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1200</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_church</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <History>Larger Hylian cities are often full of various Churches that serve as religious and communal gatherings for the local population. In addition to being a welcoming place for Priests to speak of the Goddesses, they often serve as training grounds for future generations of religious preachers and missionaries.</History>
+    <SpecificName>Church of the Goddesses</SpecificName>
+    <Icon>structures/hylian/hyl_church.dds</Icon>
+    <Tooltip>Religious building that increases the spread of your territory and allows the training of Support units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="34" depth="21"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -cost_healer
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
+      -garrison_heal
+      -health_regen_units
+      hylian/kingdom_priestess
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/hylian/hylian_deacon_b
+      units/hylian/hylian_acolyte_b
+      units/hylian/hylian_magecaptain_b
+      units/hylian/hylian_vanguard_b
+      units/{civ}/hylian_hero_seres
+      units/{civ}/hylian_hero_lana
+      units/{civ}/hylian_hero_rauru
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_religionA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+</Entity>

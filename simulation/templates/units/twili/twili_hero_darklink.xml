@@ -24,6 +24,11 @@
       <metal>800</metal>
     </Resources>
   </Cost>
+  <Decay>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>0.0</SinkRate>
+    <SinkAccel>2.0</SinkAccel>
+  </Decay>
   <Footprint>
     <Circle radius="3.0" />
     <Height>5.0</Height>

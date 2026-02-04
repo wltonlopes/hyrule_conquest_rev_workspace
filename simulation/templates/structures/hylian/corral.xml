@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="25.0" width="25.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_tiny</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Small Stable</SpecificName>
+    <History>Small Stable for storing horses, tools, and other farm animals.</History>
+    <Icon>structures/gerudo/ger_pigfarm.dds</Icon>
+    <Tooltip>Trains cheap Hylian cavalry units and livestock.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="25.0" width="24.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -stable_batch_training
+      -cavalry_movement_speed
+      -cavalry_health
+      -nisean_horses
+      -unlock_champion_cavalry
+      -unlock_champion_chariots
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      gaia/fauna_chicken
+      gaia/fauna_cattle_cow_trainable
+      units/hylian/hylian_scout_cavalry
+      units/hylian/cavalry_maceman_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_stablesmallA.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

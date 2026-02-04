@@ -1,0 +1,15 @@
+{
+	"genericName": "Camo Capes",
+	"description": "Special capes patterned after the local flora help aid Borderguards in hiding for surprise attacks.",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 0, "rupees": 350},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "labrynna/borderguard_camocape.dds",
+	"researchTime": 40,
+	"tooltip": "Borderguards Camouflage twice as fast.",
+  	"modifications": [
+				{"value": "Visibility/Camouflage/ActivateDelay", "multiply": 0.1}
+			 ],
+  	"affects": [ "Borderguard" ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

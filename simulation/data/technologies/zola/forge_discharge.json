@@ -1,7 +1,7 @@
 {
 	"genericName": "Tailpasaran Discharge",
 	"description": "Breed your tailpasaran to have discharge their electricity as they attack.",
-	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 400},
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 400},
 	"icon": "zola/discharge.dds",
 	"researchTime": 40,
 	"tooltip": "Tailpasaran deal 8 Fire damage.",

@@ -1,0 +1,107 @@
+<skeletons>
+<standard_skeleton id="StalkinSummon Skeleton" title="StalkinSummon Skeleton">
+<bone name="stalkin_form_base">
+<bone name="bone_pelvis">
+</bone>
+<bone name="bone_RThigh">
+</bone>
+<bone name="bone_Rlowerleg">
+</bone>
+<bone name="bone_Rfoot">
+</bone>
+<bone name="bone_Rtoe">
+</bone>
+<bone name="bone_abs">
+</bone>
+<bone name="bone_torso">
+</bone>
+<bone name="bone_neck">
+</bone>
+<bone name="head">
+</bone>
+<bone name="bone_Rclavical">
+</bone>
+<bone name="bone_Rupperarm">
+</bone>
+<bone name="bone_Relbow">
+</bone>
+<bone name="bone_Rhand">
+</bone>
+<bone name="bone_weapon_right">
+</bone>
+<bone name="projectile">
+</bone>
+<bone name="bone_Lclavical">
+</bone>
+<bone name="bone_Lupperarm">
+</bone>
+<bone name="bone_Lelbow">
+</bone>
+<bone name="bone_Lhand">
+</bone>
+<bone name="bone_weapon_left">
+</bone>
+<bone name="bone_LThigh">
+</bone>
+<bone name="bone_Llowerleg">
+</bone>
+<bone name="bone_Lfoot">
+</bone>
+<bone name="bone_Ltoe">
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="StalkinSummon Skeleton" title="StalkinSummon Skeleton">
+<identifier><root>stalkin_form_base</root></identifier>
+<bone name="stalkin_form_base"><target>stalkin_form_base</target>
+<bone name="bone_pelvis"><target>bone_pelvis</target>
+</bone>
+<bone name="bone_RThigh"><target>bone_RThigh</target>
+</bone>
+<bone name="bone_Rlowerleg"><target>bone_Rlowerleg</target>
+</bone>
+<bone name="bone_Rfoot"><target>bone_Rfoot</target>
+</bone>
+<bone name="bone_Rtoe"><target>bone_Rtoe</target>
+</bone>
+<bone name="bone_abs"><target>bone_abs</target>
+</bone>
+<bone name="bone_torso"><target>bone_torso</target>
+</bone>
+<bone name="bone_neck"><target>bone_neck</target>
+</bone>
+<bone name="head"><target>head</target>
+</bone>
+<bone name="bone_Rclavical"><target>bone_Rclavical</target>
+</bone>
+<bone name="bone_Rupperarm"><target>bone_Rupperarm</target>
+</bone>
+<bone name="bone_Relbow"><target>bone_Relbow</target>
+</bone>
+<bone name="bone_Rhand"><target>bone_Rhand</target>
+</bone>
+<bone name="bone_weapon_right"><target>bone_weapon_right</target>
+</bone>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="bone_Lclavical"><target>bone_Lclavical</target>
+</bone>
+<bone name="bone_Lupperarm"><target>bone_Lupperarm</target>
+</bone>
+<bone name="bone_Lelbow"><target>bone_Lelbow</target>
+</bone>
+<bone name="bone_Lhand"><target>bone_Lhand</target>
+</bone>
+<bone name="bone_weapon_left"><target>bone_weapon_left</target>
+</bone>
+<bone name="bone_LThigh"><target>bone_LThigh</target>
+</bone>
+<bone name="bone_Llowerleg"><target>bone_Llowerleg</target>
+</bone>
+<bone name="bone_Lfoot"><target>bone_Lfoot</target>
+</bone>
+<bone name="bone_Ltoe"><target>bone_Ltoe</target>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

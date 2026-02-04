@@ -1,0 +1,17 @@
+{
+	"genericName": "Malkariko Chainmail",
+	"description": "If Vigjaro is noted for their leather, than Malkariko is famous for their exquisite chainmail, which can take months or even years to forge.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 600},
+	"supersedes": "hylian/vigjaro_leather",
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/armor_malkariko_chainmail.dds",
+	"researchTime": 50,
+	"tooltip": "All soldiers gain +25% resistance to pierce and crush damage.",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Pierce", "multiply": 1.25},
+				{"value": "Resistance/Entity/Damage/Crush", "multiply": 1.25}
+			 ],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

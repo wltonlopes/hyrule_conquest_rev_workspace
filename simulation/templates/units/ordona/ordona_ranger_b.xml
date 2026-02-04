@@ -5,6 +5,7 @@
       <AttackName>Arrows</AttackName>
       <Damage>
         <Pierce>40</Pierce>
+        <True>20</True>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>80</MaxRange>

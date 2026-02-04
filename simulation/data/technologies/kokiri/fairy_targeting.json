@@ -1,0 +1,16 @@
+{
+	"genericName": "Fairy Targeting",
+	"description": "Fairies are very handy at helping their partner target an enemy and aim, as well as react quickly to incoming attacks.",
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0, "rupees": 350},
+	"requirements": {"all": [ {"tech": "kokiri/fairy_senses"}, {"tech": "phase_town"}, {"civ": "kokiri"}]},
+	"requirementsTooltip": "Requires the Fairy Senses tech and Town Phase.",
+	"icon": "kokiri/fairy_senses.dds",
+	"researchTime": 40,
+	"tooltip": "+20% Attack Range and +20% Accuracy for ranged units.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/MaxRange", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Spread", "multiply": 0.8}
+			 ],
+	"affects": ["Ranged"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -40,7 +40,7 @@
       </props>
     </variant>
     <variant name="death">
-      <mesh>units/lanayru/lan_gleeockling1A_damageB.dae</mesh>
+      <mesh>units/lanayru/lan_gleeockling1A_head.dae</mesh>
       <props>
         <prop actor="props/units/blood_green_01.xml" attachpoint="root"/>
       </props>

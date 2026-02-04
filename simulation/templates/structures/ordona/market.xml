@@ -24,6 +24,12 @@
       ordona/trade_goat_caravan
     </Technologies>
   </Researcher>
+  <ResourceTrickle>
+    <Interval>3000</Interval>
+    <Rates>
+      <metal>0.0</metal>
+    </Rates>
+  </ResourceTrickle>
   <Trainer>
     <Entities datatype="tokens">
       units/ordona/ordona_hero_beth

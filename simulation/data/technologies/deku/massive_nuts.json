@@ -1,0 +1,15 @@
+{
+	"genericName": "Massive Deku Nuts",
+	"description": "Deku Nuts are already many times the size of other nut varieties, and they can be cultivated to gro even larger.",
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "deku/dek_meganutdurable.dds",
+	"researchTime": 40,
+	"tooltip": "All units wood gather rate + 20%",
+	"modifications": [
+				{"value": "ResourceGatherer/Rates/wood.tree", "multiply": 1.2}
+			 ],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,37 @@
+<Entity parent="template_unit_fauna_herd_horse">
+  <Capturable>
+    <CapturePoints>10</CapturePoints>
+    <GarrisonRegenRate>1</GarrisonRegenRate>
+    <RegenRate>1</RegenRate>
+  </Capturable>
+  <Footprint>
+    <Height>1.5</Height>
+    <Square depth="2.8" width="1.4" />
+  </Footprint>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Ordonian Horse</SpecificName>
+    <History>A wild horse that can be traced back to the Plains of Ordona. Despite their origins, these horses have spread far across Hyrule and can be found in many wilderness regions.</History>
+    <Icon>gaia/fauna_horse_ord.dds</Icon>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Sound>
+    <SoundGroups>
+      <death>actor/fauna/animal/horse_death.xml</death>
+      <order_walk>actor/fauna/animal/horse_order.xml</order_walk>
+      <select>actor/fauna/animal/horse_select.xml</select>
+      <trained>actor/fauna/animal/horse_trained.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>5.0</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed>6.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/wild/wild_horse_ord.xml</Actor>
+  </VisualActor>
+</Entity>

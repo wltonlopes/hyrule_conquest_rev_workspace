@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="25.0" width="25.0"/>
+  </Footprint>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>50</wood>
+      <stone>50</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>750</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_houseA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Kingdom Housing</SpecificName>
+    <History>Hylian civilians lived in quite high standards for commonfolk. Their houses were often multi-leveled and quite comfortable even in harsher elements.</History>
+    <Icon>structures/hylian/hyl_houses.dds</Icon>
+    <Tooltip>Housing that allows you to field larger armies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="23.0" width="23.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>8</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -pop_house_01
+      -pop_house_02
+      -unlock_females_house
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_housesA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldI.xml</FoundationActor>
+  </VisualActor>
+</Entity>

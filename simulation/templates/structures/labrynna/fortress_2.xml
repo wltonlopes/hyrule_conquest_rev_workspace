@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/fortress">
+  <BuildingAI>
+    <DefaultArrowCount>18</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+  </BuildingAI>
+  <GarrisonHolder>
+    <Max>28</Max>
+  </GarrisonHolder>
+  <Health>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>18</SpawnNumberMax>
+      <SpawnNumberMin>18</SpawnNumberMin>
+      <Template>units/labrynna/labrynna_borderguard_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <SpecificName>Towered Star Fort</SpecificName>
+    <History>A large expansion upon the Star Fort, outfitting it with a collection of defensive towers.</History>
+    <Icon>structures/labrynna/lab_starfortB.dds</Icon>
+  </Identity>
+  <Upgrade>
+    <Tower>
+      <Cost>
+        <stone>500</stone>
+      </Cost>
+      <Entity>structures/labrynna/fortress_3</Entity>
+      <Time>40</Time>
+      <Tooltip>Upgrade the Star Fort with Cannon Ramparts.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Tower>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_starfortB.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+</Entity>

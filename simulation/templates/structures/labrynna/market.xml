@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint replace="">
+    <Circle radius="27.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1250</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_labrynna_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <VisibleClasses datatype="tokens">-Town Village</VisibleClasses>
+    <SpecificName>Bodega</SpecificName>
+    <History>A small but bustling center for trade and barter within Labrynna. These markets export Labrynnian goods and bring in valuables from foreign nations.</History>
+    <Icon>structures/labrynna/lab_marketA.dds</Icon>
+    <Tooltip>Allows the trading of resources on the market or with your allies.</Tooltip>
+      <Requirements>
+        <Techs datatype="tokens">phase_village -phase_town</Techs>
+      </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="40.0" width="40.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -trader_health
+      -trade_gain_01
+      -trade_gain_02
+    </Technologies>
+  </Researcher>
+  <Upgrade>
+    <Client>
+      <Cost>
+        <wood>50</wood>
+        <rupees>50</rupees>
+      </Cost>
+      <Entity>structures/labrynna/market_2</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Add Clientele tents to the Bodega.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Client>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_marketA.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

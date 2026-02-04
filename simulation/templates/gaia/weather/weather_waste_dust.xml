@@ -1,0 +1,25 @@
+<Entity parent="template_weather_wander">
+  <Auras datatype="tokens">
+    other/thickfog_aura_1
+  </Auras>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x128/ellipse.png</MainTexture>
+        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Visibility>
+    <AlwaysVisible>true</AlwaysVisible>
+    <Corpse>false</Corpse>
+    <Preview>false</Preview>
+    <RetainInFog>true</RetainInFog>
+  </Visibility>
+  <VisualActor>
+    <Actor>particle/waste_dustA.xml</Actor>
+    <SilhouetteDisplay>true</SilhouetteDisplay>
+    <SilhouetteOccluder>false</SilhouetteOccluder>
+    <VisibleInAtlasOnly>false</VisibleInAtlasOnly>
+  </VisualActor>
+</Entity>

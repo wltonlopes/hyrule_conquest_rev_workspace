@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/hylian_formations
+    units/heroes/hylian_hero_krin_01
+    units/heroes/hylian_hero_krin_02
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Sword</AttackName>
+      <Damage>
+        <Hack>25.0</Hack>
+        <Pierce>10.0</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>1100</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1200</Max>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <Classes datatype="tokens">Krin</Classes>
+    <SpecificName>Weras Krin Laratana</SpecificName>
+    <GenericName>Royal Captain</GenericName>
+    <History>Hailing from the house of Arcad, Captain Krin has long served Rauru as bodyguard on his pilgrimages and later Princess Zelda after her ascent to the throne. In truth he followed Rauru to converse with his Deacon, Seres.</History>
+    <Tooltip>Melee Hero that participates with fellow soldiers and boosts their performance.</Tooltip>
+    <Icon>units/hylian/hyl_hero_krin.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/hylian/kazakk/kazakk_death.xml</death>
+      <order_attack>voice/hylian/kazakk/kazakk_attack.xml</order_attack>
+      <order_garrison>voice/hylian/kazakk/kazakk_garrison.xml</order_garrison>
+      <order_gather>voice/hylian/kazakk/kazakk_gather.xml</order_gather>
+      <order_repair>voice/hylian/kazakk/kazakk_repair.xml</order_repair>
+      <order_walk>voice/hylian/kazakk/kazakk_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/hylian/kazakk/kazakk_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.5</RunMultiplier>
+    <WalkSpeed>10.0</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/hylian/hylian_hero_krin_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,12 +1,99 @@
-<Entity parent="units/goron/goron_powderkegl_common">
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_stonethrower">
+  <Attack>
+    <Ranged>
+      <AttackName>Powder Keg</AttackName>
+      <ApplyStatus>
+        <Burning>
+          <Interval>1000</Interval>
+          <Damage>
+            <Fire>3</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+        </Burning>
+      </ApplyStatus>
+      <Damage>
+        <Fire>250</Fire>
+      </Damage>
+      <MaxRange>100.0</MaxRange>
+      <MinRange>35.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
+      <PrepareTime>2000</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>particle/bomb_explosionA.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>37.5</Speed>
+        <Spread>3.0</Spread>
+      </Projectile>
+      <RepeatTime>9000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Fire>250.0</Fire>
+        </Damage>
+        <FriendlyFire>true</FriendlyFire>
+        <Range>25</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Decay>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>0.0</SinkRate>
+    <SinkAccel>2.0</SinkAccel>
+  </Decay>
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Square depth="10.0" width="10.0"/>
+  </Footprint>
+  <Health>
+    <Max>600</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>50</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/goron/infantry_spearman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
   <Identity>
+    <Civ>goron</Civ>
     <Icon>units/goron/gor_powderkegl.dds</Icon>
+    <GenericName>Powder Keg Launcher</GenericName>
+    <History>While not as powerful as the Bomb, the explosive Powder Kegs till pack enough power to blow open the side of a cliff. When directed at and fired into an enemy army, the resulting blast creates in all sorts of fiery carnage. A battery of Powder Keg Launchers can reduce any city to smoking rubble with a consistent barrage.</History>
+    <Tooltip>Long ranged Siege unit with a powerful explosive attack that deals lots of Splash Damage.</Tooltip>
   </Identity>
   <Pack>
     <Entity>units/goron/goron_powderkegl_packed</Entity>
     <State>unpacked</State>
     <Time>5000</Time>
   </Pack>
+  <Sound>
+    <SoundGroups>
+      <order_attack>voice/goron/guardian/guardian_attack.xml</order_attack>
+      <order_garrison>voice/goron/guardian/guardian_garrison.xml</order_garrison>
+      <order_gather>voice/goron/guardian/guardian_gather.xml</order_gather>
+      <order_repair>voice/goron/guardian/guardian_repair.xml</order_repair>
+      <order_walk>voice/goron/guardian/guardian_walk.xml</order_walk>
+      <run>actor/movement/cart/cart_move.xml</run>
+      <select>voice/goron/guardian/guardian_select.xml</select>
+      <trained>interface/alarm/alarm_create_engine.xml</trained>
+      <walk>actor/movement/cart/cart_move.xml</walk>
+    </SoundGroups>
+  </Sound>
   <UnitMotion>
     <RunMultiplier>1.0</RunMultiplier>
     <WalkSpeed>0.001</WalkSpeed>
@@ -15,3 +102,4 @@
     <Actor>units/goron/gor_powderkegl_unpacked.xml</Actor>
   </VisualActor>
 </Entity>
+

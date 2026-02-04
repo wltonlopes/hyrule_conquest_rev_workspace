@@ -30,6 +30,12 @@
   <Population>
     <Bonus>15</Bonus>
   </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      kokiri/fairy_senses
+      kokiri/fadola_workethic
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/kokiri/house.xml</Actor>
     <FoundationActor>structures/kokiri/kokiri_scaffoldH.xml</FoundationActor>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint replace="">
+    <Circle radius="25.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_marketA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Kingdom Market Plaza</SpecificName>
+    <History>The center of any Kingdom city's economy. Market Plazas are bustling with activity and engaged in trade with many foreign powers and neighbors.</History>
+    <Icon>structures/hylian/hyl_market.dds</Icon>
+    <Tooltip>Allows the trading of resources on the market or with your allies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="43.0" width="43.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -trader_health
+      -trade_gain_01
+      -trade_gain_02
+      -trade_commercial_treaty
+      hylian/potion_market
+      hylian/trade_hateno_dyes
+    </Technologies>
+  </Researcher>
+  <ResourceTrickle>
+    <Interval>3000</Interval>
+    <Rates>
+      <metal>0.0</metal>
+    </Rates>
+  </ResourceTrickle>
+  <Trainer>
+    <Entities datatype="tokens">
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_marketA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_constA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

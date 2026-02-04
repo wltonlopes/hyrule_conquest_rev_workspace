@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Health/MaxHealth", "multiply": 1.4}
+	],
+	"auraName": "Life Giver",
+	"auraDescription": "All units +40% health."
+}

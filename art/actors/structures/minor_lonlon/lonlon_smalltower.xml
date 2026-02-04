@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>structural/minor_lonlon/lonlon_smalltowerA.dae</mesh>
+      <textures>
+	    <texture file="structural/hylian/hylian_wallsA.dds" name="baseTex"/>
+		<texture file="structural/hylian/hylian_wallsA_normal.dds" name="normTex"/>
+	    <texture file="structural/hylian/hylian_wallsA.dds" name="specTex"/>
+		<texture file="structural/minor_lonlon/lonlon_smalltower_ao.dds" name="aoTex"/>
+	  </textures>
+    </variant>
+  </group>
+
+  <material>basic_trans_ao_norm_spec.xml</material>
+</actor>

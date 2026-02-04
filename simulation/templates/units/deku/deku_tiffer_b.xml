@@ -39,7 +39,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
-    <Classes datatype="tokens">Scrub</Classes>
+    <Classes datatype="tokens">Scrub FlyingScrub</Classes>
     <SpecificName>Tiffer</SpecificName>
     <History>A fast hovering Deku Scrub that can burn down enemies with it's candle. Tiffers seem to be in the private service of Kuh-Do and are used by him as tax collectors and general bullies to maintain his profits.</History>
     <Tooltip>Hovering Missile unit that torches enemies with their burning candles.</Tooltip>

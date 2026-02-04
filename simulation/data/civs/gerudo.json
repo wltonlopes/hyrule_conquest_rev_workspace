@@ -1,0 +1,159 @@
+{
+	"Code": "gerudo",
+	"Culture": "barbaric",
+	"Music":
+	[
+		{"File": "gerudo_theme1.ogg", "Type": "peace"},
+		{"File": "gerudo_ambient1.ogg", "Type": "peace"},
+		{"File": "gerudo_ambient2.ogg", "Type": "peace"},
+		{"File": "gerudo_ambient3.ogg", "Type": "peace"},
+		{"File": "gerudo_ambient4.ogg", "Type": "peace"},
+		{"File": "gerudo_ambient5.ogg", "Type": "peace"},
+		{"File": "gerudo_ambient6.ogg", "Type": "peace"},
+		{"File": "gerudo_ambient7.ogg", "Type": "peace"},
+		{"File": "gerudo_ambient8.ogg", "Type": "peace"},
+		{"File": "gerudo_ambient9.ogg", "Type": "peace"},
+		{"File": "gerudo_ambient10.ogg", "Type": "peace"},
+		{"File": "gerudo_battle1.ogg", "Type": "battle"},
+		{"File": "gerudo_battle2.ogg", "Type": "battle"},
+		{"File": "gerudo_battle3.ogg", "Type": "battle"},
+		{"File": "gerudo_victory1.ogg", "Type": "victory"}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Gerudo",
+			"History": "A desert-dwelling race of female warriors, the Gerudo are descended from an ancient and powerful empire that stretched across the western sands of Hyrule for countless centuries. Surrounded on all sides by hostile nations, scarce resources, and a curse that wipes out all the men of their race, the Gerudo have suffered a continuous barrage of brutal hardships, setbacks, and wars without abandon.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Emperor Ganondorf",
+					"Class": "Cavalry Swordsman",
+					"Armament": "Scimitar",
+					"Emblem": "",
+					"History": "Since the curse was placed on the Gerudo, a male has been born to them but once a century. The male born to the Gerudo this century is Ganondorf. Thrust into a leadership position and raised by his two surrogate mothers, the King of Thieves ascended the throne and lead the Gerudo people in several desperate attempts to save themselves from extinction. Ganondorf has little compassion, and years of watching his people fade into death has driven his madness to save them. He has a personal hatred for Hylians, whom he blames for preventing the Gerudo from expanding to save themselves."
+				},
+				{
+					"Name": "Nabooru, the Sage of Spirits",
+					"Class": "Infantry Swordsman",
+					"Armament": "Scimitar",
+					"Emblem": "",
+					"History": "The legal wife of Ganondorf, right-hand woman in command of the Gerudo armies, and the Sage of Spirits, Nabooru's life is one of servitude to many competing individuals and ideologies. At a young age she was wed to Ganondorf against her will, only to be awakened as a Sage soon after and forced to undermine his command. Nabooru constantly struggles to work both with and against the regime of her husband. Though she shares in his belief of saving their people through conquest, her duties as a Sage often puts her in direct opposition with Ganondorf, and perhaps more notably, his surrogate mothers, Koume and Kotake."
+				},
+				{
+					"Name": "General Urbosa",
+					"Class": "Infantry Swordsman",
+					"Armament": "Scimitar",
+					"Emblem": "",
+					"History": "One of Ganondorf's countless daughters, Urbosa has loyally served the Gerudo people, and zealously believes in the Emperor's cause and the invasion of Hyrule. During Ganondorf's imprisonment at the hands of the Darknuts, she ruthlessly rallied the scattered Gerudo armies and established a network of allies to free her father and retake the entire Desert. Urbosa displays an unwavering loyalty to Ganondorf and is jealous of his legal daughter, the Princess Riju. She is quite brutal in her demeanor and will to fight."
+				},
+				{
+					"Name": "Princess Makeela Riju",
+					"Class": "Cavalry Archer",
+					"Armament": "Bow",
+					"Emblem": "",
+					"History": "The daughter of Ganondorf and Nabooru, Riju is the only heir to the Gerudo throne. Because of her youth, she tends to be shunned from events in Hyrule, and usually spends her time raising the Sandseals of the Desert. However, as the actions of her father tear Hyrule apart, the young princess is drawn closer to action. Riju believes that the survival of the Gerudo people is through reaching out to other cultures, and not through the conquest her father seeks. Many Gerudo see such ideas as naive, and certain to doom their people."
+				},
+				{
+					"Name": "Buliara",
+					"Class": "Infantry Swordsman",
+					"Armament": "Claymore",
+					"Emblem": "",
+					"History": "The latest in a line of Gerudo who have guarded the throne. Buliara serves as a personal bodyguard for Ganondorf and the rest of the royal family. Wielding a claymore sword which has been passed down through her family for generations, there is nothing Buliara would not do to protect her charges."
+				},
+				{
+					"Name": "Aveil",
+					"Class": "Infantry Swordsman",
+					"Armament": "Scimitars",
+					"Emblem": "",
+					"History": "The master of the Gerudo Pirates, brought back under the Gerudo banner by Ganondorf. Aveil has long lived without any oversight and plundered many sea fareres across the Great Sea over the years. Now her power and resources have been turned to the Gerudo navy. Since being appointed as general of the navy, she has dramatically increased the size of it."
+				},
+				{
+					"Name": "Titan: Twinrova, the Sorcerous Sisters",
+					"Class": "Titan",
+					"Armament": "Fire and Ice Magic",
+					"Emblem": "",
+					"History": "The surrogate mothers of Ganondorf, the twin sisters Koume and Kotake are capable of magically merging into a powerful and malevolent entity known as Twinrova. When combined, the witches are capable of unleashing devastating fire and ice magic against enemies."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+	],
+	"Structures":
+	[
+		{
+			"Name": "Wonder: Desert Colossus",
+			"Class": "Wonder",
+			"Emblem": "",
+    			"History": "Standing tall and defiant against the harsh winds of the Haunted Wasteland, the Desert Colossus is a true beacon of Gerudo masonry and engineering. Built in the likeness of the First Sage of Spirits, Kovaloo, the Desert Colossus guards the entrance to the Spirit Temple: a place of meditation, reflection, and communion with the souls of the deceased.",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Trains the Gerudo Titan."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/gerudo/civil_centre"
+		},
+		{
+			"Template": "units/gerudo/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/gerudo/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/gerudo/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/gerudo/gerudo_trailblazer_b"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/gerudo/wallset_stone"
+	],
+	"AINames":
+	[
+		"Emperor Ganondorf",
+		"Nabooru, the Sage of Spirit",
+		"General Urbosa",
+		"Princess Riju",
+		"Buliara",
+		"Aveil",
+		"Twinrova, the Sorcerous Sisters"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_support_female_citizen": "units/gerudo/support_female_citizen",
+		"skirmish/units/default_infantry_melee_b": "units/gerudo/infantry_spearman_b",
+		"skirmish/units/default_champion_melee": "units/gerudo/gerudo_masterthief_b",
+		"skirmish/units/default_champion_ranged": "units/gerudo/gerudo_icearcher_b",
+		"skirmish/units/default_hero": "units/gerudo/gerudo_hero_ganondorf",
+		"skirmish/units/default_infantry_ranged_b": "units/gerudo/infantry_archer_b",
+		"skirmish/units/default_ship_arrow": "units/gerudo/gerudo_windwitch_b",
+		"skirmish/units/default_ship_scout": "units/gerudo/gerudo_windwitch_b",
+		"skirmish/units/default_siege_ram": "units/gerudo/gerudo_sealplower_b",
+		"skirmish/units/default_cavalry": "units/gerudo/gerudo_trailblazer_b",
+		"skirmish/units/special_starting_unit": "units/gerudo/gerudo_ashcap_b",
+		"skirmish/structures/default_dock": "structures/gerudo/defense_tower",
+		"skirmish/structures/default_farmstead": "structures/gerudo/corral",
+		"skirmish/structures/default_house_5": "structures/gerudo/house",
+		"skirmish/structures/default_house_10": "structures/gerudo/house",
+		"skirmish/structures/default_field": "structures/gerudo/corral",
+		"skirmish/structures/default_outpost": "structures/gerudo/sentry_tower"
+	},
+	"SelectableInGameSetup": true
+}

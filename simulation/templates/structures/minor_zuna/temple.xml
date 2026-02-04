@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Auras datatype="tokens">
+    structural/hospital_heal
+  </Auras>
+  <Cost>
+    <Resources>
+      <wood>0</wood>
+      <stone>250</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="20.0" width="20.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1250</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_gerudo_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <History>In the harsh deserts of western Hyrule these pools of water are kept in pristine condition by their Zuna creators. Some say its waters can do more than stop thirst.</History>
+    <SpecificName>Oasis</SpecificName>
+    <Icon>structures/minor_zuna/zun_oasis.dds</Icon>
+    <Tooltip>Heals injured units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="20.0" width="20.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/hylian/complete_bimaristan.xml</constructed>
+      <select>interface/select/building/hylian/sel_bimaristan.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/minor_zuna/zun_oasisA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>

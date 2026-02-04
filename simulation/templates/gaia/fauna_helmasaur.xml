@@ -1,0 +1,61 @@
+<Entity parent="template_unit_fauna_wild_violent">
+
+  <Capturable>
+    <CapturePoints>300</CapturePoints>
+    <GarrisonRegenRate>1</GarrisonRegenRate>
+    <RegenRate>1</RegenRate>
+  </Capturable>
+
+  <Attack>
+    <Melee>
+      <AttackName>Skull</AttackName>
+      <Damage>
+        <Crush>20.0</Crush>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>1400</RepeatTime>
+    </Melee>
+  </Attack>
+  <Footprint>
+    <Height>2.0</Height>
+    <Square depth="5.0" width="3.0" />
+  </Footprint>
+  <Health>
+    <Max>400</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Wild Helmasaur</SpecificName>
+    <Icon>gaia/fauna_helmasaur.dds</Icon>
+    <History>A wild Helmasaur that escaped from Lizalfos domestication. Once a common appearance on Death Mountain, they now roam throughout Faron Woods.</History>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>15.0</Crush>
+        <Hack>10.0</Hack>
+        <Pierce>20.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceSupply>
+    <Max>500</Max>
+    <Type>food.meat</Type>
+    <KillBeforeGather>true</KillBeforeGather>
+    <MaxGatherers>8</MaxGatherers>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/blunt_hit.xml</attack_melee>
+      <death>voice/lizalfos/helmram/helmram_death.xml</death>
+      <select>voice/lizalfos/helmram/helmram_select.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/wild/wild_helmasaur_b.xml</Actor>
+  </VisualActor>
+</Entity>

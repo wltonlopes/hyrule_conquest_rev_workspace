@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/fairy/barracksB">
+  <Identity>
+    <Classes datatype="tokens">Winter</Classes>
+    <SpecificName>Great Fairy Fountain (Winter)</SpecificName>
+    <Icon>structures/fairy/fai_greatfountain_winter.dds</Icon>
+  </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+	units/fairy/fairy_crystal_b	
+	units/fairy/fairy_mistwalker_b
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Spring>
+      <Entity>structures/fairy/fairy_greatfountain_spring</Entity>
+      <Tooltip>Upgrade to a Great Fairy Fountain (Spring).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Spring>
+    <Summer>
+      <Entity>structures/fairy/fairy_greatfountain_summer</Entity>
+      <Tooltip>Upgrade to a Great Fairy Fountain (Summer).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Summer>
+    <Autumn>
+      <Entity>structures/fairy/fairy_greatfountain_autumn</Entity>
+      <Tooltip>Upgrade to a Great Fairy Fountain (Autumn).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Autumn>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_greatfountainA_winter.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_winter.xml</FoundationActor>
+  </VisualActor>
+</Entity>

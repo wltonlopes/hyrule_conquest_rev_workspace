@@ -1,0 +1,11 @@
+{
+	"type": "radius",
+	"range": 60,
+	"affects": ["Unit"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 0.8 }
+	],
+	"auraName": "Knowledge of Weakpoints",
+	"auraDescription": "All nearby enemy units -20% health."
+}

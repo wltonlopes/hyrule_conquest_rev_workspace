@@ -11,5 +11,5 @@
 	  </textures>
     </variant>
   </group>
-  <material>basic_glow_nu.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

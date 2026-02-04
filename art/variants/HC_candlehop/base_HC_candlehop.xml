@@ -1,0 +1,10 @@
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="HC_candlehop/candlehop_idle.dae" name="Idle" id="idle1" speed="121"/>
+    <animation file="HC_candlehop/candlehop_walk.dae" name="Walk" speed="35"/>
+    <animation file="HC_candlehop/candlehop_walk.dae" name="Run" speed="40"/>
+    <animation event="0.5" file="HC_candlehop/candlehop_attackA.dae" name="attack_melee" id="attack1" speed="120"/>
+	<animation file="HC_candlehop/candlehop_idle.dae" name="Flail" id="flail1" speed="8"/>
+	<animation file="HC_candlehop/candlehop_idle.dae" name="Recover" id="recover1" speed="8"/>
+  </animations>
+</variant>

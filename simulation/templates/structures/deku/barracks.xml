@@ -23,6 +23,8 @@
       -barracks_batch_training
       -unlock_champion_infantry
       -pair_unlock_champions_sele
+      deku/quick_conscription
+      deku/forced_conscription
       deku/guardling_vitalpoints
     </Technologies>
   </Researcher>

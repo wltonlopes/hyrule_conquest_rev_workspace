@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Wizzrobe"],
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Fire","multiply": 1.1 },
+		{ "value": "Attack/Ranged/Damage/Water","multiply": 1.1 },
+		{ "value": "Attack/Ranged/Damage/Crush","multiply": 1.1 },
+		{ "value": "Attack/Melee/Damage/Light","multiply": 1.1 }
+	],
+	"auraName": "Magical Training",
+	"auraDescription": "All wizzrobe units +10% damage.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

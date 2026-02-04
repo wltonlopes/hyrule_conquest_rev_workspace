@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_kennel">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="60.0" width="60.0" />
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_labrynna_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <History>A collection of fauna that are trained for many purposes, from entertaining the citizens of Labrynna to participating in battle.</History>
+    <SpecificName>Zoo</SpecificName>
+    <Icon>structures/labrynna/lab_zooA.dds</Icon>
+    <Tooltip>Trains Cavalry and Creature units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="58.0" depth="58.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/labrynna/complete_zoo.xml</constructed>
+      <select>interface/select/building/labrynna/sel_zoo.xml</select>
+      <upgraded>interface/complete/building/labrynna/complete_zoo.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      gaia/fauna_tektite_rock
+      gaia/fauna_tektite_aqua
+      gaia/fauna_aneru
+      units/labrynna/labrynna_poacher_b
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <FSE>
+      <Cost>
+        <wood>100</wood>
+        <metal>100</metal>
+      </Cost>
+      <Entity>structures/labrynna/kennel_2</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Upgrade the Zoo with Foreign Species.</Tooltip>
+      <Variant>upgrading</Variant>
+    </FSE>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_zooA.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+</Entity>

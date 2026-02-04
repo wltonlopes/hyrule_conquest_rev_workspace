@@ -34,6 +34,10 @@
     <Static depth="4.0" width="4.0"/>
     <DeleteUponConstruction>true</DeleteUponConstruction>
   </Obstruction>
+  <Promotion>
+    <RequiredXp>1000</RequiredXp>
+    <Entity>units/kokiri/field_upg</Entity>
+  </Promotion>
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
     <Max>200</Max>

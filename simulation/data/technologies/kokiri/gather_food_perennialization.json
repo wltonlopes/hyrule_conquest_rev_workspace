@@ -1,0 +1,13 @@
+{
+	"genericName": "Perennialization",
+	"description": "The Kokiri are experts at growing berries of all kinds. Deep in their forest they have developed many menthods to keep them alive year-round and yield bountiful amounts of berries.",
+	"cost": {"food": 0, "wood": 200, "stone": 0, "metal": 200},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "kokiri"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "kokiri/gather_food_perennialization.dds",
+	"researchTime": 40,
+	"tooltip": "Berry Bushes now yield twice as many Berries before perishing.",
+	"modifications": [{"value": "Promotion/RequiredXp", "replace": 0}],
+	"affects": ["Field"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

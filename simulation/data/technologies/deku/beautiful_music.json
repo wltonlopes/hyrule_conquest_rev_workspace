@@ -1,0 +1,13 @@
+{
+	"genericName": "Beautiful Music",
+	"description": "While the sounds of Deku Pipes and Deku Horns may sound strange to most races, they are beautiful sounds to the Scrubs and their pets.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "deku/kadakana_sonata.dds",
+	"researchTime": 40,
+	"tooltip": "All units +10% health.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.10}],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,7 +1,7 @@
 {
 	"genericName": "Slime Blades",
 	"description": "By adding Zol slime to your soldiers weapons, you can increase their damage as the acidic go eats through an opponent's armor and flesh.",
-	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0, "rupees": 200},
 	"requirements": { "all": 
 				[
 					{ "entity": { "class": "ZolaBreeder", "number": 1 } }

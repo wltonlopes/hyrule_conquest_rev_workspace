@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>fairy</Civ>
+    <GenericName>Fairy Enclave</GenericName>
+    <History>Perhaps one of Hyrule's greatest mysteries, Fairies are mythical and reclusive beings that, despite being found in all corners of the world, are rarely if ever seen. Most of the time the Fairies go about on their own with little unity or guidance, tending to nature or causing mischief when no one is looking. As the land cries out in pain however, these wild principles gather together and cause a lot more than a little mischief.</History>
+    <Icon>emblems/emblem_fairy.dds</Icon>
+  </Identity>
+</Entity>

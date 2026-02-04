@@ -77,6 +77,8 @@
         <Water>1000.0</Water>
         <Poison>1000</Poison>
         <Fire>1000</Fire>
+        <Spirit>1000</Spirit>
+        <Shadow>1000</Shadow>
       </Damage>
     </Entity>
   </Resistance>

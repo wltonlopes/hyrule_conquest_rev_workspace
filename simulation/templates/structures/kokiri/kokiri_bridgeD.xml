@@ -1,0 +1,6 @@
+<Entity parent="structures/kokiri/kokiri_bridgeA">
+  <VisualActor>
+    <Actor>structures/kokiri/kokiri_bridgeD.xml</Actor>
+  </VisualActor>
+  <Obstruction disable="" />
+</Entity>

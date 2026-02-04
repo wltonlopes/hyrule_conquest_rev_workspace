@@ -21,7 +21,6 @@
         <props>
           <prop actor="units/labrynna/labrynna_veran_cape.xml" attachpoint="root"/>
           <prop actor="props/units/weapons/labrynna_veranwhipA.xml" attachpoint="root"/>
-          <prop actor="props/hero_selectorA.xml" attachpoint="root"/>
         </props>
         <textures>
           <texture file="skeletal/labrynna/lab_hero2.dds" name="baseTex"/>

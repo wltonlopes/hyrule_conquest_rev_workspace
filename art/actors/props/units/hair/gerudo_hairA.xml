@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+	
+   <group>
+    <variant minquality="high" frequency="1" name="hairA">
+      <mesh>units/gerudo/ger_hairA.dae</mesh>
+    </variant>
+    <variant minquality="high" frequency="1" name="hairB">
+      <mesh>units/gerudo/ger_hairB.dae</mesh>
+    </variant>
+    <variant minquality="high" frequency="1" name="hairC">
+      <mesh>units/gerudo/ger_hairC.dae</mesh>
+    </variant>
+    <variant minquality="high" frequency="1" name="hairD">
+      <mesh>units/gerudo/ger_hairD.dae</mesh>
+    </variant>
+    <variant minquality="high" frequency="1" name="hairE">
+      <mesh>units/gerudo/ger_hairE.dae</mesh>
+    </variant>
+    <variant minquality="high" frequency="1" name="hairF">
+      <mesh>units/gerudo/ger_hairF.dae</mesh>
+    </variant>	
+    <variant minquality="high" frequency="1" name="hairG">
+      <mesh>units/gerudo/ger_hairG.dae</mesh>
+    </variant>		
+		
+    <variant maxquality="high" minquality="medium" frequency="1" name="hairA">
+       <mesh>units/gerudo/medium/ger_hairA.dae</mesh>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="hairB">
+       <mesh>units/gerudo/medium/ger_hairB.dae</mesh>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="hairC">
+       <mesh>units/gerudo/medium/ger_hairC.dae</mesh>
+    </variant>
+	
+    <variant maxquality="high" minquality="medium" frequency="1" name="hairD">
+       <mesh>units/gerudo/medium/ger_hairD.dae</mesh>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="hairE">
+       <mesh>units/gerudo/medium/ger_hairE.dae</mesh>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="hairF">
+       <mesh>units/gerudo/medium/ger_hairF.dae</mesh>
+    </variant>	
+	
+    <variant maxquality="high" minquality="medium" frequency="1" name="hairG">
+       <mesh>units/gerudo/medium/ger_hairG.dae</mesh>
+    </variant>
+
+    <variant maxquality="medium" frequency="1" name="hairA">
+       <mesh>units/gerudo/low/ger_hairA.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="hairB">
+       <mesh>units/gerudo/low/ger_hairB.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="hairC">
+       <mesh>units/gerudo/low/ger_hairC.dae</mesh>
+    </variant>
+	
+    <variant maxquality="medium" frequency="1" name="hairD">
+       <mesh>units/gerudo/low/ger_hairD.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="hairE">
+       <mesh>units/gerudo/low/ger_hairE.dae</mesh>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="hairF">
+       <mesh>units/gerudo/low/ger_hairF.dae</mesh>
+    </variant>	
+    <variant maxquality="medium" frequency="1" name="hairG">
+       <mesh>units/gerudo/low/ger_hairG.dae</mesh>
+    </variant>	
+  </group>
+  
+
+
+  <group>
+    <variant frequency="1" name="hair_A_Color">
+	<textures><texture file="skeletal/gerudo/ger_mainA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/field_2">
+  <Health>
+    <SpawnEntityOnDeath>rubble/debris_labrynna_smallB</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Classes datatype="tokens">FactoryFarm</Classes>
+    <SpecificName>Factory Farm</SpecificName>
+    <History>Adding in machinery to the farming process has allowed farmers and Tokay slaves to speed up the process of creating food, as well as increasing the sheer volume of food produced. Unfortunate that it's left a bit of a bad after taste in all the vegetables.</History>
+    <Icon>structures/labrynna/lab_farmC.dds</Icon>
+    <Tooltip>Generates a trickle of Food. Also acts as a Field and Farmstead</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="25.0" width="25.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      labrynna/gather_autofarming
+    </Technologies>
+  </Researcher>
+  <ResourceTrickle>
+    <Interval>2000</Interval>
+    <Rates>
+      <food>1</food>
+      <metal>0.0</metal>
+      <stone>0.0</stone>
+      <wood>0.0</wood>
+    </Rates>
+  </ResourceTrickle>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_farmhouseB.xml</Actor>
+  </VisualActor>
+</Entity>

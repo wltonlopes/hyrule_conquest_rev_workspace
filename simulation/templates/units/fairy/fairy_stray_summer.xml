@@ -1,0 +1,28 @@
+<Entity parent="units/fairy/fairy_stray_b">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/fairy/civil_centreB
+      structures/fairy/civil_centre_upgB
+      structures/fairy/fairy_menhir_summer
+      structures/fairy/fairy_fountain_summer
+      structures/fairy/fairy_waterheaven_summer
+      structures/fairy/fairy_misthenge_summer
+      structures/fairy/fairy_sundial_summer
+      structures/fairy/fairy_meetingspring_summer
+      structures/fairy/fairy_greatfountain_summer
+      structures/fairy/fairy_uniwonder_summer
+    </Entities>
+  </Builder>
+  <DeathDamage>
+    <Damage>
+      <Fire>35.0</Fire>
+    </Damage>
+  </DeathDamage>
+  <Identity>
+    <SpecificName>Stray Fairy (Summer)</SpecificName>
+    <Classes datatype="tokens">Summer</Classes>
+  </Identity>
+  <VisualActor>
+    <Actor>units/fairy/fairy_stray_summer.xml</Actor>
+  </VisualActor>
+</Entity>

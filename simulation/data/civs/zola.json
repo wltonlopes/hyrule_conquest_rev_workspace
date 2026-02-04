@@ -1,6 +1,6 @@
 {
 	"Code": "zola",
-	"Culture": "zora",
+	"Culture": "barbaric",
 	"Music":
 	[
 		{"File": "zola_theme1.ogg", "Type": "peace"},
@@ -136,6 +136,9 @@
 		"skirmish/units/default_support_female_citizen": "units/zola/support_female_citizen",
 		"skirmish/units/default_infantry_melee_b": "units/zola/zola_biri_b",
 		"skirmish/units/default_infantry_ranged_b": "units/zola/zola_octorok_b",
+		"skirmish/units/default_champion_melee": "units/zola/zola_sludgeshark_b",
+		"skirmish/units/default_champion_ranged": "units/zola/zola_octogon_b",
+		"skirmish/units/default_hero": "units/zola/zola_hero_oren",
 		"skirmish/units/default_ship_arrow": "units/zola/zola_bigocto_b",
 		"skirmish/units/default_ship_scout": "units/zola/zola_octoballoon_b",
 		"skirmish/units/default_siege_ram": "units/zola/zola_derazol_b",

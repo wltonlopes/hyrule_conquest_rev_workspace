@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="Armature" id="Armature">
+    <bone name="center">
+      <bone name="top_center" />
+      <bone name="top_center_west" />
+      <bone name="top_center_east" />
+      <bone name="top_center_south" />
+      <bone name="top_center_north" />
+      <bone name="top_center_nw" />
+      <bone name="top_center_ne" />
+      <bone name="top_center_se" />
+      <bone name="top_center_sw" />
+    </bone>
+    <bone name="Cube" />
+  </standard_skeleton>
+  <skeleton title="Armature" target="Armature">
+    <identifier>
+      <root>center</root>
+    </identifier>
+    <bone name="center">
+      <target>center</target>
+      <bone name="top_center">
+        <target>top_center</target>
+      </bone>
+      <bone name="top_center_west">
+        <target>top_center_west</target>
+      </bone>
+      <bone name="top_center_east">
+        <target>top_center_east</target>
+      </bone>
+      <bone name="top_center_south">
+        <target>top_center_south</target>
+      </bone>
+      <bone name="top_center_north">
+        <target>top_center_north</target>
+      </bone>
+      <bone name="top_center_nw">
+        <target>top_center_nw</target>
+      </bone>
+      <bone name="top_center_ne">
+        <target>top_center_ne</target>
+      </bone>
+      <bone name="top_center_se">
+        <target>top_center_se</target>
+      </bone>
+      <bone name="top_center_sw">
+        <target>top_center_sw</target>
+      </bone>
+    </bone>
+    <bone name="Cube">
+      <target>Cube</target>
+    </bone>
+  </skeleton>
+</skeletons>

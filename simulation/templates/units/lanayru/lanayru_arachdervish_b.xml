@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_fauna_wild_violent">
+<Entity parent="template_unit_cavalry_melee_swordsman">
   <Attack>
     <Melee replace="">
       <AttackName>Claws and Stinger</AttackName>
+      <ApplyStatus>
+        <Poisoned>
+          <Interval>2000</Interval>
+          <Damage>
+            <Poison>5</Poison>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+        </Poisoned>
+      </ApplyStatus>
       <Damage>
         <Crush>8</Crush>
         <Pierce>12</Pierce>
@@ -11,10 +21,6 @@
       <MaxRange>6.0</MaxRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>1400</RepeatTime>
-      <Stun>
-        <Chance>80</Chance>
-        <Time>1000</Time>
-      </Stun>
     </Melee>
   </Attack>
   <Cost>
@@ -32,16 +38,23 @@
   </Footprint>
   <Health>
     <Max>560</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>25</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/lanayru/infantry_swordsman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
     <SpecificName>Arach Dervish</SpecificName>
     <Classes datatype="tokens">ArachDervish</Classes>
     <History>Older Arachs are rare, as they can only be domesticated if caught at an early age. Even those that have been domesticated cannot be given verbal orders, and must be controlled by a rider. Because of how aggressive and difficult Arachs are to manage, its rider cannot attack and must focus entirely on directing its mount. The Arach itself has two powerful claws and a venomous stinger on its tail, making them one of the most deadly creatures in Lanayru's army.</History>
-    <Tooltip>Fast Melee Unit that attacks with poisonous stinger.</Tooltip>
+    <Tooltip>Fast Melee Unit that attacks with a highly poisonous stinger.</Tooltip>
     <Icon>units/lanayru/lan_arachdervish.dds</Icon>
     <VisibleClasses datatype="tokens">Creature</VisibleClasses>
   </Identity>
+  <Promotion disable=""/>
   <Resistance>
     <Entity>
       <Damage>

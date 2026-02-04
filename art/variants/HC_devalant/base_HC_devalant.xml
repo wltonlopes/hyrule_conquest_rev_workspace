@@ -1,0 +1,16 @@
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="HC_devalant/devalant_idle.dae" name="Idle" id="idle1" speed="151"/>
+    <animation file="HC_devalant/devalant_idleA.dae" name="Idle" id="idle2" speed="151"/>
+    <animation file="HC_devalant/devalant_idleB.dae" name="Idle" id="idle3" speed="151"/>
+    <animation file="HC_devalant/devalant_idleC.dae" name="Idle" id="idle4" speed="151"/>
+    <animation event="0.5" file="HC_devalant/devalant_walk.dae" name="Walk" id="walk1" speed="21"/>
+    <animation event="0.5" file="HC_devalant/devalant_walk.dae" name="Walk" id="walk2" speed="21"/>
+    <animation event="0.5" file="HC_devalant/devalant_walk.dae" name="Run" id="run1" speed="24"/>
+    <animation event="0.5" file="HC_devalant/devalant_walk.dae" name="Run" id="run2" speed="25"/>
+    <animation event="0.5" file="HC_devalant/devalant_walk.dae" name="Run" id="run3" speed="26"/>
+	<animation event="0.5" file="HC_devalant/devalant_attackA.dae" name="Attack_melee" id="attack1" speed="70"/>
+	<animation event="0.5" file="HC_devalant/devalant_attack_rangedA.dae" name="Attack_ranged" id="attack_ranged1" speed="70"/>
+	<animation file="HC_devalant/devalant_idleC.dae" name="promotion" speed="80"/>
+  </animations>
+</variant>

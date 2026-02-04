@@ -5,6 +5,7 @@
       <AttackName>Arrows</AttackName>
       <Damage>
         <Pierce>40</Pierce>
+        <True>20</True>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>80</MaxRange>
@@ -22,6 +23,12 @@
   </Attack>
   <Health>
     <Max>460</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>10</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/ordona/ordona_ranger_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>ordona</Civ>

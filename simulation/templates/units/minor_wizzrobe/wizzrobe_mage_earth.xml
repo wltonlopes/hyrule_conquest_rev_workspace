@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/minor_wizzrobe/wizzrobe_mage_b">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Boulder</AttackName>
+      <Damage>
+        <Crush>45.0</Crush>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>70</MaxRange>
+      <MinRange>25.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1500</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2500</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Earth Wizzrobe</SpecificName>
+    <History>These magicians can will the mineral earth to their command, creating barriers and projectiles out of rocks. Some of these geomancers can hurl boulders large enough to rival catapults and other siege weaponry, crushing multiple enemies in an explosive blast of rubble and dirt.</History>
+    <Icon>units/minor_wizzrobe/wiz_earth.dds</Icon>
+    <Tooltip>Ranged Mage unit that tosses boulders at targets.</Tooltip>
+    <VisibleClasses datatype="tokens">Mage</VisibleClasses>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/impact_generic.xml</attack_impact_ranged>
+      <attack_ranged>attack/magic/wizzrobe_earth.xml</attack_ranged>
+      <death>voice/wizzrobe/wizzrobe_death.xml</death>
+      <order_attack>voice/wizzrobe/wizzrobe_attack.xml</order_attack>
+      <order_garrison>voice/wizzrobe/wizzrobe_garrison.xml</order_garrison>
+      <order_gather>voice/wizzrobe/wizzrobe_gather.xml</order_gather>
+      <order_repair>voice/wizzrobe/wizzrobe_repair.xml</order_repair>
+      <order_walk>voice/wizzrobe/wizzrobe_walk.xml</order_walk>
+      <run>actor/movement/wizzrobe/wizzrobe_hover.xml</run>
+      <select>voice/wizzrobe/wizzrobe_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/wizzrobe/wizzrobe_hover.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/minor_wizzrobe/wizzrobe_earth_b.xml</Actor>
+  </VisualActor>
+</Entity>

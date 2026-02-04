@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Auras datatype="tokens">
+    units/heroes/hylian_hero_lana_01
+    units/heroes/hylian_hero_lana_02
+  </Auras>
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Cane of Byrna</AttackName>
+      <Damage>
+        <Crush>15</Crush>
+        <Light>7.0</Light>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>10</MaxRange>
+      <MinRange>0.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15.0</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>1100</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/byrna_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>300.0</Speed>
+        <Spread>1.0</Spread>
+      </Projectile>
+      <RepeatTime>1300</RepeatTime>
+      <Splash>
+        <Damage>
+          <Crush>15</Crush>
+          <Light>7.0</Light>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>10</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>150</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>450</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1050</Max>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Lana</SpecificName>
+    <GenericName>The White Mage</GenericName>
+    <History>A young woman who's parentage can be traced back to Calatia, Lana was trained as a Deacon under Rauru. Feeling unfullfilled with her humble clergy role, Lana studied more esoteric magics in secret with the help of the shady Wizzrobes in Byrna. Though her loyaties to the crown and Hyrule are not in question, many including Rauru feel her immense powers are too much for her to control.</History>
+    <Tooltip>Melee Mage Hero that can push enemies with her cane and summon protective magics.</Tooltip>
+    <Icon>units/hylian/hyl_hero_lana.dds</Icon>
+    <VisibleClasses datatype="tokens">-Archer Mage</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Fire>15.0</Fire>
+        <Forest>15.0</Forest>
+        <Light>15.0</Light>
+        <Shadow>15.0</Shadow>
+        <Spirit>15.0</Spirit>
+        <Water>15.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/magic/cane_of_byrna.xml</attack_ranged>
+      <death>voice/hylian/lana/lana_death.xml</death>
+      <order_attack>voice/hylian/lana/lana_attack.xml</order_attack>
+      <order_build>voice/hylian/lana/lana_repair.xml</order_build>
+      <order_garrison>voice/hylian/lana/lana_garrison.xml</order_garrison>
+      <order_gather>voice/hylian/lana/lana_gather.xml</order_gather>
+      <order_heal>voice/hylian/lana/lana_repair.xml</order_heal>
+      <order_repair>voice/hylian/lana/lana_repair.xml</order_repair>
+      <order_walk>voice/hylian/lana/lana_walk.xml</order_walk>
+      <select>voice/hylian/lana/lana_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.5789</RunMultiplier>
+    <WalkSpeed>9.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>85</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/hylian/hylian_hero_lana_b.xml</Actor>
+  </VisualActor>
+</Entity>

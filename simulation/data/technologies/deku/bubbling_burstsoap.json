@@ -1,7 +1,7 @@
 {
 	"genericName": "Burst Soaps",
 	"description": "The soapy material of Bubbling bubbles allows the bubbles to keep their shape for quite a time until hitting their targets. By filling their stomachs with a special secret gas, these bubbles can burst with even more force across a larger radius.",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 450},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
 	"requirementsTooltip": "Unlocked with City Phase.",
 	"icon": "deku/bubbling_burstsoap.dds",

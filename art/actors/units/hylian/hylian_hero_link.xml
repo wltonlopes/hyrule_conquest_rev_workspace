@@ -4,10 +4,6 @@
   <group>
     <variant file="HC_capes/base_HC_biped_cape_link.xml">
       <mesh>units/hylian/hyl_linkA.dae</mesh>
-      <props>
-		<prop actor="props/units/capes/cape_linkA.xml" attachpoint="root"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
-      </props>
       <textures><texture file="skeletal/hylian/hyl_heroB.dds" name="baseTex"/></textures>
     </variant>
   </group>
@@ -38,7 +34,6 @@
     <variant file="HC_capes/base_HC_biped_cape_carry_metal_idle.xml"/>
     <variant file="HC_capes/base_HC_biped_cape_death.xml">
       <props>
-		<prop actor="props/units/capes/cape_linkA.xml" attachpoint="root"/>
         <prop actor="props/units/blood_01.xml" attachpoint="root"/>
       </props>
     </variant>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/fortress_2">
+  <Attack replace="">
+    <Ranged>
+      <AttackName>Cannonball</AttackName>
+      <Damage>
+        <Crush>250</Crush>
+      </Damage>
+      <MaxRange>150.0</MaxRange>
+      <MinRange>60.0</MinRange>
+      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
+      <PrepareTime>2000</PrepareTime>
+      <Projectile>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/trebuchet_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.2</ImpactAnimationLifetime>
+        <Speed>120.0</Speed>
+        <Spread>5.0</Spread>
+	<FriendlyFire>false</FriendlyFire>
+	<LaunchPoint y="3"/>
+      </Projectile>
+      <RepeatTime>10000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Crush>50.0</Crush>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>6</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <BuildingAI>
+    <DefaultArrowCount>4</DefaultArrowCount>
+    <GarrisonArrowMultiplier>0.5</GarrisonArrowMultiplier>
+  </BuildingAI>
+  <Health>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>4</SpawnNumberMax>
+      <SpawnNumberMin>4</SpawnNumberMin>
+      <Template>units/labrynna/labrynna_cannon_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <SpecificName>Battery Star Fort</SpecificName>
+    <History>A fully expanded Star Fort, adding ramparts for Cannons and Gunpowder defenders to garrison on to and fire upon invaders.</History>
+    <Icon>structures/labrynna/lab_starfortC.dds</Icon>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/cannon_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/cannon_fire.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_starfortC.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+</Entity>

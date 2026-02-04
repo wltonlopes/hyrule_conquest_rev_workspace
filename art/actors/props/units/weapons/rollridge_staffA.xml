@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="club">
+      <textures><texture file="skeletal/minor_rollridge/rrg_mainA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="club-a">
+      <mesh>props/weapon/rollridge_staffA.dae</mesh>
+    </variant>
+  </group>
+</actor>

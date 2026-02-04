@@ -1,7 +1,7 @@
 /** returns true if this unit should be considered as a siege unit */
 HYRULE.isSiegeUnit = function(ent)
 {
-	return ent.hasClasses(["Siege", "Elephant+Melee", "Tree", "Large", "Huge", "Gigantic"]);
+	return ent.hasClasses(["Siege", "Elephant+Melee", "Tree", "Huge", "Gigantic"]);
 };
 
 /** returns true if this unit should be considered as "fast". */

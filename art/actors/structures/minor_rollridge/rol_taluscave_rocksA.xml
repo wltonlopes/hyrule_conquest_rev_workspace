@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Talus Cave Rocks">
+      <animations>
+        <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
+      </animations>
+      <mesh>structural/minor_rollridge/rol_taluscaveA_rock.dae</mesh>
+      <textures>
+        <texture file="structural/minor_rollridge/rol_rockA.dds" name="baseTex"/>
+		<texture file="structural/minor_rollridge/rol_rockA_normal.dds" name="normTex"/>
+        <texture file="structural/minor_rollridge/rol_rockA.dds" name="specTex"/>
+		<texture file="structural/minor_rollridge/rol_taluscaveA_ao.dds" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

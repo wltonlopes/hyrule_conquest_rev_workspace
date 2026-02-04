@@ -45,7 +45,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
-    <Classes datatype="tokens">Scrub</Classes>
+    <Classes datatype="tokens">Scrub FlyingScrub</Classes>
     <SpecificName>Flower Thopter</SpecificName>
     <History>A royal Scrub that flies around high above the ground with a pair of spinning flowers. What makes these flowers work is a mystery even to the Deku Scrubs, and they seem to only spin when in the hand of a Scrub. Flower Thopters are slow but can drop large Deku Nuts from above on to armies below, causing quite a flash and stunning everyone in the blast.</History>
     <Tooltip>Flying Missile unit that drops explosive Deku Nuts on their targets.</Tooltip>

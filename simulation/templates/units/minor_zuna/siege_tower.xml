@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_tower">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Ram</AttackName>
+      <Damage>
+        <Crush>350.0</Crush>
+      </Damage>
+      <MaxRange>15</MaxRange>
+      <PreferredClasses datatype="tokens">Gate Structure</PreferredClasses>
+      <PrepareTime>1900</PrepareTime>
+      <RepeatTime>2500</RepeatTime>
+    </Melee>
+    <Ranged disable=""/>
+  </Attack>
+  <BuildingAI disable=""/>
+  <Capturable disable="" />
+  <Footprint replace="">
+    <Square width="9.0" depth="9.0"/>
+    <Height>30.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>8</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/minor_zuna/support_female_citizen</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <History>A giant and mighty battering ram that the Zuna once used to destroy many a castle, they are perhaps most well known from history in the battle against Baral's Stand, where they managed to break into the mighty Darknut fortress. The Siege Tower can effortlessly destroy the heaviest of fortifications and garrison troops inside.</History>
+    <SpecificName>Siege Tower</SpecificName>
+    <Icon>units/minor_zuna/zun_siegetower.dds</Icon>
+    <Tooltip>Large Siege tower that tears apart enemy structures up close.</Tooltip>
+    <VisibleClasses datatype="tokens">Zuna</VisibleClasses>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <Floating>false</Floating>
+    <TurnRate>1</TurnRate>
+  </Position>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/siege/ram_attack.xml</attack_melee>
+      <death>voice/zuna/zuna_death.xml</death>
+      <order_attack>voice/zuna/zuna_attack.xml</order_attack>
+      <order_garrison>voice/zuna/zuna_garrison.xml</order_garrison>
+      <order_gather>voice/zuna/zuna_gather.xml</order_gather>
+      <order_repair>voice/zuna/zuna_repair.xml</order_repair>
+      <order_walk>voice/zuna/zuna_walk.xml</order_walk>
+      <run>actor/movement/cart/cart_move.xml</run>
+      <select>voice/zuna/zuna_select.xml</select>
+      <trained>interface/alarm/alarm_create_engine.xml</trained>
+      <walk>actor/movement/cart/cart_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>4.2</X>
+        <Y>10.75 </Y>
+        <Z>9</Z>
+      </Archer1>
+      <Archer2>
+        <X>4.2</X>
+        <Y>10.75 </Y>
+        <Z>6</Z>
+      </Archer2>
+      <Archer3>
+        <X>4.2</X>
+        <Y>10.75 </Y>
+        <Z>3</Z>
+      </Archer3>
+      <Archer4>
+        <X>-4.2</X>
+        <Y>10.75 </Y>
+        <Z>9</Z>
+      </Archer4>
+      <Archer5>
+        <X>-4.2</X>
+        <Y>10.75 </Y>
+        <Z>6</Z>
+      </Archer5>
+      <Archer6>
+        <X>-4.2</X>
+        <Y>10.75 </Y>
+        <Z>3</Z>
+      </Archer6>
+      <Archer7>
+        <X>0</X>
+        <Y>19.75</Y>
+        <Z>9</Z>
+      </Archer7>
+      <Archer8>
+        <X>0</X>
+        <Y>19.75</Y>
+        <Z>6</Z>
+      </Archer8>
+    </TurretPoints>
+  </TurretHolder>
+  <UnitMotion>
+    <WalkSpeed>6.5</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/minor_zuna/zun_towerram_b.xml</Actor>
+  </VisualActor>
+</Entity>

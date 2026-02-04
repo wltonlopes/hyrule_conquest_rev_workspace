@@ -1,0 +1,15 @@
+{
+	"genericName": "Baba Breeding",
+	"description": "Deku Babas tend to be weak, especially compared to other carnivorous plants. By cross-breeding the stronger varieties, they can become much more durable.",
+	"cost": {"food": 0, "wood": 400, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "deku/baba_breeding.dds",
+	"researchTime": 40,
+	"tooltip": "+50% health of Deku Babas.",
+	"modifications": [
+				{"value": "Health/Max", "multiply": 1.5}
+			 ],
+	"affects": ["Baba"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

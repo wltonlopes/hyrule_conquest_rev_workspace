@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="HC_slimelord/base_HC_slimelord.xml">
+      <mesh>units/zola/zol_slimelordA.dae</mesh>
+      <textures><texture file="skeletal/zola/zol_sludgeA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="death"/>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Footprint replace="">
+    <Height>2.25</Height>
+    <Square depth="3.5" width="1.75"/>
+  </Footprint>
+  <Guard disable=""/>
+  <Health disable=""/>
+  <Identity>
+    <Classes datatype="tokens">Weather</Classes>
+    <GenericName>Weather</GenericName>
+    <Icon>gaia/geology_stone_2.png</Icon>
+    <Undeletable>false</Undeletable>
+  </Identity>
+  <Loot disable=""/>
+  <Minimap>
+    <Color b="141" g="130" r="227"/>
+    <Type>metal</Type>
+  </Minimap>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x128/ellipse.png</MainTexture>
+        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <UnitAI>
+    <CanGuard>true</CanGuard>
+    <CanPatrol>true</CanPatrol>
+    <DefaultStance>aggressive</DefaultStance>
+    <FleeDistance>12.0</FleeDistance>
+    <FormationController>false</FormationController>
+    <PatrolWaitTime>2</PatrolWaitTime>
+    <Formations datatype="tokens">
+      special/formations/null
+      special/formations/box
+      special/formations/column_closed
+      special/formations/line_closed
+      special/formations/column_open
+      special/formations/line_open
+      special/formations/flank
+      special/formations/battle_line
+    </Formations>
+  </UnitAI>
+  <UnitMotion>
+    <FormationController>false</FormationController>
+    <PassabilityClass>default</PassabilityClass>
+    <RunMultiplier>1.6666</RunMultiplier>
+    <WalkSpeed>9.0</WalkSpeed>
+  </UnitMotion>
+  <Visibility>
+    <AlwaysVisible>true</AlwaysVisible>
+    <Corpse>false</Corpse>
+    <Preview>false</Preview>
+    <RetainInFog>true</RetainInFog>
+  </Visibility>
+  <Vision>
+    <Range>50</Range>
+  </Vision>
+  <VisualActor>
+    <SilhouetteDisplay>true</SilhouetteDisplay>
+    <SilhouetteOccluder>false</SilhouetteOccluder>
+    <VisibleInAtlasOnly>false</VisibleInAtlasOnly>
+  </VisualActor>
+</Entity>

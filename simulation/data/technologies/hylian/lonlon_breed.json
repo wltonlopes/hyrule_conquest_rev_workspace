@@ -1,0 +1,16 @@
+{
+	"genericName": "Lon Lon Bred Horses",
+	"description": "Hyrule and Lon Lon Ranch have a standing trade agreement, where Lon Lon Ranch will supply Hyrule with their healthiest and fastest horses.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 400},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "hylian/attack_lonlon_breed.dds",
+	"researchTime": 40,
+	"tooltip": "All cavalry units +30% health and speed.",
+	"modifications": [
+				{"value": "Health/Max", "multiply": 1.3},
+				{"value": "UnitMotion/WalkSpeed", "multiply": 1.3}
+			 ],
+	"affects": ["Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

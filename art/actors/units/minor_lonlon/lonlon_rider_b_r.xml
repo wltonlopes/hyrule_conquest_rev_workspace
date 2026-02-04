@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/minor_lonlon/lonlon_male1.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/minor_lonlon/medium/lonlon_male1.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/minor_lonlon/low/lonlon_male1.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant frequency="1" name="Base">
+        <animations>
+          <animation file="HC_biped/biped_rider_idle.dae" name="Idle" speed="50"/>
+          <animation file="HC_biped/biped_rider_idle.dae" name="Walk" speed="18"/>
+          <animation file="HC_biped/biped_rider_idle.dae" name="Run" speed="40"/>
+          <animation event="0.5" file="HC_biped/biped_rider_attack_spear.dae" name="attack_melee" speed="100"/>
+          <animation event="0.5" file="HC_biped/biped_rider_attack_spear.dae" name="attack_slaughter" speed="100"/>
+          <animation event="0.5" file="HC_biped/biped_rider_attack_spear.dae" name="gather_meat" speed="100"/>
+          <animation file="HC_biped/biped_rider_idle.dae" name="death" speed="230"/>
+        </animations>
+        <props>
+          <prop actor="props/units/hair/hylian_hairA_male_cavspear.xml" attachpoint="root"/>
+          <prop actor="props/units/hair/lonlon_hat.xml" attachpoint="bone_head"/>
+        </props>
+        <textures>
+          <texture file="skeletal/minor_lonlon/lonlon_maleA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

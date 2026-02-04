@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_stonethrower">
+  <Attack replace="">
+    <Ranged>
+      <AttackName>Cannonball</AttackName>
+      <Damage>
+        <Crush>250.0</Crush>
+        <Fire>0</Fire>
+      </Damage>
+      <MaxRange>125.0</MaxRange>
+      <MinRange>50.0</MinRange>
+      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
+      <PrepareTime>3000</PrepareTime>
+      <Projectile>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/trebuchet_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+        <Speed>200.0</Speed>
+        <Spread>2.5</Spread>
+	<FriendlyFire>false</FriendlyFire>
+	<LaunchPoint y="3"/>
+      </Projectile>
+      <RepeatTime>6000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Crush>50.0</Crush>
+          <Fire>0</Fire>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>10</Range>
+        <Shape>Linear</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>500</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>3.0</Height>
+    <Square depth="12.0" width="8.0"/>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>3</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/labrynna/labrynna_borderguard_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <Classes datatype="tokens">Steamtank</Classes>
+    <SpecificName>Steam Tank</SpecificName>
+    <History>The peak of Labrynna engineering and military might, the Steam Tank is a mobile cannon covered by thick plating of armor. To help the crew move such a heavy load, a primitive but functional steam engine pushes the Cannon and armor along at a slow but steady pace. These slow and lumbering machines can usually terrify an enemy into submission without having to fire a single shot, but their slow speed and significant blind spots can be exploited by those who know better.</History>
+    <Tooltip>Powerful and durable but slow moving Siege machine that can wreck enemy defenses from a distance with its cannon.</Tooltip>
+    <Icon>units/labrynna/lab_steamtank.dds</Icon>
+    <VisibleClasses datatype="tokens">Gunpowder</VisibleClasses>
+  </Identity>
+  <Pack disable=""/>
+  <Position>
+    <TurnRate>1</TurnRate>
+  </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Fire>35</Fire>
+        <Crush>10</Crush>
+        <Hack>10.0</Hack>
+        <Pierce>35.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/cannon_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/tankcannon_fire.xml</attack_ranged>
+      <death>voice/labrynna/steamtank/steamtank_death.xml</death>
+      <order_attack>voice/labrynna/steamtank/steamtank_attack.xml</order_attack>
+      <order_garrison>voice/labrynna/steamtank/steamtank_garrison.xml</order_garrison>
+      <order_gather>voice/labrynna/steamtank/steamtank_gather.xml</order_gather>
+      <order_repair>voice/labrynna/steamtank/steamtank_repair.xml</order_repair>
+      <order_walk>voice/labrynna/steamtank/steamtank_walk.xml</order_walk>
+      <run>actor/movement/steamtank/steamtank_move.xml</run>
+      <select>voice/labrynna/steamtank/steamtank_select.xml</select>
+      <trained>interface/alarm/alarm_create_engine.xml</trained>
+      <walk>actor/movement/steamtank/steamtank_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.4545</RunMultiplier>
+    <WalkSpeed>5.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/labrynna/labrynna_steamtank_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Spire Rocks">
+      <animations>
+        <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
+      </animations>
+      <mesh>structural/minor_wizzrobe/wiz_spireA_rocks.dae</mesh>
+      <textures>
+        <texture file="structural/minor_wizzrobe/wiz_ruinsA.dds" name="baseTex"/>
+		<texture file="structural/minor_wizzrobe/wiz_ruinsA_normal.dds" name="normTex"/>
+        <texture file="structural/minor_wizzrobe/wiz_ruinsA.dds" name="specTex"/>
+		<texture file="structural/minor_wizzrobe/wiz_spireA_ao.dds" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

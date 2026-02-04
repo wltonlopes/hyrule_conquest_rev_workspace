@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.1 }
+	],
+	"auraName": "Relaxation",
+	"auraDescription": "All units +10% health."
+}

@@ -1,7 +1,7 @@
 {
 	"genericName": "Amperage",
 	"description": "Breed your jellyfish to have increased amperage, making them deal extra damage.",
-	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 400},
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 400},
 	"icon": "zola/discharge.dds",
 	"researchTime": 40,
 	"tooltip": "Jellyfish deal 80% more damage.",

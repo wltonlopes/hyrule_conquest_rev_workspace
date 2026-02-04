@@ -7,7 +7,8 @@
     <Ranged replace="">
       <AttackName>Arrow</AttackName>
       <Damage>
-        <Pierce>10</Pierce>
+        <Pierce>16</Pierce>
+        <Forest>16</Forest>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>90</MaxRange>
@@ -18,7 +19,7 @@
         <Gravity>9.81</Gravity>
         <LaunchPoint y="3"/>
         <Speed>75.0</Speed>
-        <Spread>0.5</Spread>
+        <Spread>0.25</Spread>
       </Projectile>
       <RepeatTime>2500</RepeatTime>
     </Ranged>
@@ -37,9 +38,10 @@
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
+    <Classes datatype="tokens">WoodArmor</Classes>
     <SpecificName>Emerald Archer</SpecificName>
     <History>Emerald Archers represent some of the longest-lived Kokiri, those nearly ready for the transition into a Korok. Armed with a trusty Fairy Bow and a keen eye, Emerald Archers can snipe enemies from a very long distance, as well as retreat to safe ground should the enemy close the gap.</History>
-    <Tooltip>Elite Kokiri Missile unit with a long range and very fast movement. Also has a healing aura.</Tooltip>
+    <Tooltip>Elite Kokiri Missile unit that deals long range magic damage and has very fast movement. Also has a healing aura.</Tooltip>
     <Icon>units/kokiri/kok_emarcher.dds</Icon>
   </Identity>
   <Promotion disable=""/>

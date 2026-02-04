@@ -1,0 +1,307 @@
+<skeletons>
+<standard_skeleton id="Arborachnid Skeleton" title="Arborachnid Skeleton">
+<bone name="base_arborachnid">
+<bone name="body">
+<bone name="tree_01">
+<bone name="tree_02">
+<bone name="tree_03">
+<bone name="tree_04">
+<bone name="tree_05">
+</bone>
+<bone name="top_eye_01">
+<bone name="top_eye_02">
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="branch_01">
+<bone name="branch_02">
+<bone name="chain_01">
+<bone name="chain_02">
+<bone name="chain_03">
+<bone name="chain_04">
+<bone name="chain_05">
+<bone name="chain_06">
+<bone name="cage">
+<bone name="fairy_02">
+</bone>
+<bone name="fairy_01">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="mid_eye_01">
+<bone name="mid_eye_02">
+</bone>
+</bone>
+<bone name="bot_eye_01">
+<bone name="bot_eye_02">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="head_01">
+<bone name="head_02">
+<bone name="L_fang_01">
+<bone name="L_fang_02">
+</bone>
+</bone>
+<bone name="R_fang_01">
+<bone name="R_fang_02">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_backleg_01">
+<bone name="L_backleg_02">
+<bone name="L_backleg_03">
+<bone name="L_backleg_04">
+<bone name="L_backleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_bmidleg_01">
+<bone name="L_bmidleg_02">
+<bone name="L_bmidleg_03">
+<bone name="L_bmidleg_04">
+<bone name="L_bmidleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_fmidleg_01">
+<bone name="L_fmidleg_02">
+<bone name="L_fmidleg_03">
+<bone name="L_fmidleg_04">
+<bone name="L_fmidleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_frontleg_01">
+<bone name="L_frontleg_02">
+<bone name="L_frontleg_03">
+<bone name="L_frontleg_04">
+<bone name="L_frontleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="ass_01">
+<bone name="ass_02">
+<bone name="ass_03">
+</bone>
+</bone>
+</bone>
+<bone name="R_frontleg_01">
+<bone name="R_frontleg_02">
+<bone name="R_frontleg_03">
+<bone name="R_frontleg_04">
+<bone name="R_frontleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_fmidleg_01">
+<bone name="R_fmidleg_02">
+<bone name="R_fmidleg_03">
+<bone name="R_fmidleg_04">
+<bone name="R_fmidleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_bmidleg_01">
+<bone name="R_bmidleg_02">
+<bone name="R_bmidleg_03">
+<bone name="R_bmidleg_04">
+<bone name="R_bmidleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_backleg_01">
+<bone name="R_backleg_02">
+<bone name="R_backleg_03">
+<bone name="R_backleg_04">
+<bone name="R_backleg_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Arborachnid Skeleton" title="Arborachnid Skeleton">
+<identifier><root>base_arborachnid</root></identifier>
+<bone name="base_arborachnid"><target>base_arborachnid</target>
+<bone name="body"><target>body</target>
+<bone name="tree_01"><target>tree_01</target>
+<bone name="tree_02"><target>tree_02</target>
+<bone name="tree_03"><target>tree_03</target>
+<bone name="tree_04"><target>tree_04</target>
+<bone name="tree_05"><target>tree_05</target>
+</bone>
+<bone name="top_eye_01"><target>top_eye_01</target>
+<bone name="top_eye_02"><target>top_eye_02</target>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="branch_01"><target>branch_01</target>
+<bone name="branch_02"><target>branch_02</target>
+<bone name="chain_01"><target>chain_01</target>
+<bone name="chain_02"><target>chain_02</target>
+<bone name="chain_03"><target>chain_03</target>
+<bone name="chain_04"><target>chain_04</target>
+<bone name="chain_05"><target>chain_05</target>
+<bone name="chain_06"><target>chain_06</target>
+<bone name="cage"><target>cage</target>
+<bone name="fairy_02"><target>fairy_02</target>
+</bone>
+<bone name="fairy_01"><target>fairy_01</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="mid_eye_01"><target>mid_eye_01</target>
+<bone name="mid_eye_02"><target>mid_eye_02</target>
+</bone>
+</bone>
+<bone name="bot_eye_01"><target>bot_eye_01</target>
+<bone name="bot_eye_02"><target>bot_eye_02</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="head_01"><target>head_01</target>
+<bone name="head_02"><target>head_02</target>
+<bone name="L_fang_01"><target>L_fang_01</target>
+<bone name="L_fang_02"><target>L_fang_02</target>
+</bone>
+</bone>
+<bone name="R_fang_01"><target>R_fang_01</target>
+<bone name="R_fang_02"><target>R_fang_02</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_backleg_01"><target>L_backleg_01</target>
+<bone name="L_backleg_02"><target>L_backleg_02</target>
+<bone name="L_backleg_03"><target>L_backleg_03</target>
+<bone name="L_backleg_04"><target>L_backleg_04</target>
+<bone name="L_backleg_05"><target>L_backleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_bmidleg_01"><target>L_bmidleg_01</target>
+<bone name="L_bmidleg_02"><target>L_bmidleg_02</target>
+<bone name="L_bmidleg_03"><target>L_bmidleg_03</target>
+<bone name="L_bmidleg_04"><target>L_bmidleg_04</target>
+<bone name="L_bmidleg_05"><target>L_bmidleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_fmidleg_01"><target>L_fmidleg_01</target>
+<bone name="L_fmidleg_02"><target>L_fmidleg_02</target>
+<bone name="L_fmidleg_03"><target>L_fmidleg_03</target>
+<bone name="L_fmidleg_04"><target>L_fmidleg_04</target>
+<bone name="L_fmidleg_05"><target>L_fmidleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_frontleg_01"><target>L_frontleg_01</target>
+<bone name="L_frontleg_02"><target>L_frontleg_02</target>
+<bone name="L_frontleg_03"><target>L_frontleg_03</target>
+<bone name="L_frontleg_04"><target>L_frontleg_04</target>
+<bone name="L_frontleg_05"><target>L_frontleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="ass_01"><target>ass_01</target>
+<bone name="ass_02"><target>ass_02</target>
+<bone name="ass_03"><target>ass_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_frontleg_01"><target>R_frontleg_01</target>
+<bone name="R_frontleg_02"><target>R_frontleg_02</target>
+<bone name="R_frontleg_03"><target>R_frontleg_03</target>
+<bone name="R_frontleg_04"><target>R_frontleg_04</target>
+<bone name="R_frontleg_05"><target>R_frontleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_fmidleg_01"><target>R_fmidleg_01</target>
+<bone name="R_fmidleg_02"><target>R_fmidleg_02</target>
+<bone name="R_fmidleg_03"><target>R_fmidleg_03</target>
+<bone name="R_fmidleg_04"><target>R_fmidleg_04</target>
+<bone name="R_fmidleg_05"><target>R_fmidleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_bmidleg_01"><target>R_bmidleg_01</target>
+<bone name="R_bmidleg_02"><target>R_bmidleg_02</target>
+<bone name="R_bmidleg_03"><target>R_bmidleg_03</target>
+<bone name="R_bmidleg_04"><target>R_bmidleg_04</target>
+<bone name="R_bmidleg_05"><target>R_bmidleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_backleg_01"><target>R_backleg_01</target>
+<bone name="R_backleg_02"><target>R_backleg_02</target>
+<bone name="R_backleg_03"><target>R_backleg_03</target>
+<bone name="R_backleg_04"><target>R_backleg_04</target>
+<bone name="R_backleg_05"><target>R_backleg_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/field">
+  <AlertRaiser>
+    <List datatype="tokens">FemaleCitizen</List>
+    <RaiseAlertRange>50</RaiseAlertRange>
+    <EndOfAlertRange>100</EndOfAlertRange>
+    <SearchRange>100</SearchRange>
+  </AlertRaiser>
+  <Capturable>
+    <CapturePoints>300</CapturePoints>
+  </Capturable>
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="30.0" width="30.0"/>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>rubble/debris_labrynna_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <Classes datatype="tokens">DropsiteFood</Classes>
+    <SpecificName>Farm</SpecificName>
+    <History>By adding a building to store food, the Labynnian Empire could speed up the production rate of workers, to the detriment of the amount of workers able to farm the field.</History>
+    <Icon>structures/labrynna/lab_farmB.dds</Icon>
+    <Tooltip>Grows food that can be gathered by Worker units. Also acts as a Farmstead</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="20.0" width="20.0"/>
+    <BlockMovement>true</BlockMovement>
+    <BlockPathfinding>true</BlockPathfinding>
+  </Obstruction>
+  <ResourceDropsite>
+    <Sharable>true</Sharable>
+    <Types>food</Types>
+  </ResourceDropsite>
+  <ResourceSupply>
+    <MaxGatherers>3</MaxGatherers>
+  </ResourceSupply>
+  <Minimap>
+    <Color b="102" g="204" r="155"/>
+    <Type>food</Type>
+  </Minimap>
+  <Upgrade replace="">
+    <Factory>
+      <Cost>
+        <metal>100</metal>
+      </Cost>
+      <Entity>structures/labrynna/field_3</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Upgrade the Farm into a Factory Farm.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Factory>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_farmhouseA.xml</Actor>
+  </VisualActor>
+</Entity>

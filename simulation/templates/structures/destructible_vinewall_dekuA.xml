@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure">
+  <Capturable disable=""/>
+  <Footprint>
+    <Square width="168.0" depth="28"/>
+    <Height>4.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <GenericName>Barrier</GenericName>
+    <History>A large cluster of vines, commonly found in forests and swamps.</History>
+    <SpecificName>Vine Wall</SpecificName>
+    <Tooltip>This cluster of vines looks like it can be destroyed.</Tooltip>
+    <Icon>gaia/flora_tree_generic.dds</Icon>
+  </Identity>
+  <Loot>
+    <wood>20</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="168.0" depth="24"/>
+  </Obstruction>
+  <ProductionQueue disable=""/>
+  <Researcher disable=""/>
+  <StatusBars>
+    <HeightOffset>6.0</HeightOffset>
+  </StatusBars>
+  <Trainer disable=""/>
+  <VisualActor>
+    <Actor>flora/forest/vinewall_dekuA.xml</Actor>
+  </VisualActor>
+</Entity>

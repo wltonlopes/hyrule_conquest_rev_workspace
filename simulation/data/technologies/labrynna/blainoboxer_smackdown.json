@@ -1,0 +1,20 @@
+{
+	"genericName": "Smackdown",
+	"description": "Blaino Boxers were very hostile fighters, what with their violent flurry of punches. After years of training with proffesional Labrynnians, Blaino Boxers can muster up enough force to knock the living daylights out of their targets,",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 250},
+	"requirements": {"all": [
+					{"tech": "phase_city"},
+					{"civ": "labrynna"}
+				]
+			},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "labrynna/blainoboxer_smackdown.dds",
+	"researchTime": 40,
+	"tooltip": "Blaino Boxers stun chance +10, duration x2.",
+	"modifications": [
+		{"value": "Attack/Melee/Stun/Chance", "add": 10},
+		{"value": "Attack/Melee/Stun/Duration", "multiply": 2}
+	],  
+    	"affects": [ "Blaino" ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

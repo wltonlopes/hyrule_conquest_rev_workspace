@@ -1,0 +1,17 @@
+{
+	"genericName": "Sentries",
+	"description": "A night's watch increases vigilance.",
+	"cost": {
+		"food": 500
+	},
+	"requirements": { "tech": "phase_village" },
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "hylian/hyl_sentries.dds",
+	"researchTime": 40,
+	"tooltip": "Sentry and Stone Towers +50% default arrow count.",
+	"modifications": [
+		{ "value": "BuildingAI/DefaultArrowCount", "multiply": 1.5 }
+	],
+	"affects": ["SentryTower", "StoneTower"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

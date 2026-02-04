@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/fairy/barracks">
+  <Identity>
+    <Classes datatype="tokens">Summer</Classes>
+    <SpecificName>Fairy Fountain (Summer)</SpecificName>
+    <Icon>structures/fairy/fai_fountain_summer.dds</Icon>
+  </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+        units/fairy/fairy_stray_summer
+        units/fairy/fairy_drove_summer
+	units/fairy/fairy_gale_b
+	units/fairy/fairy_blastbloom_b
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Spring>
+      <Entity>structures/fairy/fairy_fountain_spring</Entity>
+      <Tooltip>Upgrade to a Fairy Fountain (Spring).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Spring>
+    <Autumn>
+      <Entity>structures/fairy/fairy_fountain_autumn</Entity>
+      <Tooltip>Upgrade to a Fairy Fountain (Autumn).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Autumn>
+    <Winter>
+      <Entity>structures/fairy/fairy_fountain_winter</Entity>
+      <Tooltip>Upgrade to a Fairy Fountain (Winter).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Winter>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_fountainA_summer.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_summer.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -24,6 +24,7 @@
   </Health>
   <Identity>
     <Civ>stalfos</Civ>
+    <Classes datatype="tokens">-Organic</Classes>
     <History>Stalhounds are the corpses of canine creatures that once served as guard dogs for their masters in life. The resume their duties even in undeath, guarding graveyards and other locations important to the raising of more dead. Eager to please their masters, Stalhounds are one of the few undead abominations that are able to run swiftly as they did in life.</History>
     <SpecificName>Stalhound</SpecificName>
     <Tooltip>A swift moving unit that mauls victims with its claws.</Tooltip>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_stone">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Bolts</AttackName>
+      <Damage>
+        <Pierce>5.0</Pierce>
+        <True>10</True>
+      </Damage>
+      <MaxRange>90.0</MaxRange>
+      <MinRange>10.0</MinRange>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>2000</PrepareTime>
+      <Projectile>
+        <Gravity>9.81</Gravity>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <RepeatTime>4000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Footprint>
+    <Square width="20.0" depth="20.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>75</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Human</List>
+    <LoadingRange>2</LoadingRange>
+    <Max>5</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_labrynna_small</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>5</SpawnNumberMax>
+      <SpawnNumberMin>5</SpawnNumberMin>
+      <Template>units/labrynna/labrynna_borderguard_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <SpecificName>Guardpost</SpecificName>
+    <History>The Guardpost serves as a defensive fortification for Labrynnian soldiers to use in holding off attackers.</History>
+    <Icon>structures/labrynna/lab_towerA.dds</Icon>
+    <Tooltip>Defense Tower that attacks enemies with crossbow bolts.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="15.5" depth="15.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+      labrynna/tower_telescopes
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/crossbolt.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>19.0</HeightOffset>
+  </StatusBars>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/labrynna/labrynna_borderguard_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_towerA.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+</Entity>

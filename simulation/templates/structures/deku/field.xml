@@ -19,6 +19,12 @@
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
   </Obstruction>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      deku/massive_nuts
+    </Technologies>
+  </Researcher>
   <ResourceTrickle>
     <Rates>
       <food>0</food>

@@ -1,0 +1,14 @@
+{
+	"genericName": "Superior Alertness",
+	"description": "The Deer of the Kokiri Forest are said to have keen senses beyond that of most animals, almost as if they can predict the future of their hunters.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0},
+	"supersedes": "kokiri/deer_awareness",
+	"requirements": { "all": [{"tech": "phase_town"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "kokiri/deer_alertness.dds",
+	"researchTime": 40,
+	"tooltip": "+15 Line of Sight increase for Deer units.",
+	"modifications": [{"value": "Vision/Range", "multiply": 1.15}],
+	"affects": ["Deer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

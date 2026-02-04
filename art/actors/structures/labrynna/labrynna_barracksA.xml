@@ -12,7 +12,6 @@
       </textures>
 	  <props>
 			<prop actor="props/structures/labrynna/labrynna_groundbase_square.xml" attachpoint="root"/>
-			<prop actor="props/structures/labrynna/labrynna_barracksexpA.xml" attachpoint="root"/>
 	  </props>
 	</variant>
   </group>

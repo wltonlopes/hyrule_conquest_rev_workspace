@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/hylian/infantry_archer_b">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Arrows</AttackName>
+      <Damage>
+        <Pierce>10</Pierce>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>80</MaxRange>
+      <MinRange>15.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1300</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2300</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Health>
+    <Max>125</Max>
+  </Health>
+  <Identity>
+    <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Soldier UpgArrow</Classes>
+    <SpecificName>Soldier Archer</SpecificName>
+    <History>Career archers are not unheard of across Hyrule, though few tend to be as armored as those of the Kingdom's. What's more, years of practice tends to give them quite the strong right arm.</History>
+    <Icon>units/hylian/hyl_soldierarcher.dds</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/hylian/infantry_crossbowman_b</Entity>
+  </Promotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3</Hack>
+        <Pierce>3</Pierce>
+        <Crush>4</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <VisualActor>
+    <Actor>units/hylian/hylian_soldier_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>1000</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="100.0" width="60.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>rubble/debris_hylian_wonderA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>The Temple of Time</SpecificName>
+    <History>The Temple of Time, a marvel of architecture commissioned by the Oocca and designed by Rauru, the Sage of Light. Acting as a Church and housing the Master Sword deep within its recesses, the Temple of Time is a shining wonder and revered structure across all of Hyrule. It is said that, buried deep inside, is a door to the Sacred Realm of the Triforce.</History>
+    <Icon>structures/hylian/hyl_tot.dds</Icon>
+    <Tooltip>The Hylian Wonder, allows you to summon Fi, Spirit of the Master Sword.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="56.0" depth="97.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/hylian/hylian_titan_fi
+    </Entities>
+  </Trainer>
+  <Sound>
+    <SoundGroups>
+      <complete>interface/complete/building/hylian/complete_tot.xml</complete>
+      <select>interface/select/building/hylian/sel_tot.xml</select>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Radius>52</Radius>
+    <Root>false</Root>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_wonder.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+</Entity>

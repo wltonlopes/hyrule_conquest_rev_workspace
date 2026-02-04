@@ -28,6 +28,7 @@
   </Health>
   <Identity>
     <Civ>stalfos</Civ>
+    <Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Undead Stal</VisibleClasses>
     <SpecificName>Stalkin</SpecificName>
     <History>Stalkin are the collective name of skeletal warriors raised from the corpses of small sized enemies, such as the Kokiri. While their appearance takes on the form of their original skeleton, Stalkin usually all behave the same way; mindlessly shuffling towards their targets and stabbing them with any sharp instrument they can get their hands on.</History>

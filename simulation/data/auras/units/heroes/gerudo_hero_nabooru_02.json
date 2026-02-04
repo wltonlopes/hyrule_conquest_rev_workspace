@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 3 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 3 },
+		{ "value": "Health/MaxHealth", "multiply": 1.5},
+		{ "value": "Health/RegenRate", "add": 1}
+	],
+	"auraName": "Empress of the Gerudo",
+	"auraDescription": "All neabry units +3 resistance, +50% health, and +1 regeneration."
+}

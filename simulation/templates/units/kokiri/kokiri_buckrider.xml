@@ -21,17 +21,24 @@
   <Cost>
     <BuildTime>20</BuildTime>
     <Resources>
-      <food>100</food>
+      <food>75</food>
       <wood>50</wood>
       <stone>0</stone>
       <metal>25</metal>
     </Resources>
   </Cost>
   <Health>
-    <Max>160</Max>
+    <Max>200</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>10</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/kokiri/kokiri_grovewatch_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
+    <Classes datatype="tokens">WoodArmor Deer</Classes>
     <SpecificName>Buck Rider</SpecificName>
     <History>Mounted on the back of the almost legendary Kokiri Buck, these are a very fast cavalry unit armed with an axe in hand. These melee cavalry can ram into enemy infantry and are excellent at dealing with such units. When outmatched these deer are frighteningly adept at retreating and vanishing into nothingness.</History>
     <Tooltip>A very fast Champion Melee Cavalry unit armed with an axe in hand. These melee cavalry can ram into enemy Infantry and are excellent at dealing with such units.</Tooltip>

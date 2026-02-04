@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.15 }
+	],
+	"auraName": "Bounty of the Mountain",
+	"auraDescription": "All allies have a +15 bonus to gathering stone."
+}

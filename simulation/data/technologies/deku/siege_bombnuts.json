@@ -1,0 +1,16 @@
+{
+	"genericName": "Explosive Deku Nuts",
+	"description": "The Deku Nuts launched by Dekupults can be filled with an incedinary, detonating on impact and affecting a larger area.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 300},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "deku/dek_meganutdurable.dds",
+	"researchTime": 40,
+	"tooltip": "+5 splash range and +50% stun time from Dekupult attacks.",
+	"modifications": [
+				{"value": "Attack/Ranged/Splash/Range", "add": 5},
+				{"value": "Attack/Ranged/Stun/Time", "multiply": 1.5}
+			 ],
+	"affects": ["Dekupult"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

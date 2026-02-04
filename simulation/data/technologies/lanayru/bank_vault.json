@@ -17,6 +17,9 @@
 				{"value": "Resistance/Entity/Damage/Crush", "add": 2.0},
 				{"value": "Resistance/Entity/Damage/Forest", "add": 0.5},
 				{"value": "Resistance/Entity/Damage/Fire", "add": 0.5},
+				{"value": "Resistance/Entity/Damage/Spirit", "add": 0.5},
+				{"value": "Resistance/Entity/Damage/Light", "add": 0.5},
+				{"value": "Resistance/Entity/Damage/Shadow", "add": 0.5},
 				{"value": "Resistance/Entity/Damage/Water", "add": 0.5},
 				{"value": "Loot/metal", "multiply": 0.5}
 			],

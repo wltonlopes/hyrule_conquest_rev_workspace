@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>200</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="38.0" width="38.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <LoadingRange>6</LoadingRange>
+    <Max>7</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_gerudo_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <History>A dangerous and grueling obstacle course, the Gerudo Training Grounds is a test to find the best of the best. Those that complete the challenge are rewarded with legendary Ice Arrows or other treasures for battle. Those that fail come out the other end harder and with more experience... assuming they don't die in the process.</History>
+    <SpecificName>Gerudo Training Grounds</SpecificName>
+    <Icon>structures/gerudo/ger_trainingA.dds</Icon>
+    <Tooltip>Trains champion Gerudo units.</Tooltip>
+    <VisibleClasses datatype="tokens">Town -Village</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town -phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="34.0" width="34.0"/>
+  </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>10.0</Crush>
+        <Hack>15.0</Hack>
+        <Pierce>55.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities replace="" datatype="tokens">
+      units/gerudo/gerudo_tombguard_b
+      units/gerudo/gerudo_icearcher_b
+      units/gerudo/gerudo_ashcap_b
+      units/gerudo/gerudo_goldenglad_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/gerudo/gerudo_trainingA.xml</Actor>
+    <FoundationActor>structures/gerudo/gerudo_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

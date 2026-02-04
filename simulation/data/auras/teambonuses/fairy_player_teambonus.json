@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Unit"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.15 }
+	],
+	"auraName": "Fairy Love",
+	"auraDescription": "+15% health bonus to allied units."
+}

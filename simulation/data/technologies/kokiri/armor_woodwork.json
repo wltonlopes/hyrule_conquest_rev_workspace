@@ -1,0 +1,14 @@
+{
+	"genericName": "Faron Woodworking",
+	"description": "Ancient manuscripts uncovered from Faron present techniques for drying and lightening the wood used in Kokiri armors.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 550},
+	"supersedes": "kokiri/armor_dekugouge",
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "kokiri"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "kokiri/armor_woodwork.dds",
+	"researchTime": 40,
+	"tooltip": "+15% Walk Speed - Grove Watcher, Buck Rider, Doe Trotter, Emerald Archer, and Chief)",
+	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.15}],
+	"affects": ["WoodArmor"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

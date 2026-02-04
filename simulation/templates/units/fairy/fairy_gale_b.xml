@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Gale Seeds</AttackName>
+      <Damage>
+        <Spirit>7.0</Spirit>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>30.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>1500</RepeatTime>
+      <SpawnEntityOnImpact>
+        <SpawnNumberMax>1</SpawnNumberMax>
+        <SpawnNumberMin>1</SpawnNumberMin>
+        <SpawnOnHit>
+          <Chance>100</Chance>
+          <SpawnAtTarget>true</SpawnAtTarget>
+        </SpawnOnHit>
+        <SpawnOnImpact>
+          <Chance>100</Chance>
+        </SpawnOnImpact>
+        <Template>units/fairy/fairy_galewind</Template>
+      </SpawnEntityOnImpact>
+    </Ranged>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}/civil_centre
+      -structures/{civ}/storehouse
+      -structures/{civ}/barracks
+      -structures/{civ}/forge
+      -structures/{civ}/library
+      -structures/{civ}/market
+      -structures/{civ}/barracksB
+      -structures/{civ}/wonder
+      structures/fairy/civil_centreB
+      structures/fairy/civil_centre_upgB
+      structures/fairy/fairy_menhir_summer
+      structures/fairy/fairy_fountain_summer
+      structures/fairy/fairy_waterheaven_summer
+      structures/fairy/fairy_misthenge_summer
+      structures/fairy/fairy_sundial_summer
+      structures/fairy/fairy_meetingspring_summer
+      structures/fairy/fairy_greatfountain_summer
+      structures/fairy/fairy_uniwonder_summer
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Gale Fairy</SpecificName>
+    <History>These carefree and lethargic Fairies are often found living on islands and coasts, coming out of their hiding places when the sun is at it's brightest. While friendly in most situations, those that wrong these mistresses will incure the wrath of their harsh Summer winds. With the power of Gale Seeds, they can blow just about anyone off course.</History>
+    <Tooltip>Ranged Mage unit that slows down the movement of enemies with her attacks.</Tooltip>
+    <Icon>units/fairy/fai_gale.dds</Icon>
+    <VisibleClasses datatype="tokens">Mage</VisibleClasses>
+  </Identity>
+  <Position>
+    <Floating>true</Floating>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>4.0</Crush>
+        <Fire>3.0</Fire>
+        <Forest>3.0</Forest>
+        <Hack>3.0</Hack>
+        <Light>3.0</Light>
+        <Pierce>3.0</Pierce>
+        <Shadow>3.0</Shadow>
+        <Spirit>3.0</Spirit>
+        <Water>3.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/magic/spell_wind.xml</attack_melee>
+      <attack_ranged>attack/magic/spell_wind.xml</attack_ranged>
+      <death>voice/fairy/smallfairy/smallfairy_death.xml</death>
+      <order_attack>voice/fairy/smallfairy/smallfairy_attack.xml</order_attack>
+      <order_garrison>voice/fairy/smallfairy/smallfairy_garrison.xml</order_garrison>
+      <order_gather>voice/fairy/smallfairy/smallfairy_gather.xml</order_gather>
+      <order_repair>voice/fairy/smallfairy/smallfairy_repair.xml</order_repair>
+      <order_walk>voice/fairy/smallfairy/smallfairy_walk.xml</order_walk>
+      <run>actor/movement/fairy/fairy_hoverA.xml</run>
+      <select>voice/fairy/smallfairy/smallfairy_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/fairy/fairy_hoverA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/fairy/fairy_la_b.xml</Actor>
+  </VisualActor>
+</Entity>

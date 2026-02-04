@@ -1,0 +1,103 @@
+<skeletons>
+<standard_skeleton id="Small Korok Skeleton" title="Small Korok Skeleton">
+<bone name="base_korok_smallA">
+<bone name="torso">
+<bone name="neckbase">
+<bone name="neck">
+<bone name="head">
+<bone name="nose_01">
+<bone name="nose_02">
+</bone>
+<bone name="face_leaf">
+<bone name="face_leafdrape">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_arm_01">
+<bone name="L_arm_02">
+<bone name="L_hand">
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+<bone name="spinner">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_arm_01">
+<bone name="R_arm_02">
+<bone name="R_hand">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_leg_01">
+<bone name="L_leg_02">
+<bone name="L_leg_03">
+</bone>
+</bone>
+</bone>
+<bone name="R_leg_01">
+<bone name="R_leg_02">
+<bone name="R_leg_03">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Small Korok Skeleton" title="Small Korok Skeleton">
+<identifier><root>base_korok_smallA</root></identifier>
+<bone name="base_korok_smallA"><target>base_korok_smallA</target>
+<bone name="torso"><target>torso</target>
+<bone name="neckbase"><target>neckbase</target>
+<bone name="neck"><target>neck</target>
+<bone name="head"><target>head</target>
+<bone name="nose_01"><target>nose_01</target>
+<bone name="nose_02"><target>nose_02</target>
+</bone>
+<bone name="face_leaf"><target>face_leaf</target>
+<bone name="face_leafdrape"><target>face_leafdrape</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_arm_01"><target>L_arm_01</target>
+<bone name="L_arm_02"><target>L_arm_02</target>
+<bone name="L_hand"><target>L_hand</target>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+<bone name="spinner"><target>spinner</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_arm_01"><target>R_arm_01</target>
+<bone name="R_arm_02"><target>R_arm_02</target>
+<bone name="R_hand"><target>R_hand</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_leg_01"><target>L_leg_01</target>
+<bone name="L_leg_02"><target>L_leg_02</target>
+<bone name="L_leg_03"><target>L_leg_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_leg_01"><target>R_leg_01</target>
+<bone name="R_leg_02"><target>R_leg_02</target>
+<bone name="R_leg_03"><target>R_leg_03</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

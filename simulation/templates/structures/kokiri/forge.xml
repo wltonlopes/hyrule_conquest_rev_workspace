@@ -18,6 +18,12 @@
   <Obstruction>
     <Static depth="40.0" width="40.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+      kokiri/armor_dekugouge
+      kokiri/armor_woodwork
+    </Technologies>
+  </Researcher>
   <Vision>
     <Range>32</Range>
   </Vision>

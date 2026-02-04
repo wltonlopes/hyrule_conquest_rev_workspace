@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Nails</AttackName>
+      <Damage>
+        <Pierce>3.0</Pierce>
+      </Damage>
+      <MaxRange>7.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>400</PrepareTime>
+      <RepeatTime>400</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}/civil_centre
+      -structures/{civ}/storehouse
+      -structures/{civ}/barracks
+      -structures/{civ}/forge
+      -structures/{civ}/library
+      -structures/{civ}/market
+      -structures/{civ}/barracksB
+      -structures/{civ}/wonder
+      structures/fairy/civil_centreC
+      structures/fairy/civil_centre_upgC
+      structures/fairy/fairy_menhir_autumn
+      structures/fairy/fairy_fountain_autumn
+      structures/fairy/fairy_waterheaven_autumn
+      structures/fairy/fairy_misthenge_autumn
+      structures/fairy/fairy_sundial_autumn
+      structures/fairy/fairy_meetingspring_autumn
+      structures/fairy/fairy_greatfountain_autumn
+      structures/fairy/fairy_uniwonder_autumn
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>25</Max>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Pegasus Fairy</SpecificName>
+    <History>These very tiny Fairies are quite rare, but are among the friendliest of their kind. Using the powers of the Pegasus Seeds, they can help their friends move at incredible speeds.</History>
+    <Tooltip>Support unit that increases the speed of other Fairies.</Tooltip>
+    <Icon>units/fairy/fai_pegasus.dds</Icon>
+    <VisibleClasses datatype="tokens">Support</VisibleClasses>
+  </Identity>
+  <Position>
+    <Floating>true</Floating>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>4.0</Crush>
+        <Fire>3.0</Fire>
+        <Forest>3.0</Forest>
+        <Hack>3.0</Hack>
+        <Light>3.0</Light>
+        <Pierce>3.0</Pierce>
+        <Shadow>3.0</Shadow>
+        <Spirit>3.0</Spirit>
+        <Water>3.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/magic/fairy_wand.xml</attack_melee>
+      <death>voice/fairy/smallfairy/smallfairy_death.xml</death>
+      <order_attack>voice/fairy/smallfairy/smallfairy_attack.xml</order_attack>
+      <order_garrison>voice/fairy/smallfairy/smallfairy_garrison.xml</order_garrison>
+      <order_gather>voice/fairy/smallfairy/smallfairy_gather.xml</order_gather>
+      <order_repair>voice/fairy/smallfairy/smallfairy_repair.xml</order_repair>
+      <order_walk>voice/fairy/smallfairy/smallfairy_walk.xml</order_walk>
+      <run>actor/movement/fairy/fairy_hoverA.xml</run>
+      <select>voice/fairy/smallfairy/smallfairy_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/fairy/fairy_hoverA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/fairy/fairy_ww_b.xml</Actor>
+  </VisualActor>
+</Entity>

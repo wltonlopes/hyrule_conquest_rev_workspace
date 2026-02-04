@@ -1,0 +1,18 @@
+{
+	"genericName": "Mob Incition",
+	"description": "When in a time of war, the leaders of the Scrubs often gather them together, then fill them with rage and hatred of their enemies.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 1000},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "deku/kudlohkan_revenge.dds",
+	"researchTime": 50,
+	"tooltip": "+20% walk speed and damage to all Scrub units.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Crush", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Hack", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2},
+				{"value": "UnitMotion/WalkSpeed", "multiply": 1.2}
+			 ],
+	"affects": ["Scrub"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

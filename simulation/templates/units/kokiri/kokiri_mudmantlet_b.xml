@@ -4,7 +4,7 @@
     <Melee replace="">
       <AttackName>Spear</AttackName>
       <Damage>
-        <Pierce>6.0</Pierce>
+        <Pierce>10.0</Pierce>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>6</MaxRange>
@@ -22,8 +22,19 @@
       <metal>0</metal>
     </Resources>
   </Cost>
+  <Decay>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>0.0</SinkRate>
+    <SinkAccel>2.0</SinkAccel>
+  </Decay>
   <Health>
     <Max>250</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>2</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/kokiri/kokiri_mudjabber_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
@@ -43,6 +54,7 @@
     <Entity>
       <Damage>
         <Hack>25.0</Hack>
+        <Crush>25.0</Crush>
         <Pierce>55.0</Pierce>
       </Damage>
     </Entity>

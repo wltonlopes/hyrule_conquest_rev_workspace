@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": "30",
+	"affects": ["Melee"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1}
+	],
+	"auraName": "Inspiring Presence",
+	"auraDescription": "All nearby melee units +10% walk speed.",
+	"overlayIcon": "art/textures/ui/session/auras/speed_bonus.png"
+}

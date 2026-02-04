@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant>
+	<mesh>gaia/landscape/organic/leviathan_faldoonA.dae</mesh>
+	  <textures>
+		<texture file="gaia/organic/leviathan_faldoonA.dds" name="baseTex"/>
+		<texture file="gaia/organic/leviathan_faldoonA_normal.dds" name="normTex"/>
+		<texture file="gaia/organic/leviathan_faldoonA.dds" name="specTex"/>
+		<texture file="gaia/organic/leviathan_faldoonA_ao.dds" name="aoTex"/>
+	  </textures>
+    </variant>
+  </group>
+  
+<material>basic_trans_ao_norm_spec.xml</material>
+
+</actor>

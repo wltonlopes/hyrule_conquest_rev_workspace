@@ -33,7 +33,7 @@
     <Civ>kokiri</Civ>
     <SpecificName>Korok Walker</SpecificName>
     <History>A larger variation of Korok that seems quite carefree and wanders around with a spear. They are immune to any kind of poison effects and are very resistant to arrows.</History>
-    <Tooltip>Cheap Infantry Melee unit that can be deployed in large numbers.</Tooltip>
+    <Tooltip>Infantry Melee unit that is resistant to pierce and immune to poision.</Tooltip>
     <VisibleClasses datatype="tokens">Korok</VisibleClasses>
     <Icon>units/kokiri/kok_walker.dds</Icon>
   </Identity>

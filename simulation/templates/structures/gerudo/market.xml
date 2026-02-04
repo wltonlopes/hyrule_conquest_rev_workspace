@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint replace="">
+    <Square depth="50.0" width="67.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_gerudo_marketA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <SpecificName>Barter Outlet</SpecificName>
+    <History>A series of shops that sold various goods and services within its host settlement, increasing both its economy and the happiness of people within. Trade was crucial to the survial of the Gerudo, and without these markets the civilization would have certainly died out by now.</History>
+    <Icon>structures/gerudo/ger_market.dds</Icon>
+    <Tooltip>Allows the trading of resources on the market or with your allies.</Tooltip>
+    <VisibleClasses datatype="tokens">-Town Village</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="50.0" width="67.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <ResourceTrickle>
+    <Interval>3000</Interval>
+    <Rates>
+      <rupees>0.0</rupees>
+    </Rates>
+  </ResourceTrickle>
+  <Trainer>
+    <Entities datatype="tokens">
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/gerudo/gerudo_marketA.xml</Actor>
+    <FoundationActor>structures/gerudo/gerudo_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+</Entity>

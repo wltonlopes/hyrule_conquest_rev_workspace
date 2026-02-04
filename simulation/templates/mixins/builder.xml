@@ -20,11 +20,16 @@
       structures/{civ}/barracks
       structures/{civ}/barracksB
       structures/{civ}/barracksC
+      structures/{civ}/range
       structures/{civ}/stable
       structures/{civ}/stableB
       structures/{civ}/elephant_stable
       structures/{civ}/forge
+      structures/{civ}/forgeB
+      structures/{civ}/forgeC
       structures/{civ}/temple
+      structures/{civ}/library
+      structures/{civ}/hospital
       structures/{civ}/market
       structures/{civ}/ministry
       structures/{civ}/outpost
@@ -33,16 +38,25 @@
       structures/{civ}/mercs
       structures/{civ}/arsenal
       structures/{civ}/bank
+      structures/{civ}/monument
       structures/{civ}/academy
       structures/{civ}/fortress
-      structures/earth_mound_short
       structures/wallset_palisade
       structures/{civ}/wallset_palisade
+      structures/{civ}/wallset_sand
       structures/{civ}/wallset_siege
+      structures/{civ}/wallset_wood
       structures/{civ}/wallset_stone
       structures/{civ}/theater
       structures/{civ}/amphitheater
       structures/{civ}/tachara
+      structures/minor_darknut/minor_centre
+      structures/minor_keaton/minor_centre
+      structures/minor_lonlon/minor_centre
+      structures/minor_rollridge/minor_centre
+      structures/minor_tokay/minor_centre
+      structures/minor_wizzrobe/minor_centre
+      structures/minor_zuna/minor_centre
       structures/{civ}/wonder
     </Entities>
   </Builder>

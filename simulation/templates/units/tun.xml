@@ -63,7 +63,7 @@
     <Civ>gaia</Civ>
     <GenericName>The Original Creator</GenericName>
     <SpecificName>The Undying Nephalim</SpecificName>
-    <History>This mysterious figure's history and true identity are shrouded in mystery. All that is known is that he has had much involvement in how the world looks, maybe even the creation of the goddesses themselves.</History>
+    <History>This mysterious figure's history and true identity are shrouded in mystery. All that is known is that he has had much involvement in how the world looks, maybe even the appearance of the goddesses themselves.</History>
     <Tooltip>A Dev. Entirely invulnerable to damage of any kind, with almost unlimited range and damage.</Tooltip>
     <Icon>units/special/tun.png</Icon>
     <VisibleClasses datatype="tokens">Titan</VisibleClasses>
@@ -85,6 +85,8 @@
         <Water>1000.0</Water>
         <Poison>1000</Poison>
         <Fire>1000</Fire>
+        <Spirit>1000</Spirit>
+        <Shadow>1000</Shadow>
       </Damage>
     </Entity>
   </Resistance>

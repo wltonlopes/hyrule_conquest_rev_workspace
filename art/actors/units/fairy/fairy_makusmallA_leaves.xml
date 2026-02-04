@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="HC_makusmall/base_HC_makusmall.xml">
+      <mesh>units/fairy/fai_makusmallA_leaves.dae</mesh>
+      <textures><texture file="skeletal/fairy/fai_makuholoA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="Death">
+    </variant>
+  </group>  
+  <material>basic_trans.xml</material>
+</actor>

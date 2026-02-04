@@ -1,0 +1,17 @@
+{
+	"genericName": "Deku Gouging",
+	"description": "Better techniques for gouging Deku Wood results in a finer finish for both armor and shields.",
+	"cost": {"food": 0, "wood": 350, "stone": 0, "metal": 0, "rupees": 200},
+	"icon": "kokiri/armor_dekugouge.dds",
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "kokiri"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"researchTime": 40,
+	"tooltip": "+5 Non-magic armor for Grove Watchers, Buck Riders, Doe Trotters, Emerald Archers, and Chieftans",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Hack", "add": 5.0},
+				{"value": "Resistance/Entity/Damage/Crush", "add": 5.0},
+				{"value": "Resistance/Entity/Damage/Pierce", "add": 5.0}
+			 ],
+	"affects": ["WoodArmor"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

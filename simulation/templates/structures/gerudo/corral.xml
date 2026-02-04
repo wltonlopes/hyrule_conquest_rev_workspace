@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="30.0" width="30.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>800</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_gerudo_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <SpecificName>Swine Farm</SpecificName>
+    <History>With vegetation extremely scarce in their homeland, meat has ben primary diet of the Gerudo for centuries. In particular, various porcine beasts thrive in the desert, and in turn the Gerudo grow hordes of pigs for food.</History>
+    <Icon>structures/gerudo/ger_pigfarm.dds</Icon>
+    <Tooltip>Trains Gerudo Swine.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="30.0" width="30.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      gaia/gerudo_swine_1
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/gerudo/gerudo_pigfarmA.xml</Actor>
+    <FoundationActor>structures/gerudo/gerudo_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

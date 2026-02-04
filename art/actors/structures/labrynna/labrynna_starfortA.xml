@@ -10,7 +10,6 @@
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-		<prop actor="props/structures/labrynna/labrynna_groundbase_squarelarge.xml" attachpoint="root"/>
       </props>
       <textures>
 	    <texture file="structural/labrynna/labrynna_buildingA.dds" name="baseTex"/>

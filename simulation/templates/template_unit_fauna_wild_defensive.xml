@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild">
+  <Capturable>
+    <CapturePoints>20</CapturePoints>
+    <RegenRate>0.2</RegenRate>
+    <GarrisonRegenRate>0.0</GarrisonRegenRate>
+  </Capturable>
+  <UnitAI>
+    <DefaultStance>defensive</DefaultStance>
+  </UnitAI>
+</Entity>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/hylian/cavalry_maceman_b">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Mace</AttackName>
+      <Damage>
+        <Crush>12.0</Crush>
+        <True>14</True>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Cavalry</PreferredClasses>
+      <PrepareTime>1400</PrepareTime>
+      <RepeatTime>1600</RepeatTime>     
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>17</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <metal>75</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>170</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>10</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/hylian/infantry_maceman_a</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Rank>Advanced</Rank>
+    <Classes datatype="tokens">Soldier</Classes>
+    <SpecificName>Soldier Cavalry</SpecificName>
+    <History>The Kingdom of Hyrule is often incorrectly viewed as well-armored, but quite slow. While that may be true for some of their infantry, their cavalry strikes a good balance of speed and survivability, allowing them to plow through enemy formations.</History>
+    <Tooltip>Medium armored cavalry unit armed with a mace.</Tooltip>
+    <Icon>units/hylian/hyl_soldiercav.dds</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/hylian/cavalry_maceman_e</Entity>
+  </Promotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>6</Hack>
+        <Pierce>4</Pierce>
+        <Crush>7</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <VisualActor>
+    <Actor>units/hylian/hylian_soldier_cav_b.xml</Actor>
+  </VisualActor>
+</Entity>

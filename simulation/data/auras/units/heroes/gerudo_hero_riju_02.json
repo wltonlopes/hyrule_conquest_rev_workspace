@@ -1,0 +1,16 @@
+{
+	"type": "global",
+	"affects": ["Sandseal"],
+	"modifications": [
+		{ "value": "Cost/BuildTime","multiply": 0.8 },
+		{ "value": "Attack/Melee/Damage/Hack","multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Hack","multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.2 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.2 }
+	],
+	"auraName": "Sandseal Master",
+	"auraDescription": "All sandseals +20% walk speed and non-magic damage, -20% train time."
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Attack>
-    <Melee>
+    <Melee replace="">
       <AttackName>Trident</AttackName>
       <Damage>
         <Pierce>15.0</Pierce>
@@ -14,11 +14,13 @@
   </Attack>
   <Cost>
     <BuildTime>12</BuildTime>
+    <Population>0</Population>
     <Resources>
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>200</metal>
+      <metal>0</metal>
+      <rupees>150</rupees>
     </Resources>
   </Cost>
   <Health>
@@ -31,6 +33,9 @@
     <Icon>units/merc/merc_gimos.dds</Icon>
     <Tooltip>Hovering Creature unit that carries a trident into battle.</Tooltip>
     <VisibleClasses datatype="tokens">Merc</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Position>
     <Floating>true</Floating>

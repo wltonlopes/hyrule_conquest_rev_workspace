@@ -1,6 +1,6 @@
 {
 	"type": "global",
-	"affects": ["Mercenary"],
+	"affects": ["Merc"],
 	"modifications": [
 		{ "value": "Cost/BuildTime", "multiply": 0.8 },
 		{ "value": "Cost/Resources/food", "multiply": 0.8 },

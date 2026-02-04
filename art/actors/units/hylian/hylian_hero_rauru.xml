@@ -6,7 +6,6 @@
       <mesh>units/hylian/hyl_rauruA.dae</mesh>
       <props>
         <prop actor="props/units/weapons/hylian_maceB.xml" attachpoint="bone_Rhand"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
       </props>
       <textures><texture file="skeletal/hylian/hyl_heroC.dds" name="baseTex"/></textures>
     </variant>

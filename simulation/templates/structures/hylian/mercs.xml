@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_mercs">
+  <Footprint replace="">
+    <Square depth="30.0" width="30.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_houseA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <History>Serving everything from Keaton Cider to Lon Lon Milk, the local Bar is often a hotbed of activity for Hylian civilians. After a long day's work, a Bar goes to great lengths to improve the populace's happiness. Many potential Mercenaries gather at these hotspots and can be recruited for service.</History>
+    <SpecificName>Hylian Bar</SpecificName>
+    <Icon>structures/hylian/hyl_bar.dds</Icon>
+    <Tooltip>Allows the Kingdom of Hyrule to hire Mercenary units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="30.0" width="30.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      -units/merc/merc_polsvoice_b
+      -units/merc/merc_gimos_b
+      -units/merc/merc_meteo_b
+      -units/merc/merc_wosu_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_barA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldI.xml</FoundationActor>
+  </VisualActor>
+</Entity>

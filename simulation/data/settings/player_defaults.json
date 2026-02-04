@@ -11,65 +11,65 @@
 		},
 		{
 			"Name": "Player 1",
-			"Civ": "deku",
+			"Civ": "hylian",
 			"Color": { "r": 86, "g": 180, "b": 31 },
-			"AI": "hyrule",
+			"AI": "hyrulebot",
 			"AIDiff": 3,
 			"AIBehavior": "random"
 		},
 		{
 			"Name": "Player 2",
-			"Civ": "deku",
+			"Civ": "kokiri",
 			"Color": { "r": 150, "g": 20, "b": 20 },
-			"AI": "hyrule",
+			"AI": "hyrulebot",
 			"AIDiff": 3,
 			"AIBehavior": "random"
 		},
 		{
 			"Name": "Player 3",
-			"Civ": "gaul",
+			"Civ": "goron",
 			"Color": { "r": 21 , "g": 55, "b": 149 },
-			"AI": "petra",
+			"AI": "hyrulebot",
 			"AIDiff": 3,
 			"AIBehavior": "random"
 		},
 		{
 			"Name": "Player 4",
-			"Civ": "iber",
+			"Civ": "ordona",
 			"Color": { "r": 231, "g": 200, "b": 5 },
-			"AI": "petra",
+			"AI": "hyrulebot",
 			"AIDiff": 3,
 			"AIBehavior": "random"
 		},
 		{
 			"Name": "Player 5",
-			"Civ": "mace",
+			"Civ": "lanayru",
 			"Color": { "r": 50, "g": 170, "b": 170 },
-			"AI": "petra",
+			"AI": "hyrulebot",
 			"AIDiff": 3,
 			"AIBehavior": "random"
 		},
 		{
 			"Name": "Player 6",
-			"Civ": "maur",
+			"Civ": "stalfos",
 			"Color": { "r": 160, "g": 80, "b": 200 },
-			"AI": "petra",
+			"AI": "hyrulebot",
 			"AIDiff": 3,
 			"AIBehavior": "random"
 		},
 		{
 			"Name": "Player 7",
-			"Civ": "pers",
+			"Civ": "deku",
 			"Color": { "r": 220, "g": 115, "b": 16 },
-			"AI": "petra",
+			"AI": "hyrulebot",
 			"AIDiff": 3,
 			"AIBehavior": "random"
 		},
 		{
 			"Name": "Player 8",
-			"Civ": "rome",
+			"Civ": "zola",
 			"Color": { "r": 64, "g": 64, "b": 64 },
-			"AI": "petra",
+			"AI": "hyrulebot",
 			"AIDiff": 3,
 			"AIBehavior": "random"
 		}

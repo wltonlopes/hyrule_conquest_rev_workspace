@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/gerudo_hero_nabooru_01
+    units/heroes/gerudo_hero_nabooru_02
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Scimitar</AttackName>
+      <Bonuses>
+        <Bonus1>
+          <Classes>Hero</Classes>
+          <Multiplier>2</Multiplier>
+        </Bonus1>
+        <Bonus2>
+          <Classes>Commander</Classes>
+          <Multiplier>2</Multiplier>
+        </Bonus2>
+      </Bonuses>
+      <Damage>
+        <Hack>70</Hack>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>1300</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>3000</Max>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <SpecificName>Empress Nabooru</SpecificName>
+    <GenericName>Sage of Spirits</GenericName>
+    <History>The legal wife of Ganondorf, right-hand woman in command of the Gerudo armies, and the Sage of Spirits, Nabooru's life is one of servitude to many competing individuals and ideologies. At a young age she was wed to Ganondorf against her will, only to be awakened as a Sage soon after and forced to undermine his command. Nabooru constantly struggles to work both with and against the regime of her husband. Though she shares in his belief of saving their people through conquest, her duties as a Sage often puts her in direct opposition with Ganondorf, and perhaps more notably, his surrogate mothers, Koume and Kotake.</History>
+    <Tooltip>Infantry Hero that is nearly immune to magic damage. Has bonuses against other Heroes and Commanders</Tooltip>
+    <Icon>units/gerudo/ger_hero_nabooru.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Fire>55.0</Fire>
+        <Forest>55.0</Forest>
+        <Light>55.0</Light>
+        <Shadow>55.0</Shadow>
+        <Spirit>55.0</Spirit>
+        <Water>55.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/gerudo/nabooru/nabooru_death.xml</death>
+      <order_attack>voice/gerudo/nabooru/nabooru_attack.xml</order_attack>
+      <order_garrison>voice/gerudo/nabooru/nabooru_garrison.xml</order_garrison>
+      <order_gather>voice/gerudo/nabooru/nabooru_gather.xml</order_gather>
+      <order_repair>voice/gerudo/nabooru/nabooru_repair.xml</order_repair>
+      <order_walk>voice/gerudo/nabooru/nabooru_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/gerudo/nabooru/nabooru_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.5833</RunMultiplier>
+    <WalkSpeed>12.0</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>90</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/gerudo/gerudo_hero_nabooru_b.xml</Actor>
+  </VisualActor>
+</Entity>

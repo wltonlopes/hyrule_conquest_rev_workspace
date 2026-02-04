@@ -5,10 +5,6 @@
     <variant frequency="100" name="Base">
       <mesh>structural/hylian/hyl_urbanfarmA.dae</mesh>
       <props>
-		<prop actor="units/hylian/hylian_farmerA.xml" attachpoint="patch_003"/>
-		<prop actor="units/hylian/hylian_farmerA.xml" attachpoint="patch_007"/>
-		<prop actor="units/hylian/hylian_farmerA.xml" attachpoint="patch_014"/>
-		<prop actor="particle/gather_foodB.xml" attachpoint="root"/>
         <prop actor="props/structures/hylian/hylian_groundbase_farm.xml" attachpoint="root"/>
         <prop actor="props/structures/romans/farmstead_wood.xml" attachpoint="root"/>
         <prop actor="props/structures/romans/farmstead_plants.xml" attachpoint="root"/>
@@ -25,6 +21,7 @@
 		<prop actor="props/flora/foliagebush.xml" attachpoint="patch_011" minheight="-20" maxheight="20"/>
 		<prop actor="props/flora/foliagebush.xml" attachpoint="patch_012" minheight="-20" maxheight="20"/>
 		<prop actor="props/flora/foliagebush.xml" attachpoint="patch_013" minheight="-20" maxheight="20"/>
+		<prop actor="props/flora/foliagebush.xml" attachpoint="patch_014" minheight="-20" maxheight="20"/>
 		<prop actor="props/flora/foliagebush.xml" attachpoint="patch_015" minheight="-20" maxheight="20"/>		
       </props>
       <textures>

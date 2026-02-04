@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed","multiply": 0.9 }
+	],
+	"auraName": "Insane Laughter",
+	"auraDescription": "All units within 60' of Xana have a -10% movement penalty.",
+	"overlayIcon": "art/textures/ui/session/auras/fairykiss_aura1.dds"
+}

@@ -1,6 +1,6 @@
 {
 	"Code": "ordona",
-	"Culture": "hylian",
+	"Culture": "civilized",
 	"Music":
 	[
 		{"File": "ordona_theme1.ogg", "Type": "peace"},
@@ -145,11 +145,14 @@
 		"skirmish/units/default_support_female_citizen": "units/ordona/support_female_citizen",
 		"skirmish/units/default_infantry_melee_b": "units/ordona/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/ordona/infantry_archer_b",
+		"skirmish/units/default_champion_melee": "units/ordona/ordona_valiant_b",
+		"skirmish/units/default_champion_ranged": "units/ordona/ordona_ranger_b",
+		"skirmish/units/default_hero": "units/ordona/ordona_hero_rusl",
 		"skirmish/units/default_ship_arrow": "units/ordona/ordona_hawk_b",
 		"skirmish/units/default_ship_scout": "units/ordona/ordona_hawk_b",
 		"skirmish/units/default_siege_ram": "units/ordona/ordona_siegeram_b",
 		"skirmish/units/default_cavalry": "units/ordona/ordona_billybat_b",
-		"skirmish/units/special_starting_unit": "units/ordona/ordona_roughrider_b",
+		"skirmish/units/special_starting_unit": "units/ordona/ordona_fieflord_b",
 		"skirmish/structures/default_corral": "structures/ordona/field",
 		"skirmish/structures/default_dock": "structures/ordona/defense_tower",
 		"skirmish/structures/default_house_5": "structures/ordona/house",

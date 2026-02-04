@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_minor_centre">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>500</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="30.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>20</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_goron_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Talus Cave</SpecificName>
+    <History>A giant cave that delves beneath the earth of Rolling Ridge. Many Gorons call this place home, as well as the giant metal Talus that frequent the mountain ranges of these parts.</History>
+    <Icon>structures/minor_rollridge/rol_taluscave.dds</Icon>
+    <Tooltip>Trains Rolling Ridge units.</Tooltip>
+    <VisibleClasses datatype="tokens">RollRidge</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>200</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="39.5" depth="39.5"/>
+  </Obstruction>
+  <Population>
+    <Bonus>20</Bonus>
+  </Population>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>10.0</Crush>
+        <Hack>10.0</Hack>
+        <Pierce>55.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/goron_bomb_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/goron_throw_bomb.xml</attack_ranged>
+      <constructed>interface/complete/building/goron/complete_civ_center_goron.xml</constructed>
+      <select>interface/select/building/goron/sel_civ_center_goron.xml</select>
+      <upgraded>interface/complete/building/goron/complete_civ_center_goron.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/minor_rollridge/infantry_spearman_b
+      units/minor_rollridge/rollridge_pebblit_b
+      units/minor_rollridge/rollridge_bastion_b
+      units/minor_rollridge/rollridge_buster_b
+      units/minor_rollridge/rollridge_stonetalus_b
+      units/minor_rollridge/rollridge_hero_smog
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>11.4</X>
+        <Y>19.5</Y>
+        <Z>10</Z>
+      </Archer1>
+      <Archer2>
+        <X>-12</X>
+        <Y>22.6</Y>
+        <Z>6.7</Z>
+      </Archer2>
+      <Archer3>
+        <X>12</X>
+        <Y>27.3</Y>
+        <Z>-11.5</Z>
+      </Archer3>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/minor_rollridge/rol_civic_centreA.xml</Actor>
+    <FoundationActor>structures/goron/goron_scaffoldA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

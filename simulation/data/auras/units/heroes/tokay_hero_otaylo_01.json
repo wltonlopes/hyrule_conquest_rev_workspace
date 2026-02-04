@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Treasure"],
+	"modifications": [
+		{ "value": "Treasure/Resources/food", "multiply": 1.5 },
+		{ "value": "Treasure/Resources/wood", "multiply": 1.5 },
+		{ "value": "Treasure/Resources/stone", "multiply": 1.5 },
+		{ "value": "Treasure/Resources/metal", "multiply": 1.5 }
+	],
+	"auraName": "Master Plunderer",
+	"auraDescription": "All treasure has +50% resources."
+}

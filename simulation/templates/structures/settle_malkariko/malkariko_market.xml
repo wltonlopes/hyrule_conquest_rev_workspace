@@ -1,0 +1,20 @@
+<Entity parent="structures/hylian/market">
+  <Footprint>
+    <Circle radius="20.0" />
+    <Height>10.0</Height>
+  </Footprint>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <SpecificName>Malkariko Marketplace</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static depth="25.0" width="25.0" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/settle_malkariko/malka_market_bigmerchA.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

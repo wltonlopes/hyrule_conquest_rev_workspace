@@ -1,0 +1,18 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Organic"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Attack/Melee/RepeatTime", "multiply": 20 },
+		{ "value": "Attack/Range/RepeatTime", "multiply": 20 },
+		{ "value": "Attack/Ranged/Spread", "multiply": 2.00 },
+		{ "value": "Health/RegenRate", "add": -1 },
+		{ "value": "Health/IdleRegenRate", "add": -5 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.01 },
+		{ "value": "Vision/Range", "multiply": 0.1 }
+	],
+	"auraName": "Winter Aura",
+	"auraDescription": "(-99% Movement and -Attack Speed, -80% vision range, lose health aura, -100% Enemy Ranged Attack Accuracy - All Organic targets)",
+	"overlayIcon": "art/textures/ui/session/auras/fairy_winter.dds"
+}

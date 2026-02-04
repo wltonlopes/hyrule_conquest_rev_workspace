@@ -1,0 +1,9 @@
+{
+	"Name": "Conch",
+	"Data": {
+		"Action": "createunits",
+		"DefaultParameter": 1,
+		"isNumeric": true,
+		"Templates": ["structures/minor_stormzora/house"]
+	}
+}

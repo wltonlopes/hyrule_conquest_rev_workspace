@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
+   <Heal>
+    <HealableClasses datatype="tokens">Organic</HealableClasses>
+    <Health>10</Health>
+    <Range>25</Range>
+    <Interval>200</Interval>
+    <UnhealableClasses datatype="tokens" />
+  </Heal>
+  <Health>
+    <Max>300</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/fairy/fairy_stray_autumn</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Great Butterfly Fairy</SpecificName>
+    <History>One of the rarest and most powerful Fairies of legend, the Great Butterfly Fairy was once a goddess of many ancient tribes. Known for her healing magics, the Great Butterfly Fairy was said to be able to cure almost any ailment with a touch of her hand.</History>
+    <Tooltip>Support unit that can rapidly heal injured units.</Tooltip>
+    <Icon>units/fairy/fai_butterfly.dds</Icon>
+    <VisibleClasses datatype="tokens">Support</VisibleClasses>
+  </Identity>
+  <Position>
+    <Floating>true</Floating>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>4.0</Crush>
+        <Fire>7.0</Fire>
+        <Forest>7.0</Forest>
+        <Hack>3.0</Hack>
+        <Light>7.0</Light>
+        <Pierce>3.0</Pierce>
+        <Shadow>7.0</Shadow>
+        <Spirit>7.0</Spirit>
+        <Water>7.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <death>voice/fairy/greatfairy/greatfairy_death.xml</death>
+      <order_attack>voice/fairy/greatfairy/greatfairy_attack.xml</order_attack>
+      <order_garrison>voice/fairy/greatfairy/greatfairy_garrison.xml</order_garrison>
+      <order_gather>voice/fairy/greatfairy/greatfairy_gather.xml</order_gather>
+      <order_repair>voice/fairy/greatfairy/greatfairy_repair.xml</order_repair>
+      <order_walk>voice/fairy/greatfairy/greatfairy_walk.xml</order_walk>
+      <run>actor/movement/fairy/fairy_hoverA.xml</run>
+      <select>voice/fairy/greatfairy/greatfairy_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/fairy/fairy_hoverA.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/fairy/fairy_butterfly_b.xml</Actor>
+  </VisualActor>
+</Entity>

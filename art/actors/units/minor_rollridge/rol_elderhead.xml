@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+  <castshadow minquality="medium"/>
+  <group>
+    <variant file="HC_goronmed/base_HC_goron.xml">
+	  <mesh>units/minor_rollridge/rol_elderheadA.dae</mesh>
+      <textures>
+        <texture file="skeletal/minor_rollridge/rrg_mainA.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_goronmed/base_HC_goron_capture.xml"/>
+    <variant file="HC_goronmed/base_HC_goron_slaughter.xml"/>
+    <variant file="HC_goronmed/base_HC_goron_death.xml">
+      <props>
+      </props>
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

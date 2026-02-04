@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Worker"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.15 },
+		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.15 }
+	],
+	"auraName": "Harsh Labor Conditions",
+	"auraDescription": "Workers +15% gather and walk speed.",
+	"overlayIcon": "art/textures/ui/session/auras/buildgather_bonus.png"
+}

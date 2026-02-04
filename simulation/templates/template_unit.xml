@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <AIProxy/>
+  <Attack>
+    <Capture>
+      <AttackName>Capture</AttackName>
+      <Capture>1</Capture>
+      <MaxRange>5</MaxRange>
+      <RepeatTime>3000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Animal</RestrictedClasses>
+    </Capture>
+  </Attack>
   <Cost>
     <Population>1</Population>
     <BuildTime>1</BuildTime>
@@ -9,12 +18,13 @@
       <wood>0</wood>
       <stone>0</stone>
       <metal>0</metal>
+      <rupees>0</rupees>
     </Resources>
   </Cost>
   <Decay>
     <Active>false</Active>
     <SinkingAnim>false</SinkingAnim>
-    <DelayTime>30.0</DelayTime>
+    <DelayTime>15.0</DelayTime>
     <SinkRate>0.01</SinkRate>
     <SinkAccel>0.0</SinkAccel>
   </Decay>

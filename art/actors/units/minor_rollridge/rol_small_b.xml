@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+    <group>
+      <variant minquality="high" frequency="100" name="Base">
+        <mesh>units/minor_rollridge/rol_smallA.dae</mesh>
+      </variant>
+      <variant minquality="medium" frequency="100" name="Base">
+        <mesh>units/minor_rollridge/medium/rol_smallA.dae</mesh>
+      </variant>
+      <variant maxquality="medium" frequency="100" name="Base">
+        <mesh>units/minor_rollridge/low/rol_smallA.dae</mesh>
+      </variant>
+    </group>	
+  <group>
+    <variant file="HC_goronsmall/base_HC_goron.xml">
+      <textures>
+        <texture file="skeletal/minor_rollridge/rrg_mainA.dds" name="baseTex"/>
+      </textures>
+	  <props>
+		<prop actor="units/minor_rollridge/rol_smallgrass.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_goronsmall/base_HC_goron_capture.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_slaughter.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_gather_tree.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_gather_grain.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_gather_fruit.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_gather_meat.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_gather_rock.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_gather_ore.xml"/>
+	<variant file="HC_goronsmall/base_HC_goron_gather_rupees.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_gather_ruins.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_gather_praise.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_build.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_carry_food.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_carry_meat.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_carry_wood.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_carry_stone.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_carry_metal.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_carry_food_idle.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_carry_meat_idle.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_carry_wood_idle.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_carry_stone_idle.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_carry_metal_idle.xml"/>
+    <variant file="HC_goronsmall/base_HC_goron_death.xml">
+      <props>
+      </props>
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>

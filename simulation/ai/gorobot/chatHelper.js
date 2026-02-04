@@ -1,132 +1,111 @@
 GORO.launchAttackMessages = {
 	"hugeAttack": [
-		markForTranslation("I am starting a massive military campaign against %(_player_)s, come and join me."),
-		markForTranslation("I have set up a huge army to crush %(_player_)s. Join me and you will have your share of the loot."),
-		markForTranslation("I am launching an unprecedented attack against %(_player_)s. Bring your armies and we may soon win this war."),
-		markForTranslation("I am about to completely annihilate %(_player_)s. Come and share the glory with me!.")
+		markForTranslation("Brother, I am preparing to crush the enemy. Join me against %(_player_)s!"),
+		markForTranslation("Soon, the enemy will perish Brother. Help me destroy %(_player_)s, and we will feast!"),
+		markForTranslation("Brother, let us annihilate the enemy together. Help me attack %(_player_)s.")
 	],
 	"other": [
-		markForTranslation("I am launching an attack against %(_player_)s."),
-		markForTranslation("I have just sent an army against %(_player_)s."),
-		markForTranslation("I am sending an army against %(_player_)s."),
-		markForTranslation("I am ordering a raid on %(_player_)s.")
+		markForTranslation("I am launching an attack against %(_player_)s, Brother"),
+		markForTranslation("Brother, I have just sent an army against %(_player_)s."),
+		markForTranslation("Brother, I am sending an army against %(_player_)s. Join me!")
 	]
 };
 
 GORO.answerRequestAttackMessages = {
 	"join": [
-		markForTranslation("Let me regroup my army and I will then join you against %(_player_)s."),
-		markForTranslation("I am finishing preparations to attack %(_player_)s."),
-		markForTranslation("I'll join you against %(_player_)s.")
+		markForTranslation("Let me regroup my army, Brother, and I will then join you against your foe."),
+		markForTranslation("Of course, Brother. May our victory be glorious!"),
+		markForTranslation("The enemy will cower before our rage Brother.")
 	],
 	"decline": [
-		markForTranslation("Sorry, I do not have enough soldiers currently; but my next attack will target %(_player_)s."),
-		markForTranslation("Sorry, I still need to strengthen my army. However, I will attack %(_player_)s next."),
-		markForTranslation("I have no wish to attack %(_player_)s at the moment.")
+		markForTranslation("Soon Brother, but not yet, as my armies are scattered."),
+		markForTranslation("I am afraid I cannot help you, Brother, as my troops are not ready."),
+		markForTranslation("Sorry Brother, but I cannot join you this time.")
 	],
 	"other": [
-		markForTranslation("I cannot help you against %(_player_)s for the time being, I am planning to attack %(_player_2)s first."),
-		markForTranslation("I am invading %(_player_2)s right now, so you're on your own.")
+		markForTranslation("Oh, I am sorry Brother, but I am attacking %(_player_2)s right now."),
+		markForTranslation("I am invading %(_player_2)s Brother, so I cannot help you this time.")
 	]
 };
 
 GORO.sentTributeMessages = [
-	markForTranslation("Here is a gift for you, %(_player_)s. Make good use of it."),
-	markForTranslation("I see you are in a bad situation, %(_player_)s. I hope this helps."),
-	markForTranslation("I can help you this time, %(_player_)s, but you should manage your resources more carefully in the future."),
-	markForTranslation("Here, this should help.")
+	markForTranslation("Here is a gift for you Brother. Make good use of it, and may our empires prosper."),
+	markForTranslation("I see you are in a bad place, Brother. I hope that this can help you."),
+	markForTranslation("Ah, Brother, you are running low on resources, maybe these will help.")
 ];
 
 GORO.requestTributeMessages = [
-	markForTranslation("I am in need of %(resource)s, can you help? I will make it up to you."),
-	markForTranslation("I would participate more efficiently in our common war effort if you could provide me some %(resource)s."),
-	markForTranslation("If you can spare me some %(resource)s, I will be able to strengthen my army."),
-	markForTranslation("Can you give me some %(resource)s?")
+	markForTranslation("I am in need of %(resource)s Brother, can you help?"),
+	markForTranslation("Brother, I need more %(resource)s to build my army. Will you help me?"),
+	markForTranslation("Brother, can you give me some %(resource)s?")
 ];
 
 GORO.newTradeRouteMessages = [
-	markForTranslation("I have set up a new route with %(_player_)s. Trading will be profitable for all of us."),
-	markForTranslation("A new trade route is set up with %(_player_)s. Take your share of the profits.")
+	markForTranslation("Brother, I have set up a new trade route with %(_player_)s. May our empires prosper!"),
+	markForTranslation("I have just sent traders to %(_player_)s. Let us join in commerce!")
 ];
 
 GORO.newDiplomacyMessages = {
 	"ally": [
-		markForTranslation("%(_player_)s and I are now allies.")
+		markForTranslation("%(_player_)s and I are now allies in war.")
 	],
 	"neutral": [
 		markForTranslation("%(_player_)s and I are now neutral.")
 	],
 	"enemy": [
-		markForTranslation("%(_player_)s and I are now enemies.")
+		markForTranslation("%(_player_)s and I are now enemies. I will destroy them!")
 	]
 };
 
 GORO.answerDiplomacyRequestMessages = {
 	"ally": {
 		"decline": [
-			markForTranslation("I cannot accept your offer to become allies, %(_player_)s."),
+			markForTranslation("I cannot accept your offer to become allies, Brother."),
 			markForTranslation("I must decline your offer of alliance, %(_player_)s."),
-			markForTranslation("An alliance with you is not in my best interest, %(_player_)s."),
 			markForTranslation("I refuse to become allies %(_player_)s.")
 		],
 		"declineSuggestNeutral": [
-			markForTranslation("I will not be your ally, %(_player_)s. However, I will consider a neutrality pact."),
-			markForTranslation("I reject your request for alliance, %(_player_)s, but we could become neutral."),
-			markForTranslation("%(_player_)s, only a neutrality agreement is conceivable to me."),
+			markForTranslation("I reject your request for alliance, Brother, but we could become neutral."),
 			markForTranslation("I will not become allies, %(_player_)s, but I could agree to a ceasefire.")
 		],
 		"declineRepeatedOffer": [
-			markForTranslation("Our previous alliance did not work out, %(_player_)s. I must decline your offer."),
-			markForTranslation("I won’t ally you again, %(_player_)s!"),
+			markForTranslation("Our previous alliance did not work out, %(_player_)s. I will not make that mistake again!"),
 			markForTranslation("No more alliances between us, %(_player_)s!"),
-			markForTranslation("Your request for peace means nothing to me anymore, %(_player_)s!"),
-			markForTranslation("My answer to your repeated peace proposal will remain war, %(_player_)s!")
+			markForTranslation("Your request for peace means nothing to me anymore, %(_player_)s!")
 		],
 		"accept": [
-			markForTranslation("I will accept your offer to become allies, %(_player_)s. We will both benefit from this partnership."),
-			markForTranslation("An alliance between us is a good idea, %(_player_)s."),
-			markForTranslation("Let both of our people prosper from a peaceful association, %(_player_)s."),
-			markForTranslation("We have found common ground, %(_player_)s. I accept the alliance."),
-			markForTranslation("%(_player_)s, consider us allies from now on."),
-			markForTranslation("We can become allies if you wish %(_player_)s.")
+			markForTranslation("I will accept your offer to become allies, Brother. May our empires prosper!"),
+			markForTranslation("Let both of our empires prosper from this peace Brother."),
+			markForTranslation("I would be proud to call you my Brother. I accept your offer of peace."),
+			markForTranslation("I am honored to be your ally Brother.")
 		],
 		"acceptWithTribute": [
-			markForTranslation("I will ally with you, %(_player_)s, but only if you send me a tribute of %(_amount_)s %(_resource_)s."),
-			markForTranslation("%(_player_)s, you must send me a tribute of %(_amount_)s %(_resource_)s before I accept an alliance with you."),
-			markForTranslation("Unless you send me %(_amount_)s %(_resource_)s, an alliance won’t be formed, %(_player_)s."),
-			markForTranslation("I am greedy, so you must pay me %(_amount_)s %(_resource_)s if you want peace.")
+			markForTranslation("I will ally with you, %(_player_)s, but only if you send me some resources to aid my cause. %(_amount_)s %(_resource_)s is enough."),
+			markForTranslation("Unless you send me %(_amount_)s %(_resource_)s, an alliance won’t be formed, %(_player_)s.")
 		],
 		"waitingForTribute": [
-			markForTranslation("%(_player_)s, my offer still stands. I will ally with you only if you send me a tribute of %(_amount_)s %(_resource_)s."),
-			markForTranslation("I’m still waiting for %(_amount_)s %(_resource_)s before accepting your alliance, %(_player_)s."),
-			markForTranslation("%(_player_)s, if you do not send me part of the %(_amount_)s %(_resource_)s tribute soon, I will break off our negotiations."),
-			markForTranslation("I’m not getting any younger, %(_player_)s. Hurry up and send me %(_amount_)s %(_resource_)s.")
+			markForTranslation("Brother, my offer still stands. I will ally with you only if you gift me %(_amount_)s %(_resource_)s."),
+			markForTranslation("I’m not getting any younger, Brother. Hurry up and send me %(_amount_)s %(_resource_)s.")
 		]
 	},
 	"neutral": {
 		"decline": [
 			markForTranslation("I will not become neutral with you, %(_player_)s."),
-			markForTranslation("I have no wish for peace."),
-			markForTranslation("%(_player_)s, I must decline your request for a neutrality pact.")
+			markForTranslation("I have no wish for peace.")
 		],
 		"declineRepeatedOffer": [
-			markForTranslation("Our previous neutrality agreement ended in failure, %(_player_)s; I will not consider another one."),
 			markForTranslation("No more ceasefires. Time for war!")
 		],
 		"accept": [
-			markForTranslation("I welcome your request for peace between our civilizations, %(_player_)s. I will accept."),
-			markForTranslation("I agree to a ceasefire, %(_player_)s."),
-			markForTranslation("%(_player_)s, I will accept your neutrality request. May both our civilizations benefit.")
+			markForTranslation("I welcome your request for peace between our empires, Brother. I accept."),
+			markForTranslation("I agree to a ceasefire, %(_player_)s.")
 		],
 		"acceptWithTribute": [
-			markForTranslation("If you send me a tribute of %(_amount_)s %(_resource_)s, I will accept your neutrality request, %(_player_)s."),
 			markForTranslation("If you want peace, you must give me %(_amount_)s %(_resource_)s, %(_player_)s."),
-			markForTranslation("%(_player_)s, if you send me %(_amount_)s %(_resource_)s, I will accept a neutrality pact.")
+			markForTranslation("%(_player_)s, if you send me %(_amount_)s %(_resource_)s, I will accept a peace agreement.")
 		],
 		"waitingForTribute": [
-			markForTranslation("%(_player_)s, I will not accept your neutrality request unless you tribute me %(_amount_)s %(_resource_)s soon."),
-			markForTranslation("%(_player_)s, I am still waiting for the %(_amount_)s %(_resource_)s to close our treaty."),
-			markForTranslation("%(_player_)s, if you do not send me part of the %(_amount_)s %(_resource_)s tribute soon, I will break off our negotiations.")
+			markForTranslation("%(_player_)s, I am still waiting for the %(_amount_)s %(_resource_)s to close our treaty.")
 		]
 	}
 };
@@ -134,38 +113,34 @@ GORO.answerDiplomacyRequestMessages = {
 GORO.sendDiplomacyRequestMessages = {
 	"ally": {
 		"sendRequest": [
-			markForTranslation("%(_player_)s, it would help both of our civilizations if we formed an alliance. If you become allies with me, I will respond in kind.")
+			markForTranslation("Brother, I would be honored to become allies with you."),
+			markForTranslation("Brother, it would help both of our empire if we formed an alliance.")
 		],
 		"requestExpired": [
-			markForTranslation("%(_player_)s, my offer for an alliance has expired."),
-			markForTranslation("%(_player_)s, I have rescinded my previous offer for an alliance between us."),
+			markForTranslation("%(_player_)s, my offer for an alliance has expired.")
 		]
 	},
 	"neutral": {
 		"sendRequest": [
-			markForTranslation("%(_player_)s, I would like to request a neutrality pact between our civilizations. If you become neutral with me, I will respond in kind."),
-			markForTranslation("%(_player_)s, I think that both of our civilizations would benefit from a ceasefire."),
-			markForTranslation("%(_player_)s, it would be both to our benefit if we negotiated a neutrality pact. I will become neutral with you if you do the same.")
+			markForTranslation("Brother, I think that both of our civilizations would benefit from a temporary peace.")
 		],
 		"requestExpired": [
-			markForTranslation("%(_player_)s, I have decided to revoke my offer for a neutrality pact."),
 			markForTranslation("You took to long. I rescend my peace offer."),
-			markForTranslation("%(_player_)s, as you have failed to respond to my request for peace between us, I have abrogated my offer."),
+			markForTranslation("%(_player_)s, as you have failed to respond to my request for peace between us, there will be no peace!")
 		]
 	}
 };
 
 GORO.emergencyMessages = {
 	"enter": [
-		markForTranslation("My armies failed while defending my empire. Please honor our alliance and send help!"),
-		markForTranslation("My humble armies feel weak and tired. My civilization depends on our alliance, please send help!"),
-		markForTranslation("My armies have fallen. Please, help me by sending some troops to drie the enemy away from my walls!"),
-		markForTranslation("I need your help. Please do not let my armies fall!")
+		markForTranslation("Brother, my armies have fallen while defending my country. Please honor our alliance and send help!"),
+		markForTranslation("My people depend on our alliance Brother, please help them!"),
+		markForTranslation("My armies have fallen Brother. Please, help me by sending some troops to drive the enemy away!"),
+		markForTranslation("I need your help. Please do not let my armies fall Brother!")
 	],
 	"exit": [
-		markForTranslation("My empire regained its old strength, now it is time to seek revenge together!"),
-		markForTranslation("My armies have been replaced and my buildings rebuilt. Time for revenge!"),
-		markForTranslation("My civilization has risen from the ashes. Now my armies feel stronger and eager to fight for our alliance.")
+		markForTranslation("Brother, my empire has regained it's old strength, now it is time to seek revenge together!"),
+		markForTranslation("My empire has risen from the volcanic ashes. Now my Gorons are eager to fight for our alliance.")
 	]
 };
 

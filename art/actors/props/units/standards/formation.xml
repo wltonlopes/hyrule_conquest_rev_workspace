@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100">
+      <mesh>props/standard/formation_pole.dae</mesh>
+      <textures>
+        <texture file="props/kart_standard.png" name="baseTex"/>
+        <texture file="props/kart_standard_norm.png" name="normTex"/>
+        <texture file="props/kart_standard_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="deku">
+      <props>
+        <prop actor="props/units/standards/formation_flag_deku.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="fairy">
+      <props>
+        <prop actor="props/units/standards/formation_flag_fairy.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="gerudo">
+      <props>
+        <prop actor="props/units/standards/formation_flag_gerudo.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="goron">
+      <props>
+        <prop actor="props/units/standards/formation_flag_goron.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="hylian">
+      <props>
+        <prop actor="props/units/standards/formation_flag_hylian.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="kokiri">
+      <props>
+        <prop actor="props/units/standards/formation_flag_kokiri.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="labrynna">
+      <props>
+        <prop actor="props/units/standards/formation_flag_labrynna.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="lanayru">
+      <props>
+        <prop actor="props/units/standards/formation_flag_lanayru.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="ordona">
+      <props>
+        <prop actor="props/units/standards/formation_flag_ordona.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="stalfos">
+      <props>
+        <prop actor="props/units/standards/formation_flag_stalfos.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="zola">
+      <props>
+        <prop actor="props/units/standards/formation_flag_zola.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>

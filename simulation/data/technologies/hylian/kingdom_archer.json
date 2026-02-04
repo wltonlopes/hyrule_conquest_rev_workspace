@@ -1,0 +1,14 @@
+{
+	"genericName": "Upgrade to Kingdom Crossbowmen",
+	"description": "As a Hylian house and its subordinate houses gain more wealth and prestige, they can afford better armor and weapons for their military.",
+	"cost": {"rupees": 750},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City.",
+	"icon": "hylian/kingdom_crossbowman.dds",
+	"researchTime": 60,
+	"tooltip": "Improves Archers by making them Kingdom Crossbowmen.",
+	"modifications": [
+				{"value": "Promotion/RequiredXp", "replace": 0, "affects": "UpgArrow" }
+	],	
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+} 

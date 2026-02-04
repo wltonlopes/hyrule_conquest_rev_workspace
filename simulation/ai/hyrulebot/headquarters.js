@@ -1638,6 +1638,9 @@ HYRULE.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 
 	let stableTemplate = this.canBuild(gameState, "structures/{civ}/stable") ? "structures/{civ}/stable" : undefined;
 	let numStables = gameState.getOwnEntitiesByClass("Stable", true).length;
+	
+	let kennelTemplate = this.canBuild(gameState, "structures/{civ}/kennel") ? "structures/{civ}/kennel" : undefined;
+	let numKennels = gameState.getOwnEntitiesByClass("Kennel", true).length;
 
 	let mercsTemplate = this.canBuild(gameState, "structures/{civ}/mercs") ? "structures/{civ}/mercs" : undefined;
 	let numMercs = gameState.getOwnEntitiesByClass("MercenaryCamp", true).length;
@@ -1645,7 +1648,7 @@ HYRULE.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 	if (this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks1 ||
 	    this.phasing == 2 && gameState.getOwnStructures().filter(API3.Filters.byClass("Village")).length < 5)
 	{
-		// First barracks/range, stable, and, mercs.
+		// First barracks/range, stable, kennel, and, mercs.
 		if (numBarracks + numRanges == 0)
 		{
 			let template = barracksTemplate || rangeTemplate;
@@ -1663,13 +1666,18 @@ HYRULE.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 			queues.militaryBuilding.addPlan(new HYRULE.ConstructionPlan(gameState, stableTemplate, { "militaryBase": true }));
 			return;
 		}
+		if (numKennels == 0 && kennelTemplate)
+		{
+			queues.militaryBuilding.addPlan(new HYRULE.ConstructionPlan(gameState, kennelTemplate, { "militaryBase": true }));
+			return;
+		}
 		if (numMercs == 0 && mercsTemplate)
 		{
 			queues.militaryBuilding.addPlan(new HYRULE.ConstructionPlan(gameState, mercsTemplate, { "militaryBase": true }));
 			return;
 		}
 
-		// Second barracks/range, stable, and, mercs.
+		// Second barracks/range, stable, kennel, and, mercs.
 		if (numBarracks + numRanges == 1 && this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks2)
 		{
 			let template = numBarracks == 0 ? (barracksTemplate || rangeTemplate) : (rangeTemplate || barracksTemplate);
@@ -1684,17 +1692,22 @@ HYRULE.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 			queues.militaryBuilding.addPlan(new HYRULE.ConstructionPlan(gameState, stableTemplate, { "militaryBase": true }));
 			return;
 		}
+		if (numKennels == 1 && kennelTemplate)
+		{
+			queues.militaryBuilding.addPlan(new HYRULE.ConstructionPlan(gameState, kennelTemplate, { "militaryBase": true }));
+			return;
+		}
 		if (numMercs == 1 && mercsTemplate && this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks2)
 		{
 			queues.militaryBuilding.addPlan(new HYRULE.ConstructionPlan(gameState, mercsTemplate, { "militaryBase": true }));
 			return;
 		}
 
-		// Third barracks/range and stable, if needed.
+		// Third barracks/range, kennel, and, stable, if needed.
 		// The AI shouldn't build any more merc camps, as it should prioritize it's units over mercs.
-		if (numBarracks + numRanges + numStables == 2 && this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks2 + 30)
+		if (numBarracks + numRanges + numStables + numKennels == 3 && this.getAccountedPopulation(gameState) > this.Config.Military.popForBarracks2 + 30)
 		{
-			let template = barracksTemplate || stableTemplate || rangeTemplate;
+			let template = barracksTemplate || stableTemplate || rangeTemplate || kennelTemplate;
 			if (template)
 			{
 				queues.militaryBuilding.addPlan(new HYRULE.ConstructionPlan(gameState, template, { "militaryBase": true }));
@@ -1706,15 +1719,12 @@ HYRULE.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 	if (this.saveResources)
 		return;
 
-	if (this.currentPhase < 3)
-		return;
-
 	if (this.canBuild(gameState, "structures/{civ}/elephant_stable") && !gameState.getOwnEntitiesByClass("ElephantStable", true).hasEntities())
 	{
 		queues.militaryBuilding.addPlan(new HYRULE.ConstructionPlan(gameState, "structures/{civ}/elephant_stable", { "militaryBase": true }));
 		return;
 	}
-
+	
 	if (this.canBuild(gameState, "structures/{civ}/arsenal") && !gameState.getOwnEntitiesByClass("Arsenal", true).hasEntities())
 	{
 		queues.militaryBuilding.addPlan(new HYRULE.ConstructionPlan(gameState, "structures/{civ}/arsenal", { "militaryBase": true }));
@@ -1749,7 +1759,7 @@ HYRULE.HQ.prototype.constructTrainingBuildings = function(gameState, queues)
 };
 
 /**
- *  Find base nearest to ennemies for military buildings.
+ *  Find base nearest to enemies for military buildings.
  */
 HYRULE.HQ.prototype.findBestBaseForMilitary = function(gameState)
 {
@@ -2279,8 +2289,8 @@ HYRULE.HQ.prototype.update = function(gameState, queues, events)
 			this.buildTemple(gameState, queues);
 		}
 
-		if (gameState.ai.playedTurn % 30 == 0 &&
-		    gameState.getPopulation() > 0.9 * gameState.getPopulationMax())
+		if (this.currentPhase = 3 &&
+			gameState.ai.playedTurn % 30 == 0)
 			this.buildWonder(gameState, queues, false);
 	}
 

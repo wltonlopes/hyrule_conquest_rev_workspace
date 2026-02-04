@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Cost>
+    <BuildTime>150</BuildTime>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>5.0</Height>
+    <Square depth="38.0" width="38.0"/>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Lon Lon Barn</GenericName>
+    <History>Those in the employ of Lon Lon Ranch are usually paid well, though to compensate their living conditions are peasant at best. Many sleep in these barns meant for animals.</History>
+    <Icon>structures/minor_lonlon/lonlon_barn.dds</Icon>
+    <Tooltip>Increases population count.</Tooltip>
+    <VisibleClasses datatype="tokens">LonLon</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static depth="24.0" width="24.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>10</Bonus>
+  </Population>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      gaia/fauna_chicken
+      gaia/fauna_cattle_cow_trainable
+      units/minor_lonlon/cavalry_archer_b
+      units/minor_lonlon/lonlon_cowcart_b
+      units/minor_lonlon/lonlon_riders_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/minor_lonlon/lonlon_barnA.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

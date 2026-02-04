@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/hylian/infantry_maceman_a">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Spear</AttackName>
+      <Bonuses>
+        <Bonus1>
+          <Classes>Cavalry</Classes>
+          <Multiplier>2</Multiplier>
+        </Bonus1>
+      </Bonuses>
+      <Damage>
+        <True>8.0</True>
+        <Pierce>8.0</Pierce>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PreferredClasses datatype="tokens">Cavalry</PreferredClasses>
+      <PrepareTime>1300</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>16</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Rank>Elite</Rank>
+    <Classes datatype="tokens">Kingdom</Classes>
+    <SpecificName>Kingdom Maceman</SpecificName>
+    <History>While maces are the preferred weapon of many due to the ease of their use, skilled soldiers can eventually get the handle of a flail. Besides the impressive display and threatening sound, flails also have a longer reach than a mace, making them effective at reaching over shields and parries.</History>
+    <Tooltip>Heavy unit armed with a spear and shield. Deals Piercing damage. Has a bonus versus Cavalry</Tooltip>
+    <Icon>units/hylian/hyl_kingdommace.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>7</Hack>
+        <Pierce>7</Pierce>
+        <Crush>8</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <VisualActor>
+    <Actor>units/hylian/hylian_kingdom_maceman_b.xml</Actor>
+  </VisualActor>
+</Entity>

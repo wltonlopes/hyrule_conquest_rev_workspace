@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack disable=""/>
+  <Builder disable=""/>
+  <BuildRestrictions>
+    <PlacementType>land</PlacementType>
+    <Territory>own neutral enemy</Territory>
+    <Category>Structure</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>1</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>5</wood>
+      <stone>0</stone>
+      <metal>25</metal>
+    </Resources>
+  </Cost>
+  <DeathDamage>
+    <ApplyStatus>
+      <Burning>
+        <Interval>1000</Interval>
+        <Damage>
+          <Fire>3</Fire>
+        </Damage>
+        <Stackability>Stack</Stackability>
+        <Duration>9000</Duration>
+      </Burning>
+    </ApplyStatus>
+    <Shape>Circular</Shape>
+    <Range>25</Range>
+    <FriendlyFire>true</FriendlyFire>
+    <Damage>
+      <Fire>250</Fire>
+    </Damage>
+  </DeathDamage>
+  <Decay>
+    <DelayTime>0.1</DelayTime>
+    <SinkRate>100.0</SinkRate>
+    <SinkAccel>100.0</SinkAccel>
+  </Decay>
+  <Health>
+    <Max>5</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Bomb</GenericName>
+    <History>While it doesn't have the deadly explosive power of the Bombs made by the Gorons, it is easily constructed on the go, allowing Guerrillas to place a few in an enemy camp, then run before the fuses light.</History>
+    <Tooltip>Building that can be built by Tokay Guerrillas. Detonates at will or when killed, dealing fire damage.</Tooltip>
+    <Icon>technologies/signal_fires.png</Icon>
+    <VisibleClasses datatype="tokens">Tokay</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>1.0</Hack>
+        <Pierce>1.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <death>attack/weapon/bomb_explosion.xml</death>
+      <order_garrison>interface/select/building/sel_universal.xml</order_garrison>
+      <order_walk>interface/select/building/sel_universal.xml</order_walk>
+      <select>interface/select/building/sel_universal.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Upgrade>
+    <Light>
+      <Entity>units/minor_tokay/tokay_bomb_exp</Entity>
+      <Tooltip>Light the bomb's fuse.</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>2</Time>
+    </Light>
+  </Upgrade>
+  <UnitMotion>
+    <RunMultiplier>1.0</RunMultiplier>
+    <WalkSpeed>0.001</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/labrynna/labrynna_bomb_b.xml</Actor>
+  </VisualActor>
+</Entity>

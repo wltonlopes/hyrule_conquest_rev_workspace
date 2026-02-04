@@ -6,7 +6,6 @@
       <mesh>units/hylian/hyl_lanaA.dae</mesh>
       <textures><texture file="skeletal/hylian/hyl_lanaA.dds" name="baseTex"/></textures>
 	  <props>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
 		<prop actor="units/hylian/hylian_lana_armor.xml" attachpoint="root"/>
 		<prop actor="units/hylian/hylian_lana_hairA.xml" attachpoint="root"/>
 		<prop actor="props/units/capes/cape_hylian_lanaA.xml" attachpoint="root"/>

@@ -46,9 +46,15 @@
   <Health>
     <Max>8000</Max>
     <SpawnEntityOnDeath>decay|rubble/debris_ordona_garrisonA</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>10</SpawnNumberMax>
+      <SpawnNumberMin>10</SpawnNumberMin>
+      <Template>units/ordona/infantry_archer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
-    <Civ>deku</Civ>
+    <Civ>ordona</Civ>
     <SpecificName>Ranger Garrison</SpecificName>
     <History>A wooden fort that is sometimes found on the borders of the Province where raids from Moblins and Lizalfos often approach. Ordonian Rangers often use these forts as bases of operation, and young rangers are raised and trained here.</History>
     <Icon>structures/ordona/ord_rangergarrison.dds</Icon>

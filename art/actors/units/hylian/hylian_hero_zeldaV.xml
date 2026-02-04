@@ -9,7 +9,6 @@
 		<prop actor="props/units/weapons/hylian_zeldaVswordL.xml" attachpoint="bone_Lhand"/>
 		<prop actor="props/units/capes/cape_pzeldaVA.xml" attachpoint="root"/>
 		<prop actor="props/units/weapons/hylian_zeldascabbardA.xml" attachpoint="bone_pelvis"/>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
       </props>
       <textures><texture file="skeletal/hylian/hyl_heroA.dds" name="baseTex"/></textures>
     </variant>

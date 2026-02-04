@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 10,
+	"affects": ["Unit"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "add": -7.0 }
+	],
+	"auraName": "Sand Dune",
+	"auraDescription": "It's hard to move in the sand (-7 movement speed - all enemy units)",
+	"stackable" : false ,
+	"overlayIcon": "art/textures/ui/session/auras/shrapnel_aura_1.dds"
+	
+}

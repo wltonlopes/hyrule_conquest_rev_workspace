@@ -1,15 +1,15 @@
 {
 	"genericName": "Honey Export",
 	"description": "Export the famous Ordona Honey.",
-	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 75},
+	"cost": {"food": 250, "wood": 0, "stone": 0, "metal": 0, "rupees": 75},
 	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "ordona"}, { "entity": { "class": "Apiary", "number": 1 } }]},
 	"requirementsTooltip": "Unlocked with Town.",
 	"icon": "ordona/apiary_honeyexport.dds",
 	"researchTime": 40,
  	"modifications": [
-				{ "value": "ResourceTrickle/Rates/metal", "add": 1 },
-				{ "value": "ResourceTrickle/Interval", "add": 3000 }
+				{ "value": "ResourceTrickle/Rates/metal", "add": 1 }
 			 ],
 	"tooltip": "The market now generates a slow trickle resources.",
+	"affects": ["Market"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

@@ -23,7 +23,6 @@
           <prop actor="units/minor_tokay/tokayminoA.xml" attachpoint="root"/>
           <prop actor="props/units/weapons/tokay_spearA.xml" attachpoint="R_weapon"/>
           <prop actor="props/units/outfits/tokay_FflapsA.xml" attachpoint="root"/>
-          <prop actor="props/hero_selectorA.xml" attachpoint="root"/>
         </props>
         <textures>
           <texture file="skeletal/minor_tokay/tok_tokayA.dds" name="baseTex"/>

@@ -1,0 +1,13 @@
+{
+	"genericName": "Steam Accomodies",
+	"description": "The invention of steam powered engines has led to widespread use of steam throughout the empire. Steam has become so common that even most houses have steam boilers or ovens, making life easier for citizens.",
+	"cost": { "metal": 400 },
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "tenement.png",
+	"researchTime": 40,
+	"tooltip": "All workers train +15% faster.",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.85}],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

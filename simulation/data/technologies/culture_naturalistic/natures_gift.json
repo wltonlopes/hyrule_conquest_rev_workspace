@@ -1,0 +1,26 @@
+{
+	"genericName": "Nature's Gift",
+	"description": "Cultures that live in the wild or celebrate nature know how to heal themselves with natural and local herbs, plants, and berries.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
+	"requirements": 
+		{"all": [
+			{ "tech": "phase_town" },
+			{ "any": [
+					{ "civ": "deku" },
+					{ "civ": "fairy" },
+					{ "civ": "kokiri" },
+					{ "civ": "ordona" }
+				 ]
+			}
+			]
+		},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "olives.png",
+	"researchTime": 40,
+	"tooltip": "Idle units slowly regenerate health.",
+	"modifications": [
+				{ "value": "Health/IdleRegenRate", "add": 0.25 }
+			 ],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

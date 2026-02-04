@@ -11,6 +11,9 @@
 		{ "value": "Resistance/Entity/Damage/Forest", "add": 55  },
 		{ "value": "Resistance/Entity/Damage/Water", "add": 5  },
 		{ "value": "Resistance/Entity/Damage/Fire", "add": 5  },
+		{ "value": "Resistance/Entity/Damage/Spirit", "add": 5  },
+		{ "value": "Resistance/Entity/Damage/Shadow", "add": 5  },
+		{ "value": "Resistance/Entity/Damage/Light", "add": 5  },
 		{ "value": "Resistance/Entity/Damage/Poison", "add": 5  }
 	],
 	"auraName": "Farore's Love",

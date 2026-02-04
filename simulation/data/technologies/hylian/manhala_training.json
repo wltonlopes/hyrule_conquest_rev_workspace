@@ -1,0 +1,27 @@
+{
+	"genericName": "Manhala Cavalry Training",
+	"description": "The fief of Manhala is feared across Hyrule for it's exceptional cavalry, who are trained in special manuevers and assaults.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 800},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/attack_manhala_training.dds",
+	"researchTime": 40,
+	"tooltip": "All non-magic cavalry units +20% non-magic damage, non-magic resistance, and walk speed.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Crush", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Hack", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/True", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Crush", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Pierce", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Hack", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/True", "multiply": 1.2},
+				{"value": "Resistance/Entity/Crush", "multiply": 1.2},
+				{"value": "Resistance/Entity/Hack", "multiply": 1.2},
+				{"value": "Resistance/Entity/Pierce", "multiply": 1.2},
+				{"value": "Resistance/Entity/True", "multiply": 1.2},
+				{"value": "UnitMotion/WalkSpeed", "multiply": 1.2}
+			 ],
+	"affects": ["Cavalry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

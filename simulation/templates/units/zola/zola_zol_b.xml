@@ -34,6 +34,12 @@
   </Footprint>
   <Health>
     <Max>25</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>2</SpawnNumberMax>
+      <SpawnNumberMin>2</SpawnNumberMin>
+      <Template>units/zola/zola_gel_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>zola</Civ>

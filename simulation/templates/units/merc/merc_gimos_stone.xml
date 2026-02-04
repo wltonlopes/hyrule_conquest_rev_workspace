@@ -3,6 +3,7 @@
   <Attack disable=""/>
   <Cost>
     <BuildTime>10</BuildTime>
+    <Population>0</Population>
     <Resources>
       <food>0</food>
       <wood>0</wood>
@@ -32,6 +33,9 @@
     <Icon>units/merc/merc_gimos.dds</Icon>
     <Tooltip>Hovering Creature unit that carries a trident into battle.</Tooltip>
     <VisibleClasses datatype="tokens">Merc</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

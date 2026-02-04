@@ -1,7 +1,7 @@
 {
 	"genericName": "The Watch of Lanayru",
 	"description": "Hire a group of religous zealots to raise moral and defend the Royal Hub.",
-	"cost": {"food": 0, "wood": 0, "stone": 200, "metal": 350},
+	"cost": {"food": 0, "wood": 0, "stone": 200, "metal": 0, "rupees": 350},
 	"requirements": { "all": 
 				[
 					{ "entity": { "class": "Temple", "number": 1 } }

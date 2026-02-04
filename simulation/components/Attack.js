@@ -138,6 +138,33 @@ Attack.prototype.Schema =
 					"<text/>" +
 				"</element>" +
 				AttackHelper.BuildAttackEffectsSchema() +
+                "<optional>" +
+		            "<element name='SpawnEntityOnImpact'>" +
+                        "<interleave>" +
+                        "<element name='Template' a:help='the template that will be spawned'><text/></element>" +
+                        "<element name='SpawnNumberMin' a:help='The min number of spawns.'><data type='positiveInteger'/></element>" +
+                        "<element name='SpawnNumberMax' a:help='The max number of spawns.'><data type='positiveInteger'/></element>" +
+                        "<optional>" +
+                            "<element name='OwnerID' a:help='Which owner it should belong to.'><ref name='nonNegativeDecimal'/></element>" +
+                        "</optional>" +
+                        "<optional>" +
+                            "<element name='SpawnOnHit'>" +
+                                "<interleave>" +
+                                    "<element name='Chance' a:help='Chance it will spawn from 1-100'><ref name='nonNegativeDecimal'/></element>" +
+                                    "<element name='SpawnAtTarget' a:help='whether it will spawn at the target location or the attackers location.'><data type='boolean'/></element>" +
+                                "</interleave>" +
+                            "</element>" +
+                        "</optional>" +
+                        "<optional>" +
+                            "<element name='SpawnOnImpact'>" +
+                                "<interleave>" +
+                                    "<element name='Chance' a:help='Chance it will spawn from 1-100'><ref name='nonNegativeDecimal'/></element>" +
+                                "</interleave>" +
+                            "</element>" +
+                        "</optional>" +
+                        "</interleave>" +
+		            "</element>" +
+	            "</optional>" +
 				"<element name='MaxRange' a:help='Maximum attack range (in metres)'><ref name='nonNegativeDecimal'/></element>" +
 				"<optional>" +
 					"<element name='MinRange' a:help='Minimum attack range (in metres). Defaults to 0.'><ref name='nonNegativeDecimal'/></element>" +
@@ -278,6 +305,15 @@ Attack.prototype.CanAttack = function(target, wantedTypes)
 	const cmpResistance = QueryMiragedInterface(target, IID_Resistance);
 	if (!cmpResistance)
 		return false;
+		
+    	//HC-code invulnerable units can not be attacked
+    	if (cmpResistance.IsInvulnerable() == true)
+    	    return false;
+	
+	//HC-code Stealthed units cannot be attacked
+	let cmpVisibility = QueryMiragedInterface(target, IID_Visibility);
+	if (cmpVisibility && cmpVisibility.IsStealthed() == true)
+            return false;
 
 	const cmpIdentity = QueryMiragedInterface(target, IID_Identity);
 	if (!cmpIdentity)
@@ -675,6 +711,11 @@ Attack.prototype.PerformAttack = function(type, target)
 	if (!cmpOwnership)
 		return;
 	let attackerOwner = cmpOwnership.GetOwner();
+	
+    	//HC-code Stealth Functionality
+    	let cmpVisibility = Engine.QueryInterface(this.entity, IID_Visibility);
+   	if (cmpVisibility)
+   	     cmpVisibility.CustomOnAttack();
 
     let isSplash = this.template[type].Splash != undefined;
 	let data = {
@@ -687,6 +728,12 @@ Attack.prototype.PerformAttack = function(type, target)
         	"Knockback": this.GetKnockback(type, isSplash),	//HC-Code
         	"Stun": this.GetStun(type, isSplash)		//HC-Code
 	};
+
+	//HC-Code
+	let EntityOnImpact = this.GetEntityOnImpact(type);
+	if (EntityOnImpact != false)
+		data.EntityOnImpact = EntityOnImpact;
+	//HC-End
 
 	let delay = +(this.template[type].EffectDelay || 0);
 

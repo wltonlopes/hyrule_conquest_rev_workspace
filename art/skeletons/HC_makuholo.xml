@@ -1,0 +1,251 @@
+<skeletons>
+<standard_skeleton id="Makutree Holodrum Skeleton" title="Makutree Holodrum Skeleton">
+<bone name="base_makuholodrum">
+<bone name="body">
+<bone name="head">
+<bone name="tree_01">
+<bone name="tree_02">
+<bone name="tree_03">
+<bone name="tree_04">
+<bone name="tree_05">
+<bone name="tree_06">
+<bone name="tree_07">
+<bone name="tree_08">
+<bone name="tree_09">
+<bone name="tree_10">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="mouth_bot_01">
+<bone name="mouth_bot_02">
+</bone>
+</bone>
+<bone name="mouth_top_01">
+<bone name="mouth_top_02">
+<bone name="nose_01">
+<bone name="leaf_01">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+</bone>
+<bone name="legA_01">
+<bone name="legA_02">
+<bone name="legA_03">
+<bone name="legA_04">
+<bone name="legA_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legB_01">
+<bone name="legB_02">
+<bone name="legB_03">
+<bone name="legB_04">
+<bone name="legB_05">
+<bone name="legB_06">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legC_01">
+<bone name="legC_02">
+<bone name="legC_03">
+<bone name="legC_04">
+<bone name="legC_05">
+<bone name="legC_06">
+<bone name="legC_07">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legD_01">
+<bone name="legD_02">
+<bone name="legD_03">
+<bone name="legD_04">
+<bone name="legD_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legE_01">
+<bone name="legE_02">
+<bone name="legE_03">
+<bone name="legE_04">
+<bone name="legE_05">
+<bone name="legE_06">
+<bone name="legE_07">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legF_01">
+<bone name="legF_02">
+<bone name="legF_03">
+<bone name="legF_04">
+<bone name="legF_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legG_01">
+<bone name="legG_02">
+<bone name="legG_03">
+<bone name="legG_04">
+<bone name="legG_05">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Makutree Holodrum Skeleton" title="Makutree Holodrum Skeleton">
+<identifier><root>base_makuholodrum</root></identifier>
+<bone name="base_makuholodrum"><target>base_makuholodrum</target>
+<bone name="body"><target>body</target>
+<bone name="head"><target>head</target>
+<bone name="tree_01"><target>tree_01</target>
+<bone name="tree_02"><target>tree_02</target>
+<bone name="tree_03"><target>tree_03</target>
+<bone name="tree_04"><target>tree_04</target>
+<bone name="tree_05"><target>tree_05</target>
+<bone name="tree_06"><target>tree_06</target>
+<bone name="tree_07"><target>tree_07</target>
+<bone name="tree_08"><target>tree_08</target>
+<bone name="tree_09"><target>tree_09</target>
+<bone name="tree_10"><target>tree_10</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="mouth_bot_01"><target>mouth_bot_01</target>
+<bone name="mouth_bot_02"><target>mouth_bot_02</target>
+</bone>
+</bone>
+<bone name="mouth_top_01"><target>mouth_top_01</target>
+<bone name="mouth_top_02"><target>mouth_top_02</target>
+<bone name="nose_01"><target>nose_01</target>
+<bone name="leaf_01"><target>leaf_01</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+</bone>
+<bone name="legA_01"><target>legA_01</target>
+<bone name="legA_02"><target>legA_02</target>
+<bone name="legA_03"><target>legA_03</target>
+<bone name="legA_04"><target>legA_04</target>
+<bone name="legA_05"><target>legA_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legB_01"><target>legB_01</target>
+<bone name="legB_02"><target>legB_02</target>
+<bone name="legB_03"><target>legB_03</target>
+<bone name="legB_04"><target>legB_04</target>
+<bone name="legB_05"><target>legB_05</target>
+<bone name="legB_06"><target>legB_06</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legC_01"><target>legC_01</target>
+<bone name="legC_02"><target>legC_02</target>
+<bone name="legC_03"><target>legC_03</target>
+<bone name="legC_04"><target>legC_04</target>
+<bone name="legC_05"><target>legC_05</target>
+<bone name="legC_06"><target>legC_06</target>
+<bone name="legC_07"><target>legC_07</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legD_01"><target>legD_01</target>
+<bone name="legD_02"><target>legD_02</target>
+<bone name="legD_03"><target>legD_03</target>
+<bone name="legD_04"><target>legD_04</target>
+<bone name="legD_05"><target>legD_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legE_01"><target>legE_01</target>
+<bone name="legE_02"><target>legE_02</target>
+<bone name="legE_03"><target>legE_03</target>
+<bone name="legE_04"><target>legE_04</target>
+<bone name="legE_05"><target>legE_05</target>
+<bone name="legE_06"><target>legE_06</target>
+<bone name="legE_07"><target>legE_07</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legF_01"><target>legF_01</target>
+<bone name="legF_02"><target>legF_02</target>
+<bone name="legF_03"><target>legF_03</target>
+<bone name="legF_04"><target>legF_04</target>
+<bone name="legF_05"><target>legF_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="legG_01"><target>legG_01</target>
+<bone name="legG_02"><target>legG_02</target>
+<bone name="legG_03"><target>legG_03</target>
+<bone name="legG_04"><target>legG_04</target>
+<bone name="legG_05"><target>legG_05</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

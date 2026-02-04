@@ -1,0 +1,35 @@
+<Entity parent="units/fairy/fairy_drove_b">
+  <Attack>
+    <Melee>
+      <AttackName>Teeth</AttackName>
+      <Damage>
+        <Pierce>16.0</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1100</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      structures/fairy/civil_centreB
+      structures/fairy/civil_centre_upgB
+      structures/fairy/fairy_menhir_summer
+      structures/fairy/fairy_fountain_summer
+      structures/fairy/fairy_waterheaven_summer
+      structures/fairy/fairy_misthenge_summer
+      structures/fairy/fairy_sundial_summer
+      structures/fairy/fairy_meetingspring_summer
+      structures/fairy/fairy_greatfountain_summer
+      structures/fairy/fairy_uniwonder_summer
+    </Entities>
+  </Builder>
+  <Identity>
+    <SpecificName>Fairy Drove (Summer)</SpecificName>
+    <Classes datatype="tokens">Summer</Classes>
+  </Identity>
+  <VisualActor>
+    <Actor>units/fairy/fairy_drove_summer.xml</Actor>
+  </VisualActor>
+</Entity>

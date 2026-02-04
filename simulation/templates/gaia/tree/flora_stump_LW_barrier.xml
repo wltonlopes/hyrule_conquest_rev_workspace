@@ -1,0 +1,13 @@
+<Entity parent="template_gaia_tree">
+  <Identity>
+    <SpecificName>Kokiri Stump</SpecificName>
+    <History>The lost Woods is the last vestige of a long-lost age when Hyrule was young and green, and pulses with powerful magics. Some of the mystical trees in its depths have stood since the Primordial Age.</History>
+  </Identity>
+  <VisualActor>
+    <Actor>flora/forest/LW_stump_small.xml</Actor>
+  </VisualActor>
+  <Obstruction>
+    <Static depth="7.0" width="7.0" />
+  </Obstruction>
+  <ResourceSupply disable="" />  
+</Entity>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="28.0" width="28.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_stablesA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Urban Stables</SpecificName>
+    <History>The Hylians prefer stalling their horses deep within their urban centers, and as such construct housing for cavalry inside city walls.</History>
+    <Icon>structures/hylian/hyl_stablesA.dds</Icon>
+    <Tooltip>Trains several Hylian Cavalry units.</Tooltip>
+    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_village phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="30.0" width="30.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -stable_batch_training
+      -cavalry_movement_speed
+      -cavalry_health
+      -nisean_horses
+      -unlock_champion_cavalry
+      -unlock_champion_chariots
+      hylian/lonlon_breed
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/hylian/hylian_scout_cavalry
+      units/hylian/cavalry_maceman_b
+      units/hylian/hylian_redlion_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_stablesA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>

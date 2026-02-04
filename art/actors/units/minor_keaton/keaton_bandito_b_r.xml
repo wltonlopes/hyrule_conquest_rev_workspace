@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+      <variant frequency="1" name="main">
+	<mesh>units/merc/merc_marksmanA.dae</mesh>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Base">
+        <animations>
+          <animation file="HC_archer/biped_rider_arch_idle.dae" name="Idle" speed="50"/>
+          <animation file="HC_archer/biped_rider_arch_idle.dae" name="Walk" speed="18"/>
+          <animation file="HC_archer/biped_rider_arch_idle.dae" name="Run" speed="40"/>
+          <animation event="0.75" file="HC_archer/biped_rider_arch_attack_sword.dae" name="attack_melee" speed="100"/>
+          <animation event="0.75" file="HC_archer/biped_rider_arch_attack_sword.dae" name="attack_slaughter" speed="100"/>
+          <animation event="0.75" file="HC_archer/biped_rider_arch_attack_sword.dae" name="gather_meat" speed="100"/>
+          <animation file="HC_archer/biped_rider_arch_idle.dae" name="death" speed="230"/>
+        </animations>
+        <textures>
+	  <texture file="skeletal/merc/merc_keatonA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <material>default.xml</material>
+</actor>

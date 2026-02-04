@@ -1,0 +1,16 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["RollRidge"],
+	"modifications": [
+		{ "value": "Attack/Melee/Crush", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Hack", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Crush", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Hack", "multiply": 1.2 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.2 }
+	],
+	"auraName": "Elder Commander",
+	"auraDescription": "All Rolling Ridge units +20% non-magic damage and movement speed."
+}

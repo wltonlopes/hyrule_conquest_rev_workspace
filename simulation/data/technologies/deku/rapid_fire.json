@@ -1,0 +1,15 @@
+{
+	"genericName": "Rapidfire Towers",
+	"description": "If supplied with an adequate amount of deku nuts, Scrublings can fire many deku nuts at a time.",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "deku/scrubling_sleeknuts.dds",
+	"researchTime": 30,
+	"tooltip": "Towers and fortresses fire 25% faster.",
+	"modifications": [
+				{"value": "Attack/Ranged/RepeatTime", "multiply": 0.75}
+			 ],
+	"affects": ["Tower", "Fortress"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

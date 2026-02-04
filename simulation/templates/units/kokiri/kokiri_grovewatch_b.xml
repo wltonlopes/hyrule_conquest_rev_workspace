@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Auras datatype="tokens">
-    units/grovewatch_aura
+    units/grovewatch_aura_01
+    units/grovewatch_aura_02
   </Auras>
   <Attack>
     <Melee replace="">
       <AttackName>Kokiri Sword</AttackName>
       <Damage>
-        <Hack>6.0</Hack>
-        <Pierce>3.0</Pierce>
+        <Hack>12.0</Hack>
+        <Forest>12.0</Forest>
+        <Pierce>6.0</Pierce>
       </Damage>
       <MaxRange>5.0</MaxRange>
       <PrepareTime>1000</PrepareTime>
@@ -29,6 +31,7 @@
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
+    <Classes datatype="tokens">WoodArmor</Classes>
     <SpecificName>Grove Watcher</SpecificName>
     <History>A dedicated soldier wielding the iconic Kokiri Sword and Deku Shield. These warriors are trained from their creation to guard the Groves of the forest. Unlike most of their kind, their bravery is unmatched and they will fight to the death to protect the forest from invaders.</History>
     <Tooltip>Fast Champion Melee unit armed with a sword and shield.</Tooltip>

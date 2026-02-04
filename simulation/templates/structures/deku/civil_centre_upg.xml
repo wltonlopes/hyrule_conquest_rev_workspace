@@ -39,6 +39,12 @@
   <Health>
     <Max>3000</Max>
     <SpawnEntityOnDeath>decay|rubble/debris_deku_huge</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>6</SpawnNumberMax>
+      <SpawnNumberMin>6</SpawnNumberMin>
+      <Template>units/deku/infantry_archer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>deku</Civ>
@@ -73,7 +79,11 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-      deku/attack_sharpnuts
+      -archery_tradition
+      -hoplite_tradition
+      -hellenistic_metropolis
+      -roman_roads
+      deku/incite_mob
     </Technologies>
   </Researcher>
   <Sound>

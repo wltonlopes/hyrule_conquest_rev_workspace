@@ -6,12 +6,15 @@
 		"isNumeric": true,
 		"Templates": [
 			"units/deku/deku_titan_stagnox",
-			"units/stalfos/stalfos_titan_stallord",
+			"units/fairy/fairy_titan_maku",
+			"units/goron/goron_titan_biggoron",
+			"units/hylian/hylian_titan_fi",
 			"units/kokiri/kokiri_titan_GDT",
-			"units/ordona/ordona_titan_latoan",
+			"units/labrynna/labrynna_titan_maku",
 			"units/lanayru/lanayru_titan_vrylonacia",
-			"units/zola/zola_titan_aquamentus",
-			"units/goron/goron_titan_biggoron"
+			"units/ordona/ordona_titan_latoan",
+			"units/stalfos/stalfos_titan_stallord",
+			"units/zola/zola_titan_aquamentus"
 		]
 	}
 }

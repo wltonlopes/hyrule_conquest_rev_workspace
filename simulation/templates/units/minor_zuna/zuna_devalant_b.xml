@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Fireball</AttackName>
+      <Damage>
+        <Fire>60.0</Fire>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>75</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1700</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <Resources>
+      <food>250</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>650</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Devalant</SpecificName>
+    <History>Devalants are giant, burrowing creatures with large snapping pincers that can be found in the far western reaches of the Gerudo Desert. They create sinkholes in the sand as they burrow underneath, drawing in their prey. When a suitable target is near, the Devalant will vomit a burning fireball onto its victim. The Zuna were known to occasionally domesticate these creatures, using them as a sort of guard dog for their villages.</History>
+    <Icon>units/minor_zuna/zun_devalant.dds</Icon>
+    <Tooltip>Ranged creature unit that spits fireballs.</Tooltip>
+    <VisibleClasses datatype="tokens">Zuna</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/gohma_largeA_bite.xml</attack_melee>
+      <attack_ranged>attack/natural/firebreath_small.xml</attack_ranged>
+      <death>voice/wild/devalant/devalant_death.xml</death>
+      <order_attack>voice/wild/devalant/devalant_attack.xml</order_attack>
+      <order_garrison>voice/wild/devalant/devalant_garrison.xml</order_garrison>
+      <order_gather>voice/wild/devalant/devalant_gather.xml</order_gather>
+      <order_repair>voice/wild/devalant/devalant_repair.xml</order_repair>
+      <order_walk>voice/wild/devalant/devalant_walk.xml</order_walk>
+      <run>actor/movement/gohma/gohma_crawl_long.xml</run>
+      <select>voice/wild/devalant/devalant_select.xml</select>
+      <trained>interface/alarm/alarm_create_worker.xml</trained>
+      <walk>actor/movement/gohma/gohma_crawl_long.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>9</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/minor_zuna/zun_devalant_b.xml</Actor>
+  </VisualActor>
+</Entity>

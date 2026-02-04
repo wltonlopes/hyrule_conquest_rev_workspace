@@ -1,0 +1,16 @@
+{
+	"genericName": "Siege Shelters",
+	"description": "During a battle, nurses and doctors prepare to hold even more wounded patients.",
+	"cost": {"food": 0, "wood": 300, "stone": 300, "metal": 0},
+	"supersedes": "hylian/open_foyer",
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/siege_shelters.dds",
+	"researchTime": 40,
+	"tooltip": "+10 Garrison capacity in Hospitals.",
+	"modifications": [
+				{"value": "GarrisonHolder/Max", "add": 10}
+			 ],
+	"affects": ["Hospital"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,25 @@
+{
+	"genericName": "Malo Mart",
+	"description": "Originating in Kakariko Village, Malo Mart is now a popular chain of stores that encourages trade in all of Hyrule.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 300},
+	"requirements": 
+		{"all": [
+			{ "tech": "phase_city" },
+			{ "any": [
+					{ "civ": "hylian" },
+					{ "civ": "labrynna" },
+					{ "civ": "lanayru" }
+				 ]
+			}
+			]
+		},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "culture_civilized/trade_malo_mart.dds",
+	"researchTime": 40,
+	"modifications": [
+				{"value": "Trader/GainMultiplier", "multiply": 1.15}
+			 ],
+	"tooltip": "Traders +15% income.",
+	"affects": ["Trader"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

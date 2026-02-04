@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Attack>
-    <Melee>
+    <Melee replace="">
       <AttackName>Teeth</AttackName>
       <Damage>
         <Pierce>5</Pierce>
@@ -14,8 +14,13 @@
   </Attack>
   <Cost>
     <BuildTime>5</BuildTime>
+    <Population>0</Population>
     <Resources>
-      <metal>100</metal>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+      <rupees>50</rupees>
     </Resources>
   </Cost>
   <Health>
@@ -29,6 +34,9 @@
     <Icon>units/merc/merc_polsvoice.dds</Icon>
     <Tooltip>Strange Creature unit that hops right into their enemies to attack.</Tooltip>
     <VisibleClasses datatype="tokens">Creature Merc</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

@@ -1,6 +1,6 @@
 {
 	"Code": "deku",
-	"Culture": "deku",
+	"Culture": "naturalistic",
 	"Music":
 	[
 		{"File": "deku_theme1.ogg", "Type": "peace"},
@@ -24,7 +24,7 @@
 	[
 		{
 			"Name": "Deku Kingdom",
-			"Description": "The Deku Kingdom.",
+    			"Description": "The Kingdom of the Deku Scrubs are a loose collection of feudal territories deep within the eastern reaches of the Kokiri Forest. Known for their irrational bursts of anger and their perpetual short-man's complex, large gatherings of these normally comical forest dwellers can result in terrifying destruction and chaos when unleashed on Hyrule.",
 			"Technologies":
 			[
 			],
@@ -63,6 +63,16 @@
 	],
 	"CivBonuses":
 	[
+		{
+			"Name": "Plant Life",
+			"History": "Being plant creatures, Deku Scrubs eat only wood. Their farms produce wood, and their farmsteads are wood dropsites.",
+			"Description": "All units eat wood, instead of food."
+		},
+		{
+			"Name": "Bark Skin",
+			"History": "The wooden skin of the Deku race is resiliant against arrows, due to it's tough nature.",
+			"Description": "All Scrubs have a higher pierce resistance than average."
+		}
 	],
 	"TeamBonuses":
 	[
@@ -121,6 +131,9 @@
 		"skirmish/units/default_support_female_citizen": "units/deku/support_female_citizen",
 		"skirmish/units/default_infantry_melee_b": "units/deku/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/deku/infantry_archer_b",
+		"skirmish/units/default_champion_melee": "units/deku/deku_megascrub_b",
+		"skirmish/units/default_champion_ranged": "units/deku/deku_bubbling_b",
+		"skirmish/units/default_hero": "units/deku/deku_hero_dekuking",
 		"skirmish/units/default_ship_arrow": "units/deku/deku_waterbeetle",
 		"skirmish/units/default_ship_scout": "units/deku/deku_waterbeetle",
 		"skirmish/units/default_siege_ram": "units/deku/deku_scrubram",

@@ -5,7 +5,7 @@
 	"stackable": "true",
 	"affectedPlayers": ["Enemy"],
 	"modifications": [
-		{ "value": "Vision/Range", "add": -30 }
+		{ "value": "Vision/Range", "add": -60 }
 	],
 	"auraName": "Song of Storms",
 	"auraDescription": "(Severly lowers vision range of all units within range)",

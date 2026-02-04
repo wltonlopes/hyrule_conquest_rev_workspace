@@ -1,0 +1,27 @@
+{
+	"genericName": "Hyron Tactics",
+	"description": "The fief of Hyron is notable for it's great infantry tactics, which have been developed over hundres of years.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 800},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/link_hyrontactics.dds",
+	"researchTime": 40,
+	"tooltip": "All non-magic infantry units +20% non-magic damage, non-magic resistance, and walk speed.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Crush", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Hack", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/True", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Crush", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Pierce", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Hack", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/True", "multiply": 1.2},
+				{"value": "Resistance/Entity/Crush", "multiply": 1.2},
+				{"value": "Resistance/Entity/Hack", "multiply": 1.2},
+				{"value": "Resistance/Entity/Pierce", "multiply": 1.2},
+				{"value": "Resistance/Entity/True", "multiply": 1.2},
+				{"value": "UnitMotion/WalkSpeed", "multiply": 1.2}
+			 ],
+	"affects": ["Infantry Melee", "Infantry Archer", "Infantry Crossbowman"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

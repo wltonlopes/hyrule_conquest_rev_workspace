@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>200</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="25.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_fairy_mediumA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <History>The purpose of Fairy Fountains in truth is not known, though many myths and legends indicate they are simply an abode for the magical creatures. How such an open and ruinous structure serves that purpose is anyone’s guess. These remnants now serve as gathering places for smaller Fairies.</History>
+    <SpecificName>Fairy Fountain</SpecificName>
+    <Tooltip>Trains basic Fairy units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="35.0" width="35.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>20</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/fairy/complete_fountain.xml</constructed>
+      <select>interface/select/building/fairy/sel_fountain.xml</select>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_fountainA_spring.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_spring.xml</FoundationActor>
+  </VisualActor>
+</Entity>

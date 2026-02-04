@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="trunk-a">
+      <mesh>units/minor_rollridge/rol_largegrassA.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="trunk-texture">
+      <textures><texture file="gaia/flora/plants_rollridgeA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
+

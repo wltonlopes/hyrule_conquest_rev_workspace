@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="Armature" id="Armature">
+    <bone name="center">
+      <bone name="top">
+        <bone name="side_01" />
+        <bone name="side_03" />
+        <bone name="front_01" />
+        <bone name="back_01" />
+      </bone>
+      <bone name="front_02">
+        <bone name="front_04">
+          <bone name="side_04" />
+        </bone>
+        <bone name="front_03">
+          <bone name="side_02" />
+        </bone>
+      </bone>
+      <bone name="back_02">
+        <bone name="back_middle_01" />
+        <bone name="back_middle_02" />
+      </bone>
+      <bone name="back_03">
+        <bone name="back_side_04">
+          <bone name="back_side_03" />
+        </bone>
+        <bone name="back_side_02">
+          <bone name="back_side_01" />
+        </bone>
+      </bone>
+    </bone>
+    <bone name="Icosphere" />
+  </standard_skeleton>
+  <skeleton title="Armature" target="Armature">
+    <identifier>
+      <root>center</root>
+    </identifier>
+    <bone name="center">
+      <target>center</target>
+      <bone name="top">
+        <target>top</target>
+        <bone name="side_01">
+          <target>side_01</target>
+        </bone>
+        <bone name="side_03">
+          <target>side_03</target>
+        </bone>
+        <bone name="front_01">
+          <target>front_01</target>
+        </bone>
+        <bone name="back_01">
+          <target>back_01</target>
+        </bone>
+      </bone>
+      <bone name="front_02">
+        <target>front_02</target>
+        <bone name="front_04">
+          <target>front_04</target>
+          <bone name="side_04">
+            <target>side_04</target>
+          </bone>
+        </bone>
+        <bone name="front_03">
+          <target>front_03</target>
+          <bone name="side_02">
+            <target>side_02</target>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="back_02">
+        <target>back_02</target>
+        <bone name="back_middle_01">
+          <target>back_middle_01</target>
+        </bone>
+        <bone name="back_middle_02">
+          <target>back_middle_02</target>
+        </bone>
+      </bone>
+      <bone name="back_03">
+        <target>back_03</target>
+        <bone name="back_side_04">
+          <target>back_side_04</target>
+          <bone name="back_side_03">
+            <target>back_side_03</target>
+          </bone>
+        </bone>
+        <bone name="back_side_02">
+          <target>back_side_02</target>
+          <bone name="back_side_01">
+            <target>back_side_01</target>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="Icosphere">
+      <target>Icosphere</target>
+    </bone>
+  </skeleton>
+</skeletons>

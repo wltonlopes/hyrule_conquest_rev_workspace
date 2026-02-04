@@ -20,7 +20,6 @@
       <variant file="HC_ambi/base_HC_ambi_sword.xml">
         <props>
           <prop actor="props/units/weapons/labrynna_ambiswordA.xml" attachpoint="root"/>
-          <prop actor="props/hero_selectorA.xml" attachpoint="root"/>
         </props>
         <textures>
           <texture file="skeletal/labrynna/lab_hero2.dds" name="baseTex"/>

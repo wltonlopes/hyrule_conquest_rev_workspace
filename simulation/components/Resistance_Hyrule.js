@@ -299,3 +299,45 @@ Resistance.prototype.GetStunResistance = function ()
 
     return applyMods;
 }
+Resistance.prototype.SpawnImpactUnits = function (EntityImpact, pos, chance, AttackOwner) {
+    // calculate random occurence chance based on parameter
+    let rand = (randFloat(0, 1) * 100);
+    if (rand > chance)
+        return;
+
+    // get random spawn number based on parameters
+    let randSpawns = randIntInclusive(+EntityImpact.spawnNumberMin, +EntityImpact.spawnNumberMax);
+
+    //Spawn units
+    for (let i = 0; i < randSpawns; i++)
+    {
+        var spawnedUnit = Engine.AddEntity(EntityImpact.template);
+
+        // A unit spawned that way needs to be marked as free and shall not take up a slot in the battalion count
+        let cmpHealth = Engine.QueryInterface(spawnedUnit, IID_Health);
+        cmpHealth.freeUnit = true;
+
+        // set spawned unit location
+        var spawnedUnitPosCmp = Engine.QueryInterface(spawnedUnit, IID_Position);
+        spawnedUnitPosCmp.JumpTo(pos.x, pos.y);
+
+        // set spawned unit rotation
+        spawnedUnitPosCmp.SetYRotation(0);
+        spawnedUnitPosCmp.SetXZRotation(0, 0);
+
+        // set spawned unit ownership
+        var spawnedUnitOwnershipCmp = Engine.QueryInterface(spawnedUnit, IID_Ownership);
+        let ownerID = EntityImpact.ownerID;
+        if (ownerID != undefined)
+            spawnedUnitOwnershipCmp.SetOwner(+ownerID);
+        else
+            spawnedUnitOwnershipCmp.SetOwner(AttackOwner);
+            
+        // play spawn animation if present
+        var spawnedUnitVisualCmp = Engine.QueryInterface(spawnedUnit, IID_Visual);
+        spawnedUnitVisualCmp.SelectAnimation("spawn", true, 1.0);
+
+        //play sound if present
+        PlaySound("spawn", spawnedUnit);
+    }
+}

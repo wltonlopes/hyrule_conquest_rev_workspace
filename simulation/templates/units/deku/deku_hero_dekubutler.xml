@@ -52,7 +52,7 @@
   <Identity>
     <Civ>deku</Civ>
     <GenericName>Chamberlain of King Kud-Loh-Kan</GenericName>
-    <Classes datatype="tokens">Scrub</Classes>
+    <Classes datatype="tokens">Scrub FlyingScrub</Classes>
     <SpecificName>Butler Kuh-Do</SpecificName>
     <History>A personal servant of King Kuh-Loh-Kan and manager of all things money, Butler Kuh-Do is quiet and out of the spotlight, but clearly has vast power over Scrub kind. His hands seemed to be tied to the Scrubs' ever-growing markets across Hyrule, and he maintains his own force of tax collectors to insure that the royal coffers... and his personal bank account... are flowing with Rupees.</History>
     <Tooltip>Hovering Missile Hero that attacks enemies with his burning candle. Has resource bonuses.</Tooltip>

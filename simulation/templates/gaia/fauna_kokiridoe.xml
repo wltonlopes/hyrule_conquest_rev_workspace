@@ -1,0 +1,31 @@
+<Entity parent="template_unit_fauna_hunt_skittish">
+
+  <Capturable>
+    <CapturePoints>10</CapturePoints>
+    <GarrisonRegenRate>1</GarrisonRegenRate>
+    <RegenRate>1</RegenRate>
+  </Capturable>
+
+  <Footprint>
+    <Height>2.0</Height>
+    <Square depth="3.0" width="1.5" />
+  </Footprint>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Kokiri Doe</SpecificName>
+    <Icon>gaia/fauna_kokiridoe.dds</Icon>
+    <History>These great and elusive deer are found only in the depths of the Kokiri Forest. Females lack the antlers of their male counterpart, and are very skittish and hard to catch, preferring to flee if threatened.</History>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <ResourceSupply>
+    <Max>300</Max>
+    <Type>food.meat</Type>
+    <KillBeforeGather>true</KillBeforeGather>
+    <MaxGatherers>5</MaxGatherers>
+  </ResourceSupply>
+  <VisualActor>
+    <Actor>units/wild/wild_kokiridoe_b.xml</Actor>
+  </VisualActor>
+</Entity>

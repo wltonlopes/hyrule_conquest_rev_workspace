@@ -1,7 +1,7 @@
 {
 	"genericName": "Battle Preachers",
 	"description": "Let the rightoues power of Latoan flow through the veins of your Reverends, inspiring them to war.",
-	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 100, "wood": 0, "stone": 0, "metal": 0, "rupees": 200},
 	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "ordona"}]},
 	"icon": "ordona/chapel_battlepreacher.dds",
 	"researchTime": 40,

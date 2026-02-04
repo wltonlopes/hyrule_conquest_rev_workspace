@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_tower_stone">
-  <Attack replace="">
-    <Ranged>
+  <Attack>
+    <Ranged replace="">
       <AttackName>Deku Seeds</AttackName>
       <Damage>
         <Crush>3.5</Crush>
+        <Pierce>0</Pierce>
+        <Forest>0</Forest>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>90</MaxRange>
@@ -44,6 +46,12 @@
   </Cost>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/debris_kokiri_small</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>5</SpawnNumberMax>
+      <SpawnNumberMin>5</SpawnNumberMin>
+      <Template>units/kokiri/infantry_archer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <GarrisonHolder disable=""/>
   <Identity>
@@ -57,12 +65,8 @@
     <Static width="15.0" depth="15.5"/>
   </Obstruction>
   <Researcher>
-    <Technologies datatype="tokens">
-      tower_watch
-      -tower_crenellations
-      -tower_range
-      -tower_murderholes
-      tower_health
+    <Technologies replace="" datatype="tokens">
+      kokiri/building_emeraldgar
     </Technologies>
   </Researcher>
   <Sound>

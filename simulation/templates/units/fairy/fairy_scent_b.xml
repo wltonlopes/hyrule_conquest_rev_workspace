@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Wild Animals</AttackName>
+      <Damage>
+        <Hack>12.0</Hack>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1300</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/{civ}/civil_centre
+      -structures/{civ}/storehouse
+      -structures/{civ}/barracks
+      -structures/{civ}/forge
+      -structures/{civ}/library
+      -structures/{civ}/market
+      -structures/{civ}/barracksB
+      -structures/{civ}/wonder
+      structures/fairy/civil_centreA
+      structures/fairy/civil_centre_upgA
+      structures/fairy/fairy_menhir_spring
+      structures/fairy/fairy_fountain_spring
+      structures/fairy/fairy_waterheaven_spring
+      structures/fairy/fairy_misthenge_spring
+      structures/fairy/fairy_sundial_spring
+      structures/fairy/fairy_meetingspring_spring
+      structures/fairy/fairy_greatfountain_spring
+      structures/fairy/fairy_uniwonder_spring
+    </Entities>
+  </Builder>
+  <Cost>
+    <BuildTime>14</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Scent Fairy</SpecificName>
+    <History>Using the magic of the Scent Seeds, these Fairies can easily draw the attention of wild animals to themselves to do their bidding. Hunters often venerate these Fairies, and the more ambitious hunt the Scent Fairy for her magic seeds to use to their own ends.</History>
+    <Tooltip>Fairy followed by a pack of wild animals that attack enemies.</Tooltip>
+    <Icon>units/fairy/fai_scent.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/magic/fairy_wand.xml</attack_melee>
+      <death>voice/fairy/smallfairy/smallfairy_death.xml</death>
+      <order_attack>voice/fairy/smallfairy/smallfairy_attack.xml</order_attack>
+      <order_garrison>voice/fairy/smallfairy/smallfairy_garrison.xml</order_garrison>
+      <order_gather>voice/fairy/smallfairy/smallfairy_gather.xml</order_gather>
+      <order_repair>voice/fairy/smallfairy/smallfairy_repair.xml</order_repair>
+      <order_walk>voice/fairy/smallfairy/smallfairy_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/fairy/smallfairy/smallfairy_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.3076</RunMultiplier>
+    <WalkSpeed>6.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/wild/wild_kokiribuck_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="45.0" width="45.0"/>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>300</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_gerudo_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <SpecificName>Sandseal Pen</SpecificName>
+    <History>The Sandseals native to the Gerudo Desert are stubborn animals that many civilizations fail to domesticate. The Gerudo somehow manage to tame the beasts, and house them in specialized stables.</History>
+    <Icon>structures/gerudo/ger_stablesB.dds</Icon>
+    <Tooltip>Trains Sandseal units for the Gerudo.</Tooltip>
+    <VisibleClasses datatype="tokens">Town -Village</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town -phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="45.0" width="45.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>10.0</Crush>
+        <Hack>15.0</Hack>
+        <Pierce>55.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/gerudo/gerudo_dunewalker_b
+      units/gerudo/gerudo_sealplower_b
+      units/gerudo/gerudo_dustsentinel_b
+      units/gerudo/gerudo_hero_riju
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>15</X>
+        <Y>11.13</Y>
+        <Z>4</Z>
+      </Archer1>
+      <Archer2>
+        <X>15</X>
+        <Y>11.13</Y>
+        <Z>8</Z>
+      </Archer2>
+      <Archer3>
+        <X>-12.5</X>
+        <Y>10.5</Y>
+        <Z>8</Z>
+      </Archer3>
+      <Archer4>
+        <X>15</X>
+        <Y>11.13</Y>
+        <Z>12</Z>
+      </Archer4>
+      <Archer5>
+        <X>15</X>
+        <Y>11.13</Y>
+        <Z>16</Z>
+      </Archer5>
+      <Archer6>
+        <X>-12.5</X>
+        <Y>10.5</Y>
+        <Z>12</Z>
+      </Archer6>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/gerudo/gerudo_stablesB.xml</Actor>
+    <FoundationActor>structures/gerudo/gerudo_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+</Entity>

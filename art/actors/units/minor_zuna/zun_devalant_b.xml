@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+    <group>
+      <variant minquality="high" frequency="100" name="Base">
+        <mesh>units/minor_zuna/zun_devalantA.dae</mesh>
+      </variant>
+      <variant minquality="medium" frequency="100" name="Base">
+        <mesh>units/minor_zuna/medium/zun_devalantA.dae</mesh>
+      </variant>
+      <variant maxquality="medium" frequency="100" name="Base">
+        <mesh>units/minor_zuna/low/zun_devalantA.dae</mesh>
+      </variant>
+    </group>	
+  <group>
+    <variant file="HC_devalant/base_HC_devalant.xml">
+      <textures>
+        <texture file="skeletal/minor_zuna/zun_devalantA.dds" name="baseTex"/>
+      </textures>
+  <props>
+    <prop actor="particle/flame_immortalA.xml" attachpoint="projectile"/>
+  </props>	  
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+	<variant name="Walk">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>	
+	</variant>
+	<variant name="Run">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+	</variant>
+    <variant file="HC_devalant/base_HC_devalant_death.xml">
+      <props>
+      </props>
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

@@ -1,0 +1,17 @@
+{
+	"genericName": "Bolted Process",
+	"description": "Crossbows have largely replaced standard archery in Hyrule, and Hylians have become quite proficient in creating bolted ammunition.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 300},
+	"supersedes": "hylian/ranged_attack_01",
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/attack_bolted_process.dds",
+	"researchTime": 40,
+	"tooltip": "+20% pierce and true damage from Crossbowmen.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/True", "multiply": 1.2}
+			 ],
+	"affects": ["Crossbowman"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

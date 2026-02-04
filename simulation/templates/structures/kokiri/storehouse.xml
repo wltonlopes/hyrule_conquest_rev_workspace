@@ -18,6 +18,16 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+      kokiri/gather_capacity_belt
+      kokiri/gather_capacity_backpack
+      kokiri/gather_wood_planned
+      kokiri/gather_wood_cultigen
+      kokiri/building_reinforce
+      kokiri/building_tracery
+    </Technologies>
+  </Researcher>
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">

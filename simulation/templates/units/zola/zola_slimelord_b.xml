@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Auras datatype="tokens">
+    units/zola_slimelord_01
+  </Auras>
+  <Attack>
+    <Melee replace="">
+     <AttackName>Acidic Slime</AttackName>
+      <Damage>
+        <Crush>50.0</Crush>
+        <Poison>7.0</Poison>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <Resources>
+      <food>500</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Decay>
+    <DelayTime>0.0</DelayTime>
+    <SinkRate>0.0</SinkRate>
+    <SinkAccel>2.0</SinkAccel>
+  </Decay>
+  <Health>
+    <Max>1000</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>12</SpawnNumberMax>
+      <SpawnNumberMin>12</SpawnNumberMin>
+      <Template>units/zola/zola_zol_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>zola</Civ>
+    <SpecificName>Slime Lord</SpecificName>
+    <History>When multiple Zols, Gels, and Gelatinous Cubes converge, they become a Slime Lord, a giant mass of acidic slime that flattens it's enemies with tons of slime and goo.</History>
+    <Icon>units/zola/zol_zol.dds</Icon>
+    <Tooltip>Huge, very durable Melee unit that has a damaging aura. Has magic and True damage resistance. Is immune to Stun.</Tooltip>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>10</Hack>
+        <Pierce>55</Pierce>
+        <Crush>25</Crush>
+        <Fire>10</Fire>
+        <Forest>10</Forest>
+        <Water>55</Water>
+        <Shadow>10</Shadow>
+        <Spirit>10</Spirit>
+        <True>55</True>
+      </Damage>
+    </Entity>
+    <StunResistance>100</StunResistance>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/zol_bite.xml</attack_melee>
+      <death>voice/zola/zol/zol_death.xml</death>
+      <order_attack>voice/zola/zol/zol_attack.xml</order_attack>
+      <order_garrison>voice/zola/zol/zol_garrison.xml</order_garrison>
+      <order_gather>voice/zola/zol/zol_gather.xml</order_gather>
+      <order_repair>voice/zola/zol/zol_repair.xml</order_repair>
+      <order_walk>voice/zola/zol/zol_walk.xml</order_walk>
+      <run>actor/movement/zol/zol_crawl.xml</run>
+      <select>voice/zola/zol/zol_select.xml</select>
+      <trained>interface/alarm/alarm_create_creature.xml</trained>
+      <walk>actor/movement/zol/zol_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <WalkSpeed>4</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/zola/zola_slimelord_b.xml</Actor>
+  </VisualActor>
+</Entity>

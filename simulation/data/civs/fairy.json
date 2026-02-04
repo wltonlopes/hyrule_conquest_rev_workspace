@@ -1,0 +1,182 @@
+{
+	"Code": "fairy",
+	"Culture": "naturalistic",
+	"Music":
+	[
+		{"File": "fairy_theme1.ogg", "Type": "peace"},
+		{"File": "fairy_ambient1.ogg", "Type": "peace"},
+		{"File": "fairy_ambient2.ogg", "Type": "peace"},
+		{"File": "fairy_ambient3.ogg", "Type": "peace"},
+		{"File": "fairy_ambient4.ogg", "Type": "peace"},
+		{"File": "fairy_ambient5.ogg", "Type": "peace"},
+		{"File": "fairy_ambient6.ogg", "Type": "peace"},
+		{"File": "fairy_ambient7.ogg", "Type": "peace"},
+		{"File": "fairy_ambient8.ogg", "Type": "peace"},
+		{"File": "fairy_ambient9.ogg", "Type": "peace"},
+		{"File": "fairy_ambient9_choir.ogg", "Type": "peace"},
+		{"File": "fairy_ambient10.ogg", "Type": "peace"},
+		{"File": "fairy_ambient11.ogg", "Type": "peace"},
+		{"File": "fairy_ambient12.ogg", "Type": "peace"},
+		{"File": "fairy_ambient13.ogg", "Type": "peace"},
+		{"File": "fairy_battle1.ogg", "Type": "battle"},
+		{"File": "fairy_battle2.ogg", "Type": "battle"},
+		{"File": "fairy_battle3.ogg", "Type": "battle"},
+		{"File": "fairy_defeat1.ogg", "Type": "defeat"},
+		{"File": "fairy_victory1.ogg", "Type": "victory"}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Fairy Enclave",
+    			"Description": "Perhaps one of Hyrule's greatest mysteries, Fairies are mythical and reclusive beings that, despite being found in all corners of the world, are rarely if ever seen. Most of the time the Fairies go about on their own with little unity or guidance, tending to nature or causing mischief when no one is looking. As the land cries out in pain however, these wild principles gather together and cause a lot more than a little mischief.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Ciela",
+					"Class": "Infantry Mage",
+					"Armament": "Fairy Magic",
+					"Emblem": "",
+    					"History": "A mysterious Fairy said to live on the islands of the eastern seas, Ciela is as free of a spirit as any could be. Legend says she prefers to dance her time away on the ocean, ignoring other fairies whenever she can."
+				},
+				{
+					"Name": "Navi",
+					"Class": "Infantry Mage",
+					"Armament": "Fairy Magic",
+					"Emblem": "",
+    					"History": "A loquacious and stubborn Fairy that had wandered deep into the Kokiri forest, finding her way into the service of the Great Deku Tree. She helped the Hero of Time in his quest to defeat Ganondorf. Nothing is really known of Navi prior to her arrival in the Kokiri Forest, nor does anyone seem to know her own agenda."
+				},
+				{
+					"Name": "Sekaia",
+					"Class": "Infantry Mage",
+					"Armament": "Fairy Wing",
+					"Emblem": "",
+    					"History": "Known to many as the Fairy of Winds, Sekaia appears in many cultures as the spirit that brings forth Spring and chases away the Winter. She is connected to seeds and protects the young of both plants and animals, some legends even say she gives Hylian children Boomerangs to protect themselves with until they can wield bows and arrows. She is described as a very peaceful and friendly Fairy, to children anyway. Legends say she will never appear to adults, and if one happens to catch her off guard they will find themselves in serious peril."
+				},
+				{
+					"Name": "Queen Valfi",
+					"Class": "Infantry Mage",
+					"Armament": "Fairy Magic",
+					"Emblem": "",
+    					"History": "Little myth remains of the Queen who rules over the Fairy Enclave, few even know her true name. It is said that she often assumes a very childlike appearance and mannerisms, both which betray her overwhelming intellect and clearly god like powers. To any hero who personally meets the Queen of All Fairies, she is described as curious and easily amused, filled with child like glee and wonder at encountering friendly outsiders. One individual saw through her though, he saw countless generations of war, suffering, trauma, and loss that this somber and incredibly ancient being had been a witness to. The Queen of All Fairies is associated with the season of Winter. Her presence is said to freeze all who look on her, and the land itself shivers until she passes on."
+				},
+				{
+					"Name": "Venus",
+					"Class": "Infantry Swordsman",
+					"Armament": "Great Fairy Sword",
+					"Emblem": "",
+    					"History": "A powerful Great Fairy associated with beauty and kindness. Indeed Venus can be a very powerful ally to those that befriend her, though risking her wrath is a warning all should take."
+				},
+				{
+					"Name": "Xana",
+					"Class": "Infantry Swordsman",
+					"Armament": "Nails",
+					"Emblem": "",
+    					"History": "A wild Great Fairy who rarely associates with other Fairies, Xana is considered quite mad by many other Fairies. Long ago she and her fellow Mystics spread across the world and the myth goes that their isolation drove them insane with laughter and hysteria. Xana seems to have an interest in mortals and how they react to being granted powers outside of their understanding."
+				},
+				{
+					"Name": "Titan: The Maku Tree",
+					"Class": "Titan",
+					"Armament": "Fairy Burst",
+					"Emblem": "",
+    					"History": "One of the legendary Maku Trees and perhaps one of the only left to still live, the guardian of Holodrum spent much of his time slumbering at the edge of the Tarm Woods being worshiped by the natives of the land. It is not known how long this tree has slumbered, and it is said that only the wish of a Fairy can awaken him. In the ancient myths of Horon it was said that this giant tree did battle alongside his sister Maku Tree and the Fairies of Tarm to defeat the dragons of the east and bring peace to the land."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Fairy Love",
+			"History": "Though mischievous at times, the Fairies are good creatures at heart, and make their allies much healthier than they normally would be.",
+			"Description": "+15% health bonus to allied units."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name": "Wonder: Unicorn Fountain",
+			"Class": "Wonder",
+			"Emblem": "",
+    			"History": "A legendary fountain still believed to be myth. Many have searched their entire lives for this fabled wonder, and none have found it. Legend says that only a Fairy may visit the Unicorn Fountain, and she may permit a mortal friend a glimpse in their sleep.",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Trains the Fairy Titan."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/fairy/civil_centreA"
+		},
+		{
+			"Template": "units/fairy/fairy_stray_spring",
+			"Count": 2
+		},
+		{
+			"Template": "units/fairy/fairy_drove_summer",
+			"Count": 2
+		},
+		{
+			"Template": "units/fairy/fairy_drove_autumn",
+			"Count": 2
+		},
+		{
+			"Template": "units/fairy/fairy_stray_winter",
+			"Count": 2
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade"
+	],
+	"AINames":
+	[
+		"Ciela",
+		"Navi",
+		"Sekaia",
+		"Queen Valfi",
+		"Venus",
+		"Xana",
+		"The Maku Tree of Holodrum"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_support_female_citizen": "units/fairy/fairy_stray_spring",
+		"skirmish/units/default_infantry_melee_b": "units/fairy/fairy_drove_summer",
+		"skirmish/units/default_infantry_ranged_b": "units/fairy/fairy_drove_autumn",
+		"skirmish/units/default_champion_melee": "units/fairy/fairy_gfsword_b",
+		"skirmish/units/default_champion_ranged": "units/fairy/fairy_great_b",
+		"skirmish/units/default_hero": "units/fairy/fairy_hero_navi",
+		"skirmish/units/default_ship_arrow": "units/fairy/fairy_magic_b",
+		"skirmish/units/default_ship_scout": "units/fairy/fairy_zirro_b",
+		"skirmish/units/default_siege_ram": "units/fairy/fairy_dragonfly_b",
+		"skirmish/units/default_cavalry": "units/fairy/fairy_stray_winter",
+		"skirmish/units/special_starting_unit": "units/fairy/fairy_makusmall_b",
+		"skirmish/structures/default_arsenal": "structures/fairy/fairy_greatfountain_spring",
+		"skirmish/structures/default_barracks": "structures/fairy/fairy_fountain_spring",
+		"skirmish/structures/default_civil_centre": "structures/fairy/civil_centreA",
+		"skirmish/structures/default_corral": "structures/athen/field",
+		"skirmish/structures/default_defense_tower": "structures/fairy/fairy_menhir_spring",
+		"skirmish/structures/default_dock": "structures/fairy/fairy_fountain_spring",
+		"skirmish/structures/default_farmstead": "structures/fairy/fairy_menhir_spring",
+		"skirmish/structures/default_field": "structures/fairy/fairy_menhir_spring",
+		"skirmish/structures/default_forge": "structures/fairy/fairy_waterheaven_spring",
+		"skirmish/structures/default_fortress": "structures/fairy/civil_centreA",
+		"skirmish/structures/default_house_5": "structures/fairy/fairy_menhir_spring",
+		"skirmish/structures/default_house_10": "structures/fairy/fairy_menhir_spring",
+		"skirmish/structures/default_market": "structures/fairy/fairy_meetingspring_spring",
+		"skirmish/structures/default_outpost": "structures/fairy/fairy_menhir_spring",
+		"skirmish/structures/default_range": "structures/fairy/fairy_fountain_spring",
+		"skirmish/structures/default_sentry_tower": "structures/fairy/fairy_menhir_spring",
+		"skirmish/structures/default_stable": "structures/fairy/fairy_fountain_spring",
+		"skirmish/structures/default_storehouse": "structures/fairy/fairy_menhir_spring",
+		"skirmish/structures/default_temple": "structures/fairy/fairy_misthenge_spring"
+	},
+	"SelectableInGameSetup": true
+}

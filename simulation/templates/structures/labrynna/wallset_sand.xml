@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>labrynna</Civ>
+    <SpecificName>Sandbags</SpecificName>
+    <History>Labrynnians use piles of sand filled bags for a large range of purposes. Pioneers create makeshift walls from them, allowing their Gunpowder units to take shots at Cavalry that can not charge into them.</History>
+    <Icon>structures/labrynna/lab_sandbag.dds</Icon>
+    <Tooltip>Pile of sandbags to halt enemy movement, especially Cavalry.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">phase_village -phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Gate>structures/labrynna/wall_tower_sand</Gate>
+      <Tower>structures/labrynna/wall_tower_sand</Tower>
+      <WallLong>structures/labrynna/wall_long_sand</WallLong>
+      <WallMedium>structures/labrynna/wall_medium_sand</WallMedium>
+      <WallShort>structures/labrynna/wall_short_sand</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.10</MinTowerOverlap>
+  </WallSet>
+</Entity>

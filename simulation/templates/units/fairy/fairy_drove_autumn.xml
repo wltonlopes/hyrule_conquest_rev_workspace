@@ -1,0 +1,27 @@
+<Entity parent="units/fairy/fairy_drove_b">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/fairy/civil_centreC
+      structures/fairy/civil_centre_upgC
+      structures/fairy/fairy_menhir_autumn
+      structures/fairy/fairy_fountain_autumn
+      structures/fairy/fairy_waterheaven_autumn
+      structures/fairy/fairy_misthenge_autumn
+      structures/fairy/fairy_sundial_autumn
+      structures/fairy/fairy_meetingspring_autumn
+      structures/fairy/fairy_greatfountain_autumn
+      structures/fairy/fairy_uniwonder_autumn
+    </Entities>
+  </Builder>
+  <Identity>
+    <SpecificName>Fairy Drove (Autumn)</SpecificName>
+    <Classes datatype="tokens">Autumn</Classes>
+  </Identity>
+  <UnitMotion>
+    <RunMultiplier>1.5925</RunMultiplier>
+    <WalkSpeed>13.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/fairy/fairy_drove_autumn.xml</Actor>
+  </VisualActor>
+</Entity>

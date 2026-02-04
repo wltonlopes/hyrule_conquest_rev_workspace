@@ -1,0 +1,15 @@
+{
+	"genericName": "Guay-Fletched Arrows",
+	"description": "Guay feathers are commonly used by the Hylians as fletching for arrows and crossbow bolts, as they fly much straighter than those of any other bird.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 200},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "hylian/attack_guay_tipped.dds",
+	"researchTime": 40,
+	"tooltip": "+50% accuracy of archers and crossbowmen.",
+	"modifications": [
+				{"value": "Attack/Ranged/Projectile/Spread", "multiply": 0.5}
+			 ],
+	"affects": ["Archer", "Crossbowman"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

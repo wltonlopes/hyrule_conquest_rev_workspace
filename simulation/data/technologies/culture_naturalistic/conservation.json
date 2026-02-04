@@ -1,0 +1,29 @@
+{
+	"genericName": "Conservation",
+	"description": "Many cultures, such as the Kokiri, Deku, and Fairies, celebrate and protect nature, and minimize their use of it's resources.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
+	"requirements": 
+		{"all": [
+			{ "tech": "phase_village" },
+			{ "any": [
+					{ "civ": "deku" },
+					{ "civ": "fairy" },
+					{ "civ": "kokiri" },
+					{ "civ": "ordona" }
+				 ]
+			}
+			]
+		},
+	"requirementsTooltip": "Unlocked with Village Phase.",
+	"icon": "irrigation.png",
+	"researchTime": 40,
+	"tooltip": "Buildings cost 10% less resources.",
+	"modifications": [
+				{ "value": "Cost/Resources/food", "multiply": 0.90 },
+				{ "value": "Cost/Resources/wood", "multiply": 0.90 },
+				{ "value": "Cost/Resources/stone", "multiply": 0.90 },
+				{ "value": "Cost/Resources/metal", "multiply": 0.90 }
+			 ],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

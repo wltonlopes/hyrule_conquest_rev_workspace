@@ -1,0 +1,19 @@
+{
+	"genericName": "Prisoners",
+	"description": "Order criminals and captured prisoners to arn their freedom. Increases stone and metal gathering rates.",
+	"cost": {
+		"food": 600
+	},
+	"supersedes": "hylian/gather_mining_shaftmining",
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "hylian/gather_stone_prisoners.dds",
+	"researchTime": 60,
+	"tooltip": "Workers +25% stone gather rate.",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/stone.rock", "multiply": 1.25 },
+		{ "value": "ResourceGatherer/Rates/metal.ore", "multiply": 1.25 }
+	],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

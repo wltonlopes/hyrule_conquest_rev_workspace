@@ -10,6 +10,7 @@
       <textures>
         <texture file="structural/minor_tokay/tok_templeA.dds" name="baseTex"/>
 		<texture file="structural/minor_tokay/tok_templeA_normal.dds" name="normTex"/>
+        <texture file="structural/minor_tokay/tok_templeA.dds" name="specTex"/>
 		<texture file="structural/minor_tokay/tok_templeA_ao.dds" name="aoTex"/>
       </textures>
     </variant>

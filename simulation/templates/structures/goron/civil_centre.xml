@@ -18,7 +18,7 @@
       <Projectile>
         <FriendlyFire>false</FriendlyFire>
         <Gravity>9.81</Gravity>
-        <ImpactActorName>props/units/explosions/catapult_explosion.xml</ImpactActorName>
+        <ImpactActorName>props/units/explosions/trebuchet_explosion.xml</ImpactActorName>
         <ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
         <LaunchPoint y="3"/>
         <Speed>40.0</Speed>
@@ -53,6 +53,12 @@
   <Health>
     <Max>2500</Max>
     <SpawnEntityOnDeath>decay|rubble/debris_goron_huge</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>5</SpawnNumberMax>
+      <SpawnNumberMin>5</SpawnNumberMin>
+      <Template>units/goron/goron_bombthrower_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>goron</Civ>

@@ -1,0 +1,25 @@
+{
+	"genericName": "Moral Less",
+	"description": "Some races have few scruples, and will do anything to accomplish a goal, be it an assassination, murder, or outright genocide.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
+	"requirements": 
+		{"all": [
+			{ "tech": "phase_town" },
+			{ "any": [
+					{ "civ": "stalfos" }
+				 ]
+			}
+			]
+		},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "skull_swords.png",
+	"researchTime": 40,
+	"tooltip": "+15% damage to all soldiers.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Crush", "multiply": 1.15},
+				{"value": "Attack/Ranged/Damage/Hack", "multiply": 1.15},
+				{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.15}
+			 ],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

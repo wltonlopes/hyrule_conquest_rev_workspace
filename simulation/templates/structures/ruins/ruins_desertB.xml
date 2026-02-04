@@ -1,0 +1,20 @@
+<Entity parent="structures/ruins/ruins_baseA_small">
+  <Health disable=""/>
+  <Identity>
+    <Civ>gaia</Civ>
+    <Classes datatype="tokens">Barracks Ruins</Classes>
+    <GenericName>Desert Ruins</GenericName>
+    <History>The long-abandoned remnants of a past culture.</History>
+    <Icon>structures/ruins/ruins_desertA_small.dds</Icon>
+    <Tooltip>The long-abandoned remnants of a past culture.</Tooltip>
+  </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/armos/armos_desert
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ruins/ruins_desertB.xml</Actor>
+  </VisualActor>
+</Entity>

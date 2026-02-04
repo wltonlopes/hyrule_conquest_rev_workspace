@@ -1,7 +1,7 @@
 {
 	"genericName": "Snout Specialization",
 	"description": "Deku Scrubs weed out the Underlings with the least useful features for their jobs. Over time those who can gather nuts faster than others are the ones allowed to live.",
-	"cost": {"food": 0, "wood": 50, "stone": 0, "metal": 50},
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 0, "rupees": 250},
 	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "deku"}]},
 	"requirementsTooltip": "Unlocked with Town Phase.",
 	"icon": "deku/gather_specialsnout.dds",

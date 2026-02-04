@@ -9,7 +9,7 @@
     <SpawnEntityOnDeath>decay|rubble/debris_ordona_medium</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>deku</Civ>
+    <Civ>ordona</Civ>
     <SpecificName>Carraige Barn</SpecificName>
     <History>Periodically Ordona Province launches counter attacks against Moblins and Lizalfos, bringing the fight to their enemies’ villages and cities. Ordonians are more than happy to assemble their Catapults to help take down any fortifications halting their advance.</History>
     <Icon>structures/ordona/ord_carriagebarn.dds</Icon>

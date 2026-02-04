@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="HC_jellocube/base_HC_jellocube.xml">
+      <mesh>units/zola/zol_jelloA.dae</mesh>
+      <textures><texture file="skeletal/zola/zol_sludgeA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="HC_jellocube/base_HC_jellocube_death.xml">
+      <props>
+	<prop actor="props/units/blood_ooze_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,13 @@
+{
+	"type": "range",
+	"radius": 20,
+	"affects": ["Hero"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 55 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 55 },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 55 }
+	],
+	"auraName": "Royal Bodyguard",
+	"auraDescription": "All nearby heroes are almost invulnerable to non-magic damage.",
+	"overlayIcon": "art/textures/ui/session/auras/did_aura_1.dds"
+}

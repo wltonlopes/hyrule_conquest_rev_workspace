@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/labrynna_hero_ralph_01
+    units/heroes/labrynna_hero_ralph_02
+  </Auras>
+  <Attack>
+    <Capture replace="">
+      <AttackName>Capture</AttackName>
+      <Capture>5</Capture>
+      <MaxRange>10</MaxRange>
+      <RepeatTime>3000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Structure</RestrictedClasses>
+    </Capture>  
+    <Ranged replace="">
+      <AttackName>Bullets</AttackName>
+      <Damage>
+        <Pierce>20</Pierce>
+        <Fire>0</Fire>
+        <True>20</True>
+      </Damage>
+      <MaxRange>65</MaxRange>
+      <MinRange>15.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>500</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>100.0</Speed>
+        <Spread>2</Spread>
+      </Projectile>
+      <RepeatTime>3000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>300</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>750</Max>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <SpecificName>Ralphonso Ambi</SpecificName>
+    <GenericName>Prince of Labrynna</GenericName>
+    <History>The grandson of Queen Ambi, Ralphonso was born of the first generation to live during Labrynna’s new Empire. Machinery is second nature to him, and years of education had landed him an internship commanding batteries of cannons. Despite Ralph’s clear admiration for Labrynna’s technological prowess, he feels Labrynna has gone into a stage of decline as if something is missing. He has since turned to seeking out the supernatural, in particular he hopes to uncover the mythical Fairies and ancient creatures that once coexisted in his homeland.</History>
+    <Tooltip>Missile Hero unit that attacks with a long ranged pistol.</Tooltip>
+    <Icon>units/labrynna/lab_hero_ralph.dds</Icon>
+    <VisibleClasses datatype="tokens">Gunpowder</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/bullet_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+      <death>voice/labrynna/ralph/ralph_death.xml</death>
+      <order_attack>voice/labrynna/ralph/ralph_attack.xml</order_attack>
+      <order_garrison>voice/labrynna/ralph/ralph_garrison.xml</order_garrison>
+      <order_gather>voice/labrynna/ralph/ralph_gather.xml</order_gather>
+      <order_repair>voice/labrynna/ralph/ralph_repair.xml</order_repair>
+      <order_walk>voice/labrynna/ralph/ralph_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/labrynna/ralph/ralph_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>11.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/labrynna/labrynna_ralph_b.xml</Actor>
+  </VisualActor>
+</Entity>

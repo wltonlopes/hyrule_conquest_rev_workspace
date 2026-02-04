@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>mountainous</SkySet>
+		<SunColor r="0.639216" g="0.639216" b="0.639216"/>
+		<SunElevation angle="0.543029"/>
+		<SunRotation angle="-0.785396"/>
+		<AmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0.01</FogFactor>
+			<FogThickness>0.180176</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>5</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>-0.00390625</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="528.985" y="571.808" z="232.428"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "Now that we have control of that minor pass, General Onox has decided to take Eagle Pass, the main entrance to Hyrule through the montains. ",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Mission 4: Capture the Pass (Labrynna)",
+  "PlayerData": [
+    null,
+    {
+      "Civ": "labrynna",
+      "Color": {
+        "b": 7,
+        "g": 2,
+        "r": 251
+      },
+      "Resources": {
+        "food": 0,
+        "metal": 0,
+        "stone": 0,
+        "wood": 0
+      },
+      "Team": 0
+    },
+    {
+      "Civ": "labrynna",
+      "Color": {
+        "b": 200,
+        "g": 46,
+        "r": 46
+      },
+      "Name": "Captain Edgar's Force",
+      "Resources": {
+        "food": 0,
+        "metal": 0,
+        "stone": 0,
+        "wood": 0
+      },
+      "Team": 0
+    },
+    {
+      "Civ": "hylian",
+      "Color": {
+        "b": 128,
+        "g": 0,
+        "r": 128
+      },
+      "Name": "Eagle Pass Outpost",
+      "Resources": {
+        "food": 0,
+        "metal": 0,
+        "stone": 0,
+        "wood": 0
+      },
+      "Team": 1
+    }
+  ],
+  "Preview": "mission4.png",
+  "RevealMap": false,
+  "TriggerScripts": [
+    "scripts/TriggerHelper.js",
+    "scripts/Tutorial.js",
+    "campaigns/mission4_capture_pass.js"
+  ],
+  "VictoryConditions": [
+    "conquest_units"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="15">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="410.28693" z="67.79297"/>
+			<Orientation y="0.00377"/>
+			<Actor seed="60504"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="413.98264" z="67.55628"/>
+			<Orientation y="-0.07631"/>
+			<Actor seed="62657"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="418.15186" z="67.29766"/>
+			<Orientation y="-0.03585"/>
+			<Actor seed="29386"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="422.0034" z="66.69387"/>
+			<Orientation y="0.02561"/>
+			<Actor seed="21705"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="421.7269" z="62.15406"/>
+			<Orientation y="0.02285"/>
+			<Actor seed="27787"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="418.43241" z="62.42174"/>
+			<Orientation y="-0.03405"/>
+			<Actor seed="18503"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="414.62745" z="62.75754"/>
+			<Orientation y="-0.09873"/>
+			<Actor seed="22803"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="410.54493" z="62.72497"/>
+			<Orientation y="-0.16752"/>
+			<Actor seed="55102"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="411.07496" z="57.65525"/>
+			<Orientation y="-0.12732"/>
+			<Actor seed="63044"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="415.22751" z="57.17597"/>
+			<Orientation y="-0.0792"/>
+			<Actor seed="38470"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="418.81974" z="56.63611"/>
+			<Orientation y="-0.0304"/>
+			<Actor seed="62734"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="421.82612" z="56.04001"/>
+			<Orientation y="0.02746"/>
+			<Actor seed="33628"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="421.71683" z="52.06093"/>
+			<Orientation y="0.02746"/>
+			<Actor seed="18091"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="419.07328" z="52.6367"/>
+			<Orientation y="-0.02765"/>
+			<Actor seed="40861"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="415.21784" z="52.8595"/>
+			<Orientation y="-0.1067"/>
+			<Actor seed="62420"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>units/labrynna/infantry_maceman_b</Template>
+			<Player>1</Player>
+			<Position x="411.25528" z="53.21183"/>
+			<Orientation y="-0.18534"/>
+			<Actor seed="35980"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="431.02085" z="50.11063"/>
+			<Orientation y="-0.22663"/>
+			<Actor seed="58153"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="430.44986" z="53.79775"/>
+			<Orientation y="-0.19796"/>
+			<Actor seed="47517"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="429.75312" z="59.7972"/>
+			<Orientation y="-0.0265"/>
+			<Actor seed="10158"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="428.71287" z="66.39731"/>
+			<Orientation y="0.0143"/>
+			<Actor seed="56448"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="432.0424" z="65.37282"/>
+			<Orientation y="0.01867"/>
+			<Actor seed="25778"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="432.78245" z="59.3192"/>
+			<Orientation y="-0.06572"/>
+			<Actor seed="11245"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="433.65763" z="53.76105"/>
+			<Orientation y="-0.13822"/>
+			<Actor seed="3999"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="434.33362" z="49.51029"/>
+			<Orientation y="0.12482"/>
+			<Actor seed="31337"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="437.58353" z="48.27749"/>
+			<Orientation y="-0.0711"/>
+			<Actor seed="41389"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="437.37192" z="53.20765"/>
+			<Orientation y="-0.0222"/>
+			<Actor seed="25079"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="437.20945" z="58.5786"/>
+			<Orientation y="-0.06478"/>
+			<Actor seed="22038"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="436.84702" z="64.16503"/>
+			<Orientation y="-0.0648"/>
+			<Actor seed="16008"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="440.66361" z="62.63468"/>
+			<Orientation y="0.07279"/>
+			<Actor seed="46432"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="440.42795" z="57.45466"/>
+			<Orientation y="-0.00849"/>
+			<Actor seed="50948"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="440.37418" z="52.7481"/>
+			<Orientation y="0.04186"/>
+			<Actor seed="63246"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="440.63575" z="47.92865"/>
+			<Orientation y="-0.00573"/>
+			<Actor seed="42217"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="515.9308" z="37.84757"/>
+			<Orientation y="0.27108"/>
+			<Actor seed="46995"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="520.88837" z="36.05246"/>
+			<Orientation y="0.04853"/>
+			<Actor seed="10770"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="511.17759" z="36.89737"/>
+			<Orientation y="-0.00394"/>
+			<Actor seed="14675"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="507.24964" z="36.22245"/>
+			<Orientation y="-0.0418"/>
+			<Actor seed="64542"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="506.9928" z="42.05846"/>
+			<Orientation y="-0.05924"/>
+			<Actor seed="34004"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="510.92649" z="42.36405"/>
+			<Orientation y="-0.0313"/>
+			<Actor seed="7490"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="515.63404" z="42.86846"/>
+			<Orientation y="0.02561"/>
+			<Actor seed="5605"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="520.45862" z="41.38782"/>
+			<Orientation y="0.10128"/>
+			<Actor seed="44139"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="520.1908" z="46.62224"/>
+			<Orientation y="-0.00586"/>
+			<Actor seed="15731"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="520.23176" z="52.43926"/>
+			<Orientation y="-0.01305"/>
+			<Actor seed="20702"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="515.86255" z="46.62308"/>
+			<Orientation y="-0.1512"/>
+			<Actor seed="51787"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="515.04285" z="52.44011"/>
+			<Orientation y="-0.1495"/>
+			<Actor seed="1523"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="510.29468" z="47.63756"/>
+			<Orientation y="-0.1199"/>
+			<Actor seed="14312"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="509.23011" z="53.14931"/>
+			<Orientation y="-0.1304"/>
+			<Actor seed="20572"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="506.53165" z="46.84691"/>
+			<Orientation y="-0.2392"/>
+			<Actor seed="32508"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>units/labrynna/infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="505.10798" z="51.5436"/>
+			<Orientation y="-0.2465"/>
+			<Actor seed="61368"/>
+		</Entity>
+		<Entity uid="63">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="500.10572" z="35.86625"/>
+			<Orientation y="-0.0863"/>
+			<Actor seed="45619"/>
+		</Entity>
+		<Entity uid="64">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="499.45746" z="40.00672"/>
+			<Orientation y="-0.08985"/>
+			<Actor seed="37988"/>
+		</Entity>
+		<Entity uid="65">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="498.91318" z="45.19227"/>
+			<Orientation y="-0.09073"/>
+			<Actor seed="37988"/>
+		</Entity>
+		<Entity uid="66">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="498.15885" z="51.66086"/>
+			<Orientation y="-0.09252"/>
+			<Actor seed="7254"/>
+		</Entity>
+		<Entity uid="67">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="496.81922" z="35.34849"/>
+			<Orientation y="-0.12952"/>
+			<Actor seed="53775"/>
+		</Entity>
+		<Entity uid="68">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="496.28525" z="39.99921"/>
+			<Orientation y="-0.12865"/>
+			<Actor seed="30543"/>
+		</Entity>
+		<Entity uid="69">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="495.42762" z="46.62946"/>
+			<Orientation y="-0.12864"/>
+			<Actor seed="12775"/>
+		</Entity>
+		<Entity uid="70">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="494.55039" z="52.1357"/>
+			<Orientation y="-0.1304"/>
+			<Actor seed="19579"/>
+		</Entity>
+		<Entity uid="72">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="492.83072" z="35.87334"/>
+			<Orientation y="-0.17943"/>
+			<Actor seed="59084"/>
+		</Entity>
+		<Entity uid="73">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="492.22638" z="39.59354"/>
+			<Orientation y="-0.17858"/>
+			<Actor seed="38127"/>
+		</Entity>
+		<Entity uid="74">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="491.10624" z="45.3815"/>
+			<Orientation y="-0.10856"/>
+			<Actor seed="10733"/>
+		</Entity>
+		<Entity uid="75">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="490.28736" z="52.14116"/>
+			<Orientation y="-0.17518"/>
+			<Actor seed="60577"/>
+		</Entity>
+		<Entity uid="76">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="488.56629" z="35.87571"/>
+			<Orientation y="-0.13857"/>
+			<Actor seed="60248"/>
+		</Entity>
+		<Entity uid="77">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="487.36509" z="40.64818"/>
+			<Orientation y="-0.23351"/>
+			<Actor seed="9520"/>
+		</Entity>
+		<Entity uid="78">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="486.46854" z="45.99178"/>
+			<Orientation y="-0.22942"/>
+			<Actor seed="1344"/>
+		</Entity>
+		<Entity uid="79">
+			<Template>units/labrynna/infantry_spearman_b</Template>
+			<Player>1</Player>
+			<Position x="484.56421" z="53.44979"/>
+			<Orientation y="-0.18003"/>
+			<Actor seed="64324"/>
+		</Entity>
+		<Entity uid="80">
+			<Template>units/labrynna/labrynna_borderguard_b</Template>
+			<Player>1</Player>
+			<Position x="430.75083" z="44.26665"/>
+			<Orientation y="0.06878"/>
+			<Actor seed="27692"/>
+		</Entity>
+		<Entity uid="81">
+			<Template>units/labrynna/labrynna_borderguard_b</Template>
+			<Player>1</Player>
+			<Position x="434.38459" z="44.408"/>
+			<Orientation y="0.05117"/>
+			<Actor seed="10987"/>
+		</Entity>
+		<Entity uid="82">
+			<Template>units/labrynna/labrynna_borderguard_b</Template>
+			<Player>1</Player>
+			<Position x="437.17316" z="44.29137"/>
+			<Orientation y="0.05155"/>
+			<Actor seed="34355"/>
+		</Entity>
+		<Entity uid="83">
+			<Template>units/labrynna/labrynna_borderguard_b</Template>
+			<Player>1</Player>
+			<Position x="440.58185" z="43.71747"/>
+			<Orientation y="0.15615"/>
+			<Actor seed="6826"/>
+		</Entity>
+		<Entity uid="86">
+			<Template>units/labrynna/labrynna_borderguard_b</Template>
+			<Player>1</Player>
+			<Position x="489.67765" z="30.34757"/>
+			<Orientation y="0.02562"/>
+			<Actor seed="46714"/>
+		</Entity>
+		<Entity uid="87">
+			<Template>units/labrynna/labrynna_borderguard_b</Template>
+			<Player>1</Player>
+			<Position x="493.51658" z="30.37571"/>
+			<Orientation y="0.07387"/>
+			<Actor seed="14350"/>
+		</Entity>
+		<Entity uid="88">
+			<Template>units/labrynna/labrynna_borderguard_b</Template>
+			<Player>1</Player>
+			<Position x="497.42051" z="30.51146"/>
+			<Orientation y="0.0363"/>
+			<Actor seed="44965"/>
+		</Entity>
+		<Entity uid="89">
+			<Template>units/labrynna/labrynna_borderguard_b</Template>
+			<Player>1</Player>
+			<Position x="500.50861" z="30.87627"/>
+			<Orientation y="0.0686"/>
+			<Actor seed="64493"/>
+		</Entity>
+		<Entity uid="90">
+			<Template>units/labrynna/labrynna_poacher_b</Template>
+			<Player>1</Player>
+			<Position x="507.67243" z="29.26992"/>
+			<Orientation y="-0.08094"/>
+			<Actor seed="56940"/>
+		</Entity>
+		<Entity uid="91">
+			<Template>units/labrynna/labrynna_poacher_b</Template>
+			<Player>1</Player>
+			<Position x="511.46641" z="29.9591"/>
+			<Orientation y="-0.02767"/>
+			<Actor seed="40896"/>
+		</Entity>
+		<Entity uid="92">
+			<Template>units/labrynna/labrynna_poacher_b</Template>
+			<Player>1</Player>
+			<Position x="515.85114" z="30.34432"/>
+			<Orientation y="0.03301"/>
+			<Actor seed="64971"/>
+		</Entity>
+		<Entity uid="93">
+			<Template>units/labrynna/labrynna_poacher_b</Template>
+			<Player>1</Player>
+			<Position x="520.18757" z="29.68514"/>
+			<Orientation y="0.09348"/>
+			<Actor seed="10173"/>
+		</Entity>
+		<Entity uid="94">
+			<Template>units/labrynna/labrynna_poacher_b</Template>
+			<Player>1</Player>
+			<Position x="411.65052" z="46.62597"/>
+			<Orientation y="0.12804"/>
+			<Actor seed="29986"/>
+		</Entity>
+		<Entity uid="95">
+			<Template>units/labrynna/labrynna_poacher_b</Template>
+			<Player>1</Player>
+			<Position x="414.28776" z="46.75704"/>
+			<Orientation y="0.16262"/>
+			<Actor seed="63072"/>
+		</Entity>
+		<Entity uid="96">
+			<Template>units/labrynna/labrynna_poacher_b</Template>
+			<Player>1</Player>
+			<Position x="418.20435" z="45.66865"/>
+			<Orientation y="0.25332"/>
+			<Actor seed="45165"/>
+		</Entity>
+		<Entity uid="97">
+			<Template>units/labrynna/labrynna_poacher_b</Template>
+			<Player>1</Player>
+			<Position x="421.18216" z="45.8498"/>
+			<Orientation y="0.25454"/>
+			<Actor seed="6018"/>
+		</Entity>
+		<Entity uid="100">
+			<Template>units/labrynna/labrynna_steamtank_b</Template>
+			<Player>1</Player>
+			<Position x="463.51618" z="39.55381"/>
+			<Orientation y="0.08504"/>
+			<Actor seed="45977"/>
+		</Entity>
+		<Entity uid="101">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="453.86924" z="29.93793"/>
+			<Orientation y="-0.0905"/>
+			<Actor seed="17164"/>
+		</Entity>
+		<Entity uid="102">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="453.1313" z="37.07174"/>
+			<Orientation y="-0.13389"/>
+			<Actor seed="62151"/>
+		</Entity>
+		<Entity uid="105">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="452.5358" z="43.69349"/>
+			<Orientation y="-0.12864"/>
+			<Actor seed="1462"/>
+		</Entity>
+		<Entity uid="106">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="452.0175" z="49.8226"/>
+			<Orientation y="-0.12427"/>
+			<Actor seed="4104"/>
+		</Entity>
+		<Entity uid="107">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="470.80396" z="26.22309"/>
+			<Orientation y="0.28205"/>
+			<Actor seed="33441"/>
+		</Entity>
+		<Entity uid="108">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="471.6259" z="30.81154"/>
+			<Orientation y="0.27106"/>
+			<Actor seed="17521"/>
+		</Entity>
+		<Entity uid="109">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="472.88114" z="37.24936"/>
+			<Orientation y="0.26096"/>
+			<Actor seed="21985"/>
+		</Entity>
+		<Entity uid="110">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="474.00135" z="45.45733"/>
+			<Orientation y="0.22188"/>
+			<Actor seed="42375"/>
+		</Entity>
+		<Entity uid="111">
+			<Template>units/labrynna/labrynna_mauler_b</Template>
+			<Player>1</Player>
+			<Position x="532.61823" z="47.16076"/>
+			<Orientation y="0.15537"/>
+			<Actor seed="12302"/>
+		</Entity>
+		<Entity uid="112">
+			<Template>units/labrynna/labrynna_mauler_b</Template>
+			<Player>1</Player>
+			<Position x="538.84144" z="45.23253"/>
+			<Orientation y="0.13459"/>
+			<Actor seed="14150"/>
+		</Entity>
+		<Entity uid="113">
+			<Template>units/labrynna/labrynna_mauler_b</Template>
+			<Player>1</Player>
+			<Position x="544.76386" z="44.08805"/>
+			<Orientation y="0.18686"/>
+			<Actor seed="19938"/>
+		</Entity>
+		<Entity uid="114">
+			<Template>units/labrynna/labrynna_mauler_b</Template>
+			<Player>1</Player>
+			<Position x="531.09742" z="35.45173"/>
+			<Orientation y="0.07389"/>
+			<Actor seed="41842"/>
+		</Entity>
+		<Entity uid="115">
+			<Template>units/labrynna/labrynna_mauler_b</Template>
+			<Player>1</Player>
+			<Position x="536.7082" z="33.81664"/>
+			<Orientation y="0.3678"/>
+			<Actor seed="61759"/>
+		</Entity>
+		<Entity uid="116">
+			<Template>units/labrynna/labrynna_mauler_b</Template>
+			<Player>1</Player>
+			<Position x="543.40851" z="31.76272"/>
+			<Orientation y="0.19619"/>
+			<Actor seed="13955"/>
+		</Entity>
+		<Entity uid="117">
+			<Template>units/labrynna/labrynna_cannon_b</Template>
+			<Player>1</Player>
+			<Position x="402.76829" z="61.50794"/>
+			<Orientation y="-0.04859"/>
+			<Actor seed="37881"/>
+		</Entity>
+		<Entity uid="118">
+			<Template>units/labrynna/labrynna_cannon_b</Template>
+			<Player>1</Player>
+			<Position x="394.76532" z="55.66842"/>
+			<Orientation y="0.00031"/>
+			<Actor seed="6131"/>
+		</Entity>
+		<Entity uid="120">
+			<Template>units/labrynna/labrynna_cannon_b</Template>
+			<Player>1</Player>
+			<Position x="387.03885" z="63.5778"/>
+			<Orientation y="0.05341"/>
+			<Actor seed="36060"/>
+		</Entity>
+		<Entity uid="123">
+			<Template>units/labrynna/labrynna_lordcommander_b</Template>
+			<Player>1</Player>
+			<Position x="464.65491" z="52.08297"/>
+			<Orientation y="0.19898"/>
+			<Actor seed="15910"/>
+		</Entity>
+		<Entity uid="124">
+			<Template>units/labrynna/labrynna_talusknight_b</Template>
+			<Player>1</Player>
+			<Position x="458.16492" z="52.61735"/>
+			<Orientation y="0.13743"/>
+			<Actor seed="36448"/>
+		</Entity>
+		<Entity uid="125">
+			<Template>units/labrynna/labrynna_talusknight_b</Template>
+			<Player>1</Player>
+			<Position x="469.86344" z="51.05343"/>
+			<Orientation y="0.07998"/>
+			<Actor seed="64709"/>
+		</Entity>
+		<Entity uid="126">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="459.10706" z="26.67527"/>
+			<Orientation y="0.03951"/>
+			<Actor seed="35895"/>
+		</Entity>
+		<Entity uid="127">
+			<Template>units/labrynna/labrynna_lynnapike_b</Template>
+			<Player>1</Player>
+			<Position x="464.18064" z="26.37096"/>
+			<Orientation y="0.20052"/>
+			<Actor seed="16966"/>
+		</Entity>
+		<Entity uid="128">
+			<Template>structures/hylian/wall_gate_stone</Template>
+			<Player>3</Player>
+			<Position x="450.25315" z="332.9513"/>
+			<Orientation y="-3.10911"/>
+			<Actor seed="56906"/>
+		</Entity>
+		<Entity uid="129">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="494.15162" z="330.66926"/>
+			<Orientation y="-3.12513"/>
+			<Obstruction group="131" group2="129"/>
+			<Actor seed="15010"/>
+		</Entity>
+		<Entity uid="131">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="529.32697" z="331.50818"/>
+			<Orientation y="3.09739"/>
+			<Obstruction group="129" group2="131"/>
+			<Actor seed="28714"/>
+		</Entity>
+		<Entity uid="145">
+			<Template>structures/hylian/wall_tower_stone</Template>
+			<Player>3</Player>
+			<Position x="554.15229" z="331.23395"/>
+			<Orientation y="-3.03182"/>
+			<Actor seed="22728"/>
+		</Entity>
+		<Entity uid="150">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="403.39194" z="335.58576"/>
+			<Orientation y="-3.0954"/>
+			<Obstruction group="152" group2="150"/>
+			<Actor seed="28467"/>
+		</Entity>
+		<Entity uid="152">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="368.56577" z="337.01563"/>
+			<Orientation y="0.04618"/>
+			<Obstruction group="150" group2="152"/>
+			<Actor seed="53221"/>
+		</Entity>
+		<Entity uid="154">
+			<Template>structures/hylian/wall_tower_stone</Template>
+			<Player>3</Player>
+			<Position x="346.70511" z="339.59263"/>
+			<Orientation y="0.24288"/>
+			<Actor seed="3629"/>
+		</Entity>
+		<Entity uid="155">
+			<Template>structures/hylian/defense_tower</Template>
+			<Player>3</Player>
+			<Position x="516.79023" z="362.94581"/>
+			<Orientation y="3.10561"/>
+			<Actor seed="38847"/>
+		</Entity>
+		<Entity uid="156">
+			<Template>structures/hylian/defense_tower</Template>
+			<Player>3</Player>
+			<Position x="372.76365" z="372.0141"/>
+			<Orientation y="3.06951"/>
+			<Actor seed="7284"/>
+		</Entity>
+		<Entity uid="157">
+			<Template>structures/hylian/wall_gate_stone</Template>
+			<Player>3</Player>
+			<Position x="431.38083" z="483.03779"/>
+			<Orientation y="2.99888"/>
+			<Actor seed="56137"/>
+		</Entity>
+		<Entity uid="158">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="472.98594" z="485.35639"/>
+			<Orientation y="3.07316"/>
+			<Obstruction group="159" group2="158"/>
+			<Actor seed="31150"/>
+		</Entity>
+		<Entity uid="159">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="505.66117" z="492.649"/>
+			<Orientation y="2.80297"/>
+			<Obstruction group="158" group2="159"/>
+			<Actor seed="53396"/>
+		</Entity>
+		<Entity uid="160">
+			<Template>structures/hylian/wall_tower_stone</Template>
+			<Player>3</Player>
+			<Position x="524.61591" z="503.8795"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="31675"/>
+		</Entity>
+		<Entity uid="165">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="387.69758" z="482.49906"/>
+			<Orientation y="0.12696"/>
+			<Obstruction group="172" group2="165"/>
+			<Actor seed="3926"/>
+		</Entity>
+		<Entity uid="170">
+			<Template>structures/hylian/wall_tower_stone</Template>
+			<Player>3</Player>
+			<Position x="350.96546" z="475.81611"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52416"/>
+		</Entity>
+		<Entity uid="172">
+			<Template>structures/hylian/wall_short_stone</Template>
+			<Player>3</Player>
+			<Position x="360.80677" z="482.80893"/>
+			<Orientation y="2.86156"/>
+			<Obstruction group="165" group2="175"/>
+			<Actor seed="44246"/>
+		</Entity>
+		<Entity uid="175">
+			<Template>structures/hylian/wall_short_stone</Template>
+			<Player>3</Player>
+			<Position x="368.34339" z="484.71369"/>
+			<Orientation y="3.07651"/>
+			<Obstruction group="172" group2="165"/>
+			<Actor seed="25710"/>
+		</Entity>
+		<Entity uid="176">
+			<Template>structures/hylian/defense_tower</Template>
+			<Player>3</Player>
+			<Position x="361.33063" z="515.53559"/>
+			<Orientation y="2.58832"/>
+			<Actor seed="39975"/>
+		</Entity>
+		<Entity uid="177">
+			<Template>structures/hylian/defense_tower</Template>
+			<Player>3</Player>
+			<Position x="480.3867" z="523.84217"/>
+			<Orientation y="3.04389"/>
+			<Actor seed="16517"/>
+		</Entity>
+		<Entity uid="178">
+			<Template>structures/hylian/wall_gate_stone</Template>
+			<Player>3</Player>
+			<Position x="650.31696" z="811.48865"/>
+			<Orientation y="-2.89077"/>
+			<Actor seed="51863"/>
+		</Entity>
+		<Entity uid="179">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="605.24146" z="820.4983"/>
+			<Orientation y="0.16915"/>
+			<Obstruction group="184" group2="179"/>
+			<Actor seed="12564"/>
+		</Entity>
+		<Entity uid="184">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="572.68592" z="829.9416"/>
+			<Orientation y="0.3794"/>
+			<Obstruction group="179" group2="184"/>
+			<Actor seed="2838"/>
+		</Entity>
+		<Entity uid="185">
+			<Template>structures/hylian/wall_tower_stone</Template>
+			<Player>3</Player>
+			<Position x="550.63288" z="841.90589"/>
+			<Orientation y="0.74311"/>
+			<Actor seed="29698"/>
+		</Entity>
+		<Entity uid="187">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="537.83887" z="861.90748"/>
+			<Orientation y="-2.05044"/>
+			<Obstruction group="184" group2="187"/>
+			<Actor seed="49641"/>
+		</Entity>
+		<Entity uid="188">
+			<Template>structures/hylian/wall_short_stone</Template>
+			<Player>3</Player>
+			<Position x="527.5893" z="879.93085"/>
+			<Orientation y="-2.27268"/>
+			<Obstruction group="187" group2="188"/>
+			<Actor seed="6536"/>
+		</Entity>
+		<Entity uid="190">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="691.4422" z="799.89307"/>
+			<Orientation y="-2.74173"/>
+			<Obstruction group="193" group2="190"/>
+			<Actor seed="3255"/>
+		</Entity>
+		<Entity uid="193">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="725.05481" z="786.55317"/>
+			<Orientation y="-2.78753"/>
+			<Obstruction group="190" group2="193"/>
+			<Actor seed="45499"/>
+		</Entity>
+		<Entity uid="194">
+			<Template>structures/hylian/wall_tower_stone</Template>
+			<Player>3</Player>
+			<Position x="746.34272" z="776.30787"/>
+			<Orientation y="-2.46808"/>
+			<Actor seed="3715"/>
+		</Entity>
+		<Entity uid="204">
+			<Template>structures/hylian/wall_long_stone</Template>
+			<Player>3</Player>
+			<Position x="764.84803" z="764.89771"/>
+			<Orientation y="-2.54053"/>
+			<Obstruction group="193" group2="204"/>
+			<Actor seed="58533"/>
+		</Entity>
+		<Entity uid="206">
+			<Template>structures/hylian/defense_tower</Template>
+			<Player>3</Player>
+			<Position x="733.7732" z="823.7511"/>
+			<Orientation y="-2.71435"/>
+			<Actor seed="54898"/>
+		</Entity>
+		<Entity uid="208">
+			<Template>structures/hylian/defense_tower</Template>
+			<Player>3</Player>
+			<Position x="597.63367" z="865.91358"/>
+			<Orientation y="-2.87206"/>
+			<Actor seed="58380"/>
+		</Entity>
+		<Entity uid="210">
+			<Template>structures/hylian/defense_tower</Template>
+			<Player>3</Player>
+			<Position x="487.22245" z="823.34504"/>
+			<Orientation y="-1.77897"/>
+			<Actor seed="13441"/>
+		</Entity>
+		<Entity uid="215">
+			<Template>structures/hylian/civil_centre</Template>
+			<Player>3</Player>
+			<Position x="438.62061" z="418.80979"/>
+			<Orientation y="-0.13079"/>
+			<Actor seed="63942"/>
+		</Entity>
+		<Entity uid="216">
+			<Template>structures/hylian/civil_centre</Template>
+			<Player>3</Player>
+			<Position x="422.23246" z="643.60517"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52002"/>
+		</Entity>
+		<Entity uid="224">
+			<Template>structures/hylian/civil_centre</Template>
+			<Player>3</Player>
+			<Position x="645.5691" z="752.51581"/>
+			<Orientation y="0.08758"/>
+			<Actor seed="46422"/>
+		</Entity>
+		<Entity uid="225">
+			<Template>structures/hylian/barracks</Template>
+			<Player>3</Player>
+			<Position x="650.77118" z="639.67902"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12596"/>
+		</Entity>
+		<Entity uid="226">
+			<Template>structures/hylian/defense_tower</Template>
+			<Player>3</Player>
+			<Position x="520.34583" z="737.42334"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44615"/>
+		</Entity>
+		<Entity uid="227">
+			<Template>structures/hylian/defense_tower</Template>
+			<Player>3</Player>
+			<Position x="581.43714" z="614.28296"/>
+			<Orientation y="-0.6501"/>
+			<Actor seed="61672"/>
+		</Entity>
+		<Entity uid="228">
+			<Template>structures/hylian/forge</Template>
+			<Player>3</Player>
+			<Position x="696.83869" z="670.00397"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16784"/>
+		</Entity>
+		<Entity uid="230">
+			<Template>structures/hylian/range</Template>
+			<Player>3</Player>
+			<Position x="275.12928" z="645.6952"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36673"/>
+		</Entity>
+		<Entity uid="231">
+			<Template>structures/hylian/barracks</Template>
+			<Player>3</Player>
+			<Position x="302.68146" z="574.28034"/>
+			<Orientation y="1.00991"/>
+			<Actor seed="58276"/>
+		</Entity>
+		<Entity uid="232">
+			<Template>structures/hylian/hospital</Template>
+			<Player>3</Player>
+			<Position x="565.49958" z="768.23578"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45281"/>
+		</Entity>
+		<Entity uid="236">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="723.193" z="692.8266"/>
+			<Orientation y="-2.61767"/>
+			<Actor seed="14006"/>
+		</Entity>
+		<Entity uid="237">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="737.51301" z="683.56324"/>
+			<Orientation y="0.2291"/>
+			<Actor seed="10766"/>
+		</Entity>
+		<Entity uid="238">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="744.19214" z="697.48176"/>
+			<Orientation y="0.18416"/>
+			<Actor seed="64775"/>
+		</Entity>
+		<Entity uid="239">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="731.30634" z="706.2674"/>
+			<Orientation y="-2.55304"/>
+			<Actor seed="42816"/>
+		</Entity>
+		<Entity uid="240">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="736.54633" z="720.22687"/>
+			<Orientation y="-2.6754"/>
+			<Actor seed="24863"/>
+		</Entity>
+		<Entity uid="241">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="752.74878" z="711.71766"/>
+			<Orientation y="-2.35299"/>
+			<Actor seed="26629"/>
+		</Entity>
+		<Entity uid="242">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="747.3285" z="736.68427"/>
+			<Orientation y="-2.76334"/>
+			<Actor seed="53437"/>
+		</Entity>
+		<Entity uid="243">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="762.61689" z="726.49598"/>
+			<Orientation y="-2.84408"/>
+			<Actor seed="26657"/>
+		</Entity>
+		<Entity uid="244">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="754.50239" z="747.0611"/>
+			<Orientation y="0.01343"/>
+			<Actor seed="22787"/>
+		</Entity>
+		<Entity uid="245">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="630.2696" z="616.57642"/>
+			<Orientation y="0.98539"/>
+			<Actor seed="11189"/>
+		</Entity>
+		<Entity uid="246">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="620.6471" z="609.48475"/>
+			<Orientation y="-2.207"/>
+			<Actor seed="16505"/>
+		</Entity>
+		<Entity uid="247">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="620.7306" z="632.09156"/>
+			<Orientation y="0.85953"/>
+			<Actor seed="23868"/>
+		</Entity>
+		<Entity uid="248">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="611.86182" z="625.84797"/>
+			<Orientation y="0.81963"/>
+			<Actor seed="16332"/>
+		</Entity>
+		<Entity uid="250">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="246.29181" z="616.81324"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38188"/>
+		</Entity>
+		<Entity uid="251">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="257.82587" z="606.61438"/>
+			<Orientation y="-0.59198"/>
+			<Actor seed="54136"/>
+		</Entity>
+		<Entity uid="252">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="263.78434" z="594.80079"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36840"/>
+		</Entity>
+		<Entity uid="253">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="271.06623" z="582.40601"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57825"/>
+		</Entity>
+		<Entity uid="254">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="279.5876" z="590.59931"/>
+			<Orientation y="-0.68699"/>
+			<Actor seed="45243"/>
+		</Entity>
+		<Entity uid="255">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="273.20933" z="601.4762"/>
+			<Orientation y="-0.63028"/>
+			<Actor seed="41789"/>
+		</Entity>
+		<Entity uid="256">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="266.68503" z="613.86286"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24989"/>
+		</Entity>
+		<Entity uid="257">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="255.90616" z="624.5995"/>
+			<Orientation y="-0.7916"/>
+			<Actor seed="20129"/>
+		</Entity>
+		<Entity uid="258">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="290.62543" z="678.17762"/>
+			<Orientation y="1.10682"/>
+			<Actor seed="35617"/>
+		</Entity>
+		<Entity uid="259">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="302.94663" z="686.50861"/>
+			<Orientation y="-2.41353"/>
+			<Actor seed="40993"/>
+		</Entity>
+		<Entity uid="260">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="313.17252" z="695.91126"/>
+			<Orientation y="-2.31362"/>
+			<Actor seed="38309"/>
+		</Entity>
+		<Entity uid="261">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="302.55536" z="663.85022"/>
+			<Orientation y="0.84607"/>
+			<Actor seed="23079"/>
+		</Entity>
+		<Entity uid="262">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="313.91483" z="675.28492"/>
+			<Orientation y="-2.27587"/>
+			<Actor seed="35419"/>
+		</Entity>
+		<Entity uid="263">
+			<Template>structures/rome/tent</Template>
+			<Player>3</Player>
+			<Position x="322.93897" z="684.67359"/>
+			<Orientation y="-2.3472"/>
+			<Actor seed="52386"/>
+		</Entity>
+		<Entity uid="268">
+			<Template>territory_pulls/territory_pull_60</Template>
+			<Player>3</Player>
+			<Position x="408.5911" z="776.72681"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5449"/>
+		</Entity>
+		<Entity uid="269">
+			<Template>territory_pulls/territory_pull_10</Template>
+			<Player>3</Player>
+			<Position x="568.92475" z="645.31318"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6339"/>
+		</Entity>
+		<Entity uid="272">
+			<Template>actor|props/special/eyecandy/campfire.xml</Template>
+			<Position x="311.65809" z="685.82447"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6516"/>
+		</Entity>
+		<Entity uid="273">
+			<Template>actor|props/special/eyecandy/campfire.xml</Template>
+			<Position x="621.95435" z="619.33405"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59552"/>
+		</Entity>
+		<Entity uid="274">
+			<Template>actor|props/special/eyecandy/campfire.xml</Template>
+			<Position x="730.74195" z="686.96766"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13261"/>
+		</Entity>
+		<Entity uid="277">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="533.62409" z="689.99866"/>
+			<Orientation y="-2.61298"/>
+			<Actor seed="3999"/>
+		</Entity>
+		<Entity uid="278">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="536.97901" z="687.12635"/>
+			<Orientation y="-2.32398"/>
+			<Actor seed="40541"/>
+		</Entity>
+		<Entity uid="279">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="540.62824" z="683.76404"/>
+			<Orientation y="-2.22779"/>
+			<Actor seed="7889"/>
+		</Entity>
+		<Entity uid="280">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="543.33216" z="680.18671"/>
+			<Orientation y="-2.1538"/>
+			<Actor seed="39123"/>
+		</Entity>
+		<Entity uid="281">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="546.51844" z="676.29493"/>
+			<Orientation y="-2.0456"/>
+			<Actor seed="63533"/>
+		</Entity>
+		<Entity uid="282">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="542.08234" z="673.68671"/>
+			<Orientation y="-2.05652"/>
+			<Actor seed="25233"/>
+		</Entity>
+		<Entity uid="283">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="539.4427" z="677.38764"/>
+			<Orientation y="-2.13546"/>
+			<Actor seed="62199"/>
+		</Entity>
+		<Entity uid="284">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="537.31006" z="680.81714"/>
+			<Orientation y="-2.22129"/>
+			<Actor seed="64675"/>
+		</Entity>
+		<Entity uid="285">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="534.18421" z="684.20606"/>
+			<Orientation y="-2.3193"/>
+			<Actor seed="28474"/>
+		</Entity>
+		<Entity uid="286">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="531.10297" z="686.95905"/>
+			<Orientation y="-2.40754"/>
+			<Actor seed="48002"/>
+		</Entity>
+		<Entity uid="289">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="537.85468" z="694.67707"/>
+			<Orientation y="-2.4103"/>
+			<Actor seed="9532"/>
+		</Entity>
+		<Entity uid="290">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="540.83826" z="691.39698"/>
+			<Orientation y="-2.36326"/>
+			<Actor seed="49142"/>
+		</Entity>
+		<Entity uid="291">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="544.9604" z="687.98584"/>
+			<Orientation y="-2.23993"/>
+			<Actor seed="33319"/>
+		</Entity>
+		<Entity uid="292">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="548.93348" z="684.48072"/>
+			<Orientation y="-2.17005"/>
+			<Actor seed="63270"/>
+		</Entity>
+		<Entity uid="293">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="552.82679" z="680.0124"/>
+			<Orientation y="-2.05265"/>
+			<Actor seed="44673"/>
+		</Entity>
+		<Entity uid="294">
+			<Template>units/hylian/hylian_knightofhyrule_b</Template>
+			<Player>3</Player>
+			<Position x="533.26221" z="677.73694"/>
+			<Orientation y="-2.24053"/>
+			<Actor seed="34839"/>
+		</Entity>
+		<Entity uid="295">
+			<Template>units/hylian/infantry_swordsman_b</Template>
+			<Player>3</Player>
+			<Position x="552.7635" z="655.04041"/>
+			<Orientation y="-2.0134"/>
+			<Actor seed="48999"/>
+		</Entity>
+		<Entity uid="296">
+			<Template>units/hylian/infantry_swordsman_b</Template>
+			<Player>3</Player>
+			<Position x="554.99311" z="650.84235"/>
+			<Orientation y="-1.92493"/>
+			<Actor seed="53643"/>
+		</Entity>
+		<Entity uid="297">
+			<Template>units/hylian/infantry_swordsman_b</Template>
+			<Player>3</Player>
+			<Position x="556.34583" z="646.33356"/>
+			<Orientation y="-1.83725"/>
+			<Actor seed="56145"/>
+		</Entity>
+		<Entity uid="298">
+			<Template>units/hylian/infantry_swordsman_b</Template>
+			<Player>3</Player>
+			<Position x="557.28248" z="642.74006"/>
+			<Orientation y="-1.76807"/>
+			<Actor seed="7595"/>
+		</Entity>
+		<Entity uid="299">
+			<Template>units/hylian/infantry_swordsman_b</Template>
+			<Player>3</Player>
+			<Position x="558.47376" z="637.96613"/>
+			<Orientation y="-1.67724"/>
+			<Actor seed="35901"/>
+		</Entity>
+		<Entity uid="300">
+			<Template>units/hylian/infantry_swordsman_b</Template>
+			<Player>3</Player>
+			<Position x="564.50977" z="638.7179"/>
+			<Orientation y="-1.67898"/>
+			<Actor seed="6378"/>
+		</Entity>
+		<Entity uid="301">
+			<Template>units/hylian/infantry_swordsman_b</Template>
+			<Player>3</Player>
+			<Position x="563.91596" z="643.72803"/>
+			<Orientation y="-1.7626"/>
+			<Actor seed="48184"/>
+		</Entity>
+		<Entity uid="302">
+			<Template>units/hylian/infantry_swordsman_b</Template>
+			<Player>3</Player>
+			<Position x="563.24213" z="647.8069"/>
+			<Orientation y="-1.83074"/>
+			<Actor seed="19566"/>
+		</Entity>
+		<Entity uid="303">
+			<Template>units/hylian/infantry_swordsman_b</Template>
+			<Player>3</Player>
+			<Position x="561.95539" z="652.99079"/>
+			<Orientation y="-1.91837"/>
+			<Actor seed="51264"/>
+		</Entity>
+		<Entity uid="304">
+			<Template>units/hylian/infantry_swordsman_b</Template>
+			<Player>3</Player>
+			<Position x="560.02656" z="658.67176"/>
+			<Orientation y="-2.0162"/>
+			<Actor seed="15862"/>
+		</Entity>
+		<Entity uid="306">
+			<Template>units/hylian/infantry_crossbowman_b</Template>
+			<Player>3</Player>
+			<Position x="551.21344" z="645.15821"/>
+			<Orientation y="-1.85279"/>
+			<Actor seed="36484"/>
+		</Entity>
+		<Entity uid="307">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="458.00977" z="802.23823"/>
+			<Orientation y="-2.09418"/>
+			<Actor seed="15597"/>
+		</Entity>
+		<Entity uid="308">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="456.06623" z="805.39301"/>
+			<Orientation y="-2.26716"/>
+			<Actor seed="9916"/>
+		</Entity>
+		<Entity uid="309">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="453.9922" z="807.92243"/>
+			<Orientation y="-2.27047"/>
+			<Actor seed="23163"/>
+		</Entity>
+		<Entity uid="310">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="451.16486" z="805.62385"/>
+			<Orientation y="-2.31353"/>
+			<Actor seed="45378"/>
+		</Entity>
+		<Entity uid="311">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="453.68989" z="803.12348"/>
+			<Orientation y="-2.30468"/>
+			<Actor seed="50241"/>
+		</Entity>
+		<Entity uid="312">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="455.85065" z="800.36677"/>
+			<Orientation y="-2.21395"/>
+			<Actor seed="34008"/>
+		</Entity>
+		<Entity uid="313">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="453.2392" z="798.58344"/>
+			<Orientation y="-2.21586"/>
+			<Actor seed="64417"/>
+		</Entity>
+		<Entity uid="314">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="451.21702" z="801.29926"/>
+			<Orientation y="-2.26528"/>
+			<Actor seed="49935"/>
+		</Entity>
+		<Entity uid="316">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="449.10276" z="803.90662"/>
+			<Orientation y="-2.31443"/>
+			<Actor seed="30522"/>
+		</Entity>
+		<Entity uid="317">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="448.1667" z="836.55329"/>
+			<Orientation y="-1.53574"/>
+			<Actor seed="51117"/>
+		</Entity>
+		<Entity uid="318">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="448.80613" z="833.37092"/>
+			<Orientation y="-1.5315"/>
+			<Actor seed="59294"/>
+		</Entity>
+		<Entity uid="319">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="449.70258" z="829.42713"/>
+			<Orientation y="-1.44143"/>
+			<Actor seed="34794"/>
+		</Entity>
+		<Entity uid="320">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="445.52811" z="829.70008"/>
+			<Orientation y="-1.43769"/>
+			<Actor seed="25535"/>
+		</Entity>
+		<Entity uid="321">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="445.0748" z="833.07178"/>
+			<Orientation y="-1.45287"/>
+			<Actor seed="11804"/>
+		</Entity>
+		<Entity uid="322">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="444.59253" z="836.29328"/>
+			<Orientation y="-1.53019"/>
+			<Actor seed="4664"/>
+		</Entity>
+		<Entity uid="323">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="440.06217" z="836.41596"/>
+			<Orientation y="-1.56647"/>
+			<Actor seed="43136"/>
+		</Entity>
+		<Entity uid="324">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="441.04783" z="833.3584"/>
+			<Orientation y="-1.48345"/>
+			<Actor seed="48178"/>
+		</Entity>
+		<Entity uid="325">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="441.26835" z="830.4607"/>
+			<Orientation y="-1.48937"/>
+			<Actor seed="16599"/>
+		</Entity>
+		<Entity uid="326">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="449.77237" z="821.62006"/>
+			<Orientation y="-1.77366"/>
+			<Actor seed="58818"/>
+		</Entity>
+		<Entity uid="327">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="451.21097" z="817.438"/>
+			<Orientation y="-1.71007"/>
+			<Actor seed="37369"/>
+		</Entity>
+		<Entity uid="328">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="451.96915" z="812.74964"/>
+			<Orientation y="-1.64184"/>
+			<Actor seed="56900"/>
+		</Entity>
+		<Entity uid="329">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="447.54947" z="812.2671"/>
+			<Orientation y="-1.63822"/>
+			<Actor seed="29442"/>
+		</Entity>
+		<Entity uid="330">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="446.94932" z="816.16346"/>
+			<Orientation y="-1.69855"/>
+			<Actor seed="1625"/>
+		</Entity>
+		<Entity uid="331">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="445.71537" z="820.29773"/>
+			<Orientation y="-1.76508"/>
+			<Actor seed="48547"/>
+		</Entity>
+		<Entity uid="332">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="442.0652" z="819.63575"/>
+			<Orientation y="-1.76507"/>
+			<Actor seed="39996"/>
+		</Entity>
+		<Entity uid="333">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="442.72416" z="815.52601"/>
+			<Orientation y="-1.69591"/>
+			<Actor seed="12848"/>
+		</Entity>
+		<Entity uid="334">
+			<Template>units/hylian/infantry_swordsman_a</Template>
+			<Player>3</Player>
+			<Position x="444.54075" z="811.30622"/>
+			<Orientation y="-1.62543"/>
+			<Actor seed="6014"/>
+		</Entity>
+		<Entity uid="335">
+			<Template>units/hylian/hylian_knightofhyrule_b</Template>
+			<Player>3</Player>
+			<Position x="437.51984" z="814.46406"/>
+			<Orientation y="-1.66733"/>
+			<Actor seed="5830"/>
+		</Entity>
+		<Entity uid="336">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="452.11542" z="836.7082"/>
+			<Orientation y="-1.82563"/>
+			<Actor seed="57907"/>
+		</Entity>
+		<Entity uid="337">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="452.7104" z="833.2143"/>
+			<Orientation y="-1.58288"/>
+			<Actor seed="49846"/>
+		</Entity>
+		<Entity uid="338">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="453.38501" z="829.2367"/>
+			<Orientation y="-1.7397"/>
+			<Actor seed="3389"/>
+		</Entity>
+		<Entity uid="339">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="453.80982" z="822.67481"/>
+			<Orientation y="-1.66552"/>
+			<Actor seed="8370"/>
+		</Entity>
+		<Entity uid="340">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="455.34565" z="817.62604"/>
+			<Orientation y="-1.68577"/>
+			<Actor seed="61749"/>
+		</Entity>
+		<Entity uid="341">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="456.48621" z="812.98914"/>
+			<Orientation y="-1.59704"/>
+			<Actor seed="45945"/>
+		</Entity>
+		<Entity uid="342">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="456.52118" z="809.64393"/>
+			<Orientation y="-1.98183"/>
+			<Actor seed="55663"/>
+		</Entity>
+		<Entity uid="343">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="458.62229" z="806.80298"/>
+			<Orientation y="-2.24155"/>
+			<Actor seed="37355"/>
+		</Entity>
+		<Entity uid="344">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="459.61283" z="804.3863"/>
+			<Orientation y="-2.43339"/>
+			<Actor seed="15676"/>
+		</Entity>
+		<Entity uid="374">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="515.08149" z="426.92856"/>
+			<Orientation y="-2.73221"/>
+			<Actor seed="39455"/>
+		</Entity>
+		<Entity uid="375">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="503.26087" z="426.05201"/>
+			<Orientation y="-2.04087"/>
+			<Actor seed="33196"/>
+		</Entity>
+		<Entity uid="376">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="480.78223" z="411.62226"/>
+			<Orientation y="2.29853"/>
+			<Actor seed="58590"/>
+		</Entity>
+		<Entity uid="377">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="494.97681" z="375.21711"/>
+			<Orientation y="-2.26767"/>
+			<Actor seed="58590"/>
+		</Entity>
+		<Entity uid="378">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="467.31934" z="373.17991"/>
+			<Orientation y="-1.82116"/>
+			<Actor seed="45705"/>
+		</Entity>
+		<Entity uid="379">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="405.02656" z="371.3964"/>
+			<Orientation y="-1.20196"/>
+			<Actor seed="45705"/>
+		</Entity>
+		<Entity uid="380">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="374.65485" z="417.99463"/>
+			<Orientation y="1.9197"/>
+			<Actor seed="40911"/>
+		</Entity>
+		<Entity uid="381">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="406.4745" z="453.284"/>
+			<Orientation y="-3.09705"/>
+			<Actor seed="28101"/>
+		</Entity>
+		<Entity uid="382">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="403.56199" z="418.99189"/>
+			<Orientation y="-3.06411"/>
+			<Actor seed="12564"/>
+		</Entity>
+		<Entity uid="383">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="357.83872" z="361.88758"/>
+			<Orientation y="1.91971"/>
+			<Actor seed="52950"/>
+		</Entity>
+		<Entity uid="384">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="393.18204" z="394.10218"/>
+			<Orientation y="-0.99498"/>
+			<Actor seed="36789"/>
+		</Entity>
+		<Entity uid="385">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="373.76087" z="462.85975"/>
+			<Orientation y="2.73394"/>
+			<Actor seed="14191"/>
+		</Entity>
+		<Entity uid="386">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="480.99378" z="450.81955"/>
+			<Orientation y="-1.155"/>
+			<Actor seed="52109"/>
+		</Entity>
+		<Entity uid="387">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="494.35743" z="399.16742"/>
+			<Orientation y="1.9197"/>
+			<Actor seed="36985"/>
+		</Entity>
+		<Entity uid="388">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="396.07361" z="610.50464"/>
+			<Orientation y="-1.2295"/>
+			<Actor seed="600"/>
+		</Entity>
+		<Entity uid="389">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="379.57136" z="631.91077"/>
+			<Orientation y="0.19304"/>
+			<Actor seed="22875"/>
+		</Entity>
+		<Entity uid="390">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="398.02891" z="668.1927"/>
+			<Orientation y="0.45708"/>
+			<Actor seed="5921"/>
+		</Entity>
+		<Entity uid="391">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="433.64332" z="680.10389"/>
+			<Orientation y="1.55828"/>
+			<Actor seed="5921"/>
+		</Entity>
+		<Entity uid="392">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="452.7693" z="675.07367"/>
+			<Orientation y="-2.78406"/>
+			<Actor seed="22119"/>
+		</Entity>
+		<Entity uid="393">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="465.28657" z="652.08558"/>
+			<Orientation y="-0.79168"/>
+			<Actor seed="22119"/>
+		</Entity>
+		<Entity uid="394">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="503.2397" z="604.22419"/>
+			<Orientation y="-1.74953"/>
+			<Actor seed="21529"/>
+		</Entity>
+		<Entity uid="395">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="474.71412" z="619.71412"/>
+			<Orientation y="0.79618"/>
+			<Actor seed="39400"/>
+		</Entity>
+		<Entity uid="396">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="516.56043" z="636.98676"/>
+			<Orientation y="-2.34543"/>
+			<Actor seed="39400"/>
+		</Entity>
+		<Entity uid="397">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="500.05414" z="566.40943"/>
+			<Orientation y="-0.942"/>
+			<Actor seed="28383"/>
+		</Entity>
+		<Entity uid="398">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="470.24543" z="588.14185"/>
+			<Orientation y="0.7027"/>
+			<Actor seed="41697"/>
+		</Entity>
+		<Entity uid="399">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="443.37491" z="588.42157"/>
+			<Orientation y="-1.52285"/>
+			<Actor seed="41697"/>
+		</Entity>
+		<Entity uid="400">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="468.45575" z="544.23761"/>
+			<Orientation y="0.79618"/>
+			<Actor seed="63622"/>
+		</Entity>
+		<Entity uid="401">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="424.83912" z="540.84668"/>
+			<Orientation y="-0.76725"/>
+			<Actor seed="58685"/>
+		</Entity>
+		<Entity uid="402">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="364.3773" z="571.6554"/>
+			<Orientation y="-0.55752"/>
+			<Actor seed="36685"/>
+		</Entity>
+		<Entity uid="403">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="324.44318" z="613.68519"/>
+			<Orientation y="-1.86754"/>
+			<Actor seed="36685"/>
+		</Entity>
+		<Entity uid="404">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="304.71772" z="672.04029"/>
+			<Orientation y="-1.1895"/>
+			<Actor seed="22723"/>
+		</Entity>
+		<Entity uid="405">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="288.0706" z="666.48713"/>
+			<Orientation y="1.4163"/>
+			<Actor seed="54109"/>
+		</Entity>
+		<Entity uid="406">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="324.09147" z="693.9911"/>
+			<Orientation y="-1.86753"/>
+			<Actor seed="7969"/>
+		</Entity>
+		<Entity uid="407">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="282.42841" z="608.896"/>
+			<Orientation y="-2.59438"/>
+			<Actor seed="44722"/>
+		</Entity>
+		<Entity uid="408">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="254.69822" z="614.4303"/>
+			<Orientation y="2.40767"/>
+			<Actor seed="43376"/>
+		</Entity>
+		<Entity uid="409">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="268.30329" z="588.94831"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50031"/>
+		</Entity>
+		<Entity uid="410">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="734.66291" z="694.58686"/>
+			<Orientation y="-1.24538"/>
+			<Actor seed="47556"/>
+		</Entity>
+		<Entity uid="411">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="725.27393" z="723.0984"/>
+			<Orientation y="-2.73592"/>
+			<Actor seed="25067"/>
+		</Entity>
+		<Entity uid="412">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="747.54438" z="720.96369"/>
+			<Orientation y="0.0939"/>
+			<Actor seed="64894"/>
+		</Entity>
+		<Entity uid="413">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="759.48896" z="738.11554"/>
+			<Orientation y="-0.57982"/>
+			<Actor seed="48892"/>
+		</Entity>
+		<Entity uid="414">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="741.40699" z="747.24073"/>
+			<Orientation y="-2.45919"/>
+			<Actor seed="48892"/>
+		</Entity>
+		<Entity uid="415">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="556.32581" z="713.88575"/>
+			<Orientation y="-0.58985"/>
+			<Actor seed="62415"/>
+		</Entity>
+		<Entity uid="416">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="549.98993" z="744.23444"/>
+			<Orientation y="-0.47304"/>
+			<Actor seed="59717"/>
+		</Entity>
+		<Entity uid="417">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="547.02747" z="778.30353"/>
+			<Orientation y="0.44317"/>
+			<Actor seed="59717"/>
+		</Entity>
+		<Entity uid="418">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="554.91114" z="800.48426"/>
+			<Orientation y="1.78353"/>
+			<Actor seed="27441"/>
+		</Entity>
+		<Entity uid="419">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="570.50971" z="812.79633"/>
+			<Orientation y="2.56177"/>
+			<Actor seed="41053"/>
+		</Entity>
+		<Entity uid="420">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="615.0625" z="800.52247"/>
+			<Orientation y="-2.39695"/>
+			<Actor seed="41053"/>
+		</Entity>
+		<Entity uid="421">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="601.61396" z="762.87531"/>
+			<Orientation y="2.6344"/>
+			<Actor seed="53377"/>
+		</Entity>
+		<Entity uid="422">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="618.54688" z="689.06116"/>
+			<Orientation y="-0.85065"/>
+			<Actor seed="20597"/>
+		</Entity>
+		<Entity uid="423">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="594.3556" z="714.3199"/>
+			<Orientation y="-2.34891"/>
+			<Actor seed="20597"/>
+		</Entity>
+		<Entity uid="424">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="676.74531" z="706.33747"/>
+			<Orientation y="2.92415"/>
+			<Actor seed="7152"/>
+		</Entity>
+		<Entity uid="425">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="650.52479" z="723.48206"/>
+			<Orientation y="-0.15987"/>
+			<Actor seed="7152"/>
+		</Entity>
+		<Entity uid="426">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="717.78687" z="741.61176"/>
+			<Orientation y="-0.57982"/>
+			<Actor seed="15648"/>
+		</Entity>
+		<Entity uid="427">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="688.6479" z="762.91706"/>
+			<Orientation y="-0.61908"/>
+			<Actor seed="37453"/>
+		</Entity>
+		<Entity uid="428">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="658.12494" z="787.38001"/>
+			<Orientation y="-2.32094"/>
+			<Actor seed="41870"/>
+		</Entity>
+		<Entity uid="429">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="676.20966" z="616.38813"/>
+			<Orientation y="-0.57982"/>
+			<Actor seed="41870"/>
+		</Entity>
+		<Entity uid="430">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="613.31141" z="661.037"/>
+			<Orientation y="-1.86847"/>
+			<Actor seed="14687"/>
+		</Entity>
+		<Entity uid="431">
+			<Template>units/hylian/infantry_spearman_b</Template>
+			<Player>3</Player>
+			<Position x="572.06782" z="594.70032"/>
+			<Orientation y="-0.59635"/>
+			<Actor seed="37522"/>
+		</Entity>
+		<Entity uid="433">
+			<Template>units/hylian/hylian_scorpio_b</Template>
+			<Player>3</Player>
+			<Position x="497.93631" z="544.3058"/>
+			<Orientation y="-3.02407"/>
+			<Actor seed="47436"/>
+		</Entity>
+		<Entity uid="434">
+			<Template>units/hylian/hylian_scorpio_b</Template>
+			<Player>3</Player>
+			<Position x="381.18744" z="527.88434"/>
+			<Orientation y="2.79497"/>
+			<Actor seed="45252"/>
+		</Entity>
+		<Entity uid="435">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="449.83692" z="535.33014"/>
+			<Orientation y="1.17664"/>
+			<Actor seed="39027"/>
+		</Entity>
+		<Entity uid="436">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="414.91245" z="564.75312"/>
+			<Orientation y="-0.2187"/>
+			<Actor seed="26850"/>
+		</Entity>
+		<Entity uid="437">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="348.34437" z="549.61445"/>
+			<Orientation y="0.65745"/>
+			<Actor seed="31854"/>
+		</Entity>
+		<Entity uid="438">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="355.28333" z="603.64026"/>
+			<Orientation y="1.30007"/>
+			<Actor seed="7561"/>
+		</Entity>
+		<Entity uid="440">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="415.63913" z="610.26557"/>
+			<Orientation y="1.37771"/>
+			<Actor seed="59324"/>
+		</Entity>
+		<Entity uid="441">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="471.20069" z="610.67481"/>
+			<Orientation y="1.307"/>
+			<Actor seed="50164"/>
+		</Entity>
+		<Entity uid="442">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="520.50495" z="599.34553"/>
+			<Orientation y="0.00373"/>
+			<Actor seed="38421"/>
+		</Entity>
+		<Entity uid="443">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="550.76014" z="627.32361"/>
+			<Orientation y="-0.54065"/>
+			<Actor seed="38421"/>
+		</Entity>
+		<Entity uid="444">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="340.21683" z="664.42383"/>
+			<Orientation y="-0.14184"/>
+			<Actor seed="1113"/>
+		</Entity>
+		<Entity uid="445">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="353.54606" z="699.22657"/>
+			<Orientation y="2.85897"/>
+			<Actor seed="23379"/>
+		</Entity>
+		<Entity uid="446">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="391.25174" z="687.90296"/>
+			<Orientation y="0.27527"/>
+			<Actor seed="23379"/>
+		</Entity>
+		<Entity uid="447">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="443.74085" z="710.22217"/>
+			<Orientation y="2.62163"/>
+			<Actor seed="55297"/>
+		</Entity>
+		<Entity uid="448">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="489.33338" z="697.2657"/>
+			<Orientation y="-0.16161"/>
+			<Actor seed="55297"/>
+		</Entity>
+		<Entity uid="449">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="502.00043" z="729.2577"/>
+			<Orientation y="2.87505"/>
+			<Actor seed="54946"/>
+		</Entity>
+		<Entity uid="450">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="358.31031" z="656.38209"/>
+			<Orientation y="-0.1361"/>
+			<Actor seed="44981"/>
+		</Entity>
+		<Entity uid="451">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="531.39728" z="713.02076"/>
+			<Orientation y="-0.26655"/>
+			<Actor seed="46339"/>
+		</Entity>
+		<Entity uid="452">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="584.55884" z="687.14454"/>
+			<Orientation y="-3.0002"/>
+			<Actor seed="33417"/>
+		</Entity>
+		<Entity uid="453">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="614.34491" z="701.74476"/>
+			<Orientation y="-0.21915"/>
+			<Actor seed="33417"/>
+		</Entity>
+		<Entity uid="454">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="574.5879" z="732.21003"/>
+			<Orientation y="-0.09794"/>
+			<Actor seed="51523"/>
+		</Entity>
+		<Entity uid="455">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="560.05884" z="788.87586"/>
+			<Orientation y="-0.05318"/>
+			<Actor seed="23674"/>
+		</Entity>
+		<Entity uid="456">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="584.96961" z="803.15271"/>
+			<Orientation y="1.76012"/>
+			<Actor seed="23674"/>
+		</Entity>
+		<Entity uid="457">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="628.01478" z="786.34681"/>
+			<Orientation y="2.87505"/>
+			<Actor seed="23507"/>
+		</Entity>
+		<Entity uid="458">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="691.63758" z="777.21021"/>
+			<Orientation y="2.87507"/>
+			<Actor seed="19931"/>
+		</Entity>
+		<Entity uid="459">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="693.9922" z="729.23694"/>
+			<Orientation y="-2.53624"/>
+			<Actor seed="19931"/>
+		</Entity>
+		<Entity uid="460">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="721.30909" z="709.83606"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50137"/>
+		</Entity>
+		<Entity uid="461">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="650.23456" z="680.22541"/>
+			<Orientation y="-1.84227"/>
+			<Actor seed="62531"/>
+		</Entity>
+		<Entity uid="462">
+			<Template>units/hylian/infantry_archer_a</Template>
+			<Player>3</Player>
+			<Position x="607.77381" z="644.29841"/>
+			<Orientation y="-0.88743"/>
+			<Actor seed="21571"/>
+		</Entity>
+		<Entity uid="463">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="509.42454" z="689.31025"/>
+			<Orientation y="3.13479"/>
+			<Actor seed="15437"/>
+		</Entity>
+		<Entity uid="464">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="527.57886" z="643.38263"/>
+			<Orientation y="-1.16611"/>
+			<Actor seed="38878"/>
+		</Entity>
+		<Entity uid="465">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="385.6648" z="595.29163"/>
+			<Orientation y="-0.62708"/>
+			<Actor seed="38878"/>
+		</Entity>
+		<Entity uid="466">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="393.61115" z="538.83716"/>
+			<Orientation y="-1.45678"/>
+			<Actor seed="31"/>
+		</Entity>
+		<Entity uid="467">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="349.75165" z="558.91742"/>
+			<Orientation y="-0.37638"/>
+			<Actor seed="31"/>
+		</Entity>
+		<Entity uid="468">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="341.45105" z="514.18805"/>
+			<Orientation y="2.87505"/>
+			<Actor seed="59947"/>
+		</Entity>
+		<Entity uid="469">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="327.16114" z="534.69123"/>
+			<Orientation y="-0.28757"/>
+			<Actor seed="59242"/>
+		</Entity>
+		<Entity uid="470">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="289.77897" z="601.08667"/>
+			<Orientation y="1.84195"/>
+			<Actor seed="24720"/>
+		</Entity>
+		<Entity uid="471">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="242.35337" z="624.45307"/>
+			<Orientation y="0.16317"/>
+			<Actor seed="32062"/>
+		</Entity>
+		<Entity uid="472">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="248.42759" z="667.13367"/>
+			<Orientation y="1.17019"/>
+			<Actor seed="35308"/>
+		</Entity>
+		<Entity uid="473">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="327.77656" z="680.19819"/>
+			<Orientation y="2.57674"/>
+			<Actor seed="35308"/>
+		</Entity>
+		<Entity uid="474">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="319.63508" z="648.87708"/>
+			<Orientation y="2.33454"/>
+			<Actor seed="35848"/>
+		</Entity>
+		<Entity uid="475">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="354.65632" z="630.0116"/>
+			<Orientation y="1.2488"/>
+			<Actor seed="35848"/>
+		</Entity>
+		<Entity uid="476">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="390.94858" z="716.39307"/>
+			<Orientation y="1.96659"/>
+			<Actor seed="30540"/>
+		</Entity>
+		<Entity uid="477">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="417.31553" z="754.11133"/>
+			<Orientation y="2.51764"/>
+			<Actor seed="41504"/>
+		</Entity>
+		<Entity uid="478">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="389.49094" z="744.74146"/>
+			<Orientation y="2.99798"/>
+			<Actor seed="18082"/>
+		</Entity>
+		<Entity uid="479">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="415.85792" z="773.17042"/>
+			<Orientation y="3.02083"/>
+			<Actor seed="22465"/>
+		</Entity>
+		<Entity uid="480">
+			<Template>units/hylian/infantry_archer_b</Template>
+			<Player>3</Player>
+			<Position x="401.8747" z="769.89783"/>
+			<Orientation y="2.99798"/>
+			<Actor seed="35890"/>
+		</Entity>
+		<Entity uid="481">
+			<Template>units/hylian/infantry_crossbowman_b</Template>
+			<Player>3</Player>
+			<Position x="488.92521" z="361.98563"/>
+			<Orientation y="3.10413"/>
+			<Actor seed="36421"/>
+		</Entity>
+		<Entity uid="482">
+			<Template>units/hylian/infantry_crossbowman_b</Template>
+			<Player>3</Player>
+			<Position x="402.24848" z="359.23655"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2843"/>
+		</Entity>
+		<Entity uid="483">
+			<Template>units/hylian/infantry_crossbowman_b</Template>
+			<Player>3</Player>
+			<Position x="430.38074" z="372.02625"/>
+			<Orientation y="2.80335"/>
+			<Actor seed="43667"/>
+		</Entity>
+		<Entity uid="484">
+			<Template>units/hylian/infantry_crossbowman_b</Template>
+			<Player>3</Player>
+			<Position x="473.13651" z="380.23816"/>
+			<Orientation y="-2.75803"/>
+			<Actor seed="13840"/>
+		</Entity>
+		<Entity uid="485">
+			<Template>units/hylian/infantry_crossbowman_b</Template>
+			<Player>3</Player>
+			<Position x="460.24589" z="525.68134"/>
+			<Orientation y="-2.92748"/>
+			<Actor seed="61935"/>
+		</Entity>
+		<Entity uid="486">
+			<Template>units/hylian/infantry_crossbowman_b</Template>
+			<Player>3</Player>
+			<Position x="409.06922" z="523.27161"/>
+			<Orientation y="2.75316"/>
+			<Actor seed="50322"/>
+		</Entity>
+		<Entity uid="487">
+			<Template>units/hylian/infantry_crossbowman_b</Template>
+			<Player>3</Player>
+			<Position x="429.13633" z="528.13227"/>
+			<Orientation y="-3.10003"/>
+			<Actor seed="42220"/>
+		</Entity>
+		<Entity uid="488">
+			<Template>trigger/trigger_point_B</Template>
+			<Player>2</Player>
+			<Position x="632.36518" z="861.68915"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42149"/>
+		</Entity>
+		<Entity uid="489">
+			<Template>trigger/trigger_point_B</Template>
+			<Player>2</Player>
+			<Position x="689.7638" z="844.51752"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54053"/>
+		</Entity>
+		<Entity uid="490">
+			<Template>trigger/trigger_point_C</Template>
+			<Player>2</Player>
+			<Position x="660.6266" z="852.8891"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29041"/>
+		</Entity>
+		<Entity uid="491">
+			<Template>trigger/trigger_point_D</Template>
+			<Player>2</Player>
+			<Position x="658.41474" z="841.792"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51830"/>
+		</Entity>
+		<Entity uid="492">
+			<Template>trigger/trigger_point_A</Template>
+			<Player>2</Player>
+			<Position x="437.54157" z="633.16364"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65232"/>
+		</Entity>
+		<Entity uid="493">
+			<Template>trigger/trigger_point_E</Template>
+			<Player>1</Player>
+			<Position x="464.65491" z="52.08297"/>
+			<Orientation y="0.19898"/>
+			<Actor seed="15910"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

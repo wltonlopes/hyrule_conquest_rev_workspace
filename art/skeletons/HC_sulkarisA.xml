@@ -1,0 +1,219 @@
+<skeletons>
+<standard_skeleton id="SulkarisA Skeleton" title="SulkarisA Skeleton">
+<bone name="base_sulkarisA">
+<bone name="pelvis">
+<bone name="belly">
+<bone name="chest">
+<bone name="neckbase">
+<bone name="neck">
+<bone name="head">
+<bone name="mask">
+</bone>
+<bone name="projectile">
+</bone>
+<bone name="loaded_projectile">
+</bone>
+</bone>
+</bone>
+<bone name="L_clavicle">
+<bone name="L_shoulder">
+<bone name="L_elbow">
+<bone name="L_wrist">
+<bone name="L_weapon">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_clavicle">
+<bone name="R_shoulder">
+<bone name="R_elbow">
+<bone name="R_wrist">
+<bone name="R_weapon">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_backspine_01">
+<bone name="R_backspine_02">
+<bone name="R_backspine_03">
+<bone name="R_backspine_04">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_backspine_01">
+<bone name="L_backspine_02">
+<bone name="L_backspine_03">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_hip">
+<bone name="L_knee">
+<bone name="L_foot">
+<bone name="L_toe">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_hip">
+<bone name="R_knee">
+<bone name="R_foot">
+<bone name="R_toe">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_coat_01">
+<bone name="L_coat_02">
+<bone name="L_coat_03">
+<bone name="L_coat_04">
+<bone name="L_coat_05">
+<bone name="L_coat_06">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_coat_01">
+<bone name="R_coat_02">
+<bone name="R_coat_03">
+<bone name="R_coat_04">
+<bone name="R_coat_05">
+<bone name="R_coat_06">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="back_coat_01">
+<bone name="back_coat_02">
+<bone name="back_coat_03">
+<bone name="back_coat_04">
+<bone name="back_coat_05">
+<bone name="back_coat_06">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="SulkarisA Skeleton" title="SulkarisA Skeleton">
+<identifier><root>base_sulkarisA</root></identifier>
+<bone name="base_sulkarisA"><target>base_sulkarisA</target>
+<bone name="pelvis"><target>pelvis</target>
+<bone name="belly"><target>belly</target>
+<bone name="chest"><target>chest</target>
+<bone name="neckbase"><target>neckbase</target>
+<bone name="neck"><target>neck</target>
+<bone name="head"><target>head</target>
+<bone name="mask"><target>mask</target>
+</bone>
+<bone name="projectile"><target>projectile</target>
+</bone>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+</bone>
+</bone>
+</bone>
+<bone name="L_clavicle"><target>L_clavicle</target>
+<bone name="L_shoulder"><target>L_shoulder</target>
+<bone name="L_elbow"><target>L_elbow</target>
+<bone name="L_wrist"><target>L_wrist</target>
+<bone name="L_weapon"><target>L_weapon</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_clavicle"><target>R_clavicle</target>
+<bone name="R_shoulder"><target>R_shoulder</target>
+<bone name="R_elbow"><target>R_elbow</target>
+<bone name="R_wrist"><target>R_wrist</target>
+<bone name="R_weapon"><target>R_weapon</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_backspine_01"><target>R_backspine_01</target>
+<bone name="R_backspine_02"><target>R_backspine_02</target>
+<bone name="R_backspine_03"><target>R_backspine_03</target>
+<bone name="R_backspine_04"><target>R_backspine_04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_backspine_01"><target>L_backspine_01</target>
+<bone name="L_backspine_02"><target>L_backspine_02</target>
+<bone name="L_backspine_03"><target>L_backspine_03</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_hip"><target>L_hip</target>
+<bone name="L_knee"><target>L_knee</target>
+<bone name="L_foot"><target>L_foot</target>
+<bone name="L_toe"><target>L_toe</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_hip"><target>R_hip</target>
+<bone name="R_knee"><target>R_knee</target>
+<bone name="R_foot"><target>R_foot</target>
+<bone name="R_toe"><target>R_toe</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_coat_01"><target>L_coat_01</target>
+<bone name="L_coat_02"><target>L_coat_02</target>
+<bone name="L_coat_03"><target>L_coat_03</target>
+<bone name="L_coat_04"><target>L_coat_04</target>
+<bone name="L_coat_05"><target>L_coat_05</target>
+<bone name="L_coat_06"><target>L_coat_06</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_coat_01"><target>R_coat_01</target>
+<bone name="R_coat_02"><target>R_coat_02</target>
+<bone name="R_coat_03"><target>R_coat_03</target>
+<bone name="R_coat_04"><target>R_coat_04</target>
+<bone name="R_coat_05"><target>R_coat_05</target>
+<bone name="R_coat_06"><target>R_coat_06</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="back_coat_01"><target>back_coat_01</target>
+<bone name="back_coat_02"><target>back_coat_02</target>
+<bone name="back_coat_03"><target>back_coat_03</target>
+<bone name="back_coat_04"><target>back_coat_04</target>
+<bone name="back_coat_05"><target>back_coat_05</target>
+<bone name="back_coat_06"><target>back_coat_06</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

@@ -1,0 +1,17 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Soldier"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Attack/Melee/Crush", "multiply": 0.85 },
+		{ "value": "Attack/Melee/Pierce", "multiply": 0.85 },
+		{ "value": "Attack/Melee/Hack", "multiply": 0.85 },
+		{ "value": "Attack/Ranged/Crush", "multiply": 0.85 },
+		{ "value": "Attack/Ranged/Pierce", "multiply": 0.85 },
+		{ "value": "Attack/Ranged/Hack", "multiply": 0.85 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 0.85 }
+	],
+	"auraName": "Terrifying Presence",
+	"auraDescription": "Nigh invulnerable in his suit of armor, Onox is a terrifying sight for most soldiers."
+}

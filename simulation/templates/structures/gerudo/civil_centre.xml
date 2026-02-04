@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Auras datatype="tokens">
+    structural/palace_heal
+  </Auras>
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Arrows</AttackName>
+      <Damage>
+        <Pierce>12.0</Pierce>
+      </Damage>
+      <MaxRange>90.0</MaxRange>
+      <MinRange>10.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>1200</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>600</BuildTime>
+    <Resources>
+      <wood>500</wood>
+      <stone>500</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="27.0" width="27.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_gerudo_medium</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>8</SpawnNumberMax>
+      <SpawnNumberMin>8</SpawnNumberMin>
+      <Template>units/gerudo/infantry_archer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <History>Containing refreshing waters from deep within the Gerudo Desert, an Oasis is often set up in forward military bases or small villages. A single Oasis can advance the growth and expansion of the Gerudo.</History>
+    <SpecificName>Oasis</SpecificName>
+    <Icon>structures/gerudo/ger_oasis.dds</Icon>
+    <Tooltip>Center of a Gerudo Outpost. Summons Gerudo Heroes. Manned with archers for defense.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>250</wood>
+    <stone>250</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="30.0" width="30.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -archery_tradition
+      -hoplite_tradition
+      -hellenistic_metropolis
+      -roman_roads
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/gerudo/complete_civ_center_gerudo.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/gerudo/sel_civ_center_gerudo.xml</select>
+      <upgraded>interface/complete/building/gerudo/complete_civ_center_gerudo.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/gerudo/infantry_spearman_b
+      units/gerudo/infantry_archer_b
+      units/gerudo/gerudo_trailblazer_b
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>14</X>
+        <Y>13</Y>
+        <Z>-4</Z>
+      </Archer1>
+      <Archer2>
+        <X>9</X>
+        <Y>13</Y>
+        <Z>-4</Z>
+      </Archer2>
+      <Archer3>
+        <X>3.5</X>
+        <Y>19.7</Y>
+        <Z>-19</Z>
+      </Archer3>
+      <Archer4>
+        <X>2.6</X>
+        <Y>19.7</Y>
+        <Z>-15.6</Z>
+      </Archer4>
+      <Archer5>
+        <X>-9.8</X>
+        <Y>17.9</Y>
+        <Z>-12.7</Z>
+      </Archer5>
+      <Archer6>
+        <X>-7.5</X>
+        <Y>17.9</Y>
+        <Z>-10.3</Z>
+      </Archer6>
+      <Archer7>
+        <X>-14.5</X>
+        <Y>15.4</Y>
+        <Z>2.8</Z>
+      </Archer7>
+      <Archer8>
+        <X>-11.5</X>
+        <Y>15.4</Y>
+        <Z>1.5</Z>
+      </Archer8>
+    </TurretPoints>
+  </TurretHolder>
+  <Upgrade>
+    <Palace>
+      <Entity>structures/gerudo/civil_centre_upg</Entity>
+      <Tooltip>Upgrade into a Palace.</Tooltip>
+      <Cost>
+        <stone>500</stone>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>120</Time>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
+    </Palace>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/gerudo/gerudo_oasisA.xml</Actor>
+    <FoundationActor>structures/gerudo/gerudo_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -19,6 +19,11 @@
     <Static depth="40.0" width="40.0"/>
   </Obstruction>
   <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      deku/beautiful_music
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
       units/deku/deku_hornling_b

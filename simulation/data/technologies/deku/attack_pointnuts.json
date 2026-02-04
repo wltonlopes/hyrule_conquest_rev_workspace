@@ -1,12 +1,12 @@
 {
 	"genericName": "Puncturing Deku Nuts",
 	"description": "Nut Carvers apply their art to giving Deku Nuts sharper points, allowing them to wound their targets better.",
-	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 250},
+	"cost": {"food": 0, "wood": 250, "stone": 0, "metal": 0, "rupees": 250},
 	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "deku"}]},
 	"requirementsTooltip": "Unlocked with Town Phase.",
 	"icon": "deku/dek_puncturenuts.dds",
 	"researchTime": 40,
-	"tooltip": "+5 pierce damage and +25% crush damage from Scrubling attacks.",
+	"tooltip": "+5 pierce damage from Scrubling attacks.",
 	"modifications": [
 				{"value": "Attack/Ranged/Damage/Pierce", "add": 5}
 			 ],

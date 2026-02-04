@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+
+  <group>
+    <variant frequency="1" name="hatA">
+      <mesh>units/minor_wizzrobe/wiz_hatA.dae</mesh>
+	  <textures><texture file="skeletal/minor_wizzrobe/wiz_illusionA.dds" name="baseTex"/></textures>
+    </variant>	
+	
+  </group>
+  
+  <material>default.xml</material>
+
+</actor>

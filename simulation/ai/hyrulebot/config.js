@@ -85,6 +85,9 @@ HYRULE.Config = function(difficulty = HYRULE.DIFFICULTY_MEDIUM, behavior)
 			"structures/{civ}/barracksB",
 			"structures/{civ}/barracksC"
 		],
+		"labrynna": [
+			"structures/{civ}/barracksB"
+		],
 		"lanayru": [
 			"structures/{civ}/bank",
 			"structures/{civ}/barracksB"

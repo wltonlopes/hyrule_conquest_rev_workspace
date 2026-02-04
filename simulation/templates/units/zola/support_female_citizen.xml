@@ -18,6 +18,7 @@
       <RepeatTime>1600</RepeatTime>
     </Melee>
   </Attack>
+  <Builder disable=""/>
   <Cost>
     <Resources>
       <food>50</food>

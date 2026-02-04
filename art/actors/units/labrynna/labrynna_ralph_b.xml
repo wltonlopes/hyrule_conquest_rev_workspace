@@ -23,7 +23,6 @@
           <prop actor="props/units/weapons/labrynna_pistolA.xml" attachpoint="root"/>
           <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
           <prop actor="units/labrynna/labrynna_ralph_head_b.xml" attachpoint="root"/>
-          <prop actor="props/hero_selectorA.xml" attachpoint="root"/>
         </props>
         <textures>
           <texture file="skeletal/labrynna/lab_hero1.dds" name="baseTex"/>

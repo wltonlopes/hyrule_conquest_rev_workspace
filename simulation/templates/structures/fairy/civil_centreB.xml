@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/fairy/civil_centre">
+  <Identity>
+    <Icon>structures/fairy/fai_dolmen_summer.dds</Icon>
+    <SpecificName>Dolmen (Summer)</SpecificName>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/fairy/fairy_stray_summer
+      units/fairy/fairy_drove_summer
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Well>
+      <Entity>structures/fairy/civil_centre_upgB</Entity>
+      <Tooltip>Upgrade to a Wishing Well (Summer).</Tooltip>
+      <Cost>
+        <stone>500</stone>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>120</Time>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
+    </Well>
+    <Summer>
+      <Entity>structures/fairy/civil_centreA</Entity>
+      <Tooltip>Upgrade to a Dolmen (Spring).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Summer>
+    <Autumn>
+      <Entity>structures/fairy/civil_centreC</Entity>
+      <Tooltip>Upgrade to a Dolmen (Autumn).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Autumn>
+    <Winter>
+      <Entity>structures/fairy/civil_centreD</Entity>
+      <Tooltip>Upgrade to a Dolmen (Winter).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Winter>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_dolemA_summer.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_summer.xml</FoundationActor>
+  </VisualActor>
+</Entity>

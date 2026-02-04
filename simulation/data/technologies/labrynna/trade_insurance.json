@@ -1,0 +1,15 @@
+{
+	"genericName": "Insurance",
+	"description": "Labrynna protects their system of merchants with an elaborate insurance policy, damaged goods can be paid for with an upfront cost.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 400},
+	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with Village.",
+	"icon": "labrynna/trade_insurance.dds",
+	"researchTime": 40,
+	"tooltip": "Comerciantes +50% hp.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.5}
+	],
+  	"affects": [ "Trader" ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

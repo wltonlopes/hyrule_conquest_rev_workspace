@@ -1,0 +1,16 @@
+{
+	"genericName": "Bolted Process",
+	"description": "Using the same process with which they make crossbow bolts, the Scorio bolts can be upgraded.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 400},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/attack_bolted_process.dds",
+	"researchTime": 40,
+	"tooltip": "+20% pierce and true damage from Scorpios.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/True", "multiply": 1.2}
+			 ],
+	"affects": ["Scorpio"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -26,13 +26,19 @@
   </Footprint>
   <Health>
     <Max>50</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>2</SpawnNumberMax>
+      <SpawnNumberMin>2</SpawnNumberMin>
+      <Template>units/zola/zola_biri_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>zola</Civ>
     <SpecificName>Bari</SpecificName>
     <VisibleClasses datatype="tokens">Creature Jellyfish</VisibleClasses>
     <History>These parasitic jellyfish are used by Zolas to infect and kill large beasts that they plan on consuming. They can only survive without a host for several days. </History>
-    <Tooltip>Floating Creature unit that can stun with a melee attack.</Tooltip>
+    <Tooltip>Floating Creature unit that can stun with a melee attack. Splits into two Biri when slain.</Tooltip>
     <Icon>units/zola/zol_bari.dds</Icon>
   </Identity>
   <Position>

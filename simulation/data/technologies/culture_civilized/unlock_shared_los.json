@@ -1,0 +1,26 @@
+{
+	"genericName": "Postman Network",
+	"description": "By means of a highly devoloped network of post offices and message runners, different civilizations can always know what is happening to their allies.",
+	"cost": {
+		"food": 100,
+		"rupees": 100
+	},
+	"requirements": 
+		{"all": [
+			{ "tech": "phase_village" },
+			{ "any": [
+					{ "civ": "hylian" },
+					{ "civ": "labrynna" },
+					{ "civ": "lanayru" }
+				 ]
+			}
+			]
+		},
+	"icon": "culture_civilized/postman_network.dds",
+	"researchTime": 40,
+	"tooltip": "See what your allies see, browse their summary and check their resources and population count in the top panel.",
+	"modifications": [
+		{ "value": "Player/sharedLos", "replace": true }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

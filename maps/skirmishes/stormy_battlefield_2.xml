@@ -1,0 +1,4903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>rain</SkySet>
+		<SunColor r="0.34902" g="0.34902" b="0.34902"/>
+		<SunElevation angle="0.527689"/>
+		<SunRotation angle="-1.65056"/>
+		<AmbientColor r="0.67451" g="0.67451" b="0.67451"/>
+		<Fog>
+			<FogFactor>0.00133789</FogFactor>
+			<FogThickness>0</FogThickness>
+			<FogColor r="0.576471" g="0.576471" b="0.576471"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>32.088</Height>
+				<Waviness>1</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>90</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="489.272" y="438.956" z="-270.545"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "The site of a recent battle. The smoky ruins of buildings fill the area, and the skeletons of the dead litter the ground. Gather treasure before your enemy does, and battle for control of the watery trench, the only defense in this massive plain.",
+  "Keywords": ["hyrule"],
+  "LockTeams": false,
+  "Name": "Stormy Battlefield (2)",
+  "PlayerData": [
+    {
+      "Color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {}
+  ],
+  "Preview": "stormy_battlefield.png",
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="24">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="294.90891" z="777.49097"/>
+			<Orientation y="2.61567"/>
+			<Actor seed="61241"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="291.53257" z="784.99988"/>
+			<Orientation y="3.00557"/>
+			<Actor seed="42864"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="291.52735" z="794.12586"/>
+			<Orientation y="-2.93828"/>
+			<Actor seed="7055"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="297.649" z="799.83527"/>
+			<Orientation y="-3.12577"/>
+			<Actor seed="37878"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="302.02961" z="801.91254"/>
+			<Orientation y="-2.88657"/>
+			<Actor seed="4505"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="300.86442" z="768.38666"/>
+			<Orientation y="1.95614"/>
+			<Actor seed="45612"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="297.84867" z="774.75086"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37814"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="294.05369" z="783.23023"/>
+			<Orientation y="2.84986"/>
+			<Actor seed="31446"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="293.27744" z="791.66486"/>
+			<Orientation y="3.12348"/>
+			<Actor seed="63391"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="298.00602" z="797.57142"/>
+			<Orientation y="-2.46792"/>
+			<Actor seed="33021"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="302.0264" z="801.78528"/>
+			<Orientation y="-0.26185"/>
+			<Actor seed="41089"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="301.95218" z="809.08338"/>
+			<Orientation y="-3.07444"/>
+			<Actor seed="10564"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="301.7081" z="764.11542"/>
+			<Orientation y="2.67043"/>
+			<Actor seed="54389"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="305.38279" z="756.4054"/>
+			<Orientation y="2.79058"/>
+			<Actor seed="45579"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="298.46827" z="800.90387"/>
+			<Orientation y="-2.57667"/>
+			<Actor seed="47042"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="291.77741" z="798.27741"/>
+			<Orientation y="-3.02652"/>
+			<Actor seed="24010"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="294.14811" z="777.65943"/>
+			<Orientation y="2.59487"/>
+			<Actor seed="3538"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="306.33207" z="284.44904"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59088"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="302.33381" z="293.70545"/>
+			<Orientation y="2.60991"/>
+			<Actor seed="58268"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="300.22504" z="302.57703"/>
+			<Orientation y="3.00428"/>
+			<Actor seed="21"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="302.89039" z="313.1613"/>
+			<Orientation y="-2.80266"/>
+			<Actor seed="5321"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="299.82715" z="308.73572"/>
+			<Orientation y="-2.92386"/>
+			<Actor seed="31271"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="305.48795" z="318.97172"/>
+			<Orientation y="-2.96274"/>
+			<Actor seed="62558"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="305.4087" z="324.44437"/>
+			<Orientation y="3.11442"/>
+			<Actor seed="46312"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>structures/palisades_spikes_tall</Template>
+			<Player>0</Player>
+			<Position x="308.9322" z="280.8606"/>
+			<Orientation y="3.09498"/>
+			<Actor seed="12481"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>structures/palisades_spikes_small</Template>
+			<Player>0</Player>
+			<Position x="309.93125" z="290.84873"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60927"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>structures/palisades_spikes_small</Template>
+			<Player>0</Player>
+			<Position x="306.52115" z="303.28742"/>
+			<Orientation y="0.8508"/>
+			<Actor seed="32123"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="307.27491" z="282.27494"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64893"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="299.68247" z="294.84556"/>
+			<Orientation y="2.55312"/>
+			<Actor seed="26427"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="301.52393" z="303.64979"/>
+			<Orientation y="3.00573"/>
+			<Actor seed="8129"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="303.22098" z="312.03238"/>
+			<Orientation y="3.0638"/>
+			<Actor seed="11056"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="304.64051" z="317.5081"/>
+			<Orientation y="3.02103"/>
+			<Actor seed="61549"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="297.42115" z="306.73328"/>
+			<Orientation y="2.5208"/>
+			<Actor seed="59896"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="303.32935" z="299.71424"/>
+			<Orientation y="2.699"/>
+			<Actor seed="22767"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="303.76575" z="308.91575"/>
+			<Orientation y="2.90404"/>
+			<Actor seed="9675"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="306.26624" z="316.03586"/>
+			<Orientation y="3.04896"/>
+			<Actor seed="4130"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="300.92048" z="320.90287"/>
+			<Orientation y="2.85119"/>
+			<Actor seed="45826"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>structures/palisades_spike_angle</Template>
+			<Player>0</Player>
+			<Position x="305.45487" z="291.34418"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47949"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>actor|props/special/eyecandy/broken_rope_bridge_long.xml</Template>
+			<Position x="260.27006" z="400.33527"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51788"/>
+		</Entity>
+		<Entity uid="94">
+			<Template>actor|props/special/eyecandy/skeleton_propped.xml</Template>
+			<Position x="268.95173" z="355.2504"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8689"/>
+		</Entity>
+		<Entity uid="95">
+			<Template>actor|props/special/eyecandy/skeleton_propped.xml</Template>
+			<Position x="295.96821" z="362.65366"/>
+			<Orientation y="-1.756"/>
+			<Actor seed="13667"/>
+		</Entity>
+		<Entity uid="96">
+			<Template>actor|props/special/eyecandy/skeleton_propped.xml</Template>
+			<Position x="294.32859" z="352.887"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="15091"/>
+		</Entity>
+		<Entity uid="97">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="276.89472" z="372.93567"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16660"/>
+		</Entity>
+		<Entity uid="98">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="285.2375" z="339.6179"/>
+			<Orientation y="-1.06003"/>
+			<Actor seed="15983"/>
+		</Entity>
+		<Entity uid="99">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="267.15302" z="320.1608"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23570"/>
+		</Entity>
+		<Entity uid="100">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="282.3213" z="285.01911"/>
+			<Orientation y="-0.7768"/>
+			<Actor seed="31742"/>
+		</Entity>
+		<Entity uid="101">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="279.21628" z="244.35654"/>
+			<Orientation y="0.55874"/>
+			<Actor seed="56864"/>
+		</Entity>
+		<Entity uid="102">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="294.29621" z="256.23301"/>
+			<Orientation y="-1.50722"/>
+			<Actor seed="54741"/>
+		</Entity>
+		<Entity uid="103">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="303.73005" z="311.52933"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3799"/>
+		</Entity>
+		<Entity uid="104">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="305.99247" z="303.44117"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52007"/>
+		</Entity>
+		<Entity uid="105">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="306.72962" z="320.4727"/>
+			<Orientation y="-2.44617"/>
+			<Actor seed="65236"/>
+		</Entity>
+		<Entity uid="106">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="306.49708" z="324.56208"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64533"/>
+		</Entity>
+		<Entity uid="107">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="258.23557" z="404.19404"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8687"/>
+		</Entity>
+		<Entity uid="108">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="255.92566" z="403.83625"/>
+			<Orientation y="1.25063"/>
+			<Actor seed="38348"/>
+		</Entity>
+		<Entity uid="109">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="257.79361" z="402.77796"/>
+			<Orientation y="-1.36065"/>
+			<Actor seed="25369"/>
+		</Entity>
+		<Entity uid="110">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="258.39225" z="403.66727"/>
+			<Orientation y="-1.2121"/>
+			<Actor seed="8553"/>
+		</Entity>
+		<Entity uid="111">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="256.45176" z="404.80213"/>
+			<Orientation y="2.05582"/>
+			<Actor seed="61590"/>
+		</Entity>
+		<Entity uid="112">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="257.68381" z="404.7869"/>
+			<Orientation y="-2.22303"/>
+			<Actor seed="4159"/>
+		</Entity>
+		<Entity uid="113">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="256.6522" z="403.08365"/>
+			<Orientation y="-0.28988"/>
+			<Actor seed="46699"/>
+		</Entity>
+		<Entity uid="114">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="257.12855" z="403.94553"/>
+			<Orientation y="-0.82453"/>
+			<Actor seed="56725"/>
+		</Entity>
+		<Entity uid="115">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="258.60767" z="403.20539"/>
+			<Orientation y="-0.05954"/>
+			<Actor seed="11144"/>
+		</Entity>
+		<Entity uid="116">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="256.70539" z="403.89307"/>
+			<Orientation y="1.30642"/>
+			<Actor seed="21837"/>
+		</Entity>
+		<Entity uid="117">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="257.2736" z="405.35611"/>
+			<Orientation y="-2.06455"/>
+			<Actor seed="40190"/>
+		</Entity>
+		<Entity uid="118">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="257.67884" z="402.93891"/>
+			<Orientation y="-0.34772"/>
+			<Actor seed="3965"/>
+		</Entity>
+		<Entity uid="119">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="256.42698" z="405.37314"/>
+			<Orientation y="2.09739"/>
+			<Actor seed="12014"/>
+		</Entity>
+		<Entity uid="120">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="256.97837" z="404.91422"/>
+			<Orientation y="-1.14478"/>
+			<Actor seed="28441"/>
+		</Entity>
+		<Entity uid="121">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="256.4758" z="403.84473"/>
+			<Orientation y="-1.35203"/>
+			<Actor seed="32407"/>
+		</Entity>
+		<Entity uid="122">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="258.8349" z="403.33564"/>
+			<Orientation y="0.42618"/>
+			<Actor seed="60722"/>
+		</Entity>
+		<Entity uid="123">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="258.353" z="405.43104"/>
+			<Orientation y="-1.64591"/>
+			<Actor seed="1436"/>
+		</Entity>
+		<Entity uid="124">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="292.52988" z="478.40827"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="57632"/>
+		</Entity>
+		<Entity uid="125">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="282.02695" z="489.00043"/>
+			<Orientation y="0.36501"/>
+			<Actor seed="5823"/>
+		</Entity>
+		<Entity uid="126">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="286.77802" z="512.49872"/>
+			<Orientation y="-1.00585"/>
+			<Actor seed="5823"/>
+		</Entity>
+		<Entity uid="127">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="272.56867" z="531.67756"/>
+			<Orientation y="0.59037"/>
+			<Actor seed="62450"/>
+		</Entity>
+		<Entity uid="128">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="281.13825" z="555.39502"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62450"/>
+		</Entity>
+		<Entity uid="129">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="318.9568" z="505.92148"/>
+			<Orientation y="-1.5186"/>
+			<Actor seed="54224"/>
+		</Entity>
+		<Entity uid="130">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="303.68503" z="797.90888"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12247"/>
+		</Entity>
+		<Entity uid="131">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="294.03849" z="793.40955"/>
+			<Orientation y="-2.59762"/>
+			<Actor seed="20067"/>
+		</Entity>
+		<Entity uid="132">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="294.09827" z="784.41468"/>
+			<Orientation y="2.71929"/>
+			<Actor seed="36376"/>
+		</Entity>
+		<Entity uid="133">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="306.6082" z="754.34845"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9780"/>
+		</Entity>
+		<Entity uid="134">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="297.71698" z="799.58118"/>
+			<Orientation y="-2.64466"/>
+			<Actor seed="22211"/>
+		</Entity>
+		<Entity uid="135">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="304.56739" z="762.09943"/>
+			<Orientation y="-2.96279"/>
+			<Actor seed="2281"/>
+		</Entity>
+		<Entity uid="136">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="300.73115" z="791.33924"/>
+			<Orientation y="-2.50232"/>
+			<Actor seed="42716"/>
+		</Entity>
+		<Entity uid="137">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="306.33103" z="773.70966"/>
+			<Orientation y="0.27862"/>
+			<Actor seed="26888"/>
+		</Entity>
+		<Entity uid="138">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="310.13483" z="778.46589"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="26888"/>
+		</Entity>
+		<Entity uid="139">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="308.51029" z="786.26429"/>
+			<Orientation y="-2.51113"/>
+			<Actor seed="18633"/>
+		</Entity>
+		<Entity uid="140">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="301.84546" z="782.42322"/>
+			<Orientation y="1.8612"/>
+			<Actor seed="26978"/>
+		</Entity>
+		<Entity uid="141">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="305.76673" z="753.27234"/>
+			<Orientation y="1.33814"/>
+			<Actor seed="22760"/>
+		</Entity>
+		<Entity uid="142">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="305.63456" z="782.73176"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14259"/>
+		</Entity>
+		<Entity uid="143">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="291.07178" z="789.90052"/>
+			<Orientation y="-1.602"/>
+			<Actor seed="39220"/>
+		</Entity>
+		<Entity uid="144">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="260.36564" z="809.86646"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44232"/>
+		</Entity>
+		<Entity uid="145">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="286.00886" z="785.80707"/>
+			<Orientation y="-2.0039"/>
+			<Actor seed="27420"/>
+		</Entity>
+		<Entity uid="147">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="281.3636" z="798.27472"/>
+			<Orientation y="-1.4419"/>
+			<Actor seed="8455"/>
+		</Entity>
+		<Entity uid="149">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="280.0088" z="792.25092"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63805"/>
+		</Entity>
+		<Entity uid="152">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="288.0091" z="797.4394"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38812"/>
+		</Entity>
+		<Entity uid="153">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="260.68757" z="593.1814"/>
+			<Orientation y="-2.19784"/>
+			<Actor seed="9924"/>
+		</Entity>
+		<Entity uid="154">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="260.34202" z="583.21442"/>
+			<Orientation y="1.33872"/>
+			<Actor seed="4083"/>
+		</Entity>
+		<Entity uid="155">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="257.63758" z="576.2099"/>
+			<Orientation y="-0.56148"/>
+			<Actor seed="33825"/>
+		</Entity>
+		<Entity uid="156">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="255.76685" z="595.58857"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29236"/>
+		</Entity>
+		<Entity uid="157">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="253.50687" z="588.00507"/>
+			<Orientation y="-2.08639"/>
+			<Actor seed="43829"/>
+		</Entity>
+		<Entity uid="158">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="262.93454" z="570.83045"/>
+			<Orientation y="1.1348"/>
+			<Actor seed="32230"/>
+		</Entity>
+		<Entity uid="159">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="253.3368" z="583.28272"/>
+			<Orientation y="2.86883"/>
+			<Actor seed="4022"/>
+		</Entity>
+		<Entity uid="160">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="298.96717" z="578.60468"/>
+			<Orientation y="-1.48906"/>
+			<Actor seed="29628"/>
+		</Entity>
+		<Entity uid="161">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="268.13428" z="577.7613"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51347"/>
+		</Entity>
+		<Entity uid="162">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="263.18342" z="106.88077"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="16073"/>
+		</Entity>
+		<Entity uid="163">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="260.8263" z="83.19603"/>
+			<Orientation y="0.78997"/>
+			<Actor seed="14363"/>
+		</Entity>
+		<Entity uid="164">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="263.7209" z="94.69347"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="13592"/>
+		</Entity>
+		<Entity uid="165">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="260.25556" z="115.05895"/>
+			<Orientation y="-2.9714"/>
+			<Actor seed="65438"/>
+		</Entity>
+		<Entity uid="166">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="296.42133" z="80.64626"/>
+			<Orientation y="-1.43456"/>
+			<Actor seed="63316"/>
+		</Entity>
+		<Entity uid="167">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="257.68021" z="97.56356"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12973"/>
+		</Entity>
+		<Entity uid="168">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="267.40311" z="103.08555"/>
+			<Orientation y="-2.15796"/>
+			<Actor seed="64"/>
+		</Entity>
+		<Entity uid="169">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="266.41868" z="86.3303"/>
+			<Orientation y="0.19372"/>
+			<Actor seed="43510"/>
+		</Entity>
+		<Entity uid="170">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="259.59055" z="110.37278"/>
+			<Orientation y="3.04194"/>
+			<Actor seed="15577"/>
+		</Entity>
+		<Entity uid="171">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="268.96384" z="110.182"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="3051"/>
+		</Entity>
+		<Entity uid="172">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="293.29844" z="135.56428"/>
+			<Orientation y="-1.6047"/>
+			<Actor seed="39701"/>
+		</Entity>
+		<Entity uid="173">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="269.39853" z="155.58323"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38982"/>
+		</Entity>
+		<Entity uid="174">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="284.67103" z="166.39921"/>
+			<Orientation y="-1.7362"/>
+			<Actor seed="2245"/>
+		</Entity>
+		<Entity uid="175">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="272.77741" z="195.01789"/>
+			<Orientation y="0.9948"/>
+			<Actor seed="41280"/>
+		</Entity>
+		<Entity uid="176">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="290.45496" z="203.04252"/>
+			<Orientation y="-2.14708"/>
+			<Actor seed="18731"/>
+		</Entity>
+		<Entity uid="177">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="285.98206" z="121.50464"/>
+			<Orientation y="-1.77395"/>
+			<Actor seed="45781"/>
+		</Entity>
+		<Entity uid="178">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="283.94642" z="79.88198"/>
+			<Orientation y="0.77207"/>
+			<Actor seed="57478"/>
+		</Entity>
+		<Entity uid="179">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="293.06266" z="97.27887"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="33373"/>
+		</Entity>
+		<Entity uid="180">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="277.68433" z="94.66723"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="19620"/>
+		</Entity>
+		<Entity uid="181">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="273.24341" z="416.26774"/>
+			<Orientation y="1.28736"/>
+			<Actor seed="27800"/>
+		</Entity>
+		<Entity uid="182">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="295.38041" z="419.11307"/>
+			<Orientation y="-1.43122"/>
+			<Actor seed="40382"/>
+		</Entity>
+		<Entity uid="183">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="293.84034" z="445.15674"/>
+			<Orientation y="-2.52236"/>
+			<Actor seed="22404"/>
+		</Entity>
+		<Entity uid="184">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="267.64835" z="463.77121"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38505"/>
+		</Entity>
+		<Entity uid="185">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="266.6775" z="448.16083"/>
+			<Orientation y="-0.51711"/>
+			<Actor seed="14925"/>
+		</Entity>
+		<Entity uid="186">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="277.56412" z="443.04755"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55968"/>
+		</Entity>
+		<Entity uid="187">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="293.34256" z="610.76728"/>
+			<Orientation y="-1.81572"/>
+			<Actor seed="12306"/>
+		</Entity>
+		<Entity uid="188">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="265.10248" z="644.1761"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8764"/>
+		</Entity>
+		<Entity uid="189">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="284.90412" z="669.95264"/>
+			<Orientation y="-2.82595"/>
+			<Actor seed="24595"/>
+		</Entity>
+		<Entity uid="190">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="277.9257" z="630.28534"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="3641"/>
+		</Entity>
+		<Entity uid="191">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="279.52665" z="591.78443"/>
+			<Orientation y="-1.3638"/>
+			<Actor seed="30798"/>
+		</Entity>
+		<Entity uid="192">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="280.46763" z="577.14496"/>
+			<Orientation y="1.5057"/>
+			<Actor seed="567"/>
+		</Entity>
+		<Entity uid="193">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="287.6992" z="586.54224"/>
+			<Orientation y="-1.53185"/>
+			<Actor seed="56541"/>
+		</Entity>
+		<Entity uid="194">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="270.85389" z="593.62183"/>
+			<Orientation y="1.7654"/>
+			<Actor seed="11179"/>
+		</Entity>
+		<Entity uid="195">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="271.09006" z="686.0647"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="11225"/>
+		</Entity>
+		<Entity uid="196">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="293.59568" z="704.2439"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="61387"/>
+		</Entity>
+		<Entity uid="197">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="268.88929" z="722.72498"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43559"/>
+		</Entity>
+		<Entity uid="198">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="261.88813" z="759.0431"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11472"/>
+		</Entity>
+		<Entity uid="199">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="284.61542" z="734.77045"/>
+			<Orientation y="-1.3965"/>
+			<Actor seed="63117"/>
+		</Entity>
+		<Entity uid="200">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="275.47837" z="749.74976"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="53727"/>
+		</Entity>
+		<Entity uid="201">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="268.0004" z="776.92438"/>
+			<Orientation y="1.49056"/>
+			<Actor seed="34125"/>
+		</Entity>
+		<Entity uid="202">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="288.67783" z="769.26606"/>
+			<Orientation y="-1.33346"/>
+			<Actor seed="50867"/>
+		</Entity>
+		<Entity uid="203">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="271.67878" z="792.41254"/>
+			<Orientation y="0.1629"/>
+			<Actor seed="11060"/>
+		</Entity>
+		<Entity uid="204">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="268.69187" z="818.1053"/>
+			<Orientation y="2.70354"/>
+			<Actor seed="62204"/>
+		</Entity>
+		<Entity uid="205">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="289.8877" z="815.87714"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="6267"/>
+		</Entity>
+		<Entity uid="206">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="300.67637" z="830.24317"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="3404"/>
+		</Entity>
+		<Entity uid="207">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="288.25574" z="836.28913"/>
+			<Orientation y="-1.62142"/>
+			<Actor seed="37821"/>
+		</Entity>
+		<Entity uid="208">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="263.23313" z="845.5229"/>
+			<Orientation y="0.59823"/>
+			<Actor seed="12929"/>
+		</Entity>
+		<Entity uid="209">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="277.96344" z="854.67994"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="23201"/>
+		</Entity>
+		<Entity uid="210">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="281.13611" z="884.00068"/>
+			<Orientation y="2.76623"/>
+			<Actor seed="65320"/>
+		</Entity>
+		<Entity uid="211">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="268.86612" z="873.74775"/>
+			<Orientation y="-1.50997"/>
+			<Actor seed="63501"/>
+		</Entity>
+		<Entity uid="212">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="295.00324" z="917.30286"/>
+			<Orientation y="-2.13222"/>
+			<Actor seed="63501"/>
+		</Entity>
+		<Entity uid="213">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="265.13529" z="907.84534"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="45547"/>
+		</Entity>
+		<Entity uid="214">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="260.66068" z="937.91358"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62082"/>
+		</Entity>
+		<Entity uid="215">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="281.87861" z="962.26758"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59952"/>
+		</Entity>
+		<Entity uid="216">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="284.51825" z="951.6222"/>
+			<Orientation y="-2.35204"/>
+			<Actor seed="32760"/>
+		</Entity>
+		<Entity uid="217">
+			<Template>actor|props/special/eyecandy/skeleton.xml</Template>
+			<Position x="276.48664" z="827.42786"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37246"/>
+		</Entity>
+		<Entity uid="218">
+			<Template>rubble/rubble_stone_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="250.65217" z="123.90291"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36957"/>
+		</Entity>
+		<Entity uid="219">
+			<Template>rubble/rubble_stone_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="252.32895" z="419.49839"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6433"/>
+		</Entity>
+		<Entity uid="234">
+			<Template>rubble/rubble_gaul_cc</Template>
+			<Player>0</Player>
+			<Position x="125.12716" z="340.40284"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16013"/>
+		</Entity>
+		<Entity uid="235">
+			<Template>rubble/rubble_stone_5x5</Template>
+			<Player>0</Player>
+			<Position x="161.94895" z="225.81513"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27631"/>
+		</Entity>
+		<Entity uid="236">
+			<Template>rubble/rubble_stone_5x5</Template>
+			<Player>0</Player>
+			<Position x="101.62964" z="269.70701"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55980"/>
+		</Entity>
+		<Entity uid="237">
+			<Template>rubble/rubble_stone_5x5</Template>
+			<Player>0</Player>
+			<Position x="194.77457" z="283.60737"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12458"/>
+		</Entity>
+		<Entity uid="238">
+			<Template>rubble/rubble_stone_5x5</Template>
+			<Player>0</Player>
+			<Position x="83.85662" z="463.10462"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58869"/>
+		</Entity>
+		<Entity uid="239">
+			<Template>rubble/rubble_stone_5x5</Template>
+			<Player>0</Player>
+			<Position x="165.75907" z="387.08994"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18346"/>
+		</Entity>
+		<Entity uid="240">
+			<Template>rubble/rubble_stone_6x4</Template>
+			<Player>0</Player>
+			<Position x="143.83158" z="275.7129"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19725"/>
+		</Entity>
+		<Entity uid="241">
+			<Template>rubble/rubble_stone_6x4</Template>
+			<Player>0</Player>
+			<Position x="124.54702" z="523.08448"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6756"/>
+		</Entity>
+		<Entity uid="242">
+			<Template>rubble/rubble_wood_3x3</Template>
+			<Player>0</Player>
+			<Position x="162.072" z="176.81046"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11371"/>
+		</Entity>
+		<Entity uid="243">
+			<Template>rubble/rubble_wood_3x3</Template>
+			<Player>0</Player>
+			<Position x="206.61344" z="211.0063"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11917"/>
+		</Entity>
+		<Entity uid="244">
+			<Template>rubble/rubble_wood_3x3</Template>
+			<Player>0</Player>
+			<Position x="182.35468" z="325.2081"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32027"/>
+		</Entity>
+		<Entity uid="245">
+			<Template>rubble/rubble_wood_3x3</Template>
+			<Player>0</Player>
+			<Position x="118.87998" z="423.05051"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37620"/>
+		</Entity>
+		<Entity uid="246">
+			<Template>rubble/rubble_wood_3x3</Template>
+			<Player>0</Player>
+			<Position x="208.29374" z="562.4513"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54237"/>
+		</Entity>
+		<Entity uid="247">
+			<Template>rubble/rubble_wood_3x3</Template>
+			<Player>0</Player>
+			<Position x="110.56835" z="633.25947"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14852"/>
+		</Entity>
+		<Entity uid="248">
+			<Template>rubble/rubble_stone_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="85.69434" z="312.95524"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50549"/>
+		</Entity>
+		<Entity uid="249">
+			<Template>rubble/rubble_stone_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="59.08808" z="472.59098"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62708"/>
+		</Entity>
+		<Entity uid="250">
+			<Template>rubble/rubble_stone_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="45.5009" z="499.08622"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42580"/>
+		</Entity>
+		<Entity uid="251">
+			<Template>rubble/rubble_stone_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="206.08802" z="501.22324"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37657"/>
+		</Entity>
+		<Entity uid="252">
+			<Template>rubble/rubble_stone_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="221.34391" z="183.418"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37233"/>
+		</Entity>
+		<Entity uid="253">
+			<Template>rubble/rubble_stone_6x4</Template>
+			<Player>0</Player>
+			<Position x="122.64824" z="216.53647"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24008"/>
+		</Entity>
+		<Entity uid="254">
+			<Template>rubble/rubble_stone_6x4</Template>
+			<Player>0</Player>
+			<Position x="66.47242" z="396.91294"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27685"/>
+		</Entity>
+		<Entity uid="255">
+			<Template>rubble/rubble_stone_6x4</Template>
+			<Player>0</Player>
+			<Position x="86.09253" z="553.9632"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19303"/>
+		</Entity>
+		<Entity uid="256">
+			<Template>rubble/debris_stalfos_wonder_anc</Template>
+			<Player>0</Player>
+			<Position x="589.11304" z="779.57862"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26067"/>
+		</Entity>
+		<Entity uid="257">
+			<Template>rubble/rubble_field_rice</Template>
+			<Player>0</Player>
+			<Position x="498.09031" z="683.4477"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32186"/>
+		</Entity>
+		<Entity uid="258">
+			<Template>rubble/rubble_field_rice</Template>
+			<Player>0</Player>
+			<Position x="467.99457" z="795.56379"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48813"/>
+		</Entity>
+		<Entity uid="259">
+			<Template>rubble/rubble_field_rice</Template>
+			<Player>0</Player>
+			<Position x="636.1897" z="596.27222"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25068"/>
+		</Entity>
+		<Entity uid="260">
+			<Template>rubble/rubble_field_rice</Template>
+			<Player>0</Player>
+			<Position x="705.46497" z="700.8376"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25068"/>
+		</Entity>
+		<Entity uid="261">
+			<Template>rubble/rubble_field_rice</Template>
+			<Player>0</Player>
+			<Position x="669.17835" z="789.60663"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32423"/>
+		</Entity>
+		<Entity uid="262">
+			<Template>rubble/rubble_field_rice</Template>
+			<Player>0</Player>
+			<Position x="603.28296" z="656.93714"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17989"/>
+		</Entity>
+		<Entity uid="263">
+			<Template>rubble/rubble_celt_dock</Template>
+			<Player>0</Player>
+			<Position x="555.5384" z="654.95716"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1587"/>
+		</Entity>
+		<Entity uid="264">
+			<Template>rubble/rubble_celt_dock</Template>
+			<Player>0</Player>
+			<Position x="506.2754" z="889.57618"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62305"/>
+		</Entity>
+		<Entity uid="265">
+			<Template>rubble/rubble_celt_dock</Template>
+			<Player>0</Player>
+			<Position x="702.39551" z="598.47962"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29809"/>
+		</Entity>
+		<Entity uid="266">
+			<Template>rubble/rubble_stone_3x3</Template>
+			<Player>0</Player>
+			<Position x="537.32551" z="614.36615"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6811"/>
+		</Entity>
+		<Entity uid="267">
+			<Template>rubble/rubble_stone_3x3</Template>
+			<Player>0</Player>
+			<Position x="526.77131" z="685.12806"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32214"/>
+		</Entity>
+		<Entity uid="268">
+			<Template>rubble/rubble_stone_3x3</Template>
+			<Player>0</Player>
+			<Position x="450.80646" z="774.64832"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45920"/>
+		</Entity>
+		<Entity uid="269">
+			<Template>rubble/rubble_stone_3x3</Template>
+			<Player>0</Player>
+			<Position x="476.27097" z="850.19336"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22107"/>
+		</Entity>
+		<Entity uid="270">
+			<Template>rubble/rubble_stone_3x3</Template>
+			<Player>0</Player>
+			<Position x="433.5113" z="888.24207"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53685"/>
+		</Entity>
+		<Entity uid="271">
+			<Template>rubble/rubble_stone_2x2</Template>
+			<Player>0</Player>
+			<Position x="575.64728" z="555.30677"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49896"/>
+		</Entity>
+		<Entity uid="272">
+			<Template>rubble/rubble_stone_2x2</Template>
+			<Player>0</Player>
+			<Position x="615.24854" z="636.27454"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47737"/>
+		</Entity>
+		<Entity uid="273">
+			<Template>rubble/rubble_stone_2x2</Template>
+			<Player>0</Player>
+			<Position x="664.40803" z="652.50208"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21382"/>
+		</Entity>
+		<Entity uid="274">
+			<Template>rubble/rubble_stone_2x2</Template>
+			<Player>0</Player>
+			<Position x="663.81342" z="703.00367"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19712"/>
+		</Entity>
+		<Entity uid="275">
+			<Template>rubble/rubble_stone_2x2</Template>
+			<Player>0</Player>
+			<Position x="633.78882" z="856.2765"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1572"/>
+		</Entity>
+		<Entity uid="276">
+			<Template>rubble/rubble_stone_2x2</Template>
+			<Player>0</Player>
+			<Position x="752.80951" z="793.1767"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7189"/>
+		</Entity>
+		<Entity uid="277">
+			<Template>rubble/rubble_stone_2x2</Template>
+			<Player>0</Player>
+			<Position x="755.32404" z="672.95081"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62845"/>
+		</Entity>
+		<Entity uid="278">
+			<Template>rubble/rubble_stone_2x2</Template>
+			<Player>0</Player>
+			<Position x="747.14704" z="593.58997"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7446"/>
+		</Entity>
+		<Entity uid="279">
+			<Template>rubble/rubble_stone_2x2</Template>
+			<Player>0</Player>
+			<Position x="658.27295" z="524.43891"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7446"/>
+		</Entity>
+		<Entity uid="280">
+			<Template>rubble/rubble_stone_wall_tower</Template>
+			<Player>0</Player>
+			<Position x="559.5644" z="488.41376"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18057"/>
+		</Entity>
+		<Entity uid="281">
+			<Template>rubble/rubble_stone_4x6</Template>
+			<Player>0</Player>
+			<Position x="548.46442" z="438.86454"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8156"/>
+		</Entity>
+		<Entity uid="282">
+			<Template>rubble/rubble_stone_4x6</Template>
+			<Player>0</Player>
+			<Position x="764.39112" z="458.23823"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43454"/>
+		</Entity>
+		<Entity uid="283">
+			<Template>rubble/rubble_stone_4x6</Template>
+			<Player>0</Player>
+			<Position x="804.10431" z="599.01398"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46148"/>
+		</Entity>
+		<Entity uid="284">
+			<Template>rubble/rubble_stone_4x6</Template>
+			<Player>0</Player>
+			<Position x="915.0586" z="647.54462"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57648"/>
+		</Entity>
+		<Entity uid="285">
+			<Template>rubble/rubble_stone_4x6</Template>
+			<Player>0</Player>
+			<Position x="882.6598" z="730.6808"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57648"/>
+		</Entity>
+		<Entity uid="286">
+			<Template>rubble/rubble_stone_4x6</Template>
+			<Player>0</Player>
+			<Position x="838.16596" z="458.3556"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54704"/>
+		</Entity>
+		<Entity uid="287">
+			<Template>rubble/rubble_stone_4x6</Template>
+			<Player>0</Player>
+			<Position x="635.21888" z="648.5901"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34942"/>
+		</Entity>
+		<Entity uid="288">
+			<Template>rubble/rubble_stone_4x6</Template>
+			<Player>0</Player>
+			<Position x="637.87519" z="907.3429"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58966"/>
+		</Entity>
+		<Entity uid="289">
+			<Template>rubble/rubble_stone_4x6</Template>
+			<Player>0</Player>
+			<Position x="598.86811" z="872.26795"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3666"/>
+		</Entity>
+		<Entity uid="290">
+			<Template>rubble/rubble_stone_4x6</Template>
+			<Player>0</Player>
+			<Position x="509.64734" z="774.37793"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49605"/>
+		</Entity>
+		<Entity uid="291">
+			<Template>rubble/rubble_stone_6x4</Template>
+			<Player>0</Player>
+			<Position x="490.63974" z="454.81482"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53999"/>
+		</Entity>
+		<Entity uid="292">
+			<Template>rubble/rubble_stone_6x4</Template>
+			<Player>0</Player>
+			<Position x="581.4308" z="605.37513"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21561"/>
+		</Entity>
+		<Entity uid="293">
+			<Template>rubble/rubble_stone_6x4</Template>
+			<Player>0</Player>
+			<Position x="595.70826" z="668.87391"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35581"/>
+		</Entity>
+		<Entity uid="294">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="381.5467" z="360.32776"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3162"/>
+		</Entity>
+		<Entity uid="295">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="389.24646" z="371.5251"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16633"/>
+		</Entity>
+		<Entity uid="296">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="389.6738" z="371.53626"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7839"/>
+		</Entity>
+		<Entity uid="297">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="389.72956" z="374.71055"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37547"/>
+		</Entity>
+		<Entity uid="298">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="401.51795" z="388.13306"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24271"/>
+		</Entity>
+		<Entity uid="299">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="400.79743" z="388.68152"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12418"/>
+		</Entity>
+		<Entity uid="300">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="414.73484" z="402.09491"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12418"/>
+		</Entity>
+		<Entity uid="301">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="423.06342" z="414.48078"/>
+			<Orientation y="-0.61028"/>
+			<Actor seed="15874"/>
+		</Entity>
+		<Entity uid="302">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="416.63483" z="423.64197"/>
+			<Orientation y="-1.37438"/>
+			<Actor seed="46956"/>
+		</Entity>
+		<Entity uid="303">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="423.94474" z="446.56379"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1914"/>
+		</Entity>
+		<Entity uid="304">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="428.30817" z="461.45624"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3063"/>
+		</Entity>
+		<Entity uid="305">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="432.43314" z="470.49225"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35787"/>
+		</Entity>
+		<Entity uid="306">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="438.92829" z="481.63538"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3584"/>
+		</Entity>
+		<Entity uid="307">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="444.80262" z="496.12629"/>
+			<Orientation y="1.71761"/>
+			<Actor seed="36132"/>
+		</Entity>
+		<Entity uid="308">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="446.44581" z="515.1084"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20249"/>
+		</Entity>
+		<Entity uid="309">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="449.9029" z="512.9668"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4091"/>
+		</Entity>
+		<Entity uid="310">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="453.16538" z="525.66993"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4091"/>
+		</Entity>
+		<Entity uid="311">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="455.59305" z="529.40076"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48483"/>
+		</Entity>
+		<Entity uid="312">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="453.92048" z="535.42658"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40540"/>
+		</Entity>
+		<Entity uid="313">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="458.56638" z="548.78748"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="40540"/>
+		</Entity>
+		<Entity uid="314">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="457.10691" z="563.27674"/>
+			<Orientation y="1.94472"/>
+			<Actor seed="1077"/>
+		</Entity>
+		<Entity uid="315">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="459.38874" z="587.82337"/>
+			<Orientation y="2.14432"/>
+			<Actor seed="30615"/>
+		</Entity>
+		<Entity uid="316">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="463.79551" z="606.28437"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41716"/>
+		</Entity>
+		<Entity uid="317">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="467.0499" z="623.14399"/>
+			<Orientation y="1.3379"/>
+			<Actor seed="13922"/>
+		</Entity>
+		<Entity uid="318">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="462.80695" z="653.88947"/>
+			<Orientation y="2.29897"/>
+			<Actor seed="18578"/>
+		</Entity>
+		<Entity uid="319">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="470.66877" z="649.8136"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41013"/>
+		</Entity>
+		<Entity uid="320">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="464.11265" z="673.01532"/>
+			<Orientation y="-1.87838"/>
+			<Actor seed="23651"/>
+		</Entity>
+		<Entity uid="321">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="450.41224" z="694.18744"/>
+			<Orientation y="-0.30588"/>
+			<Actor seed="55267"/>
+		</Entity>
+		<Entity uid="322">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="443.96888" z="714.5475"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40915"/>
+		</Entity>
+		<Entity uid="323">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="443.96888" z="714.5475"/>
+			<Orientation y="-0.57277"/>
+			<Actor seed="40915"/>
+		</Entity>
+		<Entity uid="324">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="413.06238" z="764.18396"/>
+			<Orientation y="1.36837"/>
+			<Actor seed="41240"/>
+		</Entity>
+		<Entity uid="325">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="428.18113" z="734.38447"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5557"/>
+		</Entity>
+		<Entity uid="326">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="404.99161" z="819.06342"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39111"/>
+		</Entity>
+		<Entity uid="327">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="391.45289" z="890.71314"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56469"/>
+		</Entity>
+		<Entity uid="328">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="400.22056" z="830.94751"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18640"/>
+		</Entity>
+		<Entity uid="329">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="399.18943" z="834.97724"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10748"/>
+		</Entity>
+		<Entity uid="330">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="394.25196" z="879.48633"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59973"/>
+		</Entity>
+		<Entity uid="331">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="400.19275" z="855.65857"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48130"/>
+		</Entity>
+		<Entity uid="332">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="388.4502" z="925.98536"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11818"/>
+		</Entity>
+		<Entity uid="333">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="380.12833" z="956.05707"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20464"/>
+		</Entity>
+		<Entity uid="334">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="387.9701" z="347.93003"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20464"/>
+		</Entity>
+		<Entity uid="335">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="403.97028" z="321.4384"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20332"/>
+		</Entity>
+		<Entity uid="336">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="410.4787" z="311.87247"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35049"/>
+		</Entity>
+		<Entity uid="337">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="412.14316" z="308.97019"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42720"/>
+		</Entity>
+		<Entity uid="338">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="436.13581" z="295.87552"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42720"/>
+		</Entity>
+		<Entity uid="339">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="462.42112" z="289.88657"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34967"/>
+		</Entity>
+		<Entity uid="340">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="487.6507" z="292.645"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6677"/>
+		</Entity>
+		<Entity uid="341">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="505.20514" z="277.74503"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35230"/>
+		</Entity>
+		<Entity uid="342">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="507.81275" z="275.96299"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35230"/>
+		</Entity>
+		<Entity uid="343">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="510.5" z="273.6768"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47929"/>
+		</Entity>
+		<Entity uid="344">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="516.0636" z="266.40653"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47929"/>
+		</Entity>
+		<Entity uid="345">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="524.91828" z="248.9066"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22310"/>
+		</Entity>
+		<Entity uid="346">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="551.32172" z="227.13212"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26792"/>
+		</Entity>
+		<Entity uid="347">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="601.21961" z="224.78354"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6473"/>
+		</Entity>
+		<Entity uid="348">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="637.14869" z="196.55796"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42257"/>
+		</Entity>
+		<Entity uid="349">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="662.26557" z="146.9473"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2489"/>
+		</Entity>
+		<Entity uid="350">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="718.10975" z="136.1854"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2489"/>
+		</Entity>
+		<Entity uid="351">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="737.95685" z="116.53537"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8068"/>
+		</Entity>
+		<Entity uid="352">
+			<Template>rubble/rubble_stone_4x2</Template>
+			<Player>0</Player>
+			<Position x="748.80286" z="97.54551"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46781"/>
+		</Entity>
+		<Entity uid="353">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="509.602" z="372.2858"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24043"/>
+		</Entity>
+		<Entity uid="354">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="682.1139" z="327.92893"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9410"/>
+		</Entity>
+		<Entity uid="355">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="601.17695" z="500.22934"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9410"/>
+		</Entity>
+		<Entity uid="356">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="688.63245" z="369.59855"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29320"/>
+		</Entity>
+		<Entity uid="357">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="649.32099" z="500.20469"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58505"/>
+		</Entity>
+		<Entity uid="358">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="649.32099" z="500.20469"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1851"/>
+		</Entity>
+		<Entity uid="359">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="620.70722" z="413.46537"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45842"/>
+		</Entity>
+		<Entity uid="360">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="702.31055" z="480.9467"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43621"/>
+		</Entity>
+		<Entity uid="361">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="745.1996" z="780.46265"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40442"/>
+		</Entity>
+		<Entity uid="362">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="683.74622" z="879.60657"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45503"/>
+		</Entity>
+		<Entity uid="363">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="770.9693" z="810.36182"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45503"/>
+		</Entity>
+		<Entity uid="364">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="882.75324" z="420.41172"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24954"/>
+		</Entity>
+		<Entity uid="365">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="842.91828" z="395.93241"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58552"/>
+		</Entity>
+		<Entity uid="366">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="944.2464" z="393.96085"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58552"/>
+		</Entity>
+		<Entity uid="367">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="944.2464" z="393.96085"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9494"/>
+		</Entity>
+		<Entity uid="368">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="953.45948" z="559.08411"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34089"/>
+		</Entity>
+		<Entity uid="369">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="823.6825" z="511.11619"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57560"/>
+		</Entity>
+		<Entity uid="370">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="832.16614" z="522.18982"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57560"/>
+		</Entity>
+		<Entity uid="371">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="826.50416" z="693.74598"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37815"/>
+		</Entity>
+		<Entity uid="372">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="784.08472" z="740.8733"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16530"/>
+		</Entity>
+		<Entity uid="373">
+			<Template>rubble/debris_ordona_small</Template>
+			<Player>0</Player>
+			<Position x="0" z="342.02671"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19735"/>
+		</Entity>
+		<Entity uid="374">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="586.0558" z="327.09296"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36792"/>
+		</Entity>
+		<Entity uid="375">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="640.25995" z="381.49347"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57752"/>
+		</Entity>
+		<Entity uid="376">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="653.11573" z="457.83655"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52817"/>
+		</Entity>
+		<Entity uid="377">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="653.29102" z="722.67591"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28726"/>
+		</Entity>
+		<Entity uid="378">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="661.3902" z="861.77417"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64818"/>
+		</Entity>
+		<Entity uid="379">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="846.28583" z="779.5298"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42471"/>
+		</Entity>
+		<Entity uid="380">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="870.9292" z="249.55964"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56736"/>
+		</Entity>
+		<Entity uid="381">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="800.96644" z="267.10853"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64405"/>
+		</Entity>
+		<Entity uid="382">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="773.47925" z="380.27723"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62363"/>
+		</Entity>
+		<Entity uid="383">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="681.99994" z="251.51426"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11458"/>
+		</Entity>
+		<Entity uid="384">
+			<Template>actor|structures/destruct_celt_dock_rubble.xml</Template>
+			<Position x="386.10663" z="217.00336"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35517"/>
+		</Entity>
+		<Entity uid="385">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="139.32905" z="430.5724"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57014"/>
+		</Entity>
+		<Entity uid="386">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="139.05741" z="425.11652"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20819"/>
+		</Entity>
+		<Entity uid="387">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="139.41834" z="418.53254"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17847"/>
+		</Entity>
+		<Entity uid="388">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="139.64365" z="410.06452"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17847"/>
+		</Entity>
+		<Entity uid="389">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="139.64155" z="413.24228"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39664"/>
+		</Entity>
+		<Entity uid="390">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="134.44321" z="432.11878"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23625"/>
+		</Entity>
+		<Entity uid="391">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="135.05903" z="426.32782"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26497"/>
+		</Entity>
+		<Entity uid="392">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="135.5876" z="419.58262"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26497"/>
+		</Entity>
+		<Entity uid="393">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="135.92762" z="415.00544"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41114"/>
+		</Entity>
+		<Entity uid="394">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>1</Player>
+			<Position x="136.01432" z="411.70252"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58037"/>
+		</Entity>
+		<Entity uid="395">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="130.573" z="432.38102"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53298"/>
+		</Entity>
+		<Entity uid="396">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="131.00358" z="428.62403"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52379"/>
+		</Entity>
+		<Entity uid="397">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="131.50226" z="422.4134"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38457"/>
+		</Entity>
+		<Entity uid="398">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="132.10389" z="417.16105"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55042"/>
+		</Entity>
+		<Entity uid="399">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>1</Player>
+			<Position x="132.28321" z="412.904"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64169"/>
+		</Entity>
+		<Entity uid="400">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="144.53046" z="424.01355"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1667"/>
+		</Entity>
+		<Entity uid="401">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="144.47407" z="417.70649"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32237"/>
+		</Entity>
+		<Entity uid="402">
+			<Template>skirmish/units/special_starting_unit</Template>
+			<Player>1</Player>
+			<Position x="154.32895" z="414.64994"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11157"/>
+		</Entity>
+		<Entity uid="403">
+			<Template>skirmish/units/special_starting_unit</Template>
+			<Player>2</Player>
+			<Position x="898.02491" z="456.27891"/>
+			<Orientation y="-1.8142"/>
+			<Actor seed="58356"/>
+		</Entity>
+		<Entity uid="404">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>2</Player>
+			<Position x="906.17939" z="466.8938"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="50296"/>
+		</Entity>
+		<Entity uid="405">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>2</Player>
+			<Position x="908.10291" z="453.2193"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="58287"/>
+		</Entity>
+		<Entity uid="406">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>2</Player>
+			<Position x="914.42792" z="475.0178"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="59211"/>
+		</Entity>
+		<Entity uid="407">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>2</Player>
+			<Position x="915.3219" z="467.60264"/>
+			<Orientation y="-1.76035"/>
+			<Actor seed="48594"/>
+		</Entity>
+		<Entity uid="408">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>2</Player>
+			<Position x="916.87641" z="460.10608"/>
+			<Orientation y="-1.68323"/>
+			<Actor seed="1998"/>
+		</Entity>
+		<Entity uid="409">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>2</Player>
+			<Position x="917.27137" z="453.52015"/>
+			<Orientation y="-1.70891"/>
+			<Actor seed="18882"/>
+		</Entity>
+		<Entity uid="410">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>2</Player>
+			<Position x="918.30414" z="446.8708"/>
+			<Orientation y="-1.74567"/>
+			<Actor seed="29207"/>
+		</Entity>
+		<Entity uid="411">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="923.4527" z="449.98179"/>
+			<Orientation y="-1.57082"/>
+			<Actor seed="14071"/>
+		</Entity>
+		<Entity uid="412">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="922.36384" z="455.04133"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="48297"/>
+		</Entity>
+		<Entity uid="413">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="922.10053" z="462.42145"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="58578"/>
+		</Entity>
+		<Entity uid="414">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="921.21851" z="469.76374"/>
+			<Orientation y="-1.93142"/>
+			<Actor seed="35391"/>
+		</Entity>
+		<Entity uid="415">
+			<Template>skirmish/units/default_infantry_ranged_b</Template>
+			<Player>2</Player>
+			<Position x="920.95875" z="477.76221"/>
+			<Orientation y="-1.86133"/>
+			<Actor seed="16692"/>
+		</Entity>
+		<Entity uid="416">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="928.61036" z="450.06653"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="24007"/>
+		</Entity>
+		<Entity uid="417">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="928.47046" z="456.6045"/>
+			<Orientation y="-1.6805"/>
+			<Actor seed="52170"/>
+		</Entity>
+		<Entity uid="418">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="929.17292" z="465.35886"/>
+			<Orientation y="-1.57082"/>
+			<Actor seed="37785"/>
+		</Entity>
+		<Entity uid="419">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="927.92872" z="470.65857"/>
+			<Orientation y="-1.80912"/>
+			<Actor seed="56113"/>
+		</Entity>
+		<Entity uid="420">
+			<Template>skirmish/units/default_support_female_citizen</Template>
+			<Player>2</Player>
+			<Position x="927.79987" z="481.25849"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="46126"/>
+		</Entity>
+		<Entity uid="421">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="830.41303" z="337.37031"/>
+			<Orientation y="1.51763"/>
+			<Actor seed="21336"/>
+		</Entity>
+		<Entity uid="422">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="836.36902" z="336.68567"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48760"/>
+		</Entity>
+		<Entity uid="423">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="826.72651" z="345.52942"/>
+			<Orientation y="-1.73832"/>
+			<Actor seed="10999"/>
+		</Entity>
+		<Entity uid="424">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="824.48993" z="332.86152"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3829"/>
+		</Entity>
+		<Entity uid="425">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="836.33338" z="329.23728"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28833"/>
+		</Entity>
+		<Entity uid="426">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="819.51752" z="344.22208"/>
+			<Orientation y="-3.04957"/>
+			<Actor seed="53176"/>
+		</Entity>
+		<Entity uid="427">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="831.60987" z="351.2656"/>
+			<Orientation y="-1.60517"/>
+			<Actor seed="42513"/>
+		</Entity>
+		<Entity uid="428">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="830.22663" z="361.11417"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4204"/>
+		</Entity>
+		<Entity uid="429">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="830.29957" z="325.94587"/>
+			<Orientation y="-1.41181"/>
+			<Actor seed="27094"/>
+		</Entity>
+		<Entity uid="430">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="836.91498" z="348.13563"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22636"/>
+		</Entity>
+		<Entity uid="431">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="817.7292" z="351.14628"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57847"/>
+		</Entity>
+		<Entity uid="432">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="815.9062" z="332.99552"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1249"/>
+		</Entity>
+		<Entity uid="433">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="825.30127" z="318.43683"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39283"/>
+		</Entity>
+		<Entity uid="434">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="839.16517" z="321.81598"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36982"/>
+		</Entity>
+		<Entity uid="435">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="814.53376" z="340.74851"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39944"/>
+		</Entity>
+		<Entity uid="436">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="749.5246" z="557.2743"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="12342"/>
+		</Entity>
+		<Entity uid="437">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="759.50947" z="551.5796"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2529"/>
+		</Entity>
+		<Entity uid="438">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="756.78931" z="535.52027"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="4856"/>
+		</Entity>
+		<Entity uid="439">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="755.31959" z="552.2563"/>
+			<Orientation y="1.5708"/>
+			<Actor seed="4856"/>
+		</Entity>
+		<Entity uid="440">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="766.77961" z="558.12171"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="54951"/>
+		</Entity>
+		<Entity uid="441">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="748.28956" z="569.17396"/>
+			<Orientation y="2.19898"/>
+			<Actor seed="37693"/>
+		</Entity>
+		<Entity uid="442">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="744.37952" z="549.14454"/>
+			<Orientation y="-1.7449"/>
+			<Actor seed="18755"/>
+		</Entity>
+		<Entity uid="443">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="752.4903" z="536.21216"/>
+			<Orientation y="1.48252"/>
+			<Actor seed="18755"/>
+		</Entity>
+		<Entity uid="444">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="762.9889" z="541.23676"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="10990"/>
+		</Entity>
+		<Entity uid="445">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="766.78736" z="567.83979"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="33165"/>
+		</Entity>
+		<Entity uid="446">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="754.06153" z="575.58838"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="49879"/>
+		</Entity>
+		<Entity uid="447">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="762.02601" z="562.9264"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6869"/>
+		</Entity>
+		<Entity uid="448">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="750.12262" z="545.9018"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47652"/>
+		</Entity>
+		<Entity uid="449">
+			<Template>gaia/tree/oak_dead</Template>
+			<Player>0</Player>
+			<Position x="759.17121" z="558.51093"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30027"/>
+		</Entity>
+		<Entity uid="450">
+			<Template>gaia/tree/oak_dead</Template>
+			<Player>0</Player>
+			<Position x="770.45771" z="548.72846"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52857"/>
+		</Entity>
+		<Entity uid="451">
+			<Template>gaia/tree/oak_dead</Template>
+			<Player>0</Player>
+			<Position x="829.79432" z="327.80396"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55219"/>
+		</Entity>
+		<Entity uid="452">
+			<Template>gaia/tree/oak_dead</Template>
+			<Player>0</Player>
+			<Position x="823.78187" z="348.46894"/>
+			<Orientation y="-1.66932"/>
+			<Actor seed="11566"/>
+		</Entity>
+		<Entity uid="453">
+			<Template>gaia/tree/oak_dead</Template>
+			<Player>0</Player>
+			<Position x="829.81379" z="331.26575"/>
+			<Orientation y="-1.27564"/>
+			<Actor seed="29017"/>
+		</Entity>
+		<Entity uid="454">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="820.9897" z="322.08439"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15771"/>
+		</Entity>
+		<Entity uid="455">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="840.94349" z="341.68256"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="41053"/>
+		</Entity>
+		<Entity uid="456">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="811.04554" z="352.06226"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="41053"/>
+		</Entity>
+		<Entity uid="457">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="556.07245" z="286.97968"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="30048"/>
+		</Entity>
+		<Entity uid="458">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="566.51075" z="282.47608"/>
+			<Orientation y="-0.15711"/>
+			<Actor seed="65273"/>
+		</Entity>
+		<Entity uid="459">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="556.58552" z="301.91547"/>
+			<Orientation y="2.96605"/>
+			<Actor seed="42986"/>
+		</Entity>
+		<Entity uid="460">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="559.9452" z="277.2909"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="42986"/>
+		</Entity>
+		<Entity uid="461">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="543.7143" z="296.82825"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="51016"/>
+		</Entity>
+		<Entity uid="462">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="560.9261" z="295.79499"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="34847"/>
+		</Entity>
+		<Entity uid="463">
+			<Template>gaia/tree/poplar_dead</Template>
+			<Player>0</Player>
+			<Position x="547.23414" z="283.78647"/>
+			<Orientation y="1.75443"/>
+			<Actor seed="34847"/>
+		</Entity>
+		<Entity uid="464">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="533.36701" z="297.21253"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45650"/>
+		</Entity>
+		<Entity uid="465">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="550.10993" z="286.2829"/>
+			<Orientation y="-2.07641"/>
+			<Actor seed="8544"/>
+		</Entity>
+		<Entity uid="466">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="553.5271" z="273.65589"/>
+			<Orientation y="1.59702"/>
+			<Actor seed="62835"/>
+		</Entity>
+		<Entity uid="467">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="574.70691" z="275.56403"/>
+			<Orientation y="-1.0445"/>
+			<Actor seed="62835"/>
+		</Entity>
+		<Entity uid="468">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="554.76111" z="291.96753"/>
+			<Orientation y="0.88497"/>
+			<Actor seed="61105"/>
+		</Entity>
+		<Entity uid="469">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="570.58454" z="300.33274"/>
+			<Orientation y="-2.06698"/>
+			<Actor seed="61105"/>
+		</Entity>
+		<Entity uid="470">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="558.1673" z="311.96198"/>
+			<Orientation y="0.02401"/>
+			<Actor seed="25747"/>
+		</Entity>
+		<Entity uid="471">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="566.3274" z="320.78031"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17717"/>
+		</Entity>
+		<Entity uid="472">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="549.44123" z="313.2696"/>
+			<Orientation y="-1.65384"/>
+			<Actor seed="17717"/>
+		</Entity>
+		<Entity uid="473">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="550.99854" z="305.00837"/>
+			<Orientation y="2.606"/>
+			<Actor seed="32700"/>
+		</Entity>
+		<Entity uid="474">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="439.15653" z="71.14763"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="32700"/>
+		</Entity>
+		<Entity uid="475">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="435.3885" z="65.12172"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="50423"/>
+		</Entity>
+		<Entity uid="476">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="445.65445" z="65.12172"/>
+			<Orientation y="-1.0513"/>
+			<Actor seed="7093"/>
+		</Entity>
+		<Entity uid="477">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="436.73084" z="78.21186"/>
+			<Orientation y="1.60732"/>
+			<Actor seed="7093"/>
+		</Entity>
+		<Entity uid="478">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="451.86646" z="74.29946"/>
+			<Orientation y="-1.62743"/>
+			<Actor seed="26634"/>
+		</Entity>
+		<Entity uid="479">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="445.64039" z="86.13672"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="26634"/>
+		</Entity>
+		<Entity uid="480">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="456.8248" z="66.00295"/>
+			<Orientation y="-1.5958"/>
+			<Actor seed="406"/>
+		</Entity>
+		<Entity uid="481">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="433.82181" z="54.85885"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="406"/>
+		</Entity>
+		<Entity uid="482">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="443.35923" z="84.01288"/>
+			<Orientation y="-1.37145"/>
+			<Actor seed="10616"/>
+		</Entity>
+		<Entity uid="483">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="427.90867" z="82.27405"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="58976"/>
+		</Entity>
+		<Entity uid="484">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="434.18528" z="69.60724"/>
+			<Orientation y="1.75576"/>
+			<Actor seed="58976"/>
+		</Entity>
+		<Entity uid="485">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="434.36942" z="88.69124"/>
+			<Orientation y="-1.59011"/>
+			<Actor seed="8688"/>
+		</Entity>
+		<Entity uid="486">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="427.04114" z="73.34379"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="52004"/>
+		</Entity>
+		<Entity uid="487">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="450.69437" z="68.08977"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="1817"/>
+		</Entity>
+		<Entity uid="488">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="443.49582" z="68.08976"/>
+			<Orientation y="2.3147"/>
+			<Actor seed="1817"/>
+		</Entity>
+		<Entity uid="489">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="439.82108" z="56.45064"/>
+			<Orientation y="-1.46174"/>
+			<Actor seed="13031"/>
+		</Entity>
+		<Entity uid="490">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="433.18201" z="57.79775"/>
+			<Orientation y="-0.03418"/>
+			<Actor seed="50655"/>
+		</Entity>
+		<Entity uid="491">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="451.13486" z="70.2206"/>
+			<Orientation y="2.40018"/>
+			<Actor seed="50655"/>
+		</Entity>
+		<Entity uid="492">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="448.14811" z="64.24825"/>
+			<Orientation y="-1.59871"/>
+			<Actor seed="61571"/>
+		</Entity>
+		<Entity uid="493">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="437.59321" z="63.95876"/>
+			<Orientation y="-0.12957"/>
+			<Actor seed="61571"/>
+		</Entity>
+		<Entity uid="494">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="561.38123" z="862.96338"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="57024"/>
+		</Entity>
+		<Entity uid="495">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="550.60846" z="862.96338"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="58073"/>
+		</Entity>
+		<Entity uid="496">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="570.42853" z="856.40699"/>
+			<Orientation y="-1.98133"/>
+			<Actor seed="58073"/>
+		</Entity>
+		<Entity uid="497">
+			<Template>gaia/tree/elm_dead</Template>
+			<Player>0</Player>
+			<Position x="558.8473" z="889.81385"/>
+			<Orientation y="0.8736"/>
+			<Actor seed="25066"/>
+		</Entity>
+		<Entity uid="498">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="550.85651" z="877.66797"/>
+			<Orientation y="-1.5708"/>
+			<Actor seed="32456"/>
+		</Entity>
+		<Entity uid="499">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="552.60511" z="871.90925"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="2558"/>
+		</Entity>
+		<Entity uid="500">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="555.90125" z="821.59504"/>
+			<Orientation y="-2.05524"/>
+			<Actor seed="2558"/>
+		</Entity>
+		<Entity uid="501">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="558.09192" z="855.76612"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="15390"/>
+		</Entity>
+		<Entity uid="502">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="564.96845" z="844.66382"/>
+			<Orientation y="-1.77587"/>
+			<Actor seed="15390"/>
+		</Entity>
+		<Entity uid="503">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="544.07325" z="850.11438"/>
+			<Orientation y="1.30837"/>
+			<Actor seed="48776"/>
+		</Entity>
+		<Entity uid="504">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="574.55622" z="866.34583"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48776"/>
+		</Entity>
+		<Entity uid="505">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="565.26111" z="872.61823"/>
+			<Orientation y="-1.39347"/>
+			<Actor seed="34667"/>
+		</Entity>
+		<Entity uid="506">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="552.6371" z="873.33027"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="34667"/>
+		</Entity>
+		<Entity uid="507">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="548.65033" z="876.20948"/>
+			<Orientation y="1.23955"/>
+			<Actor seed="1209"/>
+		</Entity>
+		<Entity uid="508">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="566.46125" z="876.93714"/>
+			<Orientation y="1.7378"/>
+			<Actor seed="1209"/>
+		</Entity>
+		<Entity uid="509">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="567.0099" z="841.71863"/>
+			<Orientation y="-1.68532"/>
+			<Actor seed="43507"/>
+		</Entity>
+		<Entity uid="510">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="561.94916" z="841.13654"/>
+			<Orientation y="-0.77121"/>
+			<Actor seed="43507"/>
+		</Entity>
+		<Entity uid="511">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="553.87287" z="851.35254"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54874"/>
+		</Entity>
+		<Entity uid="512">
+			<Template>gaia/tree/oak_dead</Template>
+			<Player>0</Player>
+			<Position x="553.9001" z="862.96338"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="6434"/>
+		</Entity>
+		<Entity uid="513">
+			<Template>gaia/tree/oak_dead</Template>
+			<Player>0</Player>
+			<Position x="560.71082" z="867.71894"/>
+			<Orientation y="2.19658"/>
+			<Actor seed="62328"/>
+		</Entity>
+		<Entity uid="514">
+			<Template>gaia/tree/oak_dead</Template>
+			<Player>0</Player>
+			<Position x="568.75068" z="878.40204"/>
+			<Orientation y="-1.5708"/>
+			<Actor seed="27928"/>
+		</Entity>
+		<Entity uid="515">
+			<Template>gaia/tree/oak_dead</Template>
+			<Player>0</Player>
+			<Position x="559.33918" z="878.4021"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27928"/>
+		</Entity>
+		<Entity uid="516">
+			<Template>gaia/tree/oak_dead</Template>
+			<Player>0</Player>
+			<Position x="573.25892" z="837.00611"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="12627"/>
+		</Entity>
+		<Entity uid="517">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="599.79731" z="652.61438"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30763"/>
+		</Entity>
+		<Entity uid="518">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="585.67176" z="586.31977"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="64945"/>
+		</Entity>
+		<Entity uid="519">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="660.41883" z="530.85883"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="6422"/>
+		</Entity>
+		<Entity uid="520">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="748.74561" z="626.03724"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="16233"/>
+		</Entity>
+		<Entity uid="521">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="839.29767" z="661.71796"/>
+			<Orientation y="-2.17975"/>
+			<Actor seed="60263"/>
+		</Entity>
+		<Entity uid="522">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="823.39954" z="553.81952"/>
+			<Orientation y="-1.03492"/>
+			<Actor seed="16037"/>
+		</Entity>
+		<Entity uid="523">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="868.99207" z="472.13416"/>
+			<Orientation y="1.47291"/>
+			<Actor seed="10924"/>
+		</Entity>
+		<Entity uid="524">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="825.95545" z="386.62812"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="59873"/>
+		</Entity>
+		<Entity uid="525">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="864.3667" z="286.82007"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="45934"/>
+		</Entity>
+		<Entity uid="526">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="822.46052" z="189.10398"/>
+			<Orientation y="-1.44335"/>
+			<Actor seed="22466"/>
+		</Entity>
+		<Entity uid="527">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="669.27112" z="183.59464"/>
+			<Orientation y="1.57212"/>
+			<Actor seed="61309"/>
+		</Entity>
+		<Entity uid="528">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="642.45008" z="309.23041"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="28282"/>
+		</Entity>
+		<Entity uid="529">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="633.60322" z="123.3753"/>
+			<Orientation y="-1.53191"/>
+			<Actor seed="28282"/>
+		</Entity>
+		<Entity uid="530">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="534.31977" z="52.98957"/>
+			<Orientation y="1.14887"/>
+			<Actor seed="27527"/>
+		</Entity>
+		<Entity uid="531">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="547.28296" z="135.69312"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="11522"/>
+		</Entity>
+		<Entity uid="532">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="421.6167" z="133.92438"/>
+			<Orientation y="1.13474"/>
+			<Actor seed="15477"/>
+		</Entity>
+		<Entity uid="533">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="432.88141" z="221.51404"/>
+			<Orientation y="-1.24488"/>
+			<Actor seed="20638"/>
+		</Entity>
+		<Entity uid="534">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="357.80445" z="326.7454"/>
+			<Orientation y="0.40685"/>
+			<Actor seed="20638"/>
+		</Entity>
+		<Entity uid="535">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="374.37546" z="433.42515"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="16121"/>
+		</Entity>
+		<Entity uid="536">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="485.39191" z="400.95041"/>
+			<Orientation y="-1.64847"/>
+			<Actor seed="15043"/>
+		</Entity>
+		<Entity uid="537">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="167.67957" z="200.16651"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="20578"/>
+		</Entity>
+		<Entity uid="538">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="180.73508" z="229.08381"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="29810"/>
+		</Entity>
+		<Entity uid="539">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="126.62241" z="260.79285"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="7"/>
+		</Entity>
+		<Entity uid="540">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="149.98392" z="308.24585"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="7"/>
+		</Entity>
+		<Entity uid="541">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="92.69175" z="397.73523"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="35569"/>
+		</Entity>
+		<Entity uid="542">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="113.38053" z="462.75135"/>
+			<Orientation y="-1.43053"/>
+			<Actor seed="15284"/>
+		</Entity>
+		<Entity uid="543">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="151.3245" z="406.41932"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="15284"/>
+		</Entity>
+		<Entity uid="544">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="154.34208" z="468.85639"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="54255"/>
+		</Entity>
+		<Entity uid="545">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="138.8765" z="596.51642"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="62785"/>
+		</Entity>
+		<Entity uid="546">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="69.8823" z="609.69922"/>
+			<Orientation y="-0.13941"/>
+			<Actor seed="37356"/>
+		</Entity>
+		<Entity uid="547">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="106.21613" z="687.81104"/>
+			<Orientation y="1.5708"/>
+			<Actor seed="37356"/>
+		</Entity>
+		<Entity uid="548">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="189.38581" z="591.34516"/>
+			<Orientation y="1.38086"/>
+			<Actor seed="50099"/>
+		</Entity>
+		<Entity uid="549">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="190.8256" z="465.64844"/>
+			<Orientation y="-1.67734"/>
+			<Actor seed="141"/>
+		</Entity>
+		<Entity uid="550">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="230.34122" z="721.52808"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="37268"/>
+		</Entity>
+		<Entity uid="551">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="184.9376" z="739.83191"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="37268"/>
+		</Entity>
+		<Entity uid="552">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="195.83848" z="863.74769"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="48150"/>
+		</Entity>
+		<Entity uid="553">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="292.58143" z="184.20426"/>
+			<Orientation y="-1.5708"/>
+			<Actor seed="62673"/>
+		</Entity>
+		<Entity uid="554">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="271.12671" z="344.873"/>
+			<Orientation y="0.40535"/>
+			<Actor seed="42850"/>
+		</Entity>
+		<Entity uid="555">
+			<Template>gaia/treasure/food_barrels_buried</Template>
+			<Player>0</Player>
+			<Position x="283.67972" z="597.34101"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53658"/>
+		</Entity>
+		<Entity uid="556">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="269.89267" z="117.88189"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59821"/>
+		</Entity>
+		<Entity uid="557">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="262.64557" z="88.41536"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="10805"/>
+		</Entity>
+		<Entity uid="558">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="290.95435" z="322.95212"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45875"/>
+		</Entity>
+		<Entity uid="559">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="264.53681" z="599.77271"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3755"/>
+		</Entity>
+		<Entity uid="560">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="261.93561" z="578.23078"/>
+			<Orientation y="-2.07001"/>
+			<Actor seed="38550"/>
+		</Entity>
+		<Entity uid="561">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="294.18003" z="812.1764"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="18833"/>
+		</Entity>
+		<Entity uid="562">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="289.31254" z="774.3891"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17554"/>
+		</Entity>
+		<Entity uid="563">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="147.2981" z="517.04041"/>
+			<Orientation y="-1.57082"/>
+			<Actor seed="4406"/>
+		</Entity>
+		<Entity uid="564">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="110.4242" z="547.92817"/>
+			<Orientation y="1.35268"/>
+			<Actor seed="53304"/>
+		</Entity>
+		<Entity uid="565">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="85.36013" z="442.00336"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6427"/>
+		</Entity>
+		<Entity uid="566">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="74.19751" z="376.76011"/>
+			<Orientation y="0.77486"/>
+			<Actor seed="52671"/>
+		</Entity>
+		<Entity uid="567">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="122.32905" z="318.97818"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="4047"/>
+		</Entity>
+		<Entity uid="568">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="171.78241" z="269.73078"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="54094"/>
+		</Entity>
+		<Entity uid="569">
+			<Template>gaia/treasure/metal_weapons_small</Template>
+			<Player>0</Player>
+			<Position x="190.6425" z="312.70688"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23872"/>
+		</Entity>
+		<Entity uid="570">
+			<Template>gaia/ore/greece_small</Template>
+			<Player>0</Player>
+			<Position x="428.8765" z="136.08072"/>
+			<Orientation y="-1.571"/>
+			<Actor seed="19004"/>
+		</Entity>
+		<Entity uid="571">
+			<Template>gaia/ore/greece_small</Template>
+			<Player>0</Player>
+			<Position x="597.6573" z="411.39173"/>
+			<Orientation y="-1.33924"/>
+			<Actor seed="10179"/>
+		</Entity>
+		<Entity uid="572">
+			<Template>gaia/ore/greece_small</Template>
+			<Player>0</Player>
+			<Position x="485.82615" z="587.09723"/>
+			<Orientation y="1.18708"/>
+			<Actor seed="18894"/>
+		</Entity>
+		<Entity uid="573">
+			<Template>gaia/ore/greece_small</Template>
+			<Player>0</Player>
+			<Position x="716.4823" z="806.68061"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="62975"/>
+		</Entity>
+		<Entity uid="574">
+			<Template>gaia/ore/greece_small</Template>
+			<Player>0</Player>
+			<Position x="529.83039" z="972.57538"/>
+			<Orientation y="2.59604"/>
+			<Actor seed="43206"/>
+		</Entity>
+		<Entity uid="575">
+			<Template>gaia/ore/greece_small</Template>
+			<Player>0</Player>
+			<Position x="381.90546" z="618.40064"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="34155"/>
+		</Entity>
+		<Entity uid="576">
+			<Template>gaia/ore/greece_small</Template>
+			<Player>0</Player>
+			<Position x="588.11347" z="99.70772"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="34155"/>
+		</Entity>
+		<Entity uid="577">
+			<Template>gaia/ore/greece_small</Template>
+			<Player>0</Player>
+			<Position x="795.66456" z="220.689"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="43121"/>
+		</Entity>
+		<Entity uid="578">
+			<Template>gaia/ore/greece_small</Template>
+			<Player>0</Player>
+			<Position x="905.79676" z="519.95087"/>
+			<Orientation y="-1.5708"/>
+			<Actor seed="16913"/>
+		</Entity>
+		<Entity uid="579">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="582.66602" z="97.98867"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="53918"/>
+		</Entity>
+		<Entity uid="580">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="586.9278" z="95.71732"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7404"/>
+		</Entity>
+		<Entity uid="581">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="591.54181" z="97.4186"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46254"/>
+		</Entity>
+		<Entity uid="582">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="720.67695" z="347.90308"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="18634"/>
+		</Entity>
+		<Entity uid="583">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="717.41419" z="801.59345"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="51132"/>
+		</Entity>
+		<Entity uid="584">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="530.49097" z="962.43073"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17247"/>
+		</Entity>
+		<Entity uid="585">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="387.35444" z="617.6073"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18242"/>
+		</Entity>
+		<Entity uid="586">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="266.9632" z="237.5908"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32489"/>
+		</Entity>
+		<Entity uid="587">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="220.97135" z="242.9697"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="6011"/>
+		</Entity>
+		<Entity uid="588">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="48.6305" z="366.7002"/>
+			<Orientation y="1.57081"/>
+			<Actor seed="26207"/>
+		</Entity>
+		<Entity uid="589">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="77.89591" z="631.84491"/>
+			<Orientation y="-1.57082"/>
+			<Actor seed="57843"/>
+		</Entity>
+		<Entity uid="590">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="191.24616" z="637.48487"/>
+			<Orientation y="0.60947"/>
+			<Actor seed="50311"/>
+		</Entity>
+		<Entity uid="591">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="186.30729" z="815.10596"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="50758"/>
+		</Entity>
+		<Entity uid="592">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="516.10035" z="47.03205"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="8694"/>
+		</Entity>
+		<Entity uid="593">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="936.38831" z="305.54816"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="22650"/>
+		</Entity>
+		<Entity uid="594">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="680.37195" z="47.90633"/>
+			<Orientation y="-1.61516"/>
+			<Actor seed="30978"/>
+		</Entity>
+		<Entity uid="595">
+			<Template>gaia/rock/aegean_small</Template>
+			<Player>0</Player>
+			<Position x="690.72761" z="464.40714"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="40791"/>
+		</Entity>
+		<Entity uid="596">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="201.32401" z="143.91141"/>
+			<Orientation y="-1.57262"/>
+			<Actor seed="46571"/>
+		</Entity>
+		<Entity uid="597">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="206.49195" z="140.37793"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45998"/>
+		</Entity>
+		<Entity uid="598">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="205.17646" z="141.25355"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4070"/>
+		</Entity>
+		<Entity uid="599">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="230.29523" z="144.14643"/>
+			<Orientation y="-1.57081"/>
+			<Actor seed="4070"/>
+		</Entity>
+		<Entity uid="600">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="211.499" z="146.88654"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63754"/>
+		</Entity>
+		<Entity uid="601">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="227.46637" z="143.98835"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65486"/>
+		</Entity>
+		<Entity uid="602">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="207.8245" z="130.85898"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65486"/>
+		</Entity>
+		<Entity uid="603">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="223.30085" z="128.78269"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65486"/>
+		</Entity>
+		<Entity uid="604">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="220.10871" z="143.624"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63542"/>
+		</Entity>
+		<Entity uid="605">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="91.84978" z="341.22547"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63542"/>
+		</Entity>
+		<Entity uid="606">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="113.15476" z="341.22547"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49202"/>
+		</Entity>
+		<Entity uid="607">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="98.84362" z="351.39521"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39213"/>
+		</Entity>
+		<Entity uid="608">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="95.76427" z="328.05097"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39213"/>
+		</Entity>
+		<Entity uid="609">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="109.39693" z="324.82392"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25095"/>
+		</Entity>
+		<Entity uid="610">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="80.59675" z="353.11512"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25095"/>
+		</Entity>
+		<Entity uid="611">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="100.01943" z="344.58729"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64821"/>
+		</Entity>
+		<Entity uid="612">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="172.37833" z="538.05097"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64821"/>
+		</Entity>
+		<Entity uid="613">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="156.08957" z="533.72474"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3610"/>
+		</Entity>
+		<Entity uid="614">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="167.46058" z="527.81403"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3610"/>
+		</Entity>
+		<Entity uid="615">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="185.7332" z="525.16755"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1559"/>
+		</Entity>
+		<Entity uid="616">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="177.17145" z="562.49634"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1559"/>
+		</Entity>
+		<Entity uid="617">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="171.14243" z="551.68073"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30985"/>
+		</Entity>
+		<Entity uid="618">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="171.58228" z="548.93067"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30985"/>
+		</Entity>
+		<Entity uid="619">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="178.99064" z="532.1327"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32165"/>
+		</Entity>
+		<Entity uid="620">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="162.33707" z="541.35804"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32165"/>
+		</Entity>
+		<Entity uid="621">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="173.51603" z="548.81489"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5618"/>
+		</Entity>
+		<Entity uid="622">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="188.60685" z="550.45057"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5618"/>
+		</Entity>
+		<Entity uid="623">
+			<Template>gaia/tree/dead</Template>
+			<Player>0</Player>
+			<Position x="186.6955" z="525.00763"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26780"/>
+		</Entity>
+		<Entity uid="624">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="235.04163" z="161.89786"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58375"/>
+		</Entity>
+		<Entity uid="625">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="156.0699" z="176.74991"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1043"/>
+		</Entity>
+		<Entity uid="626">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="239.72101" z="231.0109"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24710"/>
+		</Entity>
+		<Entity uid="627">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="140.23429" z="254.09934"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3642"/>
+		</Entity>
+		<Entity uid="628">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="97.23331" z="278.26087"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25114"/>
+		</Entity>
+		<Entity uid="629">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="53.90751" z="374.83106"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3809"/>
+		</Entity>
+		<Entity uid="630">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="44.40978" z="471.74058"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49101"/>
+		</Entity>
+		<Entity uid="631">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="101.0655" z="413.4066"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49101"/>
+		</Entity>
+		<Entity uid="632">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="149.69291" z="333.24482"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4037"/>
+		</Entity>
+		<Entity uid="633">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="161.6207" z="290.44208"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58836"/>
+		</Entity>
+		<Entity uid="634">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="232.93335" z="295.65339"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58836"/>
+		</Entity>
+		<Entity uid="635">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="301.52558" z="311.91828"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17591"/>
+		</Entity>
+		<Entity uid="636">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="282.79847" z="295.26703"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17591"/>
+		</Entity>
+		<Entity uid="637">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="288.29682" z="397.9709"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64327"/>
+		</Entity>
+		<Entity uid="638">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="214.99781" z="372.22748"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50624"/>
+		</Entity>
+		<Entity uid="639">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="169.98813" z="394.9654"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50624"/>
+		</Entity>
+		<Entity uid="640">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="175.2444" z="432.01948"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24763"/>
+		</Entity>
+		<Entity uid="641">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="227.38855" z="465.60935"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65133"/>
+		</Entity>
+		<Entity uid="642">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="191.30283" z="559.4745"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24908"/>
+		</Entity>
+		<Entity uid="643">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="144.71814" z="522.28504"/>
+			<Orientation y="-2.17449"/>
+			<Actor seed="24908"/>
+		</Entity>
+		<Entity uid="644">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="55.46409" z="548.18409"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="1894"/>
+		</Entity>
+		<Entity uid="645">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="119.42791" z="533.38117"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44191"/>
+		</Entity>
+		<Entity uid="646">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="144.09852" z="547.78876"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36632"/>
+		</Entity>
+		<Entity uid="647">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="46.103" z="626.107"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36632"/>
+		</Entity>
+		<Entity uid="648">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="86.45603" z="645.96875"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23581"/>
+		</Entity>
+		<Entity uid="649">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="137.98359" z="601.12281"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23581"/>
+		</Entity>
+		<Entity uid="650">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="129.96009" z="730.19349"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12823"/>
+		</Entity>
+		<Entity uid="651">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="161.22214" z="640.34205"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42511"/>
+		</Entity>
+		<Entity uid="652">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="226.96305" z="647.8885"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42511"/>
+		</Entity>
+		<Entity uid="653">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="154.04264" z="794.72584"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62882"/>
+		</Entity>
+		<Entity uid="654">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="202.30369" z="758.30085"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11038"/>
+		</Entity>
+		<Entity uid="655">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="221.89045" z="704.84363"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15503"/>
+		</Entity>
+		<Entity uid="656">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="267.47239" z="837.39521"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15503"/>
+		</Entity>
+		<Entity uid="657">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="245.41865" z="883.03553"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14848"/>
+		</Entity>
+		<Entity uid="658">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="312.4596" z="912.67231"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14848"/>
+		</Entity>
+		<Entity uid="659">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="293.07822" z="822.15534"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36836"/>
+		</Entity>
+		<Entity uid="660">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="285.53763" z="723.96558"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36836"/>
+		</Entity>
+		<Entity uid="661">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="298.4795" z="677.04896"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38566"/>
+		</Entity>
+		<Entity uid="662">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="290.30051" z="624.2262"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22230"/>
+		</Entity>
+		<Entity uid="663">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="283.28592" z="581.33204"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47420"/>
+		</Entity>
+		<Entity uid="664">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="283.38447" z="517.06678"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41752"/>
+		</Entity>
+		<Entity uid="665">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="283.42304" z="459.3776"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56158"/>
+		</Entity>
+		<Entity uid="666">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="276.12674" z="408.5098"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27096"/>
+		</Entity>
+		<Entity uid="667">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="277.48453" z="341.10056"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12502"/>
+		</Entity>
+		<Entity uid="668">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="280.20551" z="253.60676"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60519"/>
+		</Entity>
+		<Entity uid="669">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="285.34064" z="185.3194"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15832"/>
+		</Entity>
+		<Entity uid="670">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="285.34064" z="109.99131"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14405"/>
+		</Entity>
+		<Entity uid="671">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="336.08686" z="54.90741"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29181"/>
+		</Entity>
+		<Entity uid="672">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="435.793" z="107.55602"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25017"/>
+		</Entity>
+		<Entity uid="673">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="369.53113" z="239.50611"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27090"/>
+		</Entity>
+		<Entity uid="674">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="396.34025" z="188.12723"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40985"/>
+		</Entity>
+		<Entity uid="675">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="461.0261" z="235.20362"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42037"/>
+		</Entity>
+		<Entity uid="676">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="364.33094" z="259.08344"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42037"/>
+		</Entity>
+		<Entity uid="677">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="350.48765" z="283.85712"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23816"/>
+		</Entity>
+		<Entity uid="678">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="428.90342" z="289.97544"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="55289"/>
+		</Entity>
+		<Entity uid="679">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="473.14393" z="297.0286"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36985"/>
+		</Entity>
+		<Entity uid="680">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="529.6537" z="296.9629"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36985"/>
+		</Entity>
+		<Entity uid="681">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="582.10358" z="285.8628"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44016"/>
+		</Entity>
+		<Entity uid="682">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="548.84314" z="199.54572"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44016"/>
+		</Entity>
+		<Entity uid="683">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="533.03528" z="122.61835"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44016"/>
+		</Entity>
+		<Entity uid="684">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="524.55793" z="53.46637"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10190"/>
+		</Entity>
+		<Entity uid="685">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="507.38569" z="31.241"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10190"/>
+		</Entity>
+		<Entity uid="686">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="467.2682" z="33.02454"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41318"/>
+		</Entity>
+		<Entity uid="687">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="432.54932" z="59.31711"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41318"/>
+		</Entity>
+		<Entity uid="688">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="474.51883" z="86.17179"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47194"/>
+		</Entity>
+		<Entity uid="689">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="485.57935" z="135.3278"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47194"/>
+		</Entity>
+		<Entity uid="690">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="435.23813" z="168.86954"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47194"/>
+		</Entity>
+		<Entity uid="691">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="475.36435" z="179.52048"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26342"/>
+		</Entity>
+		<Entity uid="692">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="528.87531" z="320.53443"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26342"/>
+		</Entity>
+		<Entity uid="693">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="454.46497" z="356.83906"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45848"/>
+		</Entity>
+		<Entity uid="694">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="394.14167" z="374.3913"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45848"/>
+		</Entity>
+		<Entity uid="695">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="318.03562" z="443.40674"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45848"/>
+		</Entity>
+		<Entity uid="696">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="372.0304" z="446.7469"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23189"/>
+		</Entity>
+		<Entity uid="697">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="437.49347" z="451.76575"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23189"/>
+		</Entity>
+		<Entity uid="698">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="507.00571" z="445.78565"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23648"/>
+		</Entity>
+		<Entity uid="699">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="554.45496" z="469.73084"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23648"/>
+		</Entity>
+		<Entity uid="700">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="558.8058" z="599.48688"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23648"/>
+		</Entity>
+		<Entity uid="701">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="441.26505" z="586.36243"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26607"/>
+		</Entity>
+		<Entity uid="702">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="377.1652" z="579.81672"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26607"/>
+		</Entity>
+		<Entity uid="703">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="343.0467" z="596.8573"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58226"/>
+		</Entity>
+		<Entity uid="704">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="339.15497" z="691.88556"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58226"/>
+		</Entity>
+		<Entity uid="705">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="421.4697" z="707.076"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21144"/>
+		</Entity>
+		<Entity uid="706">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="476.61084" z="702.95032"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21144"/>
+		</Entity>
+		<Entity uid="707">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="541.81238" z="711.82654"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21144"/>
+		</Entity>
+		<Entity uid="708">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="588.78437" z="759.5315"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48240"/>
+		</Entity>
+		<Entity uid="709">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="574.1023" z="811.76087"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48240"/>
+		</Entity>
+		<Entity uid="710">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="483.39039" z="809.15394"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19743"/>
+		</Entity>
+		<Entity uid="711">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="388.3595" z="831.16968"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19743"/>
+		</Entity>
+		<Entity uid="712">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="342.27787" z="834.91114"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19743"/>
+		</Entity>
+		<Entity uid="713">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="325.21491" z="953.38807"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12486"/>
+		</Entity>
+		<Entity uid="714">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="413.7577" z="940.16431"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12486"/>
+		</Entity>
+		<Entity uid="715">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="490.24207" z="940.16431"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22280"/>
+		</Entity>
+		<Entity uid="716">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="588.3971" z="940.16431"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="22280"/>
+		</Entity>
+		<Entity uid="717">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="698.62635" z="948.95325"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="362"/>
+		</Entity>
+		<Entity uid="718">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="639.32203" z="667.51575"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="362"/>
+		</Entity>
+		<Entity uid="719">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="617.20215" z="532.70167"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40378"/>
+		</Entity>
+		<Entity uid="720">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="601.57831" z="443.02479"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40378"/>
+		</Entity>
+		<Entity uid="721">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="584.71656" z="353.98456"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33178"/>
+		</Entity>
+		<Entity uid="722">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="576.99347" z="276.80671"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33178"/>
+		</Entity>
+		<Entity uid="723">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="561.21369" z="207.55781"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33178"/>
+		</Entity>
+		<Entity uid="724">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="545.5365" z="138.9799"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58303"/>
+		</Entity>
+		<Entity uid="725">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="537.06428" z="87.61878"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58303"/>
+		</Entity>
+		<Entity uid="726">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="527.08075" z="36.62793"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49000"/>
+		</Entity>
+		<Entity uid="727">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="557.90931" z="36.62793"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49000"/>
+		</Entity>
+		<Entity uid="728">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="604.18921" z="40.89402"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23764"/>
+		</Entity>
+		<Entity uid="729">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="603.85242" z="92.74015"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23764"/>
+		</Entity>
+		<Entity uid="730">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="602.43262" z="127.0839"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23764"/>
+		</Entity>
+		<Entity uid="731">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="611.77076" z="187.58933"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49078"/>
+		</Entity>
+		<Entity uid="732">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="625.9762" z="286.79834"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49078"/>
+		</Entity>
+		<Entity uid="733">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="649.36377" z="391.33454"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30747"/>
+		</Entity>
+		<Entity uid="734">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="656.4438" z="496.77955"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30747"/>
+		</Entity>
+		<Entity uid="735">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="697.94697" z="658.45337"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25968"/>
+		</Entity>
+		<Entity uid="736">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="747.5121" z="836.88819"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="25968"/>
+		</Entity>
+		<Entity uid="737">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="760.0348" z="864.5752"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27467"/>
+		</Entity>
+		<Entity uid="738">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="819.65992" z="858.20057"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27467"/>
+		</Entity>
+		<Entity uid="739">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="784.43226" z="691.95362"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20554"/>
+		</Entity>
+		<Entity uid="740">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="753.27308" z="596.37098"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20554"/>
+		</Entity>
+		<Entity uid="741">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="716.22529" z="461.25342"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43039"/>
+		</Entity>
+		<Entity uid="742">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="673.86011" z="341.46021"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43039"/>
+		</Entity>
+		<Entity uid="743">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="645.91968" z="235.24643"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43039"/>
+		</Entity>
+		<Entity uid="744">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="611.01966" z="126.27411"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40263"/>
+		</Entity>
+		<Entity uid="745">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="599.40137" z="77.63752"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40263"/>
+		</Entity>
+		<Entity uid="746">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="587.60102" z="45.22876"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59514"/>
+		</Entity>
+		<Entity uid="747">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="663.77332" z="295.09534"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59514"/>
+		</Entity>
+		<Entity uid="748">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="671.49372" z="56.70157"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62165"/>
+		</Entity>
+		<Entity uid="749">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="699.29432" z="131.25788"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56498"/>
+		</Entity>
+		<Entity uid="750">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="705.65418" z="184.84553"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="56498"/>
+		</Entity>
+		<Entity uid="751">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="729.1966" z="247.96088"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49543"/>
+		</Entity>
+		<Entity uid="752">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="765.13593" z="358.64002"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49543"/>
+		</Entity>
+		<Entity uid="753">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="826.61976" z="548.69459"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50842"/>
+		</Entity>
+		<Entity uid="754">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="827.44434" z="552.99836"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50842"/>
+		</Entity>
+		<Entity uid="755">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="851.11414" z="648.99335"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58178"/>
+		</Entity>
+		<Entity uid="756">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="889.81104" z="802.9933"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58178"/>
+		</Entity>
+		<Entity uid="757">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="765.66767" z="344.63569"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6520"/>
+		</Entity>
+		<Entity uid="758">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="764.9878" z="99.45777"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6520"/>
+		</Entity>
+		<Entity uid="759">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="778.68299" z="144.94532"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37735"/>
+		</Entity>
+		<Entity uid="760">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="805.00232" z="231.17371"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37735"/>
+		</Entity>
+		<Entity uid="761">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="816.07508" z="296.03382"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40884"/>
+		</Entity>
+		<Entity uid="762">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="833.20606" z="398.1164"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40884"/>
+		</Entity>
+		<Entity uid="763">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="872.8285" z="509.32398"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13625"/>
+		</Entity>
+		<Entity uid="764">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="908.70765" z="663.72132"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13625"/>
+		</Entity>
+		<Entity uid="765">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="928.88654" z="753.07917"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48404"/>
+		</Entity>
+		<Entity uid="766">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="962.70008" z="670.44282"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48404"/>
+		</Entity>
+		<Entity uid="767">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="959.21253" z="592.39759"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48404"/>
+		</Entity>
+		<Entity uid="768">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="928.50104" z="504.63422"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33752"/>
+		</Entity>
+		<Entity uid="769">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="904.00763" z="429.938"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33752"/>
+		</Entity>
+		<Entity uid="770">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="877.97571" z="351.63794"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2117"/>
+		</Entity>
+		<Entity uid="771">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="853.97498" z="270.24805"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2117"/>
+		</Entity>
+		<Entity uid="772">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="831.84876" z="215.7711"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11109"/>
+		</Entity>
+		<Entity uid="773">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="805.42011" z="152.90897"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11109"/>
+		</Entity>
+		<Entity uid="774">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="799.88025" z="135.4723"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33978"/>
+		</Entity>
+		<Entity uid="775">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="827.18348" z="136.32193"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33978"/>
+		</Entity>
+		<Entity uid="776">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="865.85047" z="168.50217"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33978"/>
+		</Entity>
+		<Entity uid="777">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="879.77881" z="216.84968"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37360"/>
+		</Entity>
+		<Entity uid="778">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="910.83808" z="298.70783"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37360"/>
+		</Entity>
+		<Entity uid="779">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="931.84424" z="376.7671"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42109"/>
+		</Entity>
+		<Entity uid="780">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="966.19825" z="465.84223"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42109"/>
+		</Entity>
+		<Entity uid="781">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="1004.4646" z="565.45246"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9153"/>
+		</Entity>
+		<Entity uid="782">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="976.40741" z="429.93793"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9153"/>
+		</Entity>
+		<Entity uid="783">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="957.54603" z="357.78394"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9153"/>
+		</Entity>
+		<Entity uid="784">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="918.19098" z="255.5644"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16541"/>
+		</Entity>
+		<Entity uid="785">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="837.03846" z="204.11765"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16541"/>
+		</Entity>
+		<Entity uid="786">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="751.40711" z="228.83521"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5813"/>
+		</Entity>
+		<Entity uid="787">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="737.37781" z="447.22272"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5813"/>
+		</Entity>
+		<Entity uid="788">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="633.45203" z="406.67396"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5813"/>
+		</Entity>
+		<Entity uid="789">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="587.50318" z="266.53254"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13229"/>
+		</Entity>
+		<Entity uid="790">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="500.31513" z="266.99921"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13229"/>
+		</Entity>
+		<Entity uid="791">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="477.20261" z="486.92096"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13229"/>
+		</Entity>
+		<Entity uid="792">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="530.87745" z="668.41529"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40836"/>
+		</Entity>
+		<Entity uid="793">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="244.54453" z="543.60462"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40836"/>
+		</Entity>
+		<Entity uid="794">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="336.39203" z="357.91456"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3783"/>
+		</Entity>
+		<Entity uid="795">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="734.85572" z="501.63184"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3783"/>
+		</Entity>
+		<Entity uid="796">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="841.75385" z="561.86219"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64556"/>
+		</Entity>
+		<Entity uid="797">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="866.06269" z="554.01246"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61387"/>
+		</Entity>
+		<Entity uid="798">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="863.034" z="524.58533"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62134"/>
+		</Entity>
+		<Entity uid="799">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="788.51197" z="628.8495"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62134"/>
+		</Entity>
+		<Entity uid="800">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="732.11298" z="737.41443"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40868"/>
+		</Entity>
+		<Entity uid="801">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="704.31836" z="640.44751"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40868"/>
+		</Entity>
+		<Entity uid="802">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="581.15314" z="718.41224"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40868"/>
+		</Entity>
+		<Entity uid="803">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="469.65915" z="736.78168"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57973"/>
+		</Entity>
+		<Entity uid="804">
+			<Template>actor|particle/lightningC.xml</Template>
+			<Position x="626.94013" z="106.19831"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13993"/>
+		</Entity>
+		<Entity uid="805">
+			<Template>actor|particle/lightningC.xml</Template>
+			<Position x="360.22977" z="512.80286"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54396"/>
+		</Entity>
+		<Entity uid="806">
+			<Template>actor|particle/lightningC.xml</Template>
+			<Position x="781.78559" z="748.9773"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62580"/>
+		</Entity>
+		<Entity uid="807">
+			<Template>actor|particle/lightningC.xml</Template>
+			<Position x="145.13807" z="312.67692"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39907"/>
+		</Entity>
+		<Entity uid="808">
+			<Template>actor|particle/lightningC.xml</Template>
+			<Position x="893.66602" z="426.55802"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2211"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

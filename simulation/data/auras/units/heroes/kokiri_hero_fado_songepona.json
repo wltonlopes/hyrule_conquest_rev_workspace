@@ -2,11 +2,11 @@
 	"type": "range",
 	"radius": 60,
 	"affects": ["Animal"],
-	"affectedPlayers": ["Gaia"],
+	"affectedPlayers": ["Enemy"],
 	"modifications": [
-		{ "value": "UnitAI/DefaultStance", "set": "passive" }
+		{ "value": "UnitAI/DefaultStance", "replace": "passive" }
 	],
 	"auraName": "Song of Epona",
-	"auraDescription": "(Default Stance: Passive - All Gaia Animal units)",
+	"auraDescription": "(Default Stance: Passive - All Enemy Animal units)",
 	"overlayIcon": "art/textures/ui/session/auras/fiddler_music_1.dds"
 }

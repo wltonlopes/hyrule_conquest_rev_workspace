@@ -1,0 +1,14 @@
+{
+	"type": "global",
+	"affects": ["Mage"],
+	"modifications": [
+		{ "value": "Resistance/Entity/Damage/Fire","multiply": 1.1 },
+		{ "value": "Resistance/Entity/Damage/Water", "multiply": 1.1 },
+		{ "value": "Resistance/Entity/Damage/Spirit", "multiply": 1.1 },
+		{ "value": "Resistance/Entity/Damage/Light", "multiply": 1.1 },
+		{ "value": "Resistance/Entity/Damage/Forest", "multiply": 1.1 },
+		{ "value": "Resistance/Entity/Damage/Shadow", "multiply": 1.1 }
+	],
+	"auraName": "Magical Protection",
+	"auraDescription": "All Mage units +10% magic resistance."
+}

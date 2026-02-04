@@ -1,0 +1,15 @@
+{
+	"genericName": "Peahat Dung Fertilizer",
+	"description": "Peahat dung is a very common fertilizer in Hyrule.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with Village Phase.",
+	"icon": "hylian/peahat_dung.dds",
+	"researchTime": 40,
+	"tooltip": "All units food gather rate +20%",
+	"modifications": [
+				{"value": "ResourceGatherer/Rates/food.grain", "multiply": 1.2}
+			 ],
+	"affects": ["Worker"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

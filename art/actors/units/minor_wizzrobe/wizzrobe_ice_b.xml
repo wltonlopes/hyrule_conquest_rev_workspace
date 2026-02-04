@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/minor_wizzrobe/wiz_robeA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/minor_wizzrobe/medium/wiz_robeA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/minor_wizzrobe/low/wiz_robeA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_wizzrobe/base_HC_wizzrobe.xml">
+        <props>
+          <prop actor="props/units/outfits/wizzrobe_hat_iceA.xml" attachpoint="hat"/>
+        </props>
+        <textures>
+          <texture file="skeletal/minor_wizzrobe/wiz_iceA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_wizzrobe/base_HC_wizzrobe_attack_ice.xml"/>
+      <variant file="HC_wizzrobe/base_HC_wizzrobe_build.xml"/>
+      <variant file="HC_wizzrobe/base_HC_wizzrobe_death.xml">
+        <props>
+      </props>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

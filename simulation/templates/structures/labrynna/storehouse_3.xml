@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/storehouse_2">
+  <Builder>
+    <Rate>1.0</Rate>
+    <Entities datatype="tokens">
+      structures/labrynna/chute
+    </Entities>
+  </Builder>
+  <Identity>
+    <Classes datatype="tokens">HeavyStorage</Classes>
+    <SpecificName>Heavy Storage</SpecificName>
+    <History>An even larger storehouse for Labrynna to build up their gathered resources.</History>
+    <Icon>structures/labrynna/lab_storehouseC.dds</Icon>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      labrynna/gather_stripmining
+    </Technologies>
+  </Researcher>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_storehouseC.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>

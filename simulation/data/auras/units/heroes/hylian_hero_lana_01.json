@@ -1,0 +1,13 @@
+{
+	"type": "global",
+	"affects": ["Wizzrobe"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.8 },
+		{ "value": "Cost/Resources/food", "multiply": 0.8 },
+		{ "value": "Cost/Resources/wood", "multiply": 0.8 },
+		{ "value": "Cost/Resources/stone", "multiply": 0.8 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.8 }
+	],
+	"auraName": "Wizzrobe Contacts",
+	"auraDescription": "All Wizzrobe units cost 20% less resources and take 20% les time to train."
+}

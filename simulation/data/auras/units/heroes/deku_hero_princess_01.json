@@ -8,6 +8,5 @@
 		{ "value": "Health/MaxHealth", "multiply": 1.4}
 	],
 	"auraName": "Deku Protector",
-	"auraDescription": "All units +2 resistance and +40% health.",
-	"overlayIcon": "art/textures/ui/session/auras/standground.png"
+	"auraDescription": "All units +2 resistance and +40% health."
 }

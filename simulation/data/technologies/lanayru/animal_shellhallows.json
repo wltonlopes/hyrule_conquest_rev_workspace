@@ -1,7 +1,7 @@
 {
 	"genericName": "Shell Hallows",
 	"description": "Using special tools and with extreme care not to harm the Hermitid, it's shell can be further hollowed out so that more units can fit in it.",
-	"cost": {"food": 0, "wood": 0, "stone": 500, "metal": 500},
+	"cost": {"food": 0, "wood": 0, "stone": 500, "metal": 0, "rupees": 500},
 	"icon": "lanayru/animal_shellhallows.dds",
 	"researchTime": 40,
 	"tooltip": "Carrying capacity of the Hermitid increased by +2)",

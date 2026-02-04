@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Attack>
-    <Melee>
+    <Melee replace="">
       <AttackName>Claws</AttackName>
       <Damage>
         <Hack>5</Hack>
@@ -15,8 +15,13 @@
   </Attack>
   <Cost>
     <BuildTime>8</BuildTime>
+    <Population>0</Population>
     <Resources>
-      <metal>150</metal>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+      <rupees>100</rupees>
     </Resources>
   </Cost>
   <Health>
@@ -29,6 +34,9 @@
     <Icon>units/merc/merc_pikku.dds</Icon>
     <Tooltip>Stealthed Melee unit.</Tooltip>
     <VisibleClasses datatype="tokens">Merc</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

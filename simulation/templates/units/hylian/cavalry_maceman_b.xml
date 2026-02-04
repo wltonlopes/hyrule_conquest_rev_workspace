@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_maceman">
+  <Auras datatype="tokens">
+    units/hylian_formations
+  </Auras>
+  <Attack>
+    <Melee replace="">
+      <AttackName>Mace</AttackName>
+      <Damage>
+        <Crush>10.0</Crush>
+        <True>12</True>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Cavalry</PreferredClasses>
+      <PrepareTime>1400</PrepareTime>
+      <RepeatTime>1600</RepeatTime>     
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>120</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>10</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/hylian/infantry_maceman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <Classes datatype="tokens">Levy</Classes>
+    <SpecificName>Levy Cavalry</SpecificName>
+    <History>Levied men who have at least some skill with horse riding, these mounted squads add much-needed speed and range. Armed with a simple mace, Levy Cavalry are light, but swift, and can punch holes into soft enemy formations.</History>
+    <Tooltip>Lightly armored cavalry unit armed with a mace.</Tooltip>
+    <Icon>units/hylian/hyl_levycav.dds</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/hylian/cavalry_maceman_a</Entity>
+  </Promotion>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/hylian/soldier/soldier_death.xml</death>
+      <order_attack>voice/hylian/soldier/soldier_attack.xml</order_attack>
+      <order_garrison>voice/hylian/soldier/soldier_garrison.xml</order_garrison>
+      <order_gather>voice/hylian/soldier/soldier_gather.xml</order_gather>
+      <order_repair>voice/hylian/soldier/soldier_repair.xml</order_repair>
+      <order_walk>voice/hylian/soldier/soldier_walk.xml</order_walk>
+      <run>actor/movement/horse/horse_footsteps.xml</run>
+      <select>voice/hylian/soldier/soldier_select.xml</select>
+      <trained>interface/alarm/alarm_create_cavalry.xml</trained>
+      <walk>actor/movement/horse/horse_footsteps.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.4705</RunMultiplier>
+    <WalkSpeed>17</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/hylian/hylian_levy_cav_b.xml</Actor>
+  </VisualActor>
+</Entity>

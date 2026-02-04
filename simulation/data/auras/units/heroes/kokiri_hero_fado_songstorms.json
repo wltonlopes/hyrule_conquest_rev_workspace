@@ -4,7 +4,7 @@
 	"affects": ["Organic"],
 	"affectedPlayers": ["Enemy"],
 	"modifications": [
-		{ "value": "Vision/Range", "add": -50 },
+		{ "value": "Vision/Range", "add": -90 },
 		{ "value": "Health/RegenRate", "add": -0.5 }
 	],
 	"auraName": "Song of Storms",

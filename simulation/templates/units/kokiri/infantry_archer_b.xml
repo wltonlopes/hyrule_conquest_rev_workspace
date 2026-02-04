@@ -19,7 +19,7 @@
       </Projectile>
       <RepeatTime>2000</RepeatTime>
       <Stun>
-        <Chance>1</Chance>
+        <Chance>5</Chance>
         <Time>200</Time>
       </Stun>
     </Ranged>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Auras datatype="tokens">
+    units/heroes/hero_garrison
+    units/heroes/wizzrobe_hero_carock_01
+    units/heroes/wizzrobe_hero_carock_02
+  </Auras>
+  <Attack>
+    <Capture replace="">
+      <AttackName>Capture</AttackName>
+      <Capture>10</Capture>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Field Palisade Wall</RestrictedClasses>
+    </Capture>
+    <Ranged replace="">
+      <AttackName>Fireball</AttackName>
+      <ApplyStatus>
+        <Burning>
+          <Interval>1000</Interval>
+          <Damage>
+            <Fire>7</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>12000</Duration>
+        </Burning>
+      </ApplyStatus>
+      <Damage>
+        <Fire>50.0</Fire>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>70.0</MaxRange>
+      <MinRange>25.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1800</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>3000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Fire>15.0</Fire>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>15</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>250</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
+  <Builder disable=""/>
+  <Health>
+    <Max>1250</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Carock</SpecificName>
+    <GenericName>Dark Wizzrobe</GenericName>
+    <History>Carock is among the most powerful of the known Wizzrobe, and there is little other information other than that. He has been tied to many assassinations and overthrowing of monarchs, making him one of the Sheikah's prime enemies. However, they have been known to work with him on occaison, usually to perform an assassination for them.</History>
+    <Tooltip>Powerful Stealth Mage that hurls fireballs from afar.</Tooltip>
+    <Icon>units/minor_wizzrobe/wiz_hero_carock.dds</Icon>
+    <VisibleClasses datatype="tokens">Wizzrobe Mage NPCHero</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>400</xp>
+    <food>10</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>25</metal>
+  </Loot>
+  <Minimap>
+    <Type>hero</Type>
+  </Minimap>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>triforce/256x256.dds</MainTexture>
+        <MainTextureMask>triforce/256x256_mask.dds</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/magic/witch_fireball_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/magic/wizzrobe_fire.xml</attack_ranged>
+      <death>voice/wizzrobe/wizzrobe_death.xml</death>
+      <order_attack>voice/wizzrobe/wizzrobe_attack.xml</order_attack>
+      <order_garrison>voice/wizzrobe/wizzrobe_garrison.xml</order_garrison>
+      <order_gather>voice/wizzrobe/wizzrobe_gather.xml</order_gather>
+      <order_repair>voice/wizzrobe/wizzrobe_repair.xml</order_repair>
+      <order_walk>voice/wizzrobe/wizzrobe_walk.xml</order_walk>
+      <run>actor/movement/wizzrobe/wizzrobe_hover.xml</run>
+      <select>voice/wizzrobe/wizzrobe_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/wizzrobe/wizzrobe_hover.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <TrainingRestrictions>
+    <Category>NPCHero</Category>
+    <MatchLimit>1</MatchLimit>
+  </TrainingRestrictions>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+  </UnitMotion>
+  <Visibility>
+    <Stealth>
+      <RevealOnAttackDelay>7000</RevealOnAttackDelay>
+    </Stealth>
+  </Visibility>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/minor_wizzrobe/wizzrobe_hero_carock_b.xml</Actor>
+  </VisualActor>
+</Entity>

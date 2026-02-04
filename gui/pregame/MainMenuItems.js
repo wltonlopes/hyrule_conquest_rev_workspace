@@ -17,7 +17,7 @@ var g_MainMenuItems = [
 					Engine.SwitchGuiPage("page_autostart.xml", {
 						"attribs": {
 							"mapType": "scenario",
-							"map": "maps/tutorials/introductory_tutorial",
+							"map": "maps/tutorials/HC_troductory_tutorial",
 							"settings": {
 								"CheatsEnabled": true
 							},

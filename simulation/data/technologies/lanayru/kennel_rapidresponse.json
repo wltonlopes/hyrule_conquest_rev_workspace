@@ -1,7 +1,7 @@
 {
 	"genericName": "Rapid Response: Arach Dervishes",
 	"description": "Given the proper training, Arach Dervishes can respond to a threat much faster than ususal.",
-	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 450},
+	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 0, "rupees": 450},
 	"icon": "lanayru/animal_greatmigration.dds",
 	"researchTime": 40,
 	"tooltip": "Arach Dervish movement speed increased by 20%, turning rate increased by 50%",

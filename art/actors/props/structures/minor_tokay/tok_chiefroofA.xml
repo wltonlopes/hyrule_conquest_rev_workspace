@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>structural/minor_tokay/tok_chiefroofA.dae</mesh>
+      <textures>
+	    <texture file="structural/minor_tokay/tok_roofA.dds" name="baseTex"/>
+		<texture file="structural/minor_tokay/tok_roofA_normal.dds" name="normTex"/>
+	    <texture file="structural/minor_tokay/tok_roofA.dds" name="specTex"/>
+		<texture file="structural/minor_tokay/tok_chiefshackA_ao.dds" name="aoTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <material>basic_trans_ao_norm_spec.xml</material>
+</actor>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_minor_centre">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Javelin</AttackName>
+      <Damage>
+        <Pierce>15</Pierce>
+      </Damage>
+      <MaxRange>60</MaxRange>
+      <PrepareTime>600</PrepareTime>
+      <RepeatTime>5000</RepeatTime>
+      <Projectile>
+        <Speed>100</Speed>
+        <Spread>2</Spread>
+        <Gravity>50</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="0"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>250</stone>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="17.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>20</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Cavalry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>5000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_darknut_agoraA</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>6</SpawnNumberMax>
+      <SpawnNumberMin>6</SpawnNumberMin>
+      <Template>units/minor_darknut/infantry_javelineer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Legion Outpost</SpecificName>
+    <History>Though the Darknut Legion may have fallen, there are many outposts and fortresses where their might lives on. Surviving Darknuts flock to these pillars of resistance against their enemies, and against themselves...</History>
+    <Icon>structures/darknut/dar_outpost.dds</Icon>
+    <Tooltip>Trains Darknut units.</Tooltip>
+    <VisibleClasses datatype="tokens">Darknut</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>100</stone>
+    <metal>100</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="35.0" depth="35.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>20</Bonus>
+  </Population>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>10.0</Crush>
+        <Hack>10.0</Hack>
+        <Pierce>55.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/weapon/javelin_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/javelin_toss.xml</attack_ranged>
+      <constructed>interface/complete/building/darknut/complete_civ_center_darknut.xml</constructed>
+      <select>interface/select/building/darknut/sel_civ_center_darknut.xml</select>
+      <upgraded>interface/complete/building/darknut/complete_civ_center_darknut.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/minor_darknut/support_female_citizen
+      units/minor_darknut/infantry_spearman_b
+      units/minor_darknut/infantry_javelineer_b
+      units/minor_darknut/darknut_hero_zalunbar
+    </Entities>
+  </Trainer>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>0</X>
+        <Y>12.8</Y>
+        <Z>7.25</Z>
+      </Archer1>
+      <Archer2>
+        <X>-4.3</X>
+        <Y>12.8</Y>
+        <Z>-3.6</Z>
+      </Archer2>
+      <Archer3>
+        <X>4.3</X>
+        <Y>12.8</Y>
+        <Z>-3.6</Z>
+      </Archer3>
+      <Archer4>
+        <X>-5.8</X>
+        <Y>12.8</Y>
+        <Z>0</Z>
+      </Archer4>
+      <Archer5>
+        <X>5.8</X>
+        <Y>12.8</Y>
+        <Z>0</Z>
+      </Archer5>
+      <Archer6>
+        <X>-2.7</X>
+        <Y>12.8</Y>
+        <Z>5</Z>
+      </Archer6>
+      <Archer7>
+        <X>2.7</X>
+        <Y>12.8</Y>
+        <Z>5</Z>
+      </Archer7>
+      <Archer8>
+        <X>-2</X>
+        <Y>20.8</Y>
+        <Z>-14</Z>
+      </Archer8>
+      <Archer9>
+        <X>2</X>
+        <Y>20.8</Y>
+        <Z>-14</Z>
+      </Archer9>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/darknut/darknut_civic_centre.xml</Actor>
+    <FoundationActor>structures/darknut/darknut_scaffoldA.xml</FoundationActor>
+  </VisualActor>
+</Entity>

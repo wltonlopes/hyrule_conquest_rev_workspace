@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Attack/Capture/Capture","multiply": 1.5 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.5 }
+	],
+	"auraName": "Beloved Princess",
+	"auraDescription": "Nearby units +50% walk speed.",
+	"overlayIcon": "art/textures/ui/session/auras/Old/zeldav_healingreg.dds"
+}

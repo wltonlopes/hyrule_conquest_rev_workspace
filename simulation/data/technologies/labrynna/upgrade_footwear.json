@@ -1,0 +1,13 @@
+{
+	"genericName": "Footwear Redesigns",
+	"description": "Many studies and field tests have lead to the creation of better, lighter, and more comfortable boots and footwears for Labrynna's soldiers.",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 0, "rupees": 300},
+	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with Village Phase.",
+	"icon": "labrynna/upgrade_footwear.dds",
+	"researchTime": 40,
+	"tooltip": "Increases the movement speed of all Infantry units by 10%",
+	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.10}],
+	"affects": ["Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

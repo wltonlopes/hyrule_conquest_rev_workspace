@@ -28,9 +28,16 @@
   </Cost>
   <Health>
     <Max>130</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>10</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/kokiri/kokiri_emarcher_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
+    <Classes datatype="tokens">WoodArmor Deer</Classes>
     <SpecificName>Doe Trotter</SpecificName>
     <History>A very fast moving cavalry unit armed with a spear. They excell at intercepting and stopping other enemy cavalry, but are not particularly durable in combat with other unit types. Like their male counterparts, they are masters at slipping away from battle and fleeing into the shadows.</History>
     <Tooltip>Cheap and very fast moving Melee Cavalry unit armed with a spear. Inflicts bonus damage against cavalry.</Tooltip>

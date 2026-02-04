@@ -31,9 +31,10 @@
     <Static depth="40.0" width="40.0"/>
   </Obstruction>
   <Researcher>
-    <Technologies datatype="tokens">
-      -unlock_champion_cavalry
-      -nisean_horses
+    <Technologies replace="" datatype="tokens">
+      kokiri/deer_awareness
+      kokiri/deer_alertness
+      kokiri/deer_sacredacorn
     </Technologies>
   </Researcher>
   <Trainer>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprites>
+	<sprite name="background-gdt-1">
+		<image
+			texture="pregame/backgrounds/GDT.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="true"
+		/>
+	</sprite>	
+	
+</sprites>

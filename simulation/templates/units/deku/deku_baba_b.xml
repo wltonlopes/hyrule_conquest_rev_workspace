@@ -26,7 +26,7 @@
   </Health>
   <Identity>
     <Civ>deku</Civ>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <Classes datatype="tokens">-ConquestCritical Baba</Classes>
     <GenericName>Creature</GenericName>
     <SpecificName>Deku Baba</SpecificName>
     <History>These wicked plants grow like ravenous weeds throughout Hyrule's various forests, but are quite friendly to Deku Scrubs. Many Scrubs take them in as pets, and still yet they are used by their armies for guard duty. Deku Babas are completely immobile and on their own can do little more than protect their immediate area. They can be mounted on the heads of many Deku Scrubs and the backs of their Orhat Beetles however, giving whatever unit they are attached to a bonus melee attack.</History>

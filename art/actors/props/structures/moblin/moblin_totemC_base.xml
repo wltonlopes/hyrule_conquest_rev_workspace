@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Totem A">
+      <mesh>structural/moblin/mob_totemC_base.dae</mesh>
+      <textures>
+		<texture file="structural/moblin/moblin_totemB.dds" name="baseTex"/>
+		<texture file="structural/moblin/moblin_totemB_normal.dds" name="normTex"/>
+		<texture file="structural/moblin/moblin_totemC_ao.dds" name="aoTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <material>basic_trans_ao_norm_spec.xml</material>
+</actor>

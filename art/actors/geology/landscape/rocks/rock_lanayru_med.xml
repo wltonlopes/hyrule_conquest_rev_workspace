@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+	
+   <group>
+    <variant minquality="high" frequency="1" name="rockA">
+      <mesh>gaia/landscape/rocks/rock_baseA.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockB">
+      <mesh>gaia/landscape/rocks/rock_baseB.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockC">
+      <mesh>gaia/landscape/rocks/rock_baseC.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockD">
+      <mesh>gaia/landscape/rocks/rock_baseD.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>	
+    <variant minquality="high" frequency="1" name="rockE">
+      <mesh>gaia/landscape/rocks/rock_baseE.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockF">
+      <mesh>gaia/landscape/rocks/rock_baseF.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockG">
+      <mesh>gaia/landscape/rocks/rock_baseG.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockH">
+      <mesh>gaia/landscape/rocks/rock_baseH.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>		
+
+	
+    <variant maxquality="high" minquality="medium" frequency="1" name="rockA">
+       <mesh>gaia/landscape/rocks/medium/rock_baseA.dae</mesh>
+	   <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="rockB">
+       <mesh>gaia/landscape/rocks/medium/rock_baseB.dae</mesh>
+	   <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="rockC">
+       <mesh>gaia/landscape/rocks/medium/rock_baseC.dae</mesh>
+	   <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant maxquality="high" minquality="medium" frequency="1" name="rockC">
+       <mesh>gaia/landscape/rocks/medium/rock_baseD.dae</mesh>
+	   <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>	
+    <variant minquality="high" frequency="1" name="rockE">
+      <mesh>gaia/landscape/rocks/medium/rock_baseE.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockF">
+      <mesh>gaia/landscape/rocks/medium/rock_baseF.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockG">
+      <mesh>gaia/landscape/rocks/medium/rock_baseG.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockH">
+      <mesh>gaia/landscape/rocks/medium/rock_baseH.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>	
+	
+	
+    <variant maxquality="medium" frequency="1" name="rockA">
+       <mesh>gaia/landscape/rocks/low/rock_baseA.dae</mesh>
+	   <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="rockB">
+       <mesh>gaia/landscape/rocks/low/rock_baseB.dae</mesh>
+	   <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="rockC">
+       <mesh>gaia/landscape/rocks/low/rock_baseC.dae</mesh>
+	   <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant maxquality="medium" frequency="1" name="rockD">
+       <mesh>gaia/landscape/rocks/low/rock_baseD.dae</mesh>
+	   <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>	
+    <variant minquality="high" frequency="1" name="rockE">
+      <mesh>gaia/landscape/rocks/low/rock_baseE.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockF">
+      <mesh>gaia/landscape/rocks/low/rock_baseF.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockG">
+      <mesh>gaia/landscape/rocks/low/rock_baseG.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant minquality="high" frequency="1" name="rockH">
+      <mesh>gaia/landscape/rocks/low/rock_baseH.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>		
+
+  </group>
+
+  <material>basic_trans_ao.xml</material>
+  </inline>
+</qualitylevels>

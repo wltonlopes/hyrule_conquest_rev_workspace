@@ -30,6 +30,7 @@
   </Health>
   <Identity>
     <Civ>stalfos</Civ>
+    <Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Undead Stal</VisibleClasses>
     <SpecificName>Staltroop</SpecificName>
     <History>Scores of these infantry served as the primary warrior deployed by the Kingdom of Hyrule. Funded by the Royal family, these soldiers had basic combat training and were provided with standardized armor and weaponry. Now, they are undead monsters, forever in torment at their eternal existence.</History>

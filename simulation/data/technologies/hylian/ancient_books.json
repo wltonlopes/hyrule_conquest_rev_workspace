@@ -1,0 +1,33 @@
+{
+	"genericName": "Ancient Books",
+	"description": "While magic isn't especially common in Hyrule, libraries are full of ancient books and scrolls containing arcane secrets.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 800},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/telara_scrollsofhyrule.dds",
+	"researchTime": 40,
+	"tooltip": "All mage units +20% magic damage and magic resistance.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Fire", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Forest", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Light", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Shadow", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Spirit", "multiply": 1.2},
+				{"value": "Attack/Ranged/Damage/Water", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Fire", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Forest", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Light", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Shadow", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Spirit", "multiply": 1.2},
+				{"value": "Attack/Melee/Damage/Water", "multiply": 1.2},
+				{"value": "Resistance/Entity/Fire", "multiply": 1.2},
+				{"value": "Resistance/Entity/Forest", "multiply": 1.2},
+				{"value": "Resistance/Entity/Light", "multiply": 1.2},
+				{"value": "Resistance/Entity/Shadow", "multiply": 1.2},
+				{"value": "Resistance/Entity/Spirit", "multiply": 1.2},
+				{"value": "Resistance/Entity/Water", "multiply": 1.2},
+				{"value": "UnitMotion/WalkSpeed", "multiply": 1.2}
+			 ],
+	"affects": ["Mage"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

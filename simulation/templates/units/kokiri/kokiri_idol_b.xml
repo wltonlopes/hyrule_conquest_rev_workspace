@@ -26,6 +26,7 @@
     <SpecificName>Shrine of Courage</SpecificName>
     <GenericName>Support Unit</GenericName>
     <VisibleClasses datatype="tokens">Support -Melee -Spearman</VisibleClasses>
+    <Classes datatype="tokens">Deer</Classes>
     <History>These ornate idols of the Goddess Farore are carved and enshrined by devoted Kokiri. During peacetime they are set on display as a reminder for all Kokiri, during war they are carted into battle to inspire warriors into a frenzy of courage.</History>
     <Tooltip>Support unit that generates territory for the Kokiri.</Tooltip>
     <Icon>units/kokiri/kok_chariot.dds</Icon>

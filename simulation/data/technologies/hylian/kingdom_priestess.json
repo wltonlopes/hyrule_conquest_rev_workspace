@@ -1,0 +1,14 @@
+{
+	"genericName": "Upgrade to Priestess",
+	"description": "Better religous training and more tithes to the Church can help Deacons become Priestesses much faster.",
+	"cost": {"rupees": 750},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City.",
+	"icon": "hylian/priestess.dds",
+	"researchTime": 60,
+	"tooltip": "Improves Deacons by making them Priestesses.",
+	"modifications": [
+				{"value": "Promotion/RequiredXp", "replace": 0, "affects": "Healer" }
+	],	
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+} 

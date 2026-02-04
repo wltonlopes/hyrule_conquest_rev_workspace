@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/fairy/forge">
+  <Identity>
+    <Classes datatype="tokens">Winter</Classes>
+    <SpecificName>Waters of Heaven (Winter)</SpecificName>
+    <Icon>structures/fairy/fai_waterheaven_winter.dds</Icon>
+  </Identity>
+  <Upgrade>
+    <Spring>
+      <Entity>structures/fairy/fairy_waterheaven_spring</Entity>
+      <Tooltip>Upgrade to a Waters of Heaven (Spring).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Spring>
+    <Summer>
+      <Entity>structures/fairy/fairy_waterheaven_summer</Entity>
+      <Tooltip>Upgrade to a Waters of Heaven (Summer).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Summer>
+    <Autumn>
+      <Entity>structures/fairy/fairy_waterheaven_autumn</Entity>
+      <Tooltip>Upgrade to a Waters of Heaven (Autumn).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Autumn>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_waterheavenA_winter.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_winter.xml</FoundationActor>
+  </VisualActor>
+</Entity>

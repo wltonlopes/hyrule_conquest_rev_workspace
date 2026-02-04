@@ -1,0 +1,13 @@
+{
+	"genericName": "Sharpshooting",
+	"description": "Through rigorous training, the Borderguards, Conquerers, and other ranged soldiers of Labrynna can become greatly skilled at hitting their opponents, be them wooden targets or living creatures.",
+	"cost": { "rupees": 400 },
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "labrynna/ralph_sharpshooting.dds",
+	"researchTime": 40,
+	"tooltip": "Ranged units have 50% increased accuracy",
+	"modifications": [{"value": "Attack/Ranged/Damage/Spread", "multiply": 0.5}],
+	"affects": ["Ranged"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

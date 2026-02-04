@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Auras datatype="tokens">
+    units/hylian_formations
+  </Auras>
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Bolts</AttackName>
+      <Damage>
+        <Pierce>5</Pierce>
+        <True>10</True>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>70</MaxRange>
+      <MinRange>15.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>4000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <Classes datatype="tokens">Kingdom</Classes>
+    <SpecificName>Kingdom Crossbowman</SpecificName>
+    <History>Although traditional archery has been a popular sport in the Kingdom's history, its military prefers to mass-produce and deploy easy-to-use and deadly crossbows for its ranged arsenal. Much like the Kingdom Infantry, these soldiers are funded by the governmental forces of Hyrule and are provided basic training and gear.</History>
+    <Tooltip>Slow firing but powerful armor piercing ranged unit.</Tooltip>
+    <Icon>units/hylian/hyl_crossbowman.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/crossbolt.xml</attack_ranged>
+      <death>voice/hylian/soldier/soldier_death.xml</death>
+      <order_attack>voice/hylian/soldier/soldier_attack.xml</order_attack>
+      <order_garrison>voice/hylian/soldier/soldier_garrison.xml</order_garrison>
+      <order_gather>voice/hylian/soldier/soldier_gather.xml</order_gather>
+      <order_repair>voice/hylian/soldier/soldier_repair.xml</order_repair>
+      <order_walk>voice/hylian/soldier/soldier_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/hylian/soldier/soldier_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.5</RunMultiplier>
+    <WalkSpeed>10.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/hylian/hylian_crossbowman_b.xml</Actor>
+  </VisualActor>
+</Entity>

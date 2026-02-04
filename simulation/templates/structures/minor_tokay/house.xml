@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="25.0" width="25.0"/>
+  </Footprint>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>800</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_moblin_small</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Tokay Shack</SpecificName>
+    <History>Tokay are not known to be the most innovative or creative of races. Despite the massive hurricanes that often rage on and around their island, they seem not to care that their structures fall over almost every storm. In fact, it has becme almost a party, as the Tokay all reassemble their homes and those of their neighbors.</History>
+    <Icon>structures/minor_tokay/tok_shack.dds</Icon>
+    <Tooltip>Housing that allows you to field larger armies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="23.0" width="23.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>5</Bonus>
+  </Population>
+  <VisualActor>
+    <Actor>structures/minor_tokay/tok_houseA.xml</Actor>
+  </VisualActor>
+</Entity>

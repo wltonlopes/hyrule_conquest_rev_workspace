@@ -26,6 +26,7 @@
   </Health>
   <Identity>
     <Civ>stalfos</Civ>
+    <Classes datatype="tokens">-Organic</Classes>
     <VisibleClasses datatype="tokens">Mage Undead Poe</VisibleClasses>
     <SpecificName>Poe</SpecificName>
     <GenericName>Mage</GenericName>

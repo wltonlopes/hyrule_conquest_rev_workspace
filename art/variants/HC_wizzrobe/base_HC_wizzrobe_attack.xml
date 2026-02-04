@@ -1,0 +1,8 @@
+<variant name="attack_ranged">
+  <animations>
+    <animation event="0.5" file="HC_wizzrobe/wizzrobe_attackA.dae" name="Attack_ranged" id="attack_ranged1" speed="70"/>
+	<animation event="0.5" file="HC_wizzrobe/wizzrobe_attackA.dae" name="Attack_ranged" id="attack_ranged2" speed="70"/>
+  </animations>
+  <props>
+  </props>
+</variant>

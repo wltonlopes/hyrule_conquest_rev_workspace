@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 60,
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Attack/Melee/Damage/Hack","multiply": 1.5 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.5 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.5 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.5 }
+	],
+	"auraName": "Heir of Gustav",
+	"auraDescription": "Nearby soldiers +50% walk speed and Melee damage.",
+	"overlayIcon": "art/textures/ui/session/auras/Old/link_bloodgustaf.dds"
+}

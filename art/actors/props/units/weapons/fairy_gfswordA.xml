@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="1" name="mesh">
+      <textures><texture file="skeletal/fairy/fai_mainC.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="korokleaf-A">
+      <mesh>props/weapon/fairy_gfswordA.dae</mesh>
+    </variant>
+  </group>
+  
+
+
+</actor>

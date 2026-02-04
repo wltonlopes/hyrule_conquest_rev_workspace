@@ -1,7 +1,7 @@
 {
 	"genericName": "Grueling Training",
 	"description": "Train your men harder, so they are ready for battle faster.",
-	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 200},
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 200},
 	"requirements": {
 			"all": [
 				{ "tech": "phase_town" },

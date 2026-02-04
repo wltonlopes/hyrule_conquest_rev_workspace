@@ -1,0 +1,28 @@
+{
+	"genericName": "Dark Blessing",
+	"description": "It is said that some races have the favor of dark gods or beings. They seem to harder to injure with magic, especially shadow magic.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
+	"requirements": 
+		{"all": [
+			{ "tech": "phase_city" },
+			{ "any": [
+					{ "civ": "stalfos" }
+				 ]
+			}
+			]
+		},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "high_priest.png",
+	"researchTime": 40,
+	"tooltip": "+10% magic resistance to all units, and immunity to shadow magic.",
+	"modifications": [
+				{"value": "Resistance/Entity/Damage/Fire", "multiply": 1.15},
+				{"value": "Resistance/Entity/Damage/Forest", "multiply": 1.15},
+				{"value": "Resistance/Entity/Damage/Light", "multiply": 1.15},
+				{"value": "Resistance/Entity/Damage/Shadow", "replace": 100},
+				{"value": "Resistance/Entity/Damage/Spirit", "multiply": 1.15},
+				{"value": "Resistance/Entity/Damage/Water", "multiply": 1.15}
+			 ],
+	"affects": ["Unit"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

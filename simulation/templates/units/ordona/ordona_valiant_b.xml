@@ -4,8 +4,8 @@
     <Melee replace="">
       <AttackName>Sword</AttackName>
       <Damage>
-        <Hack>13.0</Hack>
-        <Pierce>2</Pierce>
+        <Hack>16.0</Hack>
+        <Pierce>4</Pierce>
       </Damage>
       <MaxRange>5.0</MaxRange>
       <PrepareTime>1000</PrepareTime>

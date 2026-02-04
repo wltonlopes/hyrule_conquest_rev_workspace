@@ -1,0 +1,20 @@
+{
+	"genericName": "Scorpio Shooters",
+	"description": "Crossbowmen are dangerous when in towers, but when they are firing Scorpios, they become the deadliest towers in Hyrule.",
+	"cost": {"food": 0, "wood": 300, "stone": 100, "metal": 200},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/hyl_arrowshooters.dds",
+	"researchTime": 40,
+	"tooltip": "Towers have the Scorpio's attack.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Pierce", "replace": 40 },
+				{"value": "Attack/Ranged/Damage/True", "replace": 30 },
+				{"value": "Attack/Ranged/PrepareTime", "replace": 1000 },
+				{"value": "Attack/Ranged/RepeatTime", "replace": 4000 },
+				{"value": "Attack/Ranged/Splash/Damage/Pierce", "add": 40 },
+				{"value": "Attack/Ranged/Splash/Damage/True", "add": 15 }
+			 ],
+	"affects": ["StoneTower"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Footprint replace="">
+    <Square depth="31.0" width="31.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Siegeworks</SpecificName>
+    <History>The expansive Siege Workshop is capable of producing Rams and Trebuchets for the Kingdom of Hyrule, giving them city-destroying capabilities.</History>
+    <Icon>structures/hylian/hyl_siegeworks.dds</Icon>
+    <Tooltip>Creates Siege units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="28.0" width="28.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -siege_attack
+      -siege_cost_time
+      -siege_health
+      -siege_pack_unpack
+      -siege_bolt_accuracy
+      hylian/military_engineering
+      hylian/siege_attack_01
+      hylian/siege_attack_02
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/hylian/hylian_scorpio_b
+      units/hylian/hylian_siegeram_b
+      units/hylian/hylian_trebuchet_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_siegeworksA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldB.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -4,8 +4,8 @@
     <Ranged>
       <AttackName>Roots</AttackName>
       <Damage>
-        <Crush>128.0</Crush>
-        <Forest>128.0</Forest>
+        <Crush>300.0</Crush>
+        <Forest>300.0</Forest>
       </Damage>
       <MaxRange>10.0</MaxRange>
       <MinRange>0.0</MinRange>
@@ -22,8 +22,8 @@
       </Projectile>
       <Splash>
         <Damage>
-          <Crush>128.0</Crush>
-        <Forest>128.0</Forest>
+          <Crush>300.0</Crush>
+          <Forest>300.0</Forest>
         </Damage>
         <FriendlyFire>false</FriendlyFire>
         <Range>10</Range>

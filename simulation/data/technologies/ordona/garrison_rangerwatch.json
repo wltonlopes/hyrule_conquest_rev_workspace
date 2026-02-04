@@ -1,7 +1,7 @@
 {
 	"genericName": "Ranger Watches",
 	"description": "Order rangers to defend important defensive buildings like Border Towers, Guard Towers, and Mayor's Manor.",
-	"cost": {"food": 300, "wood": 100, "stone": 100, "metal": 300},
+	"cost": {"food": 300, "wood": 100, "stone": 100, "metal": 0, "rupees": 300},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "ordona"}]},
 	"requirementsTooltip": "Unlocked with City.",
 	"icon": "ordona/garrison_rangerwatch.dds",

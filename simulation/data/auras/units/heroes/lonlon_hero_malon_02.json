@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "Health/RegenRate", "multiply": 2 },
+		{ "value": "Health/IdleRegenRate", "multiply": 2 }
+	],
+	"auraName": "Lon Lon Milk",
+	"auraDescription": "All soldiers gain x2 health regeneration."
+}

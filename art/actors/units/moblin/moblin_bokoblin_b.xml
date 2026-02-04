@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/moblin/bokoblinA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/moblin/medium/bokoblinA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/moblin/low/bokoblinA.dae</mesh>
+      </variant>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/moblin/bokoblinB.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/moblin/medium/bokoblinB.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/moblin/low/bokoblinB.dae</mesh>
+      </variant>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/moblin/bokoblinC.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/moblin/medium/bokoblinC.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/moblin/low/bokoblinC.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant file="HC_bokoblin/base_HC_biped_sword.xml">
+        <textures>
+          <texture file="skeletal/moblin/mob_mainA.dds" name="baseTex"/>
+        </textures>
+        <props>
+          <prop actor="props/units/weapons/bokoblin_shieldA.xml" attachpoint="L_wrist"/>
+        </props>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Blue">
+      </variant>
+      <variant frequency="1" name="Red">
+      </variant>
+      <variant frequency="1" name="Green">
+      </variant>
+    </group>
+    <group>
+      <variant frequency="1" name="Idle"/>
+      <variant file="HC_bokoblin/base_HC_biped_capture.xml"/>
+      <variant file="HC_bokoblin/base_HC_biped_slaughter.xml"/>
+      <variant file="HC_bokoblin/base_HC_biped_death.xml">
+        <props>
+          <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+        </props>
+      </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

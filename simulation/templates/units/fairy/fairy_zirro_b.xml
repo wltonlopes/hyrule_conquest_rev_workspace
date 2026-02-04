@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Bomb Spore</AttackName>
+      <Damage>
+        <Crush>30</Crush>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>22</MaxRange>
+      <MinRange>1.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>800</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>4000</RepeatTime>
+      <Splash>
+        <ApplyStatus>
+          <Poisoned>
+            <Interval>3000</Interval>
+            <Damage>
+              <Forest>1</Forest>
+            </Damage>
+            <Stackability>Stack</Stackability>
+            <Duration>9000</Duration>
+          </Poisoned>
+        </ApplyStatus>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>7</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>150</wood>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Circle radius="3.0"/>
+    <Height>7.0</Height>
+  </Footprint>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <SpecificName>Zirro</SpecificName>
+    <History>A strange flying fungi that seems to be native to Holodrum and the islands to the east. The Zirro are very hostile, and will not hesitate to drop their poisonous spores all over anything they perceive to be a threat.</History>
+    <Tooltip>Flying Creature unit that drops explosive spores on their targets.</Tooltip>
+    <Icon>units/fairy/fai_zirro.dds</Icon>
+  </Identity>
+  <Position>
+    <Altitude>20.0</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <TurnRate>3.5</TurnRate>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>6.0</Crush>
+        <Hack>5.0</Hack>
+        <Pierce>5.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact>attack/natural/zirro_bombburst.xml</attack_impact>
+      <attack_melee>attack/natural/zirro_bomb.xml</attack_melee>
+      <attack_ranged>attack/natural/zirro_bomb.xml</attack_ranged>
+      <death>voice/fairy/zirro/zirro_death.xml</death>
+      <order_attack>voice/fairy/zirro/zirro_attack.xml</order_attack>
+      <order_garrison>voice/fairy/zirro/zirro_garrison.xml</order_garrison>
+      <order_gather>voice/fairy/zirro/zirro_gather.xml</order_gather>
+      <order_repair>voice/fairy/zirro/zirro_repair.xml</order_repair>
+      <order_walk>voice/fairy/zirro/zirro_walk.xml</order_walk>
+      <run>actor/movement/patra/patra_flap.xml</run>
+      <select>voice/fairy/zirro/zirro_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/movement/patra/patra_flap.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <PassabilityClass>fly</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/fairy/fairy_zirro_b.xml</Actor>
+  </VisualActor>
+</Entity>

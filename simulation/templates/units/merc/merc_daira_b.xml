@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Attack>
-    <Melee>
+    <Melee replace="">
       <AttackName>Axe</AttackName>
       <Bonuses>
         <BonusCavMelee>
@@ -20,8 +20,13 @@
   </Attack>
   <Cost>
     <BuildTime>12</BuildTime>
+    <Population>0</Population>
     <Resources>
-      <metal>200</metal>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+      <rupees>200</rupees>
     </Resources>
   </Cost>
   <Health>
@@ -34,6 +39,9 @@
     <Icon>units/merc/merc_daira.dds</Icon>
     <Tooltip>Large axe wielding Melee unit that can cross bodies of water.</Tooltip>
     <VisibleClasses datatype="tokens">Merc</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

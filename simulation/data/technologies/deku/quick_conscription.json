@@ -1,0 +1,15 @@
+{
+	"genericName": "Quick Conscription",
+	"description": "When needed, the leaders of the Deku Scrubs can speed up the enlistment process, speeding up the growth of their armies.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 300},
+	"requirements": {"all": [{"tech": "phase_village"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with Village Phase.",
+	"icon": "deku/deku_crammed.dds",
+	"researchTime": 30,
+	"tooltip": "-15% train time of units..",
+	"modifications": [
+				{"value": "Cost/BuildTime", "multiply": 0.85}
+			 ],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

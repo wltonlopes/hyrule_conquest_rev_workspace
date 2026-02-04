@@ -3,7 +3,7 @@
 	"description": "Merchants' first goal was trading, but they also gathered information about the countries they crossed.",
 	"cost": {
 		"food": 500,
-		"metal": 500
+		"rupees": 500
 	},
 	"icon": "spy_trader.png",
 	"researchTime": 60,

@@ -41,7 +41,7 @@
     </SoundGroups>
   </Sound>
   <Trader>
-    <GainMultiplier>0.75</GainMultiplier>
+    <GainMultiplier>1.0</GainMultiplier>
   </Trader>
   <UnitAI>
     <CanGuard>false</CanGuard>

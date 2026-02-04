@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Auras datatype="tokens">
+    units/heroes/hero_garrison
+    units/heroes/tokay_hero_otaylo_01
+    units/heroes/tokay_hero_otaylo_02
+  </Auras>
+  <Attack>
+    <Capture replace="">
+      <AttackName>Capture</AttackName>
+      <Capture>10</Capture>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Field Palisade Wall</RestrictedClasses>
+    </Capture>
+    <Melee replace="">
+      <AttackName>Spear</AttackName>
+      <Bonuses>
+        <Bonus1>
+          <Classes>Commander</Classes>
+          <Multiplier>2</Multiplier>
+        </Bonus1>
+      </Bonuses>
+      <Damage>
+        <Pierce>35.0</Pierce>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+      <Stun>
+        <Chance>25</Chance>
+        <Time>3000</Time>
+      </Stun>
+    </Melee>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>24</BuildTime>
+    <Resources>
+      <food>350</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1300</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Otaylo</SpecificName>
+    <GenericName>Tkay Big Boss</GenericName>
+    <History>Otaylo became Boss of the Tokay not because of power, intellect, or bloodlines... but because she bought a blue shirt to wear from Labrynna. With a spear in arms and Coconut on her head, the Big Boss clumsily leads the Tokay on hunting parties and raids against merchants for new and shiny trinkets.</History>
+    <Tooltip>Melee Hero unit that attacks with her hunting spear.</Tooltip>
+    <Icon>units/minor_tokay/tok_otaylo.dds</Icon>
+    <VisibleClasses datatype="tokens">Tokay NPCHero</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>400</xp>
+    <food>10</food>
+    <wood>0</wood>
+    <stone>0</stone>
+    <metal>25</metal>
+  </Loot>
+  <Minimap>
+    <Type>hero</Type>
+  </Minimap>
+  <ResourceGatherer disable=""/>
+  <Selectable>
+    <Overlay>
+      <AlwaysVisible/>
+      <Texture>
+        <MainTexture>triforce/256x256.dds</MainTexture>
+        <MainTextureMask>triforce/256x256_mask.dds</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Promotion disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/tokay/tokayA/tokayA_death.xml</death>
+      <knockback>voice/tokay/tokayA/tokayA_death.xml</knockback>
+      <order_attack>voice/tokay/tokayA/tokayA_attack.xml</order_attack>
+      <order_garrison>voice/tokay/tokayA/tokayA_garrison.xml</order_garrison>
+      <order_gather>voice/tokay/tokayA/tokayA_gather.xml</order_gather>
+      <order_repair>voice/tokay/tokayA/tokayA_repair.xml</order_repair>
+      <order_walk>voice/tokay/tokayA/tokayA_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/tokay/tokayA/tokayA_select.xml</select>
+      <trained>interface/alarm/alarm_create_hero.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+      <wilhelm>voice/tokay/tokayA/tokayA_death.xml</wilhelm>
+    </SoundGroups>
+  </Sound>
+  <TrainingRestrictions>
+    <Category>NPCHero</Category>
+    <MatchLimit>1</MatchLimit>
+  </TrainingRestrictions>
+  <UnitMotion>
+    <PassabilityClass>amphibious</PassabilityClass>
+    <WalkSpeed>12</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/minor_tokay/tok_hero_otaylo_b.xml</Actor>
+  </VisualActor>
+</Entity>

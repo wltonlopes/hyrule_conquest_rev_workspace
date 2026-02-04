@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/gerudo/gerudo_serpentkeep_b">
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/gerudo/gerudo_serpentkeep_upg.xml</Actor>
+  </VisualActor>
+</Entity>

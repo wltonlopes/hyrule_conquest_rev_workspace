@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="25.0" width="25.0"/>
+  </Footprint>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>100</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_houseA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>twili</Civ>
+    <SpecificName>Dwelling</SpecificName>
+    <History>Due to the lack of natural elements such as wind and rain in the Twili realm, they build houses not for shelter but for protection, from the shadow beasts that roam their world.</History>
+    <Icon>structures/hylian/hyl_houses.dds</Icon>
+    <Tooltip>Housing that allows you to field larger armies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="23.0" width="23.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>8</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -pop_house_01
+      -pop_house_02
+      -unlock_females_house
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/twili/twili_house.xml</Actor>
+  </VisualActor>
+</Entity>

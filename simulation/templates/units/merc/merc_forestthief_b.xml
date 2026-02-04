@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_swordsman">
+<Entity parent="template_unit_champion_infantry_archer">
   <Attack>
-    <Ranged>
+    <Ranged replace="">
       <AttackName>Throwing Dagger</AttackName>
       <Damage>
         <Pierce>12</Pierce>
@@ -24,8 +24,13 @@
   </Attack>
   <Cost>
     <BuildTime>8</BuildTime>
+    <Population>0</Population>
     <Resources>
-      <metal>100</metal>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+      <rupees>100</rupees>
     </Resources>
   </Cost>
   <Health>
@@ -38,6 +43,9 @@
     <Icon>units/merc/merc_forestthief.dds</Icon>
     <Tooltip>Missile unit that tosses knives at their victims from a distance.</Tooltip>
     <VisibleClasses datatype="tokens">Merc</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

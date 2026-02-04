@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Auras datatype="tokens">
+    structural/hospital_heal
+  </Auras>
+  <Cost>
+    <Resources>
+      <wood>50</wood>
+      <stone>250</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="20.0" width="20.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>30</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Human</List>
+    <BuffHeal>7</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_hylian_houseA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <History>The Kingdom of Hyrule was one of the first nations to establish government-funded healing services within their borders. Using various medicines and potions, nurses within the Bimaristan can tend to the sick and wounded.</History>
+    <SpecificName>Bimaristan</SpecificName>
+    <Icon>structures/hylian/hyl_hospital.dds</Icon>
+    <Tooltip>Heals injured units and researches related upgrades.</Tooltip>
+    <VisibleClasses datatype="tokens">Hospital</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static width="20" depth="20"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -cost_healer
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
+      -garrison_heal
+      -health_regen_units
+      hylian/potion_stocking
+      hylian/open_foyer
+      hylian/siege_shelters
+      hylian/nurse_dispatch
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/hylian/hylian_deacon_hospital
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_hospitalA.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>

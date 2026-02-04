@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_gate">
+  <Cost>
+    <BuildTime>30</BuildTime>
+    <Resources>
+      <wood>30</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="38.5" depth="8.5"/>
+    <Height>9</Height>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Gate>
+    <PassRange>20</PassRange>
+  </Gate>
+  <Health>
+    <Max>500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_ordona_wall_long</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Wooden Gate</SpecificName>
+    <History>A makeshift wooden wall to keep the elements out of Hylian villages.</History>
+    <Tooltip>Protective Wall to hold off attackers.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Obstructions>
+      <Door depth="7" width="10" x="0" z="0" />
+      <Left depth="7" width="14" x="-12" z="0" />
+      <Right depth="7" width="14" x="12" z="0" />
+    </Obstructions>
+    <Static disable="" />
+  </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>1.0</Crush>
+        <Hack>20.0</Hack>
+        <Pierce>35.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <StatusBars>
+    <HeightOffset>12.5</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/hylian/hylian_wood_wall_gate.xml</Actor>
+    <FoundationActor>structures/hylian/hylian_scaffoldH.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>37.0</Length>
+  </WallPiece>
+</Entity>

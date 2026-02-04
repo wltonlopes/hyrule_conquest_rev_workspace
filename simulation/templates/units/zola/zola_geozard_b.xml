@@ -28,6 +28,7 @@
       </Splash>
     </Ranged>
   </Attack>
+  <Builder disable=""/>
   <Cost>
     <Resources>
       <food>150</food>

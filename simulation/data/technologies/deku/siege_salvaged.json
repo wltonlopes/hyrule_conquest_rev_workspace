@@ -1,0 +1,16 @@
+{
+	"genericName": "Salvaged Siege Parts",
+	"description": "The Deku Scrubs have a knack for reusing destroyed and damaged sieg machines as parts when they build new ones.",
+	"cost": {"food": 0, "wood": 300, "stone": 0, "metal": 0},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "deku/siege_salvage.dds",
+	"researchTime": 30,
+	"tooltip": "-15% build time and -20% wood cost from siege machines.",
+	"modifications": [
+				{"value": "Cost/BuildTime", "multiply": 0.85},
+				{"value": "Cost/Resources/wood", "multiply": 0.80}
+			 ],
+	"affects": ["Siege"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

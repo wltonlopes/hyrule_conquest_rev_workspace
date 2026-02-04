@@ -6,11 +6,11 @@
 	"requirementsTooltip": "Unlocked with Town Phase.",
 	"icon": "deku/dek_meganutdurable.dds",
 	"researchTime": 40,
-	"tooltip": "Scrub units gain +25% resistance to non-magic damage.",
+	"tooltip": "Scrub units gain +15% resistance to non-magic damage.",
 	"modifications": [
-				{"value": "Resistance/Entity/Damage/Hack", "multiply": 1.25},
-				{"value": "Resistance/Entity/Damage/Pierce", "multiply": 1.25},
-				{"value": "Resistance/Entity/Damage/Crush", "multiply": 1.25}
+				{"value": "Resistance/Entity/Damage/Hack", "multiply": 1.15},
+				{"value": "Resistance/Entity/Damage/Pierce", "multiply": 1.15},
+				{"value": "Resistance/Entity/Damage/Crush", "multiply": 1.15}
 			 ],
 	"affects": ["Scrub"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

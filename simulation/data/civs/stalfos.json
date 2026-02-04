@@ -1,6 +1,6 @@
 {
 	"Code": "stalfos",
-	"Culture": "stalfos",
+	"Culture": "shadow",
 	"Music":
 	[
 		{"File": "stalfos_theme1.ogg", "Type": "peace"},
@@ -141,6 +141,9 @@
 		"skirmish/units/default_support_female_citizen": "units/stalfos/support_female_citizen",
 		"skirmish/units/default_infantry_melee_b": "units/stalfos/infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/stalfos/stalfos_stalhound_b",
+		"skirmish/units/default_champion_melee": "units/stalfos/stalfos_stalmaster_b",
+		"skirmish/units/default_champion_ranged": "units/stalfos/stalfos_stalreaper_b",
+		"skirmish/units/default_hero": "units/stalfos/stalfos_hero_deathsword",
 		"skirmish/units/default_ship_arrow": "units/stalfos/stalfos_poe_b",
 		"skirmish/units/default_ship_scout": "units/stalfos/stalfos_eyesoar_b",
 		"skirmish/units/default_siege_ram": "units/stalfos/stalfos_stalgiant_b",

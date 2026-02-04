@@ -86,15 +86,39 @@ DelayedDamage.prototype.Hit = function(data, lateness)
 	let ents = PositionHelper.EntitiesNearPoint(Vector2D.from3D(data.position), this.MISSILE_HIT_RADIUS,
 		AttackHelper.GetPlayersToDamage(data.attackerOwner, data.friendlyFire));
 
+	let hitAnEnemy = false; //HC-Code
+
 	for (let ent of ents)
 	{
 		if (!PositionHelper.TestCollision(ent, data.position, lateness) ||
 			!AttackHelper.HandleAttackEffects(ent, data))
 			continue;
 
+		hitAnEnemy = true; //HC-Code
 		cmpProjectileManager.RemoveProjectile(data.projectileId);
 		break;
 	}
+	// HC-Code
+    // Spawn on impact code
+    //potentially spawn units if nothing was hit by this missile based on whether it is applicable for the impact spawner to do so
+    if (hitAnEnemy){
+		return;
+	}
+	
+    let entityImpact = data.EntityOnImpact;
+    if (entityImpact)
+    {
+        if (entityImpact.spawnOnImpact) // check if this attacker is allowed to spawn on impact
+        {
+            let cmpResistance = Engine.QueryInterface(data.target, IID_Resistance);
+            if (!cmpResistance)
+                return;
+
+            let pos = { "x": data.position.x, "y": data.position.z };
+            cmpResistance.SpawnImpactUnits(entityImpact, pos, entityImpact.spawnOnImpact.chance, data.attackerOwner);
+        }
+    }
+    // HC-End
 };
 
 Engine.RegisterSystemComponentType(IID_DelayedDamage, "DelayedDamage", DelayedDamage);

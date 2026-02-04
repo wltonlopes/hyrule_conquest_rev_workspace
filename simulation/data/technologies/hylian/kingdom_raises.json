@@ -1,0 +1,20 @@
+{
+	"genericName": "Kingdom Raises",
+	"description": "The Royal Guards of Hyrule are known to be exceptionally loyal and skilled, so giving them a raise will make them even more so...",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 400},
+	"supersedes": "hylian/soldier_raises",
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/levy_bonuses.dds",
+	"researchTime": 30,
+	"tooltip": "+10% non-magic damage dealt by Kingdom units.",
+	"modifications": [
+				{"value": "Attack/Ranged/Damage/Pierce", "multiply": 1.1},
+				{"value": "Attack/Melee/Damage/Crush", "multiply": 1.1},
+				{"value": "Attack/Melee/Damage/Pierce", "multiply": 1.1},
+				{"value": "Attack/Melee/Damage/Hack", "multiply": 1.1},
+				{"value": "Attack/Melee/Damage/True", "multiply": 1.1}
+			 ],
+	"affects": ["Kingdom"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -3,6 +3,16 @@
   <Attack>
     <Melee replace="">
       <AttackName>Mantis Blades</AttackName>
+      <ApplyStatus>
+        <Bleeding>
+          <Interval>1000</Interval>
+          <Damage>
+            <True>1</True>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+        </Bleeding>
+      </ApplyStatus>
      <Bonuses>
         <BonusCreatureMelee>
           <Classes>Creature</Classes>
@@ -10,7 +20,7 @@
         </BonusCreatureMelee>
       </Bonuses>
       <Damage>
-        <Hack>10.0</Hack>
+        <Hack>15.0</Hack>
         <Pierce>5.0</Pierce>
       </Damage>
       <MaxRange>5.0</MaxRange>
@@ -35,7 +45,7 @@
     <Classes datatype="tokens">Mudman</Classes>
     <SpecificName>Wolfkiller</SpecificName>
     <History>A particularly violent hunter of the Mudmen Tribe that carries Mantis blades, they are excellent at fighting and slaying Creature units. They are quite well off being out in the wild, and in fact prefer it over the comfort of civilization.</History>
-    <Tooltip>Melee unit that has an attack bonus against Creature units.</Tooltip>
+    <Tooltip>Melee unit that has an attack bonus against Creature units. Also deals bleeding damage.</Tooltip>
     <Icon>units/kokiri/kok_mudmen.dds</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_city</Techs>

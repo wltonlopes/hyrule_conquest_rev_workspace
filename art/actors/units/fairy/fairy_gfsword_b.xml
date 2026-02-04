@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor quality="low" inline=""/>
+  <actor quality="medium" inline=""/>
+  <actor inline=""/>
+  <inline version="1">
+    <castshadow minquality="medium"/>
+    <group>
+      <variant minquality="high" frequency="100" name="Base">
+        <mesh>units/fairy/fai_gfswordA.dae</mesh>
+      </variant>
+      <variant minquality="medium" frequency="100" name="Base">
+        <mesh>units/fairy/medium/fai_gfswordA.dae</mesh>
+      </variant>
+      <variant maxquality="medium" frequency="100" name="Base">
+        <mesh>units/fairy/low/fai_gfswordA.dae</mesh>
+      </variant>
+    </group>		
+  <group>
+    <variant file="HC_bounded/base_HC_bounded_whip.xml">
+      <textures><texture file="skeletal/fairy/fai_mainC.dds" name="baseTex"/></textures>
+	  <props>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+	<variant file="HC_bounded/base_HC_bounded_attackmagic.xml"/>
+    <variant file="HC_bounded/base_HC_bounded_capture.xml"/>
+    <variant file="HC_bounded/base_HC_bounded_slaughter.xml"/>
+    <variant file="HC_bounded/base_HC_bounded_death.xml">
+    </variant>
+  </group>
+  <material>default.xml</material>
+  </inline>
+</qualitylevels>

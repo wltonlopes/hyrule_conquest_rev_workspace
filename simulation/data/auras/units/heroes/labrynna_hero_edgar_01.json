@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Soldier"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.20 }
+	],
+	"auraName": "Rapid Conquest",
+	"auraDescription": "All soldiers +20 walk speed."
+}

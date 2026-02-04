@@ -1,0 +1,15 @@
+{
+	"genericName": "Rapid Growth",
+	"description": "Deku Babas grow extremely fast as it is, and by growing them in special fertilizers, they grow even faster.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 300},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "deku"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "deku/manhandla_megasymb.dds",
+	"researchTime": 30,
+	"tooltip": "-35% train time of Deku Babas.",
+	"modifications": [
+				{"value": "Cost/BuildTime", "multiply": 0.65}
+			 ],
+	"affects": ["Baba"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

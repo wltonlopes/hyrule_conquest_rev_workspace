@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="Armature" id="Armature">
+    <bone name="main">
+      <bone name="L_shoulder">
+        <bone name="L_elbow">
+          <bone name="L_wrist" />
+        </bone>
+      </bone>
+      <bone name="stomach">
+        <bone name="hip">
+          <bone name="L_hip">
+            <bone name="L_knee">
+              <bone name="L_calf">
+                <bone name="L_foot" />
+              </bone>
+            </bone>
+          </bone>
+          <bone name="R_hip">
+            <bone name="R_knee">
+              <bone name="R_calf">
+                <bone name="R_foot" />
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="neck">
+        <bone name="head">
+          <bone name="tail_01">
+            <bone name="tail_02">
+              <bone name="tail_03">
+                <bone name="tail_04" />
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="jaw" />
+      </bone>
+      <bone name="R_shoulder">
+        <bone name="R_elbow">
+          <bone name="R_wrist">
+            <bone name="claw_inner" />
+            <bone name="claw_outer" />
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="zora_01" />
+  </standard_skeleton>
+  <skeleton title="Armature" target="Armature">
+    <identifier>
+      <root>main</root>
+    </identifier>
+    <bone name="main">
+      <target>main</target>
+      <bone name="L_shoulder">
+        <target>L_shoulder</target>
+        <bone name="L_elbow">
+          <target>L_elbow</target>
+          <bone name="L_wrist">
+            <target>L_wrist</target>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="stomach">
+        <target>stomach</target>
+        <bone name="hip">
+          <target>hip</target>
+          <bone name="L_hip">
+            <target>L_hip</target>
+            <bone name="L_knee">
+              <target>L_knee</target>
+              <bone name="L_calf">
+                <target>L_calf</target>
+                <bone name="L_foot">
+                  <target>L_foot</target>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+          <bone name="R_hip">
+            <target>R_hip</target>
+            <bone name="R_knee">
+              <target>R_knee</target>
+              <bone name="R_calf">
+                <target>R_calf</target>
+                <bone name="R_foot">
+                  <target>R_foot</target>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+      <bone name="neck">
+        <target>neck</target>
+        <bone name="head">
+          <target>head</target>
+          <bone name="tail_01">
+            <target>tail_01</target>
+            <bone name="tail_02">
+              <target>tail_02</target>
+              <bone name="tail_03">
+                <target>tail_03</target>
+                <bone name="tail_04">
+                  <target>tail_04</target>
+                </bone>
+              </bone>
+            </bone>
+          </bone>
+        </bone>
+        <bone name="jaw">
+          <target>jaw</target>
+        </bone>
+      </bone>
+      <bone name="R_shoulder">
+        <target>R_shoulder</target>
+        <bone name="R_elbow">
+          <target>R_elbow</target>
+          <bone name="R_wrist">
+            <target>R_wrist</target>
+            <bone name="claw_inner">
+              <target>claw_inner</target>
+            </bone>
+            <bone name="claw_outer">
+              <target>claw_outer</target>
+            </bone>
+          </bone>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="zora_01">
+      <target>zora_01</target>
+    </bone>
+  </skeleton>
+</skeletons>

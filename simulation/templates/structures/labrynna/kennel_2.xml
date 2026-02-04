@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/kennel">
+  <Identity>
+    <History>Labrynna has very few native fauna compared to that of other lands. Labrynna's citizens are more than willing to pay a pretty Rupee to see specimens brought back from the foreign lands conquered by the Empire. Everything from Eastern Kanagroo to Aquadongos can turn up in these enclosures.</History>
+    <SpecificName>Foreign Species Enclosures</SpecificName>
+    <Icon>structures/labrynna/lab_zooB.dds</Icon>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      labrynna/creature_circusbeasts
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/labrynna/labrynna_blainoboxer_b
+      units/labrynna/labrynna_aquadongo_b
+    </Entities>
+  </Trainer>
+  <Upgrade replace="">
+    <Trainer>
+      <Cost>
+        <wood>100</wood>
+        <metal>100</metal>
+      </Cost>
+      <Entity>structures/labrynna/kennel_3</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Upgrade the Zoo with Ursa Trainers.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Trainer>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_zooB.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+</Entity>

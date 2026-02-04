@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structures/ruins/ruins_baseB">
+<Entity parent="structures/ruins/ruins_baseA_small">
   <Health disable=""/>
   <Identity>
     <Civ>gaia</Civ>
@@ -12,7 +12,7 @@
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/armos/armos_alttp_b
+      units/armos/armos_ancient
     </Entities>
   </Trainer>
   <VisualActor>

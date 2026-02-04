@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/hylian/infantry_swordsman_a">
+  <Attack>
+    <Melee replace="">
+      <AttackName>Sword</AttackName>
+      <Damage>
+        <Hack>13.0</Hack>
+        <Pierce>7.0</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <PreferredClasses datatype="tokens">Infantry Siege</PreferredClasses>
+      <PrepareTime>1100</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>16</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>0</wood>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Rank>Elite</Rank>
+    <Classes datatype="tokens">Kingdom</Classes>
+    <SpecificName>Kingdom Swordsman</SpecificName>
+    <History>With potentially decades of service an experience, a Hylian soldier could eventually become one of the Kingdom's best. Armed with top of the line armor, sword and shield, this was the closest a peasant could be to a Hylian Knight.</History>
+    <Tooltip>Heavy unit armed with a spear and shield. Deals Hacking damage.</Tooltip>
+    <Icon>units/hylian/hyl_kingdomsword.dds</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>7</Hack>
+        <Pierce>7</Pierce>
+        <Crush>8</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <VisualActor>
+    <Actor>units/hylian/hylian_kingdom_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

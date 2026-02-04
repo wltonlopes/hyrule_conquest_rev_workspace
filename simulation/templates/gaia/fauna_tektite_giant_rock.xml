@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
+  <Attack replace="">
+    <Melee>
+      <AttackName>Bite</AttackName>
+      <Damage>
+        <Crush>10</Crush>
+        <Pierce>6</Pierce>
+      </Damage>
+      <MaxRange>6.0</MaxRange>
+      <PrepareTime>800</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="5.0" width="3.0" />
+    <Height>3.0</Height>
+  </Footprint>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Creature</GenericName>
+    <SpecificName>Giant Mountain Tektite</SpecificName>
+    <History>These thankfully-rare monsters are elder Mountain Tektites that have grown to prodigious size. While few survive to grow this large, these horrors haunt cliff-faces and mountainsides, relentlessly crawling after prey when hungry.</History>
+    <Tooltip>Large Melee Creature unit that can climb any surface.</Tooltip>
+    <Icon>gaia/fauna_tektite_giant_rock.dds</Icon>
+    <VisibleClasses datatype="tokens">Creature Large</VisibleClasses>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <Floating>true</Floating>
+  </Position>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>6.0</Crush>
+        <Hack>5.0</Hack>
+        <Pierce>6.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+ <Sound>
+    <SoundGroups>
+      <attack_melee>attack/natural/tektite_bite.xml</attack_melee>
+      <death>voice/wild/tektite/tektite_death.xml</death>
+      <run>actor/movement/tektite/tektite_move.xml</run>
+      <select>voice/wild/tektite/tektite_select.xml</select>
+      <walk>actor/movement/tektite/tektite_move.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <RoamDistance>36.0</RoamDistance>
+    <FleeDistance>24.0</FleeDistance>
+    <RoamTimeMin>15000</RoamTimeMin>
+    <RoamTimeMax>60000</RoamTimeMax>
+    <FeedTimeMin>15000</FeedTimeMin>
+    <FeedTimeMax>60000</FeedTimeMax>
+    <Formations disable=""/>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>climbing</PassabilityClass>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/wild/wild_tektite_giant_rockA.xml</Actor>
+  </VisualActor>
+</Entity>

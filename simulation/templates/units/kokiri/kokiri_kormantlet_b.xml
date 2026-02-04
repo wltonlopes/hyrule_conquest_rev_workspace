@@ -4,7 +4,7 @@
     <Ranged replace="">
       <AttackName>Javelin</AttackName>
       <Damage>
-        <Pierce>20</Pierce>
+        <Pierce>6</Pierce>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>60</MaxRange>
@@ -51,6 +51,7 @@
     <Entity>
       <Damage>
         <Hack>25.0</Hack>
+        <Crush>25.0</Crush>
         <Pierce>55.0</Pierce>
       </Damage>
     </Entity>

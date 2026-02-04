@@ -1,13 +1,13 @@
 {
 	"genericName": "Crammed Conditions",
 	"description": "When space becomes an issue, the leaders of the Scrubs set out to solve the problem.... by declaring it a non-issue.",
-	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 400},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0, "rupees": 400},
 	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "deku"}]},
 	"requirementsTooltip": "Unlocked with Town Phase.",
 	"icon": "deku/deku_crammed.dds",
 	"researchTime": 40,
-	"tooltip": "+10 population bonus from houses.",
-	"modifications": [{"value": "Cost/PopulationBonus", "add": 10}],
+	"tooltip": "+5 population bonus from houses.",
+	"modifications": [{"value": "Population/Bonus", "add": 5}],
 	"affects": ["House"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

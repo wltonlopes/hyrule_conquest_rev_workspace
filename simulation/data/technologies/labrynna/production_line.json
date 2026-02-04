@@ -1,0 +1,13 @@
+{
+	"genericName": "Production Line",
+	"description": "By reating an organized production line in each of their factories and garages, the Empire can greatly speed up the process of building cannons and steam tanks.",
+	"cost": { "metal": 300, "rupees": 300 },
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "arsenal_of_philon.png",
+	"researchTime": 40,
+	"tooltip": "Siege units train 30% faster",
+	"modifications": [{"value": "Cost/BuildTime", "multiply": 0.7}],
+	"affects": ["Siege"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

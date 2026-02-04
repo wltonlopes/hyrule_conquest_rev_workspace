@@ -288,9 +288,12 @@ AttackHelper.prototype.CauseDamageOverArea = function(data)
 	}
 };
 
-AttackHelper.prototype.ApplyKnockback = function (data, cmpArmour)
+AttackHelper.prototype.ApplyKnockback = function (data, cmpArmour) //This feature is broken, with three errors:
+//#1: Vertical Knockback teleports the target to the bottom of the simulation, underground.
+//#2: Knockback (at least Horizontal Knockback) causes a unit to become invulnerable or be considered dead. The unit can still act as normal, but is ignored by attackers.
+//#3: Horizontal Knockback causes the target to play their "flail" animation, but doesn't actually knock them backwards.
 {	
-    if (cmpArmour.IsInvulnerable() == true) // invulnerable entities cant be knocked back or stunned
+    if (cmpArmour.IsInvulnerable() == true) // invulnerable entities can't be knocked back or stunned
         return false;
 	
     if (cmpArmour.knockbackTimer != undefined) // check if the attacker has knockback and the target isnt already being knocked back
@@ -380,6 +383,9 @@ AttackHelper.prototype.ApplyKnockback = function (data, cmpArmour)
     cmpTimer.SetTimeout(target, IID_Resistance, "InitKnockback", 200, { "runtime": runTime });
     let knockbackData = { "iterationCount": iterationCount, "deltaX": deltaX, "deltaZ": deltaZ, "deltaSpeedScale": deltaSpeedScale, "startPos": targetPos, "verticalData": verticalData };
     cmpArmour.knockbackTimer = cmpTimer.SetInterval(target, IID_Resistance, "InterpolateKnockback", initialDelay, repeatTime, knockbackData); // Call knockback function every repeatTime miliseconds until the targeted entity has reached its knockback destination
+    //The next two lines were causing error messages, and may or may not be important.
+    //cmpArmour.registerData.attacker = attacker;
+    //cmpArmour.registerData.attackerOwner = data.attackerOwner;
     return true;
 };
 
@@ -391,7 +397,7 @@ AttackHelper.prototype.ApplyKnockback = function (data, cmpArmour)
  */
 AttackHelper.prototype.ApplyKnockbackManual = function (ent, horizontalStrength, verticalStrength = 0)
 {
-    let CmpResistance = Engine.QueryInterface(ent, IID_Resistance);
+    let CmpResistance = Engine.QueryInterface(ent, IID_Resistance); //Should steathed and camouflaged (the only units with invulnerability) be able to be knockedback?
     if (CmpResistance.IsInvulnerable() == true) // remove invulnerability if necessary
         CmpResistance.SetInvulnerability(false);
 
@@ -464,7 +470,10 @@ AttackHelper.prototype.ApplyKnockbackManual = function (ent, horizontalStrength,
 
     cmpTimer.SetTimeout(ent, IID_Resistance, "InitKnockback", 0, { "runtime": runTime });
     let knockbackData = { "iterationCount": iterationCount, "deltaX": deltaX, "deltaZ": deltaZ, "deltaSpeedScale": deltaSpeedScale, "startPos": targetPos, "verticalData": verticalData };
-    CmpResistance.knockbackTimer = cmpTimer.SetInterval(ent, IID_Resistance, "InterpolateKnockback", initialDelay, repeatTime, knockbackData); // Call knockback function every repeatTime miliseconds until the targeted entity has reached its knockback destination
+    cmpResistance.knockbackTimer = cmpTimer.SetInterval(ent, IID_Resistance, "InterpolateKnockback", initialDelay, repeatTime, knockbackData); // Call knockback function every repeatTime miliseconds until the targeted entity has reached its knockback destination
+    //The next two lines were causing error messages, and may or may not be important.
+    //cmpArmour.registerData.attacker = attacker;
+    //cmpArmour.registerData.attackerOwner = data.attackerOwner;
     return true;
 };
 
@@ -494,7 +503,7 @@ AttackHelper.prototype.HandleAttackEffects = function(target, data, bonusMultipl
 
 	//HC-Code
 	let Stun = data.Stun;
-    if (Stun && cmpResistance.knockbackTimer == undefined) // dont stun if there is a knockback in effect for this entity
+    if (Stun) //&& cmpResistance.knockbackTimer) // dont stun if there is a knockback in effect for this entity
     {
         // Check resistanceModifier for regular stuns only, not for knockback stuns
         let resistanceModifier = (+100 - cmpResistance.GetStunResistance()) * 0.01; // percentage modifier for stunning, (0 resistance = 1, 20 resistance = 0.8, 100 resistance = 0)

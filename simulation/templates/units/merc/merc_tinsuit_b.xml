@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_spearman">
   <Attack>
-    <Melee>
+    <Melee replace="">
       <AttackName>Spear</AttackName>
       <Bonuses>
         <BonusCavMelee>
@@ -20,11 +20,13 @@
   </Attack>
   <Cost>
     <BuildTime>12</BuildTime>
+    <Population>0</Population>
     <Resources>
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>250</metal>
+      <metal>0</metal>
+      <rupees>200</rupees>
     </Resources>
   </Cost>
   <Health>
@@ -37,6 +39,9 @@
     <Icon>units/merc/merc_tinsuit.dds</Icon>
     <Tooltip>Large and strong Melee unit armed with a spear.</Tooltip>
     <VisibleClasses datatype="tokens">Merc</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

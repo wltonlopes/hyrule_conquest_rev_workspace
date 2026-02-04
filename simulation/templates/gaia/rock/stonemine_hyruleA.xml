@@ -1,0 +1,12 @@
+<Entity parent="template_gaia_geo_rock_slabs">
+  <Footprint replace="">
+    <Height>8.0</Height>
+    <Square depth="16.0" width="24.0" />
+  </Footprint>
+  <Obstruction>
+    <Static depth="14.0" width="22.0" />
+  </Obstruction>
+  <VisualActor>
+    <Actor>geology/stonemine_hyruleA.xml</Actor>
+  </VisualActor>
+</Entity>

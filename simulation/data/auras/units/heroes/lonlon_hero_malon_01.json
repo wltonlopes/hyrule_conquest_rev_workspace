@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Cavalry"],
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 2 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.75 },
+		{ "value": "UnitMotion/RunMultiplier", "multiply": 1.75 }
+	],
+	"auraName": "Finest Horse Breeder",
+	"auraDescription": "All cavalry gain +75% movement speed and x2 health."
+}

@@ -1,0 +1,83 @@
+<skeletons>
+<standard_skeleton id="Gohmite Skeleton" title="Gohmite Skeleton">
+<bone name="gohmite_base">
+<bone name="miteass_01">
+<bone name="miteass_02">
+</bone>
+</bone>
+<bone name="L_Fmiteleg_01">
+<bone name="L_Fmiteleg_02">
+<bone name="L_Fmiteleg_03">
+<bone name="L_Fmiteleg_04">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_Bmiteleg_01">
+<bone name="L_Bmiteleg_02">
+<bone name="L_Bmiteleg_03">
+<bone name="L_Bmiteleg_04">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Fmiteleg_01">
+<bone name="R_Fmiteleg_02">
+<bone name="R_Fmiteleg_03">
+<bone name="R_Fmiteleg_04">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Bmiteleg_01">
+<bone name="R_Bmiteleg_02">
+<bone name="R_Bmiteleg_03">
+<bone name="R_Bmiteleg_04">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Gohmite Skeleton" title="Gohmite Skeleton">
+<identifier><root>gohmite_base</root></identifier>
+<bone name="gohmite_base"><target>gohmite_base</target>
+<bone name="miteass_01"><target>miteass_01</target>
+<bone name="miteass_02"><target>miteass_02</target>
+</bone>
+</bone>
+<bone name="L_Fmiteleg_01"><target>L_Fmiteleg_01</target>
+<bone name="L_Fmiteleg_02"><target>L_Fmiteleg_02</target>
+<bone name="L_Fmiteleg_03"><target>L_Fmiteleg_03</target>
+<bone name="L_Fmiteleg_04"><target>L_Fmiteleg_04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_Bmiteleg_01"><target>L_Bmiteleg_01</target>
+<bone name="L_Bmiteleg_02"><target>L_Bmiteleg_02</target>
+<bone name="L_Bmiteleg_03"><target>L_Bmiteleg_03</target>
+<bone name="L_Bmiteleg_04"><target>L_Bmiteleg_04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Fmiteleg_01"><target>R_Fmiteleg_01</target>
+<bone name="R_Fmiteleg_02"><target>R_Fmiteleg_02</target>
+<bone name="R_Fmiteleg_03"><target>R_Fmiteleg_03</target>
+<bone name="R_Fmiteleg_04"><target>R_Fmiteleg_04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_Bmiteleg_01"><target>R_Bmiteleg_01</target>
+<bone name="R_Bmiteleg_02"><target>R_Bmiteleg_02</target>
+<bone name="R_Bmiteleg_03"><target>R_Bmiteleg_03</target>
+<bone name="R_Bmiteleg_04"><target>R_Bmiteleg_04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

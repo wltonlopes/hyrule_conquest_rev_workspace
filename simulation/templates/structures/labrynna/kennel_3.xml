@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/kennel_2">
+  <Identity>
+    <History>The Blue Bears of Labrynna are one of the most violent creatures of the land and are very difficult to train. It took generations to break these animals and now the Empire enjoys using them as powerful beasts within their armies.</History>
+    <SpecificName>Ursa Trainers</SpecificName>
+    <Icon>structures/labrynna/lab_zooC.dds</Icon>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      labrynna/blainoboxer_smackdown
+      labrynna/bluecaballero_clawfiling
+      labrynna/ursawagon_ursatraining
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/labrynna/labrynna_mauler_b
+      units/labrynna/labrynna_ursawagon_b
+    </Entities>
+  </Trainer>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_zooC.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldE.xml</FoundationActor>
+  </VisualActor>
+</Entity>

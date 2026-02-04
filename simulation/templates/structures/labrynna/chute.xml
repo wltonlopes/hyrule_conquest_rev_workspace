@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <BuildRestrictions>
+    <Category>Chute</Category>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>0</food>
+      <metal>50</metal>
+      <stone>0</stone>
+      <wood>0</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="3.0"/>
+    <Height>3.0</Height>
+  </Footprint>
+  <Health>
+    <Max>100</Max>
+    <SpawnEntityOnDeath>rubble/rubble_stone_2x2</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <Classes datatype="tokens">DropsiteFood</Classes>
+    <SpecificName>Chute</SpecificName>
+    <History>A small chute connected directly to a Heavy Storage building. Drpping resources off here sends them straight to strage for use later.</History>
+    <Icon>structures/labrynna/lab_storehouseA.dds</Icon>
+    <VisibleClasses datatype="tokens">Farmstead</VisibleClasses>
+    <Tooltip>A drop-off site for collected resources.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="2.0" depth="2.0"/>
+  </Obstruction>
+  <ResourceDropsite>
+    <Types>food wood stone metal</Types>
+    <Sharable>true</Sharable>
+  </ResourceDropsite>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <Vision>
+    <Range>3</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_chute.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldG.xml</FoundationActor>
+  </VisualActor>
+</Entity>

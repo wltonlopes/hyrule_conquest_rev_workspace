@@ -1,0 +1,12 @@
+{
+	"code": "rupees",
+	"name": "Rupees",
+	"description": "Used to purchase mercenaries.",
+	"order": 5,
+	"subtypes": {
+		"rupees": "Rupees"
+	},
+	"properties": ["barterable", "tradable", "tributable"],
+	"truePrice": 100,
+	"aiAnalysisInfluenceGroup": "sparse"
+}

@@ -39,6 +39,7 @@
     <History>The Kokiri Chief and boss of the Kokiri Forest. Mido is stubborn and considered a bully by most of the other Kokiri, and very few of his brothers and sisters actually admire him. Most Kokiri simply tolerate him. Despite his mean personality he does genuinely care for the state of his people, and has an intense affection for Saria.</History>
     <Tooltip>A swift Cavalry Hero that attacks with his spear and has an economic bonus.</Tooltip>
     <Icon>units/kokiri/kok_hero_mido.dds</Icon>
+    <Classes datatype="tokens">Deer</Classes>
   </Identity>
   <Promotion disable=""/>
   <Resistance>

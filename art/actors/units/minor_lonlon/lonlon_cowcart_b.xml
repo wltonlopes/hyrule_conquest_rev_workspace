@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/minor_lonlon/lonlon_cartA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/minor_lonlon/medium/lonlon_cartA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/minor_lonlon/low/lonlon_cartA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant frequency="1" name="Main">
+        <animations>
+          <animation file="HC_loncart/loncart_idle.dae" name="Idle" speed="70"/>
+          <animation event="0.5" file="HC_loncart/loncart_move.dae" name="Walk" speed="20"/>
+          <animation event="0.5" file="HC_loncart/loncart_move.dae" name="Run" speed="10"/>
+          <animation file="HC_loncart/loncart_death.dae" name="Death" speed="90"/>
+        </animations>
+        <props>
+          <prop actor="units/minor_lonlon/lonlon_cow.xml" attachpoint="base_loncartA"/>
+        </props>
+        <textures>
+          <texture file="skeletal/minor_lonlon/lonlon_cartA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <group>
+      <variant frequency="100" name="Idle"/>
+      <variant name="death">
+    </variant>
+    </group>
+    <material>default.xml</material>
+  </inline>
+</qualitylevels>
+

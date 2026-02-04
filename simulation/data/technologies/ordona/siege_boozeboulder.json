@@ -5,7 +5,8 @@
     "food": 200,
     "wood": 0,
     "stone": 0,
-    "metal": 350
+    "metal": 0,
+    "rupees": 350
   },
   "requirements": {
     "all": [
@@ -18,10 +19,9 @@
   "researchTime": 40,
   "tooltip": "Ordona Catapult attack now deals fire damage.",
   "modifications": [
-    {
-      "value": "Attack/Ranged/Damage/Fire",
-      "add": 10
-    }
+    { "value": "Attack/Ranged/Damage/Fire", "add": 10 },
+    { "value": "Attack/Ranged/ApplyStatus/Burning/Damage/Fire", "add": 3 },
+    { "value": "Attack/Ranged/ApplyStatus/Burning/Duration", "add": 9000 }
   ],
   "affects": [ "Catapult" ],
   "soundComplete": "interface/alarm/alarm_upgradearmory.xml"

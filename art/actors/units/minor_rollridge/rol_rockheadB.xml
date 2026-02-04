@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="trunk-a">
+      <mesh>units/minor_rollridge/rol_rockheadB.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="trunk-texture">
+      <textures><texture file="skeletal/minor_rollridge/rrg_mainA.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>
+

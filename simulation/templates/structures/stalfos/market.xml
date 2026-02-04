@@ -14,7 +14,6 @@
     <History>Occult Peddlers served as a source of income for the necromantic elites. Within these shops, brave outsiders could find all manner of powerful, rare, and unholy items to use for themselves.</History>
     <Icon>structures/stalfos/sta_market.dds</Icon>
     <Tooltip>Allows the trading of resources on the market or with your allies.</Tooltip>
-    <VisibleClasses datatype="tokens">-Town Village</VisibleClasses>
     <Requirements>
       <Techs datatype="tokens">-phase_town phase_village</Techs>
     </Requirements>

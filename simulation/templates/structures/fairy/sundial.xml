@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_library">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>200</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="35.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>6000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_fairy_largeA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <History>A mysterious ruin believed to somehow be connected to the Fairies' power over the seasons. These giant sundials glow with different colors reflecting the time and place, though in truth this connection might go the other way around.</History>
+    <SpecificName>Sundial</SpecificName>
+    <Tooltip>Structure that researches powerful Fairy technologies. Also has a powerful arua</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static depth="55.0" width="55.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/fairy/complete_sundial.xml</constructed>
+      <select>interface/select/building/fairy/sel_sundial.xml</select>
+      <upgraded>interface/complete/building/fairy/complete_sundial.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_sundialA.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_spring.xml</FoundationActor>
+  </VisualActor>
+</Entity>

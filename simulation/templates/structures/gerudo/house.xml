@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="25.0" width="25.0"/>
+  </Footprint>
+  <Cost>
+    <BuildTime>15</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>100</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>750</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_gerudo_houseA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <SpecificName>Adobe Housing</SpecificName>
+    <History>The Adobe houses of the Gerudo are quite clever, keeping a cool temperature and allowing the Gerudo to live in their harsh homelands in relative comfort.</History>
+    <Icon>structures/gerudo/ger_houses.dds</Icon>
+    <Tooltip>Housing that allows you to field larger armies.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="23.0" width="23.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>8</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -health_females_01
+      -pop_house_01
+      -pop_house_02
+      -unlock_females_house
+    </Technologies>
+  </Researcher>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>10.0</Crush>
+        <Hack>15.0</Hack>
+        <Pierce>55.0</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>6</X>
+        <Y>6.1</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>0</X>
+        <Y>6.1</Y>
+        <Z>0</Z>
+      </Archer2>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/gerudo/gerudo_housesA.xml</Actor>
+    <FoundationActor>structures/gerudo/gerudo_scaffoldC.xml</FoundationActor>
+  </VisualActor>
+</Entity>

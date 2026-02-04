@@ -1,0 +1,19 @@
+{
+	"genericName": "Iron Refinement",
+	"description": "Hylian blacksmiths are notable for their great skill in refining metals and ores, which is topped only by that of the Gorons.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 500},
+	"supersedes": "hylian/steel_alloy",
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "hylian/attack_iron_refinment.dds",
+	"researchTime": 40,
+	"tooltip": "+15% melee damage to all units.",
+	"modifications": [
+				{"value": "Attack/Melee/Damage/Crush", "multiply": 1.15},
+				{"value": "Attack/Melee/Damage/Hack", "multiply": 1.15},
+				{"value": "Attack/Melee/Damage/Pierce", "multiply": 1.15},
+				{"value": "Attack/Melee/Damage/True", "multiply": 1.15}
+			 ],
+	"affects": ["Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

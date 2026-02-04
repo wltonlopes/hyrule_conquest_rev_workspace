@@ -1,0 +1,15 @@
+{
+	"genericName": "Emergency Kit",
+	"description": "It eventually became policy for Labrynnian generals to have some training in applying medicines and potions to their own injuries. Brigadas carry a small emergency kit full of healing liquids and bandages to help them recover in between skirmishes.",
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 200},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "labrynna"}]},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "labrynna/brigada_emergencykit.dds",
+	"researchTime": 40,
+	"tooltip": "Brigada regenerate health while idle.",
+	"modifications": [
+		{"value": "Health/IdleRegenRate", "add": 1}
+	],
+  	"affects": [ "Brigada" ],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

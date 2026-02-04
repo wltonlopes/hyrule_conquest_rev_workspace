@@ -1,0 +1,15 @@
+{
+	"settings" : {
+		"Name" : "Unit Test",
+		"Script" : "unit_test.js",
+		"Description" : "A map for testing new gaia units before putting them in maps.",
+		"Keywords": ["hyrule", "demo"],
+		"CircularMap" : true,
+		"PlayerPlacements": [
+			"circle",
+			"river",
+			"groupedLines",
+			"randomGroup"
+		]
+	}
+}

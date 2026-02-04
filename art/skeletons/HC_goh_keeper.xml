@@ -1,0 +1,227 @@
+<skeletons>
+<standard_skeleton id="Keeper Skeleton" title="Keeper Skeleton">
+<bone name="base_keeper">
+<bone name="body">
+<bone name="head">
+<bone name="eye_01">
+</bone>
+<bone name="L_fang_01">
+<bone name="L_fang_02">
+<bone name="L_fang_03">
+</bone>
+</bone>
+</bone>
+<bone name="R_fang_01">
+<bone name="R_fang_02">
+<bone name="R_fang_03">
+</bone>
+</bone>
+</bone>
+<bone name="mite_01">
+</bone>
+<bone name="mite_02">
+</bone>
+<bone name="mite_07">
+</bone>
+</bone>
+<bone name="ass_01">
+<bone name="ass_02">
+<bone name="projectile">
+<bone name="loaded_projectile">
+<bone name="mite_18">
+</bone>
+</bone>
+<bone name="mite_14">
+</bone>
+<bone name="mite_15">
+</bone>
+<bone name="mite_16">
+</bone>
+<bone name="mite_17">
+</bone>
+<bone name="mite_11">
+</bone>
+<bone name="mite_12">
+</bone>
+<bone name="mite_13">
+</bone>
+<bone name="mite_19">
+</bone>
+<bone name="mite_20">
+</bone>
+<bone name="mite_21">
+</bone>
+<bone name="mite_22">
+</bone>
+<bone name="mite_23">
+</bone>
+</bone>
+</bone>
+<bone name="mite_05">
+</bone>
+<bone name="mite_06">
+</bone>
+<bone name="mite_10">
+</bone>
+</bone>
+<bone name="L_Fleg_01">
+<bone name="L_Fleg_02">
+<bone name="L_Fleg_03">
+<bone name="L_Fleg_04">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_backbase">
+<bone name="L_Bleg_01">
+<bone name="L_Bleg_02">
+<bone name="L_Bleg_03">
+<bone name="L_Bleg_04">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="mite_03">
+</bone>
+<bone name="mite_04">
+</bone>
+<bone name="mite_08">
+</bone>
+<bone name="mite_09">
+</bone>
+<bone name="R_Fleg_01">
+<bone name="R_Fleg_02">
+<bone name="R_Fleg_03">
+<bone name="R_Fleg_04">
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_backbase">
+<bone name="R_Bleg_01">
+<bone name="R_Bleg_02">
+<bone name="R_Bleg_03">
+<bone name="R_Bleg_04">
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</standard_skeleton>
+<skeleton target="Keeper Skeleton" title="Keeper Skeleton">
+<identifier><root>base_keeper</root></identifier>
+<bone name="base_keeper"><target>base_keeper</target>
+<bone name="body"><target>body</target>
+<bone name="head"><target>head</target>
+<bone name="eye_01"><target>eye_01</target>
+</bone>
+<bone name="L_fang_01"><target>L_fang_01</target>
+<bone name="L_fang_02"><target>L_fang_02</target>
+<bone name="L_fang_03"><target>L_fang_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="R_fang_01"><target>R_fang_01</target>
+<bone name="R_fang_02"><target>R_fang_02</target>
+<bone name="R_fang_03"><target>R_fang_03</target>
+</bone>
+</bone>
+</bone>
+<bone name="mite_01"><target>mite_01</target>
+</bone>
+<bone name="mite_02"><target>mite_02</target>
+</bone>
+<bone name="mite_07"><target>mite_07</target>
+</bone>
+</bone>
+<bone name="ass_01"><target>ass_01</target>
+<bone name="ass_02"><target>ass_02</target>
+<bone name="projectile"><target>projectile</target>
+<bone name="loaded_projectile"><target>loaded_projectile</target>
+<bone name="mite_18"><target>mite_18</target>
+</bone>
+</bone>
+<bone name="mite_14"><target>mite_14</target>
+</bone>
+<bone name="mite_15"><target>mite_15</target>
+</bone>
+<bone name="mite_16"><target>mite_16</target>
+</bone>
+<bone name="mite_17"><target>mite_17</target>
+</bone>
+<bone name="mite_11"><target>mite_11</target>
+</bone>
+<bone name="mite_12"><target>mite_12</target>
+</bone>
+<bone name="mite_13"><target>mite_13</target>
+</bone>
+<bone name="mite_19"><target>mite_19</target>
+</bone>
+<bone name="mite_20"><target>mite_20</target>
+</bone>
+<bone name="mite_21"><target>mite_21</target>
+</bone>
+<bone name="mite_22"><target>mite_22</target>
+</bone>
+<bone name="mite_23"><target>mite_23</target>
+</bone>
+</bone>
+</bone>
+<bone name="mite_05"><target>mite_05</target>
+</bone>
+<bone name="mite_06"><target>mite_06</target>
+</bone>
+<bone name="mite_10"><target>mite_10</target>
+</bone>
+</bone>
+<bone name="L_Fleg_01"><target>L_Fleg_01</target>
+<bone name="L_Fleg_02"><target>L_Fleg_02</target>
+<bone name="L_Fleg_03"><target>L_Fleg_03</target>
+<bone name="L_Fleg_04"><target>L_Fleg_04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="L_backbase"><target>L_backbase</target>
+<bone name="L_Bleg_01"><target>L_Bleg_01</target>
+<bone name="L_Bleg_02"><target>L_Bleg_02</target>
+<bone name="L_Bleg_03"><target>L_Bleg_03</target>
+<bone name="L_Bleg_04"><target>L_Bleg_04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="mite_03"><target>mite_03</target>
+</bone>
+<bone name="mite_04"><target>mite_04</target>
+</bone>
+<bone name="mite_08"><target>mite_08</target>
+</bone>
+<bone name="mite_09"><target>mite_09</target>
+</bone>
+<bone name="R_Fleg_01"><target>R_Fleg_01</target>
+<bone name="R_Fleg_02"><target>R_Fleg_02</target>
+<bone name="R_Fleg_03"><target>R_Fleg_03</target>
+<bone name="R_Fleg_04"><target>R_Fleg_04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+<bone name="R_backbase"><target>R_backbase</target>
+<bone name="R_Bleg_01"><target>R_Bleg_01</target>
+<bone name="R_Bleg_02"><target>R_Bleg_02</target>
+<bone name="R_Bleg_03"><target>R_Bleg_03</target>
+<bone name="R_Bleg_04"><target>R_Bleg_04</target>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</bone>
+</skeleton>
+</skeletons>

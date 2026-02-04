@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_boltshooter">
+  <Attack replace="">
+    <Ranged>
+      <AttackName>Bolts</AttackName>
+      <Damage>
+        <Pierce>40</Pierce>
+        <True>30</True>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>100</MaxRange>
+      <MinRange>25.0</MinRange>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>4000</RepeatTime>
+      <Splash>
+        <Damage>
+          <Pierce>40.0</Pierce>
+          <True>15</True>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>20</Range>
+        <Shape>Linear</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="1.5"/>
+    <Height>4.0</Height>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Health>
+    <Max>140</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>50</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/hylian/infantry_crossbowman_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <Classes datatype="tokens">Scorpio</Classes>
+    <SpecificName>Scorpio</SpecificName>
+    <History>These ingenious contraptions can be loaded with a magazine of large crossbow bolts and then fired in rapid succession at enemy formations. Their bolts are launched with such force that they can impale almost a dozen men at a time and pierce all but the strongest of gates.</History>
+    <Tooltip>Large and slow moving ranged unit that deals Piercing linear Splash Damage. Takes a few moments to unpack and repack.</Tooltip>
+    <Icon>units/hylian/hyl_scorpio.dds</Icon>
+  </Identity>
+  <Pack disable=""/>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/crossbolt.xml</attack_ranged>
+      <death>voice/hylian/soldier/soldier_death.xml</death>
+      <order_attack>voice/hylian/soldier/soldier_attack.xml</order_attack>
+      <order_garrison>voice/hylian/soldier/soldier_garrison.xml</order_garrison>
+      <order_gather>voice/hylian/soldier/soldier_gather.xml</order_gather>
+      <order_repair>voice/hylian/soldier/soldier_repair.xml</order_repair>
+      <order_walk>voice/hylian/soldier/soldier_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/hylian/soldier/soldier_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/hylian/hylian_scorpio_b.xml</Actor>
+  </VisualActor>
+</Entity>

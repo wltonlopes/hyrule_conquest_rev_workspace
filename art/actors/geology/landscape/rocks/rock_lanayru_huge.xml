@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+  
+  <group>
+    <variant name="a">
+      <mesh>gaia/landscape/rocks/rock_baseA_huge.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+    <variant name="b">
+      <mesh>gaia/landscape/rocks/rock_baseB_huge.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksA.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksA_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksA_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+	<variant name="c">
+      <mesh>gaia/landscape/rocks/rock_baseC_huge.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>
+	<variant name="d">
+      <mesh>gaia/landscape/rocks/rock_baseD_huge.dae</mesh>
+	  <textures>
+		<texture file="gaia/rocks/lanayru_rocksB.dds" name="baseTex"/>
+		<texture file="gaia/rocks/lanayru_rocksB_normal.dds" name="normTex"/>
+		<texture file="gaia/rocks/base_rocksB_ao.dds" name="aoTex"/>	
+	  </textures>
+    </variant>	
+	
+	
+  </group>
+
+</actor>

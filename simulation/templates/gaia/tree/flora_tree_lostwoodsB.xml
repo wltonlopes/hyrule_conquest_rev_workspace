@@ -9,9 +9,9 @@
     <Static depth="3.7" width="3.7" />
   </Obstruction>
   <ResourceSupply>
-    <Max>500</Max>
+    <Max>800</Max>
     <KillBeforeGather>false</KillBeforeGather>
-    <MaxGatherers>12</MaxGatherers>
+    <MaxGatherers>8</MaxGatherers>
     <Type>wood.tree</Type>
   </ResourceSupply>
   <VisualActor>

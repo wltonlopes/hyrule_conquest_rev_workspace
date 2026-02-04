@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/fairy/storehouse">
+  <Identity>
+    <Classes datatype="tokens">Summer</Classes>
+    <SpecificName>Magic Menhir (Summer)</SpecificName>
+    <Icon>structures/fairy/fai_menhir_summer.dds</Icon>
+  </Identity>
+  <Upgrade>
+    <Spring>
+      <Entity>structures/fairy/fairy_menhir_spring</Entity>
+      <Tooltip>Upgrade to a Magic Menhir (Spring).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Spring>
+    <Autumn>
+      <Entity>structures/fairy/fairy_menhir_autumn</Entity>
+      <Tooltip>Upgrade to Magic Menhir (Autumn).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Autumn>
+    <Winter>
+      <Entity>structures/fairy/fairy_menhir_winter</Entity>
+      <Tooltip>Upgrade to a Magic Menhir (Winter).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Winter>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_menhirA_summer.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_summer.xml</FoundationActor>
+  </VisualActor>
+</Entity>

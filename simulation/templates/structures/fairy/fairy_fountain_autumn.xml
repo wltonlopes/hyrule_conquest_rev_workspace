@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/fairy/barracks">
+  <Identity>
+    <Classes datatype="tokens">Autumn</Classes>
+    <SpecificName>Fairy Fountain (Autumn)</SpecificName>
+    <Icon>structures/fairy/fai_fountain_autumn.dds</Icon>
+  </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+        units/fairy/fairy_stray_autumn
+        units/fairy/fairy_drove_autumn
+	units/fairy/fairy_pegasus_b
+	units/fairy/fairy_puffstool_b
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Spring>
+      <Entity>structures/fairy/fairy_fountain_spring</Entity>
+      <Tooltip>Upgrade to a Fairy Fountain (Spring).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Spring>
+    <Summer>
+      <Entity>structures/fairy/fairy_fountain_summer</Entity>
+      <Tooltip>Upgrade to a Fairy Fountain (Summer).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Summer>
+    <Winter>
+      <Entity>structures/fairy/fairy_fountain_winter</Entity>
+      <Tooltip>Upgrade to a Fairy Fountain (Winter).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Winter>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_fountainA_autumn.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_autumn.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -8,8 +8,8 @@
       </animations>
       <mesh>structural/labrynna/lab_starfortA.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/bullet.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/rock_flaming.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/weapons/rock_flaming.xml" attachpoint="projectile"/>
 		<prop actor="props/structures/labrynna/labrynna_groundbase_squarelarge.xml" attachpoint="root"/>
 		<prop actor="props/structures/labrynna/labrynna_starforttowersA.xml" attachpoint="root"/>
 		<prop actor="props/structures/labrynna/labrynna_starfortcannonsA.xml" attachpoint="root"/>

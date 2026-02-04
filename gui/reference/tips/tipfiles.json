@@ -1,20 +1,14 @@
 [
   {
+    "textFile": "creatures.txt",
+    "imageFiles": [
+      "creatures.png"
+    ]
+  },
+  {
     "textFile": "dead_hand.txt",
     "imageFiles": [
       "dead_hand.png"
-    ]
-  },
-  {
-    "textFile": "stalfos_civ.txt",
-    "imageFiles": [
-      "stalfos.png"
-    ]
-  },
-  {
-    "textFile": "ordona_civ.txt",
-    "imageFiles": [
-      "ordona.png"
     ]
   },
   {
@@ -24,45 +18,159 @@
     ]
   },
   {
-    "textFile": "creatures.txt",
+    "textFile": "darknut_minor.txt",
     "imageFiles": [
-      "creatures.png"
+      "darknut.png"
+    ]
+  },
+  {
+    "textFile": "keaton_minor.txt",
+    "imageFiles": [
+      "keaton.png"
+    ]
+  },
+  {
+    "textFile": "lonlon_minor.txt",
+    "imageFiles": [
+      "lonlon.png"
+    ]
+  },
+  {
+    "textFile": "rollridge_minor.txt",
+    "imageFiles": [
+      "rollridge.png"
+    ]
+  },
+  {
+    "textFile": "tokay_minor.txt",
+    "imageFiles": [
+      "tokay.png"
+    ]
+  },
+  {
+    "textFile": "wizzrobe_minor.txt",
+    "imageFiles": [
+      "wizzrobe.png"
+    ]
+  },
+  {
+    "textFile": "zuna_minor.txt",
+    "imageFiles": [
+      "zuna.png"
+    ]
+  },
+  {
+    "textFile": "deku_civ.txt",
+    "imageFiles": [
+      "deku.png"
+    ]
+  },
+  {
+    "textFile": "fairy_civ.txt",
+    "imageFiles": [
+      "fairy.png"
+    ]
+  },
+  {
+    "textFile": "goron_civ.txt",
+    "imageFiles": [
+      "goron.png"
+    ]
+  },
+  {
+    "textFile": "hylian_civ.txt",
+    "imageFiles": [
+      "hylian.png"
+    ]
+  },
+  {
+    "textFile": "kokiri_civ.txt",
+    "imageFiles": [
+      "kokiri.png"
+    ]
+  },
+  {
+    "textFile": "labrynna_civ.txt",
+    "imageFiles": [
+      "labrynna.png"
+    ]
+  },
+  {
+    "textFile": "ordona_civ.txt",
+    "imageFiles": [
+      "ordona.png"
+    ]
+  },
+  {
+    "textFile": "stalfos_civ.txt",
+    "imageFiles": [
+      "stalfos.png"
+    ]
+  },
+  {
+    "textFile": "wonder_tot.txt",
+    "imageFiles": [
+      "wonder_hylian.png"
+    ]
+  },
+  {
+    "textFile": "wonder_fairy.txt",
+    "imageFiles": [
+      "wonder_fairy.png"
+    ]
+  },
+  {
+    "textFile": "wonder_arbiter.txt",
+    "imageFiles": [
+      "wonder_stalfos.png"
     ]
   },
   {
     "textFile": "titan_stallord.txt",
     "imageFiles": [
-      "titan_stallord.png"
+      "titan_stalfos.png"
     ]
   },
   {
     "textFile": "titan_aquamentus.txt",
     "imageFiles": [
-      "titan_aquamentus.png"
+      "titan_zola.png"
     ]
   },
   {
     "textFile": "titan_stagnox.txt",
     "imageFiles": [
-      "titan_stagnox.png"
+      "titan_deku.png"
     ]
   },
   {
     "textFile": "titan_vrylonacia.txt",
     "imageFiles": [
-      "titan_vrylonacia.png"
+      "titan_lanayru.png"
     ]
   },
   {
     "textFile": "titan_GDT.txt",
     "imageFiles": [
-      "titan_GDT.png"
+      "titan_kokiri.png"
+    ]
+  },
+  {
+    "textFile": "titan_fairy.txt",
+    "imageFiles": [
+      "titan_fairy.png"
+    ]
+  },
+  {
+    "textFile": "titan_fi.txt",
+    "imageFiles": [
+      "titan_hylian.png"
     ]
   },
   {
     "textFile": "titan_biggoron.txt",
     "imageFiles": [
-      "titan_biggoron.png"
+      "titan_goron.png"
     ]
   }
 ]

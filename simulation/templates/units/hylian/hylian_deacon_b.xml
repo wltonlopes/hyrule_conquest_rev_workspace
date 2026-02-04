@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Auras datatype="tokens">
+    units/deacon_chant_01
+  </Auras>
+  <Attack disable=""/>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>100</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Heal>
+    <HealableClasses datatype="tokens">Organic</HealableClasses>
+    <Health>4</Health>
+    <Range>20</Range>
+    <Interval>200</Interval>
+    <UnhealableClasses datatype="tokens" />
+  </Heal>
+  <Health>
+    <Max>250</Max>
+  </Health>
+  <Identity>
+    <Civ>hylian</Civ>
+    <SpecificName>Goddess Deacon</SpecificName>
+    <History>Members of Hyrule's clergy, the Goddess Deacons traditionally venture into the border realms of Hyrule to spread the doctrine of the Goddesses. During wartime, they march alongside Hyrule's soldiers to chant various psalms and incantations from among the holy texts, improving the performance of their allies in battle.</History>
+    <Tooltip>Support unit with many aiding abilities.</Tooltip>
+    <Icon>units/hylian/hyl_deacon.dds</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/hylian/hylian_priestess_b</Entity>
+    <RequiredXp>500</RequiredXp>
+  </Promotion>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>voice/hylian/civilian_female/civilian_female_death.xml</death>
+      <order_attack>voice/hylian/scout/scout_attack.xml</order_attack>
+      <order_garrison>voice/hylian/scout/scout_garrison.xml</order_garrison>
+      <order_gather>voice/hylian/scout/scout_gather.xml</order_gather>
+      <order_heal>voice/hylian/civilian_female/civilian_female_repair.xml</order_heal>
+      <order_repair>voice/hylian/scout/scout_repair.xml</order_repair>
+      <order_walk>voice/hylian/civilian_female/civilian_female_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/hylian/civilian_female/civilian_female_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.5</RunMultiplier>
+    <WalkSpeed>10.0</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/hylian/hylian_deacon_b.xml</Actor>
+  </VisualActor>
+</Entity>

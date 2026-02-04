@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/armos/armos_b">
+  <Identity>
+    <GenericName>Desert Armos</GenericName>
+    <History>Typically found in ruins of Hyrule's deserts, these statues, and their creators, are still a mystery to this day. What can be surmised is that they were intended to guard passages and other important locations, as those found active will begin to rampage and defend the immediate area.</History>
+    <Icon>units/ruins/armos_fsaA.dds</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/ruins/armos_fsaA.xml</Actor>
+  </VisualActor>
+</Entity>

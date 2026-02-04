@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>100</wood>
+      <stone>100</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="38.0" width="38.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_labrynna_medium</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <History>Gunpowder has perhaps been the greatest discovery for military forces in the history of Hyrule. While many other nations have used explosives of various sorts, Labrynna was the first to refine the idea into hand held portable weaponry. Other countries have attempted to follow in their footsteps, with varying results.</History>
+    <SpecificName>Powder Maker</SpecificName>
+    <Icon>structures/labrynna/lab_gunpowderA.dds</Icon>
+    <Tooltip>Trains a variety of Gunpowder and Siege units.</Tooltip>
+    <VisibleClasses datatype="tokens">Town -City</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Obstruction>
+    <Static width="38.0" depth="38.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+      labrynna/conqueror_reloadingdrills
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/labrynna/labrynna_conqueror_b
+      units/labrynna/labrynna_handcannon_b
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Foundry>
+      <Cost>
+        <wood>100</wood>
+        <stone>100</stone>
+      </Cost>
+      <Entity>structures/labrynna/arsenal_2</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Upgrade the Powder Maker with a Cannon Foundry.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Foundry>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_powderA.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldD.xml</FoundationActor>
+  </VisualActor>
+</Entity>

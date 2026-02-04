@@ -13,8 +13,7 @@
     <SpecificName>Arbiter's Grounds</SpecificName>
     <History>Built by the Gerudo after Ganandorf's banishment to the Sacred Realm, this massive building was created as an execution grounds for those who would break Gerudo and Hylian law. Full of torture chambers and cells, it is said that Arbiter's Grounds was built directly above the ruins of a necromancer's ruined tower, which might explain the dark magic that seems to haunt this place, raising skeletons and ghosts from their eternal rest.</History>
     <Icon>structures/stalfos/sta_arbitersground.dds</Icon>
-    <Tooltip>The Stalfos Wonder, allows you to summon the Stallord ad Death Sword.</Tooltip>
-    <VisibleClasses datatype="tokens">-City Village</VisibleClasses>
+    <Tooltip>The Stalfos Wonder, allows you to summon the Stallord and Death Sword.</Tooltip>
     <Requirements>
       <Techs datatype="tokens">-phase_city phase_village</Techs>
     </Requirements>

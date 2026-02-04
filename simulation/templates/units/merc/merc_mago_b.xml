@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_archer">
   <Attack>
-    <Ranged>
-      <AttackName>Fireball</AttackName>
+    <Ranged replace="">
+      <AttackName>Curse</AttackName>
+      <ApplyStatus>
+        <Cursed>
+          <Interval>3000</Interval>
+          <Damage>
+            <Shadow>1</Shadow>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>18000</Duration>
+        </Cursed>
+      </ApplyStatus>
       <Damage>
-        <Fire>20.0</Fire>
+        <Shadow>20.0</Shadow>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>100</MaxRange>
@@ -25,11 +35,13 @@
   </Attack>
   <Cost>
     <BuildTime>12</BuildTime>
+    <Population>0</Population>
     <Resources>
       <food>0</food>
       <wood>0</wood>
       <stone>0</stone>
-      <metal>250</metal>
+      <metal>0</metal>
+      <rupees>200</rupees>
     </Resources>
   </Cost>
   <Health>
@@ -38,10 +50,13 @@
   <Identity>
     <Civ>gaia</Civ>
     <GenericName>Mago</GenericName>
-    <History>Once a practicing Witch, the Mago went a bit too far with their spells and ended up being shunned by even the outcasts. Many Mago live isolated deep in the forest, most often losing their sanity as they attempt ever deadlier and crazier magics. A fair sum of Rupees might be enough to encourage one to torch your enemies with a fireball.</History>
+    <History>Once a practicing Witch, the Mago went a bit too far with their spells and ended up being shunned by even the outcasts. Many Mago live isolated deep in the forest, most often losing their sanity as they attempt ever deadlier and crazier magics. A fair sum of Rupees might be enough to encourage one to curse your enemies to death.</History>
     <Icon>units/merc/merc_mago.dds</Icon>
-    <Tooltip>Small Mage unit that can hurl fireballs at their targets.</Tooltip>
+    <Tooltip>Small Mage unit that curses enemies.</Tooltip>
     <VisibleClasses datatype="tokens">Merc Mage</VisibleClasses>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city phase_village</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>
@@ -53,7 +68,6 @@
   </Resistance>
   <Sound>
     <SoundGroups>
-      <attack_impact_ranged>attack/magic/immortal_fire_impact.xml</attack_impact_ranged>
       <attack_ranged>attack/magic/immortal_fire.xml</attack_ranged>
       <death>voice/merc/mago/mago_death.xml</death>
       <order_attack>voice/merc/mago/mago_attack.xml</order_attack>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/moblin/mob_bullbo_armorA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/moblin/medium/mob_bullbo_armorA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/moblin/low/mob_bullbo_armorA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant frequency="1" name="Base">
+        <animations>
+          <animation file="HC_bullbo/bullbo_idle.dae" id="idle1" name="Idle" speed="100"/>
+          <animation file="HC_bullbo/bullbo_idleA.dae" id="idle2" name="Idle" speed="100"/>
+          <animation file="HC_bullbo/bullbo_idleB.dae" id="idle3" name="Idle" speed="100"/>
+          <animation event="0.1" file="HC_bullbo/bullbo_walk.dae" name="carry_meat" speed="10"/>
+          <animation event="0.1" file="HC_bullbo/bullbo_walk.dae" name="Walk" speed="10"/>
+          <animation event="0.1" file="HC_bullbo/bullbo_run.dae" name="Run" speed="10"/>
+          <animation file="HC_bullbo/bullbo_attackA.dae" id="attack1" name="attack_melee" speed="100"/>
+          <animation file="HC_bullbo/bullbo_attackA.dae" id="attack2" name="attack_melee" speed="100"/>
+          <animation file="HC_bullbo/bullbo_attackA.dae" name="attack_slaughter" speed="70"/>
+          <animation file="HC_bullbo/bullbo_deathA.dae" name="death" speed="100"/>
+        </animations>
+        <textures>
+          <texture file="skeletal/moblin/mob_armorboarA.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+    <material>basic_trans.xml</material>
+  </inline>
+</qualitylevels>
+

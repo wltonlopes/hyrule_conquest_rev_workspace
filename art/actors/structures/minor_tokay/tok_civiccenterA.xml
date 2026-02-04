@@ -13,6 +13,7 @@
       <textures>
         <texture file="structural/minor_tokay/tok_mainA.dds" name="baseTex"/>
 		<texture file="structural/minor_tokay/tok_mainA_normal.dds" name="normTex"/>
+        <texture file="structural/minor_tokay/tok_mainA.dds" name="specTex"/>
 		<texture file="structural/minor_tokay/tok_chiefshackA_ao.dds" name="aoTex"/>
       </textures>
     </variant>

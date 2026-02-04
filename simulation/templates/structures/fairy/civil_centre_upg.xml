@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Attack disable=""/>
+  <Cost>
+    <BuildTime>1000</BuildTime>
+    <Resources>
+      <wood>0</wood>
+      <stone>1000</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>8.0</Height>
+    <Circle radius="25.0"/>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Health>
+    <Max>2500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_fairy_mediumA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>fairy</Civ>
+    <History>Fabled places rumored to be hidden throughout Hyrule, Wishing Wells re rumored to grant a single wish to a visitor, no matter the request. It is also said to be a place where fairies converge for rituals, conferences, and spells.</History>
+    <Tooltip>Center of a Fairy Settlement. Summons Fairy Heroes.</Tooltip>
+    <SpecificName>Wishing Well</SpecificName>
+  </Identity>
+  <Loot>
+    <wood>0</wood>
+    <stone>350</stone>
+    <metal>0</metal>
+  </Loot>
+  <Obstruction>
+    <Static depth="43.0" width="43.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>30</Bonus>
+  </Population>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Fire>20.0</Fire>
+        <Forest>55.0</Forest>
+        <Water>55.0</Water>
+        <Shadow>20.0</Shadow>
+        <Spirit>20.0</Spirit>
+        <Light>55.0</Light>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/fairy/complete_wishingwell.xml</constructed>
+      <select>interface/select/building/fairy/sel_wishingwell.xml</select>
+      <upgraded>interface/complete/building/fairy/complete_wishingwell.xml</upgraded>
+    </SoundGroups>
+  </Sound>
+</Entity>

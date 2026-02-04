@@ -1,0 +1,165 @@
+{
+	"Code": "labrynna",
+	"Culture": "civilized",
+	"Music":
+	[
+		{"File": "labrynna_theme1.ogg", "Type": "peace"},
+		{"File": "labrynna_ambient1.ogg", "Type": "peace"},
+		{"File": "labrynna_ambient2.ogg", "Type": "peace"},
+		{"File": "labrynna_ambient3.ogg", "Type": "peace"},
+		{"File": "labrynna_ambient4.ogg", "Type": "peace"},
+		{"File": "labrynna_ambient5.ogg", "Type": "peace"},
+		{"File": "labrynna_ambient6.ogg", "Type": "peace"},
+		{"File": "labrynna_ambient7.ogg", "Type": "peace"},
+		{"File": "labrynna_ambient8.ogg", "Type": "peace"},
+		{"File": "labrynna_ambient9.ogg", "Type": "peace"},
+		{"File": "labrynna_ambient10.ogg", "Type": "peace"},
+		{"File": "labrynna_battle1.ogg", "Type": "battle"},
+		{"File": "labrynna_battle2.ogg", "Type": "battle"},
+		{"File": "labrynna_battle3.ogg", "Type": "battle"},
+		{"File": "labrynna_victory1.ogg", "Type": "victory"}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Labrynna Empire",
+    			"History": "Once a shining beacon of civilization in the east, Labrynna served as a Province to the Kingdom of Hyrule and important connection to the Great Sea. In recent years the witch Veran has managed to worm her way into the trust of the Labrynnian Royal Court, advancing their military might and political power. Now no longer a Province of the Kingdom of Hyrule, Labrynna plans to challenge the crown with its expanding armies.",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Queen Ambi",
+					"Class": "Infantry Swordsman",
+					"Armament": "Sword",
+					"Emblem": "",
+    					"History": "The latest member of the long lasting Ambi dynasty, Queen Solado Ambi was placed on the throne shortly after her father&#8217;s death. Later in her reign she encountered Veran, whom she quickly instated as her personal advisor. Soon after Ambi ushered in a new age of expansion and formerly established the new Empire. Queen Ambi was known as a kind and gentle person during the first part of her reign over Labrynna. Shortly after Veran&#8217;s insertion into her court however, Ambi&#8217;s attitude began to degenerate. Bouts of depression seemed to overcome her, as well as a great sense of impatience for everything."
+				},
+				{
+					"Name": "Edgar",
+					"Class": "Infantry Spearman",
+					"Armament": "Glaive",
+					"Emblem": "",
+    					"History": "A man of towering stature, Edgar earned his nickname for both his height and incredible strength. He earned his place as a General not for his physical prowess however, but for his battlefield strategy. Initially Homeguard to Labrynna, the Empire's expansion has seen him leading troops on frontlines, and instead of fighting off Lynels he has found himself conquering them. In recent times he has found himself supervising the young and arrogant Ralph on behalf of the Queen just as much as he has been ordered to march out further north."
+				},
+				{
+					"Name": "Onox, General of Darkness",
+					"Class": "Infantry Maceman",
+					"Armament": "Ball and Chain",
+					"Emblem": "",
+    					"History": "A Dark Dragon summoned forth by Twinrova, thw witches put Onox in charge of the conquest of Holodrum. When he failed to enslave the nation, they demoted him to the servant of Veran. The Sorcerous of Shadows sends General Onox on missions deemed too dangerous for any normal Labrynnian. Carrying a huge ball and chain and wearing a near invulnerable suit of armor into battle, Onox's presence alone is sometimes enough to bring about a surrender."
+				},
+				{
+					"Name": "Ralphonso Ambi",
+					"Class": "Infantry Gunman",
+					"Armament": "Pistol",
+					"Emblem": "",
+    					"History": "The grandson of Queen Ambi, Ralphonso was born of the first generation to live during Labrynna’s new Empire. Machinery is second nature to him, and years of education had landed him an internship commanding batteries of cannons. Despite Ralph’s clear admiration for Labrynna’s technological prowess, he feels Labrynna has gone into a stage of decline as if something is missing. He has since turned to seeking out the supernatural, in particular he hopes to uncover the mythical Fairies and ancient creatures that once coexisted in his homeland."
+				},
+				{
+					"Name": "Veran, the Sorcerous of Shadows",
+					"Class": "Infantry Mage",
+					"Armament": "Fairy Whip",
+					"Emblem": "",
+    					"History": "A mystery to all in Labrynna, even those most close to her, Veran's past is a terrible saga of personal loss and trauma. Once a Great Fairy, circumstances in the past lead to her banishment to the Realm of Twilight with other criminal elements of her people. Then, Twinrova summoned her back from the Twilight Realm, putting her in charge of the conquest of Labrynna... which she succeeded at with flying colors by inserting herself into the throne room of Labrynna, becoming Queen Ambi's chief advicer. Her current orders are unknown. She is, however, quite clearly connected to Labrynna's rapid and extreme military growth. She is the architect of the Black Tower, a massive monolithic structure designed to serve as the new throne of Queen Ambi. Some suspect there's more to the tower's purpose than just an ego trip for Veran's royal friend, however."
+				},
+				{
+					"Name": "Vire",
+					"Class": "Flying Creature",
+					"Armament": "Fireball",
+					"Emblem": "",
+    					"History": "Vire is a mysterious, imp like monster that does the bidding of Veran. Few know what his missions actually detail, as the beast carries out his orders in shadow and darkness. Although Vire is somewhat clownish in attitude and more likely to pull a prank than actually hurt someone, when threatened or ordered to kill he is more than capable of incinerating a victim with fireballs from his throat."
+				},
+				{
+					"Name": "Titan: The Maku Tree",
+					"Class": "Titan",
+					"Armament": "Roots",
+					"Emblem": "",
+    					"History": "One of the ancient Maku Trees and guardians of the eastern lands. Unlike many of the other ancient trees, the Maku Tree of Labrynna remains rather approachable and friendly. The royalty of Labrynna largely leaves this mysterious creature to her own devices, though several times in the past they have requested an alliance with her mighty powers to defend the Kingdom from enemy forces."
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Military Training",
+			"History": "With the possible exception of the Darknuts, the Kingdom of Hyrule has the best-trained armies througout the land. Though they are individually not very skilled, when in a formation with others, they punch above their weight. They have been known to share this knowledge and training with their allies.",
+			"Description": "+2 non-magic rsistance and walk speed for allied formations."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name": "Wonder: The Black Tower",
+			"Class": "Wonder",
+			"Emblem": "",
+    			"History": "A giant and imposing tower orchestrated by Veran as the new throne of Queen Ambi. The staggering amount of resources Labrynna obtained to construct this massive structure has been fueled by their aggressive expansion into all neighboring lands. In truth, there is more to the Black Tower's purpose then a mere show of ego.",
+			"Requirements": "",
+			"Phase": "City",
+			"Special": "Trains the Labrynnian Titan."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/labrynna/civil_centre"
+		},
+		{
+			"Template": "units/labrynna/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/labrynna/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/labrynna/infantry_maceman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/labrynna/infantry_swordsman_b"
+		}
+	],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/labrynnia/wallset_stone"
+	],
+	"AINames":
+	[
+		"Queen Ambi",
+		"Edgar",
+		"General Onox",
+		"Ralphonso Ambi",
+		"Veran",
+		"Vire",
+		"The Maku Tree of Labrynna"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_support_female_citizen": "units/labrynna/support_female_citizen",
+		"skirmish/units/default_infantry_melee_b": "units/labrynna/infantry_spearman_b",
+		"skirmish/units/default_champion_melee": "units/labrynna/labrynna_talusknight_b",
+		"skirmish/units/default_champion_ranged": "units/labrynna/labrynna_conqueror_b",
+		"skirmish/units/default_hero": "units/labrynna/labrynna_hero_veran",
+		"skirmish/units/default_infantry_ranged_b": "units/labrynna/infantry_maceman_b",
+		"skirmish/units/default_ship_arrow": "units/labrynna/labrynna_aquadongo_b",
+		"skirmish/units/default_ship_scout": "units/labrynna/labrynna_aquadongo_b",
+		"skirmish/units/default_siege_ram": "units/labrynna/labrynna_cannon_b",
+		"skirmish/units/default_cavalry": "units/labrynna/infantry_swordsman_b",
+		"skirmish/units/special_starting_unit": "units/labrynna/labrynna_brigada_b",
+		"skirmish/structures/default_dock": "structures/labrynna/defense_tower",
+		"skirmish/structures/default_farmstead": "structures/labrynna/storehouse",
+		"skirmish/structures/default_house_5": "structures/labrynna/house",
+		"skirmish/structures/default_house_10": "structures/labrynna/house",
+		"skirmish/structures/default_range": "structures/labrynna/kennel",
+		"skirmish/structures/default_outpost": "structures/labrynna/defense_tower",
+		"skirmish/structures/default_sentry_tower": "structures/labrynna/defense_tower"
+	},
+	"SelectableInGameSetup": true
+}

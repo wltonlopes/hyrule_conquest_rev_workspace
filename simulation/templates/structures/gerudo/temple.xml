@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Cost>
+    <Resources>
+      <wood>0</wood>
+      <stone>250</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Square depth="39.5" width="39.5"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1500</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_gerudo_altarA</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <History>Lost during the ancient days of the Gerudo Empire, Spirit Altars were conduits that allowed Gerudo Kings to plead to Kovaloo to speak with their dead ancestors. The Wind Witches have recently unearthed these secrets. and have begun recreating these shrines.</History>
+    <SpecificName>Spirit Altar</SpecificName>
+    <Icon>structures/gerudo/ger_religionA.dds</Icon>
+    <Tooltip>Religious building that increases the spread of your territory and allows the training of several units.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static depth="39.5" width="39.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/gerudo/gerudo_windwitch_b
+      units/gerudo/gerudo_ironknuckle_b
+      units/gerudo/gerudo_serpentkeep_b
+      units/gerudo/gerudo_hero_nabooru
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/gerudo/gerudo_religionB.xml</Actor>
+    <FoundationActor>structures/gerudo/gerudo_scaffoldF.xml</FoundationActor>
+  </VisualActor>
+</Entity>

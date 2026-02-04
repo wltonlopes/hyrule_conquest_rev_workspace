@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/fairy/civil_centre_upg">
+  <Identity>
+    <Icon>structures/fairy/fai_wishingwell_autumn.dds</Icon>
+    <SpecificName>Wishing Well (Autumn)</SpecificName>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/fairy/fairy_stray_autumn
+      units/fairy/fairy_drove_autumn
+      units/fairy/fairy_hero_xana
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Summer>
+      <Entity>structures/fairy/civil_centre_upgA</Entity>
+      <Tooltip>Upgrade to a Wishing Well (Spring).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Summer>
+    <Autumn>
+      <Entity>structures/fairy/civil_centre_upgB</Entity>
+      <Tooltip>Upgrade to a Wishing Well (Summer).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Autumn>
+    <Winter>
+      <Entity>structures/fairy/civil_centre_upgD</Entity>
+      <Tooltip>Upgrade to a Wishing Well (Winter).</Tooltip>
+      <Cost>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>20</Time>
+    </Winter>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/fairy/fairy_wishingwellA_autumn.xml</Actor>
+    <FoundationActor>structures/fairy/fairy_summonA_autumn.xml</FoundationActor>
+  </VisualActor>
+</Entity>

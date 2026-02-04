@@ -1,0 +1,9 @@
+{
+	"type": "global",
+	"affects": ["Structure"],
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.8 }
+	],
+	"auraName": "Harsh Labor Conditions",
+	"auraDescription": "All structures take 20% less time to build."
+}

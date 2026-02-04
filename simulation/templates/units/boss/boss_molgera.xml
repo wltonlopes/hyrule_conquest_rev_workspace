@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_titan">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Teeth</AttackName>
+      <Damage>
+        <Crush>50</Crush>
+        <Pierce>50.0</Pierce>
+      </Damage>
+      <EffectDelay>3</EffectDelay>
+      <MaxRange>30</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PreferredClasses datatype="tokens">Structure Infantry</PreferredClasses>
+      <PrepareTime>1500</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <ImpactActorName>props/units/explosions/biggoron_explosion.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.5</ImpactAnimationLifetime>
+        <LaunchPoint y="3"/>
+        <Speed>300.0</Speed>
+        <Spread>1.0</Spread>
+      </Projectile>
+      <RepeatTime>2300</RepeatTime>
+      <Splash>
+        <Damage>
+          <Crush>50.0</Crush>
+          <Pierce>50.0</Pierce>
+        </Damage>
+        <FriendlyFire>false</FriendlyFire>
+        <Range>20</Range>
+        <Shape>Circular</Shape>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Builder disable=""/>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>2500</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="20.0"/>
+    <Height>20.0</Height>
+  </Footprint>
+  <Health>
+    <Max>5600</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Molgera</SpecificName>
+    <History>One of the last of its kind, this giant Molgera is likely centuries old. Once a small time predator in the ancient Gerudo Desert, the Molgera long outlasted their hunters and became the top of the food chain. Despite this, they seem to be going the way of their rivals as their number dwindle over the ages. Only through the efforts of the Darknuts have these magestic but deadly monsters lived on.</History>
+    <Tooltip>Boss monster that can burrow into the ground and surprise attack entire armies.</Tooltip>
+    <Icon>units/boss/boss_molgera.dds</Icon>
+    <VisibleClasses datatype="tokens">Creature Boss</VisibleClasses>
+  </Identity>
+  <Position>
+    <Floating>false</Floating>
+    <TurnRate>2.5</TurnRate>
+  </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>55.0</Crush>
+        <Fire>20.0</Fire>
+        <Forest>20.0</Forest>
+        <Hack>15.0</Hack>
+        <Pierce>55.0</Pierce>
+        <Light>20.0</Light>
+        <Shadow>20.0</Shadow>
+        <Spirit>20.0</Spirit>
+        <Water>20.0</Water>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/natural/molgera_attack_impact.xml</attack_impact_ranged>
+      <attack_ranged>attack/natural/molgera_attack_bite.xml</attack_ranged>
+      <death>voice/boss/molgera/molgera_death.xml</death>
+      <order_attack>voice/boss/molgera/molgera_attack.xml</order_attack>
+      <order_garrison>voice/boss/molgera/molgera_garrison.xml</order_garrison>
+      <order_gather>voice/boss/molgera/molgera_gather.xml</order_gather>
+      <order_repair>voice/boss/molgera/molgera_repair.xml</order_repair>
+      <order_walk>voice/boss/molgera/molgera_walk.xml</order_walk>
+      <run>actor/movement/molgera/molgera_crawl.xml</run>
+      <select>voice/boss/molgera/molgera_select.xml</select>
+      <trained>interface/alarm/alarm_create_titan.xml</trained>
+      <walk>actor/movement/molgera/molgera_crawl.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>defensive</DefaultStance>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>titan</PassabilityClass>
+    <RunMultiplier>1.3333</RunMultiplier>
+    <WalkSpeed>10.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/boss/boss_molgera.xml</Actor>
+  </VisualActor>
+</Entity>

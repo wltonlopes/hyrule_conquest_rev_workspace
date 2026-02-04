@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_fauna_wild_violent">
+  <Attack>
+    <Ranged>
+      <AttackName>Fire Breath</AttackName>
+      <Damage>
+        <Fire>7.0</Fire>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>50</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>1000</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="1"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>1500</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Capturable>
+    <CapturePoints>10</CapturePoints>
+    <GarrisonRegenRate>1</GarrisonRegenRate>
+    <RegenRate>1</RegenRate>
+  </Capturable>
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>75</food>
+      <rupees>75</rupees>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Height>2.0</Height>
+    <Circle radius="1.0"/>
+  </Footprint>
+  <Health>
+    <Max>210</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Aneru</GenericName>
+    <Icon>gaia/fauna_aneru.dds</Icon>
+    <History>Snakelike creatures that lack true eyes, Aneru are common predators that inhabit the Misery Mire. They tend to attack anything that moves, and are bold enough to attack Gohma Hives when hungry and in a large pack.</History>
+  </Identity>
+  <Position>
+    <Anchor>pitch</Anchor>
+  </Position>
+  <ResourceSupply>
+    <KillBeforeGather>true</KillBeforeGather>
+    <Max>50</Max>
+    <MaxGatherers>1</MaxGatherers>
+    <Type>food.meat</Type>
+  </ResourceSupply>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/natural/aneru_breath.xml</attack_ranged>
+      <death>voice/wild/aneru/aneru_death.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>units/wild/wild_aneruA.xml</Actor>
+  </VisualActor>
+</Entity>

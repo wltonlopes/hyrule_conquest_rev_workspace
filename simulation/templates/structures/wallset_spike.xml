@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <GenericName>Spikes</GenericName>
+    <Tooltip>Wall off an area. Build in own or neutral territory.</Tooltip>
+    <VisibleClasses datatype="tokens">-Wall Spikes</VisibleClasses>
+    <Icon>structures/palisade_wall.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/palisades_spike_angle</Tower>
+      <Gate>structures/palisades_spikes_small</Gate>
+      <Fort>structures/palisades_fort</Fort>
+      <WallLong>structures/palisades_spikes_tall</WallLong>
+      <WallMedium>structures/palisades_spikes_tall</WallMedium>
+      <WallShort>structures/palisades_spikes_small</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_tower_sentry">
+  <Footprint>
+    <Square width="10.0" depth="10.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>75</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <GarrisonHolder>
+    <BuffHeal>0</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.075</EjectHealth>
+    <List datatype="tokens">Human</List>
+    <LoadingRange>6</LoadingRange>
+    <Max>3</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/debris_gerudo_tiny</SpawnEntityOnDeath>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>100</Chance>
+      <SpawnNumberMax>5</SpawnNumberMax>
+      <SpawnNumberMin>5</SpawnNumberMin>
+      <Template>units/gerudo/infantry_archer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <SpecificName>Border Tower</SpecificName>
+    <History>Gerudo borders are guarded with care. Many of these towers are built along the mountainous reaches of the Gerudo Desert to keep watch for invaders.</History>
+    <Icon>structures/gerudo/ger_sentry_tower.dds</Icon>
+    <Tooltip>Small Tower that shoots arrows.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="7.5" depth="7.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <StatusBars>
+    <BarHeight>0.6</BarHeight>
+    <BarWidth>6.0</BarWidth>
+    <HeightOffset>19.0</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <Archer1>
+        <X>2</X>
+        <Y>17.1</Y>
+        <Z>0</Z>
+      </Archer1>
+      <Archer2>
+        <X>-3</X>
+        <Y>12.1</Y>
+        <Z>0</Z>
+      </Archer2>
+      <Archer3>
+        <X>2</X>
+        <Y>8.1</Y>
+        <Z>0</Z>
+      </Archer3>
+    </TurretPoints>
+  </TurretHolder>
+  <Vision>
+    <Range>110</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/gerudo/gerudo_towerA.xml</Actor>
+    <FoundationActor>structures/gerudo/gerudo_scaffoldI.xml</FoundationActor>
+  </VisualActor>
+</Entity>

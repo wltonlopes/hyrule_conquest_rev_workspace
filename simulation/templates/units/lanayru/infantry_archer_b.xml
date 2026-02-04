@@ -3,6 +3,16 @@
   <Attack>
     <Ranged replace="">
       <AttackName>Poisoned Arrows</AttackName>
+      <ApplyStatus>
+        <Poisoned>
+          <Interval>3000</Interval>
+          <Damage>
+            <Poison>2</Poison>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+        </Poisoned>
+      </ApplyStatus>
       <Damage>
         <Pierce>6</Pierce>
         <Poison>10</Poison>
@@ -34,7 +44,7 @@
     <Classes datatype="tokens">CoralArcher Swimmer</Classes>
     <SpecificName>Coral Archer</SpecificName>
     <History>Armed with infamous coralmold tipped arrows, Lanayru’s Coral Archers are a cheap counter to heavily armored units. In most cases they can level the playing field by softening up heavy armor for Lanayru’s lighter forces to deal with.</History>
-    <Tooltip>Light Archer unit with poisonous arrows.</Tooltip>
+    <Tooltip>Light Archer unit with poisonous arrows. Poisons enemies on hit.</Tooltip>
     <Icon>units/lanayru/lan_coralarcher.dds</Icon>
     <VisibleClasses datatype="tokens">Volunteer</VisibleClasses>
   </Identity>

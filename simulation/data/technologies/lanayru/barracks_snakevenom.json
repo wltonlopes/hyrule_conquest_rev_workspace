@@ -1,7 +1,7 @@
 {
 	"genericName": "Shore Serpent Arrows",
 	"description": "While Coralmold is toxic enough, when the venom of a Shore Serpent is added to it, it becomes even more poisonous than before.",
-	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 500},
+	"cost": {"food": 200, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
 	"requirements": { "all": 
 				[
 					{ "entity": { "class": "Stable", "number": 1 } }

@@ -1,0 +1,24 @@
+{
+	"genericName": "Emerald Garrison",
+	"description": "A permanent garrison of Emerald Archers are stationed at all Kokiri Defensive structures.",
+	"cost": {"food": 500, "wood": 0, "stone": 0, "metal": 0, "rupees": 500},
+	"requirements": {"all": [
+					{"tech": "phase_city"}, {"civ": "kokiri"},
+					{ "entity": { "class": "Temple", "number": 1 } }
+				]
+			},
+	"requirementsTooltip": "Unlocked with City Phase.",
+	"icon": "kokiri/building_emeraldgar.dds",
+	"researchTime": 40,
+	"tooltip": "Fortresses, Civil Centers, and Defense Towers now have Emerald Archers inside.",
+	"modifications": [
+				{"value": "Attack/Ranged/AttackName", "replace": "Arrow"},
+				{"value": "Attack/Ranged/Damage/Crush", "replace": 0},
+				{"value": "Attack/Ranged/Damage/Pierce", "replace": 16},
+				{"value": "Attack/Ranged/Damage/Forest", "replace": 16},
+				{"value": "Attack/Ranged/PrepareTime", "replace": 1500},
+				{"value": "Attack/Ranged/RepeatTime", "replace": 2500}
+			 ],
+	"affects": ["Tower", "CivilCentre"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

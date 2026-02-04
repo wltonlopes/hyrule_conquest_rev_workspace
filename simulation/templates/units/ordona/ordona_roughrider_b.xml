@@ -4,8 +4,7 @@
     <Melee replace="">
       <AttackName>Axe</AttackName>
       <Damage>
-        <Hack>11.0</Hack>
-        <Pierce>3</Pierce>
+        <Hack>18.0</Hack>
       </Damage>
       <MaxRange>6.0</MaxRange>
       <PrepareTime>1100</PrepareTime>
@@ -14,6 +13,12 @@
   </Attack>
   <Health>
     <Max>400</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>10</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/ordona/ordona_ranger_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>ordona</Civ>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_doodad">
+  <Attack disable=""/>
+  <Builder disable=""/>
+  <Cost>
+    <BuildTime>6</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>5</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
+  <DeathDamage>
+    <Shape>Circular</Shape>
+    <Range>10</Range>
+    <FriendlyFire>true</FriendlyFire>
+    <Damage>
+      <Fire>50</Fire>
+    </Damage>
+  </DeathDamage>
+  <Decay>
+    <DelayTime>0.1</DelayTime>
+    <SinkRate>100.0</SinkRate>
+    <SinkAccel>100.0</SinkAccel>
+  </Decay>
+  <Footprint replace="">
+    <Height>2.0</Height>
+    <Circle radius="1.0"/>
+  </Footprint>
+  <Health>
+    <Max>5</Max>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Bomb Flower</SpecificName>
+    <GenericName>Flora</GenericName>
+    <History>These bizarre flower-like plants create an explosive fruiting body infamous across Hyrule as the source of bombs. While commonly harvested by the Gorons, they are volatile, and if improperly picked or accidentally struck can explode in the harvester's face.</History>
+    <Tooltip>Obstruction that explodes if damaged.</Tooltip>
+    <Icon>technologies/signal_fires.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>1.0</Crush>		
+	<Hack>1.0</Hack>
+	<Pierce>1.0</Pierce>
+	<Forest>1.0</Forest>
+	<Fire>1.0</Fire>
+	<Water>1.0</Water>
+	<Shadow>1.0</Shadow>
+	<Spirit>1.0</Spirit>
+	<Light>1.0</Light>
+	<True>0</True>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <ResourceGatherer disable=""/>
+  <Sound>
+    <SoundGroups>
+      <death>attack/weapon/bomb_explosion.xml</death>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <Actor>flora/hazard/bomb_flowerA.xml</Actor>
+  </VisualActor>
+</Entity>

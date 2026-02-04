@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Attack>
+    <Ranged replace="">
+      <AttackName>Arrows</AttackName>
+      <Damage>
+        <Pierce>8</Pierce>
+      </Damage>
+      <EffectDelay>0</EffectDelay>
+      <MaxRange>80</MaxRange>
+      <MinRange>15.0</MinRange>
+      <Origin>
+        <X>0</X>
+        <Y>15</Y>
+        <Z>0</Z>
+      </Origin>
+      <PreferredClasses datatype="tokens">Infantry</PreferredClasses>
+      <PrepareTime>1500</PrepareTime>
+      <Projectile>
+        <FriendlyFire>false</FriendlyFire>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+      </Projectile>
+      <RepeatTime>2500</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Health>
+    <Max>80</Max>
+  </Health>
+  <Identity>
+    <Civ>gerudo</Civ>
+    <SpecificName>Desert Archer</SpecificName>
+    <History>Not every archer in the Gerudo army is an expert shot. Many are on par with the archers of other lands, able to fire quickly and consistently. Of course, many aspire to become Sand Snipers, and eventually earn the honor of wielding the legendary Ice Arrows.</History>
+    <Tooltip>Medium Archer unit armed with a bow and arrows. Deals moderate Piercing damage.</Tooltip>
+    <Icon>units/gerudo/ger_glaivegrunt.dds</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/gerudo/gerudo_sandsniper_b</Entity>
+  </Promotion>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+      <death>voice/gerudo/gerudo_deathA.xml</death>
+      <order_attack>voice/gerudo/glaivegrunt/glaivegrunt_attack.xml</order_attack>
+      <order_garrison>voice/gerudo/glaivegrunt/glaivegrunt_garrison.xml</order_garrison>
+      <order_gather>voice/gerudo/glaivegrunt/glaivegrunt_gather.xml</order_gather>
+      <order_repair>voice/gerudo/glaivegrunt/glaivegrunt_repair.xml</order_repair>
+      <order_walk>voice/gerudo/glaivegrunt/glaivegrunt_walk.xml</order_walk>
+      <run>actor/human/movement/walk.xml</run>
+      <select>voice/gerudo/glaivegrunt/glaivegrunt_select.xml</select>
+      <trained>interface/alarm/alarm_create_infantry.xml</trained>
+      <walk>actor/human/movement/walk.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <RunMultiplier>1.5833</RunMultiplier>
+    <WalkSpeed>12.0</WalkSpeed>
+  </UnitMotion>
+  <Vision>
+    <Range>85</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/gerudo/gerudo_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

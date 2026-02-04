@@ -12,6 +12,14 @@
     <Height>3.0</Height>
     <Square depth="8.0" width="4.0" />
   </Footprint>
+  <Health>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>50</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/kokiri/kokiri_huntingfox</Template>
+    </SpawnMultipleEntitiesOnDeath>
+  </Health>
   <Identity>
     <Civ>kokiri</Civ>
     <SpecificName>Shopkeeper</SpecificName>
@@ -33,9 +41,6 @@
       <trained>interface/alarm/alarm_create_female.xml</trained>
     </SoundGroups>
   </Sound>
-  <Trader>
-    <GainMultiplier>0.75</GainMultiplier>
-  </Trader>
   <UnitAI>
     <CanGuard>false</CanGuard>
     <CanPatrol>false</CanPatrol>

@@ -1,0 +1,9 @@
+{
+	"Name": "Viper",
+	"Data": {
+		"Action": "createunits",
+		"DefaultParameter": 1,
+		"isNumeric": true,
+		"Templates": ["units/twz_viper_b"]
+	}
+}

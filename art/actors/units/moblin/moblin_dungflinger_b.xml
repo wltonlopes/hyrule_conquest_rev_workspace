@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<qualitylevels version="1">
+  <actor inline="" quality="low"/>
+  <actor inline="" quality="medium"/>
+  <actor inline=""/>
+  <inline version="1">
+    <group>
+      <variant frequency="1" minquality="high" name="mesh-variant">
+        <mesh>units/moblin/mob_dungflingerA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="high" minquality="medium" name="mesh-variant">
+        <mesh>units/moblin/medium/mob_dungflingerA.dae</mesh>
+      </variant>
+      <variant frequency="1" maxquality="medium" name="mesh-variant">
+        <mesh>units/moblin/low/mob_dungflingerA.dae</mesh>
+      </variant>
+    </group>
+    <castshadow minquality="medium"/>
+    <group>
+      <variant frequency="100" name="dungflinger">
+        <animations>
+          <animation file="HC_dungflinger/dungflinger_idle.dae" id="idle1" name="Idle" speed="100"/>
+          <animation file="HC_dungflinger/dungflinger_idle.dae" id="idle2" name="Idle" speed="100"/>
+          <animation file="HC_dungflinger/dungflinger_idle.dae" id="idle3" name="Idle" speed="100"/>
+          <animation file="HC_dungflinger/dungflinger_idle.dae" id="idle4" name="Idle" speed="100"/>
+          <animation event="0.5" file="HC_dungflinger/dungflinger_move.dae" id="walk1" name="Walk" speed="10"/>
+          <animation event="0.5" file="HC_dungflinger/dungflinger_move.dae" id="walk2" name="Walk" speed="10"/>
+          <animation event="0.5" file="HC_dungflinger/dungflinger_move.dae" id="run1" name="Run" speed="10"/>
+          <animation event="0.5" file="HC_dungflinger/dungflinger_move.dae" id="run2" name="Run" speed="9"/>
+          <animation event="0.5" file="HC_dungflinger/dungflinger_move.dae" id="run3" name="Run" speed="10"/>
+          <animation event="0.3" file="HC_dungflinger/dungflinger_attack.dae" id="attack_ranged1" load="0.10" name="attack_ranged" sound="0" speed="75"/>
+          <animation file="HC_dungflinger/dungflinger_death.dae" id="death1" name="death" speed="100"/>
+          <animation file="HC_dungflinger/dungflinger_death.dae" id="death2" name="death" speed="100"/>
+        </animations>
+        <props>
+          <prop actor="units/moblin/moblin_dodoblinA.xml" attachpoint="crew_01"/>
+          <prop actor="units/moblin/moblin_dodoblinA.xml" attachpoint="crew_02"/>
+          <prop actor="units/moblin/moblin_dodoblinA.xml" attachpoint="crew_03"/>
+          <prop actor="units/moblin/moblin_dodoblinA.xml" attachpoint="crew_04"/>
+          <prop actor="props/units/weapons/moblin_dungboltA.xml" attachpoint="projectile"/>
+          <prop actor="props/units/weapons/moblin_dungboltA.xml" attachpoint="loaded-projectile"/>
+        </props>
+        <textures>
+          <texture file="skeletal/moblin/mob_siegeB.dds" name="baseTex"/>
+        </textures>
+      </variant>
+    </group>
+  </inline>
+</qualitylevels>
+

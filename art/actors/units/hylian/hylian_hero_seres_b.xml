@@ -6,7 +6,6 @@
       <mesh>units/hylian/hyl_seresA.dae</mesh>
       <textures><texture file="skeletal/hylian/hyl_seresA.dds" name="baseTex"/></textures>
 	  <props>
-		<prop actor="props/hero_selectorA.xml" attachpoint="root"/>
 		<prop actor="props/units/capes/cape_hylian_seresA.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/hylian_rodA.xml" attachpoint="root"/>
 		<prop actor="props/units/outfits/hylian_seres_hatA.xml" attachpoint="bone_head"/>

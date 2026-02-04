@@ -20,15 +20,30 @@
       <RepeatTime>2300</RepeatTime>
     </Ranged>
   </Attack>
+  <Cost>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <food>100</food>
+      <wood>50</wood>
+      <stone>0</stone>
+      <metal>0</metal>
+    </Resources>
+  </Cost>
   <Health>
     <Max>400</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>25</Chance>
+      <SpawnNumberMax>2</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/lanayru/infantry_archer_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>lanayru</Civ>
     <Classes datatype="tokens">PrawnBowman</Classes>
     <SpecificName>Prawn Bowman</SpecificName>
     <History>The slow moving Praddle Prawns can be found in the shallow waters of the Great Sea, though they migrate across the land every year in large trails. The Zora of Lanayru capture and domesticate these slow creatures and use them as beasts of burden. While they are quite slow and not ideal for direct combat, their ability to climb rocky inclines and cliffs make them excellent platforms for archers.</History>
-    <Tooltip>Fast moving Ranged unit armed with a powerful but slow-firing crossbow.</Tooltip>
+    <Tooltip>Slow moving ranged unit that can climb mountains and cliffs.</Tooltip>
     <Icon>units/lanayru/lan_prawnbowman.dds</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town -unlock_champion_cavalry</Techs>

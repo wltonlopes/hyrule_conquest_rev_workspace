@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_field">
+  <Footprint>
+    <Height>5.0</Height>
+    <Square depth="30.0" width="30.0"/>
+  </Footprint>
+  <Health>
+    <Max>750</Max>
+  </Health>
+  <Identity>
+    <Civ>labrynna</Civ>
+    <SpecificName>Field</SpecificName>
+    <History>Cheap and easily grown vegetables became the mandate of the Empire upon the campaign of conquest. Tokay Slaves flood these fields to gather the ever increasing demands of the Labrynnian people.</History>
+    <Icon>structures/labrynna/lab_farmA.dds</Icon>
+    <Tooltip>Grows food that can be gathered by Worker units.</Tooltip>
+  </Identity>
+  <Minimap>
+    <Color b="102" g="204" r="155"/>
+    <Type>food</Type>
+  </Minimap>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies replace="" datatype="tokens">
+      labrynna/gather_incentive
+    </Technologies>
+  </Researcher>
+  <Upgrade>
+    <Farm>
+      <Cost>
+        <wood>50</wood>
+        <stone>50</stone>
+      </Cost>
+      <Entity>structures/labrynna/field_2</Entity>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
+      <Time>40</Time>
+      <Tooltip>Add a dropsite to this Field.</Tooltip>
+      <Variant>upgrading</Variant>
+    </Farm>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/misc/field_labrynnaA.xml</Actor>
+  </VisualActor>
+</Entity>

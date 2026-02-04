@@ -45,6 +45,7 @@
   </Health>
   <Identity>
     <Civ>stalfos</Civ>
+    <Classes datatype="tokens">-Organic</Classes>
     <SpecificName>Death Sword</SpecificName>
     <GenericName>The Executioner</GenericName>
     <History>His name has been lost to all record. His origin is obscure at best: rumored to be one of the previous Gerudo Kings before the time of their Great Curse. All that remains of this infamous beast is the story of his sealing deep within the Arbiter Grounds: a story that itself has many versions and mysteries. The Death Sword was charged with the crimes of unearthing and re-instituting Necromancy after it had been abolished and destroyed from Hyrule. He is considered the father of all current Stalfos that haunt and torment the living of Hyrule.</History>

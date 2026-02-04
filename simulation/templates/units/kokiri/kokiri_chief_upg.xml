@@ -13,7 +13,7 @@
         </BonusCavMelee>
       </Bonuses>
       <Damage>
-        <Hack>230.0</Hack>
+        <Hack>35.0</Hack>
         <Pierce>10</Pierce>
       </Damage>
       <MaxRange>5.0</MaxRange>
@@ -31,10 +31,17 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>160</Max>
+    <Max>280</Max>
+    <SpawnMultipleEntitiesOnDeath>
+      <Chance>10</Chance>
+      <SpawnNumberMax>1</SpawnNumberMax>
+      <SpawnNumberMin>1</SpawnNumberMin>
+      <Template>units/kokiri/kokiri_chief_b</Template>
+    </SpawnMultipleEntitiesOnDeath>
   </Health>
   <Identity>
     <Civ>kokiri</Civ>
+    <Classes datatype="tokens">WoodArmor Deer</Classes>
     <SpecificName>Kokiri Chieftan</SpecificName>
     <History>Chiefs are the leaders of Kokiri villages and armies, bossing around other Kokiri and sending out orders from the Great Deku Tree. Chiefs carry around an axe and shield into battle and are capable of getting the troops under their command to run into a fight much faster.</History>
     <Tooltip>Mounted Kokiri Commander unit armed with an axe, improves the speed of Kokiri infantry within its aura.</Tooltip>

@@ -9,6 +9,7 @@
       <AttackName>Arrow</AttackName>
       <Damage>
         <Pierce>30</Pierce>
+        <Forest>30</Forest>
       </Damage>
       <EffectDelay>0</EffectDelay>
       <MaxRange>100</MaxRange>

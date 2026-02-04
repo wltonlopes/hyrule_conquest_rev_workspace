@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Circle">
+      <mesh>structural/minor_wizzrobe/wiz_circleA.dae</mesh>
+      <textures>
+        <texture file="structural/minor_wizzrobe/wiz_ruinsA.dds" name="baseTex"/>
+		<texture file="structural/minor_wizzrobe/wiz_ruinsA_normal.dds" name="normTex"/>
+        <texture file="structural/minor_wizzrobe/wiz_ruinsA.dds" name="specTex"/>
+		<texture file="structural/minor_wizzrobe/wiz_houseA_ao.dds" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+        
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

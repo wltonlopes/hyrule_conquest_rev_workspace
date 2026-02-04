@@ -1,0 +1,18 @@
+{
+	"genericName": "Steel Alloy",
+	"description": "Hylian blacksmiths use standard iron for their weapons, but provided with the materials, can forge weapons out of a steel alloy.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 400},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "hylian"}]},
+	"requirementsTooltip": "Unlocked with Town Phase.",
+	"icon": "hylian/attack_steel_alloy.dds",
+	"researchTime": 40,
+	"tooltip": "+15% melee damage to all units.",
+	"modifications": [
+				{"value": "Attack/Melee/Damage/Crush", "multiply": 1.15},
+				{"value": "Attack/Melee/Damage/Hack", "multiply": 1.15},
+				{"value": "Attack/Melee/Damage/Pierce", "multiply": 1.15},
+				{"value": "Attack/Melee/Damage/True", "multiply": 1.15}
+			 ],
+	"affects": ["Melee"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

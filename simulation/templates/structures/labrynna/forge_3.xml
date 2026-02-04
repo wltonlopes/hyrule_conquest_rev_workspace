@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/labrynna/forge_2">
+  <Identity>
+    <SpecificName>University</SpecificName>
+    <History>Although Universities are open to all citizens of the Empire, only the best and brightest can continue education at these facilities. Some of the Empire's greatest scientific breakthroughs originated at these halls of learning and study.</History>
+    <Icon>structures/labrynna/lab_libraryC.dds</Icon>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      labrynna/attack_perfectedweap
+      labrynna/armor_modernmethod
+      labrynna/school_mathtech
+      labrynna/uni_printingpress
+    </Technologies>
+  </Researcher>
+  <Upgrade disable=""/>
+  <VisualActor>
+    <Actor>structures/labrynna/labrynna_libraryC.xml</Actor>
+    <FoundationActor>structures/labrynna/labrynna_scaffoldD.xml</FoundationActor>
+  </VisualActor>
+</Entity>

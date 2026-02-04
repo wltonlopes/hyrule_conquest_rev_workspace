@@ -62,7 +62,7 @@
       structures/zola/market
       structures/zola/zola_hero_zaro
       structures/zola/zola_hero_oren
-      structures/zola/zola_titan_aquamentus
+      units/zola/zola_titan_aquamentus
     </Entities>
   </Trainer>
   <TurretHolder>
