@@ -10,6 +10,7 @@
       <textures>
 		<texture file="structural/moblin/moblin_buildingB.dds" name="baseTex"/>
 		<texture file="structural/moblin/moblin_buildingB_normal.dds" name="normTex"/>
+    <texture file="null_black.dds" name="specTex"/>
 		<texture file="structural/moblin/moblin_shipyard_ao.dds" name="aoTex"/>
 	  </textures>
     </variant>
